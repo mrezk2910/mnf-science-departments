@@ -1,0 +1,267 @@
+[
+    {
+        "title": "< Recent additions - الاضافات الحديثة  >",
+        "content": "https://drive.google.com/drive/folders/1HI6ahRkW5i1ynGHe7JNX7TqXhjoNkdLv?usp=sharing",
+        "showAd": true
+    },
+    {
+        "title": "تحليل رياضي 1",
+        "content": "https://sciencemenofiaedu-my.sharepoint.com/:f:/g/personal/mohamedrizk33943_science_menofia_edu_eg/EmdkMAh-82FNldMDBR-lXOIBhVnOu0xu0trBQRekIguBvw?e=yCPMn6",
+        "showAd": true
+    },
+    {
+        "title": "هندسة تحليلية 1",
+        "content": "https://sciencemenofiaedu-my.sharepoint.com/:f:/g/personal/mohamedrizk33943_science_menofia_edu_eg/Eomg0ZTkKu1GnBmcXskuySUB4dYWE-fcz4V-jSkCFwupKw?e=nCLHjr",
+        "showAd": true
+    },
+    {
+        "title": "هندسة تحليلية 2",
+        "content": "https://sciencemenofiaedu-my.sharepoint.com/:f:/g/personal/mohamedrizk33943_science_menofia_edu_eg/Eqhh8i3uSVVMjU6LtquQK3gBCRFvPqy2XvHHTkwMGjV0vA?e=ruTjnr",
+        "showAd": true
+    },
+    {
+        "title": "جبر",
+        "content": "https://sciencemenofiaedu-my.sharepoint.com/:f:/g/personal/mohamed_algrawany1701153_science_menofia_edu_eg/Ep5Jw76IFexIsUCy3P5wPJIBpIVFRYkggw9couGn3qomJQ?e=J9UPSN",
+        "showAd": true
+    },
+    {
+        "title": "احصاء تطبيقي",
+        "content": "https://sciencemenofiaedu-my.sharepoint.com/:f:/g/personal/mohamedrizk33943_science_menofia_edu_eg/EptoqUmLi3BGmFS6xyjkthEBj04LCIwxOTXHHSwzqEVqeg?e=ccJQIi",
+        "showAd": true
+    },
+    {
+        "title": "تحليل رياضي 2",
+        "content": "https://sciencemenofiaedu-my.sharepoint.com/:f:/g/personal/mohamedrizk33943_science_menofia_edu_eg/EoyD-Xppt4ZIpw7d3YIO0OEBllXdsvDPPhdahdWcCFtoKg?e=UrFBGN",
+        "showAd": true
+    },
+    {
+        "title": "جبر مجرد 1",
+        "content": "https://sciencemenofiaedu-my.sharepoint.com/:f:/g/personal/mohamedrizk33943_science_menofia_edu_eg/EjgHDBrZKMBIlrMgaPL4924BJiONsVWy5q4WRDRMDOJMAA?e=8bhDob",
+        "showAd": true
+    },
+    {
+        "title": "جبر خطي",
+        "content": "https://sciencemenofiaedu-my.sharepoint.com/:f:/g/personal/mohamedrizk33943_science_menofia_edu_eg/Ehf8L06Y9SpDvk_GY9kIV-0BduUCSSaJ_M60yTjSTVzIfQ?e=i0jZqJ",
+        "showAd": true
+    },
+    {
+        "title": "تحليل عددي 1",
+        "content": "https://sciencemenofiaedu-my.sharepoint.com/:f:/g/personal/mohamedrizk33943_science_menofia_edu_eg/Eq3lYaFfWB5Npb_wZHDpaUgBqFv-Ukwe6GdKB3uZzJM9XQ?e=gzUqmu",
+        "showAd": true
+    },
+    {
+        "title": "مقدمة في البرمجة",
+        "content": "https://sciencemenofiaedu-my.sharepoint.com/:f:/g/personal/mohamedrizk33943_science_menofia_edu_eg/EspqpVPgnitIhhRkL7EoXE4Bg2--tlnRynISYd9AKRz2SQ?e=2McPof",
+        "showAd": true
+    },
+    {
+        "title": "ديناميكا 1",
+        "content": "https://sciencemenofiaedu-my.sharepoint.com/:f:/g/personal/mohamedrizk33943_science_menofia_edu_eg/Er6MrcknlBRJnwfD0-d5T_MBVE9hCmduYTRs4nP9NMWpmg?e=DDZ1tj",
+        "showAd": true
+    },
+    {
+        "title": "نظرية الكهرومغناطيسية 1",
+        "content": "https://sciencemenofiaedu-my.sharepoint.com/:f:/g/personal/mohamedrizk33943_science_menofia_edu_eg/EjOoJrZ0RqFKn8_7Qj0OysYBjLKCZJr2wsy52Vb-3_ZVxQ?e=Fo9nLA",
+        "showAd": true
+    },
+    {
+        "title": "نظرية حركة الموائع",
+        "content": "https://sciencemenofiaedu-my.sharepoint.com/:f:/g/personal/mohamedrizk33943_science_menofia_edu_eg/ErhauGuVBmBItjKoR4cUMhkBnnMRuCAWRtmhFxEYCKGo5g?e=laML6a",
+        "showAd": true
+    },
+    {
+        "title": "تحليل رياضي 3",
+        "content": "https://sciencemenofiaedu-my.sharepoint.com/:f:/g/personal/mohamedrizk33943_science_menofia_edu_eg/EnHdcLxzlGtIqGw_7mf2pPEB5ebyrqlhrLdszzRTQGdu0Q?e=kh0fdu",
+        "showAd": true
+    },
+    {
+        "title": "معادلات تفاضلية عادية",
+        "content": "https://sciencemenofiaedu-my.sharepoint.com/:f:/g/personal/mohamedrizk33943_science_menofia_edu_eg/EmCGEXlHcrhEvGCdnZ3rRmMB0126kmo199VWd5DmcI6zqA",
+        "showAd": true
+    },
+    {
+        "title": "تحليل رياضي 4",
+        "content": "https://sciencemenofiaedu-my.sharepoint.com/:f:/g/personal/mohamedrizk33943_science_menofia_edu_eg/EnDRgXUOhy1Dkp7w_i5CtywBrYG8VqcjLhNrnAccKcnLYA?e=53L8xT",
+        "showAd": true
+    },
+    {
+        "title": "جبر مجرد 2",
+        "content": "https://sciencemenofiaedu-my.sharepoint.com/:f:/g/personal/mohamedrizk33943_science_menofia_edu_eg/EiFA_IV8B8xGj7YdNoYWBVkBjkiqQbN696bfluA8EfsyBQ?e=4pmZDG",
+        "showAd": true
+    },
+    {
+        "title": "مقدمة في الهندسة التفاضلية",
+        "content": "https://sciencemenofiaedu-my.sharepoint.com/:f:/g/personal/mohamedrizk33943_science_menofia_edu_eg/EtJaa1t4bbpDgtrTyNW_SLoBWLHtn0QWKTLMKPYVPHJWlA?e=WOB09V",
+        "showAd": true
+    },
+    {
+        "title": "معادلات تفاضلية جزئية",
+        "content": "https://sciencemenofiaedu-my.sharepoint.com/:f:/g/personal/mohamedrizk33943_science_menofia_edu_eg/EqCbcfM7VvdKjg0h7gdzi2QB5NBJyhtctejoyGpuOIVIvw?e=BVVlrL",
+        "showAd": true
+    },
+    {
+        "title": "تحليل عددي 2",
+        "content": "https://sciencemenofiaedu-my.sharepoint.com/:f:/g/personal/mohamedrizk33943_science_menofia_edu_eg/EmjmUhk90FpAhughDg5FprcB16LSm5UqIu35LNrEy6Ejpw?e=uvKhI1",
+        "showAd": true
+    },
+    {
+        "title": "مبادئ احصاء واحتمالات 1",
+        "content": "https://sciencemenofiaedu-my.sharepoint.com/:f:/g/personal/mohamedrizk33943_science_menofia_edu_eg/EleT5m9O_7pMtmXX2R-nmH8BA6yiSrw_iZLckwPWKLsEJA?e=w4Ws4D",
+        "showAd": true
+    },
+    {
+        "title": "تحليل حقيقى",
+        "content": "https://sciencemenofiaedu-my.sharepoint.com/:f:/g/personal/mohamedrizk33943_science_menofia_edu_eg/EuPCOjbXlclFquOA4lcaC6oBm02CPC7eJPyk0UZnlFakoA?e=gJabFd",
+        "showAd": true
+    },
+    {
+        "title": "ديناميكا 2",
+        "content": "https://sciencemenofiaedu-my.sharepoint.com/:f:/g/personal/mohamedrizk33943_science_menofia_edu_eg/EvB1cz_hEmlLvACkzx2t_rUB5clqE7wbp95R0_ERtktb9g?e=h2E4cK",
+        "showAd": true
+    },
+    {
+        "title": "النظرية النسبية1",
+        "content": "https://sciencemenofiaedu-my.sharepoint.com/:f:/g/personal/mohamedrizk33943_science_menofia_edu_eg/En9qBok4IRRMhs80tTOFjv0BH9QkrlW22pMNTsNHf5g7LQ?e=BCMc2A",
+        "showAd": true
+    },
+    {
+        "title": "ميكانيكا تحليلة 1",
+        "content": "https://sciencemenofiaedu-my.sharepoint.com/:f:/g/personal/mohamedrizk33943_science_menofia_edu_eg/EqLf9HIKEmBHmhai42grAYoBXbqDKeDP-es6WTgPkzYYBw?e=ujh9ba",
+        "showAd": true
+    },
+    {
+        "title": "نظرية الكم 1",
+        "content": "https://sciencemenofiaedu-my.sharepoint.com/:f:/g/personal/mohamedrizk33943_science_menofia_edu_eg/EiyeAJMiz71MpZFlPE34EEEBxMYPl5zzoiss1n74GN0wIA?e=F5ybpj",
+        "showAd": true
+    },
+    {
+        "title": "تحليل دالى 1",
+        "content": "https://sciencemenofiaedu-my.sharepoint.com/:f:/g/personal/mohamedrizk33943_science_menofia_edu_eg/EqtTA-gZothMi8TC4oeh2q8Bx8w6pZip7FPvHx06x07Y7g?e=wpAVnX",
+        "showAd": true
+    },
+    {
+        "title": "برمجة خطية",
+        "content": "https://sciencemenofiaedu-my.sharepoint.com/:f:/g/personal/mohamedrizk33943_science_menofia_edu_eg/EkVuucgCzQRGsJPWy1D8KO0BcPyd09TJMQAVnUSjMt4jPQ?e=6Fc8gj",
+        "showAd": true
+    },
+    {
+        "title": "معادلات تفاضلية متقدمة",
+        "content": "https://sciencemenofiaedu-my.sharepoint.com/:f:/g/personal/mohamedrizk33943_science_menofia_edu_eg/Er-rACQh5o9AvJbgPOf0miIB8nQ2qWaLulVRciOo2HVkug?e=1GGfQT",
+        "showAd": true
+    },
+    {
+        "title": "خواص مادة",
+        "content": "https://sciencemenofiaedu-my.sharepoint.com/:f:/g/personal/mohamedrizk33943_science_menofia_edu_eg/Erw6RIY9k3VGousuyJPPLvgBZIi0ksEyq7q3OTn4jxRyjA?e=lCIYkw",
+        "showAd": true
+    },
+    {
+        "title": "اسس كيمياء فيزيائية",
+        "content": "https://sciencemenofiaedu-my.sharepoint.com/:f:/g/personal/mohamedrizk33943_science_menofia_edu_eg/EqoDcXtpAVBNtb2gaymgdPUBAIsFK5LJ9DZBYPa-4prWWQ?e=eVyzou",
+        "showAd": true
+    },
+    {
+        "title": "جيولوجيا طبيعية",
+        "content": "https://sciencemenofiaedu-my.sharepoint.com/:f:/g/personal/mohamedrizk33943_science_menofia_edu_eg/EqtcXr4GgPFGsHYvUii-3t0BXfpf2NFQkDZScGpNbizjXA?e=gcqS6x",
+        "showAd": true
+    },
+    {
+        "title": "علم البلورات",
+        "content": "https://sciencemenofiaedu-my.sharepoint.com/:f:/g/personal/mohamedrizk33943_science_menofia_edu_eg/EoRGCyIFKoFHj64_PZIdzwQB7iBEBlfejLmv51cMvL0ZOQ?e=zIg1X8",
+        "showAd": true
+    },
+    {
+        "title": "ديناميكا حرارية-مش متاكد من المحتوي اوي كلها لبتوع فيزياء ولا لا - فيزياء",
+        "content": "https://sciencemenofiaedu-my.sharepoint.com/:f:/g/personal/mohamedrizk33943_science_menofia_edu_eg/EmjaSoP3e-pEtttKunGFZFQBgvW8NZYsvjyyT7DA7LRSVQ?e=Jb66Bq",
+        "showAd": true
+    },
+    {
+        "title": "كهرومغناطيسية",
+        "content": "https://sciencemenofiaedu-my.sharepoint.com/:f:/g/personal/mohamedrizk33943_science_menofia_edu_eg/EkDFX1qqZ4FAsfTZ7Z9vK6kBNVu5LfGtf0-Xpgy50yJubg?e=1UtYci",
+        "showAd": true
+    },
+    {
+        "title": "موجات و صوتيات",
+        "content": "https://sciencemenofiaedu-my.sharepoint.com/:f:/g/personal/mohamedrizk33943_science_menofia_edu_eg/Ep8EAjQy_gFFr_Qt8LJds_ABbTXFvZ64KSh0Wkhf00ScMA?e=aWa5KZ",
+        "showAd": true
+    },
+    {
+        "title": "فيزياء تطبيقية ١",
+        "content": "https://sciencemenofiaedu-my.sharepoint.com/:f:/g/personal/mohamedrizk33943_science_menofia_edu_eg/EglK450fJx9Do_z3tk-5ZUgBGGn-ck7t-OGd5K5bgM5qQQ?e=HmbrnD",
+        "showAd": true
+    },
+    {
+        "title": "اسس كيمياء عضويه",
+        "content": "https://sciencemenofiaedu-my.sharepoint.com/:f:/g/personal/mohamedrizk33943_science_menofia_edu_eg/Equ8MOpwNVxCtO9T7nu_FLUBIM9BBdXP0lL2mnZ3dGhVAw",
+        "showAd": true
+    },
+    {
+        "title": "اسس كيمياء غير عضويه",
+        "content": "https://sciencemenofiaedu-my.sharepoint.com/:f:/g/personal/mohamedrizk33943_science_menofia_edu_eg/EhKeILav0EVPhB_CnozupqABo_WXk9m5UsIKI8V0bZjViw",
+        "showAd": true
+    },
+    {
+        "title": "جودة",
+        "content": "https://sciencemenofiaedu-my.sharepoint.com/:f:/g/personal/mohamedrizk33943_science_menofia_edu_eg/EkV2-RcytQdAmydxZYD-J2oBWw8U4A6KnP3P_HLdMAu8Qg?e=scfSyw",
+        "showAd": true
+    },
+    {
+        "title": "قضايا اجتماعية",
+        "content": "https://sciencemenofiaedu-my.sharepoint.com/:f:/g/personal/mohamedrizk33943_science_menofia_edu_eg/EqOA-Y9q2iNJviPNKRW0d58BzleTTkWKezSxrrIugfOv0w?e=SpWP53",
+        "showAd": true
+    },
+    {
+        "title": "حقوق انسان",
+        "content": "https://sciencemenofiaedu-my.sharepoint.com/:f:/g/personal/mohamedrizk33943_science_menofia_edu_eg/EkrtRzlD3LlFoM4BqefPIZsBRz4Oemq0km0_6wxVWubctw?e=ZmSOOZ",
+        "showAd": true
+    },
+    {
+        "title": "دراسات بيئية",
+        "content": "https://sciencemenofiaedu-my.sharepoint.com/:f:/g/personal/mohamedrizk33943_science_menofia_edu_eg/EuTmEsCsrslAjQKvm--uzIMBwq_TLdQ828OavK915vh6pQ?e=zfH6uy",
+        "showAd": true
+    },
+    {
+        "title": "دراسات اسلامية",
+        "content": "https://sciencemenofiaedu-my.sharepoint.com/:f:/g/personal/mohamedrizk33943_science_menofia_edu_eg/EgOXoXMxj49KlIpBLDCnEPoBig_ehNrnim1LbeS27MGVWw?e=qUPmHe",
+        "showAd": true
+    },
+    {
+        "title": "احصاء",
+        "content": "https://sciencemenofiaedu-my.sharepoint.com/:f:/g/personal/mohamedrizk33943_science_menofia_edu_eg/EjjmNNN0fSZIp9avA204h6EBgdWQE6ai2auX_Ec2jlE6cw?e=IsBMCC",
+        "showAd": true
+    },
+    {
+        "title": "مصريات و آثار",
+        "content": "https://sciencemenofiaedu-my.sharepoint.com/:f:/g/personal/mohamedrizk33943_science_menofia_edu_eg/EuFspQwRN-tBqI7TizXJT-IBmKaKd1Dxdazq3-UwWmBSiw?e=37wssj",
+        "showAd": true
+    },
+    {
+        "title": "حاسب الى 2",
+        "content": "https://sciencemenofiaedu-my.sharepoint.com/:f:/g/personal/mohamedrizk33943_science_menofia_edu_eg/Ei7oHdDTbRJDqzvVHw0MAWABhzDy3Gi9182NIkVEPomJgg?e=gI7g8F",
+        "showAd": true
+    },
+    {
+        "title": "لغة اجنبية 1",
+        "content": "https://sciencemenofiaedu-my.sharepoint.com/:f:/g/personal/mohamedrizk33943_science_menofia_edu_eg/ElwdJgNYcAJEobw7uZrUEu4B37swrxOU4ZvMEkwYghujjg?e=Ccuk1R",
+        "showAd": true
+    },
+    {
+        "title": "لغة اجنبية2",
+        "content": "https://sciencemenofiaedu-my.sharepoint.com/:f:/g/personal/mohamedrizk33943_science_menofia_edu_eg/EnRwpRIq_gZDrleGoEDP5ewBqxkipBWP--agTgX5eW9nbQ?e=VD89dH",
+        "showAd": true
+    },
+    {
+        "title": "حاسب الي ١",
+        "content": "https://sciencemenofiaedu-my.sharepoint.com/:f:/g/personal/mohamedrizk33943_science_menofia_edu_eg/EgYyupCkThNHr8XsuGSk1jcBfCvNuKoOB16-9Zr83EH0Xw?e=7QDGTl",
+        "showAd": true
+    },
+    {
+        "title": "تصوير ضوئي",
+        "content": "https://sciencemenofiaedu-my.sharepoint.com/:f:/g/personal/mohamedrizk33943_science_menofia_edu_eg/EpOCCerY13NDo4m7343GJK0BOFzc0cKIGXaKrvXIIbyCGQ?e=TPtpza",
+        "showAd": true
+    },
+    {
+        "title": "تاريخ علم",
+        "content": "https://sciencemenofiaedu-my.sharepoint.com/:f:/g/personal/mohamedrizk33943_science_menofia_edu_eg/EquHrTVpYqNLptv9VkptlJgBA8u2ILv_I3fZoJD6CWM91Q?e=z2qSLz",
+        "showAd": true
+    }
+]

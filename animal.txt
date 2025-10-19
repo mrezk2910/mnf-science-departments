@@ -1,0 +1,382 @@
+[
+    {
+        "title": "< Recent additions - الاضافات الحديثة  >",
+        "content": "https://drive.google.com/drive/folders/1HI6ahRkW5i1ynGHe7JNX7TqXhjoNkdLv?usp=sharing",
+        "showAd": true
+    },
+    {
+        "title": "فسيولوجيا 1",
+        "content": "https://sciencemenofiaedu-my.sharepoint.com/:f:/g/personal/mohamedrizk33943_science_menofia_edu_eg/EikBd078-uFFnNindn9Xhe8BhoJQVi7wUOJwsQRLW2oNoA?e=BfbCoh",
+        "showAd": true
+    },
+    {
+        "title": "فسيولوجيا 2",
+        "content": "https://sciencemenofiaedu-my.sharepoint.com/:f:/g/personal/mohamedrizk33943_science_menofia_edu_eg/Ep8ztfAsPXBIpUzBkJzNtI0BXDmcUOUNbBNrRMop6pjqgQ?e=dufcZv",
+        "showAd": true
+    },
+    {
+        "title": "اساسيات علم خلية",
+        "content": "https://sciencemenofiaedu-my.sharepoint.com/:f:/g/personal/mohamedrizk33943_science_menofia_edu_eg/EvF-BBmLBXFMrIZrQlwC6p0BZod_UuxT4ureji5coFbfTQ?e=vil504",
+        "showAd": true
+    },
+    {
+        "title": "اساسيات علم الانسجة",
+        "content": "https://sciencemenofiaedu-my.sharepoint.com/:f:/g/personal/mohamedrizk33943_science_menofia_edu_eg/EvrI1dXft2xMo8-ESs8XOqkB1kCNjuC80Q8t7EiCLzGiEQ?e=zQEJu9",
+        "showAd": true
+    },
+    {
+        "title": "لافقاريات1",
+        "content": "https://sciencemenofiaedu-my.sharepoint.com/:f:/g/personal/mohamedrizk33943_science_menofia_edu_eg/EjMV7HHdnmlHlEkj-OaOb3kBnYPH6kC3rkfEdQS9c60UYw?e=axaeSa",
+        "showAd": true
+    },
+    {
+        "title": "لافقاريات 2",
+        "content": "https://sciencemenofiaedu-my.sharepoint.com/:f:/g/personal/mohamedrizk33943_science_menofia_edu_eg/Eu7F-qwF8HVFi4yWo6HozX4Bi6xRocCbhsO5tlwsowSl-g?e=i9Qylw",
+        "showAd": true
+    },
+    {
+        "title": "حبليات 1",
+        "content": "https://sciencemenofiaedu-my.sharepoint.com/:f:/g/personal/mohamedrizk33943_science_menofia_edu_eg/EkhKQMOnc-FJjqC4GoIAYiQBf8i7IMl6r9KopzdWoTCckg?e=zBWkb9",
+        "showAd": true
+    },
+    {
+        "title": "حشرات عامة",
+        "content": "https://sciencemenofiaedu-my.sharepoint.com/:f:/g/personal/mohamedrizk33943_science_menofia_edu_eg/EhYoi9Lj8RRLmk9k9qLyWRwB5aegW0pOGwBl2NGZEphauQ?e=V6VgFH",
+        "showAd": true
+    },
+    {
+        "title": "كيمياء حيوي و انزيمات 1",
+        "content": "https://sciencemenofiaedu-my.sharepoint.com/:f:/g/personal/mohamedrizk33943_science_menofia_edu_eg/EkZ3K5LaJRlPiWaxke46r_ABMEe_Y-KrXSfjrNqxs9AUgA?e=RBQq6a",
+        "showAd": true
+    },
+    {
+        "title": "بيولوجيا خلية",
+        "content": "https://sciencemenofiaedu-my.sharepoint.com/:f:/g/personal/mohamedrizk33943_science_menofia_edu_eg/ErDT9l_6c6dHlYKShYh-ygQBr0_1R9cZA2C8rJO8mjS5LA?e=sd3veV",
+        "showAd": true
+    },
+    {
+        "title": "تقنيات و انسجة مجهرية",
+        "content": "https://sciencemenofiaedu-my.sharepoint.com/:f:/g/personal/mohamedrizk33943_science_menofia_edu_eg/EiJg1Q9WH3pIkVPxL7rT2FgB8hQYJ-ANAJSIV02o36vFLg?e=S3WLXy",
+        "showAd": true
+    },
+    {
+        "title": "اوليات",
+        "content": "https://sciencemenofiaedu-my.sharepoint.com/:f:/g/personal/mohamedrizk33943_science_menofia_edu_eg/EtnB9cwjxXNEnpSWEIfOAw0BXYZln6U73qHagPGoFG8hoQ?e=wZj9Ca",
+        "showAd": true
+    },
+    {
+        "title": "حبليات 2",
+        "content": "https://sciencemenofiaedu-my.sharepoint.com/:f:/g/personal/mohamedrizk33943_science_menofia_edu_eg/Eubwv9djO0RHsyhcT9X7voMBrSiR3g3WX0CBB3x_o5Olsw?e=MZFkZd",
+        "showAd": true
+    },
+    {
+        "title": "اجنة",
+        "content": "https://sciencemenofiaedu-my.sharepoint.com/:f:/g/personal/mohamedrizk33943_science_menofia_edu_eg/En6yfm4WEyRNvfsXz7IczJYBH_XWRrcriYnSc-BK8UfR_w?e=eKuIS3",
+        "showAd": true
+    },
+    {
+        "title": "بيولوجيا جزيئية",
+        "content": "https://sciencemenofiaedu-my.sharepoint.com/:f:/g/personal/mohamedrizk33943_science_menofia_edu_eg/ElD-geHX6mlPnzQ_mk2Lx0kBc4gCDG8Ms7CASwDZo8U6Og?e=jhWidD",
+        "showAd": true
+    },
+    {
+        "title": "وراثة خلوية",
+        "content": "https://sciencemenofiaedu-my.sharepoint.com/:f:/g/personal/mohamedrizk33943_science_menofia_edu_eg/EmGfRaPyc69GiDNtUmRPNnoBFmRYYzzApsYObEurPI7mPw?e=SALa3g",
+        "showAd": true
+    },
+    {
+        "title": "بيئة و توزيع جغرافي",
+        "content": "https://sciencemenofiaedu-my.sharepoint.com/:f:/g/personal/mohamedrizk33943_science_menofia_edu_eg/Enfkk7SsC7ZFrnQudZn3APYBLc1j1eWh1qbsEN76HcUYiQ?e=zoa2En",
+        "showAd": true
+    },
+    {
+        "title": "بيئة مياة عذبة",
+        "content": "https://sciencemenofiaedu-my.sharepoint.com/:f:/g/personal/mohamedrizk33943_science_menofia_edu_eg/EiT7SKxMitFKvyonJICVE1IB8w6ohqdEFuY-Hf1Lh2J8Dw?e=R2Kova",
+        "showAd": true
+    },
+    {
+        "title": "سلوك حيوان",
+        "content": "https://sciencemenofiaedu-my.sharepoint.com/:f:/g/personal/mohamedrizk33943_science_menofia_edu_eg/EooAyhJ9czxNo3wnOGeF-AABGwJQ8awoNNIDqx9y-Tjqdw?e=ddgUPQ",
+        "showAd": true
+    },
+    {
+        "title": "كيمياء الخلية واالنسجة",
+        "content": "https://sciencemenofiaedu-my.sharepoint.com/:f:/g/personal/mohamedrizk33943_science_menofia_edu_eg/EjcytIFzdlNIkwc8-U1_d9MBav4I71V7J5b5nA66nvgxwA?e=hOGLSL",
+        "showAd": true
+    },
+    {
+        "title": "طفيليات عامة",
+        "content": "https://sciencemenofiaedu-my.sharepoint.com/:f:/g/personal/mohamedrizk33943_science_menofia_edu_eg/EhV0gvsGqV9DgLofpgQtBIoBXsuEa3gC1IgI3I5uz-GhAQ?e=daR4ho",
+        "showAd": true
+    },
+    {
+        "title": "تشريح مقارن",
+        "content": "https://sciencemenofiaedu-my.sharepoint.com/:f:/g/personal/mohamedrizk33943_science_menofia_edu_eg/EirW0OFylnJFlVzmvhvvxiEB5viMH0Vz8AtR1deRODD0hQ?e=xEKny5",
+        "showAd": true
+    },
+    {
+        "title": "أجنة تجريبى",
+        "content": "https://sciencemenofiaedu-my.sharepoint.com/:f:/g/personal/mohamedrizk33943_science_menofia_edu_eg/EoGj-w_hb9VKofoGQfyHQnEBpcR_vk47UN_L19sTO_Dtlw?e=xib54h",
+        "showAd": true
+    },
+    {
+        "title": "تصنيف حشرات",
+        "content": "https://sciencemenofiaedu-my.sharepoint.com/:f:/g/personal/mohamedrizk33943_science_menofia_edu_eg/EskoATW1AhdOisiB680fxYkBnEyXBj-CiyreVr0QrsHosg?e=xJO8my",
+        "showAd": true
+    },
+    {
+        "title": "تكنيك الميكروسكوب الالكتروني",
+        "content": "https://sciencemenofiaedu-my.sharepoint.com/:f:/g/personal/mohamedrizk33943_science_menofia_edu_eg/EhsyPntftKNBjqCEpG4WrcoBCl4QzIaUYGadE60z5IE18g?e=dfHXLF",
+        "showAd": true
+    },
+    {
+        "title": "بيئة بحرية",
+        "content": "https://sciencemenofiaedu-my.sharepoint.com/:f:/g/personal/mohamedrizk33943_science_menofia_edu_eg/EnVQjqLjV2BNlD0S2LbyEvQB2XDJf73-dLcUTDeOuKvc6w?e=1EzPIw",
+        "showAd": true
+    },
+    {
+        "title": "علم الغدد الصماء",
+        "content": "https://sciencemenofiaedu-my.sharepoint.com/:f:/g/personal/mohamedrizk33943_science_menofia_edu_eg/EgaU8zi_PYVIjGLCaLU8ZIABsSBS55v4bZ4EnOT8AGLVDw?e=9rxBCh",
+        "showAd": true
+    },
+    {
+        "title": "علم المناعة",
+        "content": "https://sciencemenofiaedu-my.sharepoint.com/:f:/g/personal/mohamedrizk33943_science_menofia_edu_eg/EjEM4dwBBOBHpARu9ZTsivMBSPx5PnN_2DLVwb9mK1V9jg?e=LAREY8",
+        "showAd": true
+    },
+    {
+        "title": "انسجة باثولوجية",
+        "content": "https://sciencemenofiaedu-my.sharepoint.com/:f:/g/personal/mohamedrizk33943_science_menofia_edu_eg/EjQ4MTCLcuREsSCpkec7mMkBMiQ-mXhEkeAaHQrlMRFQ5g?e=1dV8Ib",
+        "showAd": true
+    },
+    {
+        "title": "هندسة وراثية",
+        "content": "https://sciencemenofiaedu-my.sharepoint.com/:f:/g/personal/mohamedrizk33943_science_menofia_edu_eg/EkUGkHCknzZIn1nqMLh5YaABChXACEwnkreZTQnAlybHvw?e=I3jOuI",
+        "showAd": true
+    },
+    {
+        "title": "فسيولوجيا 3",
+        "content": "https://sciencemenofiaedu-my.sharepoint.com/:f:/g/personal/mohamedrizk33943_science_menofia_edu_eg/EhXQI30CXl9JqafKBZNXm_IBnWBEN3HjS6x0oRpa3y3hbg?e=4MetSP",
+        "showAd": true
+    },
+    {
+        "title": "كيمياء حيوي و انزيمات 2",
+        "content": "https://sciencemenofiaedu-my.sharepoint.com/:f:/g/personal/mohamedrizk33943_science_menofia_edu_eg/EofeYjoqwmtBhjp1PkVbbwIBgOYT5A8UYWzOhaX9A5Qs3A?e=NvJFEo",
+        "showAd": true
+    },
+    {
+        "title": "علم السموم والملوثات",
+        "content": "https://sciencemenofiaedu-my.sharepoint.com/:f:/g/personal/mohamedrizk33943_science_menofia_edu_eg/Eo2mmmjk07VBoUpsXxUs2roBYQSXGA-ZIBkjKv8xDlTP6Q?e=foHHPN",
+        "showAd": true
+    },
+    {
+        "title": "رخويات",
+        "content": "https://sciencemenofiaedu-my.sharepoint.com/:f:/g/personal/mohamedrizk33943_science_menofia_edu_eg/ErQ4edwz1ENOmjF7ZPb5Aj4BLNFlH0Lhlv1Rg4PI68o_ug?e=rJ9go1",
+        "showAd": true
+    },
+    {
+        "title": "بيولوجيا حشرات",
+        "content": "https://sciencemenofiaedu-my.sharepoint.com/:f:/g/personal/mohamedrizk33943_science_menofia_edu_eg/EvFXrgwS_3lAlFSOsYI-pmkBAZmx09xHNtVpAAv7XhnaQw?e=rfpwal",
+        "showAd": true
+    },
+    {
+        "title": "الوراثة و الملوثات",
+        "content": "https://sciencemenofiaedu-my.sharepoint.com/:f:/g/personal/mohamedrizk33943_science_menofia_edu_eg/EhClerJOomZOiVcrdb79HHoBl-ireMZ5gbgzIGDC2OzqaQ?e=XWduW7",
+        "showAd": true
+    },
+    {
+        "title": "بيئة صحراوية",
+        "content": "https://sciencemenofiaedu-my.sharepoint.com/:f:/g/personal/mohamedrizk33943_science_menofia_edu_eg/EmWEfAx5ef1EkLnwZNs0y3wBNYk8qnBo7fVlVVLLztz6eg?e=oqkRR7",
+        "showAd": true
+    },
+    {
+        "title": "بيولوجيا اشعاعية",
+        "content": "https://sciencemenofiaedu-my.sharepoint.com/:f:/g/personal/mohamedrizk33943_science_menofia_edu_eg/EqApZfEghnBPos3owWaIItUBuc_XoM8xAyFTD-wF_d8uFA?e=NQ119N",
+        "showAd": true
+    },
+    {
+        "title": "علم انسجة متقدم",
+        "content": "https://sciencemenofiaedu-my.sharepoint.com/:f:/g/personal/mohamedrizk33943_science_menofia_edu_eg/EsOUJAzNXgpMrxke7p54PQMBO82BN-hL_SSu87kNotn6xg?e=Zzqh96",
+        "showAd": true
+    },
+    {
+        "title": "فسيولوجيا لافقاريات",
+        "content": "https://sciencemenofiaedu-my.sharepoint.com/:f:/g/personal/mohamedrizk33943_science_menofia_edu_eg/EjzTY7CjmJNJkkmlaKvDrW0BzaIoO7lF_efUWdPUUn0deQ?e=knnYyr",
+        "showAd": true
+    },
+    {
+        "title": "لافقاريات بحرية",
+        "content": "https://sciencemenofiaedu-my.sharepoint.com/:f:/g/personal/mohamedrizk33943_science_menofia_edu_eg/EmD33yZkzbpCl8XaPsNu2CwBIq6Q7pQPGbu_tcuEFetneA?e=Xyn4Ja",
+        "showAd": true
+    },
+    {
+        "title": "امراض وراثية",
+        "content": "https://sciencemenofiaedu-my.sharepoint.com/:f:/g/personal/mohamedrizk33943_science_menofia_edu_eg/En3nuN2uFJRMlFMpPMR_wMkBoXT3kOFp1APOw2V3tuvKXg?e=k4q24K",
+        "showAd": true
+    },
+    {
+        "title": "مناعة خلوية",
+        "content": "https://sciencemenofiaedu-my.sharepoint.com/:f:/g/personal/mohamedrizk33943_science_menofia_edu_eg/EsQ1PHnF33BDt-xdi_IuzJUB2FNWaiDrejAEkiUXcN4-nA?e=dNGc8G",
+        "showAd": true
+    },
+    {
+        "title": "علم الدم",
+        "content": "https://sciencemenofiaedu-my.sharepoint.com/:f:/g/personal/mohamedrizk33943_science_menofia_edu_eg/Eg6NRVx6v31Dia6UDhJ3yBQB0_ta2u5kvTGfYxySdlL25w?e=xg8CVy",
+        "showAd": true
+    },
+    {
+        "title": "فسيولوجيا التاقلم",
+        "content": "https://sciencemenofiaedu-my.sharepoint.com/:f:/g/personal/mohamedrizk33943_science_menofia_edu_eg/EkMV0Q8_6QJBvVmF1TqROcoBpAA8j0GyKwGWIFF202jNwA?e=EUxdtS",
+        "showAd": true
+    },
+    {
+        "title": "تقنيات معملية",
+        "content": "https://sciencemenofiaedu-my.sharepoint.com/:f:/g/personal/mohamedrizk33943_science_menofia_edu_eg/EnmBkYdJ0_FMg2N2g-ezicABB2uznz0rMOiwDq7r1tCUyQ?e=btOmQ0",
+        "showAd": true
+    },
+    {
+        "title": "مناعة طفليات",
+        "content": "https://sciencemenofiaedu-my.sharepoint.com/:f:/g/personal/mohamedrizk33943_science_menofia_edu_eg/Ege2pWrfMKlOklO8Yc4UxSwB7DRXtmNhPXmnStuTWmmokQ?e=5taTF8",
+        "showAd": true
+    },
+    {
+        "title": "بيئة االوليات",
+        "content": "https://sciencemenofiaedu-my.sharepoint.com/:f:/g/personal/mohamedrizk33943_science_menofia_edu_eg/EmsG8Ic2VpZCrhcxs7bM7XYBcjEU8BSXjVu6pj-qLJnqDg?e=aQM5VM",
+        "showAd": true
+    },
+    {
+        "title": "غدد صماء الفقاريات",
+        "content": "https://sciencemenofiaedu-my.sharepoint.com/:f:/g/personal/mohamedrizk33943_science_menofia_edu_eg/EsrGUApedXdBmmc-EmGA3RUBWGemmkMwkxg5GxRrCkofew?e=ZmYYyD",
+        "showAd": true
+    },
+    {
+        "title": "فسيولوجيا اوليات",
+        "content": "https://sciencemenofiaedu-my.sharepoint.com/:f:/g/personal/mohamedrizk33943_science_menofia_edu_eg/Es8w9yS_1_hNrCbghVj1mpIBaqjKW49rE7gfXThq10x0uQ?e=PnYmlW",
+        "showAd": true
+    },
+    {
+        "title": "بيولوجيا الاسماك",
+        "content": "https://sciencemenofiaedu-my.sharepoint.com/:f:/g/personal/mohamedrizk33943_science_menofia_edu_eg/Eqt114Pvz7RAh2o-7saF18gBzSoPjV39SSkOzzESnAHtXA?e=UjOtg1",
+        "showAd": true
+    },
+    {
+        "title": "حشرات طبية",
+        "content": "https://sciencemenofiaedu-my.sharepoint.com/:f:/g/personal/mohamedrizk33943_science_menofia_edu_eg/EqVfv282c6tNiiRqIUNl7_8BqIKApcvHTOKWPjaZq8nLEA?e=cZckZF",
+        "showAd": true
+    },
+    {
+        "title": "ميكروبيولوجي عام",
+        "content": "https://sciencemenofiaedu-my.sharepoint.com/:f:/g/personal/mohamedrizk33943_science_menofia_edu_eg/EjhhU3P4c3pBnuwkh5gxzAUBXRq7LIJ_dUmRhRjzJ4bx5Q?e=QrQVdG",
+        "showAd": true
+    },
+    {
+        "title": "خواص مادة",
+        "content": "https://sciencemenofiaedu-my.sharepoint.com/:f:/g/personal/mohamedrizk33943_science_menofia_edu_eg/Erw6RIY9k3VGousuyJPPLvgBZIi0ksEyq7q3OTn4jxRyjA?e=lCIYkw",
+        "showAd": true
+    },
+    {
+        "title": "فيزياء تطبيقية ١",
+        "content": "https://sciencemenofiaedu-my.sharepoint.com/:f:/g/personal/mohamedrizk33943_science_menofia_edu_eg/EglK450fJx9Do_z3tk-5ZUgBGGn-ck7t-OGd5K5bgM5qQQ?e=HmbrnD",
+        "showAd": true
+    },
+    {
+        "title": "فيزياء حيوية",
+        "content": "https://sciencemenofiaedu-my.sharepoint.com/:f:/g/personal/mohamedrizk33943_science_menofia_edu_eg/EgpnoQUEYR9MljLGtgjGh5MBJ5tfVtDGY46KCNgqy_I9ZA?e=saibyz",
+        "showAd": true
+    },
+    {
+        "title": "اسس كيمياء عضويه",
+        "content": "https://sciencemenofiaedu-my.sharepoint.com/:f:/g/personal/mohamedrizk33943_science_menofia_edu_eg/Equ8MOpwNVxCtO9T7nu_FLUBIM9BBdXP0lL2mnZ3dGhVAw",
+        "showAd": true
+    },
+    {
+        "title": "كهرومغناطيسية",
+        "content": "https://sciencemenofiaedu-my.sharepoint.com/:f:/g/personal/mohamedrizk33943_science_menofia_edu_eg/EkDFX1qqZ4FAsfTZ7Z9vK6kBNVu5LfGtf0-Xpgy50yJubg?e=1UtYci",
+        "showAd": true
+    },
+    {
+        "title": "كيمياء تحليلية1",
+        "content": "https://sciencemenofiaedu-my.sharepoint.com/:f:/g/personal/mohamedrizk33943_science_menofia_edu_eg/EioPIJpKb1xFuxn3kbvBaPQB4dh7yjKXmyyLNBVh7WDMCw?e=lwtb8F",
+        "showAd": true
+    },
+    {
+        "title": "اسس كيمياء فيزيائية",
+        "content": "https://sciencemenofiaedu-my.sharepoint.com/:f:/g/personal/mohamedrizk33943_science_menofia_edu_eg/EqoDcXtpAVBNtb2gaymgdPUBAIsFK5LJ9DZBYPa-4prWWQ?e=eVyzou",
+        "showAd": true
+    },
+    {
+        "title": "معادلات تفاضلية عادية",
+        "content": "https://sciencemenofiaedu-my.sharepoint.com/:f:/g/personal/mohamedrizk33943_science_menofia_edu_eg/EmCGEXlHcrhEvGCdnZ3rRmMB0126kmo199VWd5DmcI6zqA",
+        "showAd": true
+    },
+    {
+        "title": "كيمياء المنتجات الطبيعية",
+        "content": "https://sciencemenofiaedu-my.sharepoint.com/:f:/g/personal/mohamedrizk33943_science_menofia_edu_eg/Eo2Hnr7xAXlLgiveK9l_eqsBHOvoqfo-jcjEZ8u8xjnscA?e=badrLS",
+        "showAd": true
+    },
+    {
+        "title": "جودة",
+        "content": "https://sciencemenofiaedu-my.sharepoint.com/:f:/g/personal/mohamedrizk33943_science_menofia_edu_eg/EkV2-RcytQdAmydxZYD-J2oBWw8U4A6KnP3P_HLdMAu8Qg?e=scfSyw",
+        "showAd": true
+    },
+    {
+        "title": "قضايا اجتماعية",
+        "content": "https://sciencemenofiaedu-my.sharepoint.com/:f:/g/personal/mohamedrizk33943_science_menofia_edu_eg/EqOA-Y9q2iNJviPNKRW0d58BzleTTkWKezSxrrIugfOv0w?e=SpWP53",
+        "showAd": true
+    },
+    {
+        "title": "حقوق انسان",
+        "content": "https://sciencemenofiaedu-my.sharepoint.com/:f:/g/personal/mohamedrizk33943_science_menofia_edu_eg/EkrtRzlD3LlFoM4BqefPIZsBRz4Oemq0km0_6wxVWubctw?e=ZmSOOZ",
+        "showAd": true
+    },
+    {
+        "title": "دراسات بيئية",
+        "content": "https://sciencemenofiaedu-my.sharepoint.com/:f:/g/personal/mohamedrizk33943_science_menofia_edu_eg/EuTmEsCsrslAjQKvm--uzIMBwq_TLdQ828OavK915vh6pQ?e=zfH6uy",
+        "showAd": true
+    },
+    {
+        "title": "دراسات اسلامية",
+        "content": "https://sciencemenofiaedu-my.sharepoint.com/:f:/g/personal/mohamedrizk33943_science_menofia_edu_eg/EgOXoXMxj49KlIpBLDCnEPoBig_ehNrnim1LbeS27MGVWw?e=qUPmHe",
+        "showAd": true
+    },
+    {
+        "title": "احصاء",
+        "content": "https://sciencemenofiaedu-my.sharepoint.com/:f:/g/personal/mohamedrizk33943_science_menofia_edu_eg/EjjmNNN0fSZIp9avA204h6EBgdWQE6ai2auX_Ec2jlE6cw?e=IsBMCC",
+        "showAd": true
+    },
+    {
+        "title": "مصريات و آثار",
+        "content": "https://sciencemenofiaedu-my.sharepoint.com/:f:/g/personal/mohamedrizk33943_science_menofia_edu_eg/EuFspQwRN-tBqI7TizXJT-IBmKaKd1Dxdazq3-UwWmBSiw?e=37wssj",
+        "showAd": true
+    },
+    {
+        "title": "حاسب الى 2",
+        "content": "https://sciencemenofiaedu-my.sharepoint.com/:f:/g/personal/mohamedrizk33943_science_menofia_edu_eg/Ei7oHdDTbRJDqzvVHw0MAWABhzDy3Gi9182NIkVEPomJgg?e=gI7g8F",
+        "showAd": true
+    },
+    {
+        "title": "لغة اجنبية 1",
+        "content": "https://sciencemenofiaedu-my.sharepoint.com/:f:/g/personal/mohamedrizk33943_science_menofia_edu_eg/ElwdJgNYcAJEobw7uZrUEu4B37swrxOU4ZvMEkwYghujjg?e=Ccuk1R",
+        "showAd": true
+    },
+    {
+        "title": "لغة اجنبية2",
+        "content": "https://sciencemenofiaedu-my.sharepoint.com/:f:/g/personal/mohamedrizk33943_science_menofia_edu_eg/EnRwpRIq_gZDrleGoEDP5ewBqxkipBWP--agTgX5eW9nbQ?e=VD89dH",
+        "showAd": true
+    },
+    {
+        "title": "حاسب الي ١",
+        "content": "https://sciencemenofiaedu-my.sharepoint.com/:f:/g/personal/mohamedrizk33943_science_menofia_edu_eg/EgYyupCkThNHr8XsuGSk1jcBfCvNuKoOB16-9Zr83EH0Xw?e=7QDGTl",
+        "showAd": true
+    },
+    {
+        "title": "تصوير ضوئي",
+        "content": "https://sciencemenofiaedu-my.sharepoint.com/:f:/g/personal/mohamedrizk33943_science_menofia_edu_eg/EpOCCerY13NDo4m7343GJK0BOFzc0cKIGXaKrvXIIbyCGQ?e=TPtpza",
+        "showAd": true
+    },
+    {
+        "title": "تاريخ علم",
+        "content": "https://sciencemenofiaedu-my.sharepoint.com/:f:/g/personal/mohamedrizk33943_science_menofia_edu_eg/EquHrTVpYqNLptv9VkptlJgBA8u2ILv_I3fZoJD6CWM91Q?e=z2qSLz",
+        "showAd": true
+    }
+]

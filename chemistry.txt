@@ -1,0 +1,368 @@
+[
+    {
+        "title": "< الاضافات الحديثة  >",
+        "content": "https://drive.google.com/drive/folders/1HI6ahRkW5i1ynGHe7JNX7TqXhjoNkdLv?usp=sharing",
+        "showAd": true
+    },
+    {
+        "title": "اسس كيمياء فيزيائية",
+        "content": "https://sciencemenofiaedu-my.sharepoint.com/:f:/g/personal/mohamedrizk33943_science_menofia_edu_eg/EqoDcXtpAVBNtb2gaymgdPUBAIsFK5LJ9DZBYPa-4prWWQ?e=eVyzou",
+        "showAd": true
+    },
+    {
+        "title": "اسس كيمياء غير عضويه",
+        "content": "https://sciencemenofiaedu-my.sharepoint.com/:f:/g/personal/mohamedrizk33943_science_menofia_edu_eg/EhKeILav0EVPhB_CnozupqABo_WXk9m5UsIKI8V0bZjViw",
+        "showAd": true
+    },
+    {
+        "title": "كيمياء تحليلة وصفية",
+        "content": "https://sciencemenofiaedu-my.sharepoint.com/:f:/g/personal/mohamedrizk33943_science_menofia_edu_eg/Eg3PU6ig649Mk9H2vYO21YAB084WazRdDod2nrdsQYiXLA?e=iUoUCG",
+        "showAd": true
+    },
+    {
+        "title": "كيمياء تحليلية1",
+        "content": "https://sciencemenofiaedu-my.sharepoint.com/:f:/g/personal/mohamedrizk33943_science_menofia_edu_eg/EioPIJpKb1xFuxn3kbvBaPQB4dh7yjKXmyyLNBVh7WDMCw?e=lwtb8F",
+        "showAd": true
+    },
+    {
+        "title": "اسس كيمياء عضويه",
+        "content": "https://sciencemenofiaedu-my.sharepoint.com/:f:/g/personal/mohamedrizk33943_science_menofia_edu_eg/Equ8MOpwNVxCtO9T7nu_FLUBIM9BBdXP0lL2mnZ3dGhVAw",
+        "showAd": true
+    },
+    {
+        "title": "كيمياء عملية تحليلة و فيزيائية و غير عضوية 1",
+        "content": "https://sciencemenofiaedu-my.sharepoint.com/:f:/g/personal/mohamedrizk33943_science_menofia_edu_eg/EulG9268kdRLnmJQB5VSJf0BBpedSIZJbxdg9v6aLCgVOw",
+        "showAd": true
+    },
+    {
+        "title": "كيمياء عملية تحليلة و فيزيائية و غير عضوية 2",
+        "content": "https://sciencemenofiaedu-my.sharepoint.com/:f:/g/personal/mohamedrizk33943_science_menofia_edu_eg/Ejwryaej--hPoDTrcjAkxZEBv5eP9diQtC58hgIbx4Rn-g?e=IUbuFd",
+        "showAd": true
+    },
+    {
+        "title": "كيمياء عملية تحليلة و فيزيائية و غير عضوية 3",
+        "content": "https://sciencemenofiaedu-my.sharepoint.com/:f:/g/personal/mohamedrizk33943_science_menofia_edu_eg/EmpwBbexRzxGvaXkRusj5PABow3aBPgL7SA1GAq_xroKEQ?e=juGpUD",
+        "showAd": true
+    },
+    {
+        "title": "كيمياء عملية تحليلة و فيزيائية و غير عضوية 4",
+        "content": "https://sciencemenofiaedu-my.sharepoint.com/:f:/g/personal/mohamedrizk33943_science_menofia_edu_eg/EmHLnrSVgyhJjVcFOXU8XlcBMz-ejMIiW6mOXcrhcBWdWA?e=r7i83z",
+        "showAd": true
+    },
+    {
+        "title": "كيمياء عملية عضوية 1",
+        "content": "https://sciencemenofiaedu-my.sharepoint.com/:f:/g/personal/mohamedrizk33943_science_menofia_edu_eg/EidKWDfaDj9LqhaVq1FZRDUBVr__HHgC2eue-fCxQquBkQ?e=KVunKx",
+        "showAd": true
+    },
+    {
+        "title": "كيمياء عملية عضوية 2",
+        "content": "https://sciencemenofiaedu-my.sharepoint.com/:f:/g/personal/mohamedrizk33943_science_menofia_edu_eg/EgD41n6c5UZOn8g0KYX9_4kBO9FLg9V70J3lFZnU3-2POw?e=9B9vbQ",
+        "showAd": true
+    },
+    {
+        "title": "ديناميكا حرارية-مش متاكد من المحتوي اوي كلها لبتوع فيزياء ولا لا - فيزياء",
+        "content": "https://sciencemenofiaedu-my.sharepoint.com/:f:/g/personal/mohamedrizk33943_science_menofia_edu_eg/EmjaSoP3e-pEtttKunGFZFQBgvW8NZYsvjyyT7DA7LRSVQ?e=Jb66Bq",
+        "showAd": true
+    },
+    {
+        "title": "كيمياء العناصر الغير انتقالية",
+        "content": "https://sciencemenofiaedu-my.sharepoint.com/:f:/g/personal/mohamedrizk33943_science_menofia_edu_eg/Eq2aRnAJKxZCoEaMtHCv1SoBOI5gHMzoTa_C5wPvm9Bqsw?e=VMvqrS",
+        "showAd": true
+    },
+    {
+        "title": "كيمياءتحليلة 2",
+        "content": "https://sciencemenofiaedu-my.sharepoint.com/:f:/g/personal/mohamedrizk33943_science_menofia_edu_eg/EvLTPgm0FEFFl4JiJpdeXg4B1HFZENUoz7IugIclro1dOg?e=MeFW9f",
+        "showAd": true
+    },
+    {
+        "title": "مبادئ كيمياء عضوية فزيائية",
+        "content": "https://sciencemenofiaedu-my.sharepoint.com/:f:/g/personal/mohamedrizk33943_science_menofia_edu_eg/Egqljau6NABIvogYKQ2zMMgBFYvLj4l_yO95fU1ohcdGzA?e=PEyeF8",
+        "showAd": true
+    },
+    {
+        "title": "كيمياء عضوية اليفاتية",
+        "content": "https://sciencemenofiaedu-my.sharepoint.com/:f:/g/personal/mohamedrizk33943_science_menofia_edu_eg/Eix4bO6wUEhKuyQJn0zexWoBM_oYGcfH-X0sJQODdtAe2w?e=ylajIR",
+        "showAd": true
+    },
+    {
+        "title": "كيمياء عضوية اروماتية",
+        "content": "https://sciencemenofiaedu-my.sharepoint.com/:f:/g/personal/mohamedrizk33943_science_menofia_edu_eg/EnxvZX4MxhtFvWPujHN074kBkRSVaFRam0920ohmvADgyA?e=m24mgn",
+        "showAd": true
+    },
+    {
+        "title": "كيمياء طبية1",
+        "content": "https://sciencemenofiaedu-my.sharepoint.com/:f:/g/personal/mohamedrizk33943_science_menofia_edu_eg/Ejnuk89CdY9FinxCIFTd8HoBAo4jlPKnAPcgN82d4ms-Sw?e=DBfXLb",
+        "showAd": true
+    },
+    {
+        "title": "كيمياء عنلية عضوية 2",
+        "content": "https://sciencemenofiaedu-my.sharepoint.com/:f:/g/personal/mohamedrizk33943_science_menofia_edu_eg/EgD41n6c5UZOn8g0KYX9_4kBO9FLg9V70J3lFZnU3-2POw?e=mRgMFu",
+        "showAd": true
+    },
+    {
+        "title": "كيمياء كهربية 1",
+        "content": "https://sciencemenofiaedu-my.sharepoint.com/:f:/g/personal/mohamedrizk33943_science_menofia_edu_eg/Em_eYOfuqQ9LgtWu7kb-ydsBsOewNd-CEaT_Ado1GH6BmA?e=S9tE4j",
+        "showAd": true
+    },
+    {
+        "title": "كيمياء حركية",
+        "content": "https://sciencemenofiaedu-my.sharepoint.com/:f:/g/personal/mohamedrizk33943_science_menofia_edu_eg/Ep2sFzEEVu1Nmd996ROq5NsB-k0u4dgjrIs3Xxku2dNPAg?e=Gho3I2",
+        "showAd": true
+    },
+    {
+        "title": "كيمياء العناصر الانتقالية",
+        "content": "https://sciencemenofiaedu-my.sharepoint.com/:f:/g/personal/mohamedrizk33943_science_menofia_edu_eg/ElCqF-vME9tEtCSAUJ5jrfkBa-UdG5e9g0V3potS-zOHGw?e=d8b2Pt",
+        "showAd": true
+    },
+    {
+        "title": "كيمياء المتراكبات",
+        "content": "https://sciencemenofiaedu-my.sharepoint.com/:f:/g/personal/mohamedrizk33943_science_menofia_edu_eg/Ero9n1BmelxNv8U7ix8RuaIBakIhcmMB58YXj1YLCavFpQ?e=4YcQeZ",
+        "showAd": true
+    },
+    {
+        "title": "تحليل آلى ١",
+        "content": "https://sciencemenofiaedu-my.sharepoint.com/:f:/g/personal/mohamedrizk33943_science_menofia_edu_eg/Ermal5eLBbpOhMf020Szfv8BaA6ratZja58a5UShwvSlPA?e=t83jYr",
+        "showAd": true
+    },
+    {
+        "title": "ميكانيكا التفاعلات العضوية 1",
+        "content": "https://sciencemenofiaedu-my.sharepoint.com/:f:/g/personal/mohamedrizk33943_science_menofia_edu_eg/EmOjkodeCxRDoJY4pO0kKbIBW1yX7JjKF7SNP-QVtoCZtA?e=6mb8Kp",
+        "showAd": true
+    },
+    {
+        "title": "كيمياء حلقية اليفاتية",
+        "content": "https://sciencemenofiaedu-my.sharepoint.com/:f:/g/personal/mohamedrizk33943_science_menofia_edu_eg/Enm14U1vWINCvZ0OJ0oHXrwBsToQtPUgpPkwuo_bgrx3Og?e=Lzv7oR",
+        "showAd": true
+    },
+    {
+        "title": "كيمياء حلقية متجانسة متعددة",
+        "content": "https://sciencemenofiaedu-my.sharepoint.com/:f:/g/personal/mohamedrizk33943_science_menofia_edu_eg/Ej3fhreRVvFMscLEeuqiGP4BREJJaKgqYYs5zShP59aOTg?e=xtAbn5",
+        "showAd": true
+    },
+    {
+        "title": "كيمياء فراغية",
+        "content": "https://sciencemenofiaedu-my.sharepoint.com/:f:/g/personal/mohamedrizk33943_science_menofia_edu_eg/Erdjztiwt_RNjbc0rv-_UlcBCP5BBnFOAq5ObuVhd8-fqg?e=fjGAhk",
+        "showAd": true
+    },
+    {
+        "title": "كيمياء الكربوهيدرات",
+        "content": "https://sciencemenofiaedu-my.sharepoint.com/:f:/g/personal/mohamedrizk33943_science_menofia_edu_eg/EopYgzsG6dhIry5e-7Zgr74B_VgyJ-6V7RkBQfUW6joZMQ?e=vD7ohv",
+        "showAd": true
+    },
+    {
+        "title": "كيمياء عملية عضوية 3",
+        "content": "https://sciencemenofiaedu-my.sharepoint.com/:f:/g/personal/mohamedrizk33943_science_menofia_edu_eg/EjjXX_g_-rxChydthV8Xav0BKE83-jxnyTLLkiHRrfAZWA?e=tIwYfL",
+        "showAd": true
+    },
+    {
+        "title": "كيمياء الكم1",
+        "content": "https://sciencemenofiaedu-my.sharepoint.com/:f:/g/personal/mohamedrizk33943_science_menofia_edu_eg/EnRpEJORR0dBryBatIx4wtABZWSX9DGy7M4U9HdIzuo-yg?e=5U9yqh",
+        "showAd": true
+    },
+    {
+        "title": "كيمياء سطوح",
+        "content": "https://sciencemenofiaedu-my.sharepoint.com/:f:/g/personal/mohamedrizk33943_science_menofia_edu_eg/Etw7pQZETrNAtFGG_1tWK18Bcn0bgQpOjsjwsDyWEaH7Xw?e=uEj1bq",
+        "showAd": true
+    },
+    {
+        "title": "كيمياء نووية إشعاعية",
+        "content": "https://sciencemenofiaedu-my.sharepoint.com/:f:/g/personal/mohamedrizk33943_science_menofia_edu_eg/Eh1P1Fia4bxFvs2F2ZBj-KIBwqSUAM0lfYDA5CtH9vNj0g?e=u21Jzn",
+        "showAd": true
+    },
+    {
+        "title": "ميكانيكا التفاعلات غير العضوية",
+        "content": "https://sciencemenofiaedu-my.sharepoint.com/:f:/g/personal/mohamedrizk33943_science_menofia_edu_eg/Eijj5YC7x0tEsPPdRpZRTEQBtmBL2cyyI_CCb_5QYtiCOA?e=XxmtqO",
+        "showAd": true
+    },
+    {
+        "title": "كيمياء الجوامد",
+        "content": "https://sciencemenofiaedu-my.sharepoint.com/:f:/g/personal/mohamedrizk33943_science_menofia_edu_eg/EoArSCg9RVdBlrcneUJzieQB69Cjk2Xbu0qRJUW_AFkYaA?e=hVRbRs",
+        "showAd": true
+    },
+    {
+        "title": "اطياف",
+        "content": "https://sciencemenofiaedu-my.sharepoint.com/:f:/g/personal/mohamedrizk33943_science_menofia_edu_eg/Eu16Rh7O9xVFnq2fxbYdruIBYeJV3vGkOuKQbqcPq3K1lg?e=OoyKV7",
+        "showAd": true
+    },
+    {
+        "title": "كيمياء حلقية غير متجانسة",
+        "content": "https://sciencemenofiaedu-my.sharepoint.com/:f:/g/personal/mohamedrizk33943_science_menofia_edu_eg/EuJV2FDgj1RKihs-CAoPyyEB94fAIEm0on1HyBIwetnjWA?e=oWbA5x",
+        "showAd": true
+    },
+    {
+        "title": "كيمياء المنتجات الطبيعية",
+        "content": "https://sciencemenofiaedu-my.sharepoint.com/:f:/g/personal/mohamedrizk33943_science_menofia_edu_eg/Eo2Hnr7xAXlLgiveK9l_eqsBHOvoqfo-jcjEZ8u8xjnscA?e=badrLS",
+        "showAd": true
+    },
+    {
+        "title": "كيمياء البليمرات العالية",
+        "content": "https://sciencemenofiaedu-my.sharepoint.com/:f:/g/personal/mohamedrizk33943_science_menofia_edu_eg/EnTpUhx1KDhKiH4BePjJFMYBDSSpQ96xkaXSexfQvpY1Xw?e=hIPrgz",
+        "showAd": true
+    },
+    {
+        "title": "علوم مواد",
+        "content": "https://sciencemenofiaedu-my.sharepoint.com/:f:/g/personal/mohamedrizk33943_science_menofia_edu_eg/Enw445onnYtOsz5CzdQa5CUBYP_vgbPt7XEQzjkqHLwfgA?e=VJxo3O",
+        "showAd": true
+    },
+    {
+        "title": "كيمياء النسيج والاصباغ والمنظفات",
+        "content": "https://sciencemenofiaedu-my.sharepoint.com/:f:/g/personal/mohamedrizk33943_science_menofia_edu_eg/EmmgWm0s2PdGgeye72cpO7MBV_QfQNxCK0EO3D-5lPx4ZA?e=m3BRVd",
+        "showAd": true
+    },
+    {
+        "title": "كيمياء كهربية 2",
+        "content": "https://sciencemenofiaedu-my.sharepoint.com/:f:/g/personal/mohamedrizk33943_science_menofia_edu_eg/Eo59yIqs2MZAlsMYevvvMlYBvJFBJwtnNcLYaqXUoE3BLQ?e=fJ6Uqf",
+        "showAd": true
+    },
+    {
+        "title": "كيمياء المبيدات",
+        "content": "https://sciencemenofiaedu-my.sharepoint.com/:f:/g/personal/mohamed_algrawany1701153_science_menofia_edu_eg/Ep0J-v3YwLlMiCfE6w6bhcABTGQhg54nvExINZKm-A8UHw?e=k6wMkV",
+        "showAd": true
+    },
+    {
+        "title": "كيمياء الحفز",
+        "content": "https://sciencemenofiaedu-my.sharepoint.com/:f:/g/personal/mohamedrizk33943_science_menofia_edu_eg/EgDjsLbbR2RAkOtIanTPBGEB0dIFWRRPCR1iUIXaEOWk-Q?e=NDM0Mw",
+        "showAd": true
+    },
+    {
+        "title": "كيمياء بيئية",
+        "content": "https://sciencemenofiaedu-my.sharepoint.com/:f:/g/personal/mohamedrizk33943_science_menofia_edu_eg/EvP93a2x-ntCpjk30_R1ZVABlPaMXeBZLuG94rv5aO6p-w?e=3l6asd",
+        "showAd": true
+    },
+    {
+        "title": "رياضة عامة",
+        "content": "https://sciencemenofiaedu-my.sharepoint.com/:f:/g/personal/mohamed_algrawany1701153_science_menofia_edu_eg/ElYxbLftVhZJsBuazQ6Rpr4B07A9H9BHvB0wnXnN5zujLA?e=dUTM1b",
+        "showAd": true
+    },
+    {
+        "title": "علم خلية و انسجة",
+        "content": "https://sciencemenofiaedu-my.sharepoint.com/:f:/g/personal/mohamedrizk33943_science_menofia_edu_eg/EpJLP3niNatPlDzDmvsNaMMBoB-E5tl8_8niOxtP2bCHAQ?e=8JHVIA",
+        "showAd": true
+    },
+    {
+        "title": "ميكروبيولوجي عام",
+        "content": "https://sciencemenofiaedu-my.sharepoint.com/:f:/g/personal/mohamedrizk33943_science_menofia_edu_eg/EjhhU3P4c3pBnuwkh5gxzAUBXRq7LIJ_dUmRhRjzJ4bx5Q?e=QrQVdG",
+        "showAd": true
+    },
+    {
+        "title": "خواص مادة",
+        "content": "https://sciencemenofiaedu-my.sharepoint.com/:f:/g/personal/mohamedrizk33943_science_menofia_edu_eg/Erw6RIY9k3VGousuyJPPLvgBZIi0ksEyq7q3OTn4jxRyjA?e=lCIYkw",
+        "showAd": true
+    },
+    {
+        "title": "فيزياء حيوية",
+        "content": "https://sciencemenofiaedu-my.sharepoint.com/:f:/g/personal/mohamedrizk33943_science_menofia_edu_eg/EgpnoQUEYR9MljLGtgjGh5MBJ5tfVtDGY46KCNgqy_I9ZA?e=saibyz",
+        "showAd": true
+    },
+    {
+        "title": "فيزياء تطبيقية ١",
+        "content": "https://sciencemenofiaedu-my.sharepoint.com/:f:/g/personal/mohamedrizk33943_science_menofia_edu_eg/EglK450fJx9Do_z3tk-5ZUgBGGn-ck7t-OGd5K5bgM5qQQ?e=HmbrnD",
+        "showAd": true
+    },
+    {
+        "title": "علم البلورات",
+        "content": "https://sciencemenofiaedu-my.sharepoint.com/:f:/g/personal/mohamedrizk33943_science_menofia_edu_eg/EoRGCyIFKoFHj64_PZIdzwQB7iBEBlfejLmv51cMvL0ZOQ?e=zIg1X8",
+        "showAd": true
+    },
+    {
+        "title": "جيولوجيا طبيعية",
+        "content": "https://sciencemenofiaedu-my.sharepoint.com/:f:/g/personal/mohamedrizk33943_science_menofia_edu_eg/EqtcXr4GgPFGsHYvUii-3t0BXfpf2NFQkDZScGpNbizjXA?e=gcqS6x",
+        "showAd": true
+    },
+    {
+        "title": "نباتات طبية",
+        "content": "https://sciencemenofiaedu-my.sharepoint.com/:f:/g/personal/mohamedrizk33943_science_menofia_edu_eg/Eq2yF4A1PENJlnc17UTYM14B8Bt4VX_0HndqXwTSSHkK2A?e=ImFnCn",
+        "showAd": true
+    },
+    {
+        "title": "فسيولوجيا حيوان",
+        "content": "https://sciencemenofiaedu-my.sharepoint.com/:f:/g/personal/mohamedrizk33943_science_menofia_edu_eg/Eu1OOiqpCKdFu6J_qOctQuwBbNYoRXTyrDpf-gOwknQa5g?e=N1AnOA",
+        "showAd": true
+    },
+    {
+        "title": "معادلات تفاضلية عادية",
+        "content": "https://sciencemenofiaedu-my.sharepoint.com/:f:/g/personal/mohamed_algrawany1701153_science_menofia_edu_eg/Encf1RbaZ7lJg4kO1TZNsvYBnpKgP5v1Kxn7RYV_vor9OA?e=xthPI4",
+        "showAd": true
+    },
+    {
+        "title": "تكنيك الميكروسكوب الالكتروني",
+        "content": "https://sciencemenofiaedu-my.sharepoint.com/:f:/g/personal/mohamedrizk33943_science_menofia_edu_eg/EhsyPntftKNBjqCEpG4WrcoBCl4QzIaUYGadE60z5IE18g?e=dfHXLF",
+        "showAd": true
+    },
+    {
+        "title": "كيمياء الانزيمات و الايض و الهرمونات",
+        "content": "https://sciencemenofiaedu-my.sharepoint.com/:f:/g/personal/mohamedrizk33943_science_menofia_edu_eg/EkHUBAfEo_hEte553IAUnhEBLW6-BRNn5CH2YZLYsgNyxQ?e=SEt8Hi",
+        "showAd": true
+    },
+    {
+        "title": "تحليل الي 2",
+        "content": "https://sciencemenofiaedu-my.sharepoint.com/:f:/g/personal/mohamedrizk33943_science_menofia_edu_eg/EpXHE4GfiLVMvfBgxSMtff8BJ2qAqjO1YEXuo6lKCPvPDA?e=gBlRVY",
+        "showAd": true
+    },
+    {
+        "title": "جودة",
+        "content": "https://sciencemenofiaedu-my.sharepoint.com/:f:/g/personal/mohamedrizk33943_science_menofia_edu_eg/EkV2-RcytQdAmydxZYD-J2oBWw8U4A6KnP3P_HLdMAu8Qg?e=scfSyw",
+        "showAd": true
+    },
+    {
+        "title": "قضايا اجتماعية",
+        "content": "https://sciencemenofiaedu-my.sharepoint.com/:f:/g/personal/mohamedrizk33943_science_menofia_edu_eg/EqOA-Y9q2iNJviPNKRW0d58BzleTTkWKezSxrrIugfOv0w?e=SpWP53",
+        "showAd": true
+    },
+    {
+        "title": "حقوق انسان",
+        "content": "https://sciencemenofiaedu-my.sharepoint.com/:f:/g/personal/mohamedrizk33943_science_menofia_edu_eg/EkrtRzlD3LlFoM4BqefPIZsBRz4Oemq0km0_6wxVWubctw?e=ZmSOOZ",
+        "showAd": true
+    },
+    {
+        "title": "دراسات بيئية",
+        "content": "https://sciencemenofiaedu-my.sharepoint.com/:f:/g/personal/mohamedrizk33943_science_menofia_edu_eg/EuTmEsCsrslAjQKvm--uzIMBwq_TLdQ828OavK915vh6pQ?e=zfH6uy",
+        "showAd": true
+    },
+    {
+        "title": "دراسات اسلامية",
+        "content": "https://sciencemenofiaedu-my.sharepoint.com/:f:/g/personal/mohamedrizk33943_science_menofia_edu_eg/EgOXoXMxj49KlIpBLDCnEPoBig_ehNrnim1LbeS27MGVWw?e=qUPmHe",
+        "showAd": true
+    },
+    {
+        "title": "احصاء",
+        "content": "https://sciencemenofiaedu-my.sharepoint.com/:f:/g/personal/mohamedrizk33943_science_menofia_edu_eg/EjjmNNN0fSZIp9avA204h6EBgdWQE6ai2auX_Ec2jlE6cw?e=IsBMCC",
+        "showAd": true
+    },
+    {
+        "title": "مصريات و آثار",
+        "content": "https://sciencemenofiaedu-my.sharepoint.com/:f:/g/personal/mohamedrizk33943_science_menofia_edu_eg/EuFspQwRN-tBqI7TizXJT-IBmKaKd1Dxdazq3-UwWmBSiw?e=37wssj",
+        "showAd": true
+    },
+    {
+        "title": "حاسب الى 2",
+        "content": "https://sciencemenofiaedu-my.sharepoint.com/:f:/g/personal/mohamedrizk33943_science_menofia_edu_eg/Ei7oHdDTbRJDqzvVHw0MAWABhzDy3Gi9182NIkVEPomJgg?e=gI7g8F",
+        "showAd": true
+    },
+    {
+        "title": "لغة اجنبية 1",
+        "content": "https://sciencemenofiaedu-my.sharepoint.com/:f:/g/personal/mohamedrizk33943_science_menofia_edu_eg/ElwdJgNYcAJEobw7uZrUEu4B37swrxOU4ZvMEkwYghujjg?e=Ccuk1R",
+        "showAd": true
+    },
+    {
+        "title": "لغة اجنبية2",
+        "content": "https://sciencemenofiaedu-my.sharepoint.com/:f:/g/personal/mohamedrizk33943_science_menofia_edu_eg/EnRwpRIq_gZDrleGoEDP5ewBqxkipBWP--agTgX5eW9nbQ?e=VD89dH",
+        "showAd": true
+    },
+    {
+        "title": "حاسب الي ١",
+        "content": "https://sciencemenofiaedu-my.sharepoint.com/:f:/g/personal/mohamedrizk33943_science_menofia_edu_eg/EgYyupCkThNHr8XsuGSk1jcBfCvNuKoOB16-9Zr83EH0Xw?e=7QDGTl",
+        "showAd": true
+    },
+    {
+        "title": "تصوير ضوئي",
+        "content": "https://sciencemenofiaedu-my.sharepoint.com/:f:/g/personal/mohamedrizk33943_science_menofia_edu_eg/EpOCCerY13NDo4m7343GJK0BOFzc0cKIGXaKrvXIIbyCGQ?e=TPtpza",
+        "showAd": true
+    },
+    {
+        "title": "تاريخ علم",
+        "content": "https://sciencemenofiaedu-my.sharepoint.com/:f:/g/personal/mohamedrizk33943_science_menofia_edu_eg/EquHrTVpYqNLptv9VkptlJgBA8u2ILv_I3fZoJD6CWM91Q?e=z2qSLz",
+        "showAd": true
+    }
+
+]

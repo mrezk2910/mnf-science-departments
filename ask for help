@@ -1,27 +1,26 @@
 {
-  
   "helpers": [
     {
       "id": "aQshRKEPjsMDvIajFWKsiqjz7zv1",
-      "name": "الجرواني الله يقويه ",
-      "avatarUrl": "https://ui-avatars.com/api/?name=أحمد+محمود",
+      "name": "الجرواني الله يقويه",
+      "avatarUrl": "https://ui-avatars.com/api/?name=الجرواني+الله+يقويه&background=6366F1&color=fff",
       "services": ["writeSheet", "solveSheet"],
       "rating": 4.8,
       "completedRequests": 47,
-      "specialization": "الرياضيات البحتة و علوم الحاسب",
+      "specialization": "الرياضيات البحتة وعلوم الحاسب",
       "university": "جامعة المنوفية",
-      "bio": " متخصص في حل المسائل الهندسية والرياضيات وتصحيح اخطاء الكود وشرحها"
+      "bio": "متخصص في حل المسائل الهندسية والرياضيات وتصحيح أخطاء الكود وشرحها"
     },
     {
       "id": "dmVTbCi66ofWH7Bsn6VoF4KUbuh1",
       "name": "فرح محمد",
-      "avatarUrl": "https://ui-avatars.com/api/?name=سارة+علي",
+      "avatarUrl": "https://ui-avatars.com/api/?name=فرح+محمد&background=8B5CF6&color=fff",
       "services": ["lectureNotes", "drawing"],
       "rating": 4.9,
       "completedRequests": 32,
-      "specialization": "الكيمياء ",
+      "specialization": "الكيمياء",
       "university": "جامعة المنوفية",
-      "bio": "متخصصة في رسومات السكاشن واعادة تبيض المحاضرات وتفريغ ريكوردات المحاضرات وحل الشيتات"
+      "bio": "متخصصة في رسومات السكاشن وإعادة تبيض المحاضرات وتفريغ ريكوردات المحاضرات وحل الشيتات"
     }
   ]
 }

@@ -3,7 +3,7 @@
   "helpers": [
     {
       "id": "aQshRKEPjsMDvIajFWKsiqjz7zv1",
-      "name": الجرواني الله يقويه ",
+      "name":" الجرواني الله يقويه ",
       "avatarUrl": "https://ui-avatars.com/api/?name=أحمد+محمود",
       "services": ["writeSheet", "solveSheet"],
       "rating": 4.8,

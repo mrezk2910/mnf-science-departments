@@ -1,24 +1,27 @@
 {
+  
   "helpers": [
     {
       "id": "aQshRKEPjsMDvIajFWKsiqjz7zv1",
       "name": "محمد رزق ",
-      "avatarUrl": "https://ui-avatars.com/api/?name=أحمد+محمود&background=6A11CB&color=fff&size=128",
-      "services": ["writeSheet", "solveSheet", "lectureNotes"],
+      "avatarUrl": "https://ui-avatars.com/api/?name=أحمد+محمود",
+      "services": ["writeSheet", "solveSheet"],
       "rating": 4.8,
       "completedRequests": 47,
       "specialization": "هندسة كهربائية",
-      "university": "جامعة القاهرة"
+      "university": "جامعة القاهرة",
+      "bio": "متخصص في حل المسائل الهندسية والرياضيات"
     },
     {
-      "id": "dmVTbCi66ofWH7Bsn6VoF4KUbuh1",
+      "id": "2",
       "name": "د. سارة علي",
-      "avatarUrl": "https://ui-avatars.com/api/?name=سارة+علي&background=2575FC&color=fff&size=128",
-      "services": ["drawing", "lectureNotes"],
+      "avatarUrl": "https://ui-avatars.com/api/?name=سارة+علي",
+      "services": ["lectureNotes", "drawing"],
       "rating": 4.9,
       "completedRequests": 32,
       "specialization": "هندسة معمارية",
-      "university": "جامعة عين شمس"
+      "university": "جامعة عين شمس",
+      "bio": "متخصصة في الرسومات المعمارية والهندسية"
     }
   ]
 }

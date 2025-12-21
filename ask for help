@@ -1,0 +1,24 @@
+{
+  "helpers": [
+    {
+      "id": "aQshRKEPjsMDvIajFWKsiqjz7zv1",
+      "name": "محمد رزق ",
+      "avatarUrl": "https://ui-avatars.com/api/?name=أحمد+محمود&background=6A11CB&color=fff&size=128",
+      "services": ["writeSheet", "solveSheet", "lectureNotes"],
+      "rating": 4.8,
+      "completedRequests": 47,
+      "specialization": "هندسة كهربائية",
+      "university": "جامعة القاهرة"
+    },
+    {
+      "id": "helper_002",
+      "name": "د. سارة علي",
+      "avatarUrl": "https://ui-avatars.com/api/?name=سارة+علي&background=2575FC&color=fff&size=128",
+      "services": ["drawing", "lectureNotes"],
+      "rating": 4.9,
+      "completedRequests": 32,
+      "specialization": "هندسة معمارية",
+      "university": "جامعة عين شمس"
+    }
+  ]
+}

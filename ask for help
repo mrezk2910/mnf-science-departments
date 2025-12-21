@@ -3,25 +3,25 @@
   "helpers": [
     {
       "id": "aQshRKEPjsMDvIajFWKsiqjz7zv1",
-      "name": "محمد رزق ",
+      "name": الجرواني الله يقويه ",
       "avatarUrl": "https://ui-avatars.com/api/?name=أحمد+محمود",
       "services": ["writeSheet", "solveSheet"],
       "rating": 4.8,
       "completedRequests": 47,
-      "specialization": "هندسة كهربائية",
-      "university": "جامعة القاهرة",
-      "bio": "متخصص في حل المسائل الهندسية والرياضيات"
+      "specialization": "الرياضيات البحتة و علوم الحاسب",
+      "university": "جامعة المنوفية",
+      "bio": " متخصص في حل المسائل الهندسية والرياضيات وتصحيح اخطاء الكود وشرحها"
     },
     {
       "id": "dmVTbCi66ofWH7Bsn6VoF4KUbuh1",
-      "name": "د. سارة علي",
+      "name": "فرح محمد",
       "avatarUrl": "https://ui-avatars.com/api/?name=سارة+علي",
       "services": ["lectureNotes", "drawing"],
       "rating": 4.9,
       "completedRequests": 32,
-      "specialization": "هندسة معمارية",
-      "university": "جامعة عين شمس",
-      "bio": "متخصصة في الرسومات المعمارية والهندسية"
+      "specialization": "الكيمياء ",
+      "university": "جامعة المنوفية",
+      "bio": "متخصصة في رسومات السكاشن واعادة تبيض المحاضرات وتفريغ ريكوردات المحاضرات وحل الشيتات"
     }
   ]
 }

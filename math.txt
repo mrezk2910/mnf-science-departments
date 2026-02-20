@@ -1,5 +1,5 @@
 [
-   +++++
+   
     {
         "title": "احصاء تطبيقي",
         "content": "https://drive.google.com/drive/folders/1on76AiqXcQddOGUulskr5Lw6IbNkLszy?usp=sharing",
@@ -205,4 +205,5 @@
     "showAd": true
   }
 ]
+
 

@@ -65,7 +65,7 @@
     },
     {
         "title": "تحليل عددي 2",
-        "content": https://drive.google.com/drive/folders/1DEJoZWdUphb0twxDZXNSwndzMjKtrt3W?usp=sharing",
+        "content": "https://drive.google.com/drive/folders/1DEJoZWdUphb0twxDZXNSwndzMjKtrt3W?usp=sharing",
         "showAd": true
     },
    
@@ -144,7 +144,9 @@
     },
     {
         "title": "اسس كيمياء غير عضويه",
-        "content": "https://drive.google.com/drive/folders/1GIPzcqMfm-RnCUbB9VLrqB38ej4_769V?usp=sharing": true
+        "content": "https://drive.google.com/drive/folders/1GIPzcqMfm-RnCUbB9VLrqB38ej4_769V?usp=sharing",
+        "showAd": true
+
     },
    
   {
@@ -205,5 +207,6 @@
     "showAd": true
   }
 ]
+
 
 

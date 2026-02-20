@@ -288,10 +288,11 @@
         "title": "لغة اجنبية2",
         "content": "https://sciencemenofiaedu-my.sharepoint.com/:f:/g/personal/mohamedrizk33943_science_menofia_edu_eg/EnRwpRIq_gZDrleGoEDP5ewBqxkipBWP--agTgX5eW9nbQ?e=VD89dH",
         "showAd": true
-    },
+    }
     
 
 ]
+
 
 
 

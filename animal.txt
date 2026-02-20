@@ -1,11 +1,6 @@
 [
 
     {
-        "title": "< Recent additions - الاضافات الحديثة  >",
-        "content": "https://drive.google.com/drive/folders/1HI6ahRkW5i1ynGHe7JNX7TqXhjoNkdLv?usp=sharing",
-        "showAd": true
-    },
-    {
         "title": "فسيولوجيا 1",
         "content": "https://sciencemenofiaedu-my.sharepoint.com/:f:/g/personal/mohamedrizk33943_science_menofia_edu_eg/EikBd078-uFFnNindn9Xhe8BhoJQVi7wUOJwsQRLW2oNoA?e=BfbCoh",
         "showAd": true
@@ -382,4 +377,5 @@
     }
 
 ]
+
 

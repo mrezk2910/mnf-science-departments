@@ -1,11 +1,6 @@
 [
   
   {
-    "title": "< الاضافات الحديثة  >",
-    "content": "https://drive.google.com/drive/folders/1HI6ahRkW5i1ynGHe7JNX7TqXhjoNkdLv?usp=sharing",
-    "showAd": true
-  },
-  {
     "title": "تشريح و شكل خارجي",
     "content": "https://sciencemenofiaedu-my.sharepoint.com/:f:/g/personal/mohamed_algrawany1701153_science_menofia_edu_eg/EtVKohIWM9BDn6X4CTXiGIcBtDQw8AI-9IRBZeWnjQqBkA?e=1w0HNO",
     "showAd": true
@@ -327,6 +322,7 @@
   }
 
 ]
+
 
 
 

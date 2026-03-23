@@ -212,11 +212,11 @@
     "content": "https://sciencemenofiaedu-my.sharepoint.com/:f:/g/personal/mohamed_algrawany1701153_science_menofia_edu_eg/Eo7KG62FOSBKrUXLYCb7k2cBYdY9-yn-DUFjs8Zo5f3T-g?e=Mt8LfT",
     "showAd": true
   },
-  {
-    "title": "اسس كيمياء غير عضويه",
-    "content": "https://sciencemenofiaedu-my.sharepoint.com/:f:/g/personal/mohamed_algrawany1701153_science_menofia_edu_eg/EilPiQJ9LElOuc8UoJ5dgRoBiCjfC7_nJrgyhgyWy6HyEg?e=V6Z7FT",
-    "showAd": true
-  },
+   {
+        "title": "اسس كيمياء غير عضويه",
+        "content": "https://drive.google.com/drive/folders/1GIPzcqMfm-RnCUbB9VLrqB38ej4_769V?usp=sharing",
+        "showAd": true
+    },
   {
     "title": "كيمياء تحليلية1",
     "content": "https://drive.google.com/drive/folders/1S_texR4__Eu3lAXdgKpQaOtTQHkjd1nu?usp=sharing",

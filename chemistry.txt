@@ -273,22 +273,22 @@
         "showAd": true
     },
    
-    {
-        "title": "مصريات و آثار",
-        "content": "https://sciencemenofiaedu-my.sharepoint.com/:f:/g/personal/mohamedrizk33943_science_menofia_edu_eg/EuFspQwRN-tBqI7TizXJT-IBmKaKd1Dxdazq3-UwWmBSiw?e=37wssj",
-        "showAd": true
-    },
-    
-    {
-        "title": "لغة اجنبية 1",
-        "content": "https://sciencemenofiaedu-my.sharepoint.com/:f:/g/personal/mohamedrizk33943_science_menofia_edu_eg/ElwdJgNYcAJEobw7uZrUEu4B37swrxOU4ZvMEkwYghujjg?e=Ccuk1R",
-        "showAd": true
-    },
-    {
-        "title": "لغة اجنبية2",
-        "content": "https://sciencemenofiaedu-my.sharepoint.com/:f:/g/personal/mohamedrizk33943_science_menofia_edu_eg/EnRwpRIq_gZDrleGoEDP5ewBqxkipBWP--agTgX5eW9nbQ?e=VD89dH",
-        "showAd": true
-    }
+   {
+    "title": "مصريات و آثار ",
+    "content": "https://drive.google.com/drive/folders/1kcG7zAiXBvEEsHU8RPhM8im9b41kw_T3?usp=sharing",
+    "showAd": true
+  },
+  
+{
+    "title": " لغة اجنبية 1",
+    "content": "https://drive.google.com/drive/folders/17fyeRmHTn0QKWhaM9mFn3q1axRFCv5if?usp=sharing",
+    "showAd": true
+  },
+  {
+    "title": "لغة اجنبية2 ",
+    "content": "https://drive.google.com/drive/folders/1pmKyZu_fdkigvWVKoTrnGbwavaYBHPU6?usp=sharing",
+    "showAd": true
+  }
     
 
 ]

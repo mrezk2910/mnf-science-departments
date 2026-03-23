@@ -1,220 +1,212 @@
 [
   
-  {
+{
     "title": "تشريح و شكل خارجي",
-    "content": "https://sciencemenofiaedu-my.sharepoint.com/:f:/g/personal/mohamed_algrawany1701153_science_menofia_edu_eg/EtVKohIWM9BDn6X4CTXiGIcBtDQw8AI-9IRBZeWnjQqBkA?e=1w0HNO",
+    "content": "https://drive.google.com/drive/folders/1TPUjxpjbz5bEr4Z1Wj7N3-gJQNCm-k9V?usp=sharing",
     "showAd": true
   },
-  {
+ {
     "title": "تقسيم مملكة نباتية",
-    "content": "https://sciencemenofiaedu-my.sharepoint.com/:f:/g/personal/mohamed_algrawany1701153_science_menofia_edu_eg/EnB8nnaw4ltMpKH2X8uUMSABUjV7z2kbkJbChFfhPJ3c4Q?e=fAyl8K",
+    "content": "https://drive.google.com/drive/folders/1cryL-gFjy-73BUOEEGMyA7D1xaiCLdv8?usp=sharing",
     "showAd": true
   },
-  {
+   {
     "title": "بيئة عامة",
-    "content": "https://sciencemenofiaedu-my.sharepoint.com/:f:/g/personal/mohamed_algrawany1701153_science_menofia_edu_eg/Ehv_E7hlYa1Jo5087WDZRIYBl4DaMqngXSwvakFMkvH4sw?e=H1NF6a",
+    "content": "https://drive.google.com/drive/folders/1aRfhRbICDnDT128gRGZCSvVRCvfEWkvj?usp=sharing",
     "showAd": true
   },
   {
     "title": "علم الوراثة",
-    "content": "https://sciencemenofiaedu-my.sharepoint.com/:f:/g/personal/mohamed_algrawany1701153_science_menofia_edu_eg/EsnSiKkIbiZLtBVoSJc5N-ABlz-Xoz_dOJuw-ashp7mZew?e=8eEXSz",
+    "content": "https://drive.google.com/drive/folders/1-WMXHVYqtdz719eSE1fhlYDmcCve58dg?usp=sharing",
     "showAd": true
   },
   {
     "title": "فسيولوجيا نبات",
-    "content": "https://sciencemenofiaedu-my.sharepoint.com/:f:/g/personal/mohamed_algrawany1701153_science_menofia_edu_eg/EgpFtosaZmhAoQkV6w21dE4Bs_SN5oxv5evwB-T8JdWFzA?e=9Xbht2",
+    "content": "https://drive.google.com/drive/folders/1qAZiMdCw45qq4YRP9kwyUsvWFeIdGbW8?usp=sharing",
     "showAd": true
   },
-  {
+ {
     "title": "مناخ و تربة",
-    "content": "https://sciencemenofiaedu-my.sharepoint.com/:f:/g/personal/mohamed_algrawany1701153_science_menofia_edu_eg/Eh1TMo3dOj1Cmzfj8gM3mJIB9pGJyn3SUpkDviappr_NAA?e=3iYFop",
+    "content": "https://drive.google.com/drive/folders/1dcFd-xkfN0zaHug7pOLpqJR3XSec6Gqy?usp=sharing",
     "showAd": true
   },
   {
     "title": "نبات اقتصادي",
-    "content": "https://sciencemenofiaedu-my.sharepoint.com/:f:/g/personal/mohamed_algrawany1701153_science_menofia_edu_eg/EnZlK7vEmipLtx0iWG0UwhcBKaWh7hBcCmZqKromPdHkaw?e=wDMLm9",
+    "content": "https://drive.google.com/drive/folders/15PDAazYAI_qPhlJVvIa5L0Xx7I3d3Uyg?usp=sharing",
     "showAd": true
   },
   {
     "title": "تصنيف نباتات زهرية 1",
-    "content": "https://sciencemenofiaedu-my.sharepoint.com/:f:/g/personal/mohamed_algrawany1701153_science_menofia_edu_eg/ElxgRQInXaJEqmGC9hGx0ZEBhK4Q8Q-P7Ro-a77Ok14upw?e=SY9uUb",
+    "content": "https://drive.google.com/drive/folders/1zKqw4_GwRAUKqpTbiZbPL_LgVmRGMKG2?usp=sharing",
     "showAd": true
   },
   {
     "title": "بيولوجيا الخلية",
-    "content": "https://sciencemenofiaedu-my.sharepoint.com/:f:/g/personal/mohamed_algrawany1701153_science_menofia_edu_eg/EmFfzQ91dmZJkiLJO_4njMABX8SDL-L3jv9gm49UHruk5w?e=PoBk7v",
+    "content": "https://drive.google.com/drive/folders/1EBjqFTkrDRwXlBo6QfzJAMk_K_B-z9A2?usp=sharing",
     "showAd": true
   },
   {
     "title": "علم البكتريا",
-    "content": "https://sciencemenofiaedu-my.sharepoint.com/:f:/g/personal/mohamed_algrawany1701153_science_menofia_edu_eg/EvfWtYWPLFhDsw_7kUVXgXIBxAPdGtwk3LZvvyPbn_E9dg?e=FVMOVi",
+    "content": "https://drive.google.com/drive/folders/1LjGUAOoLt8wvRW52DdXB4wX8h_jrKMPg?usp=sharing",
     "showAd": true
   },
   {
     "title": "علم طحالب",
-    "content": "https://sciencemenofiaedu-my.sharepoint.com/:f:/g/personal/mohamed_algrawany1701153_science_menofia_edu_eg/EqY0NNRURRlHjkpdVR9CzKoBvPWBolbimqEBupGL97wxyw?e=iCZ8Iq",
+    "content": "https://drive.google.com/drive/folders/13bLYI6SybADAebAQOYx8Axj6_4c-_586?usp=sharing",
     "showAd": true
   },
   {
     "title": "علم الفيروسات",
-    "content": "https://sciencemenofiaedu-my.sharepoint.com/:f:/g/personal/mohamed_algrawany1701153_science_menofia_edu_eg/ElQ718WnFLZMuKcuHKP3b_MBAwxEuVVeraTNxs2bqSbJJQ?e=NMxmIr",
+    "content": "https://drive.google.com/drive/folders/1vcu2znKOApZdw4a9KyNM522spiXNZ3hP?usp=sharing",
     "showAd": true
   },
   {
     "title": "علاقات مائية",
-    "content": "https://sciencemenofiaedu-my.sharepoint.com/:f:/g/personal/mohamed_algrawany1701153_science_menofia_edu_eg/EsnzEMClUP1CmbcO37X_2IIBT3eOOXeGGiB106i013eSVg?e=J6ffRq",
+    "content": "https://drive.google.com/drive/folders/1ChL605kdDwaMJ4BSt7Y8z4cqngt5mJAP?usp=sharing",
     "showAd": true
   },
   {
     "title": "أرشيجونات",
-    "content": "https://sciencemenofiaedu-my.sharepoint.com/:f:/g/personal/mohamed_algrawany1701153_science_menofia_edu_eg/EocNQgHqC2hAirpxWJHS5ugBx8g-Grtb8FYvK62OvNcDWQ?e=aCyoiK",
+    "content": "https://drive.google.com/drive/folders/1nztFgNO5ESomMylUAQ5dai_3vlakL2FQ?usp=sharing",
     "showAd": true
   },
   {
     "title": "نباتات طبية",
-    "content": "https://sciencemenofiaedu-my.sharepoint.com/:f:/g/personal/mohamed_algrawany1701153_science_menofia_edu_eg/EhGmsN8hT7NNmVmY-iwQP2MBXp3PgW0yD5p-jPIszsCwCQ?e=miDtUl",
+    "content": "https://drive.google.com/drive/folders/1wD3fPI561PqJ12Mx9WmoREADAiHMqD0S?usp=sharing",
     "showAd": true
   },
   {
     "title": "حبوب لقاح",
-    "content": "https://sciencemenofiaedu-my.sharepoint.com/:f:/g/personal/mohamed_algrawany1701153_science_menofia_edu_eg/EsOiOB7kRmZGtKbsqiaZ1OsBzywExKDw3cvVLDIgLm8gbw?e=YjC2Rq",
+    "content": "https://drive.google.com/drive/folders/1aF_XooSnXSj5_cBjEcrpzXdOfOFwot95?usp=sharing",
     "showAd": true
   },
   {
     "title": "ايض",
-    "content": "https://sciencemenofiaedu-my.sharepoint.com/:f:/g/personal/mohamed_algrawany1701153_science_menofia_edu_eg/EqnEX3IRZBJHtCGnYX8s4D4BL7CfYaPANiYNwbNK9J-Fkw?e=fuYkiA",
+    "content": "https://drive.google.com/drive/folders/1ejHCtgOF4oYWujfEekrrIuooPKy_6S59?usp=sharing",
     "showAd": true
   },
   {
     "title": "علم خميرة",
-    "content": "https://sciencemenofiaedu-my.sharepoint.com/:f:/g/personal/mohamed_algrawany1701153_science_menofia_edu_eg/EmqZ6BsP6qBKlKt1miJPR9IBPJD9zGHelOBDvsFGxXe4mw?e=onRPyr",
+    "content": "https://drive.google.com/drive/folders/1jYNYBQofEBTVah6TWBjp-2ARqdmVON4X?usp=sharing",
     "showAd": true
   },
   {
     "title": "علم الفطريات",
-    "content": "https://sciencemenofiaedu-my.sharepoint.com/:f:/g/personal/mohamed_algrawany1701153_science_menofia_edu_eg/Evw_JqOyxChBgYrEQDi31qUBf-KBkuij3T0dhJSMa4jkig?e=IA7Uik",
+    "content": "https://drive.google.com/drive/folders/1VMHF4Xnc8U3lorz1vewGaHkcy7CIWUpx?usp=sharing",
     "showAd": true
   },
   {
     "title": "هندسة وراثية",
-    "content": "https://sciencemenofiaedu-my.sharepoint.com/:f:/g/personal/mohamed_algrawany1701153_science_menofia_edu_eg/EtRkk45lpZROkApSfXHjPCEB4NdmNFoStuFoyqvi0O7TCg?e=cD2PHp",
+    "content": "https://drive.google.com/drive/folders/15_Ijfk6tfe8Lmv_etkgzpVSTJuusFD01?usp=sharing",
     "showAd": true
   },
   {
     "title": "ميكروبيولوجيا تطبيقية",
-    "content": "https://sciencemenofiaedu-my.sharepoint.com/:f:/g/personal/mohamed_algrawany1701153_science_menofia_edu_eg/EkZ3yN-VX-ZOoA7-48LXNFQBkfjs_o6MuGLcJtyfpqIRrA?e=uv0xy2",
+    "content": "https://drive.google.com/drive/folders/13ZV85or06OwbFgj0hrTSPmyg71YdEmMv?usp=sharing",
     "showAd": true
   },
   {
     "title": "فلورا مصرية",
-    "content": "https://sciencemenofiaedu-my.sharepoint.com/:f:/g/personal/mohamed_algrawany1701153_science_menofia_edu_eg/Etuf9O28to9PtGbPSjv4wb0BLnjcARm9E40HcnRVT5-x-w?e=m22Qfu",
+    "content": "https://drive.google.com/drive/folders/1ebFfnwlVBjVcPBHEnkB0Ml46xOmJLEGF?usp=sharing",
     "showAd": true
   },
   {
     "title": "جغرافيا نباتية",
-    "content": "https://sciencemenofiaedu-my.sharepoint.com/:f:/g/personal/mohamed_algrawany1701153_science_menofia_edu_eg/EtEf7Lb-z65ApiNekiP1YGwBRAvtwEqOAAiBjEqr4Rrx9g?e=juo8VO",
+    "content": "https://drive.google.com/drive/folders/15po6uTxdznSPq7Pa9RZfutR6RoGODjVE?usp=sharing",
     "showAd": true
   },
   {
     "title": "بيولوجيا جزيئية",
-    "content": "https://sciencemenofiaedu-my.sharepoint.com/:f:/g/personal/mohamed_algrawany1701153_science_menofia_edu_eg/EmQAHHfehJlJr-tPshGRvD8Bgwm1J460ISSRRgXMJMkRog?e=3iYEa1",
+    "content": "https://drive.google.com/drive/folders/1RsOh-aUkEQhhG2Mf3dmFRcxUORrfPEoo?usp=sharing",
     "showAd": true
   },
   {
     "title": "مجتمعات نباتية",
-    "content": "https://sciencemenofiaedu-my.sharepoint.com/:f:/g/personal/mohamed_algrawany1701153_science_menofia_edu_eg/Ev4NkH-xpoFItLJnC6YyITIBbJ-fO4kic4fANrqNey_qVQ?e=nPZ3rQ",
+    "content": "https://drive.google.com/drive/folders/1nhzpFIiAHXvzoKKX4_oVO_Yp6oj7ds7d?usp=sharing",
     "showAd": true
   },
   {
     "title": "أمراض نبات",
-    "content": "https://sciencemenofiaedu-my.sharepoint.com/:f:/g/personal/mohamed_algrawany1701153_science_menofia_edu_eg/ErwWrIVuy2BLqBMorAMl9aUBk5GwWFsLabZUhC5dJZiy_Q?e=4MCEz5",
+    "content": "https://drive.google.com/drive/folders/14IJYwEohrHoyUeBJy2TX_CwNUv2FFXSZ?usp=sharing",
     "showAd": true
   },
   {
     "title": "كيمياء نباتية",
-    "content": "https://sciencemenofiaedu-my.sharepoint.com/:f:/g/personal/mohamed_algrawany1701153_science_menofia_edu_eg/Eq-PHN4pJwBFkmnzvHODIk0BTl_LRLXOBQNSD3yg4Re_cg?e=fZnXL5",
+    "content": "https://drive.google.com/drive/folders/1fmdJYgBqiDpCDl1xnSrusiKmY-ShEbbC?usp=sharing",
     "showAd": true
   },
   {
     "title": "دراسات حقلية",
-    "content": "https://sciencemenofiaedu-my.sharepoint.com/:f:/g/personal/mohamed_algrawany1701153_science_menofia_edu_eg/EtNUTfONkFtAiAgg3ODHHRcB92HuGoqyxPxcpixZhhaKIg?e=ciVHDD",
+    "content": "https://drive.google.com/drive/folders/196fhhDVzxcRQ0fIvCNzQJG2aUNSWIi9L?usp=sharing",
     "showAd": true
   },
   {
     "title": "علم المحاصيل",
-    "content": "https://sciencemenofiaedu-my.sharepoint.com/:f:/g/personal/mohamed_algrawany1701153_science_menofia_edu_eg/EjgmSAH_wf5Ki_2RHlJAfdsBolhvBIWUtNb7BOCFjgWvAg?e=Xj4gsY",
+    "content": "https://drive.google.com/drive/folders/1ZpABnjJ-eX3X7BaltVB_cFqlAzS6_I9I?usp=sharing",
     "showAd": true
   },
   {
     "title": "تصيف نباتات زهرية",
-    "content": "https://sciencemenofiaedu-my.sharepoint.com/:f:/g/personal/mohamed_algrawany1701153_science_menofia_edu_eg/ErY_jOQ-D7ZLqmQSMAoqawYBvJYrYC6Rwqh-qEShkT-Aug?e=N9wI0f",
+    "content": "https://drive.google.com/drive/folders/1zKqw4_GwRAUKqpTbiZbPL_LgVmRGMKG2?usp=sharing",
     "showAd": true
   },
   {
     "title": "تلوث بيئة",
-    "content": "https://sciencemenofiaedu-my.sharepoint.com/:f:/g/personal/mohamed_algrawany1701153_science_menofia_edu_eg/EjfAGa2xHFtDtmuDzIb0vb4BV4lmrsFHsM1oOinwISSjXA?e=f5Z6kX",
+    "content": "https://drive.google.com/drive/folders/10TUzG0iZVwGx3auZ6by6uk8jIospIS8m?usp=sharing",
     "showAd": true
   },
   {
     "title": "اسس كيمياء حيوية",
-    "content": "https://sciencemenofiaedu-my.sharepoint.com/:f:/g/personal/mohamed_algrawany1701153_science_menofia_edu_eg/EneUGnXMT6RGmGe6TsbJF7sB-FzWd7YXP1Xin208-nBxNA?e=XTsOgO",
+    "content": "https://drive.google.com/drive/folders/1g5TJFMg6FI6HKf4AvuK1wKYSh0cSPKFv?usp=sharing",
     "showAd": true
   },
   {
     "title": "فسيولوجيا النمو",
-    "content": "https://sciencemenofiaedu-my.sharepoint.com/:f:/g/personal/mohamed_algrawany1701153_science_menofia_edu_eg/EoewnW91mrFEg0Bg1I5WPjABNYdhuHRA-ETvNVHAAZRXzg?e=XaSRuY",
+    "content": "https://drive.google.com/drive/folders/1xw53VLfld__13AV3CSfhDaUYhEtrcYlx?usp=sharing",
     "showAd": true
   },
   {
     "title": "زراعة انسجة",
-    "content": "https://sciencemenofiaedu-my.sharepoint.com/:f:/g/personal/mohamed_algrawany1701153_science_menofia_edu_eg/EkE2-63oJ-5Ds072I-Hs46ABM8pzmCiP-6hAFcK4lzq_mQ?e=zN4nAd",
+    "content": "https://drive.google.com/drive/folders/10errSLzQWapm1dNoYh6JufoKUv1R180J?usp=sharing",
     "showAd": true
   },
   {
     "title": "بيولوجيا البذور",
-    "content": "https://sciencemenofiaedu-my.sharepoint.com/:f:/g/personal/mohamed_algrawany1701153_science_menofia_edu_eg/EsS3N6EpfcpLsRZsxJaDrDABOwmOpb23xy_Y7hP4_3uO8w?e=v8VRAh",
+    "content": "https://drive.google.com/drive/folders/1iMgemBs1eDU0TjuHIz4dkGrLmmO_sdjT?usp=sharing",
     "showAd": true
   },
   {
     "title": "التطور الجيني",
-    "content": "https://sciencemenofiaedu-my.sharepoint.com/:f:/g/personal/mohamed_algrawany1701153_science_menofia_edu_eg/EjaQZTqifT9EmhaOm1n8C-oBOCDTOkuf_CvqLAthKGT0lw?e=68JWB4",
+    "content": "https://drive.google.com/drive/folders/1Giy4kHWwtxmDZOvp99soKGso-pbEVnvJ?usp=sharing",
     "showAd": true
   },
   {
     "title": "بيئة صحراوية",
-    "content": "https://sciencemenofiaedu-my.sharepoint.com/:f:/g/personal/mohamed_algrawany1701153_science_menofia_edu_eg/Er02Q2c-N7RLiJv9yHpmywUBfAbcjGbwcCdAXrAOj6p6Qw?e=HmFpnW",
+    "content": "https://drive.google.com/drive/folders/19X88uCDRzQUdhoQrV0P2JI-_9ps7hin3?usp=sharing",
     "showAd": true
   },
   {
     "title": "أكتينوميستات",
-    "content": "https://sciencemenofiaedu-my.sharepoint.com/:f:/g/personal/mohamed_algrawany1701153_science_menofia_edu_eg/Eh1Cc9SNTQNOomTtgnVWE-0BQNJE14c6cZok48xG7Ngdkw?e=AEWRbh",
+    "content": "https://drive.google.com/drive/folders/1kx9Z3JooaCp1LP33KnOQN746qG7jcJxH?usp=sharing",
     "showAd": true
   },
   {
     "title": "أنزيمات",
-    "content": "https://sciencemenofiaedu-my.sharepoint.com/:f:/g/personal/mohamed_algrawany1701153_science_menofia_edu_eg/EnteDdltnKZAh7UJzgOR13MBOjYI8qTuosHhvTJl71j8Zw?e=4tanIT",
+    "content": "https://drive.google.com/drive/folders/1WG8qMJMSVu-oY2xTzeI5-q-BvxB5NTZW?usp=sharing",
     "showAd": true
   },
   {
     "title": "فسيولوجيا البكتريا",
-    "content": "https://sciencemenofiaedu-my.sharepoint.com/:f:/g/personal/mohamed_algrawany1701153_science_menofia_edu_eg/EttrTbXoxhxJqmgUqURTMEkBxofSE8GRrhhcudoTb5E3ww?e=FkdOrW",
+    "content": "https://drive.google.com/drive/folders/1LgDSegakUYku66l2zN0N57vS7IiIe5tf?usp=sharing",
     "showAd": true
   },
   {
     "title": "فسيولوجيا الفطريات",
-    "content": "https://sciencemenofiaedu-my.sharepoint.com/:f:/g/personal/mohamed_algrawany1701153_science_menofia_edu_eg/EsBvWJVBq6JGoC7-w7ow4JcBflzGA61Xg_4hhJwhPLLBxw?e=ubssdc",
+    "content": "https://drive.google.com/drive/folders/1638X0ILjAeTTn4icmVMsu-Owlr-bKmdg?usp=sharing",
     "showAd": true
   },
-  {
-    "title": "رياضة عامة",
-    "content": "https://sciencemenofiaedu-my.sharepoint.com/:f:/g/personal/mohamed_algrawany1701153_science_menofia_edu_eg/ElYxbLftVhZJsBuazQ6Rpr4B07A9H9BHvB0wnXnN5zujLA?e=dUTM1b",
-    "showAd": true
-  },
-  {
-    "title": "اسس كيمياء فيزيائية",
-    "content": "https://sciencemenofiaedu-my.sharepoint.com/:f:/g/personal/mohamed_algrawany1701153_science_menofia_edu_eg/EiEw6iCiIN9OsSiS95EiANIBzm8SBKj02t_L4GNZuF1u2g?e=vlPD28",
-    "showAd": true
-  },
+ 
+ 
   {
     "title": "علم خلية و انسجة",
     "content": "https://sciencemenofiaedu-my.sharepoint.com/:f:/g/personal/mohamed_algrawany1701153_science_menofia_edu_eg/Eo7KG62FOSBKrUXLYCb7k2cBYdY9-yn-DUFjs8Zo5f3T-g?e=Mt8LfT",
@@ -227,7 +219,7 @@
   },
   {
     "title": "كيمياء تحليلية1",
-    "content": "https://sciencemenofiaedu-my.sharepoint.com/:f:/g/personal/mohamed_algrawany1701153_science_menofia_edu_eg/EuYE9QPUBHJKpISRjvMUKr4B1wJSLvB1T4coHhoX_Yglpg?e=EGg7aw",
+    "content": "https://drive.google.com/drive/folders/1S_texR4__Eu3lAXdgKpQaOtTQHkjd1nu?usp=sharing",
     "showAd": true
   },
   {
@@ -235,89 +227,37 @@
     "content": "https://sciencemenofiaedu-my.sharepoint.com/:f:/g/personal/mohamed_algrawany1701153_science_menofia_edu_eg/EvC7MQmMGDVBrrvagZZmE2sBWcGGk4wt2gg1oK06AUGS0w?e=GapkFg",
     "showAd": true
   },
-  {
-    "title": "خواص مادة",
-    "content": "https://sciencemenofiaedu-my.sharepoint.com/:f:/g/personal/mohamed_algrawany1701153_science_menofia_edu_eg/EoJ2dtnlFldBtnIH43hQMi4BFquk5qyDts4bRCDbVVwazA?e=lLr3rB",
-    "showAd": true
-  },
-  {
-    "title": "فيزياء تطبيقية 1",
-    "content": "https://sciencemenofiaedu-my.sharepoint.com/:f:/g/personal/mohamed_algrawany1701153_science_menofia_edu_eg/EgF2vvxH4sJJqoszZb_JYAMBRhQ7J2zAFX-6H-pqhFnXWg?e=7xdKNp",
-    "showAd": true
-  },
+  
   {
     "title": "جيولوجيا تاريخية",
     "content": "https://sciencemenofiaedu-my.sharepoint.com/:f:/g/personal/mohamed_algrawany1701153_science_menofia_edu_eg/ElYZFLT3_FpCjiobKmi_WHgBpmFnQ-6m5_CEfxnHQaf81A?e=O6AKZo",
     "showAd": true
   },
-  {
-    "title": "معادلات تفاضلية عادية",
-    "content": "https://sciencemenofiaedu-my.sharepoint.com/:f:/g/personal/mohamed_algrawany1701153_science_menofia_edu_eg/Encf1RbaZ7lJg4kO1TZNsvYBnpKgP5v1Kxn7RYV_vor9OA?e=xthPI4",
+    {
+        "title": "قضايا اجتماعية",
+        "content": "https://drive.google.com/drive/folders/1B03QofwY5yuZs1KrPVL3VH-GED1whp0U?usp=sharing",
+        "showAd": true
+    },
+    {
+        "title": "حقوق انسان",
+        "content": "https://drive.google.com/drive/folders/1oGPQqkp8DpoeUcfaFd_mPuDRSr9T_dxM?usp=sharing",
+        "showAd": true
+    },
+   
+   {
+    "title": "مصريات و آثار ",
+    "content": "https://drive.google.com/drive/folders/1kcG7zAiXBvEEsHU8RPhM8im9b41kw_T3?usp=sharing",
+    "showAd": true
+  },
+  
+{
+    "title": " لغة اجنبية 1",
+    "content": "https://drive.google.com/drive/folders/17fyeRmHTn0QKWhaM9mFn3q1axRFCv5if?usp=sharing",
     "showAd": true
   },
   {
-    "title": "قضايا اجتماعية",
-    "content": "https://sciencemenofiaedu-my.sharepoint.com/:f:/g/personal/mohamed_algrawany1701153_science_menofia_edu_eg/Er2TZ5z_4wxMokOL1IfwphsBa1hUJjf13avanDDYvbOFsA?e=vLCZ1w",
-    "showAd": true
-  },
-  {
-    "title": "جودة",
-    "content": "https://sciencemenofiaedu-my.sharepoint.com/:f:/g/personal/mohamed_algrawany1701153_science_menofia_edu_eg/EqW1chW9xutBkEpN9MKKi8QBx0o_4ZeqgdNy_70OXd55jA?e=44x364",
-    "showAd": true
-  },
-  {
-    "title": "حقوق انسان",
-    "content": "https://sciencemenofiaedu-my.sharepoint.com/:f:/g/personal/mohamed_algrawany1701153_science_menofia_edu_eg/EhjkZ0rD26ROtTZGVBqdVEYBqICzyhDPsVyPuGopCYCgEg?e=N3lTbp",
-    "showAd": true
-  },
-  {
-    "title": "دراسات بيئية",
-    "content": "https://sciencemenofiaedu-my.sharepoint.com/:f:/g/personal/mohamed_algrawany1701153_science_menofia_edu_eg/EvGkHR6HslpKixBvpv-c4Q4BN8YsWNtJe6IVZHr9ljRHSw?e=F9MV6b",
-    "showAd": true
-  },
-  {
-    "title": "دراسات اسلامية",
-    "content": "https://sciencemenofiaedu-my.sharepoint.com/:f:/g/personal/mohamed_algrawany1701153_science_menofia_edu_eg/EoNoCJHORN9CmyxHCDxnHzQByqtJ5IFHtPFaRIUbtZGwRw?e=IjZYGv",
-    "showAd": true
-  },
-  {
-    "title": "احصاء",
-    "content": "https://sciencemenofiaedu-my.sharepoint.com/:f:/g/personal/mohamed_algrawany1701153_science_menofia_edu_eg/ErfjHuJX8uZPnNvAbHt92qsBa_mogKPJuSOQbun6YXqIPg?e=VGbDkU",
-    "showAd": true
-  },
-  {
-    "title": "مصريات و آثار",
-    "content": "https://sciencemenofiaedu-my.sharepoint.com/:f:/g/personal/mohamed_algrawany1701153_science_menofia_edu_eg/Ej-VYAFK3IxNkB3pCKqX9CQBRhcm046JswU3qV0YKQLi8A?e=oA4FI3",
-    "showAd": true
-  },
-  {
-    "title": "حاسب الى 2",
-    "content": "https://sciencemenofiaedu-my.sharepoint.com/:f:/g/personal/mohamed_algrawany1701153_science_menofia_edu_eg/ElbRzCMEIc5NvRy9rgq4v58B0MA8ZpZxcEFXQjx1uCVlqA?e=3Nc8l8",
-    "showAd": true
-  },
-  {
-    "title": "لغة اجنبية 1",
-    "content": "https://sciencemenofiaedu-my.sharepoint.com/:f:/g/personal/mohamed_algrawany1701153_science_menofia_edu_eg/Eg7UIKb2H1dIqKtU-kIDwOwBIfU9iWJBw1xR14anT5L0Aw?e=dnWtXP",
-    "showAd": true
-  },
-  {
-    "title": "لغة اجنبية2",
-    "content": "https://sciencemenofiaedu-my.sharepoint.com/:f:/g/personal/mohamed_algrawany1701153_science_menofia_edu_eg/EnCKV3wzjwhNpA8bYMFdS1wB2gNOudiwQjMTmAA0b3hTWg?e=5NmhE4",
-    "showAd": true
-  },
-  {
-    "title": "حاسب الي ١",
-    "content": "https://sciencemenofiaedu-my.sharepoint.com/:f:/g/personal/mohamed_algrawany1701153_science_menofia_edu_eg/EhhpfgCVzeNKoH0PnYzuH0oBFfDUaCpwW0TDurw0f1Rl_w?e=ACVMxy",
-    "showAd": true
-  },
-  {
-    "title": "تصوير ضوئي",
-    "content": "https://sciencemenofiaedu-my.sharepoint.com/:f:/g/personal/mohamed_algrawany1701153_science_menofia_edu_eg/Em_5-WjkjsxJiUDakECiZt8BStBOErJr9AeuyghpXZdt_Q?e=lFSUWx",
-    "showAd": true
-  },
-  {
-    "title": "تاريخ علم",
-    "content": "https://sciencemenofiaedu-my.sharepoint.com/:f:/g/personal/mohamed_algrawany1701153_science_menofia_edu_eg/EuQovFrjOrJPlpT2zk6TPpEBenMSHP3L10FyQAHcmrEJjQ?e=PfphK8",
+    "title": "لغة اجنبية2 ",
+    "content": "https://drive.google.com/drive/folders/1pmKyZu_fdkigvWVKoTrnGbwavaYBHPU6?usp=sharing",
     "showAd": true
   }
 

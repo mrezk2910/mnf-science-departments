@@ -372,7 +372,7 @@
     },
     {
         "title": "تاريخ علم",
-        "content": "https://sciencemenofiaedu-my.sharepoint.com/:f:/g/personal/mohamedrizk33943_science_menofia_edu_eg/EquHrTVpYqNLptv9VkptlJgBA8u2ILv_I3fZoJD6CWM91Q?e=z2qSLz",
+        "content": "https://drive.google.com/drive/folders/1MAy1pSmXF36UCa30ceFqTvGSatfDe8iR?usp=sharing",
         "showAd": true
     }
 

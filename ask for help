@@ -21,6 +21,17 @@
       "specialization": "الكيمياء",
       "university": "جامعة المنوفية",
       "bio": "متخصصة في رسومات السكاشن واعادة تبيض المحاضرات وتفريغ ريكوردات المحاضرات وحل الشيتات"
+    },
+{
+      "id": "o20FaR7ytSXBdbajx5fZFTuKspQ2",
+      "name": ياسمين",
+      "avatarUrl": "https://ui-avatars.com/api/?name=سارة+علي",
+      "services": ["تبيض المحاضرات", "تفريغ الريكوردات"],
+      "rating": 4.9,
+      "completedRequests": 32,
+      "specialization": "الفيزياء",
+      "university": "جامعة المنوفية",
+      "bio": "متخصصة في اعادة تبيض المحاضرات وتفريغ ريكوردات المحاضرات"
     }
   ]
 }

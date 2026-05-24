@@ -26,7 +26,7 @@
       "id": "o20FaR7ytSXBdbajx5fZFTuKspQ2",
       "name": "ياسمين",
       "avatarUrl": "https://ui-avatars.com/api/?name=سارة+علي",
-      "services": ["تبيض المحاضرات", "تفريغ الريكوردات"],
+      "services":["writeSheet", "solveSheet"],
       "rating": 4.9,
       "completedRequests": 32,
       "specialization": "الفيزياء",

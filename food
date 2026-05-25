@@ -1,4 +1,3 @@
-```json
 [
   {
     "title": "شكشوكة مصرية",
@@ -371,6 +370,492 @@
       "مكسرات على الوش تبقى حلوة."
     ],
     "image": "https://example.com/mhalabia.jpg"
+  },
+  {
+    "title": "مسقعة سريعة",
+    "category": "غدا",
+    "difficulty": "متوسط",
+    "servings": 3,
+    "preparationTime": 20,
+    "cookingTime": 30,
+    "ingredients": [
+      "2 باذنجان",
+      "2 طماطم",
+      "فلفل أخضر",
+      "ثوم",
+      "صلصة"
+    ],
+    "steps": [
+      "قطع الباذنجان واقليه.",
+      "حمر الفلفل.",
+      "اعمل صلصة بالطماطم والثوم.",
+      "رص المكونات في صينية.",
+      "ادخلها الفرن 15 دقيقة."
+    ],
+    "tips": [
+      "ممكن تضيف لحمة مفرومة."
+    ],
+    "image": "https://example.com/moussaka.jpg"
+  },
+  {
+    "title": "حمص الشام",
+    "category": "مشروبات",
+    "difficulty": "سهل",
+    "servings": 4,
+    "preparationTime": 10,
+    "cookingTime": 40,
+    "ingredients": [
+      "حمص",
+      "كمون",
+      "شطة",
+      "ليمون",
+      "ثوم"
+    ],
+    "steps": [
+      "انقع الحمص.",
+      "اسلقه لحد ما يستوي.",
+      "ضيف التوابل.",
+      "قدمه سخن."
+    ],
+    "tips": [
+      "شطة زيادة تدفي جدًا."
+    ],
+    "image": "https://example.com/hummus-drink.jpg"
+  },
+  {
+    "title": "مكرونة بشاميل",
+    "category": "غدا",
+    "difficulty": "متوسط",
+    "servings": 5,
+    "preparationTime": 25,
+    "cookingTime": 35,
+    "ingredients": [
+      "مكرونة قلم",
+      "لبن",
+      "دقيق",
+      "زبدة",
+      "لحمة مفرومة"
+    ],
+    "steps": [
+      "اسلق المكرونة.",
+      "حمر اللحمة.",
+      "اعمل البشاميل.",
+      "رص الطبقات.",
+      "ادخلها الفرن."
+    ],
+    "tips": [
+      "جبنة على الوش تخليها أحلى."
+    ],
+    "image": "https://example.com/bechamel.jpg"
+  },
+  {
+    "title": "فطير بالعسل",
+    "category": "حلويات",
+    "difficulty": "متوسط",
+    "servings": 3,
+    "preparationTime": 30,
+    "cookingTime": 20,
+    "ingredients": [
+      "دقيق",
+      "زبدة",
+      "عسل",
+      "لبن"
+    ],
+    "steps": [
+      "اعجن الدقيق.",
+      "افرد العجين.",
+      "ادهن بالزبدة.",
+      "ادخله الفرن.",
+      "ضيف العسل."
+    ],
+    "tips": [
+      "قشطة معاه تبقى عظيمة."
+    ],
+    "image": "https://example.com/feteer.jpg"
+  },
+  {
+    "title": "سلطة طحينة",
+    "category": "سلاطات",
+    "difficulty": "سهل جدًا",
+    "servings": 2,
+    "preparationTime": 5,
+    "cookingTime": 0,
+    "ingredients": [
+      "طحينة",
+      "ليمون",
+      "خل",
+      "ثوم",
+      "مياه"
+    ],
+    "steps": [
+      "اخلط الطحينة بالمياه.",
+      "ضيف الليمون والثوم.",
+      "قلب لحد ما القوام يبقى ناعم."
+    ],
+    "tips": [
+      "كمون بسيط يدي نكهة حلوة."
+    ],
+    "image": "https://example.com/tahini.jpg"
+  },
+  {
+    "title": "تورلي خضار",
+    "category": "غدا",
+    "difficulty": "سهل",
+    "servings": 4,
+    "preparationTime": 20,
+    "cookingTime": 40,
+    "ingredients": [
+      "بطاطس",
+      "كوسة",
+      "جزر",
+      "طماطم",
+      "بصل"
+    ],
+    "steps": [
+      "قطع الخضار.",
+      "رصها في صينية.",
+      "ضيف الصلصة.",
+      "ادخلها الفرن."
+    ],
+    "tips": [
+      "ممكن تضيف فراخ."
+    ],
+    "image": "https://example.com/torly.jpg"
+  },
+  {
+    "title": "سجق شرقي",
+    "category": "غدا",
+    "difficulty": "سهل",
+    "servings": 2,
+    "preparationTime": 10,
+    "cookingTime": 15,
+    "ingredients": [
+      "سجق",
+      "فلفل",
+      "طماطم",
+      "ثوم"
+    ],
+    "steps": [
+      "قطع السجق.",
+      "شوح الثوم والفلفل.",
+      "ضيف السجق والطماطم.",
+      "سيبه يستوي."
+    ],
+    "tips": [
+      "عيش بلدي معاه ممتاز."
+    ],
+    "image": "https://example.com/sausage.jpg"
+  },
+  {
+    "title": "شاي كرك",
+    "category": "مشروبات",
+    "difficulty": "سهل جدًا",
+    "servings": 2,
+    "preparationTime": 5,
+    "cookingTime": 10,
+    "ingredients": [
+      "شاي",
+      "لبن",
+      "حبهان",
+      "قرفة",
+      "سكر"
+    ],
+    "steps": [
+      "اغلي المياه بالشاي.",
+      "ضيف اللبن والتوابل.",
+      "سيبه يغلي شوية.",
+      "صفّيه وقدمه."
+    ],
+    "tips": [
+      "زنجبيل بسيط يدي طعم جامد."
+    ],
+    "image": "https://example.com/karak.jpg"
+  },
+  {
+    "title": "كريب فراخ",
+    "category": "سناكس",
+    "difficulty": "متوسط",
+    "servings": 2,
+    "preparationTime": 20,
+    "cookingTime": 15,
+    "ingredients": [
+      "دقيق",
+      "بيض",
+      "لبن",
+      "فراخ",
+      "جبنة"
+    ],
+    "steps": [
+      "اعمل خليط الكريب.",
+      "اطبخه في طاسة.",
+      "احشيه بالفراخ والجبنة.",
+      "حمّره شوية."
+    ],
+    "tips": [
+      "صوص رانش يليق جدًا."
+    ],
+    "image": "https://example.com/crepe.jpg"
+  },
+  {
+    "title": "رز معمر",
+    "category": "غدا",
+    "difficulty": "متوسط",
+    "servings": 5,
+    "preparationTime": 15,
+    "cookingTime": 60,
+    "ingredients": [
+      "رز",
+      "لبن",
+      "قشطة",
+      "زبدة"
+    ],
+    "steps": [
+      "اخلط الرز باللبن.",
+      "ضيف القشطة.",
+      "ادهن الطاجن زبدة.",
+      "ادخله الفرن."
+    ],
+    "tips": [
+      "وشه المحمر أحلى حاجة."
+    ],
+    "image": "https://example.com/meamar.jpg"
+  },
+  {
+    "title": "كوكيز سريعة",
+    "category": "حلويات",
+    "difficulty": "سهل",
+    "servings": 4,
+    "preparationTime": 15,
+    "cookingTime": 12,
+    "ingredients": [
+      "دقيق",
+      "سكر",
+      "زبدة",
+      "بيض",
+      "شوكولاتة"
+    ],
+    "steps": [
+      "اخلط المكونات.",
+      "شكل الكوكيز.",
+      "حطها في صينية.",
+      "ادخلها الفرن."
+    ],
+    "tips": [
+      "سيب مسافات بينها."
+    ],
+    "image": "https://example.com/cookies.jpg"
+  },
+  {
+    "title": "ملوخية",
+    "category": "غدا",
+    "difficulty": "متوسط",
+    "servings": 4,
+    "preparationTime": 15,
+    "cookingTime": 20,
+    "ingredients": [
+      "ملوخية",
+      "ثوم",
+      "كزبرة",
+      "شوربة"
+    ],
+    "steps": [
+      "سخن الشوربة.",
+      "ضيف الملوخية.",
+      "اعمل التقلية.",
+      "ضيفها للحلة."
+    ],
+    "tips": [
+      "بلاش تغلي كتير."
+    ],
+    "image": "https://example.com/molokhia.jpg"
+  },
+  {
+    "title": "سموثي فراولة",
+    "category": "مشروبات",
+    "difficulty": "سهل جدًا",
+    "servings": 1,
+    "preparationTime": 5,
+    "cookingTime": 0,
+    "ingredients": [
+      "فراولة",
+      "لبن",
+      "سكر",
+      "تلج"
+    ],
+    "steps": [
+      "حط كل المكونات في الخلاط.",
+      "اضرب كويس.",
+      "قدمه بارد."
+    ],
+    "tips": [
+      "موز بسيط يدي قوام أحلى."
+    ],
+    "image": "https://example.com/strawberry.jpg"
+  },
+  {
+    "title": "فراخ مشوية",
+    "category": "غدا",
+    "difficulty": "متوسط",
+    "servings": 4,
+    "preparationTime": 25,
+    "cookingTime": 45,
+    "ingredients": [
+      "فراخ",
+      "زبادي",
+      "ليمون",
+      "بهارات"
+    ],
+    "steps": [
+      "تبّل الفراخ.",
+      "سيبها تتشرب.",
+      "ادخلها الفرن.",
+      "حمّر الوش."
+    ],
+    "tips": [
+      "بطاطس في الصينية معاها تبقى عظيمة."
+    ],
+    "image": "https://example.com/grilled-chicken.jpg"
+  },
+  {
+    "title": "بليلة",
+    "category": "حلويات",
+    "difficulty": "سهل",
+    "servings": 3,
+    "preparationTime": 10,
+    "cookingTime": 45,
+    "ingredients": [
+      "قمح بليلة",
+      "لبن",
+      "سكر",
+      "قرفة"
+    ],
+    "steps": [
+      "اسلق القمح.",
+      "ضيف اللبن والسكر.",
+      "قدمه سخن."
+    ],
+    "tips": [
+      "مكسرات على الوش تبقى ممتازة."
+    ],
+    "image": "https://example.com/belela.jpg"
+  },
+  {
+    "title": "ساندوتش بطاطس سوري",
+    "category": "سناكس",
+    "difficulty": "سهل جدًا",
+    "servings": 1,
+    "preparationTime": 10,
+    "cookingTime": 10,
+    "ingredients": [
+      "عيش سوري",
+      "بطاطس محمرة",
+      "تومية",
+      "مخلل"
+    ],
+    "steps": [
+      "حط البطاطس في العيش.",
+      "ضيف التومية.",
+      "لف الساندوتش.",
+      "حمّره على الجريل."
+    ],
+    "tips": [
+      "شطة تضيف طعم جامد."
+    ],
+    "image": "https://example.com/potato-wrap.jpg"
+  },
+  {
+    "title": "بيض أومليت بالخضار",
+    "category": "فطار",
+    "difficulty": "سهل جدًا",
+    "servings": 1,
+    "preparationTime": 5,
+    "cookingTime": 7,
+    "ingredients": [
+      "بيض",
+      "فلفل",
+      "طماطم",
+      "بصل"
+    ],
+    "steps": [
+      "اضرب البيض.",
+      "ضيف الخضار.",
+      "حطه في الطاسة.",
+      "اطوه وقدمه."
+    ],
+    "tips": [
+      "جبنة شيدر تبقى حلوة جدًا."
+    ],
+    "image": "https://example.com/omelette.jpg"
+  },
+  {
+    "title": "عصير مانجو",
+    "category": "مشروبات",
+    "difficulty": "سهل جدًا",
+    "servings": 2,
+    "preparationTime": 5,
+    "cookingTime": 0,
+    "ingredients": [
+      "مانجو",
+      "سكر",
+      "تلج",
+      "مياه"
+    ],
+    "steps": [
+      "قشر المانجو.",
+      "اضربها بالخلاط.",
+      "ضيف السكر والتلج.",
+      "قدمه بارد."
+    ],
+    "tips": [
+      "لبن بدل المياه يدي قوام كريمي."
+    ],
+    "image": "https://example.com/mango.jpg"
+  },
+  {
+    "title": "برجر منزلي",
+    "category": "غدا",
+    "difficulty": "متوسط",
+    "servings": 3,
+    "preparationTime": 20,
+    "cookingTime": 15,
+    "ingredients": [
+      "لحمة مفرومة",
+      "بصل",
+      "بهارات",
+      "خبز برجر"
+    ],
+    "steps": [
+      "تبّل اللحمة.",
+      "شكلها دوائر.",
+      "اشويها أو حمرها.",
+      "حطها في الخبز."
+    ],
+    "tips": [
+      "جبنة شيدر ترفع المستوى جدًا."
+    ],
+    "image": "https://example.com/burger.jpg"
+  },
+  {
+    "title": "ذرة بالزبدة",
+    "category": "سناكس",
+    "difficulty": "سهل جدًا",
+    "servings": 2,
+    "preparationTime": 5,
+    "cookingTime": 10,
+    "ingredients": [
+      "ذرة",
+      "زبدة",
+      "ملح"
+    ],
+    "steps": [
+      "اسلق الذرة.",
+      "ضيف الزبدة.",
+      "رش الملح.",
+      "قدمه سخن."
+    ],
+    "tips": [
+      "شطة ولمون يطلعوا الطعم جامد."
+    ],
+    "image": "https://example.com/corn.jpg"
   }
 ]
-```

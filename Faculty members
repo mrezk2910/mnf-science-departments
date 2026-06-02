@@ -1,0 +1,58 @@
+[
+  {
+    "id": 1,
+    "name": "أ.د. أحمد جابر",
+    "position": "عميد الكلية",
+    "department": "قسم الكيمياء",
+    "imagePath": "assets/images/faculty_1.jpg"
+  },
+  {
+    "id": 2,
+    "name": "أ.د. محمد عبدالله",
+    "position": "وكيل الكلية لشؤون التعليم والطلاب",
+    "department": "قسم الفيزياء",
+    "imagePath": "assets/images/faculty_2.jpg"
+  },
+  {
+    "id": 3,
+    "name": "أ.د. هالة رشاد",
+    "position": "رئيس القسم",
+    "department": "قسم الرياضيات",
+    "imagePath": "assets/images/faculty_3.jpg"
+  },
+  {
+    "id": 4,
+    "name": "أ.د. ياسر محمود",
+    "position": "رئيس القسم",
+    "department": "قسم الفيزياء",
+    "imagePath": "assets/images/faculty_4.jpg"
+  },
+  {
+    "id": 5,
+    "name": "أ.د. سحر نبيل",
+    "position": "رئيس القسم",
+    "department": "قسم الكيمياء",
+    "imagePath": "assets/images/faculty_5.jpg"
+  },
+  {
+    "id": 6,
+    "name": "أ.د. عمرو سامي",
+    "position": "رئيس القسم",
+    "department": "قسم الجيولوجيا",
+    "imagePath": "assets/images/faculty_6.jpg"
+  },
+  {
+    "id": 7,
+    "name": "د. منى عبدالحميد",
+    "position": "أستاذ مساعد",
+    "department": "قسم الميكروبيولوجي",
+    "imagePath": "assets/images/faculty_7.jpg"
+  },
+  {
+    "id": 8,
+    "name": "د. خالد محمد",
+    "position": "مدرس",
+    "department": "قسم علوم الحاسب",
+    "imagePath": "assets/images/faculty_8.jpg"
+  }
+]

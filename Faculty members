@@ -1,12 +1,14 @@
 [
   {
+ {
     "id": 1,
-    "name": "أ.د. وائل عامر",
-    "position": "استاذ دكتور ",
-    "department": "قسم الرياضيات",
-    "imagePath": "images/DrWail.png",
-    "phone": "01066960257"
+    "name": "د . عمرو مسعد",
+    "position": "أستاذ مساعد",
+    "department": "اقسم الرياضيات البحتة وعلوم الحاسب",
+    "imagePath": "images/DrAmrMossad.png",
+    "phone": "01025516233"
   },
+
   {
     "id": 2,
     "name": "د. رشا حجاج",
@@ -33,35 +35,36 @@
   },
   {
     "id": 5,
-    "name": "أ.د. سحر نبيل",
-    "position": "رئيس القسم",
-    "department": "قسم الكيمياء",
-    "imagePath": "images/DrRasha.jpeg",
-    "phone": "01013384850"
+    "name": "أ.د. علي ابو بكر",
+    "position": "استاذ دكتور",
+    "department": "قسم الرياضيات",
+    "imagePath": "images/DrAliAboBakr.png",
+    "phone": "01019688195"
   },
   {
     "id": 6,
-    "name": "أ.د. عمرو سامي",
-    "position": "رئيس القسم",
-    "department": "قسم الجيولوجيا",
-    "imagePath": "images/DRRASHA.jpeg",
-    "phone": "01013384850"
+    "name": "أ.د. ايهاب سليمة",
+    "position": "استاذ دكتور",
+    "department": "قسم الرياضيات",
+    "imagePath": "images/DrEhabSelema.png",
+    "phone": "01097317123"
   },
-  {
+{
     "id": 7,
-    "name": "د. منى عبدالحميد",
-    "position": "أستاذ مساعد",
-    "department": "قسم الميكروبيولوجي",
-    "imagePath": "images/DRRASHA.jpeg",
-    "phone": "01013384850"
+    "name": "أ.د. وائل عامر",
+    "position": "استاذ دكتور ",
+    "department": "قسم الرياضيات",
+    "imagePath": "images/DrWail.png",
+    "phone": "01066960257"
   },
+ 
   {
     "id": 8,
-    "name": "د. خالد محمد",
-    "position": "مدرس",
-    "department": "قسم علوم الحاسب",
-    "imagePath": "images/machine.jpg",
-    "phone": "01013384850"
+    "name": "د. امين العدوي",
+    "position": "استاذ مساعد",
+    "department": "قسم الفيزياء",
+    "imagePath": "images/DrAminEladawy.jpg",
+    "phone": "01002660560"
   },
   {
     "id": 9,

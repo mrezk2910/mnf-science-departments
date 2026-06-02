@@ -1,0 +1,32 @@
+[
+  {
+    "type": "phone",
+    "value": "0482222222",
+    "icon": "Icons.phone_rounded",
+    "label": "الهاتف"
+  },
+  {
+    "type": "phone",
+    "value": "0482233333",
+    "icon": "Icons.fax_rounded",
+    "label": "فاكس"
+  },
+  {
+    "type": "email",
+    "value": "science@menofia.edu.eg",
+    "icon": "Icons.email_rounded",
+    "label": "البريد الإلكتروني"
+  },
+  {
+    "type": "location",
+    "value": "شبين الكوم، المنوفية، مصر",
+    "icon": "Icons.location_on_rounded",
+    "label": "العنوان"
+  },
+  {
+    "type": "website",
+    "value": "www.menofia.edu.eg",
+    "icon": "Icons.language_rounded",
+    "label": "الموقع الإلكتروني"
+  }
+]

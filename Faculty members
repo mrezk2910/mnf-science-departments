@@ -25,11 +25,11 @@
   },
   {
     "id": 4,
-    "name": "أ.د. ياسر محمود",
-    "position": "رئيس القسم",
-    "department": "قسم الفيزياء",
-    "imagePath": "images/DRRASHA.jpeg",
-    "phone": "01013384850"
+    "name":"  د.عبدالعزيز الدوكاني",
+    "position": "معيد",
+    "department": "قسم الرياضيات البحتة وعلوم الحاسب",
+    "imagePath": "images/DrAbdelaziz.jpg",
+    "phone": "01014705566"
   },
   {
     "id": 5,

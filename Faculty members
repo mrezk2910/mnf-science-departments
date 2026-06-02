@@ -4,12 +4,12 @@
     "name": "أ.د. أحمد جابر",
     "position": "عميد الكلية",
     "department": "قسم الكيمياء",
-    "imagePath": "",
+    "imagePath": "images/DrRasha.jpeg",
     "phone": "01016415213384850"
   },
   {
     "id": 2,
-    "name": "أ.د. رشا حجاج",
+    "name": "د. رشا حجاج",
     "position": "معيدة",
     "department": "قسم الرياضيات البحتة وعلوم الحاسب",
     "imagePath": "images/DrRasha.jpeg",

@@ -1,11 +1,11 @@
 [
   {
     "id": 1,
-    "name": "أ.د. أحمد جابر",
-    "position": "عميد الكلية",
-    "department": "قسم الكيمياء",
-    "imagePath": "images/DRRASHA.jpeg",
-    "phone": "01016415213384850"
+    "name": "أ.د. وائل عامر",
+    "position": "استاذ دكتور ",
+    "department": "قسم الرياضيات",
+    "imagePath": "images/DrWail.png",
+    "phone": "01066960257"
   },
   {
     "id": 2,

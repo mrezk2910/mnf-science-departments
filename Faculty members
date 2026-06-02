@@ -9,11 +9,11 @@
   },
   {
     "id": 2,
-    "name": "أ.د. محمد عبدالله",
-    "position": "وكيل الكلية لشؤون التعليم والطلاب",
-    "department": "قسم الفيزياء",
-    "imagePath": "images/flutter.jpg",
-    "phone": "01013384850"
+    "name": "أ.د. رشا حجاج",
+    "position": "معيدة",
+    "department": "قسم الرياضيات البحتة وعلوم الحاسب",
+    "imagePath": "images/dr rasha.jpeg",
+    "phone": "01004754167"
   },
   {
     "id": 3,

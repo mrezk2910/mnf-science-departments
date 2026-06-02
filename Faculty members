@@ -5,14 +5,14 @@
     "position": "عميد الكلية",
     "department": "قسم الكيمياء",
     "imagePath": "images/c#.jpg",
-    "phone": "01013384850"
+    "phone": "01016415213384850"
   },
   {
     "id": 2,
     "name": "أ.د. محمد عبدالله",
     "position": "وكيل الكلية لشؤون التعليم والطلاب",
     "department": "قسم الفيزياء",
-    "imagePath": "assets/images/faculty_2.jpg",
+    "imagePath": "images/flutter.jpg",
     "phone": "01013384850"
   },
   {
@@ -20,7 +20,7 @@
     "name": "أ.د. هالة رشاد",
     "position": "رئيس القسم",
     "department": "قسم الرياضيات",
-    "imagePath": "assets/images/faculty_3.jpg",
+    "imagePath": "images/dp.png",
     "phone": "01013384850"
   },
   {
@@ -28,7 +28,7 @@
     "name": "أ.د. ياسر محمود",
     "position": "رئيس القسم",
     "department": "قسم الفيزياء",
-    "imagePath": "assets/images/faculty_4.jpg",
+    "imagePath": "images/machine.jpg",
     "phone": "01013384850"
   },
   {
@@ -36,7 +36,7 @@
     "name": "أ.د. سحر نبيل",
     "position": "رئيس القسم",
     "department": "قسم الكيمياء",
-    "imagePath": "assets/images/faculty_5.jpg",
+    "imagePath": "images/machine.jpg",
     "phone": "01013384850"
   },
   {

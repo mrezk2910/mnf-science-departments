@@ -1,14 +1,12 @@
 [
-  
- {
+  {
     "id": 1,
-    "name": "د . عمرو مسعد",
+    "name": "د. عمرو مسعد",
     "position": "أستاذ مساعد",
-    "department": "اقسم الرياضيات البحتة وعلوم الحاسب",
+    "department": "قسم الرياضيات البحتة وعلوم الحاسب",
     "imagePath": "images/DrAmrMossad.png",
     "phone": "01025516233"
   },
-
   {
     "id": 2,
     "name": "د. رشا حجاج",
@@ -19,15 +17,15 @@
   },
   {
     "id": 3,
-    "name": "د . اية زهرة",
+    "name": "د. آية زهرة",
     "position": "دكتورة جامعية",
-    "department": "قسم الرياضيات البحتة وعاوم الحاسب ",
+    "department": "قسم الرياضيات البحتة وعلوم الحاسب",
     "imagePath": "images/DRayaZahra.png",
     "phone": "01097037858"
   },
   {
     "id": 4,
-    "name":"  د.عبدالعزيز الدوكاني",
+    "name": "د. عبدالعزيز الدوكاني",
     "position": "معيد",
     "department": "قسم الرياضيات البحتة وعلوم الحاسب",
     "imagePath": "images/DrAbdelaziz.jpg",
@@ -49,15 +47,14 @@
     "imagePath": "images/DrEhabSelema.png",
     "phone": "01097317123"
   },
-{
+  {
     "id": 7,
     "name": "أ.د. وائل عامر",
-    "position": "استاذ دكتور ",
+    "position": "استاذ دكتور",
     "department": "قسم الرياضيات",
     "imagePath": "images/DrWail.png",
     "phone": "01066960257"
   },
- 
   {
     "id": 8,
     "name": "د. امين العدوي",

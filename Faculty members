@@ -5,7 +5,14 @@
     "position": "أستاذ مساعد",
     "department": "قسم الرياضيات البحتة وعلوم الحاسب",
     "imagePath": "images/DrAmrMossad.png",
-    "phone": "01025516233"
+    "phone": "01025516233",
+    "groups": [
+      {
+        "name": "جروب محاضرات الرياضيات",
+        "url": "https://chat.whatsapp.com/XXXXX1",
+        "description": "محتوى المحاضرات والمراجعات"
+      }
+    ]
   },
   {
     "id": 2,
@@ -13,7 +20,14 @@
     "position": "معيدة",
     "department": "قسم الرياضيات البحتة وعلوم الحاسب",
     "imagePath": "images/DRRASHA.jpeg",
-    "phone": "01004754167"
+    "phone": "01004754167",
+    "groups": [
+      {
+        "name": "جروب التدريبات العملية",
+        "url": "https://chat.whatsapp.com/XXXXX2",
+        "description": "تدريبات وتمارين عملية"
+      }
+    ]
   },
   {
     "id": 3,
@@ -21,7 +35,14 @@
     "position": "دكتورة جامعية",
     "department": "قسم الرياضيات البحتة وعلوم الحاسب",
     "imagePath": "images/DRayaZahra.png",
-    "phone": "01097037858"
+    "phone": "01097037858",
+    "groups": [
+      {
+        "name": "جروب المناقشات العلمية",
+        "url": "https://chat.whatsapp.com/XXXXX3",
+        "description": "مناقشات وحلول المسائل"
+      }
+    ]
   },
   {
     "id": 4,
@@ -29,7 +50,14 @@
     "position": "معيد",
     "department": "قسم الرياضيات البحتة وعلوم الحاسب",
     "imagePath": "images/DrAbdelaziz.jpg",
-    "phone": "01014705566"
+    "phone": "01014705566",
+    "groups": [
+      {
+        "name": "جروب المتابعة الأكاديمية",
+        "url": "https://chat.whatsapp.com/XXXXX4",
+        "description": "متابعة الطلاب والواجبات"
+      }
+    ]
   },
   {
     "id": 5,
@@ -37,7 +65,19 @@
     "position": "استاذ دكتور",
     "department": "قسم الرياضيات",
     "imagePath": "images/DrAliAboBakr.png",
-    "phone": "01019688195"
+    "phone": "01019688195",
+    "groups": [
+      {
+        "name": "جروب الرياضيات المتقدمة",
+        "url": "https://chat.whatsapp.com/XXXXX5",
+        "description": "محاضرات الرياضيات المتقدمة"
+      },
+      {
+        "name": "جروب الأبحاث العلمية",
+        "url": "https://chat.whatsapp.com/XXXXX6",
+        "description": "مناقشة الأبحاث والمشاريع"
+      }
+    ]
   },
   {
     "id": 6,
@@ -45,7 +85,14 @@
     "position": "استاذ دكتور",
     "department": "قسم الرياضيات",
     "imagePath": "images/DrEhabSelema.png",
-    "phone": "01097317123"
+    "phone": "01097317123",
+    "groups": [
+      {
+        "name": "جروب التحليل الرياضي",
+        "url": "https://chat.whatsapp.com/XXXXX7",
+        "description": "محاضرات التحليل الرياضي"
+      }
+    ]
   },
   {
     "id": 7,
@@ -53,7 +100,19 @@
     "position": "استاذ دكتور",
     "department": "قسم الرياضيات",
     "imagePath": "images/DrWail.png",
-    "phone": "01066960257"
+    "phone": "01066960257",
+    "groups": [
+      {
+        "name": "جروب الجبر والهندسة",
+        "url": "https://chat.whatsapp.com/XXXXX8",
+        "description": "محاضرات الجبر والهندسة"
+      },
+      {
+        "name": "جروب الإعلانات الهامة",
+        "url": "https://chat.whatsapp.com/XXXXX9",
+        "description": "للإعلانات والمواعيد المهمة"
+      }
+    ]
   },
   {
     "id": 8,
@@ -61,7 +120,19 @@
     "position": "استاذ مساعد",
     "department": "قسم الفيزياء",
     "imagePath": "images/DrAminEladawy.jpg",
-    "phone": "01002660560"
+    "phone": "01002660560",
+    "groups": [
+      {
+        "name": "جروب الفيزياء العامة",
+        "url": "https://chat.whatsapp.com/XXXXX10",
+        "description": "محتوى مقرر الفيزياء"
+      },
+      {
+        "name": "جروب المعمل الفيزيائي",
+        "url": "https://chat.whatsapp.com/XXXXX11",
+        "description": "تنسيق التدريبات المعملية"
+      }
+    ]
   },
   {
     "id": 9,
@@ -69,6 +140,23 @@
     "position": "أستاذ علوم الحاسب",
     "department": "قسم علوم الحاسب",
     "imagePath": "images/machine.jpg",
-    "phone": "01013384850"
+    "phone": "01013384850",
+    "groups": [
+      {
+        "name": "جروب علوم الحاسب",
+        "url": "https://chat.whatsapp.com/XXXXX12",
+        "description": "محاضرات علوم الحاسب"
+      },
+      {
+        "name": "جروب مشاريع البرمجة",
+        "url": "https://chat.whatsapp.com/XXXXX13",
+        "description": "مناقشة مشاريع البرمجة"
+      },
+      {
+        "name": "جروب التدريب العملي",
+        "url": "https://chat.whatsapp.com/XXXXX14",
+        "description": "تدريبات عملية وتطبيقات"
+      }
+    ]
   }
 ]

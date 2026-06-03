@@ -141,11 +141,11 @@
   },
   {
     "id": 9,
-    "name": "أ.د. محمد رزق",
+    "name": "أ.د.عادل رشاد",
     "position": "أستاذ علوم الحاسب",
-    "department": "قسم علوم الحاسب",
-    "imagePath": "images/machine.jpg",
-    "phone": "01013384850",
+    "department": "قسم الرياضيات ",
+    "imagePath": "images/DrAdelRashed.png",
+    "phone": "01002345743",
     "groups": [
       {
         "name": "جروب علوم الحاسب",

@@ -347,20 +347,21 @@
   {
     "title": "تحليل ريااضي 1 (DR.ASHRAF IBRAHIM)",
     "showAd": true,
-    "thumbnailUrl": "https://i.ytimg.com/vi/jAUAtjTyWmI/sddefault.jpg"
+    "thumbnailUrl": "https://i.ytimg.com/vi/jAUAtjTyWmI/sddefault.jpg",
     "jsonUrl": "https://raw.githubusercontent.com/mrezk2910/jsonLinks/refs/heads/main/%D8%A7%D9%84%D8%AA%D9%81%D8%A7%D8%B6%D9%84%20differentiation.json"
 
   },
  {
     "title": "تحليل ريااضي 1 (Nora Alaa)",
     "showAd": true,
-    "thumbnailUrl": "https://i.ytimg.com/vi/9OKBXDpIFGs/maxresdefault.jpg"
+    "thumbnailUrl": "https://i.ytimg.com/vi/9OKBXDpIFGs/maxresdefault.jpg",
     "jsonUrl": "https://raw.githubusercontent.com/mrezk2910/jsonLinks/refs/heads/main/%D8%AA%D9%81%D8%A7%D8%B6%D9%84%20%D9%88%D8%AA%D9%83%D8%A7%D9%85%D9%84.json"
 
   },
   {
     "title": "هندسة تحليلية 2",
     "showAd": true,
+    "thumbnailUrl": "https://i.ytimg.com/vi/9OKBXDpIFGs/maxresdefault.jpg",
     "jsonUrl": ""
   }
 ]

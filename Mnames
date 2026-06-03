@@ -5,11 +5,17 @@
     "thumbnailUrl": "https://img.youtube.com/vi/R9REE2P-r-M/mqdefault.jpg",
     "jsonUrl": ""
   },
+{
+    "title": "تحليل عددي 1(Ali Youssef)",
+    "showAd": true,
+    "thumbnailUrl": "https://i.ytimg.com/vi/UElvn0u_YjI/sddefault.jpg",
+    "jsonUrl": "https://raw.githubusercontent.com/mrezk2910/jsonLinks/refs/heads/main/%D8%AA%D8%AD%D9%84%D9%8A%D9%84%20%D8%B9%D8%AF%D8%AF%D9%8A%20-%20Numerical%20Analysis.json"
+  },
   {
-    "title": "تحليل عددي 2",
+    "title": "تحليل عددي 2(Naglaa Elshazly",
     "showAd": true,
     "thumbnailUrl": "https://img.youtube.com/vi/_PLtGw1PU04DG/mqdefault.jpg",
-    "jsonUrl": ""
+    "jsonUrl": "https://raw.githubusercontent.com/mrezk2910/jsonLinks/refs/heads/main/%D8%AA%D8%AD%D9%84%D9%8A%D9%84%20%D8%B9%D8%AF%D8%AF%D9%8A%20(2)..json"
   },
   {
     "title": "(Nora Alaa)جبر مصدر 1",
@@ -92,10 +98,10 @@
     "jsonUrl": ""
   },
   {
-    "title": "معادلات تفاضلية عادية",
+    "title": "د شيماء سليم)  معادلات تفاضلية عادية)",
     "showAd": true,
     "thumbnailUrl": "https://img.youtube.com/vi/lI_CtVAP8Zk/mqdefault.jpg",
-    "jsonUrl": ""
+    "jsonUrl": "https://raw.githubusercontent.com/mrezk2910/jsonLinks/refs/heads/main/%D9%85%D8%B9%D8%A7%D8%AF%D9%84%D8%A7%D8%AA%20%D8%AA%D9%81%D8%A7%D8%B6%D9%84%D9%8A%D8%A9%20%D8%B9%D8%A7%D8%AF%D9%8A%D8%A9.json"
   },
   {
     "title": "تحليل رياضي 1",
@@ -263,10 +269,10 @@
     "jsonUrl": ""
   },
   {
-    "title": "تحليل حقيقي",
+    "title": "تحليل حقيقي(Ali Youssef)",
     "showAd": true,
     "thumbnailUrl": "https://img.youtube.com/vi/_PLdURAXkpAH/mqdefault.jpg",
-    "jsonUrl": ""
+    "jsonUrl": "https://raw.githubusercontent.com/mrezk2910/jsonLinks/refs/heads/main/%D8%A7%D9%84%D8%AA%D8%AD%D9%84%D9%8A%D9%84%20%D8%A7%D9%84%D8%AD%D9%82%D9%8A%D9%82%D9%89.json"
   },
   {
     "title": "جبر خطي مصدر4",
@@ -275,10 +281,10 @@
     "jsonUrl": ""
   },
   {
-    "title": "النظرية النسبية",
+    "title": "النظرية النسبية (حكيم الرياضيات Mr Mahmoud Bakr)",
     "showAd": true,
     "thumbnailUrl": "https://img.youtube.com/vi/_PLdURA-XkpA/mqdefault.jpg",
-    "jsonUrl": ""
+    "jsonUrl": "https://raw.githubusercontent.com/mrezk2910/jsonLinks/refs/heads/main/%D8%A7%D9%84%D9%86%D8%B8%D8%B1%D9%8A%D8%A9%20%D8%A7%D9%84%D9%86%D8%B3%D8%A8%D9%8A%D8%A9.json"
   },
   {
     "title": "ميكانيكا الموائع",
@@ -305,10 +311,10 @@
     "jsonUrl": ""
   },
   {
-    "title": "معادلات تفاضلية جزئية",
+    "title": "معادلات تفاضلية جزئية(Dr Shaimaa Salem)",
     "showAd": true,
     "thumbnailUrl": "https://img.youtube.com/vi/n3N0MtBahW0/mqdefault.jpg",
-    "jsonUrl": ""
+    "jsonUrl": "https://raw.githubusercontent.com/mrezk2910/jsonLinks/refs/heads/main/%D8%A7%D9%84%D9%85%D8%B9%D8%A7%D8%AF%D9%84%D8%A7%D8%AA%20%D8%A7%D9%84%D8%AA%D9%81%D8%A7%D8%B6%D9%84%D9%8A%D8%A9%20%D8%A7%D9%84%D8%AC%D8%B2%D8%A6%D9%8A%D8%A9.json"
   },
   {
     "title": "تحليل رياضي 2",
@@ -323,10 +329,10 @@
     "jsonUrl": ""
   },
   {
-    "title": "برمجة خطية",
+    "title": "برمجة خطية (DR.ASHRAF IBRAHIM)",
     "showAd": true,
     "thumbnailUrl": "https://img.youtube.com/vi/u0HwT935HCE/mqdefault.jpg",
-    "jsonUrl": ""
+    "jsonUrl": "https://raw.githubusercontent.com/mrezk2910/jsonLinks/refs/heads/main/%D8%A7%D9%84%D8%A8%D8%B1%D9%85%D8%AC%D9%87%20%D8%A7%D9%84%D8%AE%D8%B7%D9%8A%D9%87%20linear%20programming.json"
   },
   {
     "title": "تحليل رياضي 2 مصدر 2",
@@ -341,10 +347,10 @@
     "jsonUrl": ""
   },
   {
-    "title": "جبر خطي مصدر 5",
+    "title": "جبر خطي (DR.ASHRAF IBRAHIM)",
     "showAd": true,
     "thumbnailUrl": "https://img.youtube.com/vi/cTvXFZLPpIw/mqdefault.jpg",
-    "jsonUrl": ""
+    "jsonUrl": "https://raw.githubusercontent.com/mrezk2910/jsonLinks/refs/heads/main/%D8%A7%D9%84%D8%AC%D8%A8%D8%B1%20%D8%A7%D9%84%D8%AE%D8%B7%D9%89%20linear%20algebra.json"
   },
   {
     "title": "تحليل رياضي 4(المتسلسلات)",
@@ -363,6 +369,12 @@
     "showAd": true,
     "thumbnailUrl": "https://img.youtube.com/vi/LVU721yO2Zs/mqdefault.jpg",
     "jsonUrl": ""
+  },
+ {
+    "title": "تحليل دالي (Ali Youssef)",
+    "showAd": true,
+    "thumbnailUrl": "https://i.ytimg.com/vi/fia2_rOLqj0/hqdefault.jpg",
+    "jsonUrl": "https://raw.githubusercontent.com/mrezk2910/jsonLinks/refs/heads/main/%D8%A7%D9%84%D8%AA%D8%AD%D9%84%D9%8A%D9%84%20%D8%A7%D9%84%D8%AF%D8%A7%D9%84%D9%89.json"
   },
   {
     "title": "جبر خطي مصدر 6",

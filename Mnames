@@ -1,9 +1,9 @@
 [
   {
-    "title": "نظرية الحاسبات - كومبيلر",
+    "title": "نظرية الحاسبات - كومبيلر(Kasit Team)",
     "showAd": true,
-    "thumbnailUrl": "https://img.youtube.com/vi/R9REE2P-r-M/mqdefault.jpg",
-    "jsonUrl": ""
+    "thumbnailUrl": "https://i.ytimg.com/vi/R9REE2P-r-M/maxresdefault.jpg",
+    "jsonUrl": "https://raw.githubusercontent.com/mrezk2910/jsonLinks/refs/heads/main/Theory.json"
   },
 {
     "title": "تحليل عددي 1(Ali Youssef)",
@@ -84,6 +84,12 @@
     "showAd": true,
     "thumbnailUrl": "https://i.ytimg.com/vi/Gr3brZH0Ui8/maxresdefault.jpg",
     "jsonUrl": "https://raw.githubusercontent.com/mrezk2910/jsonLinks/refs/heads/main/Discrete%20Mathematics%20%20%D8%B1%D9%8A%D8%A7%D8%B6%D9%87%20%D8%BA%D9%8A%D8%B1%20%D9%85%D8%AA%D8%B5%D9%84%D9%87%20-%20%D8%A7%D9%84%D8%AA%D8%B1%D8%A7%D9%83%D9%8A%D8%A8.json"
+  },
+{
+    "title": "الجورزم وداتا استراكشر (Dr. Ibrahim Omara   د. ابراهيم عماره)",
+    "showAd": true,
+    "thumbnailUrl": "https://i.ytimg.com/vi/xzCvGFikbT0/maxresdefault.jpg",
+    "jsonUrl": "https://raw.githubusercontent.com/mrezk2910/jsonLinks/refs/heads/main/Review%20on%20Algorithms%20and%20Data%20Structures-%20Questions%20Bank%20-%20%D9%85%D8%B1%D8%A7%D8%AC%D8%B9%D9%87%20%D8%B9%D9%84%D9%8A%20%D8%A7%D9%84%D8%AE%D9%88%D8%B1%D8%B2%D9%85%D9%8A%D8%A7%D8%AA%20%D9%88%D9%87%D9%8A%D8%A7%D9%83%D9%84%20%D8%A7%D9%84%D8%A8%D9%8A%D8%A7%D9%86%D8%A7%D8%AA.json"
   },
   {
     "title": "حاسب الي 1(Dr. Ibrahim Omara   د. ابراهيم عماره",
@@ -299,10 +305,10 @@
     "jsonUrl": "https://raw.githubusercontent.com/mrezk2910/jsonLinks/refs/heads/main/%D8%A7%D9%84%D9%86%D8%B8%D8%B1%D9%8A%D8%A9%20%D8%A7%D9%84%D9%86%D8%B3%D8%A8%D9%8A%D8%A9.json"
   },
   {
-    "title": "ميكانيكا الموائع",
+    "title": "ميكانيكا الموائع(حكيم الرياضيات Mr Mahmoud Bakr)",
     "showAd": true,
-    "thumbnailUrl": "https://img.youtube.com/vi/_PLdURA-XkpA/mqdefault.jpg",
-    "jsonUrl": ""
+    "thumbnailUrl": "https://i.ytimg.com/vi/-oIOCA-NyGs/maxresdefault.jpg",
+    "jsonUrl": "https://raw.githubusercontent.com/mrezk2910/jsonLinks/refs/heads/main/%D9%85%D9%8A%D9%83%D8%A7%D9%86%D9%8A%D9%83%D8%A7%20%D8%A7%D9%84%D9%85%D9%88%D8%A7%D8%A6%D8%B9%20%E2%9D%A4%EF%B8%8F%E2%9D%A4%EF%B8%8F%F0%9F%92%AF%F0%9F%92%AF.json"
   },
   {
     "title": "تحليل رياضي 3",
@@ -407,10 +413,10 @@
     "jsonUrl": "https://raw.githubusercontent.com/mrezk2910/jsonLinks/refs/heads/main/%D8%A7%D9%84%D8%AA%D8%AD%D9%84%D9%8A%D9%84%20%D8%A7%D9%84%D8%AF%D8%A7%D9%84%D9%89.json"
   },
   {
-    "title": "جبر خطي مصدر 6",
+    "title": "جبر خطي (Nora Alaa)",
     "showAd": true,
-    "thumbnailUrl": "https://img.youtube.com/vi/ymSEiS9Pvjk/mqdefault.jpg",
-    "jsonUrl": ""
+    "thumbnailUrl": "https://i.ytimg.com/vi/ymSEiS9Pvjk/maxresdefault.jpg",
+    "jsonUrl": "https://raw.githubusercontent.com/mrezk2910/jsonLinks/refs/heads/main/Linear%20Algebra.json"
   },
   {
     "title": "رياضة عامة( تفاضل وتكامل Dr. Ahmed Hagag)",

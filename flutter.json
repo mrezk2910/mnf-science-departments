@@ -1,0 +1,5108 @@
+[
+  {
+    "id": 1,
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "category": "dart_basics",
+    "question": "What is Dart?",
+    "options": [
+      "A) A programming language developed by Google",
+      "B) A framework for building mobile apps",
+      "C) A database management system",
+      "D) A markup language for web development"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "Dart is a client-optimized language for fast apps on any platform.",
+      "It was developed by Google and is used with the Flutter framework.",
+      "Dart is object-oriented, class-based, and uses C-style syntax."
+    ]
+  },
+  {
+    "id": 2,
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "category": "flutter_basics",
+    "question": "What is Flutter?",
+    "options": [
+      "A) A UI toolkit for building natively compiled applications",
+      "B) A programming language",
+      "C) A database system",
+      "D) A cloud service"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "Flutter is Google's UI toolkit for building natively compiled apps.",
+      "It uses the Dart programming language.",
+      "It supports mobile, web, desktop, and embedded devices."
+    ]
+  },
+  {
+    "id": 3,
+    "type": "true_false",
+    "difficulty": "beginner",
+    "category": "dart_basics",
+    "question": "Dart is a statically typed language.",
+    "correct_answer": "True",
+    "explanations": [
+      "Dart is statically typed, but it also supports type inference.",
+      "Static typing helps catch errors at compile time.",
+      "You can use 'var', 'dynamic', or explicit types."
+    ]
+  },
+  {
+    "id": 4,
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "category": "dart_basics",
+    "question": "Which keyword is used to declare a variable in Dart?",
+    "options": [
+      "A) var",
+      "B) let",
+      "C) const",
+      "D) final"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "var is used to declare variables with type inference.",
+      "let is not used in Dart (it's from JavaScript).",
+      "const and final are for constants and immutable variables."
+    ]
+  },
+  {
+    "id": 5,
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "category": "dart_basics",
+    "question": "What is the difference between 'final' and 'const' in Dart?",
+    "options": [
+      "A) final is runtime constant, const is compile-time constant",
+      "B) final is compile-time constant, const is runtime constant",
+      "C) They are the same",
+      "D) final is for numbers, const is for strings"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "final variables can only be set once at runtime.",
+      "const variables are compile-time constants.",
+      "const is more restrictive and requires constant values."
+    ]
+  },
+  {
+    "id": 6,
+    "type": "true_false",
+    "difficulty": "beginner",
+    "category": "dart_basics",
+    "question": "Dart supports both top-level functions and classes.",
+    "correct_answer": "True",
+    "explanations": [
+      "Dart allows functions to be defined at the top level.",
+      "It also supports object-oriented programming with classes.",
+      "This makes Dart flexible for different programming styles."
+    ]
+  },
+  {
+    "id": 7,
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "category": "dart_basics",
+    "question": "What is the entry point of a Dart program?",
+    "options": [
+      "A) main() function",
+      "B) start() function",
+      "C) run() function",
+      "D) init() function"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "Every Dart program must have a main() function.",
+      "It's the starting point of the application.",
+      "The main() function can have optional parameters."
+    ]
+  },
+  {
+    "id": 8,
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "category": "dart_basics",
+    "question": "How do you define a function in Dart?",
+    "options": [
+      "A) returnType functionName(parameters) { }",
+      "B) function functionName(parameters) { }",
+      "C) def functionName(parameters) { }",
+      "D) func functionName(parameters) { }"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "Functions in Dart follow the syntax: returnType name(parameters) { body }.",
+      "If no return type is specified, it's assumed to be dynamic.",
+      "Void is used for functions that don't return a value."
+    ]
+  },
+  {
+    "id": 9,
+    "type": "true_false",
+    "difficulty": "beginner",
+    "category": "dart_basics",
+    "question": "Dart functions can be assigned to variables.",
+    "correct_answer": "True",
+    "explanations": [
+      "Functions are first-class objects in Dart.",
+      "They can be passed as arguments and assigned to variables.",
+      "This enables functional programming patterns."
+    ]
+  },
+  {
+    "id": 10,
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "category": "flutter_basics",
+    "question": "What is a Widget in Flutter?",
+    "options": [
+      "A) A UI element that describes part of the user interface",
+      "B) A data model",
+      "C) A database connection",
+      "D) A network request"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "Everything in Flutter is a widget.",
+      "Widgets are the building blocks of the UI.",
+      "They describe what the view should look like."
+    ]
+  },
+  {
+    "id": 11,
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "category": "flutter_basics",
+    "question": "What are the two main types of widgets in Flutter?",
+    "options": [
+      "A) StatelessWidget and StatefulWidget",
+      "B) Stateless and Stateful are the only types",
+      "C) There are three types: Stateless, Stateful, and Hybrid",
+      "D) All widgets are stateful"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "Flutter has StatelessWidget and StatefulWidget.",
+      "Stateless widgets are immutable and don't change.",
+      "Stateful widgets can rebuild when their state changes."
+    ]
+  },
+  {
+    "id": 12,
+    "type": "true_false",
+    "difficulty": "beginner",
+    "category": "flutter_basics",
+    "question": "Flutter uses a declarative UI approach.",
+    "correct_answer": "True",
+    "explanations": [
+      "Flutter's UI is built declaratively.",
+      "You describe what the UI should look like based on state.",
+      "The framework handles rendering and updates."
+    ]
+  },
+  {
+    "id": 13,
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "category": "flutter_basics",
+    "question": "What is the 'build' method in a Flutter widget?",
+    "options": [
+      "A) A method that returns the widget tree",
+      "B) A method that initializes state",
+      "C) A method that handles user input",
+      "D) A method that fetches data"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "The build method describes the UI of the widget.",
+      "It returns a widget tree that the framework renders.",
+      "It's called whenever the widget needs to be rebuilt."
+    ]
+  },
+  {
+    "id": 14,
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "category": "flutter_basics",
+    "question": "What is a 'MaterialApp' in Flutter?",
+    "options": [
+      "A) A widget that provides Material Design theming",
+      "B) A database connection",
+      "C) A network request library",
+      "D) A state management solution"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "MaterialApp is a convenience widget for Material Design apps.",
+      "It provides themes, navigation, and other Material features.",
+      "It's the root widget for most Flutter applications."
+    ]
+  },
+  {
+    "id": 15,
+    "type": "true_false",
+    "difficulty": "beginner",
+    "category": "flutter_basics",
+    "question": "Flutter apps can only be built for Android and iOS.",
+    "correct_answer": "False",
+    "explanations": [
+      "Flutter supports multiple platforms.",
+      "It can build apps for Android, iOS, web, desktop, and embedded.",
+      "This is one of Flutter's key advantages."
+    ]
+  },
+  {
+    "id": 16,
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "category": "dart_basics",
+    "question": "How do you create a list in Dart?",
+    "options": [
+      "A) List<int> numbers = [1, 2, 3];",
+      "B) int[] numbers = [1, 2, 3];",
+      "C) array numbers = [1, 2, 3];",
+      "D) numbers = {1, 2, 3};"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "Dart uses List type with square brackets.",
+      "Lists can be typed or untyped.",
+      "Example: List<String> names = ['Alice', 'Bob'];"
+    ]
+  },
+  {
+    "id": 17,
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "category": "dart_basics",
+    "question": "How do you create a map in Dart?",
+    "options": [
+      "A) Map<String, int> scores = {'Alice': 100, 'Bob': 90};",
+      "B) Map scores = {'Alice': 100, 'Bob': 90};",
+      "C) Both A and B",
+      "D) { 'Alice': 100, 'Bob': 90 }"
+    ],
+    "correct_answer": "C",
+    "explanations": [
+      "Dart uses Map type with curly braces and colon syntax.",
+      "You can specify types for keys and values.",
+      "Using var or Map without types also works."
+    ]
+  },
+  {
+    "id": 18,
+    "type": "true_false",
+    "difficulty": "beginner",
+    "category": "dart_basics",
+    "question": "Dart lists are zero-indexed.",
+    "correct_answer": "True",
+    "explanations": [
+      "Like most programming languages, Dart lists use zero-based indexing.",
+      "The first element is at index 0.",
+      "Example: myList[0] returns the first element."
+    ]
+  },
+  {
+    "id": 19,
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "category": "dart_basics",
+    "question": "How do you add an element to a list in Dart?",
+    "options": [
+      "A) myList.add(element)",
+      "B) myList.push(element)",
+      "C) myList.append(element)",
+      "D) myList.insert(element)"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "The add() method appends an element to the end of the list.",
+      "There's also addAll() for adding multiple items.",
+      "insert() can add elements at a specific index."
+    ]
+  },
+  {
+    "id": 20,
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "category": "dart_basics",
+    "question": "What is the null safety feature in Dart?",
+    "options": [
+      "A) Variables cannot be null unless explicitly allowed",
+      "B) Variables can always be null",
+      "C) Null safety only applies to strings",
+      "D) Null safety is optional in Dart"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "Dart's null safety prevents null reference errors.",
+      "Variables must be initialized before use.",
+      "Use '?' to allow null values, and '!' to assert non-null."
+    ]
+  },
+  {
+    "id": 21,
+    "type": "true_false",
+    "difficulty": "beginner",
+    "category": "dart_basics",
+    "question": "The '?' operator in Dart is used for null-aware access.",
+    "correct_answer": "True",
+    "explanations": [
+      "The '?' operator allows safe access to nullable variables.",
+      "Example: person?.name returns null if person is null.",
+      "It prevents null pointer exceptions."
+    ]
+  },
+  {
+    "id": 22,
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "category": "dart_basics",
+    "question": "What is the '??' operator in Dart?",
+    "options": [
+      "A) Null-aware assignment operator",
+      "B) Logical OR operator",
+      "C) Equality operator",
+      "D) Type casting operator"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "The '??' operator provides a default value if the expression is null.",
+      "Example: String name = person?.name ?? 'Unknown';",
+      "It's a concise way to handle null values."
+    ]
+  },
+  {
+    "id": 23,
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "category": "flutter_basics",
+    "question": "What is a 'Scaffold' in Flutter?",
+    "options": [
+      "A) A widget that implements the basic Material Design layout",
+      "B) A widget for loading data",
+      "C) A widget for navigation",
+      "D) A widget for animations"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "Scaffold provides a standard Material Design layout structure.",
+      "It includes app bars, drawers, snack bars, and floating action buttons.",
+      "It's commonly used as the root widget of a screen."
+    ]
+  },
+  {
+    "id": 24,
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "category": "flutter_basics",
+    "question": "What is an 'AppBar' in Flutter?",
+    "options": [
+      "A) A widget that appears at the top of the screen",
+      "B) A widget for the bottom navigation",
+      "C) A widget for user input",
+      "D) A widget for displaying images"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "AppBar is a Material Design widget that displays at the top.",
+      "It typically contains the page title and action buttons.",
+      "It's part of the Scaffold widget."
+    ]
+  },
+  {
+    "id": 25,
+    "type": "true_false",
+    "difficulty": "beginner",
+    "category": "flutter_basics",
+    "question": "Flutter uses its own rendering engine, not the platform's native one.",
+    "correct_answer": "True",
+    "explanations": [
+      "Flutter uses Skia as its rendering engine.",
+      "This ensures consistent appearance across platforms.",
+      "It doesn't use the platform's native UI components."
+    ]
+  },
+  {
+    "id": 26,
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "category": "flutter_basics",
+    "question": "What is 'setState()' in Flutter?",
+    "options": [
+      "A) A method that tells the framework to rebuild the widget",
+      "B) A method that initializes state",
+      "C) A method that disposes state",
+      "D) A method that saves state"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "setState() schedules a rebuild of the widget tree.",
+      "It's called inside StatefulWidgets.",
+      "It ensures the UI reflects the updated state."
+    ]
+  },
+  {
+    "id": 27,
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "category": "flutter_basics",
+    "question": "When should you use a StatefulWidget?",
+    "options": [
+      "A) When the widget needs to change over time",
+      "B) When the widget is static and never changes",
+      "C) For all widgets",
+      "D) Only for animations"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "StatefulWidgets are used when the UI can change.",
+      "Examples include forms, animations, and user interactions.",
+      "StatelessWidgets are for static content."
+    ]
+  },
+  {
+    "id": 28,
+    "type": "true_false",
+    "difficulty": "beginner",
+    "category": "flutter_basics",
+    "question": "The build method in a StatefulWidget is called only once.",
+    "correct_answer": "False",
+    "explanations": [
+      "The build method is called multiple times.",
+      "It's called when the widget is first created and on each state change.",
+      "The framework calls build whenever the UI needs to update."
+    ]
+  },
+  {
+    "id": 29,
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "category": "dart_basics",
+    "question": "What is a 'Future' in Dart?",
+    "options": [
+      "A) A placeholder for a value that will be available later",
+      "B) A data structure",
+      "C) A widget",
+      "D) A database connection"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "Future represents a value that may not be available yet.",
+      "It's used for asynchronous operations.",
+      "You can await a Future or handle it with .then()."
+    ]
+  },
+  {
+    "id": 30,
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "category": "dart_basics",
+    "question": "What does 'async' keyword do in Dart?",
+    "options": [
+      "A) Marks a function as asynchronous",
+      "B) Marks a function as synchronous",
+      "C) Declares a class",
+      "D) Declares a variable"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "The 'async' keyword is used with functions that perform async work.",
+      "It allows using 'await' inside the function.",
+      "An async function returns a Future."
+    ]
+  },
+  {
+    "id": 31,
+    "type": "true_false",
+    "difficulty": "beginner",
+    "category": "dart_basics",
+    "question": "The 'await' keyword can only be used inside async functions.",
+    "correct_answer": "True",
+    "explanations": [
+      "'await' pauses execution until the Future completes.",
+      "It can only be used within an async function.",
+      "This ensures proper handling of asynchronous code."
+    ]
+  },
+  {
+    "id": 32,
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "category": "flutter_basics",
+    "question": "What is a 'FloatingActionButton' in Flutter?",
+    "options": [
+      "A) A circular button that floats above the UI",
+      "B) A button at the bottom of the screen",
+      "C) A button in the app bar",
+      "D) A button in a dialog"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "FloatingActionButton is a Material Design button.",
+      "It floats above the content and represents the primary action.",
+      "It's commonly used in Scaffold's floatingActionButton property."
+    ]
+  },
+  {
+    "id": 33,
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "category": "flutter_basics",
+    "question": "What is a 'Container' widget in Flutter?",
+    "options": [
+      "A) A widget that combines painting, positioning, and sizing",
+      "B) A widget for displaying text",
+      "C) A widget for images",
+      "D) A widget for navigation"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "Container is a versatile widget for layout.",
+      "It can have padding, margin, borders, and background.",
+      "It's one of the most commonly used layout widgets."
+    ]
+  },
+  {
+    "id": 34,
+    "type": "true_false",
+    "difficulty": "beginner",
+    "category": "flutter_basics",
+    "question": "All widgets in Flutter are immutable.",
+    "correct_answer": "True",
+    "explanations": [
+      "Widgets are immutable in Flutter.",
+      "When state changes, the framework rebuilds the widget tree.",
+      "This is why state is kept in separate State objects."
+    ]
+  },
+  {
+    "id": 35,
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "category": "dart_basics",
+    "question": "What is a 'Stream' in Dart?",
+    "options": [
+      "A) A sequence of asynchronous events",
+      "B) A list of synchronous events",
+      "C) A data type",
+      "D) A widget"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "Streams provide a sequence of asynchronous data events.",
+      "They can emit multiple values over time.",
+      "Streams are used for real-time data like user input or web sockets."
+    ]
+  },
+  {
+    "id": 36,
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "category": "dart_basics",
+    "question": "What is a 'StreamController' in Dart?",
+    "options": [
+      "A) A class for creating and managing Streams",
+      "B) A class for controlling UI",
+      "C) A class for database access",
+      "D) A class for network requests"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "StreamController lets you create and control a Stream.",
+      "You can add events to the Stream using the controller.",
+      "It's used for managing asynchronous data streams."
+    ]
+  },
+  {
+    "id": 37,
+    "type": "true_false",
+    "difficulty": "beginner",
+    "category": "dart_basics",
+    "question": "Streams can only be listened to once.",
+    "correct_answer": "False",
+    "explanations": [
+      "Streams can be single-subscription or broadcast.",
+      "Single-subscription streams can only be listened once.",
+      "Broadcast streams allow multiple listeners."
+    ]
+  },
+  {
+    "id": 38,
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "category": "flutter_basics",
+    "question": "What is 'BuildContext' in Flutter?",
+    "options": [
+      "A) A handle to the location of a widget in the widget tree",
+      "B) A widget context",
+      "C) A state object",
+      "D) A data model"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "BuildContext represents the location of a widget in the tree.",
+      "It's used to access widgets and services.",
+      "You pass context to methods like Navigator.of() or Theme.of()."
+    ]
+  },
+  {
+    "id": 39,
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "category": "flutter_basics",
+    "question": "How do you navigate between screens in Flutter?",
+    "options": [
+      "A) Using Navigator.push() and Navigator.pop()",
+      "B) Using Router.push() and Router.pop()",
+      "C) Using Screen.navigate()",
+      "D) Using PageManager.go()"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "Flutter uses a Navigator widget for navigation.",
+      "push() adds a new route to the stack.",
+      "pop() removes the current route."
+    ]
+  },
+  {
+    "id": 40,
+    "type": "true_false",
+    "difficulty": "beginner",
+    "category": "flutter_basics",
+    "question": "Flutter uses a stack-based navigation model.",
+    "correct_answer": "True",
+    "explanations": [
+      "Navigation in Flutter is based on a stack of routes.",
+      "Each new screen is pushed onto the stack.",
+      "Pressing back pops the screen off the stack."
+    ]
+  },
+  {
+    "id": 41,
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "category": "dart_basics",
+    "question": "What is the 'extends' keyword used for in Dart?",
+    "options": [
+      "A) Inheritance",
+      "B) Implementation",
+      "C) Abstraction",
+      "D) Composition"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "'extends' is used for class inheritance.",
+      "A subclass inherits from a superclass.",
+      "Dart supports single inheritance."
+    ]
+  },
+  {
+    "id": 42,
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "category": "dart_basics",
+    "question": "What is the 'implements' keyword used for in Dart?",
+    "options": [
+      "A) Interface implementation",
+      "B) Inheritance",
+      "C) Composition",
+      "D) Mixins"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "'implements' is used to implement one or more interfaces.",
+      "Dart classes can implement multiple interfaces.",
+      "The implementing class must provide all methods."
+    ]
+  },
+  {
+    "id": 43,
+    "type": "true_false",
+    "difficulty": "beginner",
+    "category": "dart_basics",
+    "question": "Dart supports multiple inheritance.",
+    "correct_answer": "False",
+    "explanations": [
+      "Dart does not support multiple inheritance.",
+      "It uses mixins to achieve multiple inheritance-like behavior.",
+      "A class can extend only one class."
+    ]
+  },
+  {
+    "id": 44,
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "category": "dart_basics",
+    "question": "What is a 'mixin' in Dart?",
+    "options": [
+      "A) A way to reuse code across multiple class hierarchies",
+      "B) A type of class",
+      "C) A type of interface",
+      "D) A data type"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "Mixins allow code reuse without inheritance.",
+      "They can be used with the 'with' keyword.",
+      "Mixins are useful for sharing functionality across classes."
+    ]
+  },
+  {
+    "id": 45,
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "category": "dart_basics",
+    "question": "How do you use a mixin in Dart?",
+    "options": [
+      "A) class MyClass extends SuperClass with Mixin1, Mixin2 { }",
+      "B) class MyClass with Mixin1, Mixin2 { }",
+      "C) class MyClass extends Mixin { }",
+      "D) class MyClass implements Mixin { }"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "Use the 'with' keyword after the extends clause.",
+      "Mixins allow you to combine multiple behaviors.",
+      "The order of mixins matters for method resolution."
+    ]
+  },
+  {
+    "id": 46,
+    "type": "true_false",
+    "difficulty": "beginner",
+    "category": "dart_basics",
+    "question": "Dart has both abstract classes and interfaces.",
+    "correct_answer": "True",
+    "explanations": [
+      "Dart supports abstract classes with the 'abstract' keyword.",
+      "Every class in Dart defines an interface.",
+      "You can implement interfaces using 'implements'."
+    ]
+  },
+  {
+    "id": 47,
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "category": "flutter_basics",
+    "question": "What is a 'ListView' in Flutter?",
+    "options": [
+      "A) A widget that displays a scrollable list of widgets",
+      "B) A widget for displaying images",
+      "C) A widget for text input",
+      "D) A widget for animations"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "ListView is a scrollable list of widgets.",
+      "It can be used for long lists with many items.",
+      "There are different constructors like ListView.builder() for efficiency."
+    ]
+  },
+  {
+    "id": 48,
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "category": "flutter_basics",
+    "question": "What is 'ListView.builder()' used for?",
+    "options": [
+      "A) Building lists with many items efficiently",
+      "B) Building lists with few items",
+      "C) Building image lists",
+      "D) Building text-only lists"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "ListView.builder() creates items lazily as they scroll into view.",
+      "It's efficient for large or infinite lists.",
+      "It only builds visible items, saving memory."
+    ]
+  },
+  {
+    "id": 49,
+    "type": "true_false",
+    "difficulty": "beginner",
+    "category": "flutter_basics",
+    "question": "All ListView widgets scroll vertically.",
+    "correct_answer": "False",
+    "explanations": [
+      "ListView can scroll both vertically and horizontally.",
+      "Use scrollDirection property to change orientation.",
+      "Default is vertical."
+    ]
+  },
+  {
+    "id": 50,
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "category": "flutter_basics",
+    "question": "What is a 'GridView' in Flutter?",
+    "options": [
+      "A) A widget that displays items in a 2D grid",
+      "B) A widget for list display",
+      "C) A widget for navigation",
+      "D) A widget for forms"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "GridView displays items in a grid layout.",
+      "It can be used with GridView.builder() for large grids.",
+      "It's commonly used for image galleries and product displays."
+    ]
+  },
+  {
+    "id": 51,
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "category": "flutter_basics",
+    "question": "How do you create a horizontal scroll in Flutter?",
+    "options": [
+      "A) Use SingleChildScrollView with scrollDirection: Axis.horizontal",
+      "B) Use HorizontalScrollView",
+      "C) Use ScrollView.horizontal()",
+      "D) Use ListView.horizontal()"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "SingleChildScrollView can scroll in any direction.",
+      "Set scrollDirection: Axis.horizontal for horizontal scrolling.",
+      "ListView can also scroll horizontally with scrollDirection."
+    ]
+  },
+  {
+    "id": 52,
+    "type": "true_false",
+    "difficulty": "beginner",
+    "category": "flutter_basics",
+    "question": "Flutter's hot reload feature preserves state.",
+    "correct_answer": "True",
+    "explanations": [
+      "Hot reload updates the code in a running app.",
+      "It preserves the current state of the app.",
+      "Hot restart resets the state."
+    ]
+  },
+  {
+    "id": 53,
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "category": "dart_basics",
+    "question": "What is an 'enum' in Dart?",
+    "options": [
+      "A) A type that defines a set of named constants",
+      "B) A type for numbers",
+      "C) A type for strings",
+      "D) A type for lists"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "Enums are used to define a set of named constants.",
+      "Example: enum Status { loading, success, error }.",
+      "Enums improve code readability and type safety."
+    ]
+  },
+  {
+    "id": 54,
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "category": "dart_basics",
+    "question": "Can enums have methods in Dart?",
+    "options": [
+      "A) Yes, enums can have methods and properties",
+      "B) No, enums can only have constants",
+      "C) Only extensions can add methods",
+      "D) Yes, but only getters"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "Dart enums can have methods and getters.",
+      "They can also have properties with the 'const' keyword.",
+      "This makes enums more powerful than in some other languages."
+    ]
+  },
+  {
+    "id": 55,
+    "type": "true_false",
+    "difficulty": "beginner",
+    "category": "dart_basics",
+    "question": "Enums in Dart have a 'values' getter.",
+    "correct_answer": "True",
+    "explanations": [
+      "All enums have a 'values' getter that returns a list.",
+      "Example: Status.values returns all enum values.",
+      "This is useful for iterating over all enum values."
+    ]
+  },
+  {
+    "id": 56,
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "category": "flutter_basics",
+    "question": "What is a 'GestureDetector' in Flutter?",
+    "options": [
+      "A) A widget that detects user gestures",
+      "B) A widget for animations",
+      "C) A widget for input forms",
+      "D) A widget for navigation"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "GestureDetector detects various user gestures.",
+      "It can detect taps, swipes, long presses, and more.",
+      "It's used to make widgets interactive."
+    ]
+  },
+  {
+    "id": 57,
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "category": "flutter_basics",
+    "question": "Which callback is called when a user taps on a GestureDetector?",
+    "options": [
+      "A) onTap",
+      "B) onPressed",
+      "C) onClick",
+      "D) onTapDown"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "onTap is the callback for tap gestures.",
+      "onPressed is used for buttons like ElevatedButton.",
+      "onTapDown is called when the tap starts."
+    ]
+  },
+  {
+    "id": 58,
+    "type": "true_false",
+    "difficulty": "beginner",
+    "category": "flutter_basics",
+    "question": "GestureDetector can detect multiple gestures simultaneously.",
+    "correct_answer": "True",
+    "explanations": [
+      "GestureDetector can handle multiple gestures.",
+      "You can track taps, drags, and long presses simultaneously.",
+      "This allows for complex interactions."
+    ]
+  },
+  {
+    "id": 59,
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "category": "dart_basics",
+    "question": "What is the 'factory' keyword in Dart?",
+    "options": [
+      "A) A constructor that doesn't always create a new instance",
+      "B) A method that creates objects",
+      "C) A class that creates objects",
+      "D) A data type"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "Factory constructors can return existing instances.",
+      "They don't always create new objects.",
+      "They're useful for caching and singleton patterns."
+    ]
+  },
+  {
+    "id": 60,
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "category": "dart_basics",
+    "question": "What is a 'singleton' pattern in Dart?",
+    "options": [
+      "A) A class that can only have one instance",
+      "B) A class that can have multiple instances",
+      "C) A class with no instances",
+      "D) A class with private constructor"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "Singleton ensures only one instance of a class exists.",
+      "It's often implemented with a private constructor and factory.",
+      "Singletons are useful for global state or services."
+    ]
+  },
+  {
+    "id": 61,
+    "type": "true_false",
+    "difficulty": "beginner",
+    "category": "dart_basics",
+    "question": "Dart supports operator overloading.",
+    "correct_answer": "True",
+    "explanations": [
+      "Dart allows operator overloading for custom classes.",
+      "You can define custom behavior for +, -, ==, and others.",
+      "Example: String concatenation with + is operator overloading."
+    ]
+  },
+  {
+    "id": 62,
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "category": "flutter_basics",
+    "question": "What is a 'Row' widget in Flutter?",
+    "options": [
+      "A) A widget that displays children in a horizontal array",
+      "B) A widget that displays children in a vertical array",
+      "C) A widget for text input",
+      "D) A widget for images"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "Row places its children horizontally.",
+      "It's used with Column for basic layouts.",
+      "Both Row and Column are flexible layout widgets."
+    ]
+  },
+  {
+    "id": 63,
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "category": "flutter_basics",
+    "question": "What is a 'Column' widget in Flutter?",
+    "options": [
+      "A) A widget that displays children in a vertical array",
+      "B) A widget that displays children in a horizontal array",
+      "C) A widget for text input",
+      "D) A widget for images"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "Column places its children vertically.",
+      "It's used with Row for basic layouts.",
+      "Both are essential for building simple UI structures."
+    ]
+  },
+  {
+    "id": 64,
+    "type": "true_false",
+    "difficulty": "beginner",
+    "category": "flutter_basics",
+    "question": "Row and Column are both Flex widgets.",
+    "correct_answer": "True",
+    "explanations": [
+      "Both Row and Column inherit from Flex.",
+      "They provide flexible layout capabilities.",
+      "They use the flex property to allocate space."
+    ]
+  },
+  {
+    "id": 65,
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "category": "flutter_basics",
+    "question": "What is 'Expanded' widget in Flutter?",
+    "options": [
+      "A) A widget that expands to fill available space",
+      "B) A widget that compresses content",
+      "C) A widget for images",
+      "D) A widget for text"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "Expanded takes all remaining space in a Row or Column.",
+      "It's used with the 'flex' property for proportions.",
+      "Common in responsive layouts."
+    ]
+  },
+  {
+    "id": 66,
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "category": "flutter_basics",
+    "question": "What is 'Flexible' widget in Flutter?",
+    "options": [
+      "A) A widget that controls how much space a child takes",
+      "B) A widget that expands to fill all space",
+      "C) A widget for animations",
+      "D) A widget for images"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "Flexible allows widgets to have flexible sizing.",
+      "It can be used with fit: FlexFit.tight or FlexFit.loose.",
+      "It gives more control than Expanded."
+    ]
+  },
+  {
+    "id": 67,
+    "type": "true_false",
+    "difficulty": "beginner",
+    "category": "flutter_basics",
+    "question": "Expanded is a subclass of Flexible.",
+    "correct_answer": "True",
+    "explanations": [
+      "Expanded is a Flexible with fit: FlexFit.tight.",
+      "It always fills the remaining space.",
+      "Flexible is more versatile."
+    ]
+  },
+  {
+    "id": 68,
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "category": "dart_basics",
+    "question": "What is the 'assert' statement in Dart?",
+    "options": [
+      "A) A debugging tool that checks conditions",
+      "B) A data type",
+      "C) A loop",
+      "D) A class"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "assert checks conditions during development.",
+      "It throws an error if the condition is false.",
+      "Asserts are ignored in production for performance."
+    ]
+  },
+  {
+    "id": 69,
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "category": "dart_basics",
+    "question": "What is the 'print' function in Dart?",
+    "options": [
+      "A) A function that outputs text to the console",
+      "B) A function for printing to a printer",
+      "C) A function for creating documents",
+      "D) A function for saving files"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "print outputs text to the console.",
+      "It's used for debugging and logging.",
+      "It's a top-level function in the dart:core library."
+    ]
+  },
+  {
+    "id": 70,
+    "type": "true_false",
+    "difficulty": "beginner",
+    "category": "dart_basics",
+    "question": "Dart uses single-line and multi-line comments.",
+    "correct_answer": "True",
+    "explanations": [
+      "Single-line comments start with //.",
+      "Multi-line comments are /* ... */.",
+      "Dart also has documentation comments with ///."
+    ]
+  },
+  {
+    "id": 71,
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "category": "flutter_basics",
+    "question": "What is a 'Text' widget in Flutter?",
+    "options": [
+      "A) A widget for displaying text",
+      "B) A widget for input text",
+      "C) A widget for images",
+      "D) A widget for buttons"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "Text displays a string of text.",
+      "It supports styling with TextStyle.",
+      "It's one of the most commonly used widgets."
+    ]
+  },
+  {
+    "id": 72,
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "category": "flutter_basics",
+    "question": "How do you style text in Flutter?",
+    "options": [
+      "A) Using the style property with TextStyle",
+      "B) Using the TextStyle class directly",
+      "C) Using the textStyle property",
+      "D) Using CSS"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "Text widgets have a style property.",
+      "TextStyle allows setting font size, color, weight, etc.",
+      "You can also use Theme.of(context).textTheme for predefined styles."
+    ]
+  },
+  {
+    "id": 73,
+    "type": "true_false",
+    "difficulty": "beginner",
+    "category": "flutter_basics",
+    "question": "Text widgets automatically wrap to the next line.",
+    "correct_answer": "True",
+    "explanations": [
+      "Text wraps by default when it reaches the end of the line.",
+      "You can control wrapping with softWrap and overflow.",
+      "TextOverflow can be ellipsis, clip, or fade."
+    ]
+  },
+  {
+    "id": 74,
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "category": "flutter_basics",
+    "question": "What is a 'TextField' in Flutter?",
+    "options": [
+      "A) A widget that accepts user text input",
+      "B) A widget for displaying text",
+      "C) A widget for numbers only",
+      "D) A widget for buttons"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "TextField allows users to enter text.",
+      "It supports keyboard types, input masks, and validation.",
+      "Commonly used in forms and search bars."
+    ]
+  },
+  {
+    "id": 75,
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "category": "flutter_basics",
+    "question": "How do you get the text from a TextField?",
+    "options": [
+      "A) Using a TextEditingController",
+      "B) Using the text property",
+      "C) Using the value property",
+      "D) Using a controller"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "TextField uses TextEditingController to manage text.",
+      "The controller has a text property.",
+      "You can listen to changes with addListener()."
+    ]
+  },
+  {
+    "id": 76,
+    "type": "true_false",
+    "difficulty": "beginner",
+    "category": "flutter_basics",
+    "question": "TextField can be used for password input.",
+    "correct_answer": "True",
+    "explanations": [
+      "Set obscureText: true for password fields.",
+      "This hides the input text.",
+      "You can also control keyboard type for different inputs."
+    ]
+  },
+  {
+    "id": 77,
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "category": "dart_basics",
+    "question": "What is a 'record' in Dart?",
+    "options": [
+      "A) A data structure that holds multiple values",
+      "B) A database record",
+      "C) A class for records",
+      "D) A file record"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "Records are immutable data structures introduced in Dart 3.",
+      "They can hold multiple values of different types.",
+      "Example: (String name, int age) = ('Alice', 30);"
+    ]
+  },
+  {
+    "id": 78,
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "category": "dart_basics",
+    "question": "What is a 'pattern' in Dart?",
+    "options": [
+      "A) A way to destructure data structures",
+      "B) A design pattern",
+      "C) A regular expression",
+      "D) A widget pattern"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "Patterns allow destructuring of data.",
+      "They work with records, lists, and maps.",
+      "Patterns make code more concise and readable."
+    ]
+  },
+  {
+    "id": 79,
+    "type": "true_false",
+    "difficulty": "beginner",
+    "category": "dart_basics",
+    "question": "Dart supports pattern matching.",
+    "correct_answer": "True",
+    "explanations": [
+      "Pattern matching is a powerful feature in Dart.",
+      "It allows you to match and destructure data.",
+      "Use cases include switch statements and variable assignment."
+    ]
+  },
+  {
+    "id": 80,
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "category": "flutter_basics",
+    "question": "What is a 'SnackBar' in Flutter?",
+    "options": [
+      "A) A temporary message that appears at the bottom of the screen",
+      "B) A dialog box",
+      "C) A navigation bar",
+      "D) A form field"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "SnackBar shows brief messages at the bottom.",
+      "They appear temporarily and disappear automatically.",
+      "They can also have actions for user interaction."
+    ]
+  },
+  {
+    "id": 81,
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "category": "flutter_basics",
+    "question": "How do you show a SnackBar in Flutter?",
+    "options": [
+      "A) ScaffoldMessenger.of(context).showSnackBar()",
+      "B) Navigator.pushSnackBar()",
+      "C) showSnackBar()",
+      "D) Scaffold.showSnackBar()"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "Use ScaffoldMessenger to show a SnackBar.",
+      "You need the BuildContext.",
+      "SnackBar has properties for duration and content."
+    ]
+  },
+  {
+    "id": 82,
+    "type": "true_false",
+    "difficulty": "beginner",
+    "category": "flutter_basics",
+    "question": "SnackBars can only display text.",
+    "correct_answer": "False",
+    "explanations": [
+      "SnackBars can contain any widget.",
+      "They can have text, icons, and action buttons.",
+      "The content is customizable."
+    ]
+  },
+  {
+    "id": 83,
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "category": "flutter_basics",
+    "question": "What is a 'Dialog' in Flutter?",
+    "options": [
+      "A) A popup that requires user interaction",
+      "B) A message at the bottom of the screen",
+      "C) A navigation bar",
+      "D) A text input field"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "Dialogs are popup windows that need user action.",
+      "They can be AlertDialog, SimpleDialog, or custom.",
+      "They're used for confirmations and important messages."
+    ]
+  },
+  {
+    "id": 84,
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "category": "flutter_basics",
+    "question": "What is the difference between a Dialog and a SnackBar?",
+    "options": [
+      "A) Dialog is modal, SnackBar is not",
+      "B) SnackBar is modal, Dialog is not",
+      "C) Both are modal",
+      "D) Neither is modal"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "Dialogs are modal and block interaction with the UI.",
+      "SnackBars are non-modal and appear briefly.",
+      "Dialogs are for important decisions, SnackBars for notifications."
+    ]
+  },
+  {
+    "id": 85,
+    "type": "true_false",
+    "difficulty": "beginner",
+    "category": "flutter_basics",
+    "question": "Dialogs can be dismissed by tapping outside in Flutter.",
+    "correct_answer": "False",
+    "explanations": [
+      "By default, tapping outside doesn't dismiss a Dialog.",
+      "You can make it dismissible with barrierDismissible: true.",
+      "This behavior is configurable."
+    ]
+  },
+  {
+    "id": 86,
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "category": "dart_basics",
+    "question": "What is the 'late' keyword in Dart?",
+    "options": [
+      "A) Defers initialization of a variable",
+      "B) Makes a variable null",
+      "C) Creates a constant",
+      "D) Creates a final variable"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "'late' is used for non-nullable variables that are initialized later.",
+      "It promises the variable will be set before use.",
+      "It's useful for dependencies that are injected after creation."
+    ]
+  },
+  {
+    "id": 87,
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "category": "dart_basics",
+    "question": "What is the difference between 'late' and 'final'?",
+    "options": [
+      "A) late defers initialization, final is a runtime constant",
+      "B) late is compile-time, final is runtime",
+      "C) They are the same",
+      "D) late is for variables, final is for functions"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "'late' delays initialization to a later time.",
+      "'final' must be initialized when declared or in the constructor.",
+      "'late final' combines both behaviors."
+    ]
+  },
+  {
+    "id": 88,
+    "type": "true_false",
+    "difficulty": "beginner",
+    "category": "dart_basics",
+    "question": "'late' can be used with non-nullable types.",
+    "correct_answer": "True",
+    "explanations": [
+      "'late' is designed for non-nullable variables.",
+      "It allows you to define them without initialization.",
+      "The variable must be initialized before it's accessed."
+    ]
+  },
+  {
+    "id": 89,
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "category": "flutter_basics",
+    "question": "What is a 'BottomNavigationBar' in Flutter?",
+    "options": [
+      "A) A widget for navigation at the bottom of the screen",
+      "B) A widget at the top of the screen",
+      "C) A widget for forms",
+      "D) A widget for images"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "BottomNavigationBar is used for bottom navigation.",
+      "It's common in apps with multiple top-level views.",
+      "It typically has 3-5 items."
+    ]
+  },
+  {
+    "id": 90,
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "category": "flutter_basics",
+    "question": "What is a 'TabBar' in Flutter?",
+    "options": [
+      "A) A widget that displays tabs for navigation",
+      "B) A widget for bottom navigation",
+      "C) A widget for forms",
+      "D) A widget for images"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "TabBar displays tabs at the top of the screen.",
+      "It's used with TabBarView and TabController.",
+      "Tabs allow switching between different views."
+    ]
+  },
+  {
+    "id": 91,
+    "type": "true_false",
+    "difficulty": "beginner",
+    "category": "flutter_basics",
+    "question": "TabBar and BottomNavigationBar serve the same purpose.",
+    "correct_answer": "False",
+    "explanations": [
+      "TabBar is typically at the top for navigation.",
+      "BottomNavigationBar is at the bottom.",
+      "They have different visual styles and use cases."
+    ]
+  },
+  {
+    "id": 92,
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "category": "dart_basics",
+    "question": "What is the 'dart:async' library used for?",
+    "options": [
+      "A) Asynchronous programming",
+      "B) UI programming",
+      "C) Database access",
+      "D) Network requests"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "dart:async provides Future, Stream, and Timer.",
+      "It's essential for asynchronous programming.",
+      "It's used with async/await and stream handling."
+    ]
+  },
+  {
+    "id": 93,
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "category": "dart_basics",
+    "question": "What is the 'dart:core' library?",
+    "options": [
+      "A) The core library imported by default",
+      "B) A library for UI",
+      "C) A library for networking",
+      "D) A library for databases"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "dart:core is automatically imported in all Dart code.",
+      "It includes basic types like int, double, String, List, and Map.",
+      "It's the foundation of the Dart language."
+    ]
+  },
+  {
+    "id": 94,
+    "type": "true_false",
+    "difficulty": "beginner",
+    "category": "dart_basics",
+    "question": "Dart has a standard library for common operations.",
+    "correct_answer": "True",
+    "explanations": [
+      "Dart's standard library is extensive.",
+      "It includes libraries for math, collection, and I/O.",
+      "You can import specific libraries as needed."
+    ]
+  },
+  {
+    "id": 95,
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "category": "flutter_basics",
+    "question": "What is a 'Image' widget in Flutter?",
+    "options": [
+      "A) A widget that displays an image",
+      "B) A widget for text input",
+      "C) A widget for buttons",
+      "D) A widget for navigation"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "Image displays images from various sources.",
+      "It can load from assets, network, memory, or files.",
+      "Common sources: Image.asset(), Image.network()."
+    ]
+  },
+  {
+    "id": 96,
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "category": "flutter_basics",
+    "question": "How do you display an image from assets in Flutter?",
+    "options": [
+      "A) Image.asset('assets/image.png')",
+      "B) Image.network('assets/image.png')",
+      "C) Image.file('assets/image.png')",
+      "D) Image.fromAsset('assets/image.png')"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "Use Image.asset() for images in the assets folder.",
+      "The asset path is specified in pubspec.yaml.",
+      "Image.network() is for images from URLs."
+    ]
+  },
+  {
+    "id": 97,
+    "type": "true_false",
+    "difficulty": "beginner",
+    "category": "flutter_basics",
+    "question": "Images in Flutter are loaded asynchronously.",
+    "correct_answer": "True",
+    "explanations": [
+      "Image loading is asynchronous to prevent blocking.",
+      "The widget shows a placeholder until the image loads.",
+      "You can customize loading and error handling."
+    ]
+  },
+  {
+    "id": 98,
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "category": "flutter_basics",
+    "question": "What is a 'FadeInImage' widget?",
+    "options": [
+      "A) A widget that fades in an image while loading",
+      "B) A widget that shows images only",
+      "C) A widget for animations",
+      "D) A widget for text"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "FadeInImage provides a smooth fade-in effect.",
+      "It shows a placeholder while loading the actual image.",
+      "It's useful for network images."
+    ]
+  },
+  {
+    "id": 99,
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "category": "dart_basics",
+    "question": "What is a 'extension' in Dart?",
+    "options": [
+      "A) A way to add methods to existing classes",
+      "B) A way to extend a class",
+      "C) A way to create new classes",
+      "D) A way to implement interfaces"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "Extensions add new functionality to existing types.",
+      "They don't modify the original class.",
+      "Example: extension StringExtension on String { }"
+    ]
+  },
+  {
+    "id": 100,
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "category": "dart_basics",
+    "question": "Can extensions override existing methods?",
+    "options": [
+      "A) No, extensions cannot override existing methods",
+      "B) Yes, extensions can override any method",
+      "C) Only with the override keyword",
+      "D) Only for built-in types"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "Extensions cannot override existing methods.",
+      "They can only add new methods.",
+      "This prevents unexpected behavior."
+    ]
+  },
+  {
+    "id": 101,
+    "type": "true_false",
+    "difficulty": "beginner",
+    "category": "dart_basics",
+    "question": "Extensions can be defined on generic types.",
+    "correct_answer": "True",
+    "explanations": [
+      "Extensions can work with generic types.",
+      "Example: extension MyList<T> on List<T> { }",
+      "This provides type-safe functionality."
+    ]
+  },
+  {
+    "id": 102,
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "category": "flutter_basics",
+    "question": "What is a 'FutureBuilder' in Flutter?",
+    "options": [
+      "A) A widget that builds based on a Future's state",
+      "B) A widget for building lists",
+      "C) A widget for navigation",
+      "D) A widget for forms"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "FutureBuilder displays data from a Future.",
+      "It shows loading, error, or success states.",
+      "It's commonly used for network requests."
+    ]
+  },
+  {
+    "id": 103,
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "category": "flutter_basics",
+    "question": "What is a 'StreamBuilder' in Flutter?",
+    "options": [
+      "A) A widget that builds based on a Stream's state",
+      "B) A widget for future states",
+      "C) A widget for lists",
+      "D) A widget for forms"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "StreamBuilder listens to a Stream and rebuilds on events.",
+      "It handles multiple data events over time.",
+      "It's useful for real-time data like chat messages."
+    ]
+  },
+  {
+    "id": 104,
+    "type": "true_false",
+    "difficulty": "beginner",
+    "category": "flutter_basics",
+    "question": "FutureBuilder and StreamBuilder have the same API.",
+    "correct_answer": "False",
+    "explanations": [
+      "Both are AsyncWidgetBuilder subclasses.",
+      "They have similar APIs but different use cases.",
+      "FutureBuilder handles single values, StreamBuilder handles streams."
+    ]
+  },
+  {
+    "id": 105,
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "category": "dart_basics",
+    "question": "What is a 'typedef' in Dart?",
+    "options": [
+      "A) A way to define function type aliases",
+      "B) A way to define variables",
+      "C) A way to define classes",
+      "D) A way to define interfaces"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "typedef creates type aliases for functions.",
+      "They make function signatures more readable.",
+      "Example: typedef Operation = int Function(int a, int b);"
+    ]
+  },
+  {
+    "id": 106,
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "category": "dart_basics",
+    "question": "What is the difference between a class and a mixin?",
+    "options": [
+      "A) Mixins can't be instantiated, classes can",
+      "B) Mixins can be instantiated, classes can't",
+      "C) They are the same",
+      "D) Mixins are for interfaces only"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "Mixins are not meant to be instantiated.",
+      "They are used to share code between classes.",
+      "Classes can be instantiated and used directly."
+    ]
+  },
+  {
+    "id": 107,
+    "type": "true_false",
+    "difficulty": "beginner",
+    "category": "dart_basics",
+    "question": "Mixins can define state.",
+    "correct_answer": "True",
+    "explanations": [
+      "Mixins can define both state and methods.",
+      "They can be used to share implementation.",
+      "This makes them more powerful than interfaces."
+    ]
+  },
+  {
+    "id": 108,
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "category": "flutter_basics",
+    "question": "What is a 'ClipRect' widget in Flutter?",
+    "options": [
+      "A) A widget that clips its child to a rectangle",
+      "B) A widget for images",
+      "C) A widget for text",
+      "D) A widget for navigation"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "ClipRect clips its child to a rectangular shape.",
+      "It's used to prevent overflow.",
+      "There are also ClipRRect for rounded corners."
+    ]
+  },
+  {
+    "id": 109,
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "category": "flutter_basics",
+    "question": "What is a 'ClipRRect' widget?",
+    "options": [
+      "A) A widget that clips its child with rounded corners",
+      "B) A widget for images",
+      "C) A widget for text",
+      "D) A widget for navigation"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "ClipRRect clips with rounded rectangular corners.",
+      "It's common for images and cards.",
+      "The borderRadius property controls the rounding."
+    ]
+  },
+  {
+    "id": 110,
+    "type": "true_false",
+    "difficulty": "beginner",
+    "category": "flutter_basics",
+    "question": "Clipping widgets can improve performance.",
+    "correct_answer": "False",
+    "explanations": [
+      "Clipping can reduce performance.",
+      "It causes additional GPU operations.",
+      "Use clipping only when necessary."
+    ]
+  },
+  {
+    "id": 111,
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "category": "dart_basics",
+    "question": "What is a 'set' in Dart?",
+    "options": [
+      "A) An unordered collection of unique items",
+      "B) An ordered collection of items",
+      "C) A collection of key-value pairs",
+      "D) A collection of numbers"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "Sets contain unique elements only.",
+      "They are unordered by default.",
+      "Example: Set<int> numbers = {1, 2, 3};"
+    ]
+  },
+  {
+    "id": 112,
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "category": "dart_basics",
+    "question": "How do you add an element to a set in Dart?",
+    "options": [
+      "A) mySet.add(element)",
+      "B) mySet.push(element)",
+      "C) mySet.append(element)",
+      "D) mySet.insert(element)"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "Use add() to add an element to a set.",
+      "Duplicate elements are ignored.",
+      "Use addAll() to add multiple elements."
+    ]
+  },
+  {
+    "id": 113,
+    "type": "true_false",
+    "difficulty": "beginner",
+    "category": "dart_basics",
+    "question": "Sets in Dart are always ordered.",
+    "correct_answer": "False",
+    "explanations": [
+      "Sets are unordered by default.",
+      "Use LinkedHashSet for insertion order.",
+      "SortedSet can order elements."
+    ]
+  },
+  {
+    "id": 114,
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "category": "flutter_basics",
+    "question": "What is a 'CircleAvatar' widget?",
+    "options": [
+      "A) A circular widget that displays an image or text",
+      "B) A widget for text input",
+      "C) A widget for buttons",
+      "D) A widget for navigation"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "CircleAvatar is a circular UI element.",
+      "It's commonly used for profile pictures.",
+      "It can display images, text, or background colors."
+    ]
+  },
+  {
+    "id": 115,
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "category": "flutter_basics",
+    "question": "What is an 'Icon' widget in Flutter?",
+    "options": [
+      "A) A widget that displays an icon",
+      "B) A widget for text input",
+      "C) A widget for buttons",
+      "D) A widget for navigation"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "Icon displays a graphical icon.",
+      "It uses Icons or IconData.",
+      "Example: Icon(Icons.home, color: Colors.blue);"
+    ]
+  },
+  {
+    "id": 116,
+    "type": "true_false",
+    "difficulty": "beginner",
+    "category": "flutter_basics",
+    "question": "Flutter includes Material Icons by default.",
+    "correct_answer": "True",
+    "explanations": [
+      "Material Icons are included in the flutter package.",
+      "They follow Google's Material Design guidelines.",
+      "You can also use custom icons."
+    ]
+  },
+  {
+    "id": 117,
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "category": "dart_basics",
+    "question": "What is a 'generator' in Dart?",
+    "options": [
+      "A) A function that produces a sequence of values",
+      "B) A function that produces random numbers",
+      "C) A function that produces widgets",
+      "D) A function that produces errors"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "Generators produce sequences of values.",
+      "They use 'yield' or 'yield*'.",
+      "Synchronous generators use Iterable, async use Stream."
+    ]
+  },
+  {
+    "id": 118,
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "category": "dart_basics",
+    "question": "What is the difference between 'yield' and 'yield*'?",
+    "options": [
+      "A) yield* yields all values from another generator",
+      "B) yield* yields a single value",
+      "C) yield yields multiple values",
+      "D) There is no difference"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "yield* delegates to another generator.",
+      "It yields all values from the other generator.",
+      "This allows composing generators."
+    ]
+  },
+  {
+    "id": 119,
+    "type": "true_false",
+    "difficulty": "beginner",
+    "category": "dart_basics",
+    "question": "Generators can be used to create infinite sequences.",
+    "correct_answer": "True",
+    "explanations": [
+      "Generators can produce infinite sequences.",
+      "Example: yield values from a counter.",
+      "The caller controls how many values are taken."
+    ]
+  },
+  {
+    "id": 120,
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "category": "flutter_basics",
+    "question": "What is an 'InkWell' widget in Flutter?",
+    "options": [
+      "A) A widget that adds splash effects on tap",
+      "B) A widget for text input",
+      "C) A widget for images",
+      "D) A widget for navigation"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "InkWell provides Material Design splash effects.",
+      "It's used to make widgets interactive.",
+      "It's similar to GestureDetector with visual feedback."
+    ]
+  },
+  {
+    "id": 121,
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "category": "flutter_basics",
+    "question": "What is the difference between InkWell and GestureDetector?",
+    "options": [
+      "A) InkWell provides visual feedback, GestureDetector doesn't",
+      "B) GestureDetector provides visual feedback, InkWell doesn't",
+      "C) They are the same",
+      "D) InkWell is for images only"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "InkWell adds Material ripple effects.",
+      "GestureDetector has no visual feedback.",
+      "Use InkWell for Material Design apps."
+    ]
+  },
+  {
+    "id": 122,
+    "type": "true_false",
+    "difficulty": "beginner",
+    "category": "flutter_basics",
+    "question": "InkWell can only be used on Material widgets.",
+    "correct_answer": "False",
+    "explanations": [
+      "InkWell can be used on any widget.",
+      "But it needs Material for ripple effects.",
+      "You can wrap any widget with InkWell."
+    ]
+  },
+  {
+    "id": 123,
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "category": "dart_basics",
+    "question": "What is the 'covariant' keyword in Dart?",
+    "options": [
+      "A) Used to override a method with a more specific type",
+      "B) Used to define a covariant type",
+      "C) Used to create covariant classes",
+      "D) Used for covariance"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "covariant allows overriding with a subtype.",
+      "It relaxes the type checking for parameters.",
+      "It's used in method overrides."
+    ]
+  },
+  {
+    "id": 124,
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "category": "dart_basics",
+    "question": "What is the 'toString()' method in Dart?",
+    "options": [
+      "A) A method that returns a string representation of an object",
+      "B) A method that converts a string to an object",
+      "C) A method for printing",
+      "D) A method for serialization"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "toString() returns a string representation.",
+      "It's called when an object is displayed as text.",
+      "Override it for custom string output."
+    ]
+  },
+  {
+    "id": 125,
+    "type": "true_false",
+    "difficulty": "beginner",
+    "category": "dart_basics",
+    "question": "All Dart objects have a toString() method.",
+    "correct_answer": "True",
+    "explanations": [
+      "toString() is defined in the Object class.",
+      "All classes inherit from Object.",
+      "So every object has toString() available."
+    ]
+  },
+  {
+    "id": 126,
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "category": "flutter_basics",
+    "question": "What is a 'SafeArea' widget in Flutter?",
+    "options": [
+      "A) A widget that adds padding for system UI",
+      "B) A widget for security",
+      "C) A widget for safe operations",
+      "D) A widget for data safety"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "SafeArea adds padding to avoid system overlays.",
+      "It prevents content from being hidden by status bars.",
+      "It's essential for full-screen content."
+    ]
+  },
+  {
+    "id": 127,
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "category": "flutter_basics",
+    "question": "Why use SafeArea in Flutter?",
+    "options": [
+      "A) To avoid system UI elements like status bar and notch",
+      "B) To ensure data safety",
+      "C) To encrypt data",
+      "D) To secure network connections"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "SafeArea ensures content is visible.",
+      "It handles different device Notch and cutouts.",
+      "It's important for responsive design."
+    ]
+  },
+  {
+    "id": 128,
+    "type": "true_false",
+    "difficulty": "beginner",
+    "category": "flutter_basics",
+    "question": "SafeArea is automatically applied in MaterialApp.",
+    "correct_answer": "False",
+    "explanations": [
+      "SafeArea is not automatic.",
+      "You need to wrap widgets with SafeArea.",
+      "MaterialApp can have a safeArea property."
+    ]
+  },
+  {
+    "id": 129,
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "category": "dart_basics",
+    "question": "What is the 'spread operator' in Dart?",
+    "options": [
+      "A) ... used to expand collections",
+      "B) .. used for cascade notation",
+      "C) ??? used for null coalescing",
+      "D) !! used for type assertion"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "The spread operator ... expands elements.",
+      "It's used with lists, sets, and maps.",
+      "Example: [...list1, ...list2]"
+    ]
+  },
+  {
+    "id": 130,
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "category": "dart_basics",
+    "question": "What is the 'cascade notation' in Dart?",
+    "options": [
+      "A) .. allows chaining method calls",
+      "B) .. is the spread operator",
+      "C) .. is used for null safety",
+      "D) .. is used for type casting"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "Cascade notation (..) chains method calls.",
+      "It allows multiple operations on the same object.",
+      "Example: person..name = 'Alice'..age = 30;"
+    ]
+  },
+  {
+    "id": 131,
+    "type": "true_false",
+    "difficulty": "beginner",
+    "category": "dart_basics",
+    "question": "Cascade notation returns the object, not the result.",
+    "correct_answer": "True",
+    "explanations": [
+      "The cascade operator returns the object.",
+      "It doesn't return the method results.",
+      "This enables method chaining."
+    ]
+  },
+  {
+    "id": 132,
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "category": "flutter_basics",
+    "question": "What is a 'ElevatedButton' in Flutter?",
+    "options": [
+      "A) A raised button with elevation",
+      "B) A flat button",
+      "C) A text button",
+      "D) A button with no elevation"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "ElevatedButton is a Material Design button.",
+      "It has elevation and a colored background.",
+      "It's used for primary actions."
+    ]
+  },
+  {
+    "id": 133,
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "category": "flutter_basics",
+    "question": "What is a 'TextButton' in Flutter?",
+    "options": [
+      "A) A flat button with no elevation",
+      "B) A raised button",
+      "C) A button for text input",
+      "D) A button with icon"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "TextButton is a flat button.",
+      "It has no elevation or background.",
+      "It's used for less prominent actions."
+    ]
+  },
+  {
+    "id": 134,
+    "type": "true_false",
+    "difficulty": "beginner",
+    "category": "flutter_basics",
+    "question": "All buttons in Flutter are subclasses of MaterialButton.",
+    "correct_answer": "True",
+    "explanations": [
+      "ElevatedButton, TextButton, and OutlinedButton.",
+      "All are Material Design buttons.",
+      "They inherit from MaterialButton."
+    ]
+  },
+  {
+    "id": 135,
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "category": "dart_basics",
+    "question": "What is the 'convert' library in Dart?",
+    "options": [
+      "A) A library for converting between data types",
+      "B) A library for converting currencies",
+      "C) A library for unit conversion",
+      "D) A library for encoding conversion"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "dart:convert provides JSON, UTF-8, and Base64.",
+      "It's used for serialization and encoding.",
+      "Example: jsonDecode, jsonEncode."
+    ]
+  },
+  {
+    "id": 136,
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "category": "dart_basics",
+    "question": "How do you convert a map to JSON in Dart?",
+    "options": [
+      "A) jsonEncode(map)",
+      "B) jsonEncode(map)",
+      "C) map.toJson()",
+      "D) JSON.stringify(map)"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "jsonEncode converts Dart objects to JSON.",
+      "It requires the dart:convert library.",
+      "Example: String json = jsonEncode(myMap);"
+    ]
+  },
+  {
+    "id": 137,
+    "type": "true_false",
+    "difficulty": "beginner",
+    "category": "dart_basics",
+    "question": "JSON decoding in Dart always returns a Map.",
+    "correct_answer": "False",
+    "explanations": [
+      "JSON can decode to Map or List.",
+      "It depends on the JSON structure.",
+      "You can specify the return type."
+    ]
+  },
+  {
+    "id": 138,
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "category": "flutter_basics",
+    "question": "What is a 'MediaQuery' in Flutter?",
+    "options": [
+      "A) A widget that provides device information",
+      "B) A widget for media playback",
+      "C) A widget for images",
+      "D) A widget for videos"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "MediaQuery provides screen dimensions and more.",
+      "It gives access to device orientation, text scale, etc.",
+      "Use MediaQuery.of(context) to get the data."
+    ]
+  },
+  {
+    "id": 139,
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "category": "flutter_basics",
+    "question": "What is the difference between MediaQuery and LayoutBuilder?",
+    "options": [
+      "A) MediaQuery gives device info, LayoutBuilder gives parent constraints",
+      "B) LayoutBuilder gives device info, MediaQuery gives parent constraints",
+      "C) They are the same",
+      "D) MediaQuery is for images only"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "MediaQuery provides global device information.",
+      "LayoutBuilder provides parent widget constraints.",
+      "Use both for responsive design."
+    ]
+  },
+  {
+    "id": 140,
+    "type": "true_false",
+    "difficulty": "beginner",
+    "category": "flutter_basics",
+    "question": "MediaQuery can be used to detect screen orientation.",
+    "correct_answer": "True",
+    "explanations": [
+      "MediaQuery has orientation property.",
+      "It returns Orientation.portrait or .landscape.",
+      "This helps build responsive layouts."
+    ]
+  },
+  {
+    "id": 141,
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "category": "dart_basics",
+    "question": "What is a 'collection if' in Dart?",
+    "options": [
+      "A) A conditional when building collections",
+      "B) An if statement for collections",
+      "C) A collection with if condition",
+      "D) A conditional collection"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "Collection if allows conditional elements.",
+      "It's used in list and set literals.",
+      "Example: [if (condition) element]"
+    ]
+  },
+  {
+    "id": 142,
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "category": "dart_basics",
+    "question": "What is a 'collection for' in Dart?",
+    "options": [
+      "A) A loop when building collections",
+      "B) A for loop for collections",
+      "C) A collection with for loop",
+      "D) A loop for collection iteration"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "Collection for allows building collections from loops.",
+      "It's used in list and set literals.",
+      "Example: [for (var i in items) i]"
+    ]
+  },
+  {
+    "id": 143,
+    "type": "true_false",
+    "difficulty": "beginner",
+    "category": "dart_basics",
+    "question": "Collection for and collection if are compile-time features.",
+    "correct_answer": "True",
+    "explanations": [
+      "They are evaluated at compile time.",
+      "They make collection building more concise.",
+      "They improve code readability."
+    ]
+  },
+  {
+    "id": 144,
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "category": "flutter_basics",
+    "question": "What is a 'Theme' in Flutter?",
+    "options": [
+      "A) A class that defines the visual style of the app",
+      "B) A class for colors only",
+      "C) A class for fonts only",
+      "D) A class for images only"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "Theme defines colors, fonts, and styles.",
+      "It provides consistent styling across the app.",
+      "Themes can be light or dark."
+    ]
+  },
+  {
+    "id": 145,
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "category": "flutter_basics",
+    "question": "What is the difference between Theme and ThemeData?",
+    "options": [
+      "A) Theme is a widget, ThemeData holds configuration",
+      "B) ThemeData is a widget, Theme holds configuration",
+      "C) They are the same",
+      "D) Theme is for colors, ThemeData for fonts"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "Theme is a widget that provides ThemeData.",
+      "ThemeData contains the styling configuration.",
+      "Use Theme.of(context) to access theme data."
+    ]
+  },
+  {
+    "id": 146,
+    "type": "true_false",
+    "difficulty": "beginner",
+    "category": "flutter_basics",
+    "question": "Flutter supports both light and dark themes.",
+    "correct_answer": "True",
+    "explanations": [
+      "Flutter supports theme switching.",
+      "You can define both light and dark ThemeData.",
+      "Use Brightness.dark and Brightness.light."
+    ]
+  },
+  {
+    "id": 147,
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "category": "dart_basics",
+    "question": "What is a 'library' in Dart?",
+    "options": [
+      "A) A container for related code",
+      "B) A type of class",
+      "C) A type of function",
+      "D) A type of variable"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "Libraries organize and share code.",
+      "They can be imported with 'import'.",
+      "The dart: prefix indicates core libraries."
+    ]
+  },
+  {
+    "id": 148,
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "category": "dart_basics",
+    "question": "What is the 'part' directive in Dart?",
+    "options": [
+      "A) Splits a library into multiple files",
+      "B) Imports a library",
+      "C) Exports a library",
+      "D) Defines a library"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "part allows splitting a library across files.",
+      "It's used with part of.",
+      "Useful for large libraries."
+    ]
+  },
+  {
+    "id": 149,
+    "type": "true_false",
+    "difficulty": "beginner",
+    "category": "dart_basics",
+    "question": "The 'part' directive is the preferred way to organize code.",
+    "correct_answer": "False",
+    "explanations": [
+      "Part is used less often now.",
+      "Most code uses library and import.",
+      "For larger projects, use packages."
+    ]
+  },
+  {
+    "id": 150,
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "category": "flutter_basics",
+    "question": "What is a 'Navigator' in Flutter?",
+    "options": [
+      "A) A widget that manages a stack of routes",
+      "B) A widget for maps",
+      "C) A widget for navigation bars",
+      "D) A widget for forms"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "Navigator manages route navigation.",
+      "It uses a stack for navigation history.",
+      "Provides push, pop, and replace operations."
+    ]
+  },
+  {
+    "id": 151,
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "category": "flutter_basics",
+    "question": "What is the difference between push and pushReplacement?",
+    "options": [
+      "A) push adds, pushReplacement replaces the current route",
+      "B) push replaces, pushReplacement adds",
+      "C) Both add routes",
+      "D) Both replace routes"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "push adds a new route to the stack.",
+      "pushReplacement replaces the current route.",
+      "Use pushReplacement for navigation with no back button."
+    ]
+  },
+  {
+    "id": 152,
+    "type": "true_false",
+    "difficulty": "beginner",
+    "category": "flutter_basics",
+    "question": "Navigator.pop() removes the top route.",
+    "correct_answer": "True",
+    "explanations": [
+      "pop removes the current route.",
+      "It returns to the previous route.",
+      "You can pass data back with pop."
+    ]
+  },
+  {
+    "id": 153,
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "category": "dart_basics",
+    "question": "What is a 'FutureOr' type in Dart?",
+    "options": [
+      "A) A type that can be either Future or a value",
+      "B) A type for futures only",
+      "C) A type for values only",
+      "D) A type for errors"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "FutureOr accepts either Future or value.",
+      "It's used in APIs that can return synchronously.",
+      "Example: FutureOr<String>."
+    ]
+  },
+  {
+    "id": 154,
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "category": "dart_basics",
+    "question": "What is the purpose of the 'dart:io' library?",
+    "options": [
+      "A) For input/output operations",
+      "B) For UI operations",
+      "C) For database operations",
+      "D) For web operations"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "dart:io is for file and network I/O.",
+      "It includes File, Socket, and Process.",
+      "It's not available in web applications."
+    ]
+  },
+  {
+    "id": 155,
+    "type": "true_false",
+    "difficulty": "beginner",
+    "category": "dart_basics",
+    "question": "dart:io can be used in Flutter web apps.",
+    "correct_answer": "False",
+    "explanations": [
+      "dart:io is not available on web.",
+      "Use dart:html or http package for web.",
+      "Flutter handles platform differences."
+    ]
+  },
+  {
+    "id": 156,
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "category": "flutter_basics",
+    "question": "What is a 'Hero' widget in Flutter?",
+    "options": [
+      "A) A widget that creates a shared element transition",
+      "B) A widget for superheroes",
+      "C) A widget for images",
+      "D) A widget for text"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "Hero creates animated transitions between screens.",
+      "It matches widgets by tag.",
+      "Common for image transitions."
+    ]
+  },
+  {
+    "id": 157,
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "category": "flutter_basics",
+    "question": "How does a Hero transition work?",
+    "options": [
+      "A) Two Hero widgets with the same tag animate between screens",
+      "B) One Hero widget animates",
+      "C) Hero widgets are unrelated",
+      "D) Hero is for text only"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "Hero widgets with matching tags.",
+      "They animate between routes.",
+      "The animation is smooth and automatic."
+    ]
+  },
+  {
+    "id": 158,
+    "type": "true_false",
+    "difficulty": "beginner",
+    "category": "flutter_basics",
+    "question": "Hero transitions only work for images.",
+    "correct_answer": "False",
+    "explanations": [
+      "Hero works for any widget.",
+      "It can animate text, containers, or custom widgets.",
+      "Any widget with the same tag will transition."
+    ]
+  },
+  {
+    "id": 159,
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "category": "dart_basics",
+    "question": "What is the 'dart:math' library used for?",
+    "options": [
+      "A) Mathematical operations",
+      "B) UI operations",
+      "C) Database operations",
+      "D) Web operations"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "dart:math provides math functions.",
+      "Includes Random, sqrt, sin, cos, and more.",
+      "Example: Random().nextInt(100)."
+    ]
+  },
+  {
+    "id": 160,
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "category": "dart_basics",
+    "question": "How do you generate a random number in Dart?",
+    "options": [
+      "A) Random().nextInt(max)",
+      "B) Math.random()",
+      "C) randInt(max)",
+      "D) random()"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "Use Random from dart:math.",
+      "nextInt generates a random integer.",
+      "Example: Random().nextInt(100) returns 0-99."
+    ]
+  },
+  {
+    "id": 161,
+    "type": "true_false",
+    "difficulty": "beginner",
+    "category": "dart_basics",
+    "question": "Random numbers in Dart are cryptographically secure.",
+    "correct_answer": "False",
+    "explanations": [
+      "Random uses a pseudo-random generator.",
+      "For secure random, use Random.secure().",
+      "Secure random is slower but more unpredictable."
+    ]
+  },
+  {
+    "id": 162,
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "category": "flutter_basics",
+    "question": "What is a 'CustomPainter' in Flutter?",
+    "options": [
+      "A) A class for custom painting on the canvas",
+      "B) A class for custom widgets",
+      "C) A class for custom layouts",
+      "D) A class for custom animations"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "CustomPainter allows custom drawing.",
+      "It's used with CustomPaint widget.",
+      "You can draw shapes, paths, and text."
+    ]
+  },
+  {
+    "id": 163,
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "category": "flutter_basics",
+    "question": "What is the difference between CustomPaint and CustomPainter?",
+    "options": [
+      "A) CustomPaint is a widget, CustomPainter is the painter",
+      "B) CustomPainter is a widget, CustomPaint is the painter",
+      "C) They are the same",
+      "D) CustomPaint is for images only"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "CustomPaint is the widget that displays the painting.",
+      "CustomPainter defines what to draw.",
+      "Together they enable custom graphics."
+    ]
+  },
+  {
+    "id": 164,
+    "type": "true_false",
+    "difficulty": "beginner",
+    "category": "flutter_basics",
+    "question": "CustomPainter can be used to create charts and graphs.",
+    "correct_answer": "True",
+    "explanations": [
+      "CustomPainter is ideal for custom graphics.",
+      "You can draw bar charts, line charts, etc.",
+      "It provides full control over rendering."
+    ]
+  },
+  {
+    "id": 165,
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "category": "dart_basics",
+    "question": "What is a 'mixin' in Dart used for?",
+    "options": [
+      "A) Code reuse across class hierarchies",
+      "B) Implementing interfaces",
+      "C) Creating new classes",
+      "D) Extending classes"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "Mixins allow sharing code between classes.",
+      "They are not classes themselves.",
+      "They enable composition over inheritance."
+    ]
+  },
+  {
+    "id": 166,
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "category": "dart_basics",
+    "question": "What is the difference between a mixin and an abstract class?",
+    "options": [
+      "A) Mixins can be used in multiple hierarchies, abstract classes can't",
+      "B) Abstract classes are for interfaces only",
+      "C) Mixins are for interfaces only",
+      "D) There is no difference"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "Mixins can be used across different hierarchies.",
+      "Abstract classes are for a single hierarchy.",
+      "Mixins provide more flexibility."
+    ]
+  },
+  {
+    "id": 167,
+    "type": "true_false",
+    "difficulty": "beginner",
+    "category": "dart_basics",
+    "question": "Mixins can have constructors.",
+    "correct_answer": "False",
+    "explanations": [
+      "Mixins cannot have constructors.",
+      "They only have methods and fields.",
+      "This is a key difference from classes."
+    ]
+  },
+  {
+    "id": 168,
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "category": "flutter_basics",
+    "question": "What is a 'GlobalKey' in Flutter?",
+    "options": [
+      "A) A key that maintains state across the widget tree",
+      "B) A key for local state",
+      "C) A key for animations",
+      "D) A key for images"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "GlobalKey preserves state across rebuilds.",
+      "It can be used to access widget state.",
+      "It's useful for forms and navigation."
+    ]
+  },
+  {
+    "id": 169,
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "category": "flutter_basics",
+    "question": "What is the difference between GlobalKey and LocalKey?",
+    "options": [
+      "A) GlobalKey is unique, LocalKey is local to the tree",
+      "B) LocalKey is unique, GlobalKey is local",
+      "C) They are the same",
+      "D) GlobalKey is for images only"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "GlobalKey is globally unique.",
+      "LocalKey is unique in its parent.",
+      "Use GlobalKey for state preservation."
+    ]
+  },
+  {
+    "id": 170,
+    "type": "true_false",
+    "difficulty": "beginner",
+    "category": "flutter_basics",
+    "question": "GlobalKey should be used sparingly.",
+    "correct_answer": "True",
+    "explanations": [
+      "GlobalKey can impact performance.",
+      "They prevent some optimizations.",
+      "Use other state management when possible."
+    ]
+  },
+  {
+    "id": 171,
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "category": "dart_basics",
+    "question": "What is a 'package' in Dart?",
+    "options": [
+      "A) A collection of code and dependencies",
+      "B) A single file",
+      "C) A class",
+      "D) A function"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "A package is a set of related code.",
+      "It's shared via pub.dev.",
+      "Packages are defined in pubspec.yaml."
+    ]
+  },
+  {
+    "id": 172,
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "category": "dart_basics",
+    "question": "What is the pubspec.yaml file used for?",
+    "options": [
+      "A) Defining package metadata and dependencies",
+      "B) Defining UI",
+      "C) Defining classes",
+      "D) Defining functions"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "pubspec.yaml contains package info.",
+      "It lists dependencies and dev dependencies.",
+      "It also defines assets and version."
+    ]
+  },
+  {
+    "id": 173,
+    "type": "true_false",
+    "difficulty": "beginner",
+    "category": "dart_basics",
+    "question": "pubspec.yaml is required for every Dart project.",
+    "correct_answer": "True",
+    "explanations": [
+      "All Dart projects need pubspec.yaml.",
+      "It's the project configuration file.",
+      "It's used by the pub package manager."
+    ]
+  },
+  {
+    "id": 174,
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "category": "flutter_basics",
+    "question": "What is a 'Provider' in Flutter?",
+    "options": [
+      "A) A state management package",
+      "B) A widget for images",
+      "C) A widget for text",
+      "D) A widget for buttons"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "Provider is a popular state management solution.",
+      "It exposes values down the widget tree.",
+      "It uses InheritedWidget behind the scenes."
+    ]
+  },
+  {
+    "id": 175,
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "category": "flutter_basics",
+    "question": "What is the difference between Provider and InheritedWidget?",
+    "options": [
+      "A) Provider simplifies InheritedWidget",
+      "B) InheritedWidget simplifies Provider",
+      "C) They are the same",
+      "D) Provider is for web only"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "Provider is a wrapper around InheritedWidget.",
+      "It's easier to use and more powerful.",
+      "Provider reduces boilerplate code."
+    ]
+  },
+  {
+    "id": 176,
+    "type": "true_false",
+    "difficulty": "beginner",
+    "category": "flutter_basics",
+    "question": "Provider is part of the Flutter SDK.",
+    "correct_answer": "False",
+    "explanations": [
+      "Provider is a third-party package.",
+      "It's not included in the Flutter SDK.",
+      "It needs to be added to pubspec.yaml."
+    ]
+  },
+  {
+    "id": 177,
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "category": "dart_basics",
+    "question": "What is a 'isolate' in Dart?",
+    "options": [
+      "A) A worker that runs in parallel",
+      "B) A class",
+      "C) A function",
+      "D) A variable"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "Isolates are Dart's concurrency model.",
+      "Each isolate has its own memory.",
+      "They communicate via message passing."
+    ]
+  },
+  {
+    "id": 178,
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "category": "dart_basics",
+    "question": "How do isolates communicate in Dart?",
+    "options": [
+      "A) Through SendPort and ReceivePort",
+      "B) Through shared memory",
+      "C) Through global variables",
+      "D) Through file I/O"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "Isolates use ports for communication.",
+      "SendPort sends messages.",
+      "ReceivePort receives messages."
+    ]
+  },
+  {
+    "id": 179,
+    "type": "true_false",
+    "difficulty": "beginner",
+    "category": "dart_basics",
+    "question": "Isolates share memory with each other.",
+    "correct_answer": "False",
+    "explanations": [
+      "Isolates have separate memory.",
+      "They can't share memory directly.",
+      "This prevents race conditions."
+    ]
+  },
+  {
+    "id": 180,
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "category": "flutter_basics",
+    "question": "What is a 'PageView' in Flutter?",
+    "options": [
+      "A) A widget that allows swipeable pages",
+      "B) A widget for static pages",
+      "C) A widget for text input",
+      "D) A widget for images"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "PageView supports swiping between pages.",
+      "It can be used for onboarding or galleries.",
+      "It supports smooth scrolling animations."
+    ]
+  },
+  {
+    "id": 181,
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "category": "flutter_basics",
+    "question": "What is the difference between PageView and ListView?",
+    "options": [
+      "A) PageView snaps to pages, ListView scrolls freely",
+      "B) ListView snaps to pages, PageView scrolls freely",
+      "C) They are the same",
+      "D) PageView is for web only"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "PageView snaps to each page.",
+      "ListView scrolls continuously.",
+      "PageView is great for paginated content."
+    ]
+  },
+  {
+    "id": 182,
+    "type": "true_false",
+    "difficulty": "beginner",
+    "category": "flutter_basics",
+    "question": "PageView can be controlled with a PageController.",
+    "correct_answer": "True",
+    "explanations": [
+      "PageController controls PageView.",
+      "It can jump or animate to a page.",
+      "It also provides page position."
+    ]
+  },
+  {
+    "id": 183,
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "category": "dart_basics",
+    "question": "What is a 'string interpolation' in Dart?",
+    "options": [
+      "A) Embedding expressions in strings",
+      "B) Concatenating strings",
+      "C) Comparing strings",
+      "D) Converting strings"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "Use $ or ${} for interpolation.",
+      "Example: 'Hello $name'.",
+      "You can embed any expression."
+    ]
+  },
+  {
+    "id": 184,
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "category": "dart_basics",
+    "question": "What is the difference between single and double quotes in Dart?",
+    "options": [
+      "A) They are interchangeable",
+      "B) Single quotes for characters, double for strings",
+      "C) Double quotes for characters, single for strings",
+      "D) Single quotes are for numbers"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "Single and double quotes are interchangeable.",
+      "You can use either for strings.",
+      "Just be consistent in your code."
+    ]
+  },
+  {
+    "id": 185,
+    "type": "true_false",
+    "difficulty": "beginner",
+    "category": "dart_basics",
+    "question": "Dart supports raw strings with r'...'.",
+    "correct_answer": "True",
+    "explanations": [
+      "Raw strings ignore escape sequences.",
+      "Example: r'C:\path'",
+      "Useful for file paths and regex."
+    ]
+  },
+  {
+    "id": 186,
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "category": "flutter_basics",
+    "question": "What is a 'AnimationController' in Flutter?",
+    "options": [
+      "A) A class that controls animation",
+      "B) A widget for animations",
+      "C) A class for images",
+      "D) A class for text"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "AnimationController drives animations.",
+      "It's used with Tween and CurvedAnimation.",
+      "It provides forward, reverse, and stop methods."
+    ]
+  },
+  {
+    "id": 187,
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "category": "flutter_basics",
+    "question": "What is a 'Tween' in Flutter animation?",
+    "options": [
+      "A) A class that interpolates between values",
+      "B) A widget for animations",
+      "C) A class for images",
+      "D) A class for text"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "Tween defines a value range.",
+      "It interpolates between begin and end values.",
+      "Example: Tween<double>(begin: 0, end: 1)."
+    ]
+  },
+  {
+    "id": 188,
+    "type": "true_false",
+    "difficulty": "beginner",
+    "category": "flutter_basics",
+    "question": "AnimationController must be disposed.",
+    "correct_answer": "True",
+    "explanations": [
+      "AnimationController needs disposal.",
+      "Call dispose() in StatefulWidget.",
+      "This prevents memory leaks."
+    ]
+  },
+  {
+    "id": 189,
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "category": "dart_basics",
+    "question": "What is a 'ternary operator' in Dart?",
+    "options": [
+      "A) condition ? trueExpression : falseExpression",
+      "B) condition ? trueExpression : falseExpression",
+      "C) condition ? trueExpression : falseExpression",
+      "D) condition ? trueExpression : falseExpression"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "The ternary operator is a shorthand for if-else.",
+      "Example: String status = isActive ? 'Active' : 'Inactive';",
+      "It returns one of two expressions."
+    ]
+  },
+  {
+    "id": 190,
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "category": "dart_basics",
+    "question": "What is the '??=' operator in Dart?",
+    "options": [
+      "A) Assign if null",
+      "B) Assign if true",
+      "C) Assign if false",
+      "D) Assign if not null"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "??= assigns the value if the variable is null.",
+      "Example: name ??= 'Default';",
+      "It's a null-aware assignment."
+    ]
+  },
+  {
+    "id": 191,
+    "type": "true_false",
+    "difficulty": "beginner",
+    "category": "dart_basics",
+    "question": "Dart has a 'switch' statement with fall-through.",
+    "correct_answer": "True",
+    "explanations": [
+      "Dart supports switch statements.",
+      "It has fall-through behavior.",
+      "Use 'break' to prevent fall-through."
+    ]
+  },
+  {
+    "id": 192,
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "category": "flutter_basics",
+    "question": "What is a 'Drawer' in Flutter?",
+    "options": [
+      "A) A slide-out navigation panel",
+      "B) A widget for drawing",
+      "C) A widget for images",
+      "D) A widget for text"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "Drawer is a Material Design navigation panel.",
+      "It slides from the left or right.",
+      "Commonly used for app navigation."
+    ]
+  },
+  {
+    "id": 193,
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "category": "flutter_basics",
+    "question": "What is the difference between a Drawer and a BottomSheet?",
+    "options": [
+      "A) Drawer slides from the side, BottomSheet from the bottom",
+      "B) BottomSheet slides from the side, Drawer from the bottom",
+      "C) They are the same",
+      "D) Drawer is for navigation, BottomSheet for actions"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "Drawer appears from the side.",
+      "BottomSheet appears from the bottom.",
+      "They have different use cases."
+    ]
+  },
+  {
+    "id": 194,
+    "type": "true_false",
+    "difficulty": "beginner",
+    "category": "flutter_basics",
+    "question": "Drawers can be opened with swipe gestures.",
+    "correct_answer": "True",
+    "explanations": [
+      "Drawers support swipe gestures.",
+      "Swipe from the edge to open.",
+      "This is a standard Material Design behavior."
+    ]
+  },
+  {
+    "id": 195,
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "category": "dart_basics",
+    "question": "What is a 'Future.wait' in Dart?",
+    "options": [
+      "A) Waits for multiple futures to complete",
+      "B) Waits for a single future",
+      "C) Creates a new future",
+      "D) Cancels a future"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "Future.wait runs multiple futures in parallel.",
+      "It waits for all to complete.",
+      "Returns a list of results."
+    ]
+  },
+  {
+    "id": 196,
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "category": "dart_basics",
+    "question": "What is the 'then' method on Future?",
+    "options": [
+      "A) A callback for when the future completes",
+      "B) A method for error handling",
+      "C) A method for cancellation",
+      "D) A method for starting"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "then registers a callback for completion.",
+      "It's an alternative to await.",
+      "Returns a new Future."
+    ]
+  },
+  {
+    "id": 197,
+    "type": "true_false",
+    "difficulty": "beginner",
+    "category": "dart_basics",
+    "question": "Future.error can be used to handle errors.",
+    "correct_answer": "True",
+    "explanations": [
+      "Future.error creates a Future that completes with an error.",
+      "Use catchError or onError to handle errors.",
+      "async/await uses try-catch."
+    ]
+  },
+  {
+    "id": 198,
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "category": "flutter_basics",
+    "question": "What is a 'DataTable' widget in Flutter?",
+    "options": [
+      "A) A widget that displays data in a table",
+      "B) A widget for lists",
+      "C) A widget for images",
+      "D) A widget for text"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "DataTable displays data in rows and columns.",
+      "It's a Material Design widget.",
+      "It supports sorting and selection."
+    ]
+  },
+  {
+    "id": 199,
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "category": "flutter_basics",
+    "question": "What is a 'PaginatedDataTable' in Flutter?",
+    "options": [
+      "A) A data table with pagination",
+      "B) A simple data table",
+      "C) A table for images",
+      "D) A table for text"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "PaginatedDataTable adds pagination.",
+      "It handles large datasets.",
+      "It includes built-in sorting."
+    ]
+  },
+  {
+    "id": 200,
+    "type": "true_false",
+    "difficulty": "beginner",
+    "category": "flutter_basics",
+    "question": "DataTable requires using DataRow and DataColumn.",
+    "correct_answer": "True",
+    "explanations": [
+      "DataTable uses DataRow for rows.",
+      "DataColumn defines columns.",
+      "DataCell is used for each cell."
+    ]
+  },
+  {
+    "id": 201,
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "category": "dart_basics",
+    "question": "What is a 'callable class' in Dart?",
+    "options": [
+      "A) A class with a call method",
+      "B) A class with a constructor",
+      "C) A class with a toString method",
+      "D) A class with a main method"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "Callable classes implement call().",
+      "They can be called like functions.",
+      "Example: class Sum { int call(int a, int b) => a + b; }"
+    ]
+  },
+  {
+    "id": 202,
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "category": "dart_basics",
+    "question": "What is the purpose of the 'call' method?",
+    "options": [
+      "A) Makes an instance callable like a function",
+      "B) Creates a new instance",
+      "C) Destroys an instance",
+      "D) Converts an instance"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "call allows instance to be called.",
+      "Example: myObject() calls the call method.",
+      "It's a special method."
+    ]
+  },
+  {
+    "id": 203,
+    "type": "true_false",
+    "difficulty": "beginner",
+    "category": "dart_basics",
+    "question": "Only one call method can exist per class.",
+    "correct_answer": "True",
+    "explanations": [
+      "A class can have only one call method.",
+      "It can have different parameters.",
+      "Overloading is not supported for call."
+    ]
+  },
+  {
+    "id": 204,
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "category": "flutter_basics",
+    "question": "What is a 'CustomScrollView' in Flutter?",
+    "options": [
+      "A) A scroll view with custom slivers",
+      "B) A simple scroll view",
+      "C) A view for images",
+      "D) A view for text"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "CustomScrollView uses slivers.",
+      "It provides flexible scrolling.",
+      "It's used for complex scrollable layouts."
+    ]
+  },
+  {
+    "id": 205,
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "category": "flutter_basics",
+    "question": "What is a 'Sliver' in Flutter?",
+    "options": [
+      "A) A scrollable area part",
+      "B) A widget for images",
+      "C) A widget for text",
+      "D) A widget for buttons"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "Slivers are scrollable pieces.",
+      "They work with CustomScrollView.",
+      "Examples include SliverList and SliverAppBar."
+    ]
+  },
+  {
+    "id": 206,
+    "type": "true_false",
+    "difficulty": "beginner",
+    "category": "flutter_basics",
+    "question": "SliverAppBar can collapse when scrolling.",
+    "correct_answer": "True",
+    "explanations": [
+      "SliverAppBar supports flexible space.",
+      "It can expand and collapse.",
+      "It's a common pattern in Material Design."
+    ]
+  },
+  {
+    "id": 207,
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "category": "dart_basics",
+    "question": "What is a 'type alias' in Dart?",
+    "options": [
+      "A) An alternative name for a type",
+      "B) A new type",
+      "C) A subclass",
+      "D) A superclass"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "typedef creates type aliases.",
+      "It can alias functions or generic types.",
+      "Example: typedef IntList = List<int>;"
+    ]
+  },
+  {
+    "id": 208,
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "category": "dart_basics",
+    "question": "What is the benefit of using type aliases?",
+    "options": [
+      "A) Makes code more readable and reusable",
+      "B) Makes code faster",
+      "C) Makes code smaller",
+      "D) Makes code more secure"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "Type aliases improve code clarity.",
+      "They reduce repetition.",
+      "They document intent."
+    ]
+  },
+  {
+    "id": 209,
+    "type": "true_false",
+    "difficulty": "beginner",
+    "category": "dart_basics",
+    "question": "Type aliases can be used with generics.",
+    "correct_answer": "True",
+    "explanations": [
+      "Type aliases support generics.",
+      "Example: typedef Pair<K, V> = Map<K, V>;",
+      "This adds flexibility."
+    ]
+  },
+  {
+    "id": 210,
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "category": "flutter_basics",
+    "question": "What is a 'Ink' widget in Flutter?",
+    "options": [
+      "A) A widget that provides ink effects",
+      "B) A widget for images",
+      "C) A widget for text",
+      "D) A widget for buttons"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "Ink provides splash and highlight effects.",
+      "It's used with Material widgets.",
+      "It's often used with InkWell."
+    ]
+  },
+  {
+    "id": 211,
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "category": "flutter_basics",
+    "question": "What is the difference between Ink and Container?",
+    "options": [
+      "A) Ink has Material effects, Container doesn't",
+      "B) Container has Material effects, Ink doesn't",
+      "C) They are the same",
+      "D) Ink is for images only"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "Ink provides Material Design ink effects.",
+      "Container is a generic layout widget.",
+      "Use Ink for interactive Material components."
+    ]
+  },
+  {
+    "id": 212,
+    "type": "true_false",
+    "difficulty": "beginner",
+    "category": "flutter_basics",
+    "question": "Ink effects require a Material widget ancestor.",
+    "correct_answer": "True",
+    "explanations": [
+      "Ink needs a Material ancestor.",
+      "Material provides the background.",
+      "This enables the ink effects."
+    ]
+  },
+  {
+    "id": 213,
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "category": "dart_basics",
+    "question": "What is a 'stream subscription' in Dart?",
+    "options": [
+      "A) An object that manages stream listening",
+      "B) A stream listener",
+      "C) A stream controller",
+      "D) A stream transformer"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "StreamSubscription represents a listener.",
+      "It can pause, resume, or cancel.",
+      "It's returned when listening to a Stream."
+    ]
+  },
+  {
+    "id": 214,
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "category": "dart_basics",
+    "question": "What is the difference between listen and forEach on Stream?",
+    "options": [
+      "A) listen returns a subscription, forEach doesn't",
+      "B) forEach returns a subscription, listen doesn't",
+      "C) They are the same",
+      "D) listen is for broadcast streams only"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "listen gives you more control.",
+      "forEach is simpler but less flexible.",
+      "Use listen for cancellation and pausing."
+    ]
+  },
+  {
+    "id": 215,
+    "type": "true_false",
+    "difficulty": "beginner",
+    "category": "dart_basics",
+    "question": "Stream subscriptions can be paused and resumed.",
+    "correct_answer": "True",
+    "explanations": [
+      "Subscription supports pause/resume.",
+      "This saves resources.",
+      "Useful when handling backpressure."
+    ]
+  },
+  {
+    "id": 216,
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "category": "flutter_basics",
+    "question": "What is a 'AnimatedContainer' in Flutter?",
+    "options": [
+      "A) A container that animates property changes",
+      "B) A container for images",
+      "C) A container for text",
+      "D) A container for buttons"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "AnimatedContainer animates changes.",
+      "It handles size, color, padding, etc.",
+      "The animation is automatic."
+    ]
+  },
+  {
+    "id": 217,
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "category": "flutter_basics",
+    "question": "What is the difference between AnimatedContainer and AnimatedSwitcher?",
+    "options": [
+      "A) AnimatedContainer animates properties, Switcher animates widgets",
+      "B) Switcher animates properties, Container animates widgets",
+      "C) They are the same",
+      "D) AnimatedContainer is for images only"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "AnimatedContainer animates its own properties.",
+      "AnimatedSwitcher animates between child widgets.",
+      "They serve different purposes."
+    ]
+  },
+  {
+    "id": 218,
+    "type": "true_false",
+    "difficulty": "beginner",
+    "category": "flutter_basics",
+    "question": "AnimatedContainer uses an implicit animation.",
+    "correct_answer": "True",
+    "explanations": [
+      "It uses implicit animations.",
+      "The animation happens automatically.",
+      "You just change the properties."
+    ]
+  },
+  {
+    "id": 219,
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "category": "dart_basics",
+    "question": "What is a 'RegExp' in Dart?",
+    "options": [
+      "A) A class for regular expressions",
+      "B) A class for strings",
+      "C) A class for numbers",
+      "D) A class for lists"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "RegExp provides regex support.",
+      "It's used for pattern matching.",
+      "Example: RegExp(r'[a-z]+')."
+    ]
+  },
+  {
+    "id": 220,
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "category": "dart_basics",
+    "question": "What is the 'hasMatch' method on RegExp?",
+    "options": [
+      "A) Checks if a string matches the pattern",
+      "B) Finds all matches",
+      "C) Replaces matches",
+      "D) Splits the string"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "hasMatch returns true if there's a match.",
+      "It's a quick existence check.",
+      "Example: RegExp(r'\d+').hasMatch('123')."
+    ]
+  },
+  {
+    "id": 221,
+    "type": "true_false",
+    "difficulty": "beginner",
+    "category": "dart_basics",
+    "question": "Regular expressions in Dart are case-sensitive by default.",
+    "correct_answer": "True",
+    "explanations": [
+      "RegExp is case-sensitive.",
+      "Use the caseSensitive parameter.",
+      "Set caseSensitive: false for case-insensitive."
+    ]
+  },
+  {
+    "id": 222,
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "category": "flutter_basics",
+    "question": "What is a 'Key' in Flutter?",
+    "options": [
+      "A) A widget identifier",
+      "B) A lock key",
+      "C) A security key",
+      "D) A database key"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "Keys identify widgets.",
+      "They help preserve state.",
+      "Keys are used in lists and state management."
+    ]
+  },
+  {
+    "id": 223,
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "category": "flutter_basics",
+    "question": "When should you use a Key in Flutter?",
+    "options": [
+      "A) When you have widgets that change order",
+      "B) When you have static widgets",
+      "C) When you have only one widget",
+      "D) When you have no state"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "Keys are needed for stateful widgets in lists.",
+      "They help Flutter identify widgets.",
+      "This prevents state issues."
+    ]
+  },
+  {
+    "id": 224,
+    "type": "true_false",
+    "difficulty": "beginner",
+    "category": "flutter_basics",
+    "question": "Using keys in lists can improve performance.",
+    "correct_answer": "True",
+    "explanations": [
+      "Keys help Flutter optimize list updates.",
+      "They allow reuse of widgets.",
+      "This improves performance."
+    ]
+  },
+  {
+    "id": 225,
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "category": "dart_basics",
+    "question": "What is the 'compareTo' method in Dart?",
+    "options": [
+      "A) A method for comparing objects",
+      "B) A method for sorting",
+      "C) A method for equality",
+      "D) A method for hashing"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "compareTo compares two objects.",
+      "It returns -1, 0, or 1.",
+      "It's used for sorting and ordering."
+    ]
+  },
+  {
+    "id": 226,
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "category": "dart_basics",
+    "question": "What is the 'hashCode' property in Dart?",
+    "options": [
+      "A) A hash code for the object",
+      "B) A code for encryption",
+      "C) A security code",
+      "D) A database code"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "hashCode is used in hash maps.",
+      "It must be consistent with equals.",
+      "Override it for custom classes."
+    ]
+  },
+  {
+    "id": 227,
+    "type": "true_false",
+    "difficulty": "beginner",
+    "category": "dart_basics",
+    "question": "hashCode and equals are unrelated in Dart.",
+    "correct_answer": "False",
+    "explanations": [
+      "hashCode and equals must be consistent.",
+      "If two objects are equal, their hashCodes must be equal.",
+      "Override both together."
+    ]
+  },
+  {
+    "id": 228,
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "category": "flutter_basics",
+    "question": "What is a 'ValueNotifier' in Flutter?",
+    "options": [
+      "A) A class that holds a value and notifies listeners",
+      "B) A class for images",
+      "C) A class for text",
+      "D) A class for buttons"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "ValueNotifier holds a value.",
+      "It notifies listeners when the value changes.",
+      "It's used with ValueListenableBuilder."
+    ]
+  },
+  {
+    "id": 229,
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "category": "flutter_basics",
+    "question": "What is the difference between ValueNotifier and ChangeNotifier?",
+    "options": [
+      "A) ValueNotifier holds a single value, ChangeNotifier holds any state",
+      "B) ChangeNotifier holds a single value, ValueNotifier holds any state",
+      "C) They are the same",
+      "D) ValueNotifier is deprecated"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "ValueNotifier is a simple value holder.",
+      "ChangeNotifier is more flexible.",
+      "Use ValueNotifier for single values."
+    ]
+  },
+  {
+    "id": 230,
+    "type": "true_false",
+    "difficulty": "beginner",
+    "category": "flutter_basics",
+    "question": "ValueNotifier must be disposed.",
+    "correct_answer": "True",
+    "explanations": [
+      "ValueNotifier should be disposed.",
+      "Call dispose() when no longer needed.",
+      "This prevents memory leaks."
+    ]
+  },
+  {
+    "id": 231,
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "category": "dart_basics",
+    "question": "What is the 'noSuchMethod' method in Dart?",
+    "options": [
+      "A) Called when a non-existent method is called",
+      "B) Called when a method exists",
+      "C) Called when an error occurs",
+      "D) Called when a class is created"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "noSuchMethod handles undefined methods.",
+      "It's used for dynamic behavior.",
+      "Override it for custom handling."
+    ]
+  },
+  {
+    "id": 232,
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "category": "dart_basics",
+    "question": "What is the benefit of overriding noSuchMethod?",
+    "options": [
+      "A) Allows dynamic method calls",
+      "B) Makes code faster",
+      "C) Reduces memory usage",
+      "D) Improves security"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "noSuchMethod enables dynamic behavior.",
+      "It's used in proxy patterns.",
+      "It adds flexibility to the code."
+    ]
+  },
+  {
+    "id": 233,
+    "type": "true_false",
+    "difficulty": "beginner",
+    "category": "dart_basics",
+    "question": "noSuchMethod is called for all method calls.",
+    "correct_answer": "False",
+    "explanations": [
+      "It's only called for missing methods.",
+      "Existing methods are called normally.",
+      "It's a fallback mechanism."
+    ]
+  },
+  {
+    "id": 234,
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "category": "flutter_basics",
+    "question": "What is a 'BottomSheet' in Flutter?",
+    "options": [
+      "A) A sheet that slides from the bottom",
+      "B) A sheet for forms",
+      "C) A sheet for images",
+      "D) A sheet for text"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "BottomSheet slides up from the bottom.",
+      "It's used for actions and content.",
+      "It can be persistent or modal."
+    ]
+  },
+  {
+    "id": 235,
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "category": "flutter_basics",
+    "question": "What is the difference between a BottomSheet and a SnackBar?",
+    "options": [
+      "A) BottomSheet is for content, SnackBar is for messages",
+      "B) SnackBar is for content, BottomSheet is for messages",
+      "C) They are the same",
+      "D) BottomSheet is for images only"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "BottomSheet holds more complex content.",
+      "SnackBar is for brief messages.",
+      "They have different use cases."
+    ]
+  },
+  {
+    "id": 236,
+    "type": "true_false",
+    "difficulty": "beginner",
+    "category": "flutter_basics",
+    "question": "Modal bottom sheets block interaction with the app.",
+    "correct_answer": "True",
+    "explanations": [
+      "Modal bottom sheets are modal.",
+      "They block interaction behind them.",
+      "They must be dismissed to continue."
+    ]
+  },
+  {
+    "id": 237,
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "category": "dart_basics",
+    "question": "What is the 'async*' keyword in Dart?",
+    "options": [
+      "A) Creates an asynchronous generator",
+      "B) Creates a synchronous generator",
+      "C) Creates a future",
+      "D) Creates a stream"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "async* creates an async generator.",
+      "It yields values over time.",
+      "It returns a Stream."
+    ]
+  },
+  {
+    "id": 238,
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "category": "dart_basics",
+    "question": "What is the difference between async and async*?",
+    "options": [
+      "A) async returns Future, async* returns Stream",
+      "B) async* returns Future, async returns Stream",
+      "C) They are the same",
+      "D) async* is deprecated"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "async returns a single value (Future).",
+      "async* returns multiple values (Stream).",
+      "Use async* for streaming data."
+    ]
+  },
+  {
+    "id": 239,
+    "type": "true_false",
+    "difficulty": "beginner",
+    "category": "dart_basics",
+    "question": "async* functions use 'yield' to produce values.",
+    "correct_answer": "True",
+    "explanations": [
+      "yield emits values from the generator.",
+      "The function can yield multiple values.",
+      "It's the core of async generators."
+    ]
+  },
+  {
+    "id": 240,
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "category": "flutter_basics",
+    "question": "What is a 'Flow' widget in Flutter?",
+    "options": [
+      "A) A widget for layout with child positions",
+      "B) A widget for images",
+      "C) A widget for text",
+      "D) A widget for buttons"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "Flow provides custom child positioning.",
+      "It's more efficient than Stack for many children.",
+      "It uses a FlowDelegate."
+    ]
+  },
+  {
+    "id": 241,
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "category": "flutter_basics",
+    "question": "What is the difference between Flow and Stack?",
+    "options": [
+      "A) Flow is more efficient for many children",
+      "B) Stack is more efficient for many children",
+      "C) They are the same",
+      "D) Flow is for images only"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "Flow repositions children efficiently.",
+      "Stack can cause performance issues.",
+      "Use Flow for custom layouts with many children."
+    ]
+  },
+  {
+    "id": 242,
+    "type": "true_false",
+    "difficulty": "beginner",
+    "category": "flutter_basics",
+    "question": "Flow requires a FlowDelegate.",
+    "correct_answer": "True",
+    "explanations": [
+      "FlowDelegate controls child positions.",
+      "You need to implement it.",
+      "It provides flexibility but complexity."
+    ]
+  },
+  {
+    "id": 243,
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "category": "dart_basics",
+    "question": "What is the 'sync*' keyword in Dart?",
+    "options": [
+      "A) Creates a synchronous generator",
+      "B) Creates an asynchronous generator",
+      "C) Creates a future",
+      "D) Creates a stream"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "sync* creates a sync generator.",
+      "It yields values synchronously.",
+      "It returns an Iterable."
+    ]
+  },
+  {
+    "id": 244,
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "category": "dart_basics",
+    "question": "What is the difference between sync* and async*?",
+    "options": [
+      "A) sync* is synchronous, async* is asynchronous",
+      "B) async* is synchronous, sync* is asynchronous",
+      "C) They are the same",
+      "D) sync* is for web only"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "sync* is for synchronous generation.",
+      "async* is for asynchronous generation.",
+      "Choose based on the use case."
+    ]
+  },
+  {
+    "id": 245,
+    "type": "true_false",
+    "difficulty": "beginner",
+    "category": "dart_basics",
+    "question": "sync* functions use 'yield' to produce values.",
+    "correct_answer": "True",
+    "explanations": [
+      "yield emits values from the generator.",
+      "It's the same as async* but synchronous.",
+      "The function returns an Iterable."
+    ]
+  },
+  {
+    "id": 246,
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "category": "flutter_basics",
+    "question": "What is a 'AspectRatio' widget in Flutter?",
+    "options": [
+      "A) A widget that forces a specific aspect ratio",
+      "B) A widget for images",
+      "C) A widget for text",
+      "D) A widget for buttons"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "AspectRatio forces a specific width/height ratio.",
+      "It's useful for responsive design.",
+      "Example: AspectRatio(aspectRatio: 16/9)."
+    ]
+  },
+  {
+    "id": 247,
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "category": "flutter_basics",
+    "question": "What is the difference between AspectRatio and FractionallySizedBox?",
+    "options": [
+      "A) AspectRatio forces ratio, FractionallySizedBox fills a fraction",
+      "B) FractionallySizedBox forces ratio, AspectRatio fills a fraction",
+      "C) They are the same",
+      "D) AspectRatio is for images only"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "AspectRatio maintains a specific ratio.",
+      "FractionallySizedBox fills a fraction of the parent.",
+      "They serve different layout needs."
+    ]
+  },
+  {
+    "id": 248,
+    "type": "true_false",
+    "difficulty": "beginner",
+    "category": "flutter_basics",
+    "question": "AspectRatio can be used with videos and images.",
+    "correct_answer": "True",
+    "explanations": [
+      "AspectRatio is commonly used with media.",
+      "It ensures proper display proportions.",
+      "It prevents distortion."
+    ]
+  },
+  {
+    "id": 249,
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "category": "dart_basics",
+    "question": "What is a 'generic class' in Dart?",
+    "options": [
+      "A) A class with type parameters",
+      "B) A class with no types",
+      "C) A class with one type",
+      "D) A class with no parameters"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "Generics allow type parameterization.",
+      "Example: class Box<T> { T value; }",
+      "They provide type safety."
+    ]
+  },
+  {
+    "id": 250,
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "category": "dart_basics",
+    "question": "What is the benefit of using generics?",
+    "options": [
+      "A) Type safety and code reuse",
+      "B) Faster code",
+      "C) Smaller code",
+      "D) More security"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "Generics catch type errors.",
+      "They enable code reuse.",
+      "They make code more flexible."
+    ]
+  },
+  {
+    "id": 251,
+    "type": "true_false",
+    "difficulty": "beginner",
+    "category": "dart_basics",
+    "question": "Dart supports generic constraints.",
+    "correct_answer": "True",
+    "explanations": [
+      "Use extends to constrain types.",
+      "Example: class Box<T extends num> { }",
+      "This restricts T to numbers."
+    ]
+  },
+  {
+    "id": 252,
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "category": "flutter_basics",
+    "question": "What is a 'FittedBox' widget in Flutter?",
+    "options": [
+      "A) A widget that scales its child to fit",
+      "B) A widget for images",
+      "C) A widget for text",
+      "D) A widget for buttons"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "FittedBox scales its child.",
+      "It ensures the child fits within constraints.",
+      "Useful for fitting images or text."
+    ]
+  },
+  {
+    "id": 253,
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "category": "flutter_basics",
+    "question": "What is the difference between FittedBox and BoxFit?",
+    "options": [
+      "A) FittedBox scales the widget, BoxFit scales images",
+      "B) BoxFit scales the widget, FittedBox scales images",
+      "C) They are the same",
+      "D) FittedBox is for text only"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "FittedBox works on any widget.",
+      "BoxFit is specifically for images.",
+      "They serve similar but different purposes."
+    ]
+  },
+  {
+    "id": 254,
+    "type": "true_false",
+    "difficulty": "beginner",
+    "category": "flutter_basics",
+    "question": "FittedBox can change the aspect ratio of its child.",
+    "correct_answer": "True",
+    "explanations": [
+      "FittedBox scales and can stretch.",
+      "This can change the aspect ratio.",
+      "Use fit property to control scaling."
+    ]
+  },
+  {
+    "id": 255,
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "category": "dart_basics",
+    "question": "What is the 'using' keyword in Dart?",
+    "options": [
+      "A) It doesn't exist in Dart",
+      "B) A keyword for imports",
+      "C) A keyword for resources",
+      "D) A keyword for exceptions"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "Dart doesn't have a 'using' keyword.",
+      "Use 'import' for libraries.",
+      "Use 'with' for mixins."
+    ]
+  },
+  {
+    "id": 256,
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "category": "dart_basics",
+    "question": "What is the 'show' keyword in imports?",
+    "options": [
+      "A) Imports only specified members",
+      "B) Imports all members",
+      "C) Hides members",
+      "D) Shows all members"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "'show' imports specific names.",
+      "Example: import 'package' show foo;",
+      "It helps avoid name conflicts."
+    ]
+  },
+  {
+    "id": 257,
+    "type": "true_false",
+    "difficulty": "beginner",
+    "category": "dart_basics",
+    "question": "The 'hide' keyword in imports excludes members.",
+    "correct_answer": "True",
+    "explanations": [
+      "'hide' excludes specific names.",
+      "Example: import 'package' hide foo;",
+      "It's the opposite of show."
+    ]
+  },
+  {
+    "id": 258,
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "category": "flutter_basics",
+    "question": "What is a 'RefreshIndicator' in Flutter?",
+    "options": [
+      "A) A widget for pull-to-refresh",
+      "B) A widget for images",
+      "C) A widget for text",
+      "D) A widget for buttons"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "RefreshIndicator adds pull-to-refresh.",
+      "It's used with scrollable widgets.",
+      "It's a Material Design component."
+    ]
+  },
+  {
+    "id": 259,
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "category": "flutter_basics",
+    "question": "What is the difference between RefreshIndicator and CircularProgressIndicator?",
+    "options": [
+      "A) RefreshIndicator enables pull-to-refresh, CircularProgressIndicator shows loading",
+      "B) CircularProgressIndicator enables pull-to-refresh, RefreshIndicator shows loading",
+      "C) They are the same",
+      "D) RefreshIndicator is for images only"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "RefreshIndicator is for refresh gestures.",
+      "CircularProgressIndicator is for loading.",
+      "They can be used together."
+    ]
+  },
+  {
+    "id": 260,
+    "type": "true_false",
+    "difficulty": "beginner",
+    "category": "flutter_basics",
+    "question": "RefreshIndicator works with any scrollable widget.",
+    "correct_answer": "True",
+    "explanations": [
+      "It works with ListView, GridView, etc.",
+      "The child must be scrollable.",
+      "It triggers the onRefresh callback."
+    ]
+  },
+  {
+    "id": 261,
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "category": "dart_basics",
+    "question": "What is a 'dynamic' type in Dart?",
+    "options": [
+      "A) A type that can hold any value",
+      "B) A type for numbers only",
+      "C) A type for strings only",
+      "D) A type for lists only"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "dynamic bypasses type checking.",
+      "It can be anything.",
+      "Use with caution."
+    ]
+  },
+  {
+    "id": 262,
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "category": "dart_basics",
+    "question": "What is the difference between dynamic and Object?",
+    "options": [
+      "A) dynamic is checked at runtime, Object is checked at compile time",
+      "B) Object is checked at runtime, dynamic is checked at compile time",
+      "C) They are the same",
+      "D) dynamic is for web only"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "dynamic disables type checking.",
+      "Object is the base class.",
+      "Object requires type-safe casting."
+    ]
+  },
+  {
+    "id": 263,
+    "type": "true_false",
+    "difficulty": "beginner",
+    "category": "dart_basics",
+    "question": "Using dynamic can reduce type safety.",
+    "correct_answer": "True",
+    "explanations": [
+      "dynamic bypasses the type system.",
+      "This can lead to runtime errors.",
+      "Prefer typed variables when possible."
+    ]
+  },
+  {
+    "id": 264,
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "category": "flutter_basics",
+    "question": "What is a 'Divider' widget in Flutter?",
+    "options": [
+      "A) A horizontal line for separating content",
+      "B) A widget for images",
+      "C) A widget for text",
+      "D) A widget for buttons"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "Divider creates a visual separation.",
+      "It's a thin horizontal line.",
+      "Used in lists and menus."
+    ]
+  },
+  {
+    "id": 265,
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "category": "flutter_basics",
+    "question": "What is a 'VerticalDivider' in Flutter?",
+    "options": [
+      "A) A vertical line for separating content",
+      "B) A horizontal line",
+      "C) A widget for images",
+      "D) A widget for text"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "VerticalDivider creates vertical separation.",
+      "It's a thin vertical line.",
+      "Used in rows and toolbars."
+    ]
+  },
+  {
+    "id": 266,
+    "type": "true_false",
+    "difficulty": "beginner",
+    "category": "flutter_basics",
+    "question": "Divider and VerticalDivider have the same properties.",
+    "correct_answer": "True",
+    "explanations": [
+      "They share similar properties.",
+      "Both have color, thickness, and indent.",
+      "Their direction is the main difference."
+    ]
+  },
+  {
+    "id": 267,
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "category": "dart_basics",
+    "question": "What is a 'symbol' in Dart?",
+    "options": [
+      "A) A lightweight object used for reflection",
+      "B) A symbol for icons",
+      "C) A symbol for math",
+      "D) A symbol for currency"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "Symbols are used in reflection.",
+      "They are created with #identifier.",
+      "They're rarely used in normal code."
+    ]
+  },
+  {
+    "id": 268,
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "category": "dart_basics",
+    "question": "What is the purpose of symbols in Dart?",
+    "options": [
+      "A) For metaprogramming and reflection",
+      "B) For displaying icons",
+      "C) For mathematical operations",
+      "D) For currency formatting"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "Symbols represent identifiers.",
+      "They're used with mirrors.",
+      "They support advanced programming."
+    ]
+  },
+  {
+    "id": 269,
+    "type": "true_false",
+    "difficulty": "beginner",
+    "category": "dart_basics",
+    "question": "Symbols are commonly used in everyday Dart programming.",
+    "correct_answer": "False",
+    "explanations": [
+      "Symbols are rarely used.",
+      "They're for advanced use cases.",
+      "Most developers never need them."
+    ]
+  },
+  {
+    "id": 270,
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "category": "flutter_basics",
+    "question": "What is a 'GestureDetector' used for?",
+    "options": [
+      "A) Detecting user gestures",
+      "B) Detecting images",
+      "C) Detecting text",
+      "D) Detecting buttons"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "GestureDetector handles interactions.",
+      "It detects taps, drags, and more.",
+      "It makes widgets interactive."
+    ]
+  },
+  {
+    "id": 271,
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "category": "flutter_basics",
+    "question": "What is the difference between onTap and onLongPress?",
+    "options": [
+      "A) onTap is a short press, onLongPress is a long press",
+      "B) onLongPress is a short press, onTap is a long press",
+      "C) They are the same",
+      "D) onTap is for images only"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "onTap responds to quick taps.",
+      "onLongPress responds to holding down.",
+      "They trigger different actions."
+    ]
+  },
+  {
+    "id": 272,
+    "type": "true_false",
+    "difficulty": "beginner",
+    "category": "flutter_basics",
+    "question": "GestureDetector can detect multiple gestures.",
+    "correct_answer": "True",
+    "explanations": [
+      "It can track many gestures.",
+      "Including taps, drags, and scales.",
+      "Use the various on-prefixed callbacks."
+    ]
+  },
+  {
+    "id": 273,
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "category": "dart_basics",
+    "question": "What is a 'computed property' in Dart?",
+    "options": [
+      "A) A getter that computes a value",
+      "B) A variable",
+      "C) A constant",
+      "D) A final property"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "Getters can compute values.",
+      "They look like properties.",
+      "Example: int get double => value * 2;"
+    ]
+  },
+  {
+    "id": 274,
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "category": "dart_basics",
+    "question": "What is the difference between a getter and a method?",
+    "options": [
+      "A) Getter is called without parentheses, method requires them",
+      "B) Method is called without parentheses, getter requires them",
+      "C) They are the same",
+      "D) Getters are for classes only"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "Getters are accessed like properties.",
+      "Methods are called with parentheses.",
+      "Getters are used for computed values."
+    ]
+  },
+  {
+    "id": 275,
+    "type": "true_false",
+    "difficulty": "beginner",
+    "category": "dart_basics",
+    "question": "Getters can have side effects.",
+    "correct_answer": "False",
+    "explanations": [
+      "Getters should not modify state.",
+      "They should be pure functions.",
+      "This makes them safe and predictable."
+    ]
+  },
+  {
+    "id": 276,
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "category": "flutter_basics",
+    "question": "What is a 'Opacity' widget in Flutter?",
+    "options": [
+      "A) A widget that changes opacity of its child",
+      "B) A widget for images",
+      "C) A widget for text",
+      "D) A widget for buttons"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "Opacity controls the transparency.",
+      "It's useful for fade effects.",
+      "Example: Opacity(opacity: 0.5, child: ...)"
+    ]
+  },
+  {
+    "id": 277,
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "category": "flutter_basics",
+    "question": "What is the difference between Opacity and AnimatedOpacity?",
+    "options": [
+      "A) AnimatedOpacity animates changes, Opacity doesn't",
+      "B) Opacity animates changes, AnimatedOpacity doesn't",
+      "C) They are the same",
+      "D) Opacity is for images only"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "AnimatedOpacity adds smooth transitions.",
+      "Opacity changes instantly.",
+      "Use AnimatedOpacity for animations."
+    ]
+  },
+  {
+    "id": 278,
+    "type": "true_false",
+    "difficulty": "beginner",
+    "category": "flutter_basics",
+    "question": "Opacity widget rebuilds its child on every frame.",
+    "correct_answer": "False",
+    "explanations": [
+      "Opacity doesn't rebuild its child.",
+      "It applies a paint effect.",
+      "This can be more efficient."
+    ]
+  },
+  {
+    "id": 279,
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "category": "dart_basics",
+    "question": "What is a 'record pattern' in Dart?",
+    "options": [
+      "A) A pattern for matching records",
+      "B) A record for patterns",
+      "C) A record type",
+      "D) A pattern type"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "Record patterns destructure records.",
+      "They extract values from records.",
+      "Example: (String name, int age) = record;"
+    ]
+  },
+  {
+    "id": 280,
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "category": "dart_basics",
+    "question": "What is the benefit of record patterns?",
+    "options": [
+      "A) Makes destructuring easier and clearer",
+      "B) Makes code slower",
+      "C) Makes code larger",
+      "D) Makes code less readable"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "Record patterns simplify code.",
+      "They make extraction clean.",
+      "They improve readability."
+    ]
+  },
+  {
+    "id": 281,
+    "type": "true_false",
+    "difficulty": "beginner",
+    "category": "dart_basics",
+    "question": "Record patterns work with any collection.",
+    "correct_answer": "False",
+    "explanations": [
+      "They work specifically with records.",
+      "Lists use list patterns.",
+      "Maps use map patterns."
+    ]
+  },
+  {
+    "id": 282,
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "category": "flutter_basics",
+    "question": "What is a 'Wrap' widget in Flutter?",
+    "options": [
+      "A) A widget that wraps children to the next line",
+      "B) A widget for images",
+      "C) A widget for text",
+      "D) A widget for buttons"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "Wrap moves children to new lines.",
+      "It's like Row but with wrapping.",
+      "Use for chips and badges."
+    ]
+  },
+  {
+    "id": 283,
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "category": "flutter_basics",
+    "question": "What is the difference between Wrap and Row?",
+    "options": [
+      "A) Wrap wraps children, Row keeps them in one line",
+      "B) Row wraps children, Wrap keeps them in one line",
+      "C) They are the same",
+      "D) Wrap is for images only"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "Wrap supports multiple lines.",
+      "Row forces a single line.",
+      "Use Wrap for flexible layouts."
+    ]
+  },
+  {
+    "id": 284,
+    "type": "true_false",
+    "difficulty": "beginner",
+    "category": "flutter_basics",
+    "question": "Wrap can have custom alignment and spacing.",
+    "correct_answer": "True",
+    "explanations": [
+      "Wrap has alignment and spacing.",
+      "You can control horizontal and vertical.",
+      "This provides flexible layout control."
+    ]
+  },
+  {
+    "id": 285,
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "category": "dart_basics",
+    "question": "What is 'conditional import' in Dart?",
+    "options": [
+      "A) Importing based on platform or condition",
+      "B) Importing always",
+      "C) Importing never",
+      "D) Importing with a condition"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "Conditional imports are platform-specific.",
+      "Use for web vs. mobile differences.",
+      "Example: import 'file.dart' if (dart.library.html) ..."
+    ]
+  },
+  {
+    "id": 286,
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "category": "dart_basics",
+    "question": "What is 'deferred import' in Dart?",
+    "options": [
+      "A) Loading a library lazily",
+      "B) Loading a library immediately",
+      "C) Not loading a library",
+      "D) Loading a library twice"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "Deferred imports load lazily.",
+      "They reduce startup time.",
+      "Use 'deferred as' syntax."
+    ]
+  },
+  {
+    "id": 287,
+    "type": "true_false",
+    "difficulty": "beginner",
+    "category": "dart_basics",
+    "question": "Deferred imports are loaded only when needed.",
+    "correct_answer": "True",
+    "explanations": [
+      "They are loaded on demand.",
+      "This improves performance.",
+      "Call loadLibrary() to load."
+    ]
+  },
+  {
+    "id": 288,
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "category": "flutter_basics",
+    "question": "What is a 'Tooltip' widget in Flutter?",
+    "options": [
+      "A) A widget that shows a tooltip on long press",
+      "B) A widget for images",
+      "C) A widget for text",
+      "D) A widget for buttons"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "Tooltip displays help text.",
+      "It appears on long press.",
+      "It's used for accessibility."
+    ]
+  },
+  {
+    "id": 289,
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "category": "flutter_basics",
+    "question": "What is the difference between Tooltip and MaterialTooltip?",
+    "options": [
+      "A) Tooltip is the widget, MaterialTooltip is the style",
+      "B) MaterialTooltip is the widget, Tooltip is the style",
+      "C) They are the same",
+      "D) Tooltip is for images only"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "Tooltip is the widget.",
+      "It follows Material Design.",
+      "It's the standard tooltip widget."
+    ]
+  },
+  {
+    "id": 290,
+    "type": "true_false",
+    "difficulty": "beginner",
+    "category": "flutter_basics",
+    "question": "Tooltips are important for accessibility.",
+    "correct_answer": "True",
+    "explanations": [
+      "Tooltips provide text descriptions.",
+      "They help users understand icons.",
+      "They improve usability."
+    ]
+  },
+  {
+    "id": 291,
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "category": "dart_basics",
+    "question": "What is 'Dart Pad'?",
+    "options": [
+      "A) An online editor for Dart",
+      "B) A local IDE",
+      "C) A compiler",
+      "D) A debugger"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "Dart Pad is a web-based editor.",
+      "It's for trying Dart and Flutter.",
+      "It's available at dartpad.dev."
+    ]
+  },
+  {
+    "id": 292,
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "category": "dart_basics",
+    "question": "What can you do with Dart Pad?",
+    "options": [
+      "A) Write and run Dart code",
+      "B) Compile to native apps",
+      "C) Deploy apps",
+      "D) Manage packages"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "Dart Pad runs code in the browser.",
+      "It supports Flutter samples.",
+      "It's for learning and experimenting."
+    ]
+  },
+  {
+    "id": 293,
+    "type": "true_false",
+    "difficulty": "beginner",
+    "category": "dart_basics",
+    "question": "Dart Pad requires installation.",
+    "correct_answer": "False",
+    "explanations": [
+      "It's web-based, no installation.",
+      "Just open the website.",
+      "It's ready to use immediately."
+    ]
+  },
+  {
+    "id": 294,
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "category": "flutter_basics",
+    "question": "What is a 'SizedBox' widget in Flutter?",
+    "options": [
+      "A) A widget with a fixed size",
+      "B) A widget for images",
+      "C) A widget for text",
+      "D) A widget for buttons"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "SizedBox has a fixed size.",
+      "It can be used for spacing.",
+      "Example: SizedBox(width: 10, height: 10)"
+    ]
+  },
+  {
+    "id": 295,
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "category": "flutter_basics",
+    "question": "What is the difference between SizedBox and Container?",
+    "options": [
+      "A) SizedBox is lighter, Container has more features",
+      "B) Container is lighter, SizedBox has more features",
+      "C) They are the same",
+      "D) SizedBox is for images only"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "SizedBox is simple and lightweight.",
+      "Container has decoration and alignment.",
+      "Use SizedBox for simple sizing."
+    ]
+  },
+  {
+    "id": 296,
+    "type": "true_false",
+    "difficulty": "beginner",
+    "category": "flutter_basics",
+    "question": "SizedBox can be used as a spacer.",
+    "correct_answer": "True",
+    "explanations": [
+      "Use SizedBox to create space.",
+      "It's a common spacer pattern.",
+      "Example: SizedBox(height: 20)"
+    ]
+  },
+  {
+    "id": 297,
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "category": "dart_basics",
+    "question": "What is the 'dart:isolate' library?",
+    "options": [
+      "A) For working with isolates",
+      "B) For working with threads",
+      "C) For working with processes",
+      "D) For working with async"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "dart:isolate provides concurrency.",
+      "It's for isolates and ports.",
+      "It enables parallel computation."
+    ]
+  },
+  {
+    "id": 298,
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "category": "dart_basics",
+    "question": "What is the difference between an isolate and a thread?",
+    "options": [
+      "A) Isolates don't share memory, threads do",
+      "B) Threads don't share memory, isolates do",
+      "C) They are the same",
+      "D) Isolates are for web only"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "Isolates are memory-isolated.",
+      "Threads share memory.",
+      "This makes isolates safer."
+    ]
+  },
+  {
+    "id": 299,
+    "type": "true_false",
+    "difficulty": "beginner",
+    "category": "dart_basics",
+    "question": "Isolates can communicate via ports.",
+    "correct_answer": "True",
+    "explanations": [
+      "Isolates use SendPort and ReceivePort.",
+      "They send messages.",
+      "This is how they communicate."
+    ]
+  },
+  {
+    "id": 300,
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "category": "flutter_basics",
+    "question": "What is a 'SingleChildScrollView' widget?",
+    "options": [
+      "A) A scrollable view with one child",
+      "B) A view with multiple children",
+      "C) A view for images",
+      "D) A view for text"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "SingleChildScrollView scrolls one child.",
+      "It's for content that might overflow.",
+      "Use when you have one child."
+    ]
+  }
+]

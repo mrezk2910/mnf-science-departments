@@ -3144,7 +3144,7 @@
     "correct_answer": "True",
     "explanations": [
       "Raw strings ignore escape sequences.",
-      "Example: r'C:\path'",
+      "Example: r'C:path'",
       "Useful for file paths and regex."
     ]
   },
@@ -3744,7 +3744,7 @@
     "explanations": [
       "hasMatch returns true if there's a match.",
       "It's a quick existence check.",
-      "Example: RegExp(r'\d+').hasMatch('123')."
+      "Example: RegExp(r'd+').hasMatch('123')."
     ]
   },
   {

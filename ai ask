@@ -1,0 +1,4812 @@
+[
+  [
+    {
+      "id": 1,
+      "type": "multiple_choice",
+      "difficulty": "beginner",
+      "category": "ai_fundamentals",
+      "question": "What is Artificial Intelligence (AI)?",
+      "options": [
+        "A) The simulation of human intelligence processes by machines, especially computer systems",
+        "B) A programming language for building chatbots",
+        "C) A type of database management system",
+        "D) A framework for web development"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "AI encompasses learning, reasoning, and self-correction.",
+        "It includes subfields like machine learning and deep learning.",
+        "It aims to create systems that can perform tasks that typically require human intelligence."
+      ]
+    },
+    {
+      "id": 2,
+      "type": "multiple_choice",
+      "difficulty": "beginner",
+      "category": "ai_fundamentals",
+      "question": "What is Machine Learning?",
+      "options": [
+        "A) A subset of AI that enables systems to learn and improve from experience without explicit programming",
+        "B) A programming language for AI",
+        "C) A database system for AI applications",
+        "D) A type of neural network"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "Machine learning uses algorithms to find patterns in data.",
+        "It includes supervised, unsupervised, and reinforcement learning.",
+        "It is the most common approach to AI today."
+      ]
+    },
+    {
+      "id": 3,
+      "type": "true_false",
+      "difficulty": "beginner",
+      "category": "ai_fundamentals",
+      "question": "Deep Learning is a subset of Machine Learning.",
+      "correct_answer": "True",
+      "explanations": [
+        "Deep learning uses neural networks with many layers.",
+        "It has driven many recent AI advances.",
+        "It is especially effective for image and speech recognition."
+      ]
+    },
+    {
+      "id": 4,
+      "type": "multiple_choice",
+      "difficulty": "intermediate",
+      "category": "ai_fundamentals",
+      "question": "What is the difference between Artificial Intelligence and Machine Learning?",
+      "options": [
+        "A) AI is the broader concept of machines being able to carry out tasks smartly; ML is a specific approach to achieving AI",
+        "B) ML is the broader concept; AI is a specific approach",
+        "C) They are the same",
+        "D) AI is for robotics; ML is for data analysis"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "AI is the overarching field.",
+        "ML is a subset of AI.",
+        "All ML is AI, but not all AI is ML."
+      ]
+    },
+    {
+      "id": 5,
+      "type": "true_false",
+      "difficulty": "intermediate",
+      "category": "ai_fundamentals",
+      "question": "Narrow AI is designed to perform a specific task, while General AI can perform any intellectual task that a human can.",
+      "correct_answer": "True",
+      "explanations": [
+        "Narrow AI is also called Weak AI.",
+        "General AI is also called Strong AI.",
+        "Most current AI systems are Narrow AI."
+      ]
+    },
+    {
+      "id": 6,
+      "type": "multiple_choice",
+      "difficulty": "advanced",
+      "category": "ai_fundamentals",
+      "question": "What is the 'AI alignment problem'?",
+      "options": [
+        "A) The challenge of ensuring AI systems act in accordance with human values and intentions",
+        "B) The challenge of aligning AI models with data formats",
+        "C) The challenge of aligning AI with business goals",
+        "D) The challenge of aligning AI with hardware"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "Alignment is a major AI safety concern.",
+        "It aims to prevent unintended consequences.",
+        "It involves value specification and robust decision-making."
+      ]
+    },
+    {
+      "id": 7,
+      "type": "multiple_choice",
+      "difficulty": "beginner",
+      "category": "machine_learning",
+      "question": "What is a feature in machine learning?",
+      "options": [
+        "A) An individual measurable property or characteristic of a phenomenon being observed",
+        "B) A function in the code",
+        "C) A type of neural network",
+        "D) A database query"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "Features are the inputs to a machine learning model.",
+        "Example features: age, income, or pixel values in an image.",
+        "Feature engineering is the process of selecting and transforming features."
+      ]
+    },
+    {
+      "id": 8,
+      "type": "true_false",
+      "difficulty": "beginner",
+      "category": "machine_learning",
+      "question": "Supervised learning requires labeled data.",
+      "correct_answer": "True",
+      "explanations": [
+        "In supervised learning, each training example has an input and a desired output label.",
+        "The goal is to learn a mapping from inputs to outputs.",
+        "Examples: classification and regression."
+      ]
+    },
+    {
+      "id": 9,
+      "type": "multiple_choice",
+      "difficulty": "intermediate",
+      "category": "machine_learning",
+      "question": "What is the difference between supervised and unsupervised learning?",
+      "options": [
+        "A) Supervised learning uses labeled data; unsupervised learning uses unlabeled data",
+        "B) Unsupervised learning uses labeled data; supervised learning uses unlabeled data",
+        "C) They are the same",
+        "D) Supervised learning is for classification; unsupervised learning is for regression"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "Supervised learning is about prediction.",
+        "Unsupervised learning is about discovering patterns.",
+        "Examples of unsupervised: clustering, dimensionality reduction."
+      ]
+    },
+    {
+      "id": 10,
+      "type": "true_false",
+      "difficulty": "intermediate",
+      "category": "machine_learning",
+      "question": "Reinforcement learning involves an agent learning to make decisions by interacting with an environment.",
+      "correct_answer": "True",
+      "explanations": [
+        "Reinforcement learning uses rewards and punishments.",
+        "It is used in robotics, gaming, and autonomous vehicles.",
+        "It learns from trial and error."
+      ]
+    },
+    {
+      "id": 11,
+      "type": "multiple_choice",
+      "difficulty": "advanced",
+      "category": "machine_learning",
+      "question": "What is the 'curse of dimensionality' in machine learning?",
+      "options": [
+        "A) The phenomenon where the feature space becomes sparse, making it hard to find patterns, as dimensions increase",
+        "B) The problem of too much data",
+        "C) The problem of too few features",
+        "D) The problem of overfitting"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "As dimensions increase, the volume increases exponentially.",
+        "The data becomes sparse, making it difficult to generalize.",
+        "It is a major challenge in high-dimensional data analysis."
+      ]
+    },
+    {
+      "id": 12,
+      "type": "true_false",
+      "difficulty": "advanced",
+      "category": "machine_learning",
+      "question": "Bias-variance tradeoff is about balancing model complexity and generalization error.",
+      "correct_answer": "True",
+      "explanations": [
+        "Bias is the error from incorrect assumptions.",
+        "Variance is the error from sensitivity to training data.",
+        "The tradeoff is central to model selection."
+      ]
+    },
+    {
+      "id": 13,
+      "type": "multiple_choice",
+      "difficulty": "beginner",
+      "category": "neural_networks",
+      "question": "What is a neural network?",
+      "options": [
+        "A) A computing system inspired by the biological neural networks that constitute animal brains",
+        "B) A type of database",
+        "C) A programming language",
+        "D) A web framework"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "Neural networks consist of layers of interconnected nodes (neurons).",
+        "They are used in deep learning.",
+        "They learn by adjusting connection weights."
+      ]
+    },
+    {
+      "id": 14,
+      "type": "true_false",
+      "difficulty": "beginner",
+      "category": "neural_networks",
+      "question": "Each neuron in a neural network applies an activation function to its input.",
+      "correct_answer": "True",
+      "explanations": [
+        "Activation functions introduce non-linearity.",
+        "Common activation functions: ReLU, sigmoid, tanh.",
+        "They determine the output of a neuron."
+      ]
+    },
+    {
+      "id": 15,
+      "type": "multiple_choice",
+      "difficulty": "intermediate",
+      "category": "neural_networks",
+      "question": "What is the purpose of the activation function in a neural network?",
+      "options": [
+        "A) To introduce non-linearity, enabling the network to learn complex patterns",
+        "B) To activate the network",
+        "C) To deactivate the network",
+        "D) To normalize the input"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "Without non-linearity, the network would just be a linear model.",
+        "Non-linearity allows the network to approximate any function.",
+        "It is essential for deep learning."
+      ]
+    },
+    {
+      "id": 16,
+      "type": "true_false",
+      "difficulty": "intermediate",
+      "category": "neural_networks",
+      "question": "A perceptron is the simplest type of neural network, consisting of a single layer of neurons.",
+      "correct_answer": "True",
+      "explanations": [
+        "The perceptron was the first neural network model.",
+        "It can only learn linearly separable patterns.",
+        "It was developed by Frank Rosenblatt in 1958."
+      ]
+    },
+    {
+      "id": 17,
+      "type": "multiple_choice",
+      "difficulty": "advanced",
+      "category": "neural_networks",
+      "question": "What is the vanishing gradient problem?",
+      "options": [
+        "A) Gradients become very small, causing weights to stop updating in early layers",
+        "B) Gradients become very large, causing weights to explode",
+        "C) Gradients vanish from the model",
+        "D) Gradients are not computed"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "It occurs in deep networks with certain activation functions (e.g., sigmoid).",
+        "It makes training very slow or impossible.",
+        "Solutions include using ReLU and batch normalization."
+      ]
+    },
+    {
+      "id": 18,
+      "type": "true_false",
+      "difficulty": "advanced",
+      "category": "neural_networks",
+      "question": "The exploding gradient problem is the opposite of the vanishing gradient problem.",
+      "correct_answer": "True",
+      "explanations": [
+        "Gradients become very large, causing unstable training.",
+        "It can lead to numerical overflow.",
+        "Solutions include gradient clipping and careful weight initialization."
+      ]
+    },
+    {
+      "id": 19,
+      "type": "multiple_choice",
+      "difficulty": "beginner",
+      "category": "deep_learning",
+      "question": "What is a Convolutional Neural Network (CNN) primarily used for?",
+      "options": [
+        "A) Image and video recognition",
+        "B) Natural language processing",
+        "C) Time series forecasting",
+        "D) Reinforcement learning"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "CNNs are designed to process grid-like data.",
+        "They use convolutional layers to detect features.",
+        "They are state-of-the-art in computer vision."
+      ]
+    },
+    {
+      "id": 20,
+      "type": "true_false",
+      "difficulty": "intermediate",
+      "category": "deep_learning",
+      "question": "The pooling layer in a CNN is used to reduce the spatial dimensions of the feature maps.",
+      "correct_answer": "True",
+      "explanations": [
+        "Pooling reduces the number of parameters.",
+        "It helps make the model more robust to translations.",
+        "Common types: max pooling and average pooling."
+      ]
+    },
+    {
+      "id": 21,
+      "type": "multiple_choice",
+      "difficulty": "advanced",
+      "category": "deep_learning",
+      "question": "What is the difference between a CNN and a RNN?",
+      "options": [
+        "A) CNNs are for spatial data; RNNs are for sequential data",
+        "B) RNNs are for spatial data; CNNs are for sequential data",
+        "C) They are the same",
+        "D) CNNs are for images; RNNs are for audio"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "CNNs have a fixed input size.",
+        "RNNs can handle variable-length sequences.",
+        "RNNs have memory of previous inputs."
+      ]
+    },
+    {
+      "id": 22,
+      "type": "true_false",
+      "difficulty": "advanced",
+      "category": "deep_learning",
+      "question": "LSTM (Long Short-Term Memory) networks are a type of RNN that can capture long-term dependencies.",
+      "correct_answer": "True",
+      "explanations": [
+        "LSTMs have gating mechanisms.",
+        "They solve the vanishing gradient problem in RNNs.",
+        "They are widely used in NLP and time series."
+      ]
+    },
+    {
+      "id": 23,
+      "type": "multiple_choice",
+      "difficulty": "intermediate",
+      "category": "nlp",
+      "question": "What is Natural Language Processing (NLP)?",
+      "options": [
+        "A) A field of AI focused on the interaction between computers and human language",
+        "B) A programming language for processing text",
+        "C) A database for storing text",
+        "D) A type of neural network"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "NLP involves tasks like text classification, translation, and sentiment analysis.",
+        "It combines linguistics and computer science.",
+        "It is a major application area of AI."
+      ]
+    },
+    {
+      "id": 24,
+      "type": "true_false",
+      "difficulty": "beginner",
+      "category": "nlp",
+      "question": "Tokenization is the process of breaking text into smaller units like words or subwords.",
+      "correct_answer": "True",
+      "explanations": [
+        "Tokenization is a fundamental NLP step.",
+        "It prepares text for machine learning models.",
+        "Different tokenization strategies exist (word, subword, character)."
+      ]
+    },
+    {
+      "id": 25,
+      "type": "multiple_choice",
+      "difficulty": "intermediate",
+      "category": "nlp",
+      "question": "What is a word embedding?",
+      "options": [
+        "A) A vector representation of a word in a continuous vector space",
+        "B) A type of neural network",
+        "C) A database of words",
+        "D) A text classification algorithm"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "Word embeddings capture semantic relationships.",
+        "Similar words have similar vectors.",
+        "Examples: Word2Vec, GloVe, and ELMo."
+      ]
+    },
+    {
+      "id": 26,
+      "type": "true_false",
+      "difficulty": "advanced",
+      "category": "nlp",
+      "question": "The Transformer architecture relies solely on self-attention mechanisms, not recurrence.",
+      "correct_answer": "True",
+      "explanations": [
+        "Transformers have become the standard in NLP.",
+        "They process sequences in parallel, making them faster.",
+        "They power models like BERT and GPT."
+      ]
+    },
+    {
+      "id": 27,
+      "type": "multiple_choice",
+      "difficulty": "advanced",
+      "category": "nlp",
+      "question": "What is the difference between BERT and GPT?",
+      "options": [
+        "A) BERT is bidirectional and designed for understanding; GPT is unidirectional and designed for generation",
+        "B) GPT is bidirectional; BERT is unidirectional",
+        "C) They are the same",
+        "D) BERT is for translation; GPT is for summarization"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "BERT is an encoder-only model.",
+        "GPT is a decoder-only model.",
+        "BERT is pre-trained on masked language modeling; GPT on next token prediction."
+      ]
+    },
+    {
+      "id": 28,
+      "type": "true_false",
+      "difficulty": "advanced",
+      "category": "nlp",
+      "question": "LLM stands for Large Language Model, referring to models like GPT with billions of parameters.",
+      "correct_answer": "True",
+      "explanations": [
+        "LLMs have revolutionized NLP.",
+        "They show emergent abilities with scale.",
+        "They are trained on massive text corpora."
+      ]
+    },
+    {
+      "id": 29,
+      "type": "multiple_choice",
+      "difficulty": "intermediate",
+      "category": "model_evaluation",
+      "question": "What is accuracy in classification?",
+      "options": [
+        "A) The ratio of correct predictions to total predictions",
+        "B) The ratio of true positives to all positives",
+        "C) The ratio of true negatives to all negatives",
+        "D) The ratio of false positives to all positives"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "Accuracy = (TP + TN) / (TP + TN + FP + FN).",
+        "It can be misleading for imbalanced datasets.",
+        "It is a simple but often used metric."
+      ]
+    },
+    {
+      "id": 30,
+      "type": "true_false",
+      "difficulty": "intermediate",
+      "category": "model_evaluation",
+      "question": "Precision is the ratio of true positives to the sum of true positives and false positives.",
+      "correct_answer": "True",
+      "explanations": [
+        "Precision measures how many positive predictions are correct.",
+        "It is important when false positives are costly.",
+        "It is often used with recall."
+      ]
+    },
+    {
+      "id": 31,
+      "type": "multiple_choice",
+      "difficulty": "advanced",
+      "category": "model_evaluation",
+      "question": "What is the F1 score?",
+      "options": [
+        "A) The harmonic mean of precision and recall",
+        "B) The arithmetic mean of precision and recall",
+        "C) The geometric mean of precision and recall",
+        "D) The product of precision and recall"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "F1 = 2 * (precision * recall) / (precision + recall).",
+        "It is useful when you need a balance between precision and recall.",
+        "It is often used for imbalanced datasets."
+      ]
+    },
+    {
+      "id": 32,
+      "type": "true_false",
+      "difficulty": "advanced",
+      "category": "model_evaluation",
+      "question": "ROC-AUC measures the area under the ROC curve and evaluates the model's ability to distinguish between classes.",
+      "correct_answer": "True",
+      "explanations": [
+        "AUC ranges from 0 to 1.",
+        "0.5 indicates a random classifier.",
+        "It is independent of the classification threshold."
+      ]
+    },
+    {
+      "id": 33,
+      "type": "multiple_choice",
+      "difficulty": "intermediate",
+      "category": "training_techniques",
+      "question": "What is overfitting?",
+      "options": [
+        "A) When a model performs well on training data but poorly on unseen data",
+        "B) When a model performs poorly on both training and unseen data",
+        "C) When a model performs well on unseen data",
+        "D) When a model does not fit the training data"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "Overfitting is a common problem in machine learning.",
+        "It occurs when a model is too complex.",
+        "Techniques to prevent it include cross-validation and regularization."
+      ]
+    },
+    {
+      "id": 34,
+      "type": "true_false",
+      "difficulty": "intermediate",
+      "category": "training_techniques",
+      "question": "Underfitting occurs when a model is too simple and cannot capture the underlying patterns in the data.",
+      "correct_answer": "True",
+      "explanations": [
+        "Underfitting results in poor performance on training data.",
+        "It often occurs when the model has too few parameters.",
+        "It can be addressed by increasing model complexity."
+      ]
+    },
+    {
+      "id": 35,
+      "type": "multiple_choice",
+      "difficulty": "advanced",
+      "category": "training_techniques",
+      "question": "What is the difference between L1 and L2 regularization?",
+      "options": [
+        "A) L1 regularization adds the sum of absolute values of weights; L2 adds the sum of squared values",
+        "B) L2 adds the sum of absolute values; L1 adds the sum of squared values",
+        "C) They are the same",
+        "D) L1 is for classification; L2 is for regression"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "L1 leads to sparse weights (feature selection).",
+        "L2 penalizes large weights more.",
+        "Both are used to prevent overfitting."
+      ]
+    },
+    {
+      "id": 36,
+      "type": "true_false",
+      "difficulty": "advanced",
+      "category": "training_techniques",
+      "question": "Early stopping is a regularization technique that stops training when validation performance stops improving.",
+      "correct_answer": "True",
+      "explanations": [
+        "Early stopping prevents overfitting.",
+        "It monitors validation loss.",
+        "It is a common practice in deep learning."
+      ]
+    },
+    {
+      "id": 37,
+      "type": "multiple_choice",
+      "difficulty": "intermediate",
+      "category": "optimization",
+      "question": "What is the purpose of gradient descent?",
+      "options": [
+        "A) To minimize the loss function by iteratively updating model parameters in the direction of the negative gradient",
+        "B) To maximize the loss function",
+        "C) To calculate the gradient",
+        "D) To descend the gradient"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "Gradient descent is the core optimization algorithm.",
+        "It finds the minimum of a function.",
+        "Variants include SGD, Adam, and RMSprop."
+      ]
+    },
+    {
+      "id": 38,
+      "type": "true_false",
+      "difficulty": "intermediate",
+      "category": "optimization",
+      "question": "Stochastic Gradient Descent (SGD) updates parameters using a random subset of training data.",
+      "correct_answer": "True",
+      "explanations": [
+        "SGD is faster than batch gradient descent.",
+        "It introduces noise, which can help escape local minima.",
+        "It is widely used in deep learning."
+      ]
+    },
+    {
+      "id": 39,
+      "type": "multiple_choice",
+      "difficulty": "advanced",
+      "category": "optimization",
+      "question": "What is the difference between SGD and Adam optimizer?",
+      "options": [
+        "A) Adam uses adaptive learning rates for each parameter; SGD uses the same learning rate for all",
+        "B) SGD uses adaptive learning rates; Adam uses the same learning rate",
+        "C) They are the same",
+        "D) Adam is for classification; SGD is for regression"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "Adam combines momentum and adaptive learning rates.",
+        "It often converges faster than SGD.",
+        "It is the most popular optimizer in deep learning."
+      ]
+    },
+    {
+      "id": 40,
+      "type": "true_false",
+      "difficulty": "advanced",
+      "category": "optimization",
+      "question": "Learning rate scheduling adjusts the learning rate during training to improve convergence.",
+      "correct_answer": "True",
+      "explanations": [
+        "Common schedules: step decay, exponential decay, and cosine annealing.",
+        "It can help escape local minima.",
+        "It is a best practice in training deep networks."
+      ]
+    },
+    {
+      "id": 41,
+      "type": "multiple_choice",
+      "difficulty": "beginner",
+      "category": "data_preprocessing",
+      "question": "What is normalization in data preprocessing?",
+      "options": [
+        "A) Scaling data to a common range, like [0, 1]",
+        "B) Removing outliers",
+        "C) Filling missing values",
+        "D) Encoding categorical variables"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "Normalization is important for many ML algorithms.",
+        "It prevents features with large ranges from dominating.",
+        "Standardization (mean=0, std=1) is another common technique."
+      ]
+    },
+    {
+      "id": 42,
+      "type": "true_false",
+      "difficulty": "intermediate",
+      "category": "data_preprocessing",
+      "question": "One-hot encoding is used to convert categorical variables into a binary format.",
+      "correct_answer": "True",
+      "explanations": [
+        "One-hot encoding creates a binary column for each category.",
+        "It is essential for many ML algorithms.",
+        "It can increase dimensionality significantly."
+      ]
+    },
+    {
+      "id": 43,
+      "type": "multiple_choice",
+      "difficulty": "advanced",
+      "category": "data_preprocessing",
+      "question": "What is the difference between normalization and standardization?",
+      "options": [
+        "A) Normalization scales to a range (e.g., [0,1]); standardization scales to have mean 0 and standard deviation 1",
+        "B) Standardization scales to a range; normalization scales to have mean 0",
+        "C) They are the same",
+        "D) Normalization is for images; standardization is for text"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "Normalization is also called min-max scaling.",
+        "Standardization uses the z-score.",
+        "Choice depends on the algorithm and data."
+      ]
+    },
+    {
+      "id": 44,
+      "type": "true_false",
+      "difficulty": "advanced",
+      "category": "data_preprocessing",
+      "question": "Imputation is the process of filling in missing values in a dataset.",
+      "correct_answer": "True",
+      "explanations": [
+        "Missing data is a common problem.",
+        "Techniques: mean imputation, median imputation, and using ML models.",
+        "It is a crucial preprocessing step."
+      ]
+    },
+    {
+      "id": 45,
+      "type": "multiple_choice",
+      "difficulty": "intermediate",
+      "category": "computer_vision",
+      "question": "What is a common application of Convolutional Neural Networks?",
+      "options": [
+        "A) Image classification",
+        "B) Text generation",
+        "C) Time series prediction",
+        "D) Recommendation systems"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "CNNs are the standard for image tasks.",
+        "They can be used for object detection, segmentation, and more.",
+        "They have driven advances in computer vision."
+      ]
+    },
+    {
+      "id": 46,
+      "type": "true_false",
+      "difficulty": "intermediate",
+      "category": "computer_vision",
+      "question": "Transfer learning involves using a pre-trained model on a different but related task.",
+      "correct_answer": "True",
+      "explanations": [
+        "Transfer learning reduces training time.",
+        "It works well when you have limited data.",
+        "It is a standard practice in computer vision."
+      ]
+    },
+    {
+      "id": 47,
+      "type": "multiple_choice",
+      "difficulty": "advanced",
+      "category": "computer_vision",
+      "question": "What is the difference between object detection and image classification?",
+      "options": [
+        "A) Classification assigns a label to the entire image; detection identifies objects and their locations",
+        "B) Detection assigns a label to the entire image; classification identifies objects and locations",
+        "C) They are the same",
+        "D) Classification is for images; detection is for videos"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "Object detection outputs bounding boxes.",
+        "Classification outputs a single label.",
+        "Detection is more complex."
+      ]
+    },
+    {
+      "id": 48,
+      "type": "true_false",
+      "difficulty": "advanced",
+      "category": "computer_vision",
+      "question": "YOLO (You Only Look Once) is a real-time object detection system.",
+      "correct_answer": "True",
+      "explanations": [
+        "YOLO is known for its speed.",
+        "It treats detection as a regression problem.",
+        "It is widely used in real-time applications."
+      ]
+    },
+    {
+      "id": 49,
+      "type": "multiple_choice",
+      "difficulty": "intermediate",
+      "category": "generative_ai",
+      "question": "What is a Generative Adversarial Network (GAN)?",
+      "options": [
+        "A) A network with a generator and a discriminator that compete against each other",
+        "B) A network that generates adversarial examples",
+        "C) A type of CNN",
+        "D) A network for reinforcement learning"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "GANs are used for generating realistic synthetic data.",
+        "The generator tries to fool the discriminator.",
+        "They are used for image generation, style transfer, and more."
+      ]
+    },
+    {
+      "id": 50,
+      "type": "true_false",
+      "difficulty": "advanced",
+      "category": "generative_ai",
+      "question": "Diffusion models work by gradually adding noise to data and then learning to reverse the process.",
+      "correct_answer": "True",
+      "explanations": [
+        "Diffusion models have become popular recently.",
+        "They are used in DALL-E and Stable Diffusion.",
+        "They produce high-quality images."
+      ]
+    },
+    {
+      "id": 51,
+      "type": "multiple_choice",
+      "difficulty": "advanced",
+      "category": "generative_ai",
+      "question": "What is the difference between a GAN and a VAE (Variational Autoencoder)?",
+      "options": [
+        "A) GANs are adversarial; VAEs are based on probabilistic inference",
+        "B) VAEs are adversarial; GANs are based on probabilistic inference",
+        "C) They are the same",
+        "D) GANs are for images; VAEs are for text"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "VAEs have an encoder and decoder.",
+        "GANs typically produce sharper images.",
+        "VAEs are easier to train."
+      ]
+    },
+    {
+      "id": 52,
+      "type": "true_false",
+      "difficulty": "advanced",
+      "category": "generative_ai",
+      "question": "A prompt engineer is someone who specializes in designing effective prompts for LLMs.",
+      "correct_answer": "True",
+      "explanations": [
+        "Prompt engineering is a new and important skill.",
+        "It involves crafting inputs to get desired outputs.",
+        "It can significantly improve LLM performance."
+      ]
+    },
+    {
+      "id": 53,
+      "type": "multiple_choice",
+      "difficulty": "intermediate",
+      "category": "reinforcement_learning",
+      "question": "What is reinforcement learning?",
+      "options": [
+        "A) A learning paradigm where an agent learns to make decisions by receiving rewards or penalties",
+        "B) A type of supervised learning",
+        "C) A type of unsupervised learning",
+        "D) A type of neural network"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "Reinforcement learning is about sequential decision-making.",
+        "It is used in robotics, games, and autonomous systems.",
+        "It learns through trial and error."
+      ]
+    },
+    {
+      "id": 54,
+      "type": "true_false",
+      "difficulty": "intermediate",
+      "category": "reinforcement_learning",
+      "question": "The Markov Decision Process (MDP) is a mathematical framework for modeling decision-making in reinforcement learning.",
+      "correct_answer": "True",
+      "explanations": [
+        "MDPs define states, actions, rewards, and transitions.",
+        "They are the foundation of RL.",
+        "They assume the Markov property."
+      ]
+    },
+    {
+      "id": 55,
+      "type": "multiple_choice",
+      "difficulty": "advanced",
+      "category": "reinforcement_learning",
+      "question": "What is the difference between Q-learning and policy gradient methods?",
+      "options": [
+        "A) Q-learning learns a value function; policy gradient methods directly learn a policy",
+        "B) Policy gradient learns a value function; Q-learning directly learns a policy",
+        "C) They are the same",
+        "D) Q-learning is for continuous actions; policy gradient is for discrete actions"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "Q-learning is off-policy and value-based.",
+        "Policy gradient is on-policy.",
+        "Both are fundamental RL algorithms."
+      ]
+    },
+    {
+      "id": 56,
+      "type": "true_false",
+      "difficulty": "advanced",
+      "category": "reinforcement_learning",
+      "question": "The exploration-exploitation tradeoff is about whether to try new actions or stick with known rewarding actions.",
+      "correct_answer": "True",
+      "explanations": [
+        "It is a fundamental challenge in RL.",
+        "Exploring can lead to discovering better strategies.",
+        "Exploiting maximizes immediate reward."
+      ]
+    },
+    {
+      "id": 57,
+      "type": "multiple_choice",
+      "difficulty": "beginner",
+      "category": "ai_ethics",
+      "question": "What is AI bias?",
+      "options": [
+        "A) The tendency of AI systems to produce systematically prejudiced results due to biased data or algorithms",
+        "B) The tendency of AI systems to be correct",
+        "C) The tendency of AI systems to be fast",
+        "D) The tendency of AI systems to be accurate"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "AI bias is a major ethical concern.",
+        "It can lead to unfair treatment of certain groups.",
+        "It is often a result of biased training data."
+      ]
+    },
+    {
+      "id": 58,
+      "type": "true_false",
+      "difficulty": "intermediate",
+      "category": "ai_ethics",
+      "question": "Explainability in AI is about making AI decisions understandable to humans.",
+      "correct_answer": "True",
+      "explanations": [
+        "XAI (Explainable AI) is a growing field.",
+        "It is important for building trust.",
+        "It is often required in regulated industries."
+      ]
+    },
+    {
+      "id": 59,
+      "type": "multiple_choice",
+      "difficulty": "advanced",
+      "category": "ai_ethics",
+      "question": "What is the difference between AI transparency and accountability?",
+      "options": [
+        "A) Transparency is about being able to see how AI works; accountability is about who is responsible for AI's actions",
+        "B) Accountability is about seeing how AI works; transparency is about responsibility",
+        "C) They are the same",
+        "D) Transparency is for users; accountability is for developers"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "Transparency involves openness.",
+        "Accountability involves liability.",
+        "Both are important for responsible AI."
+      ]
+    },
+    {
+      "id": 60,
+      "type": "true_false",
+      "difficulty": "advanced",
+      "category": "ai_ethics",
+      "question": "The 'paperclip maximizer' thought experiment illustrates the potential risks of misaligned AI goals.",
+      "correct_answer": "True",
+      "explanations": [
+        "It is a classic AI safety thought experiment.",
+        "It shows how an AI with a simple goal could cause unintended harm.",
+        "It highlights the importance of value alignment."
+      ]
+    },
+    {
+      "id": 61,
+      "type": "multiple_choice",
+      "difficulty": "intermediate",
+      "category": "nlp",
+      "question": "What is the purpose of a language model?",
+      "options": [
+        "A) To predict the next word in a sequence or assign probabilities to sequences of words",
+        "B) To model the grammar of a language",
+        "C) To translate languages",
+        "D) To recognize speech"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "Language models are fundamental to NLP.",
+        "They power text generation, translation, and more.",
+        "They are trained on large text corpora."
+      ]
+    },
+    {
+      "id": 62,
+      "type": "true_false",
+      "difficulty": "intermediate",
+      "category": "nlp",
+      "question": "A language model can be trained using next token prediction.",
+      "correct_answer": "True",
+      "explanations": [
+        "This is the standard training objective for generative models.",
+        "It uses a causal language modeling task.",
+        "It predicts the next word given the previous context."
+      ]
+    },
+    {
+      "id": 63,
+      "type": "multiple_choice",
+      "difficulty": "advanced",
+      "category": "nlp",
+      "question": "What is the difference between a language model and a neural machine translation model?",
+      "options": [
+        "A) A language model learns to represent language; a translation model learns to map between languages",
+        "B) A translation model learns to represent language; a language model learns to map between languages",
+        "C) They are the same",
+        "D) Language models are for English; translation models are for other languages"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "Language models can be used in translation.",
+        "Translation models are often encoder-decoder architectures.",
+        "Both use similar techniques."
+      ]
+    },
+    {
+      "id": 64,
+      "type": "true_false",
+      "difficulty": "advanced",
+      "category": "nlp",
+      "question": "Zero-shot learning in NLP means a model can perform a task it wasn't explicitly trained for.",
+      "correct_answer": "True",
+      "explanations": [
+        "Zero-shot capability is an emergent property of LLMs.",
+        "It allows generalization to new tasks.",
+        "It is a key advantage of large language models."
+      ]
+    },
+    {
+      "id": 65,
+      "type": "multiple_choice",
+      "difficulty": "beginner",
+      "category": "computer_vision",
+      "question": "What is a pixel in the context of images?",
+      "options": [
+        "A) The smallest unit of a digital image",
+        "B) A type of neuron",
+        "C) A type of filter",
+        "D) A type of neural network layer"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "Pixels are the building blocks of images.",
+        "Each pixel has a color value.",
+        "Resolution is the number of pixels."
+      ]
+    },
+    {
+      "id": 66,
+      "type": "true_false",
+      "difficulty": "intermediate",
+      "category": "computer_vision",
+      "question": "Image augmentation is used to create more training data by applying transformations to existing images.",
+      "correct_answer": "True",
+      "explanations": [
+        "Augmentation helps prevent overfitting.",
+        "Transformations include rotation, flipping, and scaling.",
+        "It is a standard practice in computer vision."
+      ]
+    },
+    {
+      "id": 67,
+      "type": "multiple_choice",
+      "difficulty": "advanced",
+      "category": "computer_vision",
+      "question": "What is the difference between image segmentation and object detection?",
+      "options": [
+        "A) Segmentation assigns a class to each pixel; detection assigns a class and bounding box to each object",
+        "B) Detection assigns a class to each pixel; segmentation assigns a class and bounding box",
+        "C) They are the same",
+        "D) Segmentation is for medical images; detection is for natural images"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "Segmentation is pixel-wise.",
+        "Detection is object-level.",
+        "Both are important computer vision tasks."
+      ]
+    },
+    {
+      "id": 68,
+      "type": "true_false",
+      "difficulty": "advanced",
+      "category": "computer_vision",
+      "question": "A 3D convolution is used for processing volumetric data like videos or medical scans.",
+      "correct_answer": "True",
+      "explanations": [
+        "3D convolutions have an extra dimension for time.",
+        "They are used in video analysis.",
+        "They are computationally intensive."
+      ]
+    },
+    {
+      "id": 69,
+      "type": "multiple_choice",
+      "difficulty": "intermediate",
+      "category": "model_deployment",
+      "question": "What is model serving?",
+      "options": [
+        "A) Making a trained model available to make predictions in production",
+        "B) Training a model on a server",
+        "C) Saving a model to disk",
+        "D) Evaluating a model"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "Serving involves hosting a model.",
+        "It includes handling requests and returning predictions.",
+        "Common serving frameworks: TensorFlow Serving, TorchServe."
+      ]
+    },
+    {
+      "id": 70,
+      "type": "true_false",
+      "difficulty": "intermediate",
+      "category": "model_deployment",
+      "question": "ONNX is an open format for representing machine learning models, enabling interoperability between frameworks.",
+      "correct_answer": "True",
+      "explanations": [
+        "ONNX stands for Open Neural Network Exchange.",
+        "It allows models to be used across different platforms.",
+        "It is supported by many ML libraries."
+      ]
+    },
+    {
+      "id": 71,
+      "type": "multiple_choice",
+      "difficulty": "advanced",
+      "category": "model_deployment",
+      "question": "What is the difference between batch prediction and online prediction?",
+      "options": [
+        "A) Batch prediction processes multiple requests at once; online prediction processes single requests in real-time",
+        "B) Online prediction processes multiple requests at once; batch prediction processes single requests",
+        "C) They are the same",
+        "D) Batch prediction is for offline; online prediction is for real-time"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "Batch prediction is efficient for large datasets.",
+        "Online prediction is used for interactive applications.",
+        "Choice depends on latency requirements."
+      ]
+    },
+    {
+      "id": 72,
+      "type": "true_false",
+      "difficulty": "advanced",
+      "category": "model_deployment",
+      "question": "A/B testing in ML involves comparing different model versions in production.",
+      "correct_answer": "True",
+      "explanations": [
+        "A/B testing helps select the best model.",
+        "It can also test different features.",
+        "It is a standard practice in production ML."
+      ]
+    },
+    {
+      "id": 73,
+      "type": "multiple_choice",
+      "difficulty": "intermediate",
+      "category": "mlops",
+      "question": "What is MLOps?",
+      "options": [
+        "A) The practice of applying DevOps principles to machine learning systems",
+        "B) A programming language for ML",
+        "C) A type of ML model",
+        "D) A database system for ML"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "MLOps aims to streamline the ML lifecycle.",
+        "It covers CI/CD for models, monitoring, and governance.",
+        "It is essential for production ML."
+      ]
+    },
+    {
+      "id": 74,
+      "type": "true_false",
+      "difficulty": "intermediate",
+      "category": "mlops",
+      "question": "Model drift occurs when the performance of a deployed model degrades over time due to changes in data patterns.",
+      "correct_answer": "True",
+      "explanations": [
+        "Data drift and concept drift are types of model drift.",
+        "Monitoring is crucial to detect drift.",
+        "Models need to be retrained regularly."
+      ]
+    },
+    {
+      "id": 75,
+      "type": "multiple_choice",
+      "difficulty": "advanced",
+      "category": "mlops",
+      "question": "What is the difference between data drift and concept drift?",
+      "options": [
+        "A) Data drift is change in input data distribution; concept drift is change in the relationship between inputs and outputs",
+        "B) Concept drift is change in input data; data drift is change in the relationship",
+        "C) They are the same",
+        "D) Data drift is for data; concept drift is for models"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "Data drift can be detected by monitoring feature distributions.",
+        "Concept drift requires monitoring model performance.",
+        "Both can lead to model degradation."
+      ]
+    },
+    {
+      "id": 76,
+      "type": "true_false",
+      "difficulty": "advanced",
+      "category": "mlops",
+      "question": "Feature stores are used to manage and serve features for machine learning models.",
+      "correct_answer": "True",
+      "explanations": [
+        "Feature stores centralize feature engineering.",
+        "They ensure consistency between training and serving.",
+        "They are a key component of MLOps."
+      ]
+    },
+    {
+      "id": 77,
+      "type": "multiple_choice",
+      "difficulty": "beginner",
+      "category": "ai_fundamentals",
+      "question": "What is a chatbot?",
+      "options": [
+        "A) A conversational AI system designed to simulate human conversation",
+        "B) A type of database",
+        "C) A programming language",
+        "D) A type of neural network"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "Chatbots can be rule-based or AI-driven.",
+        "They are used for customer service, entertainment, and more.",
+        "LLMs have greatly advanced chatbot capabilities."
+      ]
+    },
+    {
+      "id": 78,
+      "type": "true_false",
+      "difficulty": "intermediate",
+      "category": "ai_fundamentals",
+      "question": "A knowledge base is a collection of structured information used to support AI reasoning.",
+      "correct_answer": "True",
+      "explanations": [
+        "Knowledge bases are used in expert systems.",
+        "They can be in the form of ontologies or graphs.",
+        "They are a key component of symbolic AI."
+      ]
+    },
+    {
+      "id": 79,
+      "type": "multiple_choice",
+      "difficulty": "advanced",
+      "category": "ai_fundamentals",
+      "question": "What is the difference between a knowledge graph and a knowledge base?",
+      "options": [
+        "A) A knowledge graph represents relationships as a graph; a knowledge base is a broader term",
+        "B) A knowledge base represents relationships as a graph; a knowledge graph is broader",
+        "C) They are the same",
+        "D) Knowledge graphs are for AI; knowledge bases are for databases"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "Knowledge graphs use graph structures.",
+        "They are used for reasoning and querying.",
+        "Examples: Google Knowledge Graph, Wikidata."
+      ]
+    },
+    {
+      "id": 80,
+      "type": "true_false",
+      "difficulty": "advanced",
+      "category": "ai_fundamentals",
+      "question": "AGI (Artificial General Intelligence) refers to an AI system that can understand, learn, and apply intelligence across a wide range of tasks, like a human.",
+      "correct_answer": "True",
+      "explanations": [
+        "AGI is a long-term goal of AI research.",
+        "It is distinct from Narrow AI.",
+        "It remains hypothetical."
+      ]
+    },
+    {
+      "id": 81,
+      "type": "multiple_choice",
+      "difficulty": "intermediate",
+      "category": "machine_learning",
+      "question": "What is a decision tree?",
+      "options": [
+        "A) A tree-like model used for classification and regression",
+        "B) A type of neural network",
+        "C) A clustering algorithm",
+        "D) A deep learning model"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "Decision trees are interpretable.",
+        "They split data based on features.",
+        "They are a popular machine learning algorithm."
+      ]
+    },
+    {
+      "id": 82,
+      "type": "true_false",
+      "difficulty": "intermediate",
+      "category": "machine_learning",
+      "question": "Random forest is an ensemble of decision trees.",
+      "correct_answer": "True",
+      "explanations": [
+        "Random forests reduce overfitting.",
+        "They are more robust than single trees.",
+        "They are widely used for many tasks."
+      ]
+    },
+    {
+      "id": 83,
+      "type": "multiple_choice",
+      "difficulty": "advanced",
+      "category": "machine_learning",
+      "question": "What is the difference between bagging and boosting?",
+      "options": [
+        "A) Bagging trains models in parallel; boosting trains models sequentially",
+        "B) Boosting trains models in parallel; bagging trains models sequentially",
+        "C) They are the same",
+        "D) Bagging is for regression; boosting is for classification"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "Bagging (Bootstrap Aggregating) reduces variance.",
+        "Boosting reduces bias.",
+        "Both are ensemble methods."
+      ]
+    },
+    {
+      "id": 84,
+      "type": "true_false",
+      "difficulty": "advanced",
+      "category": "machine_learning",
+      "question": "XGBoost is a gradient boosting algorithm known for its performance in structured data tasks.",
+      "correct_answer": "True",
+      "explanations": [
+        "XGBoost stands for Extreme Gradient Boosting.",
+        "It is widely used in competitions.",
+        "It is a state-of-the-art algorithm."
+      ]
+    },
+    {
+      "id": 85,
+      "type": "multiple_choice",
+      "difficulty": "intermediate",
+      "category": "neural_networks",
+      "question": "What is the purpose of a loss function?",
+      "options": [
+        "A) To measure how well the model's predictions match the actual targets",
+        "B) To lose the model",
+        "C) To calculate the gradient",
+        "D) To evaluate the model"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "Loss functions guide optimization.",
+        "Common losses: MSE, cross-entropy, and hinge.",
+        "The goal is to minimize the loss."
+      ]
+    },
+    {
+      "id": 86,
+      "type": "true_false",
+      "difficulty": "intermediate",
+      "category": "neural_networks",
+      "question": "Cross-entropy loss is commonly used for classification tasks.",
+      "correct_answer": "True",
+      "explanations": [
+        "Cross-entropy measures the difference between probability distributions.",
+        "It is the standard for multi-class classification.",
+        "It is used with softmax activation."
+      ]
+    },
+    {
+      "id": 87,
+      "type": "multiple_choice",
+      "difficulty": "advanced",
+      "category": "neural_networks",
+      "question": "What is the difference between MSE (Mean Squared Error) and MAE (Mean Absolute Error)?",
+      "options": [
+        "A) MSE squares errors, penalizing large errors more; MAE uses absolute values",
+        "B) MAE squares errors; MSE uses absolute values",
+        "C) They are the same",
+        "D) MSE is for regression; MAE is for classification"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "MSE is sensitive to outliers.",
+        "MAE is more robust.",
+        "Choice depends on the problem."
+      ]
+    },
+    {
+      "id": 88,
+      "type": "true_false",
+      "difficulty": "advanced",
+      "category": "neural_networks",
+      "question": "The softmax function converts logits into a probability distribution over multiple classes.",
+      "correct_answer": "True",
+      "explanations": [
+        "Softmax is used in the output layer.",
+        "It ensures outputs sum to 1.",
+        "It is used with cross-entropy loss."
+      ]
+    },
+    {
+      "id": 89,
+      "type": "multiple_choice",
+      "difficulty": "beginner",
+      "category": "nlp",
+      "question": "What is sentiment analysis?",
+      "options": [
+        "A) The process of determining the emotional tone behind a piece of text",
+        "B) The analysis of sentiment in a conversation",
+        "C) The analysis of feelings in a database",
+        "D) The analysis of emotions in images"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "Sentiment analysis is a common NLP task.",
+        "It is used in social media monitoring, reviews, and more.",
+        "It can be positive, negative, or neutral."
+      ]
+    },
+    {
+      "id": 90,
+      "type": "true_false",
+      "difficulty": "intermediate",
+      "category": "nlp",
+      "question": "Named Entity Recognition (NER) is the task of identifying and classifying named entities in text.",
+      "correct_answer": "True",
+      "explanations": [
+        "NER identifies entities like people, organizations, and locations.",
+        "It is an important NLP task.",
+        "It is used in information extraction."
+      ]
+    },
+    {
+      "id": 91,
+      "type": "multiple_choice",
+      "difficulty": "advanced",
+      "category": "nlp",
+      "question": "What is the difference between NER and part-of-speech tagging?",
+      "options": [
+        "A) NER identifies entities; POS tagging identifies grammatical parts of speech",
+        "B) POS tagging identifies entities; NER identifies parts of speech",
+        "C) They are the same",
+        "D) NER is for names; POS tagging is for verbs"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "NER is about semantic categories.",
+        "POS tagging is about syntactic categories.",
+        "Both are fundamental NLP tasks."
+      ]
+    },
+    {
+      "id": 92,
+      "type": "true_false",
+      "difficulty": "advanced",
+      "category": "nlp",
+      "question": "The attention mechanism allows a model to focus on relevant parts of the input when generating an output.",
+      "correct_answer": "True",
+      "explanations": [
+        "Attention is a key component of Transformers.",
+        "It improves performance on tasks like translation.",
+        "It helps capture long-range dependencies."
+      ]
+    },
+    {
+      "id": 93,
+      "type": "multiple_choice",
+      "difficulty": "intermediate",
+      "category": "computer_vision",
+      "question": "What is a filter (or kernel) in a CNN?",
+      "options": [
+        "A) A small matrix used to extract features from images",
+        "B) A type of pooling layer",
+        "C) A type of activation function",
+        "D) A type of data augmentation"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "Filters are applied to input data.",
+        "They detect patterns like edges or textures.",
+        "They are learned during training."
+      ]
+    },
+    {
+      "id": 94,
+      "type": "true_false",
+      "difficulty": "intermediate",
+      "category": "computer_vision",
+      "question": "A stride in a convolution is the step size when moving the filter across the input.",
+      "correct_answer": "True",
+      "explanations": [
+        "Stride affects the output size.",
+        "Larger stride leads to smaller output.",
+        "It is a hyperparameter in CNNs."
+      ]
+    },
+    {
+      "id": 95,
+      "type": "multiple_choice",
+      "difficulty": "advanced",
+      "category": "computer_vision",
+      "question": "What is the difference between padding and stride?",
+      "options": [
+        "A) Padding adds zeros around input; stride controls the movement of filter",
+        "B) Stride adds zeros; padding controls movement",
+        "C) They are the same",
+        "D) Padding is for input; stride is for output"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "Padding preserves input dimensions.",
+        "Stride reduces dimensions.",
+        "Both are important in CNNs."
+      ]
+    },
+    {
+      "id": 96,
+      "type": "true_false",
+      "difficulty": "advanced",
+      "category": "computer_vision",
+      "question": "Transfer learning in computer vision is often done by fine-tuning a pre-trained model on a new dataset.",
+      "correct_answer": "True",
+      "explanations": [
+        "Pre-trained models on ImageNet are commonly used.",
+        "Fine-tuning adapts the model to a specific task.",
+        "It is a standard practice."
+      ]
+    },
+    {
+      "id": 97,
+      "type": "multiple_choice",
+      "difficulty": "advanced",
+      "category": "generative_ai",
+      "question": "What is the purpose of a prompt in LLMs?",
+      "options": [
+        "A) To instruct the model on the desired output",
+        "B) To prompt the model to start generating",
+        "C) To initialize the model",
+        "D) To evaluate the model"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "Prompts are the input to LLMs.",
+        "They can include context and instructions.",
+        "Prompt design is crucial for quality outputs."
+      ]
+    },
+    {
+      "id": 98,
+      "type": "true_false",
+      "difficulty": "intermediate",
+      "category": "generative_ai",
+      "question": "In-context learning allows LLMs to learn from examples provided in the prompt.",
+      "correct_answer": "True",
+      "explanations": [
+        "It is also known as few-shot learning.",
+        "It eliminates the need for fine-tuning.",
+        "It is a powerful capability of LLMs."
+      ]
+    },
+    {
+      "id": 99,
+      "type": "multiple_choice",
+      "difficulty": "advanced",
+      "category": "generative_ai",
+      "question": "What is the difference between zero-shot, one-shot, and few-shot learning?",
+      "options": [
+        "A) Zero-shot has no examples; one-shot has one example; few-shot has a few examples",
+        "B) Few-shot has no examples; one-shot has one; zero-shot has a few",
+        "C) They are the same",
+        "D) Zero-shot is for classification; few-shot is for generation"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "These are different prompting strategies.",
+        "More examples generally improve performance.",
+        "They are key concepts in LLM usage."
+      ]
+    },
+    {
+      "id": 100,
+      "type": "true_false",
+      "difficulty": "advanced",
+      "category": "generative_ai",
+      "question": "Chain-of-thought prompting asks the model to reason step-by-step, improving accuracy on complex tasks.",
+      "correct_answer": "True",
+      "explanations": [
+        "It is a technique for eliciting reasoning.",
+        "It improves performance on math and logic problems.",
+        "It is a popular prompting strategy."
+      ]
+    }
+  ],
+  [
+    {
+      "id": 101,
+      "type": "multiple_choice",
+      "difficulty": "intermediate",
+      "category": "machine_learning",
+      "question": "What is the purpose of cross-validation in machine learning?",
+      "options": [
+        "A) To assess how well a model generalizes to unseen data",
+        "B) To validate the model against a test set",
+        "C) To train the model on multiple datasets",
+        "D) To cross-validate the features"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "Cross-validation helps prevent overfitting.",
+        "Common methods: k-fold cross-validation.",
+        "It provides a more robust evaluation."
+      ]
+    },
+    {
+      "id": 102,
+      "type": "true_false",
+      "difficulty": "intermediate",
+      "category": "machine_learning",
+      "question": "In k-fold cross-validation, the dataset is split into k equal-sized folds, and the model is trained and evaluated k times.",
+      "correct_answer": "True",
+      "explanations": [
+        "Each fold is used once as a test set.",
+        "The results are averaged for a final performance estimate.",
+        "This reduces the variance of the evaluation."
+      ]
+    },
+    {
+      "id": 103,
+      "type": "multiple_choice",
+      "difficulty": "advanced",
+      "category": "machine_learning",
+      "question": "What is the difference between stratified k-fold and regular k-fold cross-validation?",
+      "options": [
+        "A) Stratified k-fold preserves the class distribution in each fold; regular k-fold does not",
+        "B) Regular k-fold preserves class distribution; stratified k-fold does not",
+        "C) They are the same",
+        "D) Stratified k-fold is for regression; regular k-fold is for classification"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "Stratification is important for imbalanced datasets.",
+        "It ensures each fold is representative.",
+        "It leads to more reliable evaluation."
+      ]
+    },
+    {
+      "id": 104,
+      "type": "true_false",
+      "difficulty": "advanced",
+      "category": "machine_learning",
+      "question": "The elbow method is used to determine the optimal number of clusters in k-means clustering.",
+      "correct_answer": "True",
+      "explanations": [
+        "It looks at the within-cluster sum of squares.",
+        "The 'elbow' point indicates the optimal k.",
+        "It is a heuristic method."
+      ]
+    },
+    {
+      "id": 105,
+      "type": "multiple_choice",
+      "difficulty": "intermediate",
+      "category": "neural_networks",
+      "question": "What is dropout in neural networks?",
+      "options": [
+        "A) A regularization technique that randomly drops neurons during training to prevent overfitting",
+        "B) A technique to drop the learning rate",
+        "C) A technique to drop the dataset",
+        "D) A technique to drop the model"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "Dropout is a form of regularization.",
+        "It forces the network to learn redundant representations.",
+        "It is widely used in deep learning."
+      ]
+    },
+    {
+      "id": 106,
+      "type": "true_false",
+      "difficulty": "intermediate",
+      "category": "neural_networks",
+      "question": "Batch normalization is used to normalize the inputs of each layer to improve training stability and speed.",
+      "correct_answer": "True",
+      "explanations": [
+        "Batch normalization reduces internal covariate shift.",
+        "It allows for higher learning rates.",
+        "It can also act as a regularizer."
+      ]
+    },
+    {
+      "id": 107,
+      "type": "multiple_choice",
+      "difficulty": "advanced",
+      "category": "neural_networks",
+      "question": "What is the difference between batch normalization and layer normalization?",
+      "options": [
+        "A) Batch normalization normalizes across the batch dimension; layer normalization normalizes across the feature dimension",
+        "B) Layer normalization normalizes across the batch dimension; batch normalization normalizes across the feature dimension",
+        "C) They are the same",
+        "D) Batch normalization is for CNNs; layer normalization is for RNNs"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "Batch norm is used in CNNs.",
+        "Layer norm is used in Transformers and RNNs.",
+        "They have different use cases."
+      ]
+    },
+    {
+      "id": 108,
+      "type": "true_false",
+      "difficulty": "advanced",
+      "category": "neural_networks",
+      "question": "Residual connections (skip connections) help mitigate the vanishing gradient problem in deep networks.",
+      "correct_answer": "True",
+      "explanations": [
+        "Residual networks (ResNets) have been highly successful.",
+        "They allow gradients to flow directly through the network.",
+        "They enable the training of very deep networks."
+      ]
+    },
+    {
+      "id": 109,
+      "type": "multiple_choice",
+      "difficulty": "beginner",
+      "category": "nlp",
+      "question": "What is a corpus in NLP?",
+      "options": [
+        "A) A large collection of texts used for training and analysis",
+        "B) A type of neural network",
+        "C) A database system",
+        "D) A programming language"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "A corpus is the foundation of NLP research.",
+        "Examples: Wikipedia, Common Crawl, and movie reviews.",
+        "Corpora are used to train language models."
+      ]
+    },
+    {
+      "id": 110,
+      "type": "true_false",
+      "difficulty": "intermediate",
+      "category": "nlp",
+      "question": "Stop words (like 'the', 'is', 'at') are often removed in traditional NLP to focus on meaningful words.",
+      "correct_answer": "True",
+      "explanations": [
+        "Stop word removal is a text preprocessing step.",
+        "It reduces dimensionality.",
+        "It is not always beneficial for tasks like sentiment analysis."
+      ]
+    },
+    {
+      "id": 111,
+      "type": "multiple_choice",
+      "difficulty": "advanced",
+      "category": "nlp",
+      "question": "What is the difference between a bag-of-words model and a word embedding model?",
+      "options": [
+        "A) Bag-of-words captures word frequencies; word embeddings capture semantic relationships",
+        "B) Word embeddings capture word frequencies; bag-of-words captures semantic relationships",
+        "C) They are the same",
+        "D) Bag-of-words is for classification; word embeddings are for generation"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "Bag-of-words is sparse and high-dimensional.",
+        "Word embeddings are dense and capture meaning.",
+        "Embeddings are a more advanced representation."
+      ]
+    },
+    {
+      "id": 112,
+      "type": "true_false",
+      "difficulty": "advanced",
+      "category": "nlp",
+      "question": "The TF-IDF (Term Frequency-Inverse Document Frequency) measure is used to reflect the importance of a word in a document.",
+      "correct_answer": "True",
+      "explanations": [
+        "TF-IDF is a classic feature extraction method.",
+        "It penalizes common words.",
+        "It is still used in many information retrieval tasks."
+      ]
+    },
+    {
+      "id": 113,
+      "type": "multiple_choice",
+      "difficulty": "intermediate",
+      "category": "computer_vision",
+      "question": "What is the purpose of a convolutional layer in a CNN?",
+      "options": [
+        "A) To detect features like edges, textures, and patterns",
+        "B) To reduce the spatial dimensions of the input",
+        "C) To classify the image",
+        "D) To increase the resolution of the image"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "Convolutional layers are the core of CNNs.",
+        "They apply learnable filters to the input.",
+        "They extract hierarchical features."
+      ]
+    },
+    {
+      "id": 114,
+      "type": "true_false",
+      "difficulty": "intermediate",
+      "category": "computer_vision",
+      "question": "Global Average Pooling (GAP) is often used to replace fully connected layers in CNNs to reduce overfitting.",
+      "correct_answer": "True",
+      "explanations": [
+        "GAP reduces the number of parameters.",
+        "It helps improve generalization.",
+        "It is commonly used in modern CNNs."
+      ]
+    },
+    {
+      "id": 115,
+      "type": "multiple_choice",
+      "difficulty": "advanced",
+      "category": "computer_vision",
+      "question": "What is the difference between a CNN and a fully connected network?",
+      "options": [
+        "A) CNNs use convolution and pooling, exploiting spatial structure; fully connected networks treat inputs as flat vectors",
+        "B) Fully connected networks use convolution; CNNs treat inputs as flat",
+        "C) They are the same",
+        "D) CNNs are for images; fully connected networks are for tabular data"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "CNNs are translation invariant.",
+        "They have fewer parameters.",
+        "They are more efficient for image processing."
+      ]
+    },
+    {
+      "id": 116,
+      "type": "true_false",
+      "difficulty": "advanced",
+      "category": "computer_vision",
+      "question": "Data augmentation techniques like random cropping and horizontal flipping are used to improve the generalization of computer vision models.",
+      "correct_answer": "True",
+      "explanations": [
+        "Augmentation creates more diverse training samples.",
+        "It helps the model become more robust.",
+        "It is a standard practice."
+      ]
+    },
+    {
+      "id": 117,
+      "type": "multiple_choice",
+      "difficulty": "intermediate",
+      "category": "generative_ai",
+      "question": "What is the purpose of a temperature parameter in LLM generation?",
+      "options": [
+        "A) To control the randomness of the generated text",
+        "B) To control the temperature of the model",
+        "C) To control the speed of generation",
+        "D) To control the length of the generation"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "Higher temperature produces more random outputs.",
+        "Lower temperature produces more deterministic outputs.",
+        "It is a key parameter for controlling creativity."
+      ]
+    },
+    {
+      "id": 118,
+      "type": "true_false",
+      "difficulty": "intermediate",
+      "category": "generative_ai",
+      "question": "Beam search is a decoding strategy that keeps multiple candidate sequences to find the most likely output.",
+      "correct_answer": "True",
+      "explanations": [
+        "Beam search improves the quality of generated text.",
+        "It trades off between quality and computational cost.",
+        "It is widely used in NLP."
+      ]
+    },
+    {
+      "id": 119,
+      "type": "multiple_choice",
+      "difficulty": "advanced",
+      "category": "generative_ai",
+      "question": "What is the difference between greedy decoding and beam search?",
+      "options": [
+        "A) Greedy decoding picks the most likely token at each step; beam search maintains multiple candidates",
+        "B) Beam search picks the most likely token; greedy decoding maintains multiple candidates",
+        "C) They are the same",
+        "D) Greedy is for training; beam search is for inference"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "Greedy decoding is faster but can be suboptimal.",
+        "Beam search gives better results but is slower.",
+        "Choice depends on the application."
+      ]
+    },
+    {
+      "id": 120,
+      "type": "true_false",
+      "difficulty": "advanced",
+      "category": "generative_ai",
+      "question": "Fine-tuning an LLM involves training it further on a specific dataset to adapt it to a particular task.",
+      "correct_answer": "True",
+      "explanations": [
+        "Fine-tuning is a common transfer learning technique.",
+        "It requires less data than training from scratch.",
+        "It can significantly improve performance."
+      ]
+    },
+    {
+      "id": 121,
+      "type": "multiple_choice",
+      "difficulty": "intermediate",
+      "category": "reinforcement_learning",
+      "question": "What is the exploration-exploitation dilemma in RL?",
+      "options": [
+        "A) The tradeoff between trying new actions and using known rewarding actions",
+        "B) The tradeoff between exploring the environment and exploiting the model",
+        "C) The tradeoff between exploring the data and exploiting the features",
+        "D) The tradeoff between exploring the network and exploiting the layers"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "Exploration is about gathering information.",
+        "Exploitation is about maximizing reward.",
+        "Balancing them is key to efficient learning."
+      ]
+    },
+    {
+      "id": 122,
+      "type": "true_false",
+      "difficulty": "intermediate",
+      "category": "reinforcement_learning",
+      "question": "Q-learning is a model-free reinforcement learning algorithm that learns a Q-function for estimating the value of state-action pairs.",
+      "correct_answer": "True",
+      "explanations": [
+        "Q-learning is off-policy.",
+        "It uses the Bellman equation.",
+        "It is a foundational RL algorithm."
+      ]
+    },
+    {
+      "id": 123,
+      "type": "multiple_choice",
+      "difficulty": "advanced",
+      "category": "reinforcement_learning",
+      "question": "What is the difference between on-policy and off-policy learning in RL?",
+      "options": [
+        "A) On-policy learns from the current policy; off-policy learns from a different policy",
+        "B) Off-policy learns from the current policy; on-policy learns from a different policy",
+        "C) They are the same",
+        "D) On-policy is for discrete actions; off-policy is for continuous actions"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "On-policy algorithms are simpler.",
+        "Off-policy algorithms can learn from old experiences.",
+        "Examples: Q-learning is off-policy; SARSA is on-policy."
+      ]
+    },
+    {
+      "id": 124,
+      "type": "true_false",
+      "difficulty": "advanced",
+      "category": "reinforcement_learning",
+      "question": "Deep Q-Networks (DQN) combine Q-learning with deep neural networks to handle large state spaces.",
+      "correct_answer": "True",
+      "explanations": [
+        "DQN was a breakthrough in RL.",
+        "It uses experience replay.",
+        "It can learn to play Atari games."
+      ]
+    },
+    {
+      "id": 125,
+      "type": "multiple_choice",
+      "difficulty": "beginner",
+      "category": "ai_ethics",
+      "question": "What is the main concern regarding AI and privacy?",
+      "options": [
+        "A) AI systems may collect and misuse personal data",
+        "B) AI systems are too slow",
+        "C) AI systems are too expensive",
+        "D) AI systems are not accurate"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "Data privacy is a growing concern.",
+        "AI can infer sensitive information.",
+        "Regulations like GDPR address these issues."
+      ]
+    },
+    {
+      "id": 126,
+      "type": "true_false",
+      "difficulty": "intermediate",
+      "category": "ai_ethics",
+      "question": "The 'black box' problem in AI refers to the difficulty in understanding how AI models make decisions.",
+      "correct_answer": "True",
+      "explanations": [
+        "Black box models are hard to interpret.",
+        "This is problematic in high-stakes domains.",
+        "Interpretable AI is an active area of research."
+      ]
+    },
+    {
+      "id": 127,
+      "type": "multiple_choice",
+      "difficulty": "advanced",
+      "category": "ai_ethics",
+      "question": "What is the difference between AI safety and AI ethics?",
+      "options": [
+        "A) AI safety focuses on preventing unintended harm; AI ethics focuses on fairness and values",
+        "B) AI ethics focuses on preventing harm; AI safety focuses on fairness",
+        "C) They are the same",
+        "D) AI safety is for algorithms; AI ethics is for data"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "AI safety includes robustness and control.",
+        "AI ethics includes fairness, accountability, and transparency.",
+        "Both are important for responsible AI."
+      ]
+    },
+    {
+      "id": 128,
+      "type": "true_false",
+      "difficulty": "advanced",
+      "category": "ai_ethics",
+      "question": "Algorithmic fairness is about ensuring AI systems do not discriminate against individuals or groups.",
+      "correct_answer": "True",
+      "explanations": [
+        "Fairness can be measured in various ways.",
+        "It is a key aspect of responsible AI.",
+        "It involves both technical and social considerations."
+      ]
+    },
+    {
+      "id": 129,
+      "type": "multiple_choice",
+      "difficulty": "intermediate",
+      "category": "model_evaluation",
+      "question": "What is the confusion matrix used for?",
+      "options": [
+        "A) To visualize the performance of a classification model with true vs predicted labels",
+        "B) To confuse the user",
+        "C) To calculate the model accuracy",
+        "D) To confuse the model"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "The confusion matrix shows TP, TN, FP, FN.",
+        "It provides a detailed breakdown of performance.",
+        "It is the basis for many classification metrics."
+      ]
+    },
+    {
+      "id": 130,
+      "type": "true_false",
+      "difficulty": "intermediate",
+      "category": "model_evaluation",
+      "question": "False positives are also called Type I errors in hypothesis testing.",
+      "correct_answer": "True",
+      "explanations": [
+        "Type I error is rejecting a true null hypothesis.",
+        "In classification, it's predicting a positive when it's actually negative.",
+        "False negatives are Type II errors."
+      ]
+    },
+    {
+      "id": 131,
+      "type": "multiple_choice",
+      "difficulty": "advanced",
+      "category": "model_evaluation",
+      "question": "What is the difference between micro-averaging and macro-averaging in multi-class classification?",
+      "options": [
+        "A) Micro-averaging aggregates contributions of all classes; macro-averaging averages class-wise metrics",
+        "B) Macro-averaging aggregates contributions; micro-averaging averages class-wise metrics",
+        "C) They are the same",
+        "D) Micro-averaging is for balanced datasets; macro-averaging is for imbalanced datasets"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "Micro-averaging gives equal weight to each instance.",
+        "Macro-averaging gives equal weight to each class.",
+        "Macro is more appropriate for imbalanced datasets."
+      ]
+    },
+    {
+      "id": 132,
+      "type": "true_false",
+      "difficulty": "advanced",
+      "category": "model_evaluation",
+      "question": "The log loss (cross-entropy loss) is a good metric for probabilistic classification.",
+      "correct_answer": "True",
+      "explanations": [
+        "Log loss rewards accurate probability estimates.",
+        "It penalizes confident and wrong predictions.",
+        "It is used in many ML competitions."
+      ]
+    },
+    {
+      "id": 133,
+      "type": "multiple_choice",
+      "difficulty": "beginner",
+      "category": "mlops",
+      "question": "What is model versioning?",
+      "options": [
+        "A) Tracking different versions of models and their metadata",
+        "B) Versioning the data",
+        "C) Versioning the code",
+        "D) Versioning the environment"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "Model versioning is important for reproducibility.",
+        "It helps track experiments.",
+        "It is a key part of MLOps."
+      ]
+    },
+    {
+      "id": 134,
+      "type": "true_false",
+      "difficulty": "intermediate",
+      "category": "mlops",
+      "question": "A model registry is used to store and manage trained models.",
+      "correct_answer": "True",
+      "explanations": [
+        "Model registries are central to MLOps.",
+        "They store models with their metadata.",
+        "They facilitate deployment."
+      ]
+    },
+    {
+      "id": 135,
+      "type": "multiple_choice",
+      "difficulty": "advanced",
+      "category": "mlops",
+      "question": "What is the difference between a model registry and a feature store?",
+      "options": [
+        "A) A model registry manages models; a feature store manages features",
+        "B) A feature store manages models; a model registry manages features",
+        "C) They are the same",
+        "D) Model registries are for training; feature stores are for serving"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "Model registries are for model lifecycle.",
+        "Feature stores are for feature engineering.",
+        "Both are important components."
+      ]
+    },
+    {
+      "id": 136,
+      "type": "true_false",
+      "difficulty": "advanced",
+      "category": "mlops",
+      "question": "Continuous training (CT) is the practice of automatically retraining models when new data becomes available.",
+      "correct_answer": "True",
+      "explanations": [
+        "CT is a part of MLOps.",
+        "It helps models stay up-to-date.",
+        "It requires monitoring and automation."
+      ]
+    },
+    {
+      "id": 137,
+      "type": "multiple_choice",
+      "difficulty": "intermediate",
+      "category": "machine_learning",
+      "question": "What is the purpose of the learning rate in gradient descent?",
+      "options": [
+        "A) To control the step size during parameter updates",
+        "B) To control the learning speed",
+        "C) To control the gradient size",
+        "D) To control the loss size"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "The learning rate is a hyperparameter.",
+        "Too high can cause divergence.",
+        "Too low can cause slow convergence."
+      ]
+    },
+    {
+      "id": 138,
+      "type": "true_false",
+      "difficulty": "intermediate",
+      "category": "machine_learning",
+      "question": "A learning rate scheduler can adjust the learning rate during training to improve convergence.",
+      "correct_answer": "True",
+      "explanations": [
+        "Schedulers can be adaptive or time-based.",
+        "They help in fine-tuning the optimization.",
+        "They are common in deep learning."
+      ]
+    },
+    {
+      "id": 139,
+      "type": "multiple_choice",
+      "difficulty": "advanced",
+      "category": "machine_learning",
+      "question": "What is the difference between Adam and SGD with momentum?",
+      "options": [
+        "A) Adam has adaptive learning rates per parameter; SGD with momentum has a fixed learning rate",
+        "B) SGD with momentum has adaptive learning rates; Adam has a fixed learning rate",
+        "C) They are the same",
+        "D) Adam is for classification; SGD is for regression"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "Adam is more advanced.",
+        "It often converges faster.",
+        "It requires less tuning of hyperparameters."
+      ]
+    },
+    {
+      "id": 140,
+      "type": "true_false",
+      "difficulty": "advanced",
+      "category": "machine_learning",
+      "question": "Gradient descent can get stuck in local minima, but with proper techniques, it can find a good solution.",
+      "correct_answer": "True",
+      "explanations": [
+        "Local minima are not as problematic in high dimensions.",
+        "Saddle points are a bigger issue.",
+        "Advanced optimizers help navigate the loss landscape."
+      ]
+    },
+    {
+      "id": 141,
+      "type": "multiple_choice",
+      "difficulty": "beginner",
+      "category": "nlp",
+      "question": "What is text classification?",
+      "options": [
+        "A) The task of assigning predefined categories to text documents",
+        "B) The task of classifying images",
+        "C) The task of classifying audio",
+        "D) The task of classifying video"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "Text classification is a fundamental NLP task.",
+        "Examples: spam detection, topic labeling.",
+        "It uses supervised learning."
+      ]
+    },
+    {
+      "id": 142,
+      "type": "true_false",
+      "difficulty": "intermediate",
+      "category": "nlp",
+      "question": "Multinomial Naive Bayes is a popular algorithm for text classification.",
+      "correct_answer": "True",
+      "explanations": [
+        "It is simple and effective.",
+        "It assumes independence between features.",
+        "It works well with bag-of-words representations."
+      ]
+    },
+    {
+      "id": 143,
+      "type": "multiple_choice",
+      "difficulty": "advanced",
+      "category": "nlp",
+      "question": "What is the difference between topic modeling and text classification?",
+      "options": [
+        "A) Topic modeling is unsupervised and discovers themes; text classification is supervised and assigns labels",
+        "B) Text classification is unsupervised; topic modeling is supervised",
+        "C) They are the same",
+        "D) Topic modeling is for documents; text classification is for sentences"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "Topic modeling uses algorithms like LDA.",
+        "Text classification uses models like SVMs or neural networks.",
+        "Both are used for text analysis."
+      ]
+    },
+    {
+      "id": 144,
+      "type": "true_false",
+      "difficulty": "advanced",
+      "category": "nlp",
+      "question": "Word sense disambiguation is the task of determining the correct meaning of a word based on context.",
+      "correct_answer": "True",
+      "explanations": [
+        "It is a classic NLP challenge.",
+        "It is important for semantic understanding.",
+        "It is often handled by context-aware embeddings."
+      ]
+    },
+    {
+      "id": 145,
+      "type": "multiple_choice",
+      "difficulty": "intermediate",
+      "category": "computer_vision",
+      "question": "What is the purpose of a feature map in a CNN?",
+      "options": [
+        "A) It is the output of a convolutional layer, representing learned features",
+        "B) It is a map of the image",
+        "C) It is a map of the features",
+        "D) It is a map of the neurons"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "Feature maps capture spatial information.",
+        "They are the results of applying filters.",
+        "They are used as input to the next layer."
+      ]
+    },
+    {
+      "id": 146,
+      "type": "true_false",
+      "difficulty": "intermediate",
+      "category": "computer_vision",
+      "question": "Visualizing feature maps can help understand what a CNN has learned.",
+      "correct_answer": "True",
+      "explanations": [
+        "Feature map visualization is a common technique.",
+        "It shows which patterns the filters detect.",
+        "It helps in interpretability."
+      ]
+    },
+    {
+      "id": 147,
+      "type": "multiple_choice",
+      "difficulty": "advanced",
+      "category": "computer_vision",
+      "question": "What is the difference between feature extraction and feature learning in computer vision?",
+      "options": [
+        "A) Feature extraction uses hand-crafted features; feature learning learns features from data",
+        "B) Feature learning uses hand-crafted features; feature extraction learns from data",
+        "C) They are the same",
+        "D) Feature extraction is for images; feature learning is for videos"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "Feature extraction is traditional (e.g., SIFT, HOG).",
+        "Feature learning is modern (e.g., CNNs).",
+        "Deep learning has largely replaced hand-crafted features."
+      ]
+    },
+    {
+      "id": 148,
+      "type": "true_false",
+      "difficulty": "advanced",
+      "category": "computer_vision",
+      "question": "Domain adaptation in computer vision aims to adapt a model trained on one dataset to perform well on a different dataset.",
+      "correct_answer": "True",
+      "explanations": [
+        "Domain shift is a common problem.",
+        "Adaptation techniques include fine-tuning and adversarial training.",
+        "It reduces the need for labeled data in the target domain."
+      ]
+    },
+    {
+      "id": 149,
+      "type": "multiple_choice",
+      "difficulty": "beginner",
+      "category": "generative_ai",
+      "question": "What is a diffusion model?",
+      "options": [
+        "A) A generative model that learns to reverse a gradual noising process",
+        "B) A model that diffuses information",
+        "C) A model that predicts diffusion",
+        "D) A model for data diffusion"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "Diffusion models are powerful generators.",
+        "They are used in DALL-E and Midjourney.",
+        "They produce high-quality images."
+      ]
+    },
+    {
+      "id": 150,
+      "type": "true_false",
+      "difficulty": "intermediate",
+      "category": "generative_ai",
+      "question": "VAEs (Variational Autoencoders) are a type of generative model that learns a latent space representation.",
+      "correct_answer": "True",
+      "explanations": [
+        "VAEs are based on variational inference.",
+        "They can be used for generation and representation learning.",
+        "They are more tractable than GANs."
+      ]
+    },
+    {
+      "id": 151,
+      "type": "multiple_choice",
+      "difficulty": "advanced",
+      "category": "generative_ai",
+      "question": "What is the difference between a VAE and a GAN?",
+      "options": [
+        "A) VAEs are based on variational inference; GANs are adversarial",
+        "B) GANs are based on variational inference; VAEs are adversarial",
+        "C) They are the same",
+        "D) VAEs are for images; GANs are for text"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "VAEs have a clear objective function.",
+        "GANs can be unstable to train.",
+        "Both are popular generative models."
+      ]
+    },
+    {
+      "id": 152,
+      "type": "true_false",
+      "difficulty": "advanced",
+      "category": "generative_ai",
+      "question": "Text-to-image models like Stable Diffusion are based on diffusion models.",
+      "correct_answer": "True",
+      "explanations": [
+        "They use diffusion in the latent space.",
+        "They are trained on large datasets of image-text pairs.",
+        "They can generate high-quality images from text prompts."
+      ]
+    },
+    {
+      "id": 153,
+      "type": "multiple_choice",
+      "difficulty": "intermediate",
+      "category": "reinforcement_learning",
+      "question": "What is an environment in reinforcement learning?",
+      "options": [
+        "A) The world in which the agent operates and interacts with",
+        "B) The physical environment of the agent",
+        "C) The programming environment",
+        "D) The network environment"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "The environment defines the state space.",
+        "It provides rewards and transitions.",
+        "It is a fundamental component of RL."
+      ]
+    },
+    {
+      "id": 154,
+      "type": "true_false",
+      "difficulty": "intermediate",
+      "category": "reinforcement_learning",
+      "question": "An episode in RL is a sequence of states, actions, and rewards from the start to a terminal state.",
+      "correct_answer": "True",
+      "explanations": [
+        "Episodes are used in episodic tasks.",
+        "They are also called trajectories.",
+        "They end when the agent reaches a terminal state."
+      ]
+    },
+    {
+      "id": 155,
+      "type": "multiple_choice",
+      "difficulty": "advanced",
+      "category": "reinforcement_learning",
+      "question": "What is the difference between a model-free and a model-based RL algorithm?",
+      "options": [
+        "A) Model-free learns directly from experience; model-based uses a model of the environment",
+        "B) Model-based learns directly from experience; model-free uses a model",
+        "C) They are the same",
+        "D) Model-free is for continuous actions; model-based is for discrete actions"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "Model-free algorithms are simpler.",
+        "Model-based can plan ahead.",
+        "Examples: Q-learning is model-free; AlphaGo is model-based."
+      ]
+    },
+    {
+      "id": 156,
+      "type": "true_false",
+      "difficulty": "advanced",
+      "category": "reinforcement_learning",
+      "question": "The Monte Carlo method in RL learns from complete episodes without bootstrapping.",
+      "correct_answer": "True",
+      "explanations": [
+        "Monte Carlo methods have high variance.",
+        "They are used in episodic tasks.",
+        "They wait until the end of the episode to update."
+      ]
+    },
+    {
+      "id": 157,
+      "type": "multiple_choice",
+      "difficulty": "beginner",
+      "category": "ai_fundamentals",
+      "question": "What is a heuristic in AI?",
+      "options": [
+        "A) A rule of thumb or practical method for solving problems",
+        "B) A type of neural network",
+        "C) A programming language",
+        "D) A database system"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "Heuristics are used in search algorithms.",
+        "They guide the search towards the goal.",
+        "They are not guaranteed to be optimal."
+      ]
+    },
+    {
+      "id": 158,
+      "type": "true_false",
+      "difficulty": "intermediate",
+      "category": "ai_fundamentals",
+      "question": "The A* algorithm uses a heuristic to find the shortest path in a graph.",
+      "correct_answer": "True",
+      "explanations": [
+        "A* is a popular pathfinding algorithm.",
+        "It combines cost and heuristic.",
+        "It is optimal with an admissible heuristic."
+      ]
+    },
+    {
+      "id": 159,
+      "type": "multiple_choice",
+      "difficulty": "advanced",
+      "category": "ai_fundamentals",
+      "question": "What is the difference between a heuristic search and a blind search?",
+      "options": [
+        "A) A heuristic search uses domain knowledge; a blind search does not",
+        "B) A blind search uses domain knowledge; a heuristic search does not",
+        "C) They are the same",
+        "D) Heuristic search is for graphs; blind search is for trees"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "Blind search is exhaustive (e.g., BFS, DFS).",
+        "Heuristic search is informed (e.g., A*, greedy).",
+        "Heuristic search is more efficient."
+      ]
+    },
+    {
+      "id": 160,
+      "type": "true_false",
+      "difficulty": "advanced",
+      "category": "ai_fundamentals",
+      "question": "Expert systems are AI programs that emulate the decision-making ability of a human expert.",
+      "correct_answer": "True",
+      "explanations": [
+        "Expert systems are rule-based.",
+        "They use a knowledge base and inference engine.",
+        "They were a major focus in early AI."
+      ]
+    },
+    {
+      "id": 161,
+      "type": "multiple_choice",
+      "difficulty": "intermediate",
+      "category": "machine_learning",
+      "question": "What is a support vector machine (SVM)?",
+      "options": [
+        "A) A supervised learning model that finds the optimal hyperplane for classification",
+        "B) A type of neural network",
+        "C) A clustering algorithm",
+        "D) A reinforcement learning algorithm"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "SVMs are powerful classifiers.",
+        "They use the kernel trick for non-linear data.",
+        "They are still widely used."
+      ]
+    },
+    {
+      "id": 162,
+      "type": "true_false",
+      "difficulty": "intermediate",
+      "category": "machine_learning",
+      "question": "The kernel trick in SVMs allows them to handle non-linear decision boundaries.",
+      "correct_answer": "True",
+      "explanations": [
+        "Kernels implicitly map data to higher dimensions.",
+        "Common kernels: RBF, polynomial, and sigmoid.",
+        "They make SVMs more flexible."
+      ]
+    },
+    {
+      "id": 163,
+      "type": "multiple_choice",
+      "difficulty": "advanced",
+      "category": "machine_learning",
+      "question": "What is the difference between hard margin and soft margin SVM?",
+      "options": [
+        "A) Hard margin requires all data to be correctly classified; soft margin allows some misclassifications",
+        "B) Soft margin requires all data to be correctly classified; hard margin allows some misclassifications",
+        "C) They are the same",
+        "D) Hard margin is for linear data; soft margin is for non-linear data"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "Hard margin is sensitive to outliers.",
+        "Soft margin is more robust.",
+        "It is the more common version."
+      ]
+    },
+    {
+      "id": 164,
+      "type": "true_false",
+      "difficulty": "advanced",
+      "category": "machine_learning",
+      "question": "Ensemble learning combines multiple models to improve overall performance.",
+      "correct_answer": "True",
+      "explanations": [
+        "Ensemble methods reduce variance.",
+        "They often achieve state-of-the-art results.",
+        "Examples: Random Forest, Gradient Boosting."
+      ]
+    },
+    {
+      "id": 165,
+      "type": "multiple_choice",
+      "difficulty": "beginner",
+      "category": "neural_networks",
+      "question": "What is an epoch in neural network training?",
+      "options": [
+        "A) One complete pass through the entire training dataset",
+        "B) One iteration of training",
+        "C) One batch of data",
+        "D) One step of gradient descent"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "An epoch consists of multiple iterations.",
+        "More epochs can lead to overfitting.",
+        "It is a key training parameter."
+      ]
+    },
+    {
+      "id": 166,
+      "type": "true_false",
+      "difficulty": "intermediate",
+      "category": "neural_networks",
+      "question": "A batch is a subset of the training data used in one iteration of gradient descent.",
+      "correct_answer": "True",
+      "explanations": [
+        "Mini-batch is the most common.",
+        "Batch size affects training dynamics.",
+        "It is a trade-off between speed and stability."
+      ]
+    },
+    {
+      "id": 167,
+      "type": "multiple_choice",
+      "difficulty": "advanced",
+      "category": "neural_networks",
+      "question": "What is the difference between full-batch, mini-batch, and stochastic gradient descent?",
+      "options": [
+        "A) Full-batch uses all data; mini-batch uses a subset; stochastic uses one sample",
+        "B) Stochastic uses all data; full-batch uses a subset; mini-batch uses one sample",
+        "C) They are the same",
+        "D) Full-batch is for small datasets; stochastic is for large datasets"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "Full-batch is slow for large datasets.",
+        "Stochastic introduces noise.",
+        "Mini-batch is the best trade-off."
+      ]
+    },
+    {
+      "id": 168,
+      "type": "true_false",
+      "difficulty": "advanced",
+      "category": "neural_networks",
+      "question": "Gradient clipping is a technique used to prevent the exploding gradient problem.",
+      "correct_answer": "True",
+      "explanations": [
+        "It limits the magnitude of gradients.",
+        "It is common in RNNs.",
+        "It helps stabilize training."
+      ]
+    },
+    {
+      "id": 169,
+      "type": "multiple_choice",
+      "difficulty": "intermediate",
+      "category": "nlp",
+      "question": "What is the purpose of tokenization in NLP?",
+      "options": [
+        "A) To split text into smaller units for processing",
+        "B) To tokenize the tokens",
+        "C) To replace tokens with IDs",
+        "D) To remove tokens"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "Tokenization is the first step in NLP pipelines.",
+        "It prepares text for models.",
+        "Different tokenizers exist for different languages."
+      ]
+    },
+    {
+      "id": 170,
+      "type": "true_false",
+      "difficulty": "intermediate",
+      "category": "nlp",
+      "question": "The BPE (Byte Pair Encoding) algorithm is a subword tokenization method.",
+      "correct_answer": "True",
+      "explanations": [
+        "BPE is used in GPT and other models.",
+        "It handles out-of-vocabulary words.",
+        "It balances between character and word level."
+      ]
+    },
+    {
+      "id": 171,
+      "type": "multiple_choice",
+      "difficulty": "advanced",
+      "category": "nlp",
+      "question": "What is the difference between word-level and subword-level tokenization?",
+      "options": [
+        "A) Word-level treats whole words as tokens; subword-level splits words into parts",
+        "B) Subword-level treats whole words; word-level splits into parts",
+        "C) They are the same",
+        "D) Word-level is for English; subword-level is for other languages"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "Subword tokenization handles rare words better.",
+        "It is the standard in modern NLP.",
+        "Examples: BPE, WordPiece."
+      ]
+    },
+    {
+      "id": 172,
+      "type": "true_false",
+      "difficulty": "advanced",
+      "category": "nlp",
+      "question": "The positional encoding in Transformers adds information about the position of tokens in the sequence.",
+      "correct_answer": "True",
+      "explanations": [
+        "Positional encoding is necessary because Transformers are permutation-invariant.",
+        "It uses sine and cosine functions.",
+        "It enables the model to use order information."
+      ]
+    },
+    {
+      "id": 173,
+      "type": "multiple_choice",
+      "difficulty": "beginner",
+      "category": "computer_vision",
+      "question": "What is the purpose of a color space in image processing?",
+      "options": [
+        "A) To represent colors in a specific coordinate system",
+        "B) To add color to images",
+        "C) To remove color from images",
+        "D) To convert images to black and white"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "Common color spaces: RGB, HSV, LAB.",
+        "They are used for different applications.",
+        "RGB is the most common in computer vision."
+      ]
+    },
+    {
+      "id": 174,
+      "type": "true_false",
+      "difficulty": "intermediate",
+      "category": "computer_vision",
+      "question": "The HSV color space separates color information from brightness, making it useful for color segmentation.",
+      "correct_answer": "True",
+      "explanations": [
+        "HSV stands for Hue, Saturation, Value.",
+        "It is more intuitive for color-based tasks.",
+        "It is robust to lighting changes."
+      ]
+    },
+    {
+      "id": 175,
+      "type": "multiple_choice",
+      "difficulty": "advanced",
+      "category": "computer_vision",
+      "question": "What is the difference between RGB and HSV color spaces?",
+      "options": [
+        "A) RGB is based on additive colors; HSV is based on hue, saturation, and value",
+        "B) HSV is based on additive colors; RGB is based on hue, saturation, and value",
+        "C) They are the same",
+        "D) RGB is for display; HSV is for printing"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "RGB is used in displays.",
+        "HSV is used for color-based segmentation.",
+        "Both are useful in different contexts."
+      ]
+    },
+    {
+      "id": 176,
+      "type": "true_false",
+      "difficulty": "advanced",
+      "category": "computer_vision",
+      "question": "Histogram of Oriented Gradients (HOG) is a hand-crafted feature used for object detection.",
+      "correct_answer": "True",
+      "explanations": [
+        "HOG captures edge and gradient information.",
+        "It was used in pedestrian detection.",
+        "It has been largely replaced by CNNs."
+      ]
+    },
+    {
+      "id": 177,
+      "type": "multiple_choice",
+      "difficulty": "intermediate",
+      "category": "generative_ai",
+      "question": "What is the purpose of the discriminator in a GAN?",
+      "options": [
+        "A) To distinguish between real and generated samples",
+        "B) To generate realistic samples",
+        "C) To discriminate between classes",
+        "D) To classify the data"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "The discriminator is a binary classifier.",
+        "It tries to identify fake samples.",
+        "It gets better over time."
+      ]
+    },
+    {
+      "id": 178,
+      "type": "true_false",
+      "difficulty": "intermediate",
+      "category": "generative_ai",
+      "question": "The generator in a GAN tries to produce samples that fool the discriminator.",
+      "correct_answer": "True",
+      "explanations": [
+        "The generator starts with random noise.",
+        "It learns to create realistic samples.",
+        "The two networks compete in a min-max game."
+      ]
+    },
+    {
+      "id": 179,
+      "type": "multiple_choice",
+      "difficulty": "advanced",
+      "category": "generative_ai",
+      "question": "What is the difference between a GAN and a diffusion model for image generation?",
+      "options": [
+        "A) GANs use adversarial training; diffusion models use a denoising process",
+        "B) Diffusion models use adversarial training; GANs use denoising",
+        "C) They are the same",
+        "D) GANs are for images; diffusion models are for audio"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "GANs can be unstable.",
+        "Diffusion models are more stable.",
+        "Diffusion models are the current state-of-the-art."
+      ]
+    },
+    {
+      "id": 180,
+      "type": "true_false",
+      "difficulty": "advanced",
+      "category": "generative_ai",
+      "question": "Style transfer is a technique that applies the artistic style of one image to another image.",
+      "correct_answer": "True",
+      "explanations": [
+        "Style transfer uses neural networks.",
+        "It separates content and style.",
+        "It is a popular application of CNNs."
+      ]
+    },
+    {
+      "id": 181,
+      "type": "multiple_choice",
+      "difficulty": "beginner",
+      "category": "reinforcement_learning",
+      "question": "What is a policy in reinforcement learning?",
+      "options": [
+        "A) A strategy or rule that the agent uses to select actions",
+        "B) A type of policy for a company",
+        "C) A policy for data",
+        "D) A policy for training"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "The policy maps states to actions.",
+        "It can be deterministic or stochastic.",
+        "It is the core of an RL agent."
+      ]
+    },
+    {
+      "id": 182,
+      "type": "true_false",
+      "difficulty": "intermediate",
+      "category": "reinforcement_learning",
+      "question": "A reward signal is a scalar value that indicates how good an action was.",
+      "correct_answer": "True",
+      "explanations": [
+        "Rewards guide the agent's learning.",
+        "They are the objective of RL.",
+        "The goal is to maximize cumulative reward."
+      ]
+    },
+    {
+      "id": 183,
+      "type": "multiple_choice",
+      "difficulty": "advanced",
+      "category": "reinforcement_learning",
+      "question": "What is the difference between a value function and a Q-function?",
+      "options": [
+        "A) A value function estimates the value of a state; a Q-function estimates the value of a state-action pair",
+        "B) A Q-function estimates the value of a state; a value function estimates the value of a state-action pair",
+        "C) They are the same",
+        "D) Value functions are for policy evaluation; Q-functions are for policy improvement"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "Value functions are used in value iteration.",
+        "Q-functions are used in Q-learning.",
+        "Both are important in RL."
+      ]
+    },
+    {
+      "id": 184,
+      "type": "true_false",
+      "difficulty": "advanced",
+      "category": "reinforcement_learning",
+      "question": "The Bellman equation expresses the relationship between the value of a state and the value of its successor states.",
+      "correct_answer": "True",
+      "explanations": [
+        "It is the foundation of dynamic programming.",
+        "It underlies most RL algorithms.",
+        "It allows for recursive computation."
+      ]
+    },
+    {
+      "id": 185,
+      "type": "multiple_choice",
+      "difficulty": "intermediate",
+      "category": "ai_ethics",
+      "question": "What is the purpose of AI auditing?",
+      "options": [
+        "A) To evaluate AI systems for compliance, fairness, and security",
+        "B) To audit the code",
+        "C) To audit the data",
+        "D) To audit the hardware"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "AI auditing is a growing practice.",
+        "It helps build trust in AI.",
+        "It is often required by regulations."
+      ]
+    },
+    {
+      "id": 186,
+      "type": "true_false",
+      "difficulty": "intermediate",
+      "category": "ai_ethics",
+      "question": "Bias in AI can be mitigated through careful data selection and algorithmic fairness techniques.",
+      "correct_answer": "True",
+      "explanations": [
+        "Bias detection is the first step.",
+        "Techniques include reweighting and adversarial debiasing.",
+        "It is an ongoing challenge."
+      ]
+    },
+    {
+      "id": 187,
+      "type": "multiple_choice",
+      "difficulty": "advanced",
+      "category": "ai_ethics",
+      "question": "What is the difference between fairness through unawareness and demographic parity?",
+      "options": [
+        "A) Fairness through unawareness ignores protected attributes; demographic parity ensures equal outcomes across groups",
+        "B) Demographic parity ignores protected attributes; fairness through unawareness ensures equal outcomes",
+        "C) They are the same",
+        "D) Fairness through unawareness is for training; demographic parity is for evaluation"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "Fairness through unawareness is weak.",
+        "Demographic parity is a stronger constraint.",
+        "There is no one-size-fits-all fairness definition."
+      ]
+    },
+    {
+      "id": 188,
+      "type": "true_false",
+      "difficulty": "advanced",
+      "category": "ai_ethics",
+      "question": "The 'right to explanation' in the GDPR gives individuals the right to receive an explanation of an algorithmic decision.",
+      "correct_answer": "True",
+      "explanations": [
+        "This is a key privacy right.",
+        "It promotes transparency.",
+        "It is part of the EU's data protection framework."
+      ]
+    },
+    {
+      "id": 189,
+      "type": "multiple_choice",
+      "difficulty": "intermediate",
+      "category": "model_deployment",
+      "question": "What is the purpose of model monitoring in production?",
+      "options": [
+        "A) To track model performance and detect degradation over time",
+        "B) To monitor the hardware",
+        "C) To monitor the network",
+        "D) To monitor the data"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "Monitoring ensures models remain effective.",
+        "It helps detect drift and anomalies.",
+        "It is essential for MLOps."
+      ]
+    },
+    {
+      "id": 190,
+      "type": "true_false",
+      "difficulty": "intermediate",
+      "category": "model_deployment",
+      "question": "Model retraining should be triggered automatically based on performance metrics.",
+      "correct_answer": "True",
+      "explanations": [
+        "Automated retraining is part of MLOps.",
+        "It keeps models up-to-date.",
+        "It requires robust monitoring."
+      ]
+    },
+    {
+      "id": 191,
+      "type": "multiple_choice",
+      "difficulty": "advanced",
+      "category": "model_deployment",
+      "question": "What is the difference between online learning and batch learning?",
+      "options": [
+        "A) Online learning updates the model incrementally; batch learning trains on the entire dataset at once",
+        "B) Batch learning updates incrementally; online learning trains at once",
+        "C) They are the same",
+        "D) Online learning is for streaming data; batch learning is for static data"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "Online learning is useful for dynamic data.",
+        "Batch learning is simpler.",
+        "Both have their use cases."
+      ]
+    },
+    {
+      "id": 192,
+      "type": "true_false",
+      "difficulty": "advanced",
+      "category": "model_deployment",
+      "question": "A/B testing can be used to compare a new model version against the current model in production.",
+      "correct_answer": "True",
+      "explanations": [
+        "A/B testing is a common evaluation method.",
+        "It provides real-world performance data.",
+        "It helps decide which model to deploy."
+      ]
+    },
+    {
+      "id": 193,
+      "type": "multiple_choice",
+      "difficulty": "beginner",
+      "category": "machine_learning",
+      "question": "What is the purpose of a validation set?",
+      "options": [
+        "A) To tune hyperparameters and evaluate the model during training",
+        "B) To validate the model's performance on unseen data",
+        "C) To validate the data",
+        "D) To validate the code"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "The validation set is used for model selection.",
+        "It prevents overfitting to the training set.",
+        "It is distinct from the test set."
+      ]
+    },
+    {
+      "id": 194,
+      "type": "true_false",
+      "difficulty": "intermediate",
+      "category": "machine_learning",
+      "question": "The test set should be used multiple times during model development to select the best model.",
+      "correct_answer": "False",
+      "explanations": [
+        "The test set should be used only once.",
+        "Using it repeatedly leads to overfitting.",
+        "It should be kept for final evaluation."
+      ]
+    },
+    {
+      "id": 195,
+      "type": "multiple_choice",
+      "difficulty": "advanced",
+      "category": "machine_learning",
+      "question": "What is the difference between a validation set and a test set?",
+      "options": [
+        "A) The validation set is used for tuning; the test set is used for final evaluation",
+        "B) The test set is used for tuning; the validation set is used for final evaluation",
+        "C) They are the same",
+        "D) Validation sets are for supervised learning; test sets are for unsupervised learning"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "Validation sets are used in training.",
+        "Test sets are used after training.",
+        "Both are parts of the dataset."
+      ]
+    },
+    {
+      "id": 196,
+      "type": "true_false",
+      "difficulty": "advanced",
+      "category": "machine_learning",
+      "question": "Active learning is a technique where the model selects the most informative data points to be labeled.",
+      "correct_answer": "True",
+      "explanations": [
+        "Active learning reduces labeling cost.",
+        "It is used when labels are expensive.",
+        "It iteratively improves the model."
+      ]
+    },
+    {
+      "id": 197,
+      "type": "multiple_choice",
+      "difficulty": "intermediate",
+      "category": "nlp",
+      "question": "What is a semantic vector in NLP?",
+      "options": [
+        "A) A vector representation of the meaning of a word or sentence",
+        "B) A vector for syntax",
+        "C) A vector for semantics",
+        "D) A vector for sentiment"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "Semantic vectors capture meaning.",
+        "They are used in word embeddings.",
+        "They enable semantic search and retrieval."
+      ]
+    },
+    {
+      "id": 198,
+      "type": "true_false",
+      "difficulty": "intermediate",
+      "category": "nlp",
+      "question": "Sentence embeddings like Sentence-BERT encode entire sentences into fixed-length vectors.",
+      "correct_answer": "True",
+      "explanations": [
+        "Sentence embeddings are useful for semantic similarity.",
+        "They are used in search and clustering.",
+        "They are an extension of word embeddings."
+      ]
+    },
+    {
+      "id": 199,
+      "type": "multiple_choice",
+      "difficulty": "advanced",
+      "category": "nlp",
+      "question": "What is the difference between word embeddings and sentence embeddings?",
+      "options": [
+        "A) Word embeddings represent individual words; sentence embeddings represent entire sentences",
+        "B) Sentence embeddings represent individual words; word embeddings represent entire sentences",
+        "C) They are the same",
+        "D) Word embeddings are for English; sentence embeddings are for other languages"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "Word embeddings are context-independent.",
+        "Sentence embeddings capture contextual meaning.",
+        "Both are used in different applications."
+      ]
+    },
+    {
+      "id": 200,
+      "type": "true_false",
+      "difficulty": "advanced",
+      "category": "nlp",
+      "question": "Vector databases are optimized for storing and querying high-dimensional embeddings.",
+      "correct_answer": "True",
+      "explanations": [
+        "Vector databases are used in similarity search.",
+        "They are important for RAG applications.",
+        "Examples: Pinecone, Weaviate, Milvus."
+      ]
+    },
+    {
+      "id": 201,
+      "type": "multiple_choice",
+      "difficulty": "beginner",
+      "category": "computer_vision",
+      "question": "What is image segmentation?",
+      "options": [
+        "A) The task of dividing an image into regions or segments",
+        "B) The task of dividing the image into pixels",
+        "C) The task of dividing the image into colors",
+        "D) The task of dividing the image into objects"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "Segmentation is a pixel-level task.",
+        "It is used in medical imaging and self-driving cars.",
+        "It provides rich scene understanding."
+      ]
+    },
+    {
+      "id": 202,
+      "type": "true_false",
+      "difficulty": "intermediate",
+      "category": "computer_vision",
+      "question": "Semantic segmentation assigns a class label to each pixel in the image.",
+      "correct_answer": "True",
+      "explanations": [
+        "Semantic segmentation uses labels like 'road', 'car', 'person'.",
+        "It does not distinguish between instances.",
+        "Instance segmentation identifies individual objects."
+      ]
+    },
+    {
+      "id": 203,
+      "type": "multiple_choice",
+      "difficulty": "advanced",
+      "category": "computer_vision",
+      "question": "What is the difference between semantic segmentation and instance segmentation?",
+      "options": [
+        "A) Semantic segmentation classifies each pixel; instance segmentation also differentiates between individual objects",
+        "B) Instance segmentation classifies each pixel; semantic segmentation differentiates objects",
+        "C) They are the same",
+        "D) Semantic segmentation is for images; instance segmentation is for videos"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "Instance segmentation is more detailed.",
+        "It is used when object boundaries are needed.",
+        "Both are important computer vision tasks."
+      ]
+    },
+    {
+      "id": 204,
+      "type": "true_false",
+      "difficulty": "advanced",
+      "category": "computer_vision",
+      "question": "Panoptic segmentation combines semantic and instance segmentation for a unified view.",
+      "correct_answer": "True",
+      "explanations": [
+        "Panoptic segmentation labels both 'stuff' and 'things'.",
+        "It provides a comprehensive scene understanding.",
+        "It is a recent advancement."
+      ]
+    },
+    {
+      "id": 205,
+      "type": "multiple_choice",
+      "difficulty": "intermediate",
+      "category": "generative_ai",
+      "question": "What is the purpose of the 'stability' parameter in diffusion models?",
+      "options": [
+        "A) To control the quality and stability of generated images",
+        "B) To control the stability of the model",
+        "C) To control the speed of generation",
+        "D) To control the randomness"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "Stability affects image coherence.",
+        "It is related to the guidance scale.",
+        "It balances quality and diversity."
+      ]
+    },
+    {
+      "id": 206,
+      "type": "true_false",
+      "difficulty": "advanced",
+      "category": "generative_ai",
+      "question": "The guidance scale in diffusion models controls how strongly the generation follows the text prompt.",
+      "correct_answer": "True",
+      "explanations": [
+        "Higher guidance adheres more to the prompt.",
+        "Lower guidance gives more creative freedom.",
+        "It is a key parameter in text-to-image models."
+      ]
+    },
+    {
+      "id": 207,
+      "type": "multiple_choice",
+      "difficulty": "advanced",
+      "category": "generative_ai",
+      "question": "What is the difference between a diffusion model and a flow-based model?",
+      "options": [
+        "A) Diffusion models use a forward and reverse diffusion process; flow-based models use invertible transformations",
+        "B) Flow-based models use diffusion; diffusion models use invertible transformations",
+        "C) They are the same",
+        "D) Diffusion models are for images; flow-based models are for audio"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "Flow-based models have exact log-likelihood.",
+        "Diffusion models are more flexible.",
+        "Both are types of generative models."
+      ]
+    },
+    {
+      "id": 208,
+      "type": "true_false",
+      "difficulty": "advanced",
+      "category": "generative_ai",
+      "question": "Inpainting is the task of filling in missing parts of an image using generative models.",
+      "correct_answer": "True",
+      "explanations": [
+        "Inpainting is used for image editing.",
+        "It can remove objects or repair damage.",
+        "It is a common application of GANs and diffusion models."
+      ]
+    },
+    {
+      "id": 209,
+      "type": "multiple_choice",
+      "difficulty": "intermediate",
+      "category": "reinforcement_learning",
+      "question": "What is the purpose of a discount factor (gamma) in RL?",
+      "options": [
+        "A) To discount future rewards to balance short-term and long-term objectives",
+        "B) To discount the current reward",
+        "C) To discount the state",
+        "D) To discount the action"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "Gamma is between 0 and 1.",
+        "It determines how much future rewards matter.",
+        "It ensures convergence in infinite-horizon tasks."
+      ]
+    },
+    {
+      "id": 210,
+      "type": "true_false",
+      "difficulty": "intermediate",
+      "category": "reinforcement_learning",
+      "question": "A gamma close to 1 means the agent values future rewards almost as much as immediate rewards.",
+      "correct_answer": "True",
+      "explanations": [
+        "It encourages long-term planning.",
+        "It can make training harder.",
+        "It is often set to 0.99."
+      ]
+    },
+    {
+      "id": 211,
+      "type": "multiple_choice",
+      "difficulty": "advanced",
+      "category": "reinforcement_learning",
+      "question": "What is the difference between episodic and continuing tasks in RL?",
+      "options": [
+        "A) Episodic tasks have a terminal state; continuing tasks are infinite",
+        "B) Continuing tasks have a terminal state; episodic tasks are infinite",
+        "C) They are the same",
+        "D) Episodic tasks are for games; continuing tasks are for robotics"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "Episodic tasks restart after termination.",
+        "Continuing tasks go on indefinitely.",
+        "Different algorithms are used for each."
+      ]
+    },
+    {
+      "id": 212,
+      "type": "true_false",
+      "difficulty": "advanced",
+      "category": "reinforcement_learning",
+      "question": "The policy gradient theorem provides a way to compute the gradient of the expected reward for policy-based methods.",
+      "correct_answer": "True",
+      "explanations": [
+        "It is the foundation of policy gradient algorithms.",
+        "It enables direct optimization of the policy.",
+        "It is used in REINFORCE and PPO."
+      ]
+    },
+    {
+      "id": 213,
+      "type": "multiple_choice",
+      "difficulty": "beginner",
+      "category": "ai_fundamentals",
+      "question": "What is the main advantage of neural networks over traditional machine learning algorithms?",
+      "options": [
+        "A) Their ability to learn complex patterns from large amounts of data",
+        "B) Their speed",
+        "C) Their simplicity",
+        "D) Their interpretability"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "Neural networks are universal function approximators.",
+        "They excel in domains with large data.",
+        "They can learn hierarchical features."
+      ]
+    },
+    {
+      "id": 214,
+      "type": "true_false",
+      "difficulty": "intermediate",
+      "category": "ai_fundamentals",
+      "question": "Gradient boosting is a technique that builds models sequentially, each correcting the errors of the previous one.",
+      "correct_answer": "True",
+      "explanations": [
+        "It is an ensemble method.",
+        "It is known for high performance.",
+        "Examples: XGBoost, LightGBM, CatBoost."
+      ]
+    },
+    {
+      "id": 215,
+      "type": "multiple_choice",
+      "difficulty": "advanced",
+      "category": "ai_fundamentals",
+      "question": "What is the difference between boosting and bagging?",
+      "options": [
+        "A) Boosting reduces bias; bagging reduces variance",
+        "B) Bagging reduces bias; boosting reduces variance",
+        "C) They are the same",
+        "D) Boosting is for regression; bagging is for classification"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "Boosting is sequential and focused on errors.",
+        "Bagging is parallel and averaged.",
+        "Both are ensemble methods."
+      ]
+    },
+    {
+      "id": 216,
+      "type": "true_false",
+      "difficulty": "advanced",
+      "category": "ai_fundamentals",
+      "question": "Stacking is an ensemble method that uses a meta-learner to combine predictions from multiple models.",
+      "correct_answer": "True",
+      "explanations": [
+        "Stacking is a powerful technique.",
+        "It can improve performance.",
+        "It is often used in machine learning competitions."
+      ]
+    },
+    {
+      "id": 217,
+      "type": "multiple_choice",
+      "difficulty": "intermediate",
+      "category": "machine_learning",
+      "question": "What is the purpose of principal component analysis (PCA)?",
+      "options": [
+        "A) To reduce the dimensionality of data while preserving variance",
+        "B) To increase the dimensionality of data",
+        "C) To classify the data",
+        "D) To cluster the data"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "PCA is an unsupervised technique.",
+        "It projects data onto principal components.",
+        "It is used for visualization and preprocessing."
+      ]
+    },
+    {
+      "id": 218,
+      "type": "true_false",
+      "difficulty": "intermediate",
+      "category": "machine_learning",
+      "question": "PCA is a linear dimensionality reduction technique.",
+      "correct_answer": "True",
+      "explanations": [
+        "PCA finds linear combinations of features.",
+        "It has non-linear extensions like kernel PCA.",
+        "It is the most common dimensionality reduction method."
+      ]
+    },
+    {
+      "id": 219,
+      "type": "multiple_choice",
+      "difficulty": "advanced",
+      "category": "machine_learning",
+      "question": "What is the difference between PCA and t-SNE?",
+      "options": [
+        "A) PCA is linear and preserves global structure; t-SNE is non-linear and preserves local structure",
+        "B) t-SNE is linear; PCA is non-linear",
+        "C) They are the same",
+        "D) PCA is for visualization; t-SNE is for preprocessing"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "PCA is deterministic.",
+        "t-SNE is stochastic.",
+        "t-SNE is used for visualization."
+      ]
+    },
+    {
+      "id": 220,
+      "type": "true_false",
+      "difficulty": "advanced",
+      "category": "machine_learning",
+      "question": "UMAP (Uniform Manifold Approximation and Projection) is another dimensionality reduction technique that is faster than t-SNE.",
+      "correct_answer": "True",
+      "explanations": [
+        "UMAP scales to large datasets.",
+        "It preserves more global structure.",
+        "It is gaining popularity."
+      ]
+    },
+    {
+      "id": 221,
+      "type": "multiple_choice",
+      "difficulty": "beginner",
+      "category": "nlp",
+      "question": "What is a language model used for?",
+      "options": [
+        "A) To generate text and understand language patterns",
+        "B) To model the grammar of a language",
+        "C) To translate languages",
+        "D) To recognize speech"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "Language models are the foundation of many NLP tasks.",
+        "They power chatbots and translation systems.",
+        "They are trained on large text corpora."
+      ]
+    },
+    {
+      "id": 222,
+      "type": "true_false",
+      "difficulty": "intermediate",
+      "category": "nlp",
+      "question": "A model can be 'few-shot' if it can learn from only a few examples.",
+      "correct_answer": "True",
+      "explanations": [
+        "Few-shot learning is an important capability.",
+        "It reduces the need for large datasets.",
+        "It is an emergent property of LLMs."
+      ]
+    },
+    {
+      "id": 223,
+      "type": "multiple_choice",
+      "difficulty": "advanced",
+      "category": "nlp",
+      "question": "What is the difference between a language model and a sentiment analysis model?",
+      "options": [
+        "A) A language model generates text; a sentiment analysis model predicts sentiment",
+        "B) A sentiment analysis model generates text; a language model predicts sentiment",
+        "C) They are the same",
+        "D) Language models are for English; sentiment analysis models are for other languages"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "Language models are general.",
+        "Sentiment analysis is a specific task.",
+        "Both use similar NLP techniques."
+      ]
+    },
+    {
+      "id": 224,
+      "type": "true_false",
+      "difficulty": "advanced",
+      "category": "nlp",
+      "question": "Bias in language models can be amplified through training data.",
+      "correct_answer": "True",
+      "explanations": [
+        "Bias is a major concern in LLMs.",
+        "It can result in discriminatory outputs.",
+        "Mitigation strategies are actively researched."
+      ]
+    },
+    {
+      "id": 225,
+      "type": "multiple_choice",
+      "difficulty": "intermediate",
+      "category": "computer_vision",
+      "question": "What is the purpose of a region proposal network (RPN) in object detection?",
+      "options": [
+        "A) To propose candidate object regions in the image",
+        "B) To propose regions for segmentation",
+        "C) To propose regions for classification",
+        "D) To propose regions for cropping"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "RPN is used in Faster R-CNN.",
+        "It generates bounding box proposals.",
+        "It is a key component of two-stage detectors."
+      ]
+    },
+    {
+      "id": 226,
+      "type": "true_false",
+      "difficulty": "intermediate",
+      "category": "computer_vision",
+      "question": "Two-stage object detectors (like Faster R-CNN) are generally more accurate but slower than one-stage detectors (like YOLO).",
+      "correct_answer": "True",
+      "explanations": [
+        "Two-stage detectors have a refinement step.",
+        "One-stage detectors are faster.",
+        "The tradeoff is between speed and accuracy."
+      ]
+    },
+    {
+      "id": 227,
+      "type": "multiple_choice",
+      "difficulty": "advanced",
+      "category": "computer_vision",
+      "question": "What is the difference between Faster R-CNN and YOLO?",
+      "options": [
+        "A) Faster R-CNN is a two-stage detector; YOLO is a one-stage detector",
+        "B) YOLO is a two-stage detector; Faster R-CNN is a one-stage detector",
+        "C) They are the same",
+        "D) Faster R-CNN is for images; YOLO is for videos"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "Faster R-CNN is more accurate.",
+        "YOLO is faster.",
+        "Both are state-of-the-art."
+      ]
+    },
+    {
+      "id": 228,
+      "type": "true_false",
+      "difficulty": "advanced",
+      "category": "computer_vision",
+      "question": "Intersection over Union (IoU) is a metric used to evaluate object detection models.",
+      "correct_answer": "True",
+      "explanations": [
+        "IoU measures overlap between predicted and ground-truth boxes.",
+        "A threshold (e.g., 0.5) is used to classify detections.",
+        "It is a standard evaluation metric."
+      ]
+    },
+    {
+      "id": 229,
+      "type": "multiple_choice",
+      "difficulty": "beginner",
+      "category": "generative_ai",
+      "question": "What is the purpose of a text-to-image model?",
+      "options": [
+        "A) To generate images from textual descriptions",
+        "B) To generate text from images",
+        "C) To translate between text and images",
+        "D) To describe images"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "Text-to-image models are a type of generative AI.",
+        "They are trained on paired image-text data.",
+        "They enable creative applications."
+      ]
+    },
+    {
+      "id": 230,
+      "type": "true_false",
+      "difficulty": "intermediate",
+      "category": "generative_ai",
+      "question": "Multimodal models can process and generate both text and images.",
+      "correct_answer": "True",
+      "explanations": [
+        "Multimodal models combine NLP and computer vision.",
+        "Examples: CLIP, DALL-E, and GPT-4.",
+        "They enable richer interaction."
+      ]
+    },
+    {
+      "id": 231,
+      "type": "multiple_choice",
+      "difficulty": "advanced",
+      "category": "generative_ai",
+      "question": "What is the difference between a text-to-image model and a text-to-text model?",
+      "options": [
+        "A) Text-to-image generates images; text-to-text generates text",
+        "B) Text-to-text generates images; text-to-image generates text",
+        "C) They are the same",
+        "D) Text-to-image is for English; text-to-text is for other languages"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "Text-to-image is a different modality.",
+        "Both are generative tasks.",
+        "They use different model architectures."
+      ]
+    },
+    {
+      "id": 232,
+      "type": "true_false",
+      "difficulty": "advanced",
+      "category": "generative_ai",
+      "question": "The latent space in a generative model is a low-dimensional representation space where similar concepts are close to each other.",
+      "correct_answer": "True",
+      "explanations": [
+        "Latent spaces enable interpolation.",
+        "They are used in VAEs and GANs.",
+        "They facilitate semantic editing."
+      ]
+    },
+    {
+      "id": 233,
+      "type": "multiple_choice",
+      "difficulty": "intermediate",
+      "category": "reinforcement_learning",
+      "question": "What is the purpose of the actor-critic architecture?",
+      "options": [
+        "A) To combine value-based and policy-based learning",
+        "B) To separate the actor from the critic",
+        "C) To act as a critic",
+        "D) To act as an actor"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "The actor learns the policy.",
+        "The critic learns the value function.",
+        "It reduces variance in policy gradients."
+      ]
+    },
+    {
+      "id": 234,
+      "type": "true_false",
+      "difficulty": "intermediate",
+      "category": "reinforcement_learning",
+      "question": "PPO (Proximal Policy Optimization) is a popular actor-critic algorithm known for its stability.",
+      "correct_answer": "True",
+      "explanations": [
+        "PPO is widely used in RL.",
+        "It clips policy updates.",
+        "It is used in many applications, including games."
+      ]
+    },
+    {
+      "id": 235,
+      "type": "multiple_choice",
+      "difficulty": "advanced",
+      "category": "reinforcement_learning",
+      "question": "What is the difference between TRPO and PPO?",
+      "options": [
+        "A) TRPO uses a trust region constraint; PPO uses a clipped objective",
+        "B) PPO uses a trust region constraint; TRPO uses a clipped objective",
+        "C) They are the same",
+        "D) TRPO is for continuous actions; PPO is for discrete actions"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "TRPO is more complex.",
+        "PPO is simpler and more popular.",
+        "Both are policy gradient methods."
+      ]
+    },
+    {
+      "id": 236,
+      "type": "true_false",
+      "difficulty": "advanced",
+      "category": "reinforcement_learning",
+      "question": "Multi-agent reinforcement learning (MARL) involves multiple agents learning and interacting in a shared environment.",
+      "correct_answer": "True",
+      "explanations": [
+        "MARL is used in games and robotics.",
+        "It involves cooperation and competition.",
+        "It is more complex than single-agent RL."
+      ]
+    },
+    {
+      "id": 237,
+      "type": "multiple_choice",
+      "difficulty": "beginner",
+      "category": "ai_fundamentals",
+      "question": "What is the difference between weak AI and strong AI?",
+      "options": [
+        "A) Weak AI is narrow; strong AI is general",
+        "B) Strong AI is narrow; weak AI is general",
+        "C) They are the same",
+        "D) Weak AI is for games; strong AI is for real-world"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "Weak AI (Narrow AI) is task-specific.",
+        "Strong AI (General AI) is human-like.",
+        "Strong AI remains theoretical."
+      ]
+    },
+    {
+      "id": 238,
+      "type": "true_false",
+      "difficulty": "intermediate",
+      "category": "ai_fundamentals",
+      "question": "AGI (Artificial General Intelligence) would be able to perform any intellectual task that a human can.",
+      "correct_answer": "True",
+      "explanations": [
+        "AGI is the ultimate goal of AI.",
+        "It would have transfer learning and reasoning.",
+        "It is a subject of debate and research."
+      ]
+    },
+    {
+      "id": 239,
+      "type": "multiple_choice",
+      "difficulty": "advanced",
+      "category": "ai_fundamentals",
+      "question": "What is the difference between symbol-based and connectionist AI?",
+      "options": [
+        "A) Symbol-based AI uses logical rules; connectionist AI uses neural networks",
+        "B) Connectionist AI uses logical rules; symbol-based AI uses neural networks",
+        "C) They are the same",
+        "D) Symbol-based is for expert systems; connectionist is for deep learning"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "Symbol-based AI is classical.",
+        "Connectionist AI is modern.",
+        "They represent different paradigms."
+      ]
+    },
+    {
+      "id": 240,
+      "type": "true_false",
+      "difficulty": "advanced",
+      "category": "ai_fundamentals",
+      "question": "Neurosymbolic AI combines neural networks with symbolic reasoning.",
+      "correct_answer": "True",
+      "explanations": [
+        "It aims to get the best of both worlds.",
+        "It is a promising research direction.",
+        "It enables reasoning and learning."
+      ]
+    },
+    {
+      "id": 241,
+      "type": "multiple_choice",
+      "difficulty": "intermediate",
+      "category": "machine_learning",
+      "question": "What is the purpose of the loss landscape in deep learning?",
+      "options": [
+        "A) To visualize the loss function over parameter space",
+        "B) To lose the landscape",
+        "C) To find the optimal parameters",
+        "D) To landscape the loss"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "The loss landscape affects optimization.",
+        "It can have local minima and saddle points.",
+        "Understanding it helps in designing optimizers."
+      ]
+    },
+    {
+      "id": 242,
+      "type": "true_false",
+      "difficulty": "advanced",
+      "category": "machine_learning",
+      "question": "The loss landscape of deep neural networks is often surprisingly smooth, with many local minima being of similar quality.",
+      "correct_answer": "True",
+      "explanations": [
+        "This is a recent finding.",
+        "It helps explain the success of SGD.",
+        "It is an active area of research."
+      ]
+    },
+    {
+      "id": 243,
+      "type": "multiple_choice",
+      "difficulty": "intermediate",
+      "category": "nlp",
+      "question": "What is a corpus in NLP?",
+      "options": [
+        "A) A large collection of texts used for training and analysis",
+        "B) A type of neural network",
+        "C) A database system",
+        "D) A programming language"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "Corpora are the foundation of NLP.",
+        "They are used for training and evaluation.",
+        "They can be general or domain-specific."
+      ]
+    },
+    {
+      "id": 244,
+      "type": "true_false",
+      "difficulty": "advanced",
+      "category": "nlp",
+      "question": "Data leakage in NLP can occur when information from the test set influences the training process.",
+      "correct_answer": "True",
+      "explanations": [
+        "Data leakage leads to overoptimistic results.",
+        "It is a critical issue to avoid.",
+        "It often happens during preprocessing."
+      ]
+    },
+    {
+      "id": 245,
+      "type": "multiple_choice",
+      "difficulty": "advanced",
+      "category": "nlp",
+      "question": "What is the difference between a tokenizer and a model in NLP?",
+      "options": [
+        "A) A tokenizer preprocesses text into tokens; a model makes predictions from tokens",
+        "B) A model preprocesses text; a tokenizer makes predictions",
+        "C) They are the same",
+        "D) Tokenizers are for training; models are for inference"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "Tokenization is a preprocessing step.",
+        "The model uses the tokenized input.",
+        "Both are necessary components."
+      ]
+    },
+    {
+      "id": 246,
+      "type": "true_false",
+      "difficulty": "advanced",
+      "category": "nlp",
+      "question": "The architecture of an LLM includes embedding layers, transformer blocks, and output layers.",
+      "correct_answer": "True",
+      "explanations": [
+        "Embedding layers convert tokens to vectors.",
+        "Transformer blocks process the vectors.",
+        "Output layers generate the final predictions."
+      ]
+    },
+    {
+      "id": 247,
+      "type": "multiple_choice",
+      "difficulty": "intermediate",
+      "category": "computer_vision",
+      "question": "What is the purpose of a classification layer in a CNN?",
+      "options": [
+        "A) To output class probabilities for the input image",
+        "B) To classify the features",
+        "C) To classify the layers",
+        "D) To classify the neurons"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "The classification layer is the output layer.",
+        "It uses softmax for multi-class.",
+        "It produces the final prediction."
+      ]
+    },
+    {
+      "id": 248,
+      "type": "true_false",
+      "difficulty": "intermediate",
+      "category": "computer_vision",
+      "question": "Fine-tuning a pre-trained CNN is a common practice when you have a small dataset.",
+      "correct_answer": "True",
+      "explanations": [
+        "It uses features learned from a large dataset.",
+        "It is more efficient than training from scratch.",
+        "It is a standard transfer learning technique."
+      ]
+    },
+    {
+      "id": 249,
+      "type": "multiple_choice",
+      "difficulty": "advanced",
+      "category": "computer_vision",
+      "question": "What is the difference between feature extraction and fine-tuning in transfer learning?",
+      "options": [
+        "A) Feature extraction uses the CNN as a fixed feature extractor; fine-tuning updates the CNN weights",
+        "B) Fine-tuning uses the CNN as a fixed feature extractor; feature extraction updates weights",
+        "C) They are the same",
+        "D) Feature extraction is for images; fine-tuning is for video"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "Feature extraction is faster.",
+        "Fine-tuning can give better results.",
+        "Both are valid transfer learning strategies."
+      ]
+    },
+    {
+      "id": 250,
+      "type": "true_false",
+      "difficulty": "advanced",
+      "category": "computer_vision",
+      "question": "Adversarial examples are inputs designed to fool a model into making a wrong prediction.",
+      "correct_answer": "True",
+      "explanations": [
+        "They are a security concern.",
+        "They can be generated by adding small perturbations.",
+        "They highlight the vulnerabilities of deep learning."
+      ]
+    },
+    {
+      "id": 251,
+      "type": "multiple_choice",
+      "difficulty": "intermediate",
+      "category": "generative_ai",
+      "question": "What is the purpose of the CLIP model?",
+      "options": [
+        "A) To learn visual concepts from natural language descriptions",
+        "B) To clip images",
+        "C) To classify images",
+        "D) To generate images"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "CLIP is a multimodal model.",
+        "It connects text and images.",
+        "It is used in many applications."
+      ]
+    },
+    {
+      "id": 252,
+      "type": "true_false",
+      "difficulty": "intermediate",
+      "category": "generative_ai",
+      "question": "CLIP can be used for zero-shot image classification.",
+      "correct_answer": "True",
+      "explanations": [
+        "It can classify images into categories not seen during training.",
+        "It uses the text encoder to describe categories.",
+        "It is a powerful capability."
+      ]
+    },
+    {
+      "id": 253,
+      "type": "multiple_choice",
+      "difficulty": "advanced",
+      "category": "generative_ai",
+      "question": "What is the difference between CLIP and DALL-E?",
+      "options": [
+        "A) CLIP is a model for understanding; DALL-E is a model for generating",
+        "B) DALL-E is for understanding; CLIP is for generating",
+        "C) They are the same",
+        "D) CLIP is for text; DALL-E is for images"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "CLIP is a contrastive model.",
+        "DALL-E is a generative model.",
+        "Both are developed by OpenAI."
+      ]
+    },
+    {
+      "id": 254,
+      "type": "true_false",
+      "difficulty": "advanced",
+      "category": "generative_ai",
+      "question": "RAG (Retrieval-Augmented Generation) combines LLMs with retrieval systems to improve factuality.",
+      "correct_answer": "True",
+      "explanations": [
+        "RAG reduces hallucinations.",
+        "It retrieves relevant documents.",
+        "It is used in question-answering systems."
+      ]
+    },
+    {
+      "id": 255,
+      "type": "multiple_choice",
+      "difficulty": "intermediate",
+      "category": "reinforcement_learning",
+      "question": "What is the purpose of a simulation environment in RL?",
+      "options": [
+        "A) To provide a safe and controllable environment for training agents",
+        "B) To simulate real-world scenarios",
+        "C) To simulate the agent",
+        "D) To simulate the rewards"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "Simulations speed up training.",
+        "They allow for safe experimentation.",
+        "They are used in robotics and games."
+      ]
+    },
+    {
+      "id": 256,
+      "type": "true_false",
+      "difficulty": "intermediate",
+      "category": "reinforcement_learning",
+      "question": "The OpenAI Gym is a popular toolkit for developing and comparing reinforcement learning algorithms.",
+      "correct_answer": "True",
+      "explanations": [
+        "It provides a wide range of environments.",
+        "It is standard in RL research.",
+        "It includes classic control and Atari games."
+      ]
+    },
+    {
+      "id": 257,
+      "type": "multiple_choice",
+      "difficulty": "advanced",
+      "category": "reinforcement_learning",
+      "question": "What is the difference between a model-based and model-free RL approach?",
+      "options": [
+        "A) Model-based uses a predictive model of the environment; model-free directly learns from experience",
+        "B) Model-free uses a predictive model; model-based learns from experience",
+        "C) They are the same",
+        "D) Model-based is for planning; model-free is for learning"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "Model-based is more sample-efficient.",
+        "Model-free is simpler.",
+        "Both have their advantages."
+      ]
+    },
+    {
+      "id": 258,
+      "type": "true_false",
+      "difficulty": "advanced",
+      "category": "reinforcement_learning",
+      "question": "The Dyna architecture integrates learning, planning, and acting in a unified framework.",
+      "correct_answer": "True",
+      "explanations": [
+        "Dyna uses a learned model.",
+        "It improves sample efficiency.",
+        "It was introduced by Rich Sutton."
+      ]
+    },
+    {
+      "id": 259,
+      "type": "multiple_choice",
+      "difficulty": "beginner",
+      "category": "ai_ethics",
+      "question": "What is the purpose of responsible AI?",
+      "options": [
+        "A) To ensure AI systems are developed and used ethically and responsibly",
+        "B) To make AI systems more powerful",
+        "C) To make AI systems faster",
+        "D) To make AI systems cheaper"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "Responsible AI includes fairness, transparency, and accountability.",
+        "It builds trust with users.",
+        "It is increasingly important in AI development."
+      ]
+    },
+    {
+      "id": 260,
+      "type": "true_false",
+      "difficulty": "intermediate",
+      "category": "ai_ethics",
+      "question": "AI literacy is important for people to understand AI's capabilities and limitations.",
+      "correct_answer": "True",
+      "explanations": [
+        "AI literacy is a growing need.",
+        "It helps people interact with AI systems.",
+        "It is important for ethical use."
+      ]
+    },
+    {
+      "id": 261,
+      "type": "multiple_choice",
+      "difficulty": "advanced",
+      "category": "ai_ethics",
+      "question": "What is the difference between AI governance and AI ethics?",
+      "options": [
+        "A) AI governance refers to policies and regulations; AI ethics refers to moral principles",
+        "B) AI ethics refers to policies; AI governance refers to moral principles",
+        "C) They are the same",
+        "D) AI governance is for companies; AI ethics is for governments"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "Governance provides a framework.",
+        "Ethics provides guidance.",
+        "Both are necessary for responsible AI."
+      ]
+    },
+    {
+      "id": 262,
+      "type": "true_false",
+      "difficulty": "advanced",
+      "category": "ai_ethics",
+      "question": "The precautionary principle suggests that if an action or policy has a suspected risk of causing harm, it should be avoided.",
+      "correct_answer": "True",
+      "explanations": [
+        "It is applied in AI ethics.",
+        "It emphasizes safety.",
+        "It is a conservative approach."
+      ]
+    },
+    {
+      "id": 263,
+      "type": "multiple_choice",
+      "difficulty": "intermediate",
+      "category": "mlops",
+      "question": "What is the purpose of experiment tracking?",
+      "options": [
+        "A) To log and compare different model training runs and their configurations",
+        "B) To track experiments in a lab",
+        "C) To track data experiments",
+        "D) To track code experiments"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "Experiment tracking ensures reproducibility.",
+        "It helps in hyperparameter tuning.",
+        "Examples: MLflow, Weights & Biases."
+      ]
+    },
+    {
+      "id": 264,
+      "type": "true_false",
+      "difficulty": "intermediate",
+      "category": "mlops",
+      "question": "Hyperparameter tuning can be automated using tools like Optuna or Hyperopt.",
+      "correct_answer": "True",
+      "explanations": [
+        "Automated tuning saves time.",
+        "It can find better configurations.",
+        "It is a part of the MLOps workflow."
+      ]
+    },
+    {
+      "id": 265,
+      "type": "multiple_choice",
+      "difficulty": "advanced",
+      "category": "mlops",
+      "question": "What is the difference between hyperparameter tuning and model training?",
+      "options": [
+        "A) Hyperparameter tuning finds the best configuration; model training learns the parameters",
+        "B) Model training finds the best configuration; hyperparameter tuning learns parameters",
+        "C) They are the same",
+        "D) Hyperparameter tuning is for neural networks; model training is for other models"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "Hyperparameters are set before training.",
+        "Model parameters are learned during training.",
+        "Both are important for model performance."
+      ]
+    },
+    {
+      "id": 266,
+      "type": "true_false",
+      "difficulty": "advanced",
+      "category": "mlops",
+      "question": "Bayesian optimization is an advanced method for hyperparameter tuning.",
+      "correct_answer": "True",
+      "explanations": [
+        "It is more efficient than grid search.",
+        "It builds a probabilistic model.",
+        "It is used in many automated ML tools."
+      ]
+    },
+    {
+      "id": 267,
+      "type": "multiple_choice",
+      "difficulty": "beginner",
+      "category": "machine_learning",
+      "question": "What is the purpose of a feature in machine learning?",
+      "options": [
+        "A) To represent an input variable used by the model",
+        "B) To feature the data",
+        "C) To feature the model",
+        "D) To feature the output"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "Features are the inputs to the model.",
+        "They can be numeric, categorical, or text.",
+        "They are the basis of prediction."
+      ]
+    },
+    {
+      "id": 268,
+      "type": "true_false",
+      "difficulty": "intermediate",
+      "category": "machine_learning",
+      "question": "Feature scaling is important for algorithms that use distance measures, like k-means and SVMs.",
+      "correct_answer": "True",
+      "explanations": [
+        "Scaling ensures features are on a similar scale.",
+        "It prevents features with larger ranges from dominating.",
+        "It is a preprocessing step."
+      ]
+    },
+    {
+      "id": 269,
+      "type": "multiple_choice",
+      "difficulty": "advanced",
+      "category": "machine_learning",
+      "question": "What is the difference between feature selection and feature extraction?",
+      "options": [
+        "A) Feature selection chooses a subset of features; feature extraction creates new features",
+        "B) Feature extraction chooses a subset; feature selection creates new features",
+        "C) They are the same",
+        "D) Feature selection is for supervised learning; feature extraction is for unsupervised learning"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "Feature selection reduces dimensionality.",
+        "Feature extraction transforms data.",
+        "Both are used to simplify models."
+      ]
+    },
+    {
+      "id": 270,
+      "type": "true_false",
+      "difficulty": "advanced",
+      "category": "machine_learning",
+      "question": "Lasso regression can be used for feature selection because it drives some coefficients to zero.",
+      "correct_answer": "True",
+      "explanations": [
+        "Lasso uses L1 regularization.",
+        "It performs automatic feature selection.",
+        "It is useful for high-dimensional data."
+      ]
+    },
+    {
+      "id": 271,
+      "type": "multiple_choice",
+      "difficulty": "intermediate",
+      "category": "nlp",
+      "question": "What is the purpose of the BERT model?",
+      "options": [
+        "A) To pre-train deep bidirectional representations for language understanding",
+        "B) To generate text",
+        "C) To translate languages",
+        "D) To classify images"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "BERT is a transformer-based encoder.",
+        "It is trained on masked language modeling.",
+        "It has achieved state-of-the-art in many NLP tasks."
+      ]
+    },
+    {
+      "id": 272,
+      "type": "true_false",
+      "difficulty": "intermediate",
+      "category": "nlp",
+      "question": "BERT is a unidirectional model.",
+      "correct_answer": "False",
+      "explanations": [
+        "BERT is bidirectional.",
+        "It considers context from both directions.",
+        "This is a key feature of its architecture."
+      ]
+    },
+    {
+      "id": 273,
+      "type": "multiple_choice",
+      "difficulty": "advanced",
+      "category": "nlp",
+      "question": "What is the difference between BERT and GPT?",
+      "options": [
+        "A) BERT is an encoder; GPT is a decoder",
+        "B) GPT is an encoder; BERT is a decoder",
+        "C) They are the same",
+        "D) BERT is for understanding; GPT is for generation"
+      ],
+      "correct_answer": "D",
+      "explanations": [
+        "BERT uses a bidirectional transformer.",
+        "GPT uses a unidirectional transformer.",
+        "They are used for different tasks."
+      ]
+    },
+    {
+      "id": 274,
+      "type": "true_false",
+      "difficulty": "advanced",
+      "category": "nlp",
+      "question": "The T5 (Text-to-Text Transfer Transformer) model treats every NLP task as a text-to-text problem.",
+      "correct_answer": "True",
+      "explanations": [
+        "T5 unifies tasks under a single framework.",
+        "It is a versatile model.",
+        "It uses a transformer architecture."
+      ]
+    },
+    {
+      "id": 275,
+      "type": "multiple_choice",
+      "difficulty": "intermediate",
+      "category": "computer_vision",
+      "question": "What is the purpose of data augmentation in computer vision?",
+      "options": [
+        "A) To artificially increase the size and diversity of the training dataset",
+        "B) To augment the data with new features",
+        "C) To augment the model",
+        "D) To augment the loss"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "Augmentation helps prevent overfitting.",
+        "It makes the model more robust.",
+        "It is a standard practice."
+      ]
+    },
+    {
+      "id": 276,
+      "type": "true_false",
+      "difficulty": "intermediate",
+      "category": "computer_vision",
+      "question": "Mixup is a data augmentation technique that combines pairs of images and their labels.",
+      "correct_answer": "True",
+      "explanations": [
+        "Mixup creates linear interpolations.",
+        "It improves generalization.",
+        "It is a popular augmentation method."
+      ]
+    },
+    {
+      "id": 277,
+      "type": "multiple_choice",
+      "difficulty": "advanced",
+      "category": "computer_vision",
+      "question": "What is the difference between cutout and cutmix augmentation?",
+      "options": [
+        "A) Cutout masks out a region; cutmix replaces it with a region from another image",
+        "B) Cutmix masks out a region; cutout replaces it",
+        "C) They are the same",
+        "D) Cutout is for training; cutmix is for testing"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "Cutout improves robustness.",
+        "Cutmix combines features.",
+        "Both are effective regularization techniques."
+      ]
+    },
+    {
+      "id": 278,
+      "type": "true_false",
+      "difficulty": "advanced",
+      "category": "computer_vision",
+      "question": "Self-supervised learning in computer vision uses the structure of the data itself as the supervisory signal.",
+      "correct_answer": "True",
+      "explanations": [
+        "It does not require labels.",
+        "It learns from unlabeled data.",
+        "It is an active area of research."
+      ]
+    },
+    {
+      "id": 279,
+      "type": "multiple_choice",
+      "difficulty": "beginner",
+      "category": "generative_ai",
+      "question": "What is the purpose of an AI art generator?",
+      "options": [
+        "A) To create art using artificial intelligence",
+        "B) To generate AI algorithms",
+        "C) To generate art for AI",
+        "D) To create AI for art"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "AI art generators use generative models.",
+        "They can create unique and creative images.",
+        "They are popular for digital art."
+      ]
+    },
+    {
+      "id": 280,
+      "type": "true_false",
+      "difficulty": "intermediate",
+      "category": "generative_ai",
+      "question": "AI art generators can be used for commercial purposes, but copyright issues are complex.",
+      "correct_answer": "True",
+      "explanations": [
+        "Copyright is a legal gray area.",
+        "It depends on the jurisdiction.",
+        "It is an evolving issue."
+      ]
+    },
+    {
+      "id": 281,
+      "type": "multiple_choice",
+      "difficulty": "advanced",
+      "category": "generative_ai",
+      "question": "What is the difference between a generative model and a discriminative model?",
+      "options": [
+        "A) Generative models model the joint probability; discriminative models model the conditional probability",
+        "B) Discriminative models model the joint probability; generative models model the conditional probability",
+        "C) They are the same",
+        "D) Generative models are for generation; discriminative models are for classification"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "Generative models can sample new data.",
+        "Discriminative models are better at classification.",
+        "Both are fundamental ML concepts."
+      ]
+    },
+    {
+      "id": 282,
+      "type": "true_false",
+      "difficulty": "advanced",
+      "category": "generative_ai",
+      "question": "A generative model can be used to detect anomalies by estimating the likelihood of data.",
+      "correct_answer": "True",
+      "explanations": [
+        "Anomalies have low likelihood.",
+        "It is an application of generative models.",
+        "It is used in fraud detection."
+      ]
+    },
+    {
+      "id": 283,
+      "type": "multiple_choice",
+      "difficulty": "intermediate",
+      "category": "reinforcement_learning",
+      "question": "What is the purpose of a reward in RL?",
+      "options": [
+        "A) To define the goal of the agent and guide its learning",
+        "B) To reward the agent",
+        "C) To reward the environment",
+        "D) To reward the policy"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "Rewards are the feedback signal.",
+        "They define the objective.",
+        "The agent aims to maximize cumulative reward."
+      ]
+    },
+    {
+      "id": 284,
+      "type": "true_false",
+      "difficulty": "intermediate",
+      "category": "reinforcement_learning",
+      "question": "Sparse rewards in RL make learning more challenging because feedback is infrequent.",
+      "correct_answer": "True",
+      "explanations": [
+        "Sparse rewards require more exploration.",
+        "They can be addressed with reward shaping.",
+        "They are common in real-world tasks."
+      ]
+    },
+    {
+      "id": 285,
+      "type": "multiple_choice",
+      "difficulty": "advanced",
+      "category": "reinforcement_learning",
+      "question": "What is the difference between shaping rewards and dense rewards?",
+      "options": [
+        "A) Shaping rewards are designed to guide learning; dense rewards are frequent feedback",
+        "B) Dense rewards are designed to guide learning; shaping rewards are frequent",
+        "C) They are the same",
+        "D) Shaping is for training; dense is for testing"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "Reward shaping is a technique.",
+        "Dense rewards can be easier to learn from.",
+        "Both are used in RL."
+      ]
+    },
+    {
+      "id": 286,
+      "type": "true_false",
+      "difficulty": "advanced",
+      "category": "reinforcement_learning",
+      "question": "Inverse reinforcement learning is the task of inferring the reward function from observed behavior.",
+      "correct_answer": "True",
+      "explanations": [
+        "It is used to learn from demonstrations.",
+        "It is a form of imitation learning.",
+        "It is a challenging problem."
+      ]
+    },
+    {
+      "id": 287,
+      "type": "multiple_choice",
+      "difficulty": "beginner",
+      "category": "ai_fundamentals",
+      "question": "What is the purpose of a benchmark in AI?",
+      "options": [
+        "A) To evaluate and compare different AI models or algorithms on standardized tasks",
+        "B) To benchmark the hardware",
+        "C) To benchmark the data",
+        "D) To benchmark the code"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "Benchmarks drive progress in AI.",
+        "They provide a common ground for comparison.",
+        "Examples: ImageNet, GLUE, SuperGLUE."
+      ]
+    },
+    {
+      "id": 288,
+      "type": "true_false",
+      "difficulty": "intermediate",
+      "category": "ai_fundamentals",
+      "question": "Benchmark datasets should be representative of real-world data to be meaningful.",
+      "correct_answer": "True",
+      "explanations": [
+        "Representative datasets lead to better generalization.",
+        "They help avoid biases.",
+        "They are crucial for practical AI."
+      ]
+    },
+    {
+      "id": 289,
+      "type": "multiple_choice",
+      "difficulty": "advanced",
+      "category": "ai_fundamentals",
+      "question": "What is the difference between a benchmark and a challenge in AI?",
+      "options": [
+        "A) A benchmark is a standard test; a challenge is a competition with a specific goal",
+        "B) A challenge is a standard test; a benchmark is a competition",
+        "C) They are the same",
+        "D) Benchmarks are for models; challenges are for researchers"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "Benchmarks are for evaluation.",
+        "Challenges often have prizes.",
+        "Both drive innovation."
+      ]
+    },
+    {
+      "id": 290,
+      "type": "true_false",
+      "difficulty": "advanced",
+      "category": "ai_fundamentals",
+      "question": "The No Free Lunch theorem states that no single algorithm works best for all problems.",
+      "correct_answer": "True",
+      "explanations": [
+        "It is a fundamental theorem in ML.",
+        "It emphasizes the importance of problem-specific choices.",
+        "It applies to optimization and search."
+      ]
+    },
+    {
+      "id": 291,
+      "type": "multiple_choice",
+      "difficulty": "intermediate",
+      "category": "machine_learning",
+      "question": "What is the purpose of the recall metric?",
+      "options": [
+        "A) To measure the proportion of actual positives correctly identified",
+        "B) To measure the proportion of predicted positives that are correct",
+        "C) To measure the overall accuracy",
+        "D) To measure the F1 score"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "Recall is also called sensitivity.",
+        "It is important when false negatives are costly.",
+        "It is used with precision for a balanced view."
+      ]
+    },
+    {
+      "id": 292,
+      "type": "true_false",
+      "difficulty": "intermediate",
+      "category": "machine_learning",
+      "question": "Precision and recall are inversely related in many classifiers.",
+      "correct_answer": "True",
+      "explanations": [
+        "There is a trade-off between them.",
+        "Improving one can degrade the other.",
+        "The F1 score balances them."
+      ]
+    },
+    {
+      "id": 293,
+      "type": "multiple_choice",
+      "difficulty": "advanced",
+      "category": "machine_learning",
+      "question": "What is the difference between a ROC curve and a precision-recall curve?",
+      "options": [
+        "A) ROC curves are for balanced datasets; precision-recall curves are for imbalanced datasets",
+        "B) Precision-recall curves are for balanced datasets; ROC curves are for imbalanced datasets",
+        "C) They are the same",
+        "D) ROC is for binary classification; precision-recall is for multi-class"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "ROC curves are optimistic for imbalanced data.",
+        "Precision-recall curves are more informative.",
+        "Both are used for model evaluation."
+      ]
+    },
+    {
+      "id": 294,
+      "type": "true_false",
+      "difficulty": "advanced",
+      "category": "machine_learning",
+      "question": "The AUC-ROC score ranges from 0 to 1, with 1 being perfect classification.",
+      "correct_answer": "True",
+      "explanations": [
+        "AUC of 0.5 indicates random performance.",
+        "It is threshold-independent.",
+        "It is a popular evaluation metric."
+      ]
+    },
+    {
+      "id": 295,
+      "type": "multiple_choice",
+      "difficulty": "beginner",
+      "category": "nlp",
+      "question": "What is the purpose of text summarization?",
+      "options": [
+        "A) To create a shorter version of a text while preserving its meaning",
+        "B) To summarize the text",
+        "C) To summarize the model",
+        "D) To summarize the data"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "Summarization is a common NLP task.",
+        "It can be extractive or abstractive.",
+        "It is useful for information retrieval."
+      ]
+    },
+    {
+      "id": 296,
+      "type": "true_false",
+      "difficulty": "intermediate",
+      "category": "nlp",
+      "question": "Extractive summarization selects important sentences from the text; abstractive summarization generates new sentences.",
+      "correct_answer": "True",
+      "explanations": [
+        "Abstractive summarization is more complex.",
+        "It can generate novel text.",
+        "LLMs have improved abstractive summarization."
+      ]
+    },
+    {
+      "id": 297,
+      "type": "multiple_choice",
+      "difficulty": "advanced",
+      "category": "nlp",
+      "question": "What is the difference between extractive and abstractive summarization?",
+      "options": [
+        "A) Extractive uses existing sentences; abstractive generates new ones",
+        "B) Abstractive uses existing sentences; extractive generates new ones",
+        "C) They are the same",
+        "D) Extractive is for short texts; abstractive is for long texts"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "Extractive is more straightforward.",
+        "Abstractive requires deeper understanding.",
+        "Both have their use cases."
+      ]
+    },
+    {
+      "id": 298,
+      "type": "true_false",
+      "difficulty": "advanced",
+      "category": "nlp",
+      "question": "The ROUGE metric is commonly used to evaluate the quality of summaries.",
+      "correct_answer": "True",
+      "explanations": [
+        "ROUGE measures overlap with reference summaries.",
+        "There are different variants: ROUGE-1, ROUGE-2, ROUGE-L.",
+        "It is a standard evaluation metric."
+      ]
+    },
+    {
+      "id": 299,
+      "type": "multiple_choice",
+      "difficulty": "intermediate",
+      "category": "computer_vision",
+      "question": "What is the purpose of optical flow in computer vision?",
+      "options": [
+        "A) To estimate the motion of objects between consecutive frames",
+        "B) To flow the optical data",
+        "C) To process optical data",
+        "D) To calculate optical density"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "Optical flow is used in video analysis.",
+        "It is used for motion tracking.",
+        "It is a fundamental computer vision problem."
+      ]
+    },
+    {
+      "id": 300,
+      "type": "true_false",
+      "difficulty": "advanced",
+      "category": "computer_vision",
+      "question": "Optical flow estimation is an ill-posed problem, requiring additional constraints to solve.",
+      "correct_answer": "True",
+      "explanations": [
+        "It is a classic computer vision problem.",
+        "It is often solved using optimization.",
+        "Deep learning has improved flow estimation."
+      ]
+    }
+  ]
+]

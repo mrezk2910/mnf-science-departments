@@ -1,0 +1,4884 @@
+[
+  [
+    {
+      "id": 1,
+      "type": "multiple_choice",
+      "difficulty": "beginner",
+      "category": "html_fundamentals",
+      "question": "What does HTML stand for?",
+      "options": [
+        "A) Hyper Text Markup Language",
+        "B) High Tech Modern Language",
+        "C) Hyper Transfer Markup Language",
+        "D) High-level Text Management Language"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "HTML is the standard markup language for creating web pages.",
+        "It describes the structure of a web page using a system of tags and attributes.",
+        "It is the foundation of all web development."
+      ]
+    },
+    {
+      "id": 2,
+      "type": "multiple_choice",
+      "difficulty": "beginner",
+      "category": "html_fundamentals",
+      "question": "Which HTML tag is used to define a hyperlink?",
+      "options": [
+        "A) <a>",
+        "B) <link>",
+        "C) <href>",
+        "D) <url>"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "The <a> tag defines a hyperlink, which is used to link from one page to another.",
+        "The href attribute specifies the destination address.",
+        "The <link> tag is used to define relationships between a document and external resources, like stylesheets."
+      ]
+    },
+    {
+      "id": 3,
+      "type": "true_false",
+      "difficulty": "beginner",
+      "category": "html_fundamentals",
+      "question": "The <div> element is a semantic HTML element.",
+      "correct_answer": "False",
+      "explanations": [
+        "<div> is a generic container and does not convey any semantic meaning about its content.",
+        "Semantic elements like <article>, <section>, and <header> describe their purpose.",
+        "Using semantic HTML is important for accessibility and SEO."
+      ]
+    },
+    {
+      "id": 4,
+      "type": "multiple_choice",
+      "difficulty": "intermediate",
+      "category": "html_fundamentals",
+      "question": "Which attribute is used to specify the character encoding for an HTML document?",
+      "options": [
+        "A) charset",
+        "B) encoding",
+        "C) content-type",
+        "D) language"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "The <meta charset=\"UTF-8\"> tag specifies the character encoding.",
+        "It ensures the browser displays text correctly.",
+        "UTF-8 is the most widely used character encoding."
+      ]
+    },
+    {
+      "id": 5,
+      "type": "multiple_choice",
+      "difficulty": "intermediate",
+      "category": "html_fundamentals",
+      "question": "What is the purpose of the `alt` attribute in an `<img>` tag?",
+      "options": [
+        "A) To provide alternative text for screen readers and when the image fails to load",
+        "B) To specify the image's source",
+        "C) To define the image's height and width",
+        "D) To add a tooltip"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "Alt text provides a text alternative for users who cannot see the image.",
+        "It is essential for accessibility and also helps with SEO.",
+        "The `src` attribute specifies the image source."
+      ]
+    },
+    {
+      "id": 6,
+      "type": "true_false",
+      "difficulty": "beginner",
+      "category": "html_fundamentals",
+      "question": "The `<header>` tag can be used multiple times in a single HTML document.",
+      "correct_answer": "True",
+      "explanations": [
+        "A <header> element typically contains introductory content or navigation.",
+        "It can be used in multiple sections of a page, like a page-wide header and a section-specific header.",
+        "It is a semantic element that improves document structure."
+      ]
+    },
+    {
+      "id": 7,
+      "type": "multiple_choice",
+      "difficulty": "beginner",
+      "category": "css_fundamentals",
+      "question": "Which CSS property is used to change the background color of an element?",
+      "options": [
+        "A) background-color",
+        "B) color",
+        "C) bgcolor",
+        "D) background"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "The `background-color` property sets the background color of an element.",
+        "The `color` property sets the text color.",
+        "`background` is a shorthand property for multiple background-related properties."
+      ]
+    },
+    {
+      "id": 8,
+      "type": "multiple_choice",
+      "difficulty": "beginner",
+      "category": "css_fundamentals",
+      "question": "What is the correct CSS syntax for selecting elements with a class of 'container'?",
+      "options": [
+        "A) .container",
+        "B) #container",
+        "C) container",
+        "D) *container"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "In CSS, a dot (.) is used to select elements by their class attribute.",
+        "A hash (#) is used to select elements by their id attribute.",
+        "Class selectors are used for styling groups of elements."
+      ]
+    },
+    {
+      "id": 9,
+      "type": "true_false",
+      "difficulty": "intermediate",
+      "category": "css_fundamentals",
+      "question": "The CSS Box Model includes content, padding, border, and margin.",
+      "correct_answer": "True",
+      "explanations": [
+        "The Box Model describes the space occupied by an element.",
+        "It consists of the content, padding (space inside the border), border, and margin (space outside the border).",
+        "Understanding it is crucial for layout and sizing."
+      ]
+    },
+    {
+      "id": 10,
+      "type": "multiple_choice",
+      "difficulty": "intermediate",
+      "category": "css_fundamentals",
+      "question": "What does `box-sizing: border-box;` do?",
+      "options": [
+        "A) It includes padding and border in the element's total width and height",
+        "B) It excludes padding and border from the element's total width and height",
+        "C) It adds a border around the element",
+        "D) It sets the box size to the content size"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "`box-sizing: border-box;` makes the element's width and height include the padding and border.",
+        "This makes sizing more predictable and is a widely used best practice.",
+        "It prevents layout issues when adding padding or borders."
+      ]
+    },
+    {
+      "id": 11,
+      "type": "multiple_choice",
+      "difficulty": "advanced",
+      "category": "css_fundamentals",
+      "question": "What is the difference between `display: none;` and `visibility: hidden;`?",
+      "options": [
+        "A) `display: none;` removes the element from the document flow; `visibility: hidden;` hides the element but it still takes up space",
+        "B) `display: none;` hides the element but it still takes up space; `visibility: hidden;` removes it from the flow",
+        "C) They are functionally identical",
+        "D) `visibility: hidden;` is for tables only"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "`display: none;` removes the element entirely from the layout.",
+        "`visibility: hidden;` makes the element invisible, but its space is still reserved in the layout.",
+        "This distinction is important for controlling layout and animation."
+      ]
+    },
+    {
+      "id": 12,
+      "type": "true_false",
+      "difficulty": "beginner",
+      "category": "css_fundamentals",
+      "question": "Flexbox is a layout model designed for one-dimensional layouts.",
+      "correct_answer": "True",
+      "explanations": [
+        "Flexbox (Flexible Box Layout) is a CSS layout model that aligns and distributes space among items in a container.",
+        "It is ideal for one-dimensional layouts, such as rows or columns.",
+        "CSS Grid is more suitable for two-dimensional layouts."
+      ]
+    },
+    {
+      "id": 13,
+      "type": "multiple_choice",
+      "difficulty": "intermediate",
+      "category": "css_fundamentals",
+      "question": "Which CSS property is used to center a flex item both horizontally and vertically?",
+      "options": [
+        "A) justify-content: center; align-items: center;",
+        "B) text-align: center; vertical-align: middle;",
+        "C) align-items: center;",
+        "D) justify-items: center;"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "`justify-content` aligns items along the main axis (horizontally by default).",
+        "`align-items` aligns items along the cross axis (vertically by default).",
+        "Using both with the value `center` will center the item."
+      ]
+    },
+    {
+      "id": 14,
+      "type": "multiple_choice",
+      "difficulty": "advanced",
+      "category": "css_fundamentals",
+      "question": "What is specificity in CSS?",
+      "options": [
+        "A) The set of rules that determines which style is applied when multiple selectors target the same element",
+        "B) The speed at which CSS loads",
+        "C) The specific properties of an element",
+        "D) The unique identifier for a CSS rule"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "Specificity is a weight given to a CSS selector.",
+        "Higher specificity styles override lower specificity styles.",
+        "The hierarchy is inline styles > IDs > Classes/attributes > Elements."
+      ]
+    },
+    {
+      "id": 15,
+      "type": "true_false",
+      "difficulty": "intermediate",
+      "category": "css_fundamentals",
+      "question": "Using `!important` in CSS is generally considered a best practice.",
+      "correct_answer": "False",
+      "explanations": [
+        "`!important` overrides all other rules, making it difficult to maintain and debug.",
+        "It should be avoided except in rare cases.",
+        "It breaks the natural cascade of CSS."
+      ]
+    },
+    {
+      "id": 16,
+      "type": "multiple_choice",
+      "difficulty": "beginner",
+      "category": "javascript_fundamentals",
+      "question": "What is the correct syntax for a JavaScript variable declaration?",
+      "options": [
+        "A) var x = 5;",
+        "B) variable x = 5;",
+        "C) x = 5;",
+        "D) let x = 5;"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "`var`, `let`, and `const` are used to declare variables in JavaScript.",
+        "`var` is the old way, `let` and `const` are modern and block-scoped.",
+        "Using `let` or `const` is recommended for better code quality."
+      ]
+    },
+    {
+      "id": 17,
+      "type": "multiple_choice",
+      "difficulty": "intermediate",
+      "category": "javascript_fundamentals",
+      "question": "What is the difference between `==` and `===` in JavaScript?",
+      "options": [
+        "A) `==` compares values with type coercion; `===` compares values and types without coercion",
+        "B) `===` compares values with type coercion; `==` compares values and types without coercion",
+        "C) They are the same",
+        "D) `==` is for numbers, `===` is for strings"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "`==` performs type coercion, converting operands to the same type before comparison.",
+        "`===` is the strict equality operator and returns false if types differ.",
+        "Using `===` is a best practice to avoid unexpected behavior."
+      ]
+    },
+    {
+      "id": 18,
+      "type": "true_false",
+      "difficulty": "beginner",
+      "category": "javascript_fundamentals",
+      "question": "JavaScript is a compiled language.",
+      "correct_answer": "False",
+      "explanations": [
+        "JavaScript is an interpreted (or just-in-time compiled) language.",
+        "Code is executed line by line by the browser's JavaScript engine.",
+        "This allows for dynamic and flexible programming."
+      ]
+    },
+    {
+      "id": 19,
+      "type": "multiple_choice",
+      "difficulty": "intermediate",
+      "category": "javascript_fundamentals",
+      "question": "What is a closure in JavaScript?",
+      "options": [
+        "A) A function that has access to variables from its outer (enclosing) scope even after the outer function has returned",
+        "B) A way to close a browser window",
+        "C) A type of loop",
+        "D) A way to declare a variable"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "Closures allow inner functions to access variables from their outer scope.",
+        "They are used for data privacy, currying, and event handlers.",
+        "This is a fundamental concept in JavaScript."
+      ]
+    },
+    {
+      "id": 20,
+      "type": "true_false",
+      "difficulty": "intermediate",
+      "category": "javascript_fundamentals",
+      "question": "The `this` keyword always refers to the global object in JavaScript.",
+      "correct_answer": "False",
+      "explanations": [
+        "The value of `this` depends on how a function is called.",
+        "It can refer to the global object, the object the method belongs to, or a newly created object.",
+        "Arrow functions have a lexical `this`."
+      ]
+    },
+    {
+      "id": 21,
+      "type": "multiple_choice",
+      "difficulty": "advanced",
+      "category": "javascript_fundamentals",
+      "question": "What will the following code output: `console.log(typeof null);`?",
+      "options": [
+        "A) 'object'",
+        "B) 'null'",
+        "C) 'undefined'",
+        "D) 'number'"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "In JavaScript, `typeof null` returns `'object'`, despite `null` not being an object.",
+        "This is a well-known bug in the language.",
+        "`null instanceof Object` returns `false`."
+      ]
+    },
+    {
+      "id": 22,
+      "type": "multiple_choice",
+      "difficulty": "intermediate",
+      "category": "javascript_fundamentals",
+      "question": "Explain the concept of 'hoisting' in JavaScript.",
+      "options": [
+        "A) Variable and function declarations are moved to the top of their scope during compilation",
+        "B) Variables are lifted to the top of the global scope",
+        "C) Only functions are hoisted, not variables",
+        "D) Hoisting does not exist in modern JavaScript"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "Hoisting moves declarations to the top of their scope.",
+        "`var` variables are hoisted and initialized with `undefined`.",
+        "`let` and `const` are hoisted but not initialized, causing a ReferenceError if accessed before declaration."
+      ]
+    },
+    {
+      "id": 23,
+      "type": "true_false",
+      "difficulty": "advanced",
+      "category": "javascript_fundamentals",
+      "question": "`Promise.all()` will reject if any of its promises reject.",
+      "correct_answer": "True",
+      "explanations": [
+        "`Promise.all()` returns a promise that resolves when all input promises resolve.",
+        "If any input promise rejects, the returned promise rejects immediately.",
+        "For a 'wait for all' pattern that doesn't short-circuit, use `Promise.allSettled()`."
+      ]
+    },
+    {
+      "id": 24,
+      "type": "multiple_choice",
+      "difficulty": "advanced",
+      "category": "javascript_fundamentals",
+      "question": "What is the event loop in JavaScript?",
+      "options": [
+        "A) The mechanism that allows JavaScript to perform non-blocking operations despite being single-threaded",
+        "B) A loop that iterates over events",
+        "C) A function that handles user input",
+        "D) A type of loop in JavaScript"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "The event loop handles asynchronous callbacks by placing them in a queue.",
+        "It processes the call stack and the task queues.",
+        "It enables concurrency in JavaScript."
+      ]
+    },
+    {
+      "id": 25,
+      "type": "multiple_choice",
+      "difficulty": "intermediate",
+      "category": "javascript_fundamentals",
+      "question": "Which of the following is NOT a valid JavaScript data type?",
+      "options": [
+        "A) Symbol",
+        "B) BigInt",
+        "C) Float",
+        "D) Object"
+      ],
+      "correct_answer": "C",
+      "explanations": [
+        "JavaScript has 8 data types: Number, BigInt, String, Boolean, Null, Undefined, Symbol, and Object.",
+        "All numbers in JS are of type `Number`, which includes integers and floating-point numbers.",
+        "There is no separate 'Float' data type."
+      ]
+    },
+    {
+      "id": 26,
+      "type": "true_false",
+      "difficulty": "intermediate",
+      "category": "javascript_fundamentals",
+      "question": "The `map()` method creates a new array with the results of calling a function on every element in the array.",
+      "correct_answer": "True",
+      "explanations": [
+        "`map()` is a higher-order function that applies a transformation to each element.",
+        "It returns a new array of the same length.",
+        "It does not modify the original array."
+      ]
+    },
+    {
+      "id": 27,
+      "type": "multiple_choice",
+      "difficulty": "advanced",
+      "category": "javascript_fundamentals",
+      "question": "What will be the output of: `console.log([] + [])`?",
+      "options": [
+        "A) '' (empty string)",
+        "B) '[]'",
+        "C) '[] []'",
+        "D) [][]"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "The `+` operator on arrays converts them to strings and concatenates.",
+        "`[].toString()` returns an empty string.",
+        "Thus `'' + ''` results in `''`."
+      ]
+    },
+    {
+      "id": 28,
+      "type": "multiple_choice",
+      "difficulty": "intermediate",
+      "category": "dom_manipulation",
+      "question": "Which method is used to select an element by its ID in the DOM?",
+      "options": [
+        "A) document.getElementById()",
+        "B) document.querySelector()",
+        "C) document.getElementByClassName()",
+        "D) document.getElementsByTagName()"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "`document.getElementById()` is the most direct way to select an element by its ID.",
+        "`document.querySelector()` can also be used with `#id`.",
+        "ID selectors return a single element."
+      ]
+    },
+    {
+      "id": 29,
+      "type": "true_false",
+      "difficulty": "intermediate",
+      "category": "dom_manipulation",
+      "question": "Event delegation is a technique where a single event listener is attached to a parent element to handle events for multiple child elements.",
+      "correct_answer": "True",
+      "explanations": [
+        "Event delegation leverages event bubbling.",
+        "It improves performance and makes it easier to handle dynamic elements.",
+        "You check the `event.target` to determine which child was clicked."
+      ]
+    },
+    {
+      "id": 30,
+      "type": "multiple_choice",
+      "difficulty": "advanced",
+      "category": "dom_manipulation",
+      "question": "What is the difference between `event.preventDefault()` and `event.stopPropagation()`?",
+      "options": [
+        "A) `preventDefault()` stops the default action; `stopPropagation()` stops the event from bubbling up the DOM tree",
+        "B) `preventDefault()` stops bubbling; `stopPropagation()` prevents the default action",
+        "C) They are the same",
+        "D) `preventDefault()` is for forms only"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "`preventDefault()` prevents the default browser behavior (e.g., submitting a form).",
+        "`stopPropagation()` prevents the event from reaching other event listeners on parent elements.",
+        "Both are commonly used in event handling."
+      ]
+    },
+    {
+      "id": 31,
+      "type": "multiple_choice",
+      "difficulty": "beginner",
+      "category": "react_fundamentals",
+      "question": "What is React?",
+      "options": [
+        "A) A JavaScript library for building user interfaces",
+        "B) A full-stack framework",
+        "C) A database management system",
+        "D) A programming language"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "React is a component-based UI library developed by Facebook.",
+        "It's used for building single-page applications and interactive interfaces.",
+        "It uses a virtual DOM for performance."
+      ]
+    },
+    {
+      "id": 32,
+      "type": "true_false",
+      "difficulty": "beginner",
+      "category": "react_fundamentals",
+      "question": "React is a framework, not a library.",
+      "correct_answer": "False",
+      "explanations": [
+        "React is a library focused on UI rendering.",
+        "A framework typically provides a more complete structure (e.g., routing, state management).",
+        "You can use React with other libraries."
+      ]
+    },
+    {
+      "id": 33,
+      "type": "multiple_choice",
+      "difficulty": "intermediate",
+      "category": "react_fundamentals",
+      "question": "What is JSX in React?",
+      "options": [
+        "A) A syntax extension that allows writing HTML-like code in JavaScript",
+        "B) A JavaScript framework",
+        "C) A database query language",
+        "D) A styling technique"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "JSX allows you to write HTML-like syntax within JavaScript.",
+        "It is transpiled to `React.createElement()` calls.",
+        "It makes React code more readable and expressive."
+      ]
+    },
+    {
+      "id": 34,
+      "type": "multiple_choice",
+      "difficulty": "intermediate",
+      "category": "react_fundamentals",
+      "question": "What is the purpose of the `key` prop in React lists?",
+      "options": [
+        "A) To help React identify which items have changed, added, or removed for efficient re-rendering",
+        "B) To style the list items",
+        "C) To provide a unique identifier for the DOM",
+        "D) To sort the list"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "Keys help React optimize re-renders by tracking elements.",
+        "They should be unique and stable.",
+        "Using indexes as keys is not recommended for dynamic lists."
+      ]
+    },
+    {
+      "id": 35,
+      "type": "true_false",
+      "difficulty": "intermediate",
+      "category": "react_fundamentals",
+      "question": "React components can be defined as either functions or classes.",
+      "correct_answer": "True",
+      "explanations": [
+        "Functional components use hooks and are simpler.",
+        "Class components use lifecycle methods and state.",
+        "Functional components are now preferred."
+      ]
+    },
+    {
+      "id": 36,
+      "type": "multiple_choice",
+      "difficulty": "advanced",
+      "category": "react_fundamentals",
+      "question": "What is the difference between `props` and `state` in React?",
+      "options": [
+        "A) `props` are passed from parent to child and are immutable; `state` is managed within the component and can change",
+        "B) `props` are mutable; `state` is immutable",
+        "C) `props` are for functions; `state` is for classes",
+        "D) There is no difference"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "Props are read-only data passed into a component.",
+        "State is internal data that can be modified using `setState` (classes) or `useState` (functions).",
+        "Changes to state trigger re-renders."
+      ]
+    },
+    {
+      "id": 37,
+      "type": "multiple_choice",
+      "difficulty": "beginner",
+      "category": "async_js",
+      "question": "What is the purpose of `async/await`?",
+      "options": [
+        "A) To handle asynchronous operations more synchronously, making code easier to read",
+        "B) To create new promises",
+        "C) To run code in parallel",
+        "D) To handle errors in synchronous code"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "`async/await` is syntactic sugar over Promises.",
+        "It makes asynchronous code look synchronous.",
+        "It simplifies error handling with `try...catch`."
+      ]
+    },
+    {
+      "id": 38,
+      "type": "true_false",
+      "difficulty": "intermediate",
+      "category": "async_js",
+      "question": "The `fetch` API returns a Promise.",
+      "correct_answer": "True",
+      "explanations": [
+        "`fetch()` is used to make network requests and returns a Promise.",
+        "The promise resolves to a `Response` object.",
+        "You can chain `.then()` or use `await`."
+      ]
+    },
+    {
+      "id": 39,
+      "type": "multiple_choice",
+      "difficulty": "advanced",
+      "category": "async_js",
+      "question": "What will the following code print? `for (var i = 0; i < 3; i++) { setTimeout(() => console.log(i), 100); }`",
+      "options": [
+        "A) 0, 1, 2",
+        "B) 3, 3, 3",
+        "C) 0, 0, 0",
+        "D) undefined, undefined, undefined"
+      ],
+      "correct_answer": "B",
+      "explanations": [
+        "`var` is function-scoped, and `i` is incremented before the callback executes.",
+        "The callback captures the same `i` variable.",
+        "Using `let` instead of `var` would print 0, 1, 2."
+      ]
+    },
+    {
+      "id": 40,
+      "type": "multiple_choice",
+      "difficulty": "beginner",
+      "category": "web_performance",
+      "question": "What is lazy loading in the context of web performance?",
+      "options": [
+        "A) Loading resources (like images) only when they are needed (e.g., when they scroll into view)",
+        "B) Loading all resources at once",
+        "C) A technique to make the server lazy",
+        "D) A type of database optimization"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "Lazy loading improves initial page load time.",
+        "It reduces bandwidth usage.",
+        "It is a key performance optimization technique."
+      ]
+    },
+    {
+      "id": 41,
+      "type": "true_false",
+      "difficulty": "intermediate",
+      "category": "web_performance",
+      "question": "Minification is the process of reducing code size by removing unnecessary characters like whitespace and comments.",
+      "correct_answer": "True",
+      "explanations": [
+        "Minification speeds up loading times.",
+        "It does not change the functionality of the code.",
+        "It is commonly done for CSS and JavaScript."
+      ]
+    },
+    {
+      "id": 42,
+      "type": "multiple_choice",
+      "difficulty": "advanced",
+      "category": "web_performance",
+      "question": "Which of the following is NOT a Core Web Vital metric?",
+      "options": [
+        "A) First Input Delay (FID)",
+        "B) Largest Contentful Paint (LCP)",
+        "C) Cumulative Layout Shift (CLS)",
+        "D) Time to First Byte (TTFB)"
+      ],
+      "correct_answer": "D",
+      "explanations": [
+        "Core Web Vitals are LCP, FID, and CLS.",
+        "TTFB is a useful metric but not a Core Web Vital.",
+        "These metrics measure loading, interactivity, and visual stability."
+      ]
+    },
+    {
+      "id": 43,
+      "type": "multiple_choice",
+      "difficulty": "intermediate",
+      "category": "browser_apis",
+      "question": "What is the purpose of `localStorage`?",
+      "options": [
+        "A) To store data on the client-side with no expiration time",
+        "B) To send data to the server",
+        "C) To store data that is cleared when the session ends",
+        "D) To store data in a database"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "`localStorage` persists data even after the browser is closed.",
+        "It has a storage limit of about 5-10MB per domain.",
+        "It is synchronous and access is restricted to the same origin."
+      ]
+    },
+    {
+      "id": 44,
+      "type": "true_false",
+      "difficulty": "advanced",
+      "category": "browser_apis",
+      "question": "`sessionStorage` data persists across multiple browser tabs.",
+      "correct_answer": "False",
+      "explanations": [
+        "`sessionStorage` is specific to a single tab or window.",
+        "Data is cleared when the tab is closed.",
+        "`localStorage` persists across tabs."
+      ]
+    },
+    {
+      "id": 45,
+      "type": "multiple_choice",
+      "difficulty": "intermediate",
+      "category": "browser_apis",
+      "question": "What is the main difference between `localStorage` and `cookies`?",
+      "options": [
+        "A) Cookies are automatically sent to the server with requests; `localStorage` is not",
+        "B) `localStorage` is only for strings; cookies are for objects",
+        "C) Cookies have more storage capacity",
+        "D) There is no difference"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "Cookies are sent with every HTTP request, which can impact performance.",
+        "`localStorage` is not sent to the server automatically.",
+        "Cookies are often used for authentication."
+      ]
+    },
+    {
+      "id": 46,
+      "type": "true_false",
+      "difficulty": "beginner",
+      "category": "html_fundamentals",
+      "question": "The `<ul>` element is used to create an ordered list.",
+      "correct_answer": "False",
+      "explanations": [
+        "`<ul>` stands for 'unordered list' and creates a bulleted list.",
+        "`<ol>` stands for 'ordered list' and creates a numbered list.",
+        "List items are defined with `<li>` tags."
+      ]
+    },
+    {
+      "id": 47,
+      "type": "multiple_choice",
+      "difficulty": "intermediate",
+      "category": "html_fundamentals",
+      "question": "Which attribute is used to define inline styles in HTML?",
+      "options": [
+        "A) style",
+        "B) class",
+        "C) id",
+        "D) css"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "The `style` attribute is used to apply inline CSS directly to an element.",
+        "It overrides external and internal stylesheets.",
+        "It is generally not recommended for maintainability."
+      ]
+    },
+    {
+      "id": 48,
+      "type": "multiple_choice",
+      "difficulty": "advanced",
+      "category": "html_fundamentals",
+      "question": "What is the difference between `<section>` and `<div>`?",
+      "options": [
+        "A) `<section>` is semantic and represents a standalone section; `<div>` is a generic container",
+        "B) `<section>` is for styling; `<div>` is for grouping",
+        "C) There is no difference",
+        "D) `<section>` is a block element; `<div>` is an inline element"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "`<section>` is a semantic element that represents a thematic grouping of content.",
+        "`<div>` is a generic container with no semantic meaning.",
+        "Using `<section>` improves accessibility and SEO."
+      ]
+    },
+    {
+      "id": 49,
+      "type": "true_false",
+      "difficulty": "intermediate",
+      "category": "html_fundamentals",
+      "question": "The `<iframe>` tag is used to embed another HTML document within the current page.",
+      "correct_answer": "True",
+      "explanations": [
+        "`<iframe>` allows you to display content from another URL.",
+        "It is commonly used for embedding videos, maps, and advertisements.",
+        "There are security implications to consider when using it."
+      ]
+    },
+    {
+      "id": 50,
+      "type": "multiple_choice",
+      "difficulty": "intermediate",
+      "category": "css_fundamentals",
+      "question": "What is the `z-index` property used for?",
+      "options": [
+        "A) To control the stack order of overlapping elements",
+        "B) To set the index of an element in a list",
+        "C) To sort elements alphabetically",
+        "D) To set the zoom level"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "`z-index` specifies the stack order of positioned elements.",
+        "Higher values are placed in front of lower values.",
+        "It only works on elements with a `position` value other than `static`."
+      ]
+    },
+    {
+      "id": 51,
+      "type": "multiple_choice",
+      "difficulty": "advanced",
+      "category": "css_fundamentals",
+      "question": "What is a pseudo-class in CSS?",
+      "options": [
+        "A) A keyword added to a selector that specifies a special state of the selected element",
+        "B) A class that is generated by JavaScript",
+        "C) A class that is applied conditionally",
+        "D) A class for styling pseudo-elements"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "Pseudo-classes (e.g., `:hover`, `:focus`, `:nth-child()`) target elements based on state.",
+        "They allow styling based on user interaction or document structure.",
+        "They are denoted by a single colon `:`."
+      ]
+    },
+    {
+      "id": 52,
+      "type": "true_false",
+      "difficulty": "intermediate",
+      "category": "css_fundamentals",
+      "question": "CSS Grid is a one-dimensional layout model.",
+      "correct_answer": "False",
+      "explanations": [
+        "CSS Grid is a two-dimensional layout model.",
+        "It manages both rows and columns simultaneously.",
+        "Flexbox is one-dimensional."
+      ]
+    },
+    {
+      "id": 53,
+      "type": "multiple_choice",
+      "difficulty": "beginner",
+      "category": "css_fundamentals",
+      "question": "How do you make text bold in CSS?",
+      "options": [
+        "A) font-weight: bold;",
+        "B) font-size: bold;",
+        "C) text-decoration: bold;",
+        "D) font-style: bold;"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "`font-weight` controls the thickness of the text.",
+        "Values include `normal`, `bold`, `bolder`, `lighter`, or numeric values like `700`.",
+        "`font-style` is for italicizing text."
+      ]
+    },
+    {
+      "id": 54,
+      "type": "true_false",
+      "difficulty": "beginner",
+      "category": "css_fundamentals",
+      "question": "The `position: absolute` property removes the element from the normal document flow.",
+      "correct_answer": "True",
+      "explanations": [
+        "`absolute` positioning positions the element relative to its nearest positioned ancestor.",
+        "It removes it from the document flow, so other elements will ignore it.",
+        "It is often used for overlays and tooltips."
+      ]
+    },
+    {
+      "id": 55,
+      "type": "multiple_choice",
+      "difficulty": "intermediate",
+      "category": "css_fundamentals",
+      "question": "What is the purpose of a CSS reset?",
+      "options": [
+        "A) To remove all default browser styling for a consistent baseline",
+        "B) To reset the browser state",
+        "C) To clear CSS cache",
+        "D) To revert CSS to an earlier version"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "CSS resets override default browser styles to ensure consistency across browsers.",
+        "They prevent cross-browser layout differences.",
+        "`normalize.css` is an alternative that preserves useful defaults."
+      ]
+    },
+    {
+      "id": 56,
+      "type": "true_false",
+      "difficulty": "intermediate",
+      "category": "javascript_fundamentals",
+      "question": "JavaScript is a single-threaded language.",
+      "correct_answer": "True",
+      "explanations": [
+        "JavaScript has a single call stack, meaning it can do one thing at a time.",
+        "The event loop provides concurrency by handling asynchronous tasks.",
+        "Web Workers allow multi-threading in browsers."
+      ]
+    },
+    {
+      "id": 57,
+      "type": "multiple_choice",
+      "difficulty": "advanced",
+      "category": "javascript_fundamentals",
+      "question": "What will `console.log(0.1 + 0.2 === 0.3)` output?",
+      "options": [
+        "A) true",
+        "B) false",
+        "C) undefined",
+        "D) Error"
+      ],
+      "correct_answer": "B",
+      "explanations": [
+        "Due to floating-point precision issues, `0.1 + 0.2` is not exactly `0.3`.",
+        "It is approximately `0.30000000000000004`.",
+        "This is a common pitfall in JavaScript."
+      ]
+    },
+    {
+      "id": 58,
+      "type": "multiple_choice",
+      "difficulty": "intermediate",
+      "category": "javascript_fundamentals",
+      "question": "What is the purpose of the `Array.reduce()` method?",
+      "options": [
+        "A) To reduce an array to a single value by executing a callback function on each element",
+        "B) To reduce the length of an array",
+        "C) To filter an array",
+        "D) To transform an array into a string"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "`reduce()` applies a function against an accumulator and each element.",
+        "It is useful for summing, averaging, or flattening arrays.",
+        "It takes a reducer function and an initial value."
+      ]
+    },
+    {
+      "id": 59,
+      "type": "true_false",
+      "difficulty": "advanced",
+      "category": "javascript_fundamentals",
+      "question": "The `const` keyword prevents the value of a variable from being reassigned, and the variable itself from being mutated.",
+      "correct_answer": "False",
+      "explanations": [
+        "`const` prevents reassignment, but does not make objects immutable.",
+        "Properties of a `const` object can still be changed.",
+        "For immutable data, use `Object.freeze()`."
+      ]
+    },
+    {
+      "id": 60,
+      "type": "multiple_choice",
+      "difficulty": "beginner",
+      "category": "javascript_fundamentals",
+      "question": "Which of the following is a correct way to write a JavaScript comment?",
+      "options": [
+        "A) // This is a comment",
+        "B) /* This is a comment */",
+        "C) # This is a comment",
+        "D) Both A and B"
+      ],
+      "correct_answer": "D",
+      "explanations": [
+        "`//` is used for single-line comments.",
+        "`/* ... */` is used for multi-line comments.",
+        "Comments are ignored by the JavaScript engine."
+      ]
+    },
+    {
+      "id": 61,
+      "type": "multiple_choice",
+      "difficulty": "intermediate",
+      "category": "react_fundamentals",
+      "question": "What is the purpose of `useState` in React?",
+      "options": [
+        "A) To add state to functional components",
+        "B) To manage side effects",
+        "C) To create a context",
+        "D) To optimize performance"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "`useState` is a Hook that allows you to add state to functional components.",
+        "It returns a stateful value and a setter function.",
+        "It is one of the most commonly used hooks."
+      ]
+    },
+    {
+      "id": 62,
+      "type": "true_false",
+      "difficulty": "intermediate",
+      "category": "react_fundamentals",
+      "question": "The `useEffect` hook is used to perform side effects in functional components.",
+      "correct_answer": "True",
+      "explanations": [
+        "`useEffect` handles operations like data fetching, subscriptions, and DOM manipulation.",
+        "It runs after the render is committed to the screen.",
+        "It can replace lifecycle methods like `componentDidMount`, `componentDidUpdate`, and `componentWillUnmount`."
+      ]
+    },
+    {
+      "id": 63,
+      "type": "multiple_choice",
+      "difficulty": "advanced",
+      "category": "react_fundamentals",
+      "question": "What is the purpose of the `useMemo` hook?",
+      "options": [
+        "A) To memoize expensive calculations to prevent unnecessary re-computations",
+        "B) To create memoized components",
+        "C) To manage state",
+        "D) To handle side effects"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "`useMemo` returns a memoized value.",
+        "It only recalculates when its dependencies change.",
+        "It is used for performance optimization."
+      ]
+    },
+    {
+      "id": 64,
+      "type": "multiple_choice",
+      "difficulty": "intermediate",
+      "category": "react_fundamentals",
+      "question": "What is a React component?",
+      "options": [
+        "A) A function or class that returns a React element",
+        "B) A state management tool",
+        "C) A routing library",
+        "D) A styling technique"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "Components are the building blocks of React UIs.",
+        "They accept inputs (props) and return React elements.",
+        "They can be class-based or functional."
+      ]
+    },
+    {
+      "id": 65,
+      "type": "true_false",
+      "difficulty": "intermediate",
+      "category": "react_fundamentals",
+      "question": "React components are required to have a `render` method.",
+      "correct_answer": "False",
+      "explanations": [
+        "Functional components return JSX directly and do not have a `render` method.",
+        "Class components require a `render` method.",
+        "This is one of the key differences between them."
+      ]
+    },
+    {
+      "id": 66,
+      "type": "multiple_choice",
+      "difficulty": "advanced",
+      "category": "react_fundamentals",
+      "question": "What is the virtual DOM in React?",
+      "options": [
+        "A) A lightweight copy of the real DOM that React uses to optimize updates",
+        "B) The actual DOM in the browser",
+        "C) A virtual reality interface",
+        "D) A database for DOM nodes"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "The virtual DOM is a JavaScript representation of the real DOM.",
+        "React uses it to compare previous and current states to find the most efficient way to update the UI.",
+        "This improves performance."
+      ]
+    },
+    {
+      "id": 67,
+      "type": "true_false",
+      "difficulty": "advanced",
+      "category": "async_js",
+      "question": "`await` can only be used inside an `async` function.",
+      "correct_answer": "True",
+      "explanations": [
+        "`await` pauses the execution of an `async` function until a promise is resolved.",
+        "Using `await` outside an `async` function results in a syntax error.",
+        "Top-level `await` is now supported in some environments."
+      ]
+    },
+    {
+      "id": 68,
+      "type": "multiple_choice",
+      "difficulty": "intermediate",
+      "category": "browser_apis",
+      "question": "What is the purpose of the `fetch` API?",
+      "options": [
+        "A) To make network requests",
+        "B) To fetch data from a local database",
+        "C) To retrieve the current URL",
+        "D) To access the browser's history"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "`fetch` is a modern way to make HTTP requests.",
+        "It returns a Promise that resolves to a `Response` object.",
+        "It supersedes `XMLHttpRequest`."
+      ]
+    },
+    {
+      "id": 69,
+      "type": "true_false",
+      "difficulty": "beginner",
+      "category": "html_fundamentals",
+      "question": "The `<title>` element is placed within the `<body>` of an HTML document.",
+      "correct_answer": "False",
+      "explanations": [
+        "The `<title>` element is placed within the `<head>` of an HTML document.",
+        "It defines the title of the page, shown in the browser tab or title bar.",
+        "It is important for SEO."
+      ]
+    },
+    {
+      "id": 70,
+      "type": "multiple_choice",
+      "difficulty": "intermediate",
+      "category": "html_fundamentals",
+      "question": "Which of the following is an example of a self-closing tag in HTML?",
+      "options": [
+        "A) <input>",
+        "B) <div>",
+        "C) <p>",
+        "D) <h1>"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "Void elements (self-closing) do not have a closing tag.",
+        "Common examples include `<input>`, `<img>`, `<br>`, and `<hr>`.",
+        "In XHTML, they are written as `<input />`."
+      ]
+    },
+    {
+      "id": 71,
+      "type": "multiple_choice",
+      "difficulty": "advanced",
+      "category": "html_fundamentals",
+      "question": "What is the purpose of the `aria-label` attribute in HTML?",
+      "options": [
+        "A) To provide an accessible label for an element when there is no visible text",
+        "B) To add a label for styling purposes",
+        "C) To define a tooltip",
+        "D) To associate an element with a label"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "`aria-label` is used in accessibility to provide a text label for interactive elements.",
+        "It is read by screen readers.",
+        "It is a crucial part of creating accessible web applications."
+      ]
+    },
+    {
+      "id": 72,
+      "type": "true_false",
+      "difficulty": "intermediate",
+      "category": "css_fundamentals",
+      "question": "The `@media` rule is used to apply styles for different screen sizes and devices.",
+      "correct_answer": "True",
+      "explanations": [
+        "Media queries allow responsive design.",
+        "They are essential for mobile-first development.",
+        "They can also target print, speech, and other media types."
+      ]
+    },
+    {
+      "id": 73,
+      "type": "multiple_choice",
+      "difficulty": "advanced",
+      "category": "css_fundamentals",
+      "question": "What is the difference between `transform` and `transition` in CSS?",
+      "options": [
+        "A) `transform` changes the shape or position; `transition` defines how the change occurs over time",
+        "B) `transform` is for animation; `transition` is for layout",
+        "C) They are the same",
+        "D) `transition` is for 3D; `transform` is for 2D"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "`transform` applies a transformation (rotate, scale, translate) to an element.",
+        "`transition` adds an animation effect when a property changes.",
+        "They are often used together for smooth animations."
+      ]
+    },
+    {
+      "id": 74,
+      "type": "true_false",
+      "difficulty": "beginner",
+      "category": "css_fundamentals",
+      "question": "The `em` unit is relative to the font size of the root element.",
+      "correct_answer": "False",
+      "explanations": [
+        "`em` is relative to the font size of the parent element.",
+        "`rem` is relative to the font size of the root (`<html>`) element.",
+        "Using `rem` is recommended for scaling."
+      ]
+    },
+    {
+      "id": 75,
+      "type": "multiple_choice",
+      "difficulty": "intermediate",
+      "category": "javascript_fundamentals",
+      "question": "What is the `spread` operator in JavaScript?",
+      "options": [
+        "A) It allows an iterable to be expanded in places where multiple arguments or elements are expected",
+        "B) It is used to spread objects across multiple files",
+        "C) It is a function to copy arrays",
+        "D) It is a type of loop"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "The spread operator (`...`) expands elements of an array or object.",
+        "It is used for copying, merging, and passing arguments.",
+        "It was introduced in ES6."
+      ]
+    },
+    {
+      "id": 76,
+      "type": "multiple_choice",
+      "difficulty": "advanced",
+      "category": "javascript_fundamentals",
+      "question": "What is the `rest` parameter in JavaScript?",
+      "options": [
+        "A) It allows a function to accept an indefinite number of arguments as an array",
+        "B) It is used to rest the function after execution",
+        "C) It is a way to collect unused parameters",
+        "D) It is used to pause function execution"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "The rest parameter (`...args`) collects all remaining arguments into an array.",
+        "It is used in function definitions.",
+        "It is the opposite of the spread operator."
+      ]
+    },
+    {
+      "id": 77,
+      "type": "true_false",
+      "difficulty": "beginner",
+      "category": "javascript_fundamentals",
+      "question": "JavaScript arrays are zero-indexed.",
+      "correct_answer": "True",
+      "explanations": [
+        "The first element of an array is at index 0.",
+        "The last element is at index `array.length - 1`.",
+        "This is common in many programming languages."
+      ]
+    },
+    {
+      "id": 78,
+      "type": "multiple_choice",
+      "difficulty": "intermediate",
+      "category": "react_fundamentals",
+      "question": "What is the purpose of `useContext` in React?",
+      "options": [
+        "A) To access the context object and subscribe to its value",
+        "B) To create a new context",
+        "C) To manage global state",
+        "D) To optimize performance"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "`useContext` is a Hook used to read the current value of a Context.",
+        "It allows components to consume context without using a `Context.Consumer`.",
+        "It simplifies passing data down the component tree."
+      ]
+    },
+    {
+      "id": 79,
+      "type": "true_false",
+      "difficulty": "intermediate",
+      "category": "react_fundamentals",
+      "question": "React components should be kept in a single file.",
+      "correct_answer": "False",
+      "explanations": [
+        "Components can be organized into multiple files.",
+        "File organization helps maintainability.",
+        "Common patterns include separating components, styles, and tests."
+      ]
+    },
+    {
+      "id": 80,
+      "type": "multiple_choice",
+      "difficulty": "advanced",
+      "category": "react_fundamentals",
+      "question": "What is the main advantage of using a `key` prop in React lists?",
+      "options": [
+        "A) It improves performance by helping React identify which items have changed",
+        "B) It adds a unique style to the item",
+        "C) It makes the list sortable",
+        "D) It is required for all list items"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "Keys help React track elements efficiently during updates.",
+        "They ensure that state is correctly maintained across re-renders.",
+        "A stable, unique key is recommended (e.g., an ID from the data)."
+      ]
+    },
+    {
+      "id": 81,
+      "type": "multiple_choice",
+      "difficulty": "advanced",
+      "category": "javascript_fundamentals",
+      "question": "What is the `Symbol` data type used for in JavaScript?",
+      "options": [
+        "A) To create unique, immutable identifiers for object properties",
+        "B) To create symbols for mathematical operations",
+        "C) To define custom types",
+        "D) To create string representations of numbers"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "`Symbol` is a primitive data type introduced in ES6.",
+        "Each `Symbol` is unique and can be used as a property key.",
+        "They are often used to add metadata to objects."
+      ]
+    },
+    {
+      "id": 82,
+      "type": "true_false",
+      "difficulty": "intermediate",
+      "category": "dom_manipulation",
+      "question": "`document.querySelectorAll()` returns a live HTMLCollection.",
+      "correct_answer": "False",
+      "explanations": [
+        "`document.querySelectorAll()` returns a static NodeList.",
+        "`document.getElementsByClassName()` returns a live HTMLCollection.",
+        "A NodeList is an iterable collection of nodes."
+      ]
+    },
+    {
+      "id": 83,
+      "type": "multiple_choice",
+      "difficulty": "advanced",
+      "category": "dom_manipulation",
+      "question": "What is the difference between `innerHTML` and `textContent`?",
+      "options": [
+        "A) `innerHTML` parses HTML; `textContent` sets raw text",
+        "B) `innerHTML` sets raw text; `textContent` parses HTML",
+        "C) They are the same",
+        "D) `textContent` is deprecated"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "`innerHTML` inserts HTML markup that will be parsed and rendered.",
+        "`textContent` inserts plain text, which is safer from XSS attacks.",
+        "`textContent` is generally preferred for security."
+      ]
+    },
+    {
+      "id": 84,
+      "type": "true_false",
+      "difficulty": "intermediate",
+      "category": "dom_manipulation",
+      "question": "Event listeners added with `addEventListener` can be removed with `removeEventListener`.",
+      "correct_answer": "True",
+      "explanations": [
+        "`removeEventListener` requires the same function reference and options.",
+        "This is important for preventing memory leaks.",
+        "Anonymous functions cannot be removed."
+      ]
+    },
+    {
+      "id": 85,
+      "type": "multiple_choice",
+      "difficulty": "intermediate",
+      "category": "browser_apis",
+      "question": "What is the purpose of `history.pushState()` in the browser?",
+      "options": [
+        "A) To add a new entry to the browser's history stack without reloading the page",
+        "B) To navigate to a new URL",
+        "C) To clear the history stack",
+        "D) To refresh the current page"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "`pushState` is used in single-page applications to change the URL.",
+        "It updates the browser's address bar and history.",
+        "It does not cause a page reload."
+      ]
+    },
+    {
+      "id": 86,
+      "type": "true_false",
+      "difficulty": "beginner",
+      "category": "web_performance",
+      "question": "Minification and bundling are similar but different concepts; bundling combines files, while minification reduces their size.",
+      "correct_answer": "True",
+      "explanations": [
+        "Minification reduces code size by removing unnecessary characters.",
+        "Bundling combines multiple files into a single file to reduce requests.",
+        "Both are important for performance optimization."
+      ]
+    },
+    {
+      "id": 87,
+      "type": "multiple_choice",
+      "difficulty": "advanced",
+      "category": "web_performance",
+      "question": "What is the 'critical rendering path'?",
+      "options": [
+        "A) The sequence of steps the browser takes to convert HTML, CSS, and JavaScript into pixels on the screen",
+        "B) The path a user takes to render a webpage",
+        "C) The fastest way to load a page",
+        "D) A debugging technique"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "The critical rendering path is the process of rendering the first paint.",
+        "Optimizing it improves perceived load time.",
+        "It involves the DOM, CSSOM, and render tree."
+      ]
+    },
+    {
+      "id": 88,
+      "type": "multiple_choice",
+      "difficulty": "beginner",
+      "category": "html_fundamentals",
+      "question": "What is the correct HTML tag for a line break?",
+      "options": [
+        "A) <br>",
+        "B) <break>",
+        "C) <lb>",
+        "D) <newline>"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "`<br>` is a void element used to create a line break in text.",
+        "It is useful for addresses, poems, or where a new line is needed.",
+        "It should not be used for creating structural spacing."
+      ]
+    },
+    {
+      "id": 89,
+      "type": "true_false",
+      "difficulty": "intermediate",
+      "category": "html_fundamentals",
+      "question": "The `<meta>` tag should always be placed within the `<body>` of an HTML document.",
+      "correct_answer": "False",
+      "explanations": [
+        "The `<meta>` tag is placed within the `<head>`.",
+        "It provides metadata like character set, viewport, and descriptions.",
+        "It is not visible to the user."
+      ]
+    },
+    {
+      "id": 90,
+      "type": "multiple_choice",
+      "difficulty": "intermediate",
+      "category": "css_fundamentals",
+      "question": "Which CSS property is used to control the space between the content and the border of an element?",
+      "options": [
+        "A) padding",
+        "B) margin",
+        "C) border-spacing",
+        "D) gap"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "`padding` creates space inside the element's border.",
+        "`margin` creates space outside the element's border.",
+        "They are both part of the CSS Box Model."
+      ]
+    },
+    {
+      "id": 91,
+      "type": "true_false",
+      "difficulty": "intermediate",
+      "category": "css_fundamentals",
+      "question": "The `display: flex;` property makes an element a block-level flex container.",
+      "correct_answer": "True",
+      "explanations": [
+        "`display: flex;` creates a block-level flex container.",
+        "`display: inline-flex;` creates an inline-level flex container.",
+        "The container's children become flex items."
+      ]
+    },
+    {
+      "id": 92,
+      "type": "multiple_choice",
+      "difficulty": "advanced",
+      "category": "css_fundamentals",
+      "question": "What is the purpose of the `@keyframes` rule in CSS?",
+      "options": [
+        "A) To define the stages of an animation sequence",
+        "B) To create a keyframe for a video",
+        "C) To set a frame for an image",
+        "D) To define breakpoints in a design"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "`@keyframes` is used to create complex animations.",
+        "It specifies the styles at various times (0%, 50%, 100%).",
+        "The animation is then applied using the `animation` property."
+      ]
+    },
+    {
+      "id": 93,
+      "type": "true_false",
+      "difficulty": "beginner",
+      "category": "css_fundamentals",
+      "question": "The `color` property in CSS changes the background color of an element.",
+      "correct_answer": "False",
+      "explanations": [
+        "The `color` property changes the text color.",
+        "The `background-color` property changes the background color.",
+        "This is a common point of confusion."
+      ]
+    },
+    {
+      "id": 94,
+      "type": "multiple_choice",
+      "difficulty": "intermediate",
+      "category": "javascript_fundamentals",
+      "question": "What is a promise in JavaScript?",
+      "options": [
+        "A) An object representing the eventual completion or failure of an asynchronous operation",
+        "B) A promise to write clean code",
+        "C) A synchronous operation",
+        "D) A type of function"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "Promises are used to handle asynchronous operations.",
+        "They can be in one of three states: pending, fulfilled, or rejected.",
+        "They provide methods like `.then()`, `.catch()`, and `.finally()`."
+      ]
+    },
+    {
+      "id": 95,
+      "type": "true_false",
+      "difficulty": "intermediate",
+      "category": "javascript_fundamentals",
+      "question": "A Promise is immediately executed when it is created.",
+      "correct_answer": "True",
+      "explanations": [
+        "The executor function of a Promise runs synchronously.",
+        "This is why promises are eager, not lazy.",
+        "`.then()` handlers are invoked asynchronously."
+      ]
+    },
+    {
+      "id": 96,
+      "type": "multiple_choice",
+      "difficulty": "advanced",
+      "category": "javascript_fundamentals",
+      "question": "What is the output of `console.log('1' + 1)`?",
+      "options": [
+        "A) '11'",
+        "B) 2",
+        "C) 11",
+        "D) '2'"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "When using the `+` operator with a string and a number, the number is coerced to a string.",
+        "This results in string concatenation.",
+        "So, `'1'` + `1` becomes `'11'`."
+      ]
+    },
+    {
+      "id": 97,
+      "type": "multiple_choice",
+      "difficulty": "beginner",
+      "category": "react_fundamentals",
+      "question": "What is a 'props' in React?",
+      "options": [
+        "A) A way to pass data from parent to child components",
+        "B) The internal state of a component",
+        "C) A method to handle events",
+        "D) A styling property"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "Props are read-only inputs that are passed to components.",
+        "They allow components to be dynamic and reusable.",
+        "Props cannot be modified by the receiving component."
+      ]
+    },
+    {
+      "id": 98,
+      "type": "true_false",
+      "difficulty": "intermediate",
+      "category": "react_fundamentals",
+      "question": "State in React can be directly mutated to update the UI.",
+      "correct_answer": "False",
+      "explanations": [
+        "State should be treated as immutable in React.",
+        "In class components, use `setState`.",
+        "In functional components, use the state setter from `useState`."
+      ]
+    },
+    {
+      "id": 99,
+      "type": "multiple_choice",
+      "difficulty": "advanced",
+      "category": "react_fundamentals",
+      "question": "What is the purpose of `React.memo`?",
+      "options": [
+        "A) To memoize a component to prevent unnecessary re-renders",
+        "B) To memoize a function",
+        "C) To create a memoized state",
+        "D) To handle side effects"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "`React.memo` is a higher-order component that memoizes the result.",
+        "It only re-renders if the props change.",
+        "It is a performance optimization tool."
+      ]
+    },
+    {
+      "id": 100,
+      "type": "true_false",
+      "difficulty": "intermediate",
+      "category": "react_fundamentals",
+      "question": "`useCallback` is used to memoize functions to prevent them from being recreated on each render.",
+      "correct_answer": "True",
+      "explanations": [
+        "`useCallback` returns a memoized callback.",
+        "It is useful when passing callbacks to child components.",
+        "It helps optimize performance."
+      ]
+    },
+    {
+      "id": 101,
+      "type": "multiple_choice",
+      "difficulty": "intermediate",
+      "category": "async_js",
+      "question": "What is the difference between `async/await` and Promises?",
+      "options": [
+        "A) `async/await` is syntactic sugar over Promises",
+        "B) Promises are syntactic sugar over `async/await`",
+        "C) They are completely different",
+        "D) `async/await` is used for synchronous operations"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "`async/await` makes working with Promises easier.",
+        "It allows writing asynchronous code that looks synchronous.",
+        "Under the hood, it is still using Promises."
+      ]
+    },
+    {
+      "id": 102,
+      "type": "true_false",
+      "difficulty": "beginner",
+      "category": "async_js",
+      "question": "The `fetch` API can only be used to make GET requests.",
+      "correct_answer": "False",
+      "explanations": [
+        "`fetch` can be used for GET, POST, PUT, DELETE, and other methods.",
+        "The method is specified in the `options` parameter.",
+        "It is a flexible API for network requests."
+      ]
+    },
+    {
+      "id": 103,
+      "type": "multiple_choice",
+      "difficulty": "advanced",
+      "category": "async_js",
+      "question": "What is the `microtask` queue in the event loop?",
+      "options": [
+        "A) A queue that handles tasks like Promise callbacks, with higher priority than the macrotask queue",
+        "B) A queue that handles tasks like `setTimeout`",
+        "C) A queue for UI events",
+        "D) A queue for network requests"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "Microtasks (e.g., Promise callbacks) are processed before macrotasks.",
+        "This ensures promises are resolved quickly.",
+        "It is a key part of the event loop's prioritization."
+      ]
+    },
+    {
+      "id": 104,
+      "type": "true_false",
+      "difficulty": "intermediate",
+      "category": "dom_manipulation",
+      "question": "`document.createDocumentFragment()` is used to create a lightweight DOM node that can be used to efficiently append multiple elements.",
+      "correct_answer": "True",
+      "explanations": [
+        "A DocumentFragment is a minimal document object.",
+        "It avoids reflow and repaint during multiple appends.",
+        "It's a performance optimization technique."
+      ]
+    },
+    {
+      "id": 105,
+      "type": "multiple_choice",
+      "difficulty": "advanced",
+      "category": "dom_manipulation",
+      "question": "What is the purpose of `MutationObserver`?",
+      "options": [
+        "A) To observe changes to the DOM",
+        "B) To mutate the DOM",
+        "C) To observe user interactions",
+        "D) To observe network requests"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "`MutationObserver` provides a way to watch for changes being made to the DOM.",
+        "It is used to react to changes like element insertion, removal, or attribute changes.",
+        "It is more efficient than old `MutationEvent` events."
+      ]
+    },
+    {
+      "id": 106,
+      "type": "true_false",
+      "difficulty": "intermediate",
+      "category": "browser_apis",
+      "question": "`Web Workers` allow running JavaScript in parallel threads.",
+      "correct_answer": "True",
+      "explanations": [
+        "Web Workers enable background script execution.",
+        "They run in separate threads without blocking the UI.",
+        "They are used for CPU-intensive tasks."
+      ]
+    },
+    {
+      "id": 107,
+      "type": "multiple_choice",
+      "difficulty": "advanced",
+      "category": "browser_apis",
+      "question": "What is the difference between `localStorage` and `sessionStorage`?",
+      "options": [
+        "A) `localStorage` persists indefinitely; `sessionStorage` is cleared when the tab is closed",
+        "B) `localStorage` is for server-side storage; `sessionStorage` is for client-side",
+        "C) There is no difference",
+        "D) `sessionStorage` has a larger storage limit"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "`localStorage` data does not expire.",
+        "`sessionStorage` data is cleared when the user closes the tab or window.",
+        "Both are part of the Web Storage API."
+      ]
+    },
+    {
+      "id": 108,
+      "type": "true_false",
+      "difficulty": "beginner",
+      "category": "html_fundamentals",
+      "question": "The `<a>` tag's `href` attribute can contain a URL.",
+      "correct_answer": "True",
+      "explanations": [
+        "The `href` attribute specifies the link's destination.",
+        "It can be an absolute or relative URL.",
+        "It can also link to email addresses (`mailto:`) or phone numbers (`tel:`)."
+      ]
+    },
+    {
+      "id": 109,
+      "type": "multiple_choice",
+      "difficulty": "intermediate",
+      "category": "html_fundamentals",
+      "question": "What does the `<canvas>` element do?",
+      "options": [
+        "A) It is used to draw graphics and animations via JavaScript",
+        "B) It creates a canvas for painting",
+        "C) It is used to display images",
+        "D) It is used for styling the page"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "`<canvas>` provides a drawing surface that can be controlled with JavaScript.",
+        "It is used for 2D and 3D graphics, games, and data visualization.",
+        "It has a 2D context and a WebGL context for 3D."
+      ]
+    },
+    {
+      "id": 110,
+      "type": "true_false",
+      "difficulty": "intermediate",
+      "category": "css_fundamentals",
+      "question": "The `position: sticky;` property combines aspects of `relative` and `fixed` positioning.",
+      "correct_answer": "True",
+      "explanations": [
+        "`sticky` positions an element as `relative` until it crosses a specified threshold.",
+        "Then, it becomes `fixed`.",
+        "It is often used for sticky headers or navigation bars."
+      ]
+    },
+    {
+      "id": 111,
+      "type": "multiple_choice",
+      "difficulty": "advanced",
+      "category": "css_fundamentals",
+      "question": "What is the difference between `inline` and `inline-block` display values?",
+      "options": [
+        "A) `inline-block` allows setting width and height; `inline` does not",
+        "B) `inline` allows setting width and height; `inline-block` does not",
+        "C) They are the same",
+        "D) `inline-block` is for block elements only"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "`inline` elements respect only horizontal margins and padding.",
+        "`inline-block` elements behave like inline elements but can have a defined width and height.",
+        "This makes `inline-block` useful for grid-like layouts."
+      ]
+    },
+    {
+      "id": 112,
+      "type": "true_false",
+      "difficulty": "intermediate",
+      "category": "css_fundamentals",
+      "question": "The `:nth-child()` pseudo-class selects elements based on their position in a group of siblings.",
+      "correct_answer": "True",
+      "explanations": [
+        "`:nth-child()` can take a formula like `2n+1` to select odd elements.",
+        "It is a powerful way to style alternating rows or specific child elements.",
+        "It is a structural pseudo-class."
+      ]
+    },
+    {
+      "id": 113,
+      "type": "multiple_choice",
+      "difficulty": "intermediate",
+      "category": "javascript_fundamentals",
+      "question": "What is the `typeof` operator used for?",
+      "options": [
+        "A) To return a string indicating the type of the operand",
+        "B) To check if a variable is defined",
+        "C) To get the class of an object",
+        "D) To check the type of a function"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "`typeof` returns a string representing the primitive data type.",
+        "Examples: `'number'`, `'string'`, `'object'`, `'undefined'`, `'function'`.",
+        "It is a unary operator."
+      ]
+    },
+    {
+      "id": 114,
+      "type": "true_false",
+      "difficulty": "advanced",
+      "category": "javascript_fundamentals",
+      "question": "`Array.from()` can be used to convert array-like objects into arrays.",
+      "correct_answer": "True",
+      "explanations": [
+        "`Array.from()` creates a new array from an iterable or array-like object.",
+        "It is useful for converting NodeLists or arguments objects.",
+        "It can also take a mapping function."
+      ]
+    },
+    {
+      "id": 115,
+      "type": "multiple_choice",
+      "difficulty": "beginner",
+      "category": "react_fundamentals",
+      "question": "What is the correct way to handle a form submission in React?",
+      "options": [
+        "A) Using an `onSubmit` handler on the `<form>` element",
+        "B) Using an `onClick` handler on the submit button",
+        "C) Using an `onChange` handler on each input",
+        "D) Using an `onLoad` handler on the page"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "`onSubmit` is the standard way to handle form submission.",
+        "It allows preventing the default behavior with `event.preventDefault()`.",
+        "It captures submission by pressing the Enter key."
+      ]
+    },
+    {
+      "id": 116,
+      "type": "true_false",
+      "difficulty": "intermediate",
+      "category": "react_fundamentals",
+      "question": "In React, `useEffect` can replace `componentDidMount`, `componentDidUpdate`, and `componentWillUnmount`.",
+      "correct_answer": "True",
+      "explanations": [
+        "`useEffect` combines these lifecycle methods.",
+        "Dependencies determine when it runs.",
+        "A cleanup function can act as `componentWillUnmount`."
+      ]
+    },
+    {
+      "id": 117,
+      "type": "multiple_choice",
+      "difficulty": "advanced",
+      "category": "react_fundamentals",
+      "question": "What is the purpose of `useReducer`?",
+      "options": [
+        "A) To manage complex state logic in functional components",
+        "B) To reduce the size of a component",
+        "C) To handle API calls",
+        "D) To create custom hooks"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "`useReducer` is an alternative to `useState` for more complex state.",
+        "It accepts a reducer function and an initial state.",
+        "It is useful when state transitions depend on the previous state."
+      ]
+    },
+    {
+      "id": 118,
+      "type": "true_false",
+      "difficulty": "beginner",
+      "category": "html_fundamentals",
+      "question": "The `<strong>` tag is used to make text bold, and `<em>` is used to italicize text.",
+      "correct_answer": "True",
+      "explanations": [
+        "`<strong>` indicates strong importance and is typically displayed in bold.",
+        "`<em>` indicates emphasis and is typically displayed in italics.",
+        "They are semantic tags, unlike `<b>` and `<i>`."
+      ]
+    },
+    {
+      "id": 119,
+      "type": "multiple_choice",
+      "difficulty": "intermediate",
+      "category": "html_fundamentals",
+      "question": "What is a 'void element' in HTML?",
+      "options": [
+        "A) An element that cannot have any content or closing tag",
+        "B) An empty element",
+        "C) An element that is not displayed",
+        "D) An element used only for styling"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "Void elements do not have a closing tag and cannot contain content.",
+        "Common examples are `<img>`, `<input>`, `<br>`, and `<hr>`.",
+        "They are also called self-closing tags."
+      ]
+    },
+    {
+      "id": 120,
+      "type": "true_false",
+      "difficulty": "beginner",
+      "category": "css_fundamentals",
+      "question": "CSS stands for Cascading Style Sheets.",
+      "correct_answer": "True",
+      "explanations": [
+        "CSS is used to describe the presentation of a document written in HTML.",
+        "It controls layout, colors, fonts, and animations.",
+        "It is a cornerstone technology of the web."
+      ]
+    },
+    {
+      "id": 121,
+      "type": "multiple_choice",
+      "difficulty": "intermediate",
+      "category": "css_fundamentals",
+      "question": "What is the difference between `margin` and `padding`?",
+      "options": [
+        "A) `margin` is outside the border; `padding` is inside the border",
+        "B) `margin` is inside the border; `padding` is outside the border",
+        "C) They are the same",
+        "D) `margin` is for blocks; `padding` is for inline"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "Margin creates space between elements.",
+        "Padding creates space between the element's content and its border.",
+        "They are both part of the CSS Box Model."
+      ]
+    },
+    {
+      "id": 122,
+      "type": "true_false",
+      "difficulty": "advanced",
+      "category": "css_fundamentals",
+      "question": "The `calc()` function in CSS allows you to perform calculations to determine CSS property values.",
+      "correct_answer": "True",
+      "explanations": [
+        "`calc()` can add, subtract, multiply, and divide values.",
+        "It is useful for dynamic layouts.",
+        "For example: `width: calc(100% - 20px);`"
+      ]
+    },
+    {
+      "id": 123,
+      "type": "multiple_choice",
+      "difficulty": "intermediate",
+      "category": "javascript_fundamentals",
+      "question": "What is 'event bubbling' in JavaScript?",
+      "options": [
+        "A) An event triggered on an element will then be triggered on its parent elements",
+        "B) An event that bubbles up to the server",
+        "C) An event that is triggered only once",
+        "D) An event that is captured before it reaches its target"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "Event bubbling is the propagation of an event from the target element up to the root.",
+        "This allows event delegation.",
+        "It is the default behavior in most browsers."
+      ]
+    },
+    {
+      "id": 124,
+      "type": "true_false",
+      "difficulty": "intermediate",
+      "category": "javascript_fundamentals",
+      "question": "`event.stopPropagation()` stops the event from reaching its target.",
+      "correct_answer": "False",
+      "explanations": [
+        "`stopPropagation()` stops the event from bubbling up the DOM tree.",
+        "The event still reaches the original target.",
+        "`stopImmediatePropagation()` stops other listeners on the same target."
+      ]
+    },
+    {
+      "id": 125,
+      "type": "multiple_choice",
+      "difficulty": "advanced",
+      "category": "javascript_fundamentals",
+      "question": "What is the output of `console.log('5' - '2')`?",
+      "options": [
+        "A) 3",
+        "B) '3'",
+        "C) '5-2'",
+        "D) NaN"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "The subtraction operator coerces strings to numbers.",
+        "`'5' - '2'` becomes `5 - 2`.",
+        "This results in the number `3`."
+      ]
+    },
+    {
+      "id": 126,
+      "type": "true_false",
+      "difficulty": "beginner",
+      "category": "react_fundamentals",
+      "question": "React components must always return a single root element.",
+      "correct_answer": "True",
+      "explanations": [
+        "A React component cannot return multiple siblings without a wrapper.",
+        "Fragments (`<></>`) can be used to return multiple elements.",
+        "This is a design constraint of JSX."
+      ]
+    },
+    {
+      "id": 127,
+      "type": "multiple_choice",
+      "difficulty": "intermediate",
+      "category": "react_fundamentals",
+      "question": "What is the purpose of `useRef` in React?",
+      "options": [
+        "A) To access DOM elements directly",
+        "B) To store mutable values that do not cause re-renders",
+        "C) Both A and B",
+        "D) To manage state"
+      ],
+      "correct_answer": "C",
+      "explanations": [
+        "`useRef` can be used to access DOM nodes.",
+        "It can also store a mutable value that persists across renders.",
+        "Changing the `current` property does not trigger a re-render."
+      ]
+    },
+    {
+      "id": 128,
+      "type": "true_false",
+      "difficulty": "intermediate",
+      "category": "react_fundamentals",
+      "question": "React Router is a third-party library used for navigation in React applications.",
+      "correct_answer": "True",
+      "explanations": [
+        "React Router provides routing and navigation.",
+        "It is not part of the core React library.",
+        "It is widely used for single-page applications."
+      ]
+    },
+    {
+      "id": 129,
+      "type": "multiple_choice",
+      "difficulty": "advanced",
+      "category": "react_fundamentals",
+      "question": "What is the difference between `controlled` and `uncontrolled` components in React forms?",
+      "options": [
+        "A) Controlled components have state controlled by React; uncontrolled components manage their own state via the DOM",
+        "B) Controlled components manage their own state; uncontrolled components have state controlled by React",
+        "C) There is no difference",
+        "D) Controlled components are for text inputs only"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "In a controlled component, the form data is handled by React state.",
+        "In an uncontrolled component, the form data is handled by the DOM itself.",
+        "Controlled components offer more control and validation capabilities."
+      ]
+    },
+    {
+      "id": 130,
+      "type": "true_false",
+      "difficulty": "advanced",
+      "category": "html_fundamentals",
+      "question": "The `<datalist>` element provides a list of predefined options for an `<input>` element.",
+      "correct_answer": "True",
+      "explanations": [
+        "`<datalist>` is used to create an autocomplete feature.",
+        "It is used with an `<input>` element that has a `list` attribute.",
+        "The user can type in the input and get suggestions."
+      ]
+    },
+    {
+      "id": 131,
+      "type": "multiple_choice",
+      "difficulty": "intermediate",
+      "category": "css_fundamentals",
+      "question": "What is the purpose of `flex-wrap` in CSS Flexbox?",
+      "options": [
+        "A) To allow flex items to wrap onto multiple lines",
+        "B) To wrap text inside a flex item",
+        "C) To wrap the entire flex container",
+        "D) To prevent flex items from wrapping"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "`flex-wrap: wrap;` allows items to move to the next line.",
+        "`nowrap` is the default, which forces items into a single line.",
+        "It is crucial for responsive flexbox layouts."
+      ]
+    },
+    {
+      "id": 132,
+      "type": "true_false",
+      "difficulty": "beginner",
+      "category": "css_fundamentals",
+      "question": "`justify-content: center;` aligns items to the center of the main axis in Flexbox.",
+      "correct_answer": "True",
+      "explanations": [
+        "`justify-content` controls alignment on the main axis.",
+        "Other values include `flex-start`, `flex-end`, `space-between`, and `space-around`.",
+        "It distributes space between and around items."
+      ]
+    },
+    {
+      "id": 133,
+      "type": "multiple_choice",
+      "difficulty": "advanced",
+      "category": "css_fundamentals",
+      "question": "What is the difference between `align-items` and `align-content` in Flexbox?",
+      "options": [
+        "A) `align-items` aligns items within a single line; `align-content` aligns multi-line rows",
+        "B) `align-items` aligns multi-line rows; `align-content` aligns items within a single line",
+        "C) They are the same",
+        "D) `align-content` is for grid only"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "`align-items` works on the cross axis for single-line flex layouts.",
+        "`align-content` controls the spacing between multiple lines.",
+        "It only works when `flex-wrap` is set to `wrap`."
+      ]
+    },
+    {
+      "id": 134,
+      "type": "true_false",
+      "difficulty": "intermediate",
+      "category": "javascript_fundamentals",
+      "question": "JavaScript's `setTimeout` is a reliable way to execute code after a precise delay.",
+      "correct_answer": "False",
+      "explanations": [
+        "`setTimeout` is not guaranteed to run after the exact delay.",
+        "It is affected by the event loop and other tasks.",
+        "It is more of a minimum delay, not a precise time."
+      ]
+    },
+    {
+      "id": 135,
+      "type": "multiple_choice",
+      "difficulty": "advanced",
+      "category": "javascript_fundamentals",
+      "question": "What will `console.log(!!'false')` output?",
+      "options": [
+        "A) true",
+        "B) false",
+        "C) 'false'",
+        "D) undefined"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "`!!` is a double negation, which coerces a value to a boolean.",
+        "Non-empty strings are truthy.",
+        "`!!'false'` returns `true`."
+      ]
+    },
+    {
+      "id": 136,
+      "type": "true_false",
+      "difficulty": "intermediate",
+      "category": "browser_apis",
+      "question": "The `navigator` object in the browser provides information about the user's operating system.",
+      "correct_answer": "True",
+      "explanations": [
+        "`navigator` is a property of the `window` object.",
+        "It contains properties like `userAgent`, `platform`, and `language`.",
+        "It is used for feature detection and analytics."
+      ]
+    },
+    {
+      "id": 137,
+      "type": "multiple_choice",
+      "difficulty": "intermediate",
+      "category": "web_performance",
+      "question": "What is the purpose of code splitting?",
+      "options": [
+        "A) To split the code into smaller chunks that can be loaded on demand",
+        "B) To split the code across different files for better organization",
+        "C) To split the code for debugging",
+        "D) To split the code for version control"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "Code splitting reduces the initial load time.",
+        "It allows loading only the code needed for the current page.",
+        "It is implemented using dynamic imports."
+      ]
+    },
+    {
+      "id": 138,
+      "type": "true_false",
+      "difficulty": "beginner",
+      "category": "html_fundamentals",
+      "question": "The `<table>` element should be used for layout purposes.",
+      "correct_answer": "False",
+      "explanations": [
+        "Tables should be used for tabular data, not layout.",
+        "Using tables for layout is an outdated practice.",
+        "CSS Flexbox and Grid are the preferred layout tools."
+      ]
+    },
+    {
+      "id": 139,
+      "type": "multiple_choice",
+      "difficulty": "intermediate",
+      "category": "html_fundamentals",
+      "question": "What is the purpose of the `lang` attribute on the `<html>` tag?",
+      "options": [
+        "A) To specify the language of the document for search engines and accessibility",
+        "B) To define the programming language of the page",
+        "C) To set the language for JavaScript",
+        "D) To specify the character encoding"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "`lang` helps search engines understand the content's language.",
+        "It is crucial for accessibility, as screen readers use it for pronunciation.",
+        "Example: `<html lang=\"en\">`."
+      ]
+    },
+    {
+      "id": 140,
+      "type": "true_false",
+      "difficulty": "advanced",
+      "category": "html_fundamentals",
+      "question": "The `<picture>` element is used to provide multiple sources for an image, allowing responsive images based on screen size or resolution.",
+      "correct_answer": "True",
+      "explanations": [
+        "`<picture>` contains multiple `<source>` elements.",
+        "It is used for art direction and resolution switching.",
+        "The browser chooses the most appropriate source."
+      ]
+    },
+    {
+      "id": 141,
+      "type": "multiple_choice",
+      "difficulty": "beginner",
+      "category": "css_fundamentals",
+      "question": "Which CSS property is used to set the text color of an element?",
+      "options": [
+        "A) color",
+        "B) text-color",
+        "C) font-color",
+        "D) background-color"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "The `color` property sets the color of the text content.",
+        "`background-color` sets the background color.",
+        "Values can be named colors, hex codes, RGB, or HSL."
+      ]
+    },
+    {
+      "id": 142,
+      "type": "true_false",
+      "difficulty": "intermediate",
+      "category": "css_fundamentals",
+      "question": "The `object-fit` property is used to specify how an image or video should be resized to fit its container.",
+      "correct_answer": "True",
+      "explanations": [
+        "`object-fit` controls the aspect ratio and scaling.",
+        "Values include `cover`, `contain`, `fill`, `none`, and `scale-down`.",
+        "It is useful for responsive images."
+      ]
+    },
+    {
+      "id": 143,
+      "type": "multiple_choice",
+      "difficulty": "advanced",
+      "category": "css_fundamentals",
+      "question": "What is the difference between `outline` and `border` in CSS?",
+      "options": [
+        "A) `outline` does not take up space and is not part of the box model; `border` does",
+        "B) `outline` is always rounded; `border` is always square",
+        "C) They are the same",
+        "D) `outline` is for accessibility; `border` is for styling"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "An outline is drawn outside the border and does not affect layout.",
+        "It is often used for focus rings.",
+        "It cannot be styled individually per side like a border."
+      ]
+    },
+    {
+      "id": 144,
+      "type": "true_false",
+      "difficulty": "beginner",
+      "category": "css_fundamentals",
+      "question": "The `float` property in CSS is used to position elements to the left or right of a container.",
+      "correct_answer": "True",
+      "explanations": [
+        "`float` is a layout property used to wrap text around images or create simple layouts.",
+        "It has been largely superseded by Flexbox and Grid.",
+        "A cleared element will appear below the floated elements."
+      ]
+    },
+    {
+      "id": 145,
+      "type": "multiple_choice",
+      "difficulty": "intermediate",
+      "category": "javascript_fundamentals",
+      "question": "What is a 'callback function' in JavaScript?",
+      "options": [
+        "A) A function passed as an argument to another function, to be executed later",
+        "B) A function that calls itself",
+        "C) A function that is called automatically",
+        "D) A function that returns a promise"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "Callbacks are used for asynchronous operations.",
+        "They are a fundamental concept in JavaScript.",
+        "Promises and `async/await` are alternatives to callbacks."
+      ]
+    },
+    {
+      "id": 146,
+      "type": "true_false",
+      "difficulty": "advanced",
+      "category": "javascript_fundamentals",
+      "question": "`Promise.all()` runs promises in parallel, while `Promise.race()` returns the first promise to settle.",
+      "correct_answer": "True",
+      "explanations": [
+        "`Promise.all()` waits for all to settle.",
+        "`Promise.race()` settles when the first one settles.",
+        "Both are useful for handling multiple asynchronous tasks."
+      ]
+    },
+    {
+      "id": 147,
+      "type": "multiple_choice",
+      "difficulty": "advanced",
+      "category": "javascript_fundamentals",
+      "question": "What is the output of `[1, 2, 3].map(parseInt)`?",
+      "options": [
+        "A) [1, NaN, NaN]",
+        "B) [1, 2, 3]",
+        "C) [1, NaN, 1]",
+        "D) [1, 2, NaN]"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "`parseInt` takes two arguments: the string and the radix.",
+        "`map` passes three arguments: value, index, and array.",
+        "So, the calls are: `parseInt(1, 0)`, `parseInt(2, 1)`, `parseInt(3, 2)`. Radix 1 and 2 are invalid, resulting in `NaN`."
+      ]
+    },
+    {
+      "id": 148,
+      "type": "true_false",
+      "difficulty": "beginner",
+      "category": "react_fundamentals",
+      "question": "React components can be styled using inline styles.",
+      "correct_answer": "True",
+      "explanations": [
+        "Inline styles in React are written as a JavaScript object.",
+        "They are applied using the `style` attribute.",
+        "They are often used for dynamic styling."
+      ]
+    },
+    {
+      "id": 149,
+      "type": "multiple_choice",
+      "difficulty": "intermediate",
+      "category": "react_fundamentals",
+      "question": "What is the purpose of `React.Fragment`?",
+      "options": [
+        "A) To allow grouping of children without adding extra nodes to the DOM",
+        "B) To create a fragment of a component",
+        "C) To fragment a list",
+        "D) To split the DOM"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "`React.Fragment` is used to return multiple elements from a component.",
+        "It is a lightweight wrapper that is not rendered to the DOM.",
+        "It helps avoid unnecessary `<div>`s."
+      ]
+    },
+    {
+      "id": 150,
+      "type": "true_false",
+      "difficulty": "intermediate",
+      "category": "react_fundamentals",
+      "question": "The `children` prop is a special prop used to pass nested components.",
+      "correct_answer": "True",
+      "explanations": [
+        "`children` is a reserved prop in React.",
+        "It allows components to be composed.",
+        "It represents the content between the opening and closing tags."
+      ]
+    },
+    {
+      "id": 151,
+      "type": "multiple_choice",
+      "difficulty": "advanced",
+      "category": "react_fundamentals",
+      "question": "What is the difference between `useEffect` and `useLayoutEffect`?",
+      "options": [
+        "A) `useLayoutEffect` fires synchronously after DOM mutations; `useEffect` fires asynchronously after painting",
+        "B) `useEffect` fires synchronously; `useLayoutEffect` fires asynchronously",
+        "C) They are the same",
+        "D) `useLayoutEffect` is for layout calculations"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "`useLayoutEffect` runs before the browser repaints.",
+        "`useEffect` runs after the browser repaints.",
+        "`useLayoutEffect` is used for DOM measurements."
+      ]
+    },
+    {
+      "id": 152,
+      "type": "true_false",
+      "difficulty": "intermediate",
+      "category": "dom_manipulation",
+      "question": "`document.querySelector()` returns the first element that matches a CSS selector.",
+      "correct_answer": "True",
+      "explanations": [
+        "`querySelector` is a powerful method to select elements.",
+        "It returns `null` if no match is found.",
+        "`querySelectorAll` returns all matches."
+      ]
+    },
+    {
+      "id": 153,
+      "type": "multiple_choice",
+      "difficulty": "advanced",
+      "category": "dom_manipulation",
+      "question": "What is the purpose of the `Shadow DOM`?",
+      "options": [
+        "A) To encapsulate the DOM and CSS of a component, preventing them from being affected by the main document",
+        "B) To create a shadow of the document",
+        "C) To make the DOM invisible",
+        "D) To hide DOM elements"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "Shadow DOM is used in Web Components.",
+        "It provides style and DOM encapsulation.",
+        "It allows creating reusable components."
+      ]
+    },
+    {
+      "id": 154,
+      "type": "true_false",
+      "difficulty": "beginner",
+      "category": "browser_apis",
+      "question": "The `window` object is the global object in browser JavaScript.",
+      "correct_answer": "True",
+      "explanations": [
+        "`window` represents the browser window.",
+        "It is the top-level object in the browser.",
+        "Global variables become properties of `window`."
+      ]
+    },
+    {
+      "id": 155,
+      "type": "multiple_choice",
+      "difficulty": "intermediate",
+      "category": "browser_apis",
+      "question": "What is the purpose of `window.localStorage`?",
+      "options": [
+        "A) To store data persistently in the user's browser",
+        "B) To store data temporarily for a session",
+        "C) To store data on the server",
+        "D) To store cookies"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "`localStorage` is a web storage API.",
+        "Data is stored as key-value pairs.",
+        "It persists across browser sessions."
+      ]
+    },
+    {
+      "id": 156,
+      "type": "true_false",
+      "difficulty": "intermediate",
+      "category": "web_performance",
+      "question": "Image optimization is a key aspect of improving web performance.",
+      "correct_answer": "True",
+      "explanations": [
+        "Optimized images reduce page load time.",
+        "Techniques include compression, using the right format, and lazy loading.",
+        "It is a critical part of performance optimization."
+      ]
+    },
+    {
+      "id": 157,
+      "type": "multiple_choice",
+      "difficulty": "advanced",
+      "category": "web_performance",
+      "question": "What is the purpose of the `rel=\"preload\"` attribute in a `<link>` tag?",
+      "options": [
+        "A) To tell the browser to fetch the resource before rendering, improving performance",
+        "B) To preload the page for faster navigation",
+        "C) To load the page asynchronously",
+        "D) To preload the browser cache"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "`rel=\"preload\"` is used to prioritize the fetching of critical resources.",
+        "It is used for resources like fonts, images, or scripts.",
+        "It improves the performance of the critical rendering path."
+      ]
+    },
+    {
+      "id": 158,
+      "type": "true_false",
+      "difficulty": "beginner",
+      "category": "html_fundamentals",
+      "question": "The `<head>` section of an HTML document contains metadata and links to external resources.",
+      "correct_answer": "True",
+      "explanations": [
+        "The `<head>` contains `<title>`, `<meta>`, `<link>`, and `<script>` tags.",
+        "It is not displayed in the browser window.",
+        "It provides information about the document."
+      ]
+    },
+    {
+      "id": 159,
+      "type": "multiple_choice",
+      "difficulty": "intermediate",
+      "category": "html_fundamentals",
+      "question": "What is the difference between `<article>` and `<section>`?",
+      "options": [
+        "A) `<article>` represents a self-contained composition; `<section>` represents a thematic group of content",
+        "B) `<article>` is for news; `<section>` is for blogs",
+        "C) There is no difference",
+        "D) `<article>` is a block element; `<section>` is an inline element"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "`<article>` should contain content that can be independently distributed.",
+        "`<section>` groups related content, often with a heading.",
+        "They are both semantic HTML5 elements."
+      ]
+    },
+    {
+      "id": 160,
+      "type": "true_false",
+      "difficulty": "advanced",
+      "category": "html_fundamentals",
+      "question": "The `<template>` element holds HTML that is not rendered when the page loads but can be instantiated later via JavaScript.",
+      "correct_answer": "True",
+      "explanations": [
+        "`<template>` is used for declaring fragments of HTML.",
+        "It is inert; it is not rendered.",
+        "It is useful for client-side templating."
+      ]
+    },
+    {
+      "id": 161,
+      "type": "multiple_choice",
+      "difficulty": "beginner",
+      "category": "css_fundamentals",
+      "question": "Which CSS selector has the highest specificity?",
+      "options": [
+        "A) Inline styles",
+        "B) IDs",
+        "C) Classes",
+        "D) Element selectors"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "Inline styles have the highest specificity.",
+        "They override all other styles.",
+        "They should be used sparingly."
+      ]
+    },
+    {
+      "id": 162,
+      "type": "true_false",
+      "difficulty": "beginner",
+      "category": "css_fundamentals",
+      "question": "CSS variables must be declared using the `--` prefix.",
+      "correct_answer": "True",
+      "explanations": [
+        "CSS variables are defined with `--variable-name`.",
+        "They are accessed with `var(--variable-name)`.",
+        "They are also known as custom properties."
+      ]
+    },
+    {
+      "id": 163,
+      "type": "multiple_choice",
+      "difficulty": "intermediate",
+      "category": "css_fundamentals",
+      "question": "What is the purpose of `flex-grow` in Flexbox?",
+      "options": [
+        "A) To define how much a flex item can grow relative to others",
+        "B) To grow the text inside the item",
+        "C) To increase the size of the container",
+        "D) To prevent the item from growing"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "`flex-grow` is a flex property.",
+        "It controls the ability of an item to take up space.",
+        "A value of 1 means it can grow, 0 means it won't."
+      ]
+    },
+    {
+      "id": 164,
+      "type": "true_false",
+      "difficulty": "intermediate",
+      "category": "css_fundamentals",
+      "question": "The `grid-template-columns` property defines the number and size of rows in a CSS Grid.",
+      "correct_answer": "False",
+      "explanations": [
+        "`grid-template-columns` defines the number and size of columns.",
+        "`grid-template-rows` defines the number and size of rows.",
+        "Both are essential for defining a grid."
+      ]
+    },
+    {
+      "id": 165,
+      "type": "multiple_choice",
+      "difficulty": "advanced",
+      "category": "css_fundamentals",
+      "question": "What is the difference between `grid-auto-flow` and `grid-template-areas`?",
+      "options": [
+        "A) `grid-auto-flow` controls the placement of items; `grid-template-areas` creates named grid areas",
+        "B) `grid-auto-flow` creates named areas; `grid-template-areas` controls placement",
+        "C) They are the same",
+        "D) `grid-auto-flow` is for columns; `grid-template-areas` is for rows"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "`grid-auto-flow` controls how items are placed into the grid (row or column).",
+        "`grid-template-areas` allows defining named areas for a visual layout.",
+        "Both are used in the CSS Grid layout."
+      ]
+    },
+    {
+      "id": 166,
+      "type": "true_false",
+      "difficulty": "beginner",
+      "category": "javascript_fundamentals",
+      "question": "The `console.log()` method is used to print messages to the browser's console.",
+      "correct_answer": "True",
+      "explanations": [
+        "`console.log()` is a debugging tool.",
+        "It is very useful for inspecting values.",
+        "It is available in the developer tools."
+      ]
+    },
+    {
+      "id": 167,
+      "type": "multiple_choice",
+      "difficulty": "intermediate",
+      "category": "javascript_fundamentals",
+      "question": "What is the difference between `null` and `undefined`?",
+      "options": [
+        "A) `undefined` is a variable that has been declared but not assigned a value; `null` is an assignment value representing no value",
+        "B) `null` is a variable that has been declared but not assigned a value; `undefined` is an assignment value",
+        "C) They are the same",
+        "D) `null` is a number; `undefined` is a string"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "`undefined` is a type in JavaScript.",
+        "`null` is an object.",
+        "`undefined` usually indicates absence, while `null` indicates an intentional empty value."
+      ]
+    },
+    {
+      "id": 168,
+      "type": "true_false",
+      "difficulty": "advanced",
+      "category": "javascript_fundamentals",
+      "question": "`Object.is()` is a more robust way to compare values than `===`, handling edge cases like `-0` and `NaN`.",
+      "correct_answer": "True",
+      "explanations": [
+        "`Object.is()` determines whether two values are the same value.",
+        "It returns true for `NaN === NaN`.",
+        "It distinguishes `-0` from `+0`."
+      ]
+    },
+    {
+      "id": 169,
+      "type": "multiple_choice",
+      "difficulty": "intermediate",
+      "category": "react_fundamentals",
+      "question": "What is the purpose of `React.StrictMode`?",
+      "options": [
+        "A) To highlight potential problems in an application",
+        "B) To enforce strict coding standards",
+        "C) To optimize performance",
+        "D) To handle errors"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "`StrictMode` is a wrapper component.",
+        "It checks for unsafe lifecycle methods and side effects.",
+        "It only runs in development mode."
+      ]
+    },
+    {
+      "id": 170,
+      "type": "true_false",
+      "difficulty": "intermediate",
+      "category": "react_fundamentals",
+      "question": "React Hooks can only be called at the top level of a component.",
+      "correct_answer": "True",
+      "explanations": [
+        "Hooks must be called in the same order on every render.",
+        "They cannot be called inside loops, conditions, or nested functions.",
+        "This rule ensures state is preserved between renders."
+      ]
+    },
+    {
+      "id": 171,
+      "type": "multiple_choice",
+      "difficulty": "advanced",
+      "category": "react_fundamentals",
+      "question": "What is the purpose of `useImperativeHandle`?",
+      "options": [
+        "A) To customize the instance value that is exposed to parent components when using `ref`",
+        "B) To handle imperative events",
+        "C) To manage state",
+        "D) To handle errors"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "`useImperativeHandle` is used with `forwardRef`.",
+        "It allows a parent to call functions or access properties of a child.",
+        "It is used for imperative imperative code."
+      ]
+    },
+    {
+      "id": 172,
+      "type": "true_false",
+      "difficulty": "intermediate",
+      "category": "dom_manipulation",
+      "question": "`document.querySelectorAll()` returns a NodeList, which is a type of array.",
+      "correct_answer": "False",
+      "explanations": [
+        "A NodeList is an array-like object, but not a true array.",
+        "It can be iterated over, but does not have array methods like `map` or `filter`.",
+        "It can be converted to an array using `Array.from()`."
+      ]
+    },
+    {
+      "id": 173,
+      "type": "multiple_choice",
+      "difficulty": "advanced",
+      "category": "dom_manipulation",
+      "question": "What is the difference between `getElementById` and `querySelector`?",
+      "options": [
+        "A) `getElementById` is faster and only selects by ID; `querySelector` is more flexible, selecting by any CSS selector",
+        "B) `getElementById` is more flexible; `querySelector` is faster",
+        "C) They are the same",
+        "D) `getElementById` returns a NodeList; `querySelector` returns a single element"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "`getElementById` is optimized for ID selection.",
+        "`querySelector` is more versatile.",
+        "`querySelector` is slower but more powerful."
+      ]
+    },
+    {
+      "id": 174,
+      "type": "true_false",
+      "difficulty": "beginner",
+      "category": "browser_apis",
+      "question": "The `window.history` object can be used to navigate the browser's history.",
+      "correct_answer": "True",
+      "explanations": [
+        "`history` has methods like `back()`, `forward()`, and `go()`.",
+        "It also supports `pushState()` and `replaceState()`.",
+        "It is used in single-page applications."
+      ]
+    },
+    {
+      "id": 175,
+      "type": "multiple_choice",
+      "difficulty": "intermediate",
+      "category": "browser_apis",
+      "question": "What is the purpose of `window.onload`?",
+      "options": [
+        "A) To run a script when the entire page has loaded, including images and stylesheets",
+        "B) To run a script when the DOM is ready",
+        "C) To run a script when the page is unloaded",
+        "D) To run a script on a specific event"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "`window.onload` fires after all external resources are loaded.",
+        "`DOMContentLoaded` fires when the DOM is ready.",
+        "`onload` is often used for late-stage initialization."
+      ]
+    },
+    {
+      "id": 176,
+      "type": "true_false",
+      "difficulty": "advanced",
+      "category": "web_performance",
+      "question": "HTTP/2 can improve performance by enabling multiplexing and reducing the need for domain sharding.",
+      "correct_answer": "True",
+      "explanations": [
+        "HTTP/2 allows multiple requests on a single connection.",
+        "It reduces latency.",
+        "It makes domain sharding obsolete."
+      ]
+    },
+    {
+      "id": 177,
+      "type": "multiple_choice",
+      "difficulty": "beginner",
+      "category": "html_fundamentals",
+      "question": "Which tag is used to define the main content of an HTML document?",
+      "options": [
+        "A) <main>",
+        "B) <body>",
+        "C) <content>",
+        "D) <section>"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "The `<main>` element represents the dominant content of the `<body>`.",
+        "It helps screen readers and search engines find the primary content.",
+        "It should be unique per page."
+      ]
+    },
+    {
+      "id": 178,
+      "type": "true_false",
+      "difficulty": "intermediate",
+      "category": "html_fundamentals",
+      "question": "The `defer` attribute in the `<script>` tag delays script execution until the HTML is parsed.",
+      "correct_answer": "True",
+      "explanations": [
+        "`defer` downloads the script in parallel, but executes it after parsing.",
+        "It is useful for scripts that depend on the DOM.",
+        "It is an alternative to placing scripts at the end of the `<body>`."
+      ]
+    },
+    {
+      "id": 179,
+      "type": "multiple_choice",
+      "difficulty": "advanced",
+      "category": "html_fundamentals",
+      "question": "What is the difference between `async` and `defer` on `<script>` tags?",
+      "options": [
+        "A) `async` downloads and executes as soon as possible; `defer` executes after the HTML is parsed",
+        "B) `defer` downloads and executes as soon as possible; `async` executes after the HTML is parsed",
+        "C) They are the same",
+        "D) `async` is for external scripts; `defer` is for internal"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "`async` scripts may interrupt the parser.",
+        "`defer` scripts are guaranteed to run in order.",
+        "Both are used for non-blocking script loading."
+      ]
+    },
+    {
+      "id": 180,
+      "type": "true_false",
+      "difficulty": "beginner",
+      "category": "css_fundamentals",
+      "question": "The `font-family` property in CSS specifies the font of an element.",
+      "correct_answer": "True",
+      "explanations": [
+        "`font-family` defines the font for an element.",
+        "Multiple fonts can be specified as fallbacks.",
+        "Example: `font-family: Arial, Helvetica, sans-serif;`."
+      ]
+    },
+    {
+      "id": 181,
+      "type": "multiple_choice",
+      "difficulty": "intermediate",
+      "category": "css_fundamentals",
+      "question": "What is the purpose of `text-overflow: ellipsis;`?",
+      "options": [
+        "A) To truncate text with an ellipsis when it overflows its container",
+        "B) To add a tooltip on hover",
+        "C) To change the text color",
+        "D) To make text bold"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "`text-overflow` is used to indicate hidden overflow.",
+        "It is often used with `white-space: nowrap;` and `overflow: hidden;`.",
+        "It is a common pattern for text truncation."
+      ]
+    },
+    {
+      "id": 182,
+      "type": "true_false",
+      "difficulty": "advanced",
+      "category": "css_fundamentals",
+      "question": "The `@import` rule can be used to include external CSS files, but it can impact performance by blocking rendering.",
+      "correct_answer": "True",
+      "explanations": [
+        "`@import` loads CSS sequentially.",
+        "It can slow down page load.",
+        "Using `<link>` tags is generally preferred."
+      ]
+    },
+    {
+      "id": 183,
+      "type": "multiple_choice",
+      "difficulty": "beginner",
+      "category": "javascript_fundamentals",
+      "question": "What is the correct syntax for a for loop in JavaScript?",
+      "options": [
+        "A) for (let i = 0; i < 5; i++) {}",
+        "B) for (let i = 0; i < 5; i--) {}",
+        "C) for (i = 0; i < 5) {}",
+        "D) for (let i < 5; i++) {}"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "A for loop consists of initialization, condition, and increment.",
+        "`let i = 0; i < 5; i++` is the standard syntax.",
+        "The loop runs as long as the condition is true."
+      ]
+    },
+    {
+      "id": 184,
+      "type": "true_false",
+      "difficulty": "intermediate",
+      "category": "javascript_fundamentals",
+      "question": "The `break` statement is used to exit a loop entirely.",
+      "correct_answer": "True",
+      "explanations": [
+        "`break` terminates the current loop.",
+        "`continue` skips the current iteration.",
+        "It can also be used in `switch` statements."
+      ]
+    },
+    {
+      "id": 185,
+      "type": "multiple_choice",
+      "difficulty": "advanced",
+      "category": "javascript_fundamentals",
+      "question": "What will `console.log(typeof NaN)` return?",
+      "options": [
+        "A) 'number'",
+        "B) 'NaN'",
+        "C) 'undefined'",
+        "D) 'object'"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "`NaN` stands for 'Not-a-Number'.",
+        "Despite the name, it is of type 'number'.",
+        "This is a well-known quirk in JavaScript."
+      ]
+    },
+    {
+      "id": 186,
+      "type": "true_false",
+      "difficulty": "beginner",
+      "category": "react_fundamentals",
+      "question": "Props can be passed to React components as HTML attributes in JSX.",
+      "correct_answer": "True",
+      "explanations": [
+        "JSX allows passing props like attributes.",
+        "Example: `<MyComponent name=\"John\" age={30} />`.",
+        "Props are collected in a props object."
+      ]
+    },
+    {
+      "id": 187,
+      "type": "multiple_choice",
+      "difficulty": "intermediate",
+      "category": "react_fundamentals",
+      "question": "What is the purpose of `React.createElement`?",
+      "options": [
+        "A) To create a React element, which is the JSX code transformed into",
+        "B) To create a new component",
+        "C) To create a new context",
+        "D) To create a new fragment"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "`React.createElement` is the function that creates a React element.",
+        "It takes three arguments: type, props, and children.",
+        "JSX is transpiled to these calls."
+      ]
+    },
+    {
+      "id": 188,
+      "type": "true_false",
+      "difficulty": "advanced",
+      "category": "react_fundamentals",
+      "question": "React's `reconciliation` algorithm determines which parts of the component tree need to be updated.",
+      "correct_answer": "True",
+      "explanations": [
+        "Reconciliation is the diffing algorithm.",
+        "It compares the virtual DOM with the real DOM.",
+        "It is responsible for efficient updates."
+      ]
+    },
+    {
+      "id": 189,
+      "type": "multiple_choice",
+      "difficulty": "intermediate",
+      "category": "dom_manipulation",
+      "question": "What is the purpose of `event.target`?",
+      "options": [
+        "A) To refer to the element that triggered the event",
+        "B) To refer to the element the event listener is attached to",
+        "C) To refer to the current target during bubbling",
+        "D) To target the element for styling"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "`event.target` is the element that was clicked or focused.",
+        "It is useful for event delegation.",
+        "`event.currentTarget` is the element the listener is attached to."
+      ]
+    },
+    {
+      "id": 190,
+      "type": "true_false",
+      "difficulty": "intermediate",
+      "category": "dom_manipulation",
+      "question": "`event.currentTarget` and `event.target` are always the same.",
+      "correct_answer": "False",
+      "explanations": [
+        "They differ when event bubbling occurs.",
+        "`target` is the deepest element that triggered the event.",
+        "`currentTarget` is the element handling the event."
+      ]
+    },
+    {
+      "id": 191,
+      "type": "multiple_choice",
+      "difficulty": "advanced",
+      "category": "dom_manipulation",
+      "question": "What is a 'mutation observer' used for?",
+      "options": [
+        "A) To observe and react to changes in the DOM",
+        "B) To mutate the DOM directly",
+        "C) To observe network requests",
+        "D) To observe user interactions"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "`MutationObserver` watches for changes like added nodes or changed attributes.",
+        "It is a powerful API for reacting to DOM updates.",
+        "It is used in frameworks for detecting changes."
+      ]
+    },
+    {
+      "id": 192,
+      "type": "true_false",
+      "difficulty": "beginner",
+      "category": "browser_apis",
+      "question": "The `location` object provides information about the current URL.",
+      "correct_answer": "True",
+      "explanations": [
+        "`window.location` is used to read and navigate URLs.",
+        "It has properties like `href`, `pathname`, and `search`.",
+        "It can also be assigned a new URL to navigate."
+      ]
+    },
+    {
+      "id": 193,
+      "type": "multiple_choice",
+      "difficulty": "intermediate",
+      "category": "browser_apis",
+      "question": "What is the purpose of `window.sessionStorage`?",
+      "options": [
+        "A) To store data that is cleared when the page session ends",
+        "B) To store data persistently",
+        "C) To store data on the server",
+        "D) To store cookies"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "`sessionStorage` stores data for the duration of the page session.",
+        "The data is available only in the tab/window it was created in.",
+        "It is similar to `localStorage` but with a different lifetime."
+      ]
+    },
+    {
+      "id": 194,
+      "type": "true_false",
+      "difficulty": "advanced",
+      "category": "web_performance",
+      "question": "Using a Content Delivery Network (CDN) can improve web performance by serving resources from servers closer to the user.",
+      "correct_answer": "True",
+      "explanations": [
+        "CDNs reduce latency.",
+        "They also distribute the load on the origin server.",
+        "They are a best practice for performance."
+      ]
+    },
+    {
+      "id": 195,
+      "type": "multiple_choice",
+      "difficulty": "beginner",
+      "category": "html_fundamentals",
+      "question": "What is the purpose of the `<nav>` element?",
+      "options": [
+        "A) To define a set of navigation links",
+        "B) To define a navigation bar",
+        "C) To define the navigation section of a page",
+        "D) To define the main navigation menu"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "`<nav>` is a semantic element for navigation links.",
+        "It helps screen readers identify the navigation area.",
+        "It can contain a list of links."
+      ]
+    },
+    {
+      "id": 196,
+      "type": "true_false",
+      "difficulty": "intermediate",
+      "category": "html_fundamentals",
+      "question": "The `<textarea>` element is used to create a multi-line text input.",
+      "correct_answer": "True",
+      "explanations": [
+        "`<textarea>` is for multi-line text.",
+        "It has attributes like `rows` and `cols`.",
+        "It is commonly used in forms."
+      ]
+    },
+    {
+      "id": 197,
+      "type": "multiple_choice",
+      "difficulty": "advanced",
+      "category": "html_fundamentals",
+      "question": "What is the difference between the `readonly` and `disabled` attributes on a form input?",
+      "options": [
+        "A) `readonly` prevents user input but the value is submitted; `disabled` prevents user input and the value is not submitted",
+        "B) `disabled` prevents user input but the value is submitted; `readonly` prevents user input and the value is not submitted",
+        "C) They are the same",
+        "D) `readonly` is for text inputs; `disabled` is for buttons"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "`readonly` allows the user to focus and highlight text.",
+        "`disabled` prevents interaction and greys out the element.",
+        "`disabled` fields are not included in form submission."
+      ]
+    },
+    {
+      "id": 198,
+      "type": "true_false",
+      "difficulty": "beginner",
+      "category": "css_fundamentals",
+      "question": "The `background` property is a shorthand for `background-color`, `background-image`, and other background properties.",
+      "correct_answer": "True",
+      "explanations": [
+        "`background` is a shorthand property.",
+        "It can set color, image, position, repeat, and more.",
+        "It is a convenient way to style backgrounds."
+      ]
+    },
+    {
+      "id": 199,
+      "type": "multiple_choice",
+      "difficulty": "intermediate",
+      "category": "css_fundamentals",
+      "question": "What is the purpose of the `transform` property in CSS?",
+      "options": [
+        "A) To apply 2D and 3D transformations like rotation, scaling, and translation",
+        "B) To transform the layout of the page",
+        "C) To change the text transformation",
+        "D) To apply transitions"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "`transform` applies visual effects without affecting the document flow.",
+        "It is used for animations and transitions.",
+        "Examples: `rotate(45deg)`, `scale(1.5)`, `translateX(10px)`."
+      ]
+    },
+    {
+      "id": 200,
+      "type": "true_false",
+      "difficulty": "advanced",
+      "category": "css_fundamentals",
+      "question": "The `will-change` property can be used to hint the browser about which elements will be animated, improving performance.",
+      "correct_answer": "True",
+      "explanations": [
+        "`will-change` tells the browser to optimize for specific changes.",
+        "It can improve performance for animations.",
+        "It should be used sparingly to avoid memory issues."
+      ]
+    }
+  ],
+  [
+    {
+      "id": 201,
+      "type": "multiple_choice",
+      "difficulty": "beginner",
+      "category": "javascript_fundamentals",
+      "question": "What is a function in JavaScript?",
+      "options": [
+        "A) A block of reusable code that can be called multiple times",
+        "B) A type of variable",
+        "C) A loop structure",
+        "D) A conditional statement"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "Functions are reusable blocks of code that perform a specific task.",
+        "They can take parameters and return values.",
+        "They are fundamental to JavaScript programming."
+      ]
+    },
+    {
+      "id": 202,
+      "type": "true_false",
+      "difficulty": "beginner",
+      "category": "javascript_fundamentals",
+      "question": "JavaScript functions must always return a value.",
+      "correct_answer": "False",
+      "explanations": [
+        "Functions can return a value explicitly with `return`.",
+        "If no return is specified, the function returns `undefined`.",
+        "This is a common characteristic of JavaScript functions."
+      ]
+    },
+    {
+      "id": 203,
+      "type": "multiple_choice",
+      "difficulty": "intermediate",
+      "category": "javascript_fundamentals",
+      "question": "What is the difference between a function declaration and a function expression?",
+      "options": [
+        "A) Function declarations are hoisted; function expressions are not",
+        "B) Function expressions are hoisted; function declarations are not",
+        "C) They are the same",
+        "D) Function declarations are for named functions; function expressions are for anonymous functions"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "Function declarations are hoisted to the top of their scope.",
+        "Function expressions are not hoisted.",
+        "This difference affects where and when you can call them."
+      ]
+    },
+    {
+      "id": 204,
+      "type": "true_false",
+      "difficulty": "intermediate",
+      "category": "javascript_fundamentals",
+      "question": "Arrow functions have their own `this` binding.",
+      "correct_answer": "False",
+      "explanations": [
+        "Arrow functions inherit `this` from the surrounding scope (lexical `this`).",
+        "They do not have their own `this`.",
+        "This makes them useful for callbacks and event handlers."
+      ]
+    },
+    {
+      "id": 205,
+      "type": "multiple_choice",
+      "difficulty": "advanced",
+      "category": "javascript_fundamentals",
+      "question": "What will `console.log([] == ![])` output?",
+      "options": [
+        "A) true",
+        "B) false",
+        "C) undefined",
+        "D) TypeError"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "`![]` evaluates to `false` because an array is truthy, and `!` negates it.",
+        "`[] == false` is coerced to `'' == 0`, then `0 == 0`.",
+        "This results in `true`."
+      ]
+    },
+    {
+      "id": 206,
+      "type": "multiple_choice",
+      "difficulty": "beginner",
+      "category": "react_fundamentals",
+      "question": "What is the correct way to handle user input in React?",
+      "options": [
+        "A) Using controlled components with state",
+        "B) Using `document.getElementById`",
+        "C) Using jQuery",
+        "D) Using `eval`"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "Controlled components use React state to manage input values.",
+        "The input value is derived from state, and changes are handled by event handlers.",
+        "This is the React way of handling forms."
+      ]
+    },
+    {
+      "id": 207,
+      "type": "true_false",
+      "difficulty": "intermediate",
+      "category": "react_fundamentals",
+      "question": "The `useState` hook returns an array with two elements: the current state and a function to update it.",
+      "correct_answer": "True",
+      "explanations": [
+        "`useState` is a hook for adding state to functional components.",
+        "It returns `[state, setState]`.",
+        "You can use array destructuring to get the values."
+      ]
+    },
+    {
+      "id": 208,
+      "type": "multiple_choice",
+      "difficulty": "advanced",
+      "category": "react_fundamentals",
+      "question": "What is the difference between `useEffect` and `useLayoutEffect` in React?",
+      "options": [
+        "A) `useLayoutEffect` runs synchronously after DOM mutations, before painting; `useEffect` runs asynchronously after painting",
+        "B) `useEffect` runs synchronously; `useLayoutEffect` runs asynchronously",
+        "C) They are the same",
+        "D) `useLayoutEffect` is for layout operations only"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "`useLayoutEffect` is useful for DOM measurements.",
+        "It runs before the browser repaints.",
+        "`useEffect` is the preferred option for most side effects."
+      ]
+    },
+    {
+      "id": 209,
+      "type": "true_false",
+      "difficulty": "beginner",
+      "category": "dom_manipulation",
+      "question": "The `innerHTML` property can be used to change the content of an element.",
+      "correct_answer": "True",
+      "explanations": [
+        "`innerHTML` sets or gets the HTML content inside an element.",
+        "It can be used to add, replace, or remove content.",
+        "It is a common way to manipulate the DOM."
+      ]
+    },
+    {
+      "id": 210,
+      "type": "multiple_choice",
+      "difficulty": "intermediate",
+      "category": "dom_manipulation",
+      "question": "What is the purpose of `classList` in JavaScript?",
+      "options": [
+        "A) To manage CSS classes of an element",
+        "B) To list all the classes in the document",
+        "C) To create a new class",
+        "D) To list all the elements with a class"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "`classList` provides methods like `add()`, `remove()`, `toggle()`, and `contains()`.",
+        "It is a convenient way to manipulate classes.",
+        "It is more efficient than `className` manipulation."
+      ]
+    },
+    {
+      "id": 211,
+      "type": "true_false",
+      "difficulty": "intermediate",
+      "category": "dom_manipulation",
+      "question": "`appendChild` can be used to add a child element to a parent element.",
+      "correct_answer": "True",
+      "explanations": [
+        "`appendChild` adds a child to a parent.",
+        "It appends the child at the end of the parent's children.",
+        "It is a fundamental DOM method."
+      ]
+    },
+    {
+      "id": 212,
+      "type": "multiple_choice",
+      "difficulty": "advanced",
+      "category": "dom_manipulation",
+      "question": "What is the difference between `appendChild` and `insertBefore`?",
+      "options": [
+        "A) `appendChild` adds at the end; `insertBefore` adds before a specified reference node",
+        "B) `insertBefore` adds at the end; `appendChild` adds before a reference node",
+        "C) They are the same",
+        "D) `appendChild` is for child elements; `insertBefore` is for text nodes"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "`appendChild` appends to the end of the child list.",
+        "`insertBefore` allows inserting at a specific position.",
+        "Both are used for DOM manipulation."
+      ]
+    },
+    {
+      "id": 213,
+      "type": "true_false",
+      "difficulty": "beginner",
+      "category": "browser_apis",
+      "question": "The `console` object has a `clear` method to clear the console.",
+      "correct_answer": "True",
+      "explanations": [
+        "`console.clear()` clears the console.",
+        "It is useful for debugging.",
+        "It is a standard method in browser consoles."
+      ]
+    },
+    {
+      "id": 214,
+      "type": "multiple_choice",
+      "difficulty": "intermediate",
+      "category": "browser_apis",
+      "question": "What is the purpose of `window.alert()`?",
+      "options": [
+        "A) To display a popup message to the user",
+        "B) To log a message to the console",
+        "C) To send a message to the server",
+        "D) To create a notification"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "`alert()` shows a modal dialog with a message.",
+        "It blocks the execution until the user clicks 'OK'.",
+        "It is useful for notifications but should be used sparingly."
+      ]
+    },
+    {
+      "id": 215,
+      "type": "true_false",
+      "difficulty": "advanced",
+      "category": "web_performance",
+      "question": "Preloading critical assets can reduce the Largest Contentful Paint (LCP) time.",
+      "correct_answer": "True",
+      "explanations": [
+        "Preloading essential resources (like images or fonts) can improve LCP.",
+        "It ensures the browser fetches these resources early.",
+        "It is a performance optimization technique."
+      ]
+    },
+    {
+      "id": 216,
+      "type": "multiple_choice",
+      "difficulty": "beginner",
+      "category": "html_fundamentals",
+      "question": "What is the purpose of the `<footer>` element?",
+      "options": [
+        "A) To define a footer for a document or section",
+        "B) To define the foot of a table",
+        "C) To define the bottom of the page",
+        "D) To define the footer of a form"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "The `<footer>` element represents a footer for its nearest sectioning content.",
+        "It typically contains information like author, copyright, and links.",
+        "It is a semantic HTML5 element."
+      ]
+    },
+    {
+      "id": 217,
+      "type": "true_false",
+      "difficulty": "intermediate",
+      "category": "html_fundamentals",
+      "question": "The `<aside>` element is used for content that is tangentially related to the main content.",
+      "correct_answer": "True",
+      "explanations": [
+        "`<aside>` is used for sidebars, pull quotes, or related links.",
+        "It is often used for secondary content.",
+        "It is part of HTML5 semantics."
+      ]
+    },
+    {
+      "id": 218,
+      "type": "multiple_choice",
+      "difficulty": "advanced",
+      "category": "html_fundamentals",
+      "question": "What is the difference between `<em>` and `<i>`?",
+      "options": [
+        "A) `<em>` conveys emphasis; `<i>` is purely for styling (italic)",
+        "B) `<i>` conveys emphasis; `<em>` is for styling",
+        "C) They are the same",
+        "D) `<em>` is for bold; `<i>` is for italic"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "`<em>` is a semantic tag that indicates stress emphasis.",
+        "`<i>` is a non-semantic tag used for stylistic italic text.",
+        "Use `<em>` for semantic meaning and `<i>` for visual styling."
+      ]
+    },
+    {
+      "id": 219,
+      "type": "true_false",
+      "difficulty": "beginner",
+      "category": "css_fundamentals",
+      "question": "The `text-align` property is used to center text horizontally.",
+      "correct_answer": "True",
+      "explanations": [
+        "`text-align: center;` centers inline content inside a block container.",
+        "Other values include `left`, `right`, and `justify`.",
+        "It is a commonly used property."
+      ]
+    },
+    {
+      "id": 220,
+      "type": "multiple_choice",
+      "difficulty": "intermediate",
+      "category": "css_fundamentals",
+      "question": "What is the purpose of `vertical-align`?",
+      "options": [
+        "A) To align inline or table-cell elements vertically",
+        "B) To align block elements vertically",
+        "C) To align text vertically within a container",
+        "D) To align flex items vertically"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "`vertical-align` is used for inline and table-cell elements.",
+        "It is not suitable for block-level layout.",
+        "Flexbox is used for vertical alignment in modern layouts."
+      ]
+    },
+    {
+      "id": 221,
+      "type": "true_false",
+      "difficulty": "advanced",
+      "category": "css_fundamentals",
+      "question": "The `revert` keyword in CSS reverts the property to the default value set by the user-agent.",
+      "correct_answer": "True",
+      "explanations": [
+        "`revert` returns the property to its default value.",
+        "It is similar to `unset` but with a difference.",
+        "It is useful for resetting styles."
+      ]
+    },
+    {
+      "id": 222,
+      "type": "multiple_choice",
+      "difficulty": "beginner",
+      "category": "javascript_fundamentals",
+      "question": "What is an array in JavaScript?",
+      "options": [
+        "A) A data structure that stores multiple values in a single variable",
+        "B) A type of function",
+        "C) A type of loop",
+        "D) A type of object"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "Arrays are ordered lists of values.",
+        "They can hold mixed data types.",
+        "They are zero-indexed."
+      ]
+    },
+    {
+      "id": 223,
+      "type": "true_false",
+      "difficulty": "beginner",
+      "category": "javascript_fundamentals",
+      "question": "The `push()` method adds an element to the beginning of an array.",
+      "correct_answer": "False",
+      "explanations": [
+        "`push()` adds an element to the end of an array.",
+        "`unshift()` adds an element to the beginning.",
+        "`pop()` removes an element from the end."
+      ]
+    },
+    {
+      "id": 224,
+      "type": "multiple_choice",
+      "difficulty": "intermediate",
+      "category": "javascript_fundamentals",
+      "question": "What is the `filter()` method used for?",
+      "options": [
+        "A) To create a new array with all elements that pass a test",
+        "B) To remove elements from an array",
+        "C) To find the first element that passes a test",
+        "D) To reduce an array to a single value"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "`filter()` is a higher-order function that returns a new array.",
+        "It takes a callback that returns a boolean.",
+        "It does not mutate the original array."
+      ]
+    },
+    {
+      "id": 225,
+      "type": "true_false",
+      "difficulty": "intermediate",
+      "category": "javascript_fundamentals",
+      "question": "The `find()` method returns the first element that matches a condition, or `undefined` if none match.",
+      "correct_answer": "True",
+      "explanations": [
+        "`find()` returns the first element that satisfies the condition.",
+        "It stops execution once a match is found.",
+        "It is useful for searching arrays."
+      ]
+    },
+    {
+      "id": 226,
+      "type": "multiple_choice",
+      "difficulty": "advanced",
+      "category": "javascript_fundamentals",
+      "question": "What is the output of `console.log([1, 2, 3].slice(1, 2))`?",
+      "options": [
+        "A) [2]",
+        "B) [1, 2]",
+        "C) [2, 3]",
+        "D) [1]"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "`slice(start, end)` returns a new array from `start` to `end` (exclusive).",
+        "`slice(1, 2)` takes element at index 1, which is `2`.",
+        "The original array is not modified."
+      ]
+    },
+    {
+      "id": 227,
+      "type": "true_false",
+      "difficulty": "intermediate",
+      "category": "react_fundamentals",
+      "question": "React uses a unidirectional data flow.",
+      "correct_answer": "True",
+      "explanations": [
+        "Data flows from parent to child components via props.",
+        "State changes trigger re-renders.",
+        "This pattern makes data flow predictable and easier to debug."
+      ]
+    },
+    {
+      "id": 228,
+      "type": "multiple_choice",
+      "difficulty": "advanced",
+      "category": "react_fundamentals",
+      "question": "What is the purpose of `React.lazy()`?",
+      "options": [
+        "A) To enable lazy loading of components for code splitting",
+        "B) To make components load faster",
+        "C) To optimize performance",
+        "D) To lazy load data"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "`React.lazy()` allows dynamic imports.",
+        "It is used with `Suspense` for code splitting.",
+        "It reduces the initial bundle size."
+      ]
+    },
+    {
+      "id": 229,
+      "type": "true_false",
+      "difficulty": "beginner",
+      "category": "dom_manipulation",
+      "question": "The `document` object represents the HTML document loaded in the browser.",
+      "correct_answer": "True",
+      "explanations": [
+        "`document` is the root of the DOM.",
+        "It provides access to all elements in the page.",
+        "It is a property of the `window` object."
+      ]
+    },
+    {
+      "id": 230,
+      "type": "multiple_choice",
+      "difficulty": "intermediate",
+      "category": "dom_manipulation",
+      "question": "What is the purpose of `createElement`?",
+      "options": [
+        "A) To create a new HTML element in memory",
+        "B) To add a new element to the page",
+        "C) To create a new style sheet",
+        "D) To create a new HTML document"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "`document.createElement()` creates a new element.",
+        "It is not automatically added to the DOM.",
+        "It is used with `appendChild` to add to the page."
+      ]
+    },
+    {
+      "id": 231,
+      "type": "true_false",
+      "difficulty": "advanced",
+      "category": "dom_manipulation",
+      "question": "`document.createRange()` is used to create a range object for selecting parts of the document.",
+      "correct_answer": "True",
+      "explanations": [
+        "Ranges are used for selection and manipulation.",
+        "They can be used to implement text editors.",
+        "They are part of the DOM Range API."
+      ]
+    },
+    {
+      "id": 232,
+      "type": "multiple_choice",
+      "difficulty": "beginner",
+      "category": "browser_apis",
+      "question": "What is the purpose of `window.scrollTo()`?",
+      "options": [
+        "A) To scroll the window to a specified position",
+        "B) To scroll to the top of the page",
+        "C) To scroll to the bottom of the page",
+        "D) To scroll to a specific element"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "`scrollTo()` scrolls to a specific position.",
+        "It takes coordinates or options like `top` and `left`.",
+        "It is used for smooth scrolling and navigation."
+      ]
+    },
+    {
+      "id": 233,
+      "type": "true_false",
+      "difficulty": "intermediate",
+      "category": "browser_apis",
+      "question": "The `window.print()` method opens the print dialog to print the current page.",
+      "correct_answer": "True",
+      "explanations": [
+        "`print()` triggers the browser's print functionality.",
+        "It is often used for printing invoices, reports, or articles.",
+        "It can be used in a button click event."
+      ]
+    },
+    {
+      "id": 234,
+      "type": "multiple_choice",
+      "difficulty": "advanced",
+      "category": "web_performance",
+      "question": "What is the purpose of the `rel=\"preconnect\"` attribute in a `<link>` tag?",
+      "options": [
+        "A) To establish a connection to an origin before making a request",
+        "B) To preload a resource",
+        "C) To prefetch a resource",
+        "D) To prerender a page"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "`preconnect` instructs the browser to set up a connection to an origin.",
+        "This reduces the time needed for subsequent requests.",
+        "It is used for third-party origins like CDNs."
+      ]
+    },
+    {
+      "id": 235,
+      "type": "true_false",
+      "difficulty": "beginner",
+      "category": "html_fundamentals",
+      "question": "The `<input>` element can have a `type` attribute with values like `text`, `number`, and `password`.",
+      "correct_answer": "True",
+      "explanations": [
+        "The `type` attribute defines the input type.",
+        "Common types include `text`, `number`, `email`, and `password`.",
+        "The browser renders different controls for different types."
+      ]
+    },
+    {
+      "id": 236,
+      "type": "multiple_choice",
+      "difficulty": "intermediate",
+      "category": "html_fundamentals",
+      "question": "What is the purpose of the `required` attribute on form elements?",
+      "options": [
+        "A) To make the field mandatory before form submission",
+        "B) To require the user to fill in the field",
+        "C) To require the field to be validated",
+        "D) To require a specific value"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "The `required` attribute ensures the field is filled out.",
+        "It triggers browser validation.",
+        "It is a native HTML5 validation feature."
+      ]
+    },
+    {
+      "id": 237,
+      "type": "true_false",
+      "difficulty": "advanced",
+      "category": "html_fundamentals",
+      "question": "The `pattern` attribute can be used with a regular expression to validate input in HTML forms.",
+      "correct_answer": "True",
+      "explanations": [
+        "`pattern` defines a regex that the input value must match.",
+        "It is used with text, search, and other input types.",
+        "It provides client-side validation."
+      ]
+    },
+    {
+      "id": 238,
+      "type": "multiple_choice",
+      "difficulty": "beginner",
+      "category": "css_fundamentals",
+      "question": "What is the purpose of the `margin: 0 auto;` declaration?",
+      "options": [
+        "A) To center a block element horizontally",
+        "B) To center an inline element",
+        "C) To center text",
+        "D) To center a flex item"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "`margin: 0 auto;` centers a block-level element horizontally.",
+        "It works when the element has a specified width.",
+        "It is a common technique for centering."
+      ]
+    },
+    {
+      "id": 239,
+      "type": "true_false",
+      "difficulty": "intermediate",
+      "category": "css_fundamentals",
+      "question": "The `position: fixed;` property fixes an element relative to the viewport.",
+      "correct_answer": "True",
+      "explanations": [
+        "Fixed elements are positioned relative to the viewport.",
+        "They stay in place even when scrolling.",
+        "They are removed from the normal document flow."
+      ]
+    },
+    {
+      "id": 240,
+      "type": "multiple_choice",
+      "difficulty": "advanced",
+      "category": "css_fundamentals",
+      "question": "What is the difference between `position: sticky;` and `position: fixed;`?",
+      "options": [
+        "A) `sticky` is relative until it reaches a threshold; `fixed` is always relative to the viewport",
+        "B) `fixed` is relative until it reaches a threshold; `sticky` is always relative to the viewport",
+        "C) They are the same",
+        "D) `sticky` is for tables; `fixed` is for divs"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "`sticky` behaves like `relative` until the element hits a scroll threshold.",
+        "Then, it becomes `fixed`.",
+        "It is useful for sticky headers."
+      ]
+    },
+    {
+      "id": 241,
+      "type": "true_false",
+      "difficulty": "beginner",
+      "category": "javascript_fundamentals",
+      "question": "The `Math` object in JavaScript provides mathematical constants and functions.",
+      "correct_answer": "True",
+      "explanations": [
+        "`Math` includes methods like `random()`, `round()`, `floor()`, and `ceil()`.",
+        "It also has constants like `PI` and `E`.",
+        "It is a built-in object."
+      ]
+    },
+    {
+      "id": 242,
+      "type": "multiple_choice",
+      "difficulty": "intermediate",
+      "category": "javascript_fundamentals",
+      "question": "What is the purpose of the `Date` object in JavaScript?",
+      "options": [
+        "A) To work with dates and times",
+        "B) To create a calendar",
+        "C) To format dates",
+        "D) To calculate time differences"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "The `Date` object is used to work with dates and times.",
+        "It can be created with `new Date()`.",
+        "It provides methods for getting and setting date/time values."
+      ]
+    },
+    {
+      "id": 243,
+      "type": "true_false",
+      "difficulty": "advanced",
+      "category": "javascript_fundamentals",
+      "question": "`JSON.parse()` is used to convert a JSON string into a JavaScript object.",
+      "correct_answer": "True",
+      "explanations": [
+        "`JSON.parse()` parses a JSON string.",
+        "It is the opposite of `JSON.stringify()`.",
+        "It is commonly used for API responses."
+      ]
+    },
+    {
+      "id": 244,
+      "type": "multiple_choice",
+      "difficulty": "intermediate",
+      "category": "react_fundamentals",
+      "question": "What is the purpose of `React.forwardRef`?",
+      "options": [
+        "A) To forward a ref to a child component",
+        "B) To create a ref",
+        "C) To forward props to a child component",
+        "D) To create a new ref"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "`forwardRef` allows a parent component to access a DOM element in a child component.",
+        "It is used with `useRef`.",
+        "It enables passing refs through component hierarchies."
+      ]
+    },
+    {
+      "id": 245,
+      "type": "true_false",
+      "difficulty": "intermediate",
+      "category": "react_fundamentals",
+      "question": "React components can be exported and imported using ES6 module syntax.",
+      "correct_answer": "True",
+      "explanations": [
+        "`export default MyComponent` and `import MyComponent from './MyComponent'`.",
+        "This is the standard way to organize React files.",
+        "It promotes modularity."
+      ]
+    },
+    {
+      "id": 246,
+      "type": "multiple_choice",
+      "difficulty": "advanced",
+      "category": "react_fundamentals",
+      "question": "What is the difference between `React.memo` and `useMemo`?",
+      "options": [
+        "A) `React.memo` memoizes the entire component; `useMemo` memoizes a value",
+        "B) `useMemo` memoizes the entire component; `React.memo` memoizes a value",
+        "C) They are the same",
+        "D) `React.memo` is for class components; `useMemo` is for functional components"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "`React.memo` is a higher-order component for preventing re-renders.",
+        "`useMemo` is a hook for memoizing computed values.",
+        "Both are performance optimization tools."
+      ]
+    },
+    {
+      "id": 247,
+      "type": "true_false",
+      "difficulty": "beginner",
+      "category": "dom_manipulation",
+      "question": "`getElementsByClassName` returns a live HTMLCollection of elements with the specified class.",
+      "correct_answer": "True",
+      "explanations": [
+        "`getElementsByClassName` is a method on the document object.",
+        "It returns a live collection that updates automatically.",
+        "It is used for selecting elements by class."
+      ]
+    },
+    {
+      "id": 248,
+      "type": "multiple_choice",
+      "difficulty": "intermediate",
+      "category": "dom_manipulation",
+      "question": "What is the purpose of `insertAdjacentHTML`?",
+      "options": [
+        "A) To insert HTML at a specified position relative to an element",
+        "B) To insert HTML at the end of an element",
+        "C) To insert HTML at the beginning of an element",
+        "D) To replace HTML content"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "`insertAdjacentHTML` allows inserting HTML at positions like `beforebegin`, `afterbegin`, `beforeend`, and `afterend`.",
+        "It is more efficient than using `innerHTML`.",
+        "It is a modern DOM manipulation method."
+      ]
+    },
+    {
+      "id": 249,
+      "type": "true_false",
+      "difficulty": "advanced",
+      "category": "dom_manipulation",
+      "question": "The `EventTarget` interface is implemented by elements, the document, and the window, allowing them to listen to events.",
+      "correct_answer": "True",
+      "explanations": [
+        "`EventTarget` is the base interface for event listeners.",
+        "It provides `addEventListener`, `removeEventListener`, and `dispatchEvent`.",
+        "It is part of the DOM Event API."
+      ]
+    },
+    {
+      "id": 250,
+      "type": "multiple_choice",
+      "difficulty": "beginner",
+      "category": "browser_apis",
+      "question": "What is the purpose of `window.location.href`?",
+      "options": [
+        "A) To get or set the current URL",
+        "B) To navigate to a new page",
+        "C) To get the URL of the current page",
+        "D) To reload the page"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "`window.location.href` provides the full URL of the current page.",
+        "Assigning a new value navigates to a new page.",
+        "It is a property of the `location` object."
+      ]
+    },
+    {
+      "id": 251,
+      "type": "true_false",
+      "difficulty": "intermediate",
+      "category": "browser_apis",
+      "question": "`window.history.back()` navigates to the previous page in history.",
+      "correct_answer": "True",
+      "explanations": [
+        "`history.back()` goes back one page.",
+        "It is equivalent to clicking the browser's back button.",
+        "`history.forward()` goes forward."
+      ]
+    },
+    {
+      "id": 252,
+      "type": "multiple_choice",
+      "difficulty": "advanced",
+      "category": "web_performance",
+      "question": "What is the purpose of `rel=\"prefetch\"` in a `<link>` tag?",
+      "options": [
+        "A) To fetch a resource that may be needed for the next navigation",
+        "B) To preload a critical resource",
+        "C) To preconnect to a server",
+        "D) To prerender a page"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "`prefetch` downloads a resource that will likely be needed.",
+        "It is used to speed up future navigation.",
+        "It has lower priority than `preload`."
+      ]
+    },
+    {
+      "id": 253,
+      "type": "true_false",
+      "difficulty": "beginner",
+      "category": "html_fundamentals",
+      "question": "The `<button>` element can have a `type` attribute with values `submit`, `reset`, or `button`.",
+      "correct_answer": "True",
+      "explanations": [
+        "`type=\"submit\"` submits the form.",
+        "`type=\"reset\"` resets the form.",
+        "`type=\"button\"` is a clickable button with no default action."
+      ]
+    },
+    {
+      "id": 254,
+      "type": "multiple_choice",
+      "difficulty": "intermediate",
+      "category": "html_fundamentals",
+      "question": "What is the purpose of the `for` attribute on a `<label>` element?",
+      "options": [
+        "A) To associate the label with a specific form control by its ID",
+        "B) To create a label for a loop",
+        "C) To define the label's text",
+        "D) To style the label"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "The `for` attribute links a label to an input element.",
+        "It improves accessibility by allowing clicking on the label to focus the input.",
+        "It is a best practice for form design."
+      ]
+    },
+    {
+      "id": 255,
+      "type": "true_false",
+      "difficulty": "advanced",
+      "category": "html_fundamentals",
+      "question": "The `<fieldset>` element is used to group related form elements, and `<legend>` provides a caption for the group.",
+      "correct_answer": "True",
+      "explanations": [
+        "`<fieldset>` groups form controls.",
+        "`<legend>` provides a title for the fieldset.",
+        "They improve accessibility and form structure."
+      ]
+    },
+    {
+      "id": 256,
+      "type": "multiple_choice",
+      "difficulty": "beginner",
+      "category": "css_fundamentals",
+      "question": "What is the purpose of the `font-size` property?",
+      "options": [
+        "A) To set the size of the font",
+        "B) To set the size of the text box",
+        "C) To set the size of the element",
+        "D) To set the size of the container"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "`font-size` controls the size of the text.",
+        "It can be set in `px`, `em`, `rem`, `%`, etc.",
+        "It is a key typography property."
+      ]
+    },
+    {
+      "id": 257,
+      "type": "true_false",
+      "difficulty": "intermediate",
+      "category": "css_fundamentals",
+      "question": "The `text-transform` property can be used to change text to uppercase, lowercase, or capitalize.",
+      "correct_answer": "True",
+      "explanations": [
+        "`text-transform` transforms the casing of text.",
+        "Values include `uppercase`, `lowercase`, and `capitalize`.",
+        "It is a styling property."
+      ]
+    },
+    {
+      "id": 258,
+      "type": "multiple_choice",
+      "difficulty": "advanced",
+      "category": "css_fundamentals",
+      "question": "What is the difference between `line-height` and `letter-spacing`?",
+      "options": [
+        "A) `line-height` controls vertical spacing between lines; `letter-spacing` controls horizontal spacing between characters",
+        "B) `letter-spacing` controls vertical spacing; `line-height` controls horizontal spacing",
+        "C) They are the same",
+        "D) `line-height` is for text; `letter-spacing` is for letters"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "`line-height` affects readability.",
+        "`letter-spacing` (tracking) affects the visual appearance.",
+        "Both are important for typography."
+      ]
+    },
+    {
+      "id": 259,
+      "type": "true_false",
+      "difficulty": "beginner",
+      "category": "javascript_fundamentals",
+      "question": "The `for...of` loop is used to iterate over iterable objects like arrays and strings.",
+      "correct_answer": "True",
+      "explanations": [
+        "`for...of` works with arrays, strings, maps, sets, and other iterables.",
+        "It iterates over values, not keys.",
+        "It is a modern ES6 feature."
+      ]
+    },
+    {
+      "id": 260,
+      "type": "multiple_choice",
+      "difficulty": "intermediate",
+      "category": "javascript_fundamentals",
+      "question": "What is the difference between `for...in` and `for...of`?",
+      "options": [
+        "A) `for...in` iterates over enumerable properties; `for...of` iterates over iterable values",
+        "B) `for...of` iterates over enumerable properties; `for...in` iterates over iterable values",
+        "C) They are the same",
+        "D) `for...in` is for arrays; `for...of` is for objects"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "`for...in` is used for objects.",
+        "`for...of` is used for iterables like arrays and strings.",
+        "Using `for...in` on arrays is not recommended."
+      ]
+    },
+    {
+      "id": 261,
+      "type": "true_false",
+      "difficulty": "intermediate",
+      "category": "javascript_fundamentals",
+      "question": "The `try...catch` statement is used to handle errors in JavaScript.",
+      "correct_answer": "True",
+      "explanations": [
+        "`try` contains the code that may throw an error.",
+        "`catch` handles the error.",
+        "It is a fundamental error-handling mechanism."
+      ]
+    },
+    {
+      "id": 262,
+      "type": "multiple_choice",
+      "difficulty": "advanced",
+      "category": "javascript_fundamentals",
+      "question": "What is the purpose of the `finally` block in `try...catch`?",
+      "options": [
+        "A) To execute code regardless of whether an error was thrown or caught",
+        "B) To execute code only if an error was thrown",
+        "C) To execute code only if no error was thrown",
+        "D) To execute code after the catch block"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "`finally` runs after `try` and `catch`.",
+        "It is used for cleanup tasks.",
+        "It always executes, even if there is a return statement."
+      ]
+    },
+    {
+      "id": 263,
+      "type": "true_false",
+      "difficulty": "beginner",
+      "category": "react_fundamentals",
+      "question": "React components can have state that is local to the component.",
+      "correct_answer": "True",
+      "explanations": [
+        "State is private to the component.",
+        "It can be changed with `setState` or `useState`.",
+        "It is not accessible to other components."
+      ]
+    },
+    {
+      "id": 264,
+      "type": "multiple_choice",
+      "difficulty": "intermediate",
+      "category": "react_fundamentals",
+      "question": "What is the purpose of the `useEffect` cleanup function?",
+      "options": [
+        "A) To clean up subscriptions, timers, or other side effects before the component unmounts or updates",
+        "B) To clean up the component's state",
+        "C) To clean up the DOM",
+        "D) To clean up the props"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "The cleanup function returns from `useEffect`.",
+        "It runs before the effect runs again and before unmounting.",
+        "It prevents memory leaks."
+      ]
+    },
+    {
+      "id": 265,
+      "type": "true_false",
+      "difficulty": "advanced",
+      "category": "react_fundamentals",
+      "question": "React's `Concurrent Mode` allows multiple versions of a component tree to be rendered simultaneously.",
+      "correct_answer": "True",
+      "explanations": [
+        "Concurrent Mode enables interruptible rendering.",
+        "It improves responsiveness.",
+        "It is an experimental feature."
+      ]
+    },
+    {
+      "id": 266,
+      "type": "multiple_choice",
+      "difficulty": "beginner",
+      "category": "dom_manipulation",
+      "question": "What is the purpose of `document.addEventListener`?",
+      "options": [
+        "A) To attach an event listener to a DOM element",
+        "B) To add an event to the document",
+        "C) To create a new event",
+        "D) To remove an event listener"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "`addEventListener` is the modern way to attach event listeners.",
+        "It supports event delegation and multiple listeners.",
+        "It is preferred over `onclick` attributes."
+      ]
+    },
+    {
+      "id": 267,
+      "type": "true_false",
+      "difficulty": "intermediate",
+      "category": "dom_manipulation",
+      "question": "The `DOMContentLoaded` event fires when the initial HTML document has been completely loaded and parsed.",
+      "correct_answer": "True",
+      "explanations": [
+        "`DOMContentLoaded` fires before images and stylesheets are fully loaded.",
+        "It is useful for running scripts that need the DOM.",
+        "It is different from `window.onload`."
+      ]
+    },
+    {
+      "id": 268,
+      "type": "multiple_choice",
+      "difficulty": "advanced",
+      "category": "dom_manipulation",
+      "question": "What is the difference between `DOMContentLoaded` and `load` events?",
+      "options": [
+        "A) `DOMContentLoaded` fires when the DOM is ready; `load` fires when the entire page (including resources) is loaded",
+        "B) `load` fires when the DOM is ready; `DOMContentLoaded` fires when the entire page is loaded",
+        "C) They are the same",
+        "D) `DOMContentLoaded` is for images; `load` is for scripts"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "`DOMContentLoaded` is earlier and doesn't wait for resources.",
+        "`load` waits for everything, including images.",
+        "Use `DOMContentLoaded` for faster script execution."
+      ]
+    },
+    {
+      "id": 269,
+      "type": "true_false",
+      "difficulty": "beginner",
+      "category": "browser_apis",
+      "question": "The `screen` object provides information about the user's screen.",
+      "correct_answer": "True",
+      "explanations": [
+        "`window.screen` gives information about the display.",
+        "It includes properties like `width`, `height`, and `colorDepth`.",
+        "It is useful for responsive design."
+      ]
+    },
+    {
+      "id": 270,
+      "type": "multiple_choice",
+      "difficulty": "intermediate",
+      "category": "browser_apis",
+      "question": "What is the purpose of `window.getComputedStyle()`?",
+      "options": [
+        "A) To get the computed CSS style of an element",
+        "B) To get the style attribute of an element",
+        "C) To compute a new style for an element",
+        "D) To apply computed styles to an element"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "`getComputedStyle()` returns the final style of an element.",
+        "It includes styles from CSS and defaults.",
+        "It is useful for reading calculated styles."
+      ]
+    },
+    {
+      "id": 271,
+      "type": "true_false",
+      "difficulty": "advanced",
+      "category": "web_performance",
+      "question": "Using a `font-display` property with `swap` ensures text is visible during font loading, improving perceived performance.",
+      "correct_answer": "True",
+      "explanations": [
+        "`font-display: swap;` shows fallback text while loading.",
+        "It prevents invisible text during loading.",
+        "It improves user experience."
+      ]
+    },
+    {
+      "id": 272,
+      "type": "multiple_choice",
+      "difficulty": "beginner",
+      "category": "html_fundamentals",
+      "question": "What is the purpose of the `<h1>` to `<h6>` tags?",
+      "options": [
+        "A) To define headings of different levels",
+        "B) To style text as bold",
+        "C) To create lists",
+        "D) To define paragraphs"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "`<h1>` to `<h6>` represent six levels of headings.",
+        "They are semantic and important for document structure.",
+        "They help with SEO and accessibility."
+      ]
+    },
+    {
+      "id": 273,
+      "type": "true_false",
+      "difficulty": "beginner",
+      "category": "html_fundamentals",
+      "question": "The `<p>` tag is used to define a paragraph.",
+      "correct_answer": "True",
+      "explanations": [
+        "`<p>` represents a paragraph of text.",
+        "It is a block-level element.",
+        "It is one of the most common HTML tags."
+      ]
+    },
+    {
+      "id": 274,
+      "type": "multiple_choice",
+      "difficulty": "intermediate",
+      "category": "html_fundamentals",
+      "question": "What is the purpose of the `target` attribute on `<a>` tags?",
+      "options": [
+        "A) To specify where to open the linked document",
+        "B) To target a specific page",
+        "C) To target a specific file",
+        "D) To target a specific element"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "`target=\"_blank\"` opens the link in a new tab.",
+        "`target=\"_self\"` opens in the same tab (default).",
+        "Other values include `_parent` and `_top`."
+      ]
+    },
+    {
+      "id": 275,
+      "type": "true_false",
+      "difficulty": "advanced",
+      "category": "html_fundamentals",
+      "question": "The `<figure>` element is used to encapsulate media content like images, diagrams, or code snippets, with an optional `<figcaption>`.",
+      "correct_answer": "True",
+      "explanations": [
+        "`<figure>` groups media content.",
+        "`<figcaption>` provides a caption.",
+        "It is a semantic element."
+      ]
+    },
+    {
+      "id": 276,
+      "type": "multiple_choice",
+      "difficulty": "beginner",
+      "category": "css_fundamentals",
+      "question": "What is the purpose of the `border-radius` property?",
+      "options": [
+        "A) To create rounded corners for an element",
+        "B) To create a border with radius",
+        "C) To create a circle",
+        "D) To create an ellipse"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "`border-radius` rounds the corners of an element.",
+        "It can be set with one or more values.",
+        "It is widely used for modern UI design."
+      ]
+    },
+    {
+      "id": 277,
+      "type": "true_false",
+      "difficulty": "intermediate",
+      "category": "css_fundamentals",
+      "question": "The `box-shadow` property can create shadows inside or outside an element.",
+      "correct_answer": "True",
+      "explanations": [
+        "`box-shadow` creates drop shadows.",
+        "It takes values for offset, blur, spread, and color.",
+        "It is used for depth and visual effects."
+      ]
+    },
+    {
+      "id": 278,
+      "type": "multiple_choice",
+      "difficulty": "advanced",
+      "category": "css_fundamentals",
+      "question": "What is the difference between `filter` and `backdrop-filter`?",
+      "options": [
+        "A) `filter` applies visual effects to the element; `backdrop-filter` applies effects to the area behind the element",
+        "B) `backdrop-filter` applies effects to the element; `filter` applies effects to the area behind the element",
+        "C) They are the same",
+        "D) `filter` is for images; `backdrop-filter` is for backgrounds"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "`filter` affects the element itself.",
+        "`backdrop-filter` affects the background behind the element.",
+        "Both are used for visual effects."
+      ]
+    },
+    {
+      "id": 279,
+      "type": "true_false",
+      "difficulty": "beginner",
+      "category": "javascript_fundamentals",
+      "question": "The `switch` statement is a way to execute different code blocks based on different conditions.",
+      "correct_answer": "True",
+      "explanations": [
+        "`switch` is an alternative to multiple `if...else` statements.",
+        "It evaluates an expression and matches it to a case.",
+        "It uses `break` to prevent fall-through."
+      ]
+    },
+    {
+      "id": 280,
+      "type": "multiple_choice",
+      "difficulty": "intermediate",
+      "category": "javascript_fundamentals",
+      "question": "What is the purpose of the `default` case in a `switch` statement?",
+      "options": [
+        "A) To execute code when no other case matches",
+        "B) To set a default value",
+        "C) To provide a fallback for an error",
+        "D) To define a default behavior"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "`default` is optional.",
+        "It is executed when no matching case is found.",
+        "It is the equivalent of an `else` clause."
+      ]
+    },
+    {
+      "id": 281,
+      "type": "true_false",
+      "difficulty": "intermediate",
+      "category": "javascript_fundamentals",
+      "question": "The `while` loop continues to execute as long as the specified condition is true.",
+      "correct_answer": "True",
+      "explanations": [
+        "`while` is a pre-test loop.",
+        "If the condition is false initially, the loop never executes.",
+        "It is useful when the number of iterations is unknown."
+      ]
+    },
+    {
+      "id": 282,
+      "type": "multiple_choice",
+      "difficulty": "advanced",
+      "category": "javascript_fundamentals",
+      "question": "What is the difference between `while` and `do...while` loops?",
+      "options": [
+        "A) `do...while` executes the code block at least once before checking the condition; `while` checks the condition first",
+        "B) `while` executes at least once; `do...while` checks first",
+        "C) They are the same",
+        "D) `do...while` is for asynchronous operations"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "`do...while` guarantees at least one execution.",
+        "`while` may not execute if the condition is false.",
+        "Choose based on whether you need a guaranteed execution."
+      ]
+    },
+    {
+      "id": 283,
+      "type": "true_false",
+      "difficulty": "beginner",
+      "category": "react_fundamentals",
+      "question": "React components can be nested inside each other.",
+      "correct_answer": "True",
+      "explanations": [
+        "Component composition is a core concept in React.",
+        "Nesting allows building complex UIs from smaller components.",
+        "It promotes reusability."
+      ]
+    },
+    {
+      "id": 284,
+      "type": "multiple_choice",
+      "difficulty": "intermediate",
+      "category": "react_fundamentals",
+      "question": "What is the purpose of the `Suspense` component?",
+      "options": [
+        "A) To show a fallback UI while waiting for some asynchronous operation to complete",
+        "B) To suspend the component rendering",
+        "C) To handle errors in components",
+        "D) To suspend the application"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "`Suspense` is used with `React.lazy()`.",
+        "It displays a fallback while the lazy component loads.",
+        "It improves user experience."
+      ]
+    },
+    {
+      "id": 285,
+      "type": "true_false",
+      "difficulty": "advanced",
+      "category": "react_fundamentals",
+      "question": "React's `Error Boundary` is a component that catches JavaScript errors in its child component tree.",
+      "correct_answer": "True",
+      "explanations": [
+        "Error boundaries are used for error handling.",
+        "They catch errors in rendering, lifecycle methods, and constructors.",
+        "They provide a way to fallback to a custom error UI."
+      ]
+    },
+    {
+      "id": 286,
+      "type": "multiple_choice",
+      "difficulty": "beginner",
+      "category": "dom_manipulation",
+      "question": "What is the purpose of `document.write()`?",
+      "options": [
+        "A) To write directly to the document stream",
+        "B) To create a new element",
+        "C) To append text to an element",
+        "D) To write to the console"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "`document.write()` writes HTML to the document.",
+        "It is generally discouraged for modern development.",
+        "It can overwrite the document if used after load."
+      ]
+    },
+    {
+      "id": 287,
+      "type": "true_false",
+      "difficulty": "intermediate",
+      "category": "dom_manipulation",
+      "question": "The `innerText` property returns the visible text content of an element, considering CSS styles.",
+      "correct_answer": "True",
+      "explanations": [
+        "`innerText` respects CSS layout and excludes hidden text.",
+        "`textContent` returns all text, regardless of styling.",
+        "`innerText` can be slower due to layout recalculations."
+      ]
+    },
+    {
+      "id": 288,
+      "type": "multiple_choice",
+      "difficulty": "advanced",
+      "category": "dom_manipulation",
+      "question": "What is the difference between `innerText` and `textContent`?",
+      "options": [
+        "A) `innerText` respects CSS styles and returns only visible text; `textContent` returns all text",
+        "B) `textContent` respects CSS styles; `innerText` returns all text",
+        "C) They are the same",
+        "D) `innerText` is for HTML; `textContent` is for text"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "`innerText` is more performance-heavy.",
+        "`textContent` is generally faster.",
+        "Choose `textContent` for most use cases."
+      ]
+    },
+    {
+      "id": 289,
+      "type": "true_false",
+      "difficulty": "beginner",
+      "category": "browser_apis",
+      "question": "The `navigator.cookieEnabled` property can be used to check if cookies are enabled in the browser.",
+      "correct_answer": "True",
+      "explanations": [
+        "`navigator.cookieEnabled` returns a boolean.",
+        "It is used to determine if the browser supports cookies.",
+        "It is useful for fallback logic."
+      ]
+    },
+    {
+      "id": 290,
+      "type": "multiple_choice",
+      "difficulty": "intermediate",
+      "category": "browser_apis",
+      "question": "What is the purpose of `window.requestAnimationFrame()`?",
+      "options": [
+        "A) To schedule a function to be executed before the next repaint",
+        "B) To request an animation frame",
+        "C) To request a frame for video playback",
+        "D) To request a frame from the GPU"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "`requestAnimationFrame` is used for smooth animations.",
+        "It synchronizes with the browser's refresh rate.",
+        "It is more efficient than `setTimeout` for animations."
+      ]
+    },
+    {
+      "id": 291,
+      "type": "true_false",
+      "difficulty": "advanced",
+      "category": "web_performance",
+      "question": "Brotli and Gzip are compression algorithms used to reduce the size of resources transferred over the network.",
+      "correct_answer": "True",
+      "explanations": [
+        "Both are modern compression algorithms.",
+        "Brotli generally offers better compression than Gzip.",
+        "They are widely supported by browsers and servers."
+      ]
+    },
+    {
+      "id": 292,
+      "type": "multiple_choice",
+      "difficulty": "beginner",
+      "category": "html_fundamentals",
+      "question": "What is the purpose of the `<html>` tag?",
+      "options": [
+        "A) To define the root of an HTML document",
+        "B) To define the head of the document",
+        "C) To define the body of the document",
+        "D) To define the title of the document"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "The `<html>` element is the root element.",
+        "It contains all other HTML elements.",
+        "It is the top-level element."
+      ]
+    },
+    {
+      "id": 293,
+      "type": "true_false",
+      "difficulty": "beginner",
+      "category": "html_fundamentals",
+      "question": "The `<head>` element contains information about the document that is not displayed on the page.",
+      "correct_answer": "True",
+      "explanations": [
+        "`<head>` includes `<title>`, `<meta>`, and `<link>`.",
+        "It is not visible to the user.",
+        "It provides metadata about the document."
+      ]
+    },
+    {
+      "id": 294,
+      "type": "multiple_choice",
+      "difficulty": "intermediate",
+      "category": "html_fundamentals",
+      "question": "What is the purpose of the `src` attribute in the `<script>` tag?",
+      "options": [
+        "A) To specify the URL of the external script file",
+        "B) To specify the source code of the script",
+        "C) To specify the source of the script",
+        "D) To specify the source of the HTML"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "`src` is used to link to an external JavaScript file.",
+        "It is optional for inline scripts.",
+        "It is a common attribute for scripts."
+      ]
+    },
+    {
+      "id": 295,
+      "type": "true_false",
+      "difficulty": "advanced",
+      "category": "html_fundamentals",
+      "question": "The `nonce` attribute in `<script>` tags is used to allow inline scripts while maintaining a Content Security Policy (CSP).",
+      "correct_answer": "True",
+      "explanations": [
+        "`nonce` is a cryptographic nonce.",
+        "It is used with CSP to allow specific inline scripts.",
+        "It enhances security."
+      ]
+    },
+    {
+      "id": 296,
+      "type": "multiple_choice",
+      "difficulty": "beginner",
+      "category": "css_fundamentals",
+      "question": "What is the purpose of the `display` property in CSS?",
+      "options": [
+        "A) To specify the display behavior of an element (e.g., block, inline, flex)",
+        "B) To display the element",
+        "C) To hide the element",
+        "D) To show the element"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "`display` is a fundamental property.",
+        "It determines how an element is rendered.",
+        "It can be used for layout control."
+      ]
+    },
+    {
+      "id": 297,
+      "type": "true_false",
+      "difficulty": "intermediate",
+      "category": "css_fundamentals",
+      "question": "The `display: none;` property hides the element and removes it from the document flow.",
+      "correct_answer": "True",
+      "explanations": [
+        "`none` makes the element invisible and removed from layout.",
+        "It differs from `visibility: hidden;`.",
+        "It is used for toggling elements."
+      ]
+    },
+    {
+      "id": 298,
+      "type": "multiple_choice",
+      "difficulty": "advanced",
+      "category": "css_fundamentals",
+      "question": "What is the difference between `display: block;` and `display: inline;`?",
+      "options": [
+        "A) `block` takes the full width; `inline` takes only the necessary width",
+        "B) `inline` takes the full width; `block` takes only the necessary width",
+        "C) They are the same",
+        "D) `block` is for block elements; `inline` is for inline elements"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "`block` starts on a new line and takes the full width available.",
+        "`inline` does not start a new line and takes only the necessary space.",
+        "This is a fundamental layout concept."
+      ]
+    },
+    {
+      "id": 299,
+      "type": "true_false",
+      "difficulty": "beginner",
+      "category": "javascript_fundamentals",
+      "question": "The `return` statement ends function execution and returns a value.",
+      "correct_answer": "True",
+      "explanations": [
+        "`return` stops the function.",
+        "It can be used to return a value.",
+        "It is optional."
+      ]
+    },
+    {
+      "id": 300,
+      "type": "multiple_choice",
+      "difficulty": "intermediate",
+      "category": "javascript_fundamentals",
+      "question": "What is the purpose of the `debugger` statement in JavaScript?",
+      "options": [
+        "A) To pause execution and start a debugger",
+        "B) To debug the code",
+        "C) To log a debug message",
+        "D) To run code in debug mode"
+      ],
+      "correct_answer": "A",
+      "explanations": [
+        "The `debugger` statement stops execution.",
+        "It allows inspecting variables and the call stack.",
+        "It is a useful debugging tool."
+      ]
+    }
+  ]
+]

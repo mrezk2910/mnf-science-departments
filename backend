@@ -1,0 +1,4816 @@
+[
+  {
+    "id": 1,
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "category": "backend_fundamentals",
+    "question": "What is the main purpose of a backend server?",
+    "options": [
+      "A) To handle business logic, database interactions, and serve data to clients",
+      "B) To render HTML and CSS for the browser",
+      "C) To manage user interface animations",
+      "D) To compile frontend code"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "The backend handles the server-side logic.",
+      "It processes requests, interacts with databases, and sends responses.",
+      "It is the engine behind the scenes."
+    ]
+  },
+  {
+    "id": 2,
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "category": "backend_fundamentals",
+    "question": "What does API stand for?",
+    "options": [
+      "A) Application Programming Interface",
+      "B) Advanced Programming Integration",
+      "C) Automated Protocol Interface",
+      "D) Application Protocol Interface"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "API defines how different software components should interact.",
+      "It specifies methods, data formats, and endpoints.",
+      "It is a crucial concept in backend development."
+    ]
+  },
+  {
+    "id": 3,
+    "type": "true_false",
+    "difficulty": "beginner",
+    "category": "backend_fundamentals",
+    "question": "HTTP is a stateless protocol.",
+    "correct_answer": "True",
+    "explanations": [
+      "HTTP does not remember previous requests.",
+      "Each request is independent.",
+      "State management is handled through mechanisms like sessions and tokens."
+    ]
+  },
+  {
+    "id": 4,
+    "type": "multiple_choice",
+    "difficulty": "intermediate",
+    "category": "backend_fundamentals",
+    "question": "What is the difference between authentication and authorization?",
+    "options": [
+      "A) Authentication verifies identity; authorization verifies permissions",
+      "B) Authorization verifies identity; authentication verifies permissions",
+      "C) They are the same",
+      "D) Authentication is for users; authorization is for systems"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "Authentication is 'who you are'.",
+      "Authorization is 'what you can do'.",
+      "Both are essential for security."
+    ]
+  },
+  {
+    "id": 5,
+    "type": "true_false",
+    "difficulty": "intermediate",
+    "category": "backend_fundamentals",
+    "question": "JWT stands for JSON Web Token and is commonly used for authentication.",
+    "correct_answer": "True",
+    "explanations": [
+      "JWT is a compact, URL-safe token format.",
+      "It contains encoded JSON data that can be verified.",
+      "It is widely used for stateless authentication."
+    ]
+  },
+  {
+    "id": 6,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "backend_fundamentals",
+    "question": "What is the difference between symmetric and asymmetric encryption?",
+    "options": [
+      "A) Symmetric uses one key for both encryption and decryption; asymmetric uses a pair of keys",
+      "B) Asymmetric uses one key; symmetric uses a pair",
+      "C) They are the same",
+      "D) Symmetric is for data at rest; asymmetric is for data in transit"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "Symmetric encryption is faster but requires secure key sharing.",
+      "Asymmetric encryption uses public/private key pairs.",
+      "Both have their use cases in security."
+    ]
+  },
+  {
+    "id": 7,
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "category": "database_fundamentals",
+    "question": "What is SQL?",
+    "options": [
+      "A) A language used to manage and manipulate relational databases",
+      "B) A programming language for building web applications",
+      "C) A markup language for data presentation",
+      "D) A NoSQL database type"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "SQL stands for Structured Query Language.",
+      "It is used for querying, inserting, updating, and deleting data.",
+      "It is essential for working with relational databases."
+    ]
+  },
+  {
+    "id": 8,
+    "type": "true_false",
+    "difficulty": "beginner",
+    "category": "database_fundamentals",
+    "question": "MongoDB is a relational database management system.",
+    "correct_answer": "False",
+    "explanations": [
+      "MongoDB is a NoSQL, document-oriented database.",
+      "It stores data in flexible, JSON-like documents.",
+      "Unlike relational databases, it does not use tables or fixed schemas."
+    ]
+  },
+  {
+    "id": 9,
+    "type": "multiple_choice",
+    "difficulty": "intermediate",
+    "category": "database_fundamentals",
+    "question": "What is a primary key in a database table?",
+    "options": [
+      "A) A unique identifier for each record in the table",
+      "B) A key used for encryption",
+      "C) The first column in the table",
+      "D) A key that can be null"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "A primary key uniquely identifies each row.",
+      "It must contain unique values and cannot be null.",
+      "It is often an auto-incrementing integer or a UUID."
+    ]
+  },
+  {
+    "id": 10,
+    "type": "true_false",
+    "difficulty": "intermediate",
+    "category": "database_fundamentals",
+    "question": "A foreign key is used to link two tables together.",
+    "correct_answer": "True",
+    "explanations": [
+      "A foreign key references a primary key in another table.",
+      "It establishes relationships between tables.",
+      "It enforces referential integrity."
+    ]
+  },
+  {
+    "id": 11,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "database_fundamentals",
+    "question": "What is the ACID acronym in the context of database transactions?",
+    "options": [
+      "A) Atomicity, Consistency, Isolation, Durability",
+      "B) Accuracy, Consistency, Integrity, Durability",
+      "C) Atomicity, Concurrency, Isolation, Durability",
+      "D) Accessibility, Consistency, Integrity, Durability"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "ACID ensures database transactions are processed reliably.",
+      "Atomicity means all or nothing.",
+      "Consistency ensures data integrity.",
+      "Isolation ensures concurrent transactions don't interfere.",
+      "Durability ensures changes persist."
+    ]
+  },
+  {
+    "id": 12,
+    "type": "true_false",
+    "difficulty": "advanced",
+    "category": "database_fundamentals",
+    "question": "A deadlock occurs when two or more transactions are waiting for each other to release locks, causing them to freeze.",
+    "correct_answer": "True",
+    "explanations": [
+      "Deadlocks are a common concurrency problem.",
+      "They occur when transactions block each other.",
+      "Database systems have mechanisms to detect and resolve deadlocks."
+    ]
+  },
+  {
+    "id": 13,
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "category": "server_side_languages",
+    "question": "Which language is primarily used for server-side development in the Node.js environment?",
+    "options": [
+      "A) JavaScript",
+      "B) Python",
+      "C) Ruby",
+      "D) PHP"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "Node.js uses JavaScript for server-side programming.",
+      "It allows JavaScript to run outside the browser.",
+      "It is built on Chrome's V8 engine."
+    ]
+  },
+  {
+    "id": 14,
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "category": "server_side_languages",
+    "question": "Which of the following is NOT a programming language commonly used for backend development?",
+    "options": [
+      "A) HTML",
+      "B) Python",
+      "C) Java",
+      "D) Go"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "HTML is a markup language, not a programming language.",
+      "Python, Java, and Go are all used for backend development.",
+      "HTML is used for frontend structure."
+    ]
+  },
+  {
+    "id": 15,
+    "type": "true_false",
+    "difficulty": "intermediate",
+    "category": "server_side_languages",
+    "question": "Python is a statically typed language.",
+    "correct_answer": "False",
+    "explanations": [
+      "Python is dynamically typed.",
+      "Variables can change type at runtime.",
+      "This provides flexibility but can lead to type-related errors."
+    ]
+  },
+  {
+    "id": 16,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "server_side_languages",
+    "question": "What is the difference between a synchronous and asynchronous operation in Node.js?",
+    "options": [
+      "A) Synchronous operations block the event loop; asynchronous operations do not",
+      "B) Asynchronous operations block the event loop; synchronous operations do not",
+      "C) They are the same",
+      "D) Synchronous operations are for reading files; asynchronous operations are for writing files"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "Synchronous code blocks until completion.",
+      "Asynchronous code allows other operations to proceed.",
+      "Node.js promotes non-blocking, asynchronous patterns."
+    ]
+  },
+  {
+    "id": 17,
+    "type": "true_false",
+    "difficulty": "advanced",
+    "category": "server_side_languages",
+    "question": "In Python, the Global Interpreter Lock (GIL) prevents multiple threads from executing Python bytecode simultaneously.",
+    "correct_answer": "True",
+    "explanations": [
+      "The GIL is a mutex in CPython.",
+      "It simplifies memory management.",
+      "It can be a bottleneck for CPU-bound multi-threaded code."
+    ]
+  },
+  {
+    "id": 18,
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "category": "api_design",
+    "question": "What is REST?",
+    "options": [
+      "A) An architectural style for designing networked applications",
+      "B) A programming language",
+      "C) A database technology",
+      "D) A type of API key"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "REST stands for Representational State Transfer.",
+      "It is an architectural style for APIs.",
+      "It uses standard HTTP methods like GET, POST, PUT, DELETE."
+    ]
+  },
+  {
+    "id": 19,
+    "type": "multiple_choice",
+    "difficulty": "intermediate",
+    "category": "api_design",
+    "question": "What is the difference between PUT and PATCH methods in REST APIs?",
+    "options": [
+      "A) PUT updates the entire resource; PATCH updates only part of the resource",
+      "B) PATCH updates the entire resource; PUT updates only part",
+      "C) They are the same",
+      "D) PUT is for creating resources; PATCH is for deleting"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "PUT replaces the entire resource with new data.",
+      "PATCH applies partial updates.",
+      "Choosing between them depends on the use case."
+    ]
+  },
+  {
+    "id": 20,
+    "type": "true_false",
+    "difficulty": "intermediate",
+    "category": "api_design",
+    "question": "GraphQL is a query language for APIs that allows clients to request exactly the data they need.",
+    "correct_answer": "True",
+    "explanations": [
+      "GraphQL gives clients control over the data they receive.",
+      "It reduces over-fetching and under-fetching.",
+      "It is an alternative to REST."
+    ]
+  },
+  {
+    "id": 21,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "api_design",
+    "question": "What is the main advantage of gRPC over REST?",
+    "options": [
+      "A) gRPC uses HTTP/2 and Protocol Buffers, offering better performance and type safety",
+      "B) gRPC is easier to debug than REST",
+      "C) gRPC is more popular than REST",
+      "D) gRPC only works with Node.js"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "gRPC uses Protocol Buffers for serialization.",
+      "It supports bi-directional streaming.",
+      "It is designed for high-performance microservices."
+    ]
+  },
+  {
+    "id": 22,
+    "type": "true_false",
+    "difficulty": "advanced",
+    "category": "api_design",
+    "question": "Idempotency means that making multiple identical requests has the same effect as making a single request.",
+    "correct_answer": "True",
+    "explanations": [
+      "HTTP GET, PUT, and DELETE are idempotent.",
+      "POST is not idempotent (multiple requests create multiple resources).",
+      "Idempotency is important for reliability."
+    ]
+  },
+  {
+    "id": 23,
+    "type": "multiple_choice",
+    "difficulty": "intermediate",
+    "category": "authentication_security",
+    "question": "What is OAuth 2.0 primarily used for?",
+    "options": [
+      "A) Authorization by delegating access to third-party applications",
+      "B) Authentication of users",
+      "C) Encrypting sensitive data",
+      "D) Storing user passwords"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "OAuth 2.0 is an authorization framework.",
+      "It allows limited access to user resources without sharing credentials.",
+      "It is widely used for 'Login with Google/Facebook' features."
+    ]
+  },
+  {
+    "id": 24,
+    "type": "true_false",
+    "difficulty": "intermediate",
+    "category": "authentication_security",
+    "question": "Hashing a password is sufficient to protect it; salting is not necessary.",
+    "correct_answer": "False",
+    "explanations": [
+      "Salting adds a random value before hashing.",
+      "It prevents rainbow table attacks.",
+      "Both hashing and salting are essential for password security."
+    ]
+  },
+  {
+    "id": 25,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "authentication_security",
+    "question": "What is a man-in-the-middle (MITM) attack?",
+    "options": [
+      "A) An attacker intercepts and potentially alters communication between two parties",
+      "B) A type of SQL injection",
+      "C) A denial of service attack",
+      "D) A brute force password attack"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "MITM attacks allow eavesdropping.",
+      "They can be prevented with HTTPS and proper encryption.",
+      "It's a common threat in network communication."
+    ]
+  },
+  {
+    "id": 26,
+    "type": "true_false",
+    "difficulty": "advanced",
+    "category": "authentication_security",
+    "question": "Cross-Site Request Forgery (CSRF) attacks involve forcing a user to execute unwanted actions on a web application in which they are authenticated.",
+    "correct_answer": "True",
+    "explanations": [
+      "CSRF exploits the trust a site has in a user's browser.",
+      "Anti-CSRF tokens are used to prevent these attacks.",
+      "It is different from XSS (Cross-Site Scripting)."
+    ]
+  },
+  {
+    "id": 27,
+    "type": "multiple_choice",
+    "difficulty": "intermediate",
+    "category": "caching",
+    "question": "What is the purpose of a cache in backend systems?",
+    "options": [
+      "A) To store frequently accessed data for faster retrieval",
+      "B) To permanently store all user data",
+      "C) To process data before storing it in the database",
+      "D) To encrypt data for security"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "Caching reduces database load and improves performance.",
+      "It stores data in memory for quick access.",
+      "Common cache stores include Redis and Memcached."
+    ]
+  },
+  {
+    "id": 28,
+    "type": "true_false",
+    "difficulty": "intermediate",
+    "category": "caching",
+    "question": "Cache invalidation is one of the hard problems in computer science.",
+    "correct_answer": "True",
+    "explanations": [
+      "Cache invalidation is notoriously difficult.",
+      "It involves keeping cached data fresh and consistent.",
+      "There are different strategies like TTL, write-through, and invalidation by key."
+    ]
+  },
+  {
+    "id": 29,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "caching",
+    "question": "What is the difference between caching on the client-side and server-side?",
+    "options": [
+      "A) Client-side caching stores data in the browser; server-side caching stores data on the server",
+      "B) Server-side caching stores data in the browser; client-side caching stores data on the server",
+      "C) They are the same",
+      "D) Client-side caching is for images; server-side caching is for API responses"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "Client-side caching includes browser cache, localStorage, and service workers.",
+      "Server-side caching includes database query caches, in-memory caches, and CDNs.",
+      "Both improve performance but at different levels."
+    ]
+  },
+  {
+    "id": 30,
+    "type": "true_false",
+    "difficulty": "advanced",
+    "category": "caching",
+    "question": "The 'cache stampede' problem occurs when many requests attempt to refresh a cached item simultaneously, overloading the server.",
+    "correct_answer": "True",
+    "explanations": [
+      "Cache stampede is a known performance issue.",
+      "It can be mitigated with techniques like 'cache-aside' with locking.",
+      "It is a problem in high-traffic systems."
+    ]
+  },
+  {
+    "id": 31,
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "category": "networking",
+    "question": "What is HTTP?",
+    "options": [
+      "A) A protocol for transferring data over the web",
+      "B) A programming language",
+      "C) A database system",
+      "D) A type of network cable"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "HTTP is the foundation of data communication on the web.",
+      "It stands for Hypertext Transfer Protocol.",
+      "It defines how messages are formatted and transmitted."
+    ]
+  },
+  {
+    "id": 32,
+    "type": "true_false",
+    "difficulty": "beginner",
+    "category": "networking",
+    "question": "HTTPS uses encryption to secure the data transmitted between the client and the server.",
+    "correct_answer": "True",
+    "explanations": [
+      "HTTPS (HTTP Secure) uses TLS/SSL encryption.",
+      "It protects data from eavesdropping and tampering.",
+      "It is essential for web security."
+    ]
+  },
+  {
+    "id": 33,
+    "type": "multiple_choice",
+    "difficulty": "intermediate",
+    "category": "networking",
+    "question": "What is the difference between HTTP and HTTPS?",
+    "options": [
+      "A) HTTPS is secure; HTTP is not",
+      "B) HTTP is secure; HTTPS is not",
+      "C) There is no difference",
+      "D) HTTP uses TCP; HTTPS uses UDP"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "HTTPS adds a layer of encryption.",
+      "It uses SSL/TLS certificates.",
+      "It is the standard for secure web communication."
+    ]
+  },
+  {
+    "id": 34,
+    "type": "true_false",
+    "difficulty": "intermediate",
+    "category": "networking",
+    "question": "TCP is a connectionless protocol, while UDP is connection-oriented.",
+    "correct_answer": "False",
+    "explanations": [
+      "TCP is connection-oriented and reliable.",
+      "UDP is connectionless and unreliable.",
+      "TCP ensures delivery; UDP is faster but does not guarantee delivery."
+    ]
+  },
+  {
+    "id": 35,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "networking",
+    "question": "What is the purpose of a load balancer?",
+    "options": [
+      "A) To distribute incoming network traffic across multiple servers",
+      "B) To balance the load of a single server",
+      "C) To balance the load on the network",
+      "D) To balance the load on the database"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "Load balancers improve availability and reliability.",
+      "They help scale applications horizontally.",
+      "They can use different algorithms like round-robin or least connections."
+    ]
+  },
+  {
+    "id": 36,
+    "type": "true_false",
+    "difficulty": "advanced",
+    "category": "networking",
+    "question": "CDN (Content Delivery Network) is a type of load balancer.",
+    "correct_answer": "False",
+    "explanations": [
+      "A CDN is a geographically distributed network of servers.",
+      "It caches content close to users for faster delivery.",
+      "While it can have load balancing capabilities, it serves a different primary purpose."
+    ]
+  },
+  {
+    "id": 37,
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "category": "database_sql",
+    "question": "What SQL statement is used to retrieve data from a database?",
+    "options": [
+      "A) SELECT",
+      "B) RETRIEVE",
+      "C) GET",
+      "D) FETCH"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "SELECT is the most common SQL statement.",
+      "It is used to query data from one or more tables.",
+      "It can include conditions, sorting, and grouping."
+    ]
+  },
+  {
+    "id": 38,
+    "type": "true_false",
+    "difficulty": "beginner",
+    "category": "database_sql",
+    "question": "The INSERT INTO statement is used to update existing records in a table.",
+    "correct_answer": "False",
+    "explanations": [
+      "INSERT INTO is used to add new records.",
+      "UPDATE is used to modify existing records.",
+      "DELETE is used to remove records."
+    ]
+  },
+  {
+    "id": 39,
+    "type": "multiple_choice",
+    "difficulty": "intermediate",
+    "category": "database_sql",
+    "question": "What is the purpose of a JOIN in SQL?",
+    "options": [
+      "A) To combine rows from two or more tables based on a related column",
+      "B) To join two rows together",
+      "C) To combine two databases",
+      "D) To merge two columns"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "JOIN is used to retrieve data from multiple tables.",
+      "Common join types include INNER JOIN, LEFT JOIN, RIGHT JOIN, and FULL JOIN.",
+      "It is fundamental to relational database querying."
+    ]
+  },
+  {
+    "id": 40,
+    "type": "true_false",
+    "difficulty": "intermediate",
+    "category": "database_sql",
+    "question": "A LEFT JOIN returns all rows from the right table and matching rows from the left table.",
+    "correct_answer": "False",
+    "explanations": [
+      "LEFT JOIN returns all rows from the left table and matching rows from the right.",
+      "If no match is found, NULL values are returned.",
+      "It's the opposite of RIGHT JOIN."
+    ]
+  },
+  {
+    "id": 41,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "database_sql",
+    "question": "What is the difference between a subquery and a JOIN?",
+    "options": [
+      "A) A subquery is a query nested inside another query; a JOIN combines rows from multiple tables",
+      "B) A subquery combines rows; a JOIN nests queries",
+      "C) They are the same",
+      "D) Subqueries are for SELECT only; JOINs are for INSERT"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "Subqueries can be used in SELECT, FROM, and WHERE clauses.",
+      "JOINs are often more efficient for combining related data.",
+      "Both are powerful querying techniques."
+    ]
+  },
+  {
+    "id": 42,
+    "type": "true_false",
+    "difficulty": "advanced",
+    "category": "database_sql",
+    "question": "An index in a database is used to speed up SELECT queries but can slow down INSERT, UPDATE, and DELETE operations.",
+    "correct_answer": "True",
+    "explanations": [
+      "Indexes improve read performance.",
+      "They need to be maintained on write operations.",
+      "Using too many indexes can hurt performance."
+    ]
+  },
+  {
+    "id": 43,
+    "type": "multiple_choice",
+    "difficulty": "intermediate",
+    "category": "nosql_database",
+    "question": "What type of database is MongoDB?",
+    "options": [
+      "A) Document-oriented NoSQL database",
+      "B) Relational database",
+      "C) Graph database",
+      "D) Key-value store"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "MongoDB stores data in flexible, JSON-like documents.",
+      "It is schema-less and designed for scalability.",
+      "It is one of the most popular NoSQL databases."
+    ]
+  },
+  {
+    "id": 44,
+    "type": "true_false",
+    "difficulty": "intermediate",
+    "category": "nosql_database",
+    "question": "Redis is a key-value store that can also be used as a cache and message broker.",
+    "correct_answer": "True",
+    "explanations": [
+      "Redis is an in-memory data structure store.",
+      "It supports strings, hashes, lists, sets, and more.",
+      "It is widely used for caching, real-time applications, and pub/sub."
+    ]
+  },
+  {
+    "id": 45,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "nosql_database",
+    "question": "What is the CAP theorem in distributed databases?",
+    "options": [
+      "A) Consistency, Availability, Partition Tolerance - you can only have two of the three",
+      "B) Consistency, Accuracy, Performance - all are essential",
+      "C) Cost, Availability, Performance - you must choose one",
+      "D) Capacity, Availability, Performance - trade-offs"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "The CAP theorem is a fundamental concept in distributed systems.",
+      "It states that a distributed database can only provide two of the three guarantees.",
+      "Different databases prioritize different aspects based on their design."
+    ]
+  },
+  {
+    "id": 46,
+    "type": "true_false",
+    "difficulty": "advanced",
+    "category": "nosql_database",
+    "question": "Cassandra uses a master-slave architecture for data replication.",
+    "correct_answer": "False",
+    "explanations": [
+      "Cassandra uses a masterless architecture.",
+      "All nodes are equal and data is distributed across the cluster.",
+      "It uses consistent hashing for data distribution."
+    ]
+  },
+  {
+    "id": 47,
+    "type": "multiple_choice",
+    "difficulty": "intermediate",
+    "category": "microservices",
+    "question": "What is a microservices architecture?",
+    "options": [
+      "A) A design approach where an application is composed of small, independent services",
+      "B) A monolithic architecture with many small features",
+      "C) A single large service with many modules",
+      "D) A database design pattern"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "Microservices break down applications into independently deployable services.",
+      "Each service handles a specific business capability.",
+      "They communicate via APIs."
+    ]
+  },
+  {
+    "id": 48,
+    "type": "true_false",
+    "difficulty": "intermediate",
+    "category": "microservices",
+    "question": "Microservices are always easier to maintain than monolithic applications.",
+    "correct_answer": "False",
+    "explanations": [
+      "Microservices introduce complexity in distributed systems.",
+      "They require service discovery, inter-service communication, and distributed transactions.",
+      "The benefits depend on the specific use case."
+    ]
+  },
+  {
+    "id": 49,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "microservices",
+    "question": "What is the difference between an API Gateway and a load balancer?",
+    "options": [
+      "A) An API Gateway routes requests to services, handles authentication, and provides a single entry point; a load balancer distributes traffic",
+      "B) An API Gateway distributes traffic; a load balancer routes requests to services",
+      "C) They are the same",
+      "D) An API Gateway is for internal services; a load balancer is for external traffic"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "API Gateway is a design pattern in microservices.",
+      "It can also handle rate limiting, caching, and logging.",
+      "Load balancers focus mainly on traffic distribution."
+    ]
+  },
+  {
+    "id": 50,
+    "type": "true_false",
+    "difficulty": "advanced",
+    "category": "microservices",
+    "question": "The 'circuit breaker' pattern is used in microservices to prevent cascading failures by stopping requests to failing services.",
+    "correct_answer": "True",
+    "explanations": [
+      "Circuit breaker is a resilience pattern.",
+      "It opens the circuit when failures exceed a threshold.",
+      "It allows the system to fail fast and recover."
+    ]
+  },
+  {
+    "id": 51,
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "category": "server_deployment",
+    "question": "What is the purpose of a web server?",
+    "options": [
+      "A) To serve static and dynamic content to clients",
+      "B) To store user data",
+      "C) To process payments",
+      "D) To manage email services"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "Web servers handle HTTP requests.",
+      "Examples include Apache, Nginx, and IIS.",
+      "They can serve HTML, APIs, and media files."
+    ]
+  },
+  {
+    "id": 52,
+    "type": "true_false",
+    "difficulty": "beginner",
+    "category": "server_deployment",
+    "question": "Nginx is primarily used as a web server and reverse proxy.",
+    "correct_answer": "True",
+    "explanations": [
+      "Nginx is known for its high performance and low resource usage.",
+      "It can serve static files and reverse proxy to application servers.",
+      "It is often used with Node.js, Python, and other backends."
+    ]
+  },
+  {
+    "id": 53,
+    "type": "multiple_choice",
+    "difficulty": "intermediate",
+    "category": "server_deployment",
+    "question": "What is the difference between a reverse proxy and a forward proxy?",
+    "options": [
+      "A) A reverse proxy handles requests from clients to servers; a forward proxy handles requests from internal networks to external resources",
+      "B) A forward proxy handles requests from clients to servers; a reverse proxy handles requests from internal networks to external resources",
+      "C) They are the same",
+      "D) A reverse proxy is for HTTP; a forward proxy is for HTTPS"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "Reverse proxies are used for load balancing and caching.",
+      "Forward proxies are used for anonymity and content filtering.",
+      "Both are types of proxy servers."
+    ]
+  },
+  {
+    "id": 54,
+    "type": "true_false",
+    "difficulty": "advanced",
+    "category": "server_deployment",
+    "question": "Containerization technologies like Docker ensure that applications run consistently across different environments.",
+    "correct_answer": "True",
+    "explanations": [
+      "Docker containers include the application and its dependencies.",
+      "They solve the 'it works on my machine' problem.",
+      "They are essential for modern DevOps practices."
+    ]
+  },
+  {
+    "id": 55,
+    "type": "multiple_choice",
+    "difficulty": "intermediate",
+    "category": "message_queues",
+    "question": "What is a message queue used for in backend systems?",
+    "options": [
+      "A) To enable asynchronous communication between services",
+      "B) To store messages from users",
+      "C) To queue requests for processing",
+      "D) To queue database queries"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "Message queues decouple services.",
+      "They allow for reliable and scalable communication.",
+      "Examples include RabbitMQ, Apache Kafka, and Amazon SQS."
+    ]
+  },
+  {
+    "id": 56,
+    "type": "true_false",
+    "difficulty": "intermediate",
+    "category": "message_queues",
+    "question": "RabbitMQ is a message broker that supports the AMQP protocol.",
+    "correct_answer": "True",
+    "explanations": [
+      "RabbitMQ is one of the most popular message brokers.",
+      "It supports multiple messaging protocols.",
+      "It is used for both pub/sub and point-to-point messaging."
+    ]
+  },
+  {
+    "id": 57,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "message_queues",
+    "question": "What is the difference between a message queue and a message broker?",
+    "options": [
+      "A) A message broker is a broader concept that includes message queues and other messaging patterns",
+      "B) A message queue is a broader concept that includes message brokers",
+      "C) They are the same",
+      "D) A message broker is for pub/sub; a message queue is for point-to-point"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "A message broker manages the routing and delivery of messages.",
+      "It can support queues, topics, and other patterns.",
+      "RabbitMQ and Kafka are examples of message brokers."
+    ]
+  },
+  {
+    "id": 58,
+    "type": "true_false",
+    "difficulty": "advanced",
+    "category": "message_queues",
+    "question": "Apache Kafka is primarily designed as a distributed streaming platform, not just a message queue.",
+    "correct_answer": "True",
+    "explanations": [
+      "Kafka is used for building real-time streaming applications.",
+      "It stores streams of records in topics.",
+      "It is more durable and scalable than traditional queues."
+    ]
+  },
+  {
+    "id": 59,
+    "type": "multiple_choice",
+    "difficulty": "intermediate",
+    "category": "scaling",
+    "question": "What is horizontal scaling?",
+    "options": [
+      "A) Adding more servers to handle increased load",
+      "B) Adding more resources to a single server (CPU, RAM)",
+      "C) Scaling the database vertically",
+      "D) Scaling the application horizontally"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "Horizontal scaling (scaling out) adds more machines.",
+      "It improves availability and fault tolerance.",
+      "It requires a distributed system design."
+    ]
+  },
+  {
+    "id": 60,
+    "type": "true_false",
+    "difficulty": "intermediate",
+    "category": "scaling",
+    "question": "Vertical scaling means adding more servers to a system.",
+    "correct_answer": "False",
+    "explanations": [
+      "Vertical scaling (scaling up) adds more power to an existing server.",
+      "It is limited by hardware capacity.",
+      "Horizontal scaling is more common in cloud environments."
+    ]
+  },
+  {
+    "id": 61,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "scaling",
+    "question": "What is database sharding?",
+    "options": [
+      "A) Splitting a large database into smaller, faster, more manageable pieces called shards",
+      "B) Creating a backup of the database",
+      "C) Reducing the size of the database",
+      "D) Adding more indexes to the database"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "Sharding distributes data across multiple machines.",
+      "It is a horizontal scaling strategy for databases.",
+      "Each shard is a separate database with a subset of the data."
+    ]
+  },
+  {
+    "id": 62,
+    "type": "true_false",
+    "difficulty": "advanced",
+    "category": "scaling",
+    "question": "Replication in databases increases read capacity by copying data to multiple servers.",
+    "correct_answer": "True",
+    "explanations": [
+      "Replication improves read performance and availability.",
+      "It can be master-slave or master-master.",
+      "It is different from sharding."
+    ]
+  },
+  {
+    "id": 63,
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "category": "backend_fundamentals",
+    "question": "What is a web framework?",
+    "options": [
+      "A) A collection of libraries and tools for building web applications",
+      "B) A type of web server",
+      "C) A programming language",
+      "D) A database system"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "Web frameworks provide structure and reusable components.",
+      "Examples include Django (Python), Spring (Java), and Express (Node.js).",
+      "They streamline backend development."
+    ]
+  },
+  {
+    "id": 64,
+    "type": "true_false",
+    "difficulty": "beginner",
+    "category": "backend_fundamentals",
+    "question": "An ORM (Object-Relational Mapping) is used to interact with databases using objects instead of SQL.",
+    "correct_answer": "True",
+    "explanations": [
+      "ORMs map database tables to programming language classes.",
+      "They reduce the amount of raw SQL needed.",
+      "Examples include SQLAlchemy, Hibernate, and TypeORM."
+    ]
+  },
+  {
+    "id": 65,
+    "type": "multiple_choice",
+    "difficulty": "intermediate",
+    "category": "backend_fundamentals",
+    "question": "What is the difference between a web server and an application server?",
+    "options": [
+      "A) A web server serves static content; an application server serves dynamic content and business logic",
+      "B) An application server serves static content; a web server serves dynamic content",
+      "C) They are the same",
+      "D) A web server is for HTTP; an application server is for HTTPS"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "Web servers (like Nginx) handle static files.",
+      "Application servers (like Tomcat) execute application code.",
+      "They can be combined in different architectures."
+    ]
+  },
+  {
+    "id": 66,
+    "type": "true_false",
+    "difficulty": "advanced",
+    "category": "backend_fundamentals",
+    "question": "Dependency Injection is a design pattern where objects receive their dependencies from an external source rather than creating them internally.",
+    "correct_answer": "True",
+    "explanations": [
+      "DI improves testability and decoupling.",
+      "It is a key principle in the Spring framework.",
+      "It follows the Inversion of Control principle."
+    ]
+  },
+  {
+    "id": 67,
+    "type": "multiple_choice",
+    "difficulty": "intermediate",
+    "category": "database_sql",
+    "question": "What is a transaction in SQL?",
+    "options": [
+      "A) A sequence of operations treated as a single unit of work",
+      "B) A single SQL statement",
+      "C) A type of join",
+      "D) A way to secure data"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "Transactions ensure data consistency.",
+      "They follow ACID properties.",
+      "A transaction can be committed or rolled back."
+    ]
+  },
+  {
+    "id": 68,
+    "type": "true_false",
+    "difficulty": "intermediate",
+    "category": "database_sql",
+    "question": "The COMMIT statement is used to permanently save a transaction.",
+    "correct_answer": "True",
+    "explanations": [
+      "COMMIT makes changes permanent.",
+      "ROLLBACK undoes changes.",
+      "They are essential for transaction control."
+    ]
+  },
+  {
+    "id": 69,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "database_sql",
+    "question": "What is the difference between a clustered and a non-clustered index?",
+    "options": [
+      "A) A clustered index determines the physical order of data in a table; a non-clustered index does not",
+      "B) A non-clustered index determines physical order; a clustered index does not",
+      "C) They are the same",
+      "D) Clustered indexes are for primary keys; non-clustered indexes are for foreign keys"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "There can be only one clustered index per table.",
+      "Non-clustered indexes are separate structures.",
+      "The choice affects performance."
+    ]
+  },
+  {
+    "id": 70,
+    "type": "true_false",
+    "difficulty": "advanced",
+    "category": "database_sql",
+    "question": "A database view is a virtual table created from the result of a query.",
+    "correct_answer": "True",
+    "explanations": [
+      "Views do not store data physically.",
+      "They can be used to simplify complex queries.",
+      "They can also provide an additional security layer."
+    ]
+  },
+  {
+    "id": 71,
+    "type": "multiple_choice",
+    "difficulty": "intermediate",
+    "category": "nosql_database",
+    "question": "What is the difference between MongoDB's `find()` and `findOne()` methods?",
+    "options": [
+      "A) `find()` returns a cursor to all matching documents; `findOne()` returns the first matching document",
+      "B) `findOne()` returns a cursor; `find()` returns a single document",
+      "C) They are the same",
+      "D) `find()` is for collections; `findOne()` is for databases"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "`find()` is used to query multiple documents.",
+      "`findOne()` is used when you need a single document.",
+      "Both are fundamental MongoDB operations."
+    ]
+  },
+  {
+    "id": 72,
+    "type": "true_false",
+    "difficulty": "intermediate",
+    "category": "nosql_database",
+    "question": "MongoDB's aggregation framework is similar to SQL's GROUP BY and aggregate functions.",
+    "correct_answer": "True",
+    "explanations": [
+      "Aggregation pipelines allow complex data processing.",
+      "They can filter, group, sort, and transform data.",
+      "It is a powerful feature for data analysis."
+    ]
+  },
+  {
+    "id": 73,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "nosql_database",
+    "question": "What is the difference between MongoDB and Redis?",
+    "options": [
+      "A) MongoDB is a document database for persistent storage; Redis is an in-memory key-value store for caching and real-time data",
+      "B) Redis is a document database; MongoDB is a key-value store",
+      "C) They are the same",
+      "D) MongoDB is only for SQL; Redis is only for NoSQL"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "MongoDB is used for primary storage with complex queries.",
+      "Redis is often used as a cache or for real-time data.",
+      "They serve different use cases but can be used together."
+    ]
+  },
+  {
+    "id": 74,
+    "type": "true_false",
+    "difficulty": "advanced",
+    "category": "nosql_database",
+    "question": "Elasticsearch is not only a search engine but also a NoSQL database with real-time analytical capabilities.",
+    "correct_answer": "True",
+    "explanations": [
+      "Elasticsearch is built on Apache Lucene.",
+      "It supports full-text search and analytics.",
+      "It is widely used for log analysis and application monitoring."
+    ]
+  },
+  {
+    "id": 75,
+    "type": "multiple_choice",
+    "difficulty": "intermediate",
+    "category": "authentication_security",
+    "question": "What is the main purpose of JWT (JSON Web Tokens)?",
+    "options": [
+      "A) To securely transmit information between parties as a JSON object",
+      "B) To store user passwords",
+      "C) To encrypt database connections",
+      "D) To serve as a primary key in a database"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "JWTs are used for authentication and authorization.",
+      "They contain claims that can be verified.",
+      "They are self-contained and stateless."
+    ]
+  },
+  {
+    "id": 76,
+    "type": "true_false",
+    "difficulty": "intermediate",
+    "category": "authentication_security",
+    "question": "JWT tokens are encrypted by default.",
+    "correct_answer": "False",
+    "explanations": [
+      "JWTs are encoded, not encrypted.",
+      "They are signed to verify integrity.",
+      "They can be encrypted using JWE, but the default is JWS (signed only)."
+    ]
+  },
+  {
+    "id": 77,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "authentication_security",
+    "question": "What is the difference between session-based authentication and token-based authentication?",
+    "options": [
+      "A) Session-based uses server-side storage; token-based is stateless and stores data in the token",
+      "B) Token-based uses server-side storage; session-based is stateless",
+      "C) They are the same",
+      "D) Session-based is for web; token-based is for mobile"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "Session-based authentication requires server memory.",
+      "Token-based (like JWT) is scalable and works across domains.",
+      "Both have their advantages and trade-offs."
+    ]
+  },
+  {
+    "id": 78,
+    "type": "true_false",
+    "difficulty": "advanced",
+    "category": "authentication_security",
+    "question": "Bearer tokens in OAuth 2.0 are a simple way to access protected resources by including the token in the Authorization header.",
+    "correct_answer": "True",
+    "explanations": [
+      "Bearer tokens are the most common OAuth 2.0 token type.",
+      "They are used in the Authorization header.",
+      "They are not encrypted but should be transmitted over HTTPS."
+    ]
+  },
+  {
+    "id": 79,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "authentication_security",
+    "question": "What is the main purpose of a refresh token in OAuth 2.0?",
+    "options": [
+      "A) To obtain a new access token when the old one expires",
+      "B) To refresh the user's session",
+      "C) To refresh the application state",
+      "D) To refresh the security settings"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "Access tokens have limited lifetimes.",
+      "Refresh tokens are long-lived.",
+      "They are used to get new access tokens without re-authentication."
+    ]
+  },
+  {
+    "id": 80,
+    "type": "true_false",
+    "difficulty": "advanced",
+    "category": "authentication_security",
+    "question": "CSRF tokens must be unique per session and submitted with each state-changing request.",
+    "correct_answer": "True",
+    "explanations": [
+      "CSRF tokens prevent cross-site request forgery.",
+      "They are often stored in a cookie or session.",
+      "They are validated on the server side."
+    ]
+  },
+  {
+    "id": 81,
+    "type": "multiple_choice",
+    "difficulty": "intermediate",
+    "category": "api_design",
+    "question": "What is the purpose of HTTP status codes in REST APIs?",
+    "options": [
+      "A) To indicate the result of the API request",
+      "B) To indicate the version of the API",
+      "C) To indicate the format of the response",
+      "D) To indicate the authentication method"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "Status codes provide information about the request outcome.",
+      "Examples: 200 OK, 404 Not Found, 500 Internal Server Error.",
+      "They are a key part of RESTful API design."
+    ]
+  },
+  {
+    "id": 82,
+    "type": "true_false",
+    "difficulty": "beginner",
+    "category": "api_design",
+    "question": "HTTP 200 OK means the request was successful.",
+    "correct_answer": "True",
+    "explanations": [
+      "200 is the standard success status code.",
+      "Other success codes include 201 Created and 204 No Content.",
+      "It indicates the server processed the request correctly."
+    ]
+  },
+  {
+    "id": 83,
+    "type": "multiple_choice",
+    "difficulty": "intermediate",
+    "category": "api_design",
+    "question": "What HTTP status code indicates a resource was not found?",
+    "options": [
+      "A) 404",
+      "B) 400",
+      "C) 401",
+      "D) 500"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "404 Not Found is one of the most common status codes.",
+      "It indicates the server cannot find the requested resource.",
+      "It is a client-side error."
+    ]
+  },
+  {
+    "id": 84,
+    "type": "true_false",
+    "difficulty": "intermediate",
+    "category": "api_design",
+    "question": "An HTTP 500 status code indicates a client-side error.",
+    "correct_answer": "False",
+    "explanations": [
+      "500 Internal Server Error is a server-side error.",
+      "It means something went wrong on the server.",
+      "Clients cannot fix a 500 error directly."
+    ]
+  },
+  {
+    "id": 85,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "api_design",
+    "question": "What is versioning in API design?",
+    "options": [
+      "A) Managing multiple versions of an API to support backward compatibility",
+      "B) Creating a new API from scratch",
+      "C) Deleting old API endpoints",
+      "D) Updating the API without any changes"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "API versioning allows evolution without breaking clients.",
+      "Common strategies include URL versioning and header versioning.",
+      "It's an important part of API lifecycle management."
+    ]
+  },
+  {
+    "id": 86,
+    "type": "true_false",
+    "difficulty": "advanced",
+    "category": "api_design",
+    "question": "Rate limiting in APIs prevents a client from making too many requests in a short period.",
+    "correct_answer": "True",
+    "explanations": [
+      "Rate limiting is a protection mechanism.",
+      "It prevents abuse and ensures service availability.",
+      "It is often implemented with headers like `X-RateLimit-Limit`."
+    ]
+  },
+  {
+    "id": 87,
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "category": "server_side_languages",
+    "question": "What is the difference between Node.js and Deno?",
+    "options": [
+      "A) Deno is a newer runtime that fixes some of Node.js's design issues, with built-in TypeScript support",
+      "B) Node.js is newer than Deno",
+      "C) They are the same",
+      "D) Deno is only for frontend development"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "Deno was created by the creator of Node.js.",
+      "It includes security features and modern standards.",
+      "It supports ES modules and built-in TypeScript."
+    ]
+  },
+  {
+    "id": 88,
+    "type": "true_false",
+    "difficulty": "intermediate",
+    "category": "server_side_languages",
+    "question": "Node.js uses an event-driven, non-blocking I/O model.",
+    "correct_answer": "True",
+    "explanations": [
+      "The event loop handles asynchronous operations.",
+      "It allows handling many connections with a single thread.",
+      "It is one of Node.js's key advantages."
+    ]
+  },
+  {
+    "id": 89,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "server_side_languages",
+    "question": "What is the purpose of the `process.nextTick()` in Node.js?",
+    "options": [
+      "A) To defer the execution of a function until the next event loop iteration, but before I/O events",
+      "B) To defer execution to the next event loop iteration after I/O events",
+      "C) To run a process on the next tick",
+      "D) To set a timer for execution"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "`process.nextTick()` puts a callback at the front of the event loop queue.",
+      "It is used for urgent operations.",
+      "It is different from `setImmediate()`."
+    ]
+  },
+  {
+    "id": 90,
+    "type": "true_false",
+    "difficulty": "advanced",
+    "category": "server_side_languages",
+    "question": "Python's `asyncio` library is used for asynchronous programming, similar to Node.js's event loop.",
+    "correct_answer": "True",
+    "explanations": [
+      "`asyncio` provides event loop support in Python.",
+      "It enables writing concurrent code with `async/await`.",
+      "It is used for I/O-bound tasks."
+    ]
+  },
+  {
+    "id": 91,
+    "type": "multiple_choice",
+    "difficulty": "intermediate",
+    "category": "database_sql",
+    "question": "What is the purpose of the `GROUP BY` clause in SQL?",
+    "options": [
+      "A) To group rows that have the same values in specified columns",
+      "B) To group tables together",
+      "C) To group database connections",
+      "D) To group users by permissions"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "`GROUP BY` is used with aggregate functions.",
+      "It organizes data into groups.",
+      "It is often used with `HAVING` to filter groups."
+    ]
+  },
+  {
+    "id": 92,
+    "type": "true_false",
+    "difficulty": "intermediate",
+    "category": "database_sql",
+    "question": "The `HAVING` clause is used to filter groups created by `GROUP BY`.",
+    "correct_answer": "True",
+    "explanations": [
+      "`HAVING` is similar to `WHERE` but for groups.",
+      "It is used with aggregate functions.",
+      "Example: `HAVING COUNT(*) > 5`."
+    ]
+  },
+  {
+    "id": 93,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "database_sql",
+    "question": "What is the difference between `WHERE` and `HAVING` in SQL?",
+    "options": [
+      "A) `WHERE` filters rows before grouping; `HAVING` filters groups after grouping",
+      "B) `HAVING` filters rows before grouping; `WHERE` filters groups after grouping",
+      "C) They are the same",
+      "D) `WHERE` is for SELECT; `HAVING` is for UPDATE"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "`WHERE` cannot use aggregate functions.",
+      "`HAVING` can use aggregate functions.",
+      "The order of execution is important."
+    ]
+  },
+  {
+    "id": 94,
+    "type": "true_false",
+    "difficulty": "advanced",
+    "category": "database_sql",
+    "question": "SQL injection occurs when an attacker is able to insert malicious SQL code into a query.",
+    "correct_answer": "True",
+    "explanations": [
+      "SQL injection is one of the most critical web vulnerabilities.",
+      "It can lead to data theft or destruction.",
+      "Prevention includes using parameterized queries and input validation."
+    ]
+  },
+  {
+    "id": 95,
+    "type": "multiple_choice",
+    "difficulty": "intermediate",
+    "category": "nosql_database",
+    "question": "What is a collection in MongoDB?",
+    "options": [
+      "A) A group of documents, analogous to a table in relational databases",
+      "B) A group of databases",
+      "C) A type of index",
+      "D) A type of query"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "Collections are where documents are stored.",
+      "They are schema-less and dynamic.",
+      "They are the main organizational unit in MongoDB."
+    ]
+  },
+  {
+    "id": 96,
+    "type": "true_false",
+    "difficulty": "intermediate",
+    "category": "nosql_database",
+    "question": "MongoDB supports transactions across multiple documents and collections.",
+    "correct_answer": "True",
+    "explanations": [
+      "MongoDB added multi-document transactions.",
+      "They are available in recent versions.",
+      "They allow maintaining data consistency."
+    ]
+  },
+  {
+    "id": 97,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "nosql_database",
+    "question": "What is the difference between Redis and Memcached?",
+    "options": [
+      "A) Redis supports more data structures and persistence; Memcached is simpler and faster for basic caching",
+      "B) Memcached supports more data structures; Redis is simpler",
+      "C) They are the same",
+      "D) Redis is for document storage; Memcached is for key-value storage"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "Redis is often used as a primary database or message broker.",
+      "Memcached is primarily a cache.",
+      "Redis is more feature-rich but more complex."
+    ]
+  },
+  {
+    "id": 98,
+    "type": "true_false",
+    "difficulty": "advanced",
+    "category": "nosql_database",
+    "question": "In Cassandra, the partition key determines how data is distributed across the cluster.",
+    "correct_answer": "True",
+    "explanations": [
+      "The partition key is used for hashing.",
+      "It affects the distribution of data.",
+      "Choosing the right partition key is crucial for performance."
+    ]
+  },
+  {
+    "id": 99,
+    "type": "multiple_choice",
+    "difficulty": "intermediate",
+    "category": "microservices",
+    "question": "What is the purpose of service discovery in microservices?",
+    "options": [
+      "A) To locate and connect to services in a dynamic environment",
+      "B) To discover new features in the service",
+      "C) To discover bugs in the service",
+      "D) To discover the version of the service"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "Service discovery is crucial in dynamic environments.",
+      "It allows services to find each other without hardcoding addresses.",
+      "Examples include Consul, Eureka, and etcd."
+    ]
+  },
+  {
+    "id": 100,
+    "type": "true_false",
+    "difficulty": "intermediate",
+    "category": "microservices",
+    "question": "Client-side service discovery is when the client is responsible for finding the service instance.",
+    "correct_answer": "True",
+    "explanations": [
+      "In client-side discovery, the client queries a registry.",
+      "In server-side discovery, a load balancer handles it.",
+      "Both approaches have their pros and cons."
+    ]
+  },
+  {
+    "id": 101,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "microservices",
+    "question": "What is the 'bulkhead' pattern in microservices?",
+    "options": [
+      "A) Isolating resources to prevent failures from spreading across services",
+      "B) A pattern for managing databases",
+      "C) A type of API gateway",
+      "D) A pattern for caching"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "The bulkhead pattern limits the impact of a failure.",
+      "It is inspired by ship design.",
+      "It helps in building resilient systems."
+    ]
+  },
+  {
+    "id": 102,
+    "type": "true_false",
+    "difficulty": "advanced",
+    "category": "microservices",
+    "question": "The 'strangler fig' pattern is used to incrementally replace a legacy system with a new one.",
+    "correct_answer": "True",
+    "explanations": [
+      "It is named after the strangler fig tree.",
+      "It gradually replaces functionality.",
+      "It reduces the risk of a big bang migration."
+    ]
+  },
+  {
+    "id": 103,
+    "type": "multiple_choice",
+    "difficulty": "intermediate",
+    "category": "caching",
+    "question": "What is TTL (Time To Live) in caching?",
+    "options": [
+      "A) The amount of time a cached item is considered valid before being refreshed",
+      "B) The time to live of a server",
+      "C) The time to live of a database connection",
+      "D) The time to live of a user session"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "TTL is a common caching strategy.",
+      "It helps in managing stale data.",
+      "It is set in seconds or milliseconds."
+    ]
+  },
+  {
+    "id": 104,
+    "type": "true_false",
+    "difficulty": "intermediate",
+    "category": "caching",
+    "question": "Cache-aside (lazy loading) is a pattern where the application first checks the cache before hitting the database.",
+    "correct_answer": "True",
+    "explanations": [
+      "Cache-aside is a common caching pattern.",
+      "It loads data into the cache on demand.",
+      "It is also known as lazy caching."
+    ]
+  },
+  {
+    "id": 105,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "caching",
+    "question": "What is the difference between a cache 'hit' and a 'miss'?",
+    "options": [
+      "A) A hit means the data was found in the cache; a miss means it was not found",
+      "B) A miss means the data was found; a hit means it was not found",
+      "C) They are the same",
+      "D) A hit means the cache is full; a miss means it is empty"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "Cache hit ratio is a key performance metric.",
+      "A high hit ratio means the cache is effective.",
+      "Misses lead to slower retrieval from the source."
+    ]
+  },
+  {
+    "id": 106,
+    "type": "true_false",
+    "difficulty": "advanced",
+    "category": "caching",
+    "question": "Write-through caching updates the cache and the database simultaneously.",
+    "correct_answer": "True",
+    "explanations": [
+      "Write-through ensures strong consistency.",
+      "It can increase write latency.",
+      "It prevents data inconsistency."
+    ]
+  },
+  {
+    "id": 107,
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "category": "networking",
+    "question": "What is an IP address?",
+    "options": [
+      "A) A unique identifier for a device on a network",
+      "B) A type of protocol",
+      "C) A domain name",
+      "D) A type of DNS record"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "IP addresses are used for routing.",
+      "There are IPv4 and IPv6 versions.",
+      "They are essential for network communication."
+    ]
+  },
+  {
+    "id": 108,
+    "type": "true_false",
+    "difficulty": "beginner",
+    "category": "networking",
+    "question": "DNS is used to translate domain names into IP addresses.",
+    "correct_answer": "True",
+    "explanations": [
+      "DNS is the phonebook of the internet.",
+      "It is a critical part of web infrastructure.",
+      "It works hierarchically."
+    ]
+  },
+  {
+    "id": 109,
+    "type": "multiple_choice",
+    "difficulty": "intermediate",
+    "category": "networking",
+    "question": "What is the purpose of a DNS record?",
+    "options": [
+      "A) To map a domain name to an IP address or other information",
+      "B) To store user data",
+      "C) To manage email accounts",
+      "D) To serve web pages"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "Different types of DNS records exist (A, CNAME, MX, etc.).",
+      "They provide various types of information.",
+      "DNS records are essential for web services."
+    ]
+  },
+  {
+    "id": 110,
+    "type": "true_false",
+    "difficulty": "advanced",
+    "category": "networking",
+    "question": "A reverse proxy can provide SSL termination, load balancing, and caching.",
+    "correct_answer": "True",
+    "explanations": [
+      "Reverse proxies are powerful tools.",
+      "They sit between clients and servers.",
+      "They improve security and performance."
+    ]
+  },
+  {
+    "id": 111,
+    "type": "multiple_choice",
+    "difficulty": "intermediate",
+    "category": "server_deployment",
+    "question": "What is Docker?",
+    "options": [
+      "A) A platform for containerizing applications",
+      "B) A programming language",
+      "C) A database system",
+      "D) A web framework"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "Docker makes it easy to create, deploy, and run containers.",
+      "Containers package applications with their dependencies.",
+      "It is a fundamental DevOps tool."
+    ]
+  },
+  {
+    "id": 112,
+    "type": "true_false",
+    "difficulty": "intermediate",
+    "category": "server_deployment",
+    "question": "Kubernetes is a container orchestration platform that manages Docker containers.",
+    "correct_answer": "True",
+    "explanations": [
+      "Kubernetes automates container deployment, scaling, and management.",
+      "It is used in cloud-native development.",
+      "It can work with various container runtimes."
+    ]
+  },
+  {
+    "id": 113,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "server_deployment",
+    "question": "What is the difference between a container and a virtual machine?",
+    "options": [
+      "A) Containers share the host OS kernel; virtual machines have their own OS",
+      "B) Virtual machines share the host OS; containers have their own OS",
+      "C) They are the same",
+      "D) Containers are for development; virtual machines are for production"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "Containers are lightweight and start quickly.",
+      "Virtual machines are more isolated.",
+      "Containers are more resource-efficient."
+    ]
+  },
+  {
+    "id": 114,
+    "type": "true_false",
+    "difficulty": "advanced",
+    "category": "server_deployment",
+    "question": "Blue-green deployment is a strategy for releasing software with zero downtime by running two identical environments.",
+    "correct_answer": "True",
+    "explanations": [
+      "Blue-green reduces risk.",
+      "It allows instant rollback.",
+      "It is a popular deployment strategy."
+    ]
+  },
+  {
+    "id": 115,
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "category": "backend_fundamentals",
+    "question": "What is middleware in backend development?",
+    "options": [
+      "A) Software that acts as a bridge between different applications or components",
+      "B) The main application logic",
+      "C) The database layer",
+      "D) The frontend of the application"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "Middleware handles cross-cutting concerns.",
+      "It can perform logging, authentication, and data parsing.",
+      "It is a key concept in web frameworks."
+    ]
+  },
+  {
+    "id": 116,
+    "type": "true_false",
+    "difficulty": "intermediate",
+    "category": "backend_fundamentals",
+    "question": "In Express.js, middleware functions can access the request and response objects.",
+    "correct_answer": "True",
+    "explanations": [
+      "Middleware functions are a core part of Express.",
+      "They can modify the request or response.",
+      "They can also end the request-response cycle."
+    ]
+  },
+  {
+    "id": 117,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "backend_fundamentals",
+    "question": "What is the difference between a monolith and a modular monolith?",
+    "options": [
+      "A) A modular monolith has well-defined modules and boundaries within a single codebase",
+      "B) A monolith has modules; a modular monolith does not",
+      "C) They are the same",
+      "D) A modular monolith is distributed"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "A modular monolith aims to get the benefits of modularity without the complexity of microservices.",
+      "It has clear boundaries and dependencies.",
+      "It is easier to refactor into microservices later."
+    ]
+  },
+  {
+    "id": 118,
+    "type": "true_false",
+    "difficulty": "advanced",
+    "category": "backend_fundamentals",
+    "question": "Event Sourcing stores all changes to application state as a sequence of events.",
+    "correct_answer": "True",
+    "explanations": [
+      "Event sourcing is a powerful pattern.",
+      "It provides a complete audit trail.",
+      "It requires event replay to reconstruct state."
+    ]
+  },
+  {
+    "id": 119,
+    "type": "multiple_choice",
+    "difficulty": "intermediate",
+    "category": "database_sql",
+    "question": "What is a stored procedure in SQL?",
+    "options": [
+      "A) A precompiled collection of SQL statements stored in the database",
+      "B) A temporary table",
+      "C) A type of index",
+      "D) A database view"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "Stored procedures are used for complex logic.",
+      "They can reduce network traffic.",
+      "They are a powerful feature of SQL databases."
+    ]
+  },
+  {
+    "id": 120,
+    "type": "true_false",
+    "difficulty": "advanced",
+    "category": "database_sql",
+    "question": "Triggers in SQL are automatically executed in response to certain events on a table.",
+    "correct_answer": "True",
+    "explanations": [
+      "Triggers can be used for auditing and validation.",
+      "They can fire before or after INSERT, UPDATE, or DELETE.",
+      "They are a database feature."
+    ]
+  },
+  {
+    "id": 121,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "database_sql",
+    "question": "What is the difference between `DELETE` and `TRUNCATE` in SQL?",
+    "options": [
+      "A) `DELETE` removes rows individually; `TRUNCATE` removes all rows and resets the table",
+      "B) `TRUNCATE` removes rows individually; `DELETE` removes all rows",
+      "C) They are the same",
+      "D) `DELETE` is for tables; `TRUNCATE` is for views"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "DELETE is a DML operation and can be rolled back.",
+      "TRUNCATE is a DDL operation and cannot be rolled back.",
+      "TRUNCATE is faster as it doesn't log individual row deletions."
+    ]
+  },
+  {
+    "id": 122,
+    "type": "true_false",
+    "difficulty": "advanced",
+    "category": "database_sql",
+    "question": "The `UNION` operator combines the results of two or more SELECT statements and removes duplicates.",
+    "correct_answer": "True",
+    "explanations": [
+      "`UNION ALL` does not remove duplicates.",
+      "Both SELECT statements must have the same number of columns.",
+      "`UNION` is useful for combining data from similar tables."
+    ]
+  },
+  {
+    "id": 123,
+    "type": "multiple_choice",
+    "difficulty": "intermediate",
+    "category": "nosql_database",
+    "question": "What is the purpose of the `ObjectId` in MongoDB?",
+    "options": [
+      "A) To provide a unique identifier for each document",
+      "B) To identify the collection",
+      "C) To identify the database",
+      "D) To identify the server"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "`ObjectId` is a 12-byte hexadecimal identifier.",
+      "It is automatically generated for documents.",
+      "It contains a timestamp, machine ID, process ID, and counter."
+    ]
+  },
+  {
+    "id": 124,
+    "type": "true_false",
+    "difficulty": "intermediate",
+    "category": "nosql_database",
+    "question": "MongoDB indexes are optional but can significantly improve query performance.",
+    "correct_answer": "True",
+    "explanations": [
+      "Indexes speed up read operations.",
+      "They use B-tree data structures.",
+      "They come with the cost of extra storage and write overhead."
+    ]
+  },
+  {
+    "id": 125,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "nosql_database",
+    "question": "What is the difference between an index and a composite index in MongoDB?",
+    "options": [
+      "A) A composite index is an index on multiple fields",
+      "B) An index is on multiple fields; a composite index is on a single field",
+      "C) They are the same",
+      "D) Composite indexes are only for arrays"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "Composite indexes support queries on multiple fields.",
+      "The order of fields in the index matters.",
+      "They are useful for complex queries."
+    ]
+  },
+  {
+    "id": 126,
+    "type": "true_false",
+    "difficulty": "advanced",
+    "category": "nosql_database",
+    "question": "MongoDB's change streams allow applications to watch for real-time changes in the database.",
+    "correct_answer": "True",
+    "explanations": [
+      "Change streams are a powerful feature.",
+      "They are used for event-driven architectures.",
+      "They can be used for real-time analytics."
+    ]
+  },
+  {
+    "id": 127,
+    "type": "multiple_choice",
+    "difficulty": "intermediate",
+    "category": "microservices",
+    "question": "What is the purpose of distributed tracing in microservices?",
+    "options": [
+      "A) To track and analyze requests as they flow through multiple services",
+      "B) To trace errors in the code",
+      "C) To trace database queries",
+      "D) To trace network traffic"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "Distributed tracing helps debug microservices.",
+      "It provides visibility into request latency.",
+      "Examples include Jaeger and Zipkin."
+    ]
+  },
+  {
+    "id": 128,
+    "type": "true_false",
+    "difficulty": "intermediate",
+    "category": "microservices",
+    "question": "Centralized logging is important for aggregating logs from multiple services.",
+    "correct_answer": "True",
+    "explanations": [
+      "Centralized logging simplifies troubleshooting.",
+      "It provides a single view of all logs.",
+      "Tools like ELK stack are commonly used."
+    ]
+  },
+  {
+    "id": 129,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "microservices",
+    "question": "What is the difference between a saga and a distributed transaction?",
+    "options": [
+      "A) A saga is a sequence of local transactions that provide compensation; a distributed transaction uses a two-phase commit",
+      "B) A distributed transaction is a sequence of local transactions; a saga uses two-phase commit",
+      "C) They are the same",
+      "D) Sagas are for compensating operations; distributed transactions are for coordinating operations"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "Sagas are used for long-running transactions.",
+      "They use compensation to undo changes.",
+      "Distributed transactions are often more complex and less scalable."
+    ]
+  },
+  {
+    "id": 130,
+    "type": "true_false",
+    "difficulty": "advanced",
+    "category": "microservices",
+    "question": "The 'service mesh' is a dedicated infrastructure layer for handling service-to-service communication.",
+    "correct_answer": "True",
+    "explanations": [
+      "Service meshes manage traffic, security, and observability.",
+      "Examples include Istio and Linkerd.",
+      "They offload network concerns from services."
+    ]
+  },
+  {
+    "id": 131,
+    "type": "multiple_choice",
+    "difficulty": "intermediate",
+    "category": "authentication_security",
+    "question": "What is hashing in the context of password security?",
+    "options": [
+      "A) A one-way function that converts a password into a fixed-size string of characters",
+      "B) A two-way function that encrypts and decrypts passwords",
+      "C) A function that compresses passwords",
+      "D) A function that encodes passwords"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "Hashing is a key part of secure password storage.",
+      "It is a one-way function, meaning it cannot be reversed.",
+      "Salting adds randomness before hashing."
+    ]
+  },
+  {
+    "id": 132,
+    "type": "true_false",
+    "difficulty": "intermediate",
+    "category": "authentication_security",
+    "question": "bcrypt is a hashing algorithm that is resistant to brute force attacks because it is computationally expensive.",
+    "correct_answer": "True",
+    "explanations": [
+      "bcrypt is widely used for password hashing.",
+      "It is adaptive and can be made slower over time.",
+      "It is recommended over simpler algorithms like MD5 or SHA-1."
+    ]
+  },
+  {
+    "id": 133,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "authentication_security",
+    "question": "What is a 'man-in-the-browser' attack?",
+    "options": [
+      "A) An attacker uses malware to intercept and modify communication within the user's browser",
+      "B) An attacker intercepts network communication",
+      "C) An attacker steals cookies",
+      "D) An attacker exploits a DNS vulnerability"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "Man-in-the-browser attacks are more subtle than MITM.",
+      "They often use browser extensions or malware.",
+      "They can bypass HTTPS encryption."
+    ]
+  },
+  {
+    "id": 134,
+    "type": "true_false",
+    "difficulty": "advanced",
+    "category": "authentication_security",
+    "question": "Two-factor authentication (2FA) adds an extra layer of security beyond just a password.",
+    "correct_answer": "True",
+    "explanations": [
+      "2FA requires two distinct forms of identification.",
+      "Common methods include SMS codes and authenticator apps.",
+      "It significantly reduces the risk of account compromise."
+    ]
+  },
+  {
+    "id": 135,
+    "type": "multiple_choice",
+    "difficulty": "intermediate",
+    "category": "api_design",
+    "question": "What is API documentation used for?",
+    "options": [
+      "A) To explain how to use the API, including endpoints, parameters, and responses",
+      "B) To document the codebase",
+      "C) To document the database schema",
+      "D) To document the deployment process"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "Good documentation is essential for API adoption.",
+      "It should include examples and error handling.",
+      "Tools like Swagger and Postman can help generate documentation."
+    ]
+  },
+  {
+    "id": 136,
+    "type": "true_false",
+    "difficulty": "beginner",
+    "category": "api_design",
+    "question": "OpenAPI (formerly Swagger) is a specification for defining REST APIs.",
+    "correct_answer": "True",
+    "explanations": [
+      "OpenAPI provides a standard way to describe APIs.",
+      "It can be used to generate documentation and client SDKs.",
+      "It is widely adopted in the industry."
+    ]
+  },
+  {
+    "id": 137,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "api_design",
+    "question": "What is the difference between RPC and REST?",
+    "options": [
+      "A) REST is resource-oriented and uses HTTP methods; RPC is action-oriented and often uses a single endpoint",
+      "B) RPC is resource-oriented; REST is action-oriented",
+      "C) They are the same",
+      "D) RPC is for internal services; REST is for public APIs"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "RPC (Remote Procedure Call) focuses on actions.",
+      "REST focuses on resources and their representations.",
+      "Both are architectural styles for APIs."
+    ]
+  },
+  {
+    "id": 138,
+    "type": "true_false",
+    "difficulty": "advanced",
+    "category": "api_design",
+    "question": "GraphQL uses a single endpoint for all queries, unlike REST which has multiple endpoints.",
+    "correct_answer": "True",
+    "explanations": [
+      "GraphQL simplifies client-server communication.",
+      "Clients can request exactly the data they need.",
+      "This is a key advantage over REST."
+    ]
+  },
+  {
+    "id": 139,
+    "type": "multiple_choice",
+    "difficulty": "intermediate",
+    "category": "server_side_languages",
+    "question": "What is the difference between Java and JavaScript in backend development?",
+    "options": [
+      "A) Java is a compiled, object-oriented language; JavaScript is an interpreted, prototype-based language",
+      "B) JavaScript is compiled; Java is interpreted",
+      "C) They are the same",
+      "D) Java is only for frontend; JavaScript is only for backend"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "Java is traditionally used in enterprise environments.",
+      "JavaScript (Node.js) is popular for event-driven architectures.",
+      "They have different ecosystems and use cases."
+    ]
+  },
+  {
+    "id": 140,
+    "type": "true_false",
+    "difficulty": "advanced",
+    "category": "server_side_languages",
+    "question": "In Java, the Spring framework is widely used for building web applications and microservices.",
+    "correct_answer": "True",
+    "explanations": [
+      "Spring Boot makes it easy to create stand-alone applications.",
+      "It provides features like dependency injection and aspect-oriented programming.",
+      "It is a comprehensive enterprise framework."
+    ]
+  },
+  {
+    "id": 141,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "server_side_languages",
+    "question": "What is the difference between the `==` and `===` operators in JavaScript?",
+    "options": [
+      "A) `==` compares values with type coercion; `===` compares values and types without coercion",
+      "B) `===` compares values with type coercion; `==` compares values and types without coercion",
+      "C) They are the same",
+      "D) `==` is for numbers; `===` is for strings"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "This is a classic JavaScript gotcha.",
+      "Using `===` is a best practice.",
+      "It avoids unexpected type conversions."
+    ]
+  },
+  {
+    "id": 142,
+    "type": "true_false",
+    "difficulty": "advanced",
+    "category": "server_side_languages",
+    "question": "Go (Golang) is known for its simplicity, concurrency support, and fast compilation.",
+    "correct_answer": "True",
+    "explanations": [
+      "Go is designed for building scalable systems.",
+      "It has built-in goroutines for concurrent programming.",
+      "It is used by many high-performance backend systems."
+    ]
+  },
+  {
+    "id": 143,
+    "type": "multiple_choice",
+    "difficulty": "intermediate",
+    "category": "database_sql",
+    "question": "What is a database index?",
+    "options": [
+      "A) A data structure that improves the speed of data retrieval operations on a table",
+      "B) A way to index database users",
+      "C) A type of database table",
+      "D) A way to sort data"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "Indexes are used to speed up queries.",
+      "They can be created on one or more columns.",
+      "They come with storage and maintenance costs."
+    ]
+  },
+  {
+    "id": 144,
+    "type": "true_false",
+    "difficulty": "beginner",
+    "category": "database_sql",
+    "question": "A primary key can contain null values.",
+    "correct_answer": "False",
+    "explanations": [
+      "Primary keys must be unique and not null.",
+      "They are used to uniquely identify each record.",
+      "This is a fundamental rule of relational databases."
+    ]
+  },
+  {
+    "id": 145,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "database_sql",
+    "question": "What is the difference between a unique key and a primary key?",
+    "options": [
+      "A) A primary key uniquely identifies a record; a unique key also enforces uniqueness but can be null",
+      "B) A unique key uniquely identifies a record; a primary key also enforces uniqueness but can be null",
+      "C) They are the same",
+      "D) Primary keys are for tables; unique keys are for columns"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "There can be only one primary key per table.",
+      "There can be multiple unique keys.",
+      "Unique keys are often used for business keys."
+    ]
+  },
+  {
+    "id": 146,
+    "type": "true_false",
+    "difficulty": "intermediate",
+    "category": "database_sql",
+    "question": "The `EXISTS` clause is used to test for the existence of rows in a subquery.",
+    "correct_answer": "True",
+    "explanations": [
+      "`EXISTS` is a logical operator.",
+      "It is often more efficient than `COUNT(*)`.",
+      "It returns TRUE if the subquery returns at least one row."
+    ]
+  },
+  {
+    "id": 147,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "database_sql",
+    "question": "What is the difference between `IN` and `EXISTS` in SQL?",
+    "options": [
+      "A) `IN` compares values to a list; `EXISTS` checks for the existence of rows in a subquery",
+      "B) `EXISTS` compares values to a list; `IN` checks for existence",
+      "C) They are the same",
+      "D) `IN` is for tables; `EXISTS` is for columns"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "`IN` can be slower with large subquery results.",
+      "`EXISTS` is often more efficient for existence checks.",
+      "Choosing between them depends on the specific query."
+    ]
+  },
+  {
+    "id": 148,
+    "type": "true_false",
+    "difficulty": "advanced",
+    "category": "nosql_database",
+    "question": "DynamoDB is a fully managed NoSQL database service provided by AWS.",
+    "correct_answer": "True",
+    "explanations": [
+      "DynamoDB is a key-value and document database.",
+      "It provides single-digit millisecond performance.",
+      "It scales automatically."
+    ]
+  },
+  {
+    "id": 149,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "nosql_database",
+    "question": "What is the difference between DynamoDB and MongoDB?",
+    "options": [
+      "A) DynamoDB is a fully managed service with a proprietary API; MongoDB can be self-hosted and uses a document model",
+      "B) MongoDB is fully managed; DynamoDB is self-hosted",
+      "C) They are the same",
+      "D) DynamoDB is relational; MongoDB is NoSQL"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "DynamoDB is tightly integrated with AWS.",
+      "MongoDB is available on multiple platforms.",
+      "DynamoDB uses a stricter data model."
+    ]
+  },
+  {
+    "id": 150,
+    "type": "true_false",
+    "difficulty": "advanced",
+    "category": "nosql_database",
+    "question": "In DynamoDB, the partition key is required, and the sort key is optional.",
+    "correct_answer": "True",
+    "explanations": [
+      "The partition key is used for data distribution.",
+      "The sort key allows for hierarchical data.",
+      "Together they form the primary key."
+    ]
+  },
+  {
+    "id": 151,
+    "type": "multiple_choice",
+    "difficulty": "intermediate",
+    "category": "microservices",
+    "question": "What is the purpose of a service registry in microservices?",
+    "options": [
+      "A) To store the addresses of available service instances",
+      "B) To register user accounts",
+      "C) To register API endpoints",
+      "D) To register database connections"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "Service registries are a key component.",
+      "They enable service discovery.",
+      "They are used by both clients and services."
+    ]
+  },
+  {
+    "id": 152,
+    "type": "true_false",
+    "difficulty": "intermediate",
+    "category": "microservices",
+    "question": "In a microservices architecture, services should be loosely coupled.",
+    "correct_answer": "True",
+    "explanations": [
+      "Loose coupling is a core principle.",
+      "It allows services to evolve independently.",
+      "It improves resilience and maintainability."
+    ]
+  },
+  {
+    "id": 153,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "microservices",
+    "question": "What is the difference between orchestration and choreography in microservices?",
+    "options": [
+      "A) Orchestration uses a central coordinator; choreography relies on event-driven communication",
+      "B) Choreography uses a central coordinator; orchestration relies on events",
+      "C) They are the same",
+      "D) Orchestration is for synchronous communication; choreography is for asynchronous"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "Orchestration is like a conductor.",
+      "Choreography is like dancers following a pattern.",
+      "Both are used for workflow management."
+    ]
+  },
+  {
+    "id": 154,
+    "type": "true_false",
+    "difficulty": "advanced",
+    "category": "microservices",
+    "question": "The 'database per service' pattern is recommended in microservices to ensure loose coupling.",
+    "correct_answer": "True",
+    "explanations": [
+      "This pattern ensures each service has its own database.",
+      "It prevents tight coupling between services.",
+      "It can lead to data duplication challenges."
+    ]
+  },
+  {
+    "id": 155,
+    "type": "multiple_choice",
+    "difficulty": "intermediate",
+    "category": "caching",
+    "question": "What is the purpose of a CDN in caching?",
+    "options": [
+      "A) To cache content at edge locations closer to users",
+      "B) To cache content on the origin server",
+      "C) To cache content in the user's browser",
+      "D) To cache content in the database"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "CDNs distribute content globally.",
+      "They improve load times for static assets.",
+      "They reduce server load."
+    ]
+  },
+  {
+    "id": 156,
+    "type": "true_false",
+    "difficulty": "intermediate",
+    "category": "caching",
+    "question": "HTTP caching headers like `Cache-Control` instruct the browser on how to cache resources.",
+    "correct_answer": "True",
+    "explanations": [
+      "`Cache-Control` is a standard HTTP header.",
+      "It can specify max age, must-revalidate, and other directives.",
+      "It is essential for efficient caching."
+    ]
+  },
+  {
+    "id": 157,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "caching",
+    "question": "What is the difference between `Cache-Control: private` and `public`?",
+    "options": [
+      "A) `private` is for a single user; `public` is for all users",
+      "B) `public` is for a single user; `private` is for all users",
+      "C) They are the same",
+      "D) `private` is for encrypted data; `public` is for public data"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "`private` means the response is specific to a user.",
+      "`public` means it can be cached by any cache.",
+      "This is important for privacy and security."
+    ]
+  },
+  {
+    "id": 158,
+    "type": "true_false",
+    "difficulty": "advanced",
+    "category": "caching",
+    "question": "Cache poisoning is an attack where malicious data is injected into a cache, leading to serving incorrect content.",
+    "correct_answer": "True",
+    "explanations": [
+      "Cache poisoning is a serious security threat.",
+      "It can lead to denial of service or data theft.",
+      "It requires careful implementation."
+    ]
+  },
+  {
+    "id": 159,
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "category": "networking",
+    "question": "What is a port in networking?",
+    "options": [
+      "A) A virtual point where network connections start and end",
+      "B) A physical connection on a router",
+      "C) A type of protocol",
+      "D) A type of IP address"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "Ports are used in combination with IP addresses.",
+      "They allow multiple services to run on a single IP.",
+      "Common ports: 80 (HTTP), 443 (HTTPS), 22 (SSH)."
+    ]
+  },
+  {
+    "id": 160,
+    "type": "true_false",
+    "difficulty": "beginner",
+    "category": "networking",
+    "question": "HTTP uses port 443 by default.",
+    "correct_answer": "False",
+    "explanations": [
+      "HTTP uses port 80 by default.",
+      "HTTPS uses port 443.",
+      "This is a standard convention."
+    ]
+  },
+  {
+    "id": 161,
+    "type": "multiple_choice",
+    "difficulty": "intermediate",
+    "category": "networking",
+    "question": "What is the purpose of a firewall?",
+    "options": [
+      "A) To monitor and control incoming and outgoing network traffic",
+      "B) To protect against computer viruses",
+      "C) To manage user authentication",
+      "D) To store network data"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "Firewalls are a security tool.",
+      "They establish rules for traffic.",
+      "They can be hardware or software-based."
+    ]
+  },
+  {
+    "id": 162,
+    "type": "true_false",
+    "difficulty": "advanced",
+    "category": "networking",
+    "question": "A Web Application Firewall (WAF) specifically protects web applications from attacks like SQL injection and XSS.",
+    "correct_answer": "True",
+    "explanations": [
+      "WAFs are a type of firewall.",
+      "They monitor HTTP traffic.",
+      "They are important for web security."
+    ]
+  },
+  {
+    "id": 163,
+    "type": "multiple_choice",
+    "difficulty": "intermediate",
+    "category": "server_deployment",
+    "question": "What is CI/CD?",
+    "options": [
+      "A) Continuous Integration and Continuous Delivery/Deployment",
+      "B) Continuous Improvement and Continuous Development",
+      "C) Code Integration and Code Deployment",
+      "D) Customer Interaction and Customer Delivery"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "CI/CD is a DevOps practice.",
+      "It automates building, testing, and deploying applications.",
+      "It improves software quality and delivery speed."
+    ]
+  },
+  {
+    "id": 164,
+    "type": "true_false",
+    "difficulty": "intermediate",
+    "category": "server_deployment",
+    "question": "GitHub Actions is a CI/CD platform that can automate workflows directly from GitHub.",
+    "correct_answer": "True",
+    "explanations": [
+      "GitHub Actions is integrated with GitHub.",
+      "It can build, test, and deploy code.",
+      "It is a popular CI/CD tool."
+    ]
+  },
+  {
+    "id": 165,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "server_deployment",
+    "question": "What is the difference between a blue-green deployment and a canary deployment?",
+    "options": [
+      "A) Blue-green uses two environments; canary gradually routes traffic to a new version",
+      "B) Canary uses two environments; blue-green gradually routes traffic",
+      "C) They are the same",
+      "D) Blue-green is for big releases; canary is for small fixes"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "Canary releases reduce risk.",
+      "They allow testing with a subset of users.",
+      "Blue-green provides a more direct cutover."
+    ]
+  },
+  {
+    "id": 166,
+    "type": "true_false",
+    "difficulty": "advanced",
+    "category": "server_deployment",
+    "question": "Infrastructure as Code (IaC) treats infrastructure configuration as code, enabling version control and automation.",
+    "correct_answer": "True",
+    "explanations": [
+      "IaC is a DevOps best practice.",
+      "Tools include Terraform and CloudFormation.",
+      "It ensures consistent and reproducible infrastructure."
+    ]
+  },
+  {
+    "id": 167,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "backend_fundamentals",
+    "question": "What is the difference between a library and a framework?",
+    "options": [
+      "A) A library is a collection of functions you can call; a framework is a structure that calls your code",
+      "B) A framework is a collection of functions; a library is a structure",
+      "C) They are the same",
+      "D) Libraries are for frontend; frameworks are for backend"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "Frameworks provide structure and inversion of control.",
+      "Libraries are more modular.",
+      "Frameworks dictate the architecture."
+    ]
+  },
+  {
+    "id": 168,
+    "type": "true_false",
+    "difficulty": "advanced",
+    "category": "backend_fundamentals",
+    "question": "Domain-Driven Design (DDD) is an approach to software development that focuses on modeling business domains and their relationships.",
+    "correct_answer": "True",
+    "explanations": [
+      "DDD uses concepts like entities, value objects, and aggregates.",
+      "It helps manage complex business logic.",
+      "It is often used in microservices."
+    ]
+  },
+  {
+    "id": 169,
+    "type": "multiple_choice",
+    "difficulty": "intermediate",
+    "category": "database_sql",
+    "question": "What is the purpose of the `COALESCE` function in SQL?",
+    "options": [
+      "A) To return the first non-null value from a list of arguments",
+      "B) To concatenate strings",
+      "C) To calculate the average",
+      "D) To convert data types"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "`COALESCE` is a powerful function.",
+      "It is often used to handle null values.",
+      "It can take multiple arguments."
+    ]
+  },
+  {
+    "id": 170,
+    "type": "true_false",
+    "difficulty": "intermediate",
+    "category": "database_sql",
+    "question": "The `NULLIF` function returns NULL if the two arguments are equal, otherwise it returns the first argument.",
+    "correct_answer": "True",
+    "explanations": [
+      "`NULLIF` is useful for handling specific values.",
+      "It can be used to prevent division by zero.",
+      "It is a common SQL function."
+    ]
+  },
+  {
+    "id": 171,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "database_sql",
+    "question": "What is the difference between `DELETE` and `DROP` in SQL?",
+    "options": [
+      "A) `DELETE` removes rows; `DROP` removes the entire table structure",
+      "B) `DROP` removes rows; `DELETE` removes the entire table structure",
+      "C) They are the same",
+      "D) `DELETE` is for data; `DROP` is for databases"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "`DELETE` is a DML command.",
+      "`DROP` is a DDL command.",
+      "`DROP` is irreversible."
+    ]
+  },
+  {
+    "id": 172,
+    "type": "true_false",
+    "difficulty": "advanced",
+    "category": "database_sql",
+    "question": "The `WITH` clause (Common Table Expression) allows you to define temporary result sets in a query.",
+    "correct_answer": "True",
+    "explanations": [
+      "CTEs improve query readability.",
+      "They can be recursive.",
+      "They are a powerful SQL feature."
+    ]
+  },
+  {
+    "id": 173,
+    "type": "multiple_choice",
+    "difficulty": "intermediate",
+    "category": "nosql_database",
+    "question": "What is the purpose of sharding in MongoDB?",
+    "options": [
+      "A) To distribute data across multiple machines for horizontal scaling",
+      "B) To share data with other databases",
+      "C) To share data with the frontend",
+      "D) To share data with the cache"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "Sharding is a horizontal scaling strategy.",
+      "It increases read/write capacity.",
+      "It requires a shard key."
+    ]
+  },
+  {
+    "id": 174,
+    "type": "true_false",
+    "difficulty": "intermediate",
+    "category": "nosql_database",
+    "question": "A replica set in MongoDB is a group of servers that maintain the same data set, providing redundancy and high availability.",
+    "correct_answer": "True",
+    "explanations": [
+      "Replication improves availability.",
+      "It allows failover.",
+      "It is different from sharding."
+    ]
+  },
+  {
+    "id": 175,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "nosql_database",
+    "question": "What is the difference between a primary node and a secondary node in a MongoDB replica set?",
+    "options": [
+      "A) The primary node accepts write operations; secondary nodes are read-only",
+      "B) The secondary node accepts write operations; primary nodes are read-only",
+      "C) They are the same",
+      "D) Primary is for queries; secondary is for backups"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "Writes are directed to the primary.",
+      "Reads can be directed to secondaries.",
+      "If the primary fails, a secondary is elected."
+    ]
+  },
+  {
+    "id": 176,
+    "type": "true_false",
+    "difficulty": "advanced",
+    "category": "nosql_database",
+    "question": "Cassandra's data model is based on tables, similar to relational databases, but with a different distribution mechanism.",
+    "correct_answer": "True",
+    "explanations": [
+      "Cassandra uses a SQL-like query language (CQL).",
+      "It has a flexible schema.",
+      "It is designed for high availability and partition tolerance."
+    ]
+  },
+  {
+    "id": 177,
+    "type": "multiple_choice",
+    "difficulty": "intermediate",
+    "category": "microservices",
+    "question": "What is the purpose of an API Gateway in microservices?",
+    "options": [
+      "A) To provide a single entry point for API requests and handle routing, authentication, and rate limiting",
+      "B) To store API data",
+      "C) To manage database connections",
+      "D) To handle user authentication only"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "API Gateway is a key component.",
+      "It simplifies the client's interaction.",
+      "It can also aggregate responses from multiple services."
+    ]
+  },
+  {
+    "id": 178,
+    "type": "true_false",
+    "difficulty": "intermediate",
+    "category": "microservices",
+    "question": "An API Gateway can also perform caching and logging.",
+    "correct_answer": "True",
+    "explanations": [
+      "Caching reduces load on services.",
+      "Logging helps with monitoring and debugging.",
+      "It is a common practice."
+    ]
+  },
+  {
+    "id": 179,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "microservices",
+    "question": "What is the difference between a sidecar pattern and a service mesh?",
+    "options": [
+      "A) A sidecar is a separate container for handling cross-cutting concerns; a service mesh is a network of sidecars",
+      "B) A service mesh is a separate container; a sidecar is a network",
+      "C) They are the same",
+      "D) A sidecar is for databases; a service mesh is for APIs"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "The sidecar pattern is used to extend services.",
+      "Service meshes use sidecar proxies.",
+      "They manage communication between services."
+    ]
+  },
+  {
+    "id": 180,
+    "type": "true_false",
+    "difficulty": "advanced",
+    "category": "microservices",
+    "question": "Event-driven architecture (EDA) is a pattern where services communicate through events rather than direct requests.",
+    "correct_answer": "True",
+    "explanations": [
+      "EDA is decoupled and scalable.",
+      "It uses message brokers or event streams.",
+      "It is ideal for asynchronous workflows."
+    ]
+  },
+  {
+    "id": 181,
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "category": "authentication_security",
+    "question": "What is SSL/TLS used for?",
+    "options": [
+      "A) To encrypt data transmitted between a client and a server",
+      "B) To authenticate users",
+      "C) To store passwords",
+      "D) To manage user sessions"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "SSL/TLS provides secure communication.",
+      "It uses certificates for trust.",
+      "It is the foundation of HTTPS."
+    ]
+  },
+  {
+    "id": 182,
+    "type": "true_false",
+    "difficulty": "intermediate",
+    "category": "authentication_security",
+    "question": "A self-signed certificate is trusted by browsers and should be used in production.",
+    "correct_answer": "False",
+    "explanations": [
+      "Self-signed certificates are not trusted by default.",
+      "They are often used for development.",
+      "They cause security warnings."
+    ]
+  },
+  {
+    "id": 183,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "authentication_security",
+    "question": "What is the difference between symmetric and asymmetric encryption?",
+    "options": [
+      "A) Symmetric uses a single key; asymmetric uses a pair of keys",
+      "B) Asymmetric uses a single key; symmetric uses a pair",
+      "C) They are the same",
+      "D) Symmetric is for data at rest; asymmetric is for data in transit"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "Symmetric is faster.",
+      "Asymmetric solves the key distribution problem.",
+      "Both are used in combination (e.g., in HTTPS)."
+    ]
+  },
+  {
+    "id": 184,
+    "type": "true_false",
+    "difficulty": "advanced",
+    "category": "authentication_security",
+    "question": "The principle of least privilege means giving users only the permissions they need to perform their tasks.",
+    "correct_answer": "True",
+    "explanations": [
+      "This is a security best practice.",
+      "It reduces the attack surface.",
+      "It is important in authorization."
+    ]
+  },
+  {
+    "id": 185,
+    "type": "multiple_choice",
+    "difficulty": "intermediate",
+    "category": "api_design",
+    "question": "What is the purpose of API versioning?",
+    "options": [
+      "A) To allow the API to evolve without breaking existing clients",
+      "B) To create different versions of the API",
+      "C) To support multiple programming languages",
+      "D) To improve performance"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "Versioning is essential for APIs.",
+      "Common strategies include URL and header versioning.",
+      "It helps manage backward compatibility."
+    ]
+  },
+  {
+    "id": 186,
+    "type": "true_false",
+    "difficulty": "advanced",
+    "category": "api_design",
+    "question": "API deprecation is the process of marking an older version of an API as obsolete and encouraging clients to migrate.",
+    "correct_answer": "True",
+    "explanations": [
+      "Deprecation gives clients time to migrate.",
+      "It is a best practice in API lifecycle management.",
+      "It should be communicated well in advance."
+    ]
+  },
+  {
+    "id": 187,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "api_design",
+    "question": "What is the difference between RESTful APIs and SOAP APIs?",
+    "options": [
+      "A) REST uses standard HTTP and JSON/XML; SOAP uses its own protocol and XML",
+      "B) SOAP uses HTTP and JSON; REST uses its own protocol",
+      "C) They are the same",
+      "D) REST is older than SOAP"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "REST is more lightweight and flexible.",
+      "SOAP is more standardized and comprehensive.",
+      "SOAP is still used in enterprise environments."
+    ]
+  },
+  {
+    "id": 188,
+    "type": "true_false",
+    "difficulty": "advanced",
+    "category": "api_design",
+    "question": "HATEOAS (Hypermedia as the Engine of Application State) is a constraint of REST that provides links for navigation.",
+    "correct_answer": "True",
+    "explanations": [
+      "HATEOAS is a key principle of REST.",
+      "It makes APIs more discoverable.",
+      "It reduces coupling between client and server."
+    ]
+  },
+  {
+    "id": 189,
+    "type": "multiple_choice",
+    "difficulty": "intermediate",
+    "category": "server_side_languages",
+    "question": "What is the purpose of the `try...catch` block in Python?",
+    "options": [
+      "A) To handle exceptions and prevent the program from crashing",
+      "B) To try a block of code and catch any errors",
+      "C) To execute code even if there is an error",
+      "D) To catch errors and log them"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "`try...except` is the Python syntax.",
+      "It is used for error handling.",
+      "It is similar to `try...catch` in other languages."
+    ]
+  },
+  {
+    "id": 190,
+    "type": "true_false",
+    "difficulty": "intermediate",
+    "category": "server_side_languages",
+    "question": "In Python, the `with` statement is used to simplify exception handling for resources like file I/O.",
+    "correct_answer": "True",
+    "explanations": [
+      "The `with` statement ensures proper cleanup.",
+      "It is often used for context managers.",
+      "It is a Python-specific construct."
+    ]
+  },
+  {
+    "id": 191,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "server_side_languages",
+    "question": "What is the difference between `throw` and `throws` in Java?",
+    "options": [
+      "A) `throw` is used to explicitly throw an exception; `throws` is used to declare that a method can throw an exception",
+      "B) `throws` is used to throw an exception; `throw` is used to declare exceptions",
+      "C) They are the same",
+      "D) `throw` is for runtime exceptions; `throws` is for checked exceptions"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "This is a classic Java question.",
+      "`throw` is used with a specific exception object.",
+      "`throws` is part of the method signature."
+    ]
+  },
+  {
+    "id": 192,
+    "type": "true_false",
+    "difficulty": "advanced",
+    "category": "server_side_languages",
+    "question": "Ruby on Rails is a full-stack web framework that follows the MVC (Model-View-Controller) pattern.",
+    "correct_answer": "True",
+    "explanations": [
+      "Rails is known for its convention over configuration.",
+      "It promotes rapid development.",
+      "It is a popular framework for startup development."
+    ]
+  },
+  {
+    "id": 193,
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "category": "database_sql",
+    "question": "What is the purpose of the `ORDER BY` clause in SQL?",
+    "options": [
+      "A) To sort the result set in ascending or descending order",
+      "B) To order the columns",
+      "C) To order the tables",
+      "D) To order the database"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "`ORDER BY` is used to sort query results.",
+      "Default is ascending.",
+      "Multiple columns can be specified."
+    ]
+  },
+  {
+    "id": 194,
+    "type": "true_false",
+    "difficulty": "beginner",
+    "category": "database_sql",
+    "question": "The `LIMIT` clause is used to restrict the number of rows returned by a query.",
+    "correct_answer": "True",
+    "explanations": [
+      "`LIMIT` is used in many SQL dialects.",
+      "It is useful for pagination.",
+      "In some databases, it is called `TOP` or `ROWNUM`."
+    ]
+  },
+  {
+    "id": 195,
+    "type": "multiple_choice",
+    "difficulty": "intermediate",
+    "category": "database_sql",
+    "question": "What is the difference between `CHAR` and `VARCHAR` in SQL?",
+    "options": [
+      "A) `CHAR` is fixed-length; `VARCHAR` is variable-length",
+      "B) `VARCHAR` is fixed-length; `CHAR` is variable-length",
+      "C) They are the same",
+      "D) `CHAR` is for characters; `VARCHAR` is for strings"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "`CHAR` is more efficient for fixed-length data.",
+      "`VARCHAR` saves space for variable-length data.",
+      "The choice affects performance and storage."
+    ]
+  },
+  {
+    "id": 196,
+    "type": "true_false",
+    "difficulty": "advanced",
+    "category": "database_sql",
+    "question": "A database trigger can be used to enforce business rules at the database level.",
+    "correct_answer": "True",
+    "explanations": [
+      "Triggers are a powerful feature.",
+      "They can be used for auditing, validation, and synchronization.",
+      "They are executed automatically."
+    ]
+  },
+  {
+    "id": 197,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "database_sql",
+    "question": "What is the difference between a view and a materialized view?",
+    "options": [
+      "A) A view is a virtual table; a materialized view stores the result physically",
+      "B) A materialized view is virtual; a view stores the result physically",
+      "C) They are the same",
+      "D) Views are for SELECT; materialized views are for UPDATE"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "Materialized views improve performance for complex queries.",
+      "They need to be refreshed periodically.",
+      "Views are always up-to-date but can be slower."
+    ]
+  },
+  {
+    "id": 198,
+    "type": "true_false",
+    "difficulty": "advanced",
+    "category": "nosql_database",
+    "question": "Neo4j is a graph database that stores data in nodes, relationships, and properties.",
+    "correct_answer": "True",
+    "explanations": [
+      "Neo4j is a leading graph database.",
+      "It uses Cypher query language.",
+      "It is ideal for connected data."
+    ]
+  },
+  {
+    "id": 199,
+    "type": "multiple_choice",
+    "difficulty": "intermediate",
+    "category": "nosql_database",
+    "question": "What is the purpose of a graph database?",
+    "options": [
+      "A) To store and navigate relationships between data points efficiently",
+      "B) To store data in tables",
+      "C) To store data in documents",
+      "D) To store data in key-value pairs"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "Graph databases are designed for relationship-heavy data.",
+      "They are used for social networks, recommendation engines, and fraud detection.",
+      "They are a type of NoSQL database."
+    ]
+  },
+  {
+    "id": 200,
+    "type": "true_false",
+    "difficulty": "advanced",
+    "category": "nosql_database",
+    "question": "In a graph database, relationships are first-class citizens, meaning they have their own properties.",
+    "correct_answer": "True",
+    "explanations": [
+      "This is a key feature of graph databases.",
+      "It makes them more expressive.",
+      "It allows for rich data modeling."
+    ]
+  },
+  {
+    "id": 201,
+    "type": "multiple_choice",
+    "difficulty": "intermediate",
+    "category": "microservices",
+    "question": "What is the purpose of a health check in microservices?",
+    "options": [
+      "A) To determine if a service is running and able to handle requests",
+      "B) To check the health of the database",
+      "C) To check the health of the network",
+      "D) To check the health of the user"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "Health checks are used by load balancers and service registries.",
+      "They help in routing traffic away from unhealthy instances.",
+      "They are a part of application monitoring."
+    ]
+  },
+  {
+    "id": 202,
+    "type": "true_false",
+    "difficulty": "intermediate",
+    "category": "microservices",
+    "question": "A readiness probe checks if a service is ready to accept traffic.",
+    "correct_answer": "True",
+    "explanations": [
+      "Readiness probes are used in orchestration.",
+      "They prevent traffic to services that are still initializing.",
+      "They are different from liveness probes."
+    ]
+  },
+  {
+    "id": 203,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "microservices",
+    "question": "What is the difference between a liveness probe and a readiness probe?",
+    "options": [
+      "A) A liveness probe checks if the service is alive; a readiness probe checks if the service is ready to receive traffic",
+      "B) A readiness probe checks if the service is alive; a liveness probe checks if it is ready",
+      "C) They are the same",
+      "D) Liveness probes are for containers; readiness probes are for pods"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "Liveness probes restart services if they fail.",
+      "Readiness probes remove services from service discovery if they fail.",
+      "Both are important for resilience."
+    ]
+  },
+  {
+    "id": 204,
+    "type": "true_false",
+    "difficulty": "advanced",
+    "category": "microservices",
+    "question": "The chaos engineering principle involves deliberately injecting failures to test system resilience.",
+    "correct_answer": "True",
+    "explanations": [
+      "Chaos engineering is a discipline.",
+      "It helps identify weaknesses.",
+      "Tools like Chaos Monkey are used."
+    ]
+  },
+  {
+    "id": 205,
+    "type": "multiple_choice",
+    "difficulty": "intermediate",
+    "category": "caching",
+    "question": "What is the purpose of a cache invalidation strategy?",
+    "options": [
+      "A) To ensure the cache is up-to-date and consistent with the source of truth",
+      "B) To invalidate the cache when it's full",
+      "C) To remove old data from the cache",
+      "D) To validate the cache before using it"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "Cache invalidation is a challenging problem.",
+      "It prevents stale data.",
+      "Common strategies include TTL and explicit invalidation."
+    ]
+  },
+  {
+    "id": 206,
+    "type": "true_false",
+    "difficulty": "intermediate",
+    "category": "caching",
+    "question": "Write-behind caching updates the database asynchronously after updating the cache.",
+    "correct_answer": "True",
+    "explanations": [
+      "Write-behind improves write performance.",
+      "It can lead to data loss if the system crashes.",
+      "It is a trade-off for performance."
+    ]
+  },
+  {
+    "id": 207,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "caching",
+    "question": "What is the difference between cache-aside and write-through?",
+    "options": [
+      "A) Cache-aside loads on demand; write-through updates cache and database together",
+      "B) Write-through loads on demand; cache-aside updates together",
+      "C) They are the same",
+      "D) Cache-aside is for reads; write-through is for writes"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "Cache-aside is a common read strategy.",
+      "Write-through ensures consistency.",
+      "Both are caching patterns."
+    ]
+  },
+  {
+    "id": 208,
+    "type": "true_false",
+    "difficulty": "advanced",
+    "category": "caching",
+    "question": "A distributed cache like Redis Cluster partitions data across multiple nodes for scalability.",
+    "correct_answer": "True",
+    "explanations": [
+      "Distributed caching is essential for large-scale systems.",
+      "It provides high availability.",
+      "It has its own consistency challenges."
+    ]
+  },
+  {
+    "id": 209,
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "category": "networking",
+    "question": "What is the purpose of a subnet mask?",
+    "options": [
+      "A) To divide an IP network into subnetworks",
+      "B) To mask the IP address",
+      "C) To hide the network",
+      "D) To create a virtual private network"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "Subnet masks are used in IP networking.",
+      "They separate the network and host portions.",
+      "They are essential for routing."
+    ]
+  },
+  {
+    "id": 210,
+    "type": "true_false",
+    "difficulty": "intermediate",
+    "category": "networking",
+    "question": "A VLAN is a logical grouping of devices within a network, allowing segmentation even on the same physical infrastructure.",
+    "correct_answer": "True",
+    "explanations": [
+      "VLANs improve security and performance.",
+      "They are widely used in enterprise networks.",
+      "They isolate network traffic."
+    ]
+  },
+  {
+    "id": 211,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "networking",
+    "question": "What is the difference between TCP and UDP?",
+    "options": [
+      "A) TCP is connection-oriented and reliable; UDP is connectionless and unreliable",
+      "B) UDP is connection-oriented; TCP is connectionless",
+      "C) They are the same",
+      "D) TCP is for web traffic; UDP is for email"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "TCP provides guaranteed delivery.",
+      "UDP is faster but does not guarantee delivery.",
+      "Choosing between them depends on the application."
+    ]
+  },
+  {
+    "id": 212,
+    "type": "true_false",
+    "difficulty": "advanced",
+    "category": "networking",
+    "question": "WebSockets provide full-duplex communication over a single TCP connection.",
+    "correct_answer": "True",
+    "explanations": [
+      "WebSockets enable real-time applications.",
+      "They are used for chat, gaming, and live updates.",
+      "They are different from HTTP."
+    ]
+  },
+  {
+    "id": 213,
+    "type": "multiple_choice",
+    "difficulty": "intermediate",
+    "category": "server_deployment",
+    "question": "What is the purpose of a build process in software development?",
+    "options": [
+      "A) To compile, test, and package the application",
+      "B) To build the database",
+      "C) To build the network",
+      "D) To build the user interface"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "The build process transforms source code into a deployable artifact.",
+      "It includes compilation, testing, and packaging.",
+      "It is a crucial part of CI/CD."
+    ]
+  },
+  {
+    "id": 214,
+    "type": "true_false",
+    "difficulty": "intermediate",
+    "category": "server_deployment",
+    "question": "Artifact repositories like Nexus or Artifactory are used to store and manage build artifacts.",
+    "correct_answer": "True",
+    "explanations": [
+      "Artifact repositories are important in CI/CD pipelines.",
+      "They centralize storage.",
+      "They help manage dependencies."
+    ]
+  },
+  {
+    "id": 215,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "server_deployment",
+    "question": "What is the difference between a Docker image and a container?",
+    "options": [
+      "A) An image is a template; a container is a running instance",
+      "B) A container is a template; an image is a running instance",
+      "C) They are the same",
+      "D) Images are for storage; containers are for execution"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "Images are read-only.",
+      "Containers are writable.",
+      "Containers are created from images."
+    ]
+  },
+  {
+    "id": 216,
+    "type": "true_false",
+    "difficulty": "advanced",
+    "category": "server_deployment",
+    "question": "Serverless computing allows you to run code without managing servers, scaling automatically.",
+    "correct_answer": "True",
+    "explanations": [
+      "Serverless is a cloud computing model.",
+      "It's event-driven and scales automatically.",
+      "Examples include AWS Lambda and Azure Functions."
+    ]
+  },
+  {
+    "id": 217,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "backend_fundamentals",
+    "question": "What is the difference between a process and a thread?",
+    "options": [
+      "A) A process is a program in execution; a thread is a lightweight process within a process",
+      "B) A thread is a program in execution; a process is a lightweight thread",
+      "C) They are the same",
+      "D) Processes are for parallel execution; threads are for sequential execution"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "Threads share memory space.",
+      "Processes have their own memory space.",
+      "Multithreading is more efficient for I/O-bound tasks."
+    ]
+  },
+  {
+    "id": 218,
+    "type": "true_false",
+    "difficulty": "advanced",
+    "category": "backend_fundamentals",
+    "question": "Concurrency and parallelism are the same thing.",
+    "correct_answer": "False",
+    "explanations": [
+      "Concurrency is about dealing with multiple tasks.",
+      "Parallelism is about doing multiple tasks at the same time.",
+      "Concurrency is a broader concept."
+    ]
+  },
+  {
+    "id": 219,
+    "type": "multiple_choice",
+    "difficulty": "intermediate",
+    "category": "database_sql",
+    "question": "What is the purpose of a transaction log in a database?",
+    "options": [
+      "A) To record all changes made to the database for recovery purposes",
+      "B) To log user activities",
+      "C) To log database connections",
+      "D) To log errors"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "Transaction logs ensure durability.",
+      "They are used for crash recovery.",
+      "They are essential for ACID compliance."
+    ]
+  },
+  {
+    "id": 220,
+    "type": "true_false",
+    "difficulty": "intermediate",
+    "category": "database_sql",
+    "question": "A database checkpoint is a point in time used for recovery, reducing recovery time after a crash.",
+    "correct_answer": "True",
+    "explanations": [
+      "Checkpoints improve recovery speed.",
+      "They are a feature of most database systems.",
+      "They are taken periodically."
+    ]
+  },
+  {
+    "id": 221,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "database_sql",
+    "question": "What is the difference between online and offline backups?",
+    "options": [
+      "A) Online backups are taken while the database is running; offline backups require the database to be shut down",
+      "B) Offline backups are taken while the database is running; online backups require the database to be shut down",
+      "C) They are the same",
+      "D) Online backups are for cloud databases; offline backups are for on-premises"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "Online backups are non-disruptive.",
+      "Offline backups are simpler but cause downtime.",
+      "Choice depends on availability requirements."
+    ]
+  },
+  {
+    "id": 222,
+    "type": "true_false",
+    "difficulty": "advanced",
+    "category": "nosql_database",
+    "question": "Elasticsearch uses inverted indices for fast full-text search.",
+    "correct_answer": "True",
+    "explanations": [
+      "Inverted indices map terms to documents.",
+      "They are key to search performance.",
+      "They are a core part of Elasticsearch."
+    ]
+  },
+  {
+    "id": 223,
+    "type": "multiple_choice",
+    "difficulty": "intermediate",
+    "category": "nosql_database",
+    "question": "What is the purpose of a shard key in MongoDB sharding?",
+    "options": [
+      "A) To determine how data is distributed across shards",
+      "B) To determine the primary key",
+      "C) To determine the index key",
+      "D) To determine the partition key"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "Shard key selection is critical.",
+      "It affects performance.",
+      "It should be chosen based on query patterns."
+    ]
+  },
+  {
+    "id": 224,
+    "type": "true_false",
+    "difficulty": "advanced",
+    "category": "nosql_database",
+    "question": "In MongoDB, a shard key can be changed after the sharding is implemented.",
+    "correct_answer": "False",
+    "explanations": [
+      "Shard key is immutable once set.",
+      "Changing it requires significant effort.",
+      "This is why it's important to choose carefully."
+    ]
+  },
+  {
+    "id": 225,
+    "type": "multiple_choice",
+    "difficulty": "intermediate",
+    "category": "microservices",
+    "question": "What is the purpose of the SAGA pattern?",
+    "options": [
+      "A) To manage distributed transactions in microservices using compensation",
+      "B) To manage service discovery",
+      "C) To manage API gateways",
+      "D) To manage caching"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "Sagas are a solution to the distributed transaction problem.",
+      "They use compensating actions.",
+      "They are more scalable than traditional transactions."
+    ]
+  },
+  {
+    "id": 226,
+    "type": "true_false",
+    "difficulty": "intermediate",
+    "category": "microservices",
+    "question": "A saga can be implemented using orchestration or choreography.",
+    "correct_answer": "True",
+    "explanations": [
+      "Orchestration uses a central coordinator.",
+      "Choreography uses event-driven communication.",
+      "Both are valid approaches."
+    ]
+  },
+  {
+    "id": 227,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "microservices",
+    "question": "What is the difference between the SAGA pattern and the two-phase commit (2PC)?",
+    "options": [
+      "A) 2PC is blocking and has a coordinator; SAGA is non-blocking and uses compensation",
+      "B) SAGA is blocking; 2PC is non-blocking",
+      "C) They are the same",
+      "D) 2PC is for distributed transactions; SAGA is for local transactions"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "2PC is a strong consistency model.",
+      "SAGA is an eventual consistency model.",
+      "SAGA is preferred for microservices."
+    ]
+  },
+  {
+    "id": 228,
+    "type": "true_false",
+    "difficulty": "advanced",
+    "category": "microservices",
+    "question": "The 'event sourcing' pattern can be used in conjunction with CQRS (Command Query Responsibility Segregation).",
+    "correct_answer": "True",
+    "explanations": [
+      "Event sourcing stores events.",
+      "CQRS separates read and write models.",
+      "They are often used together."
+    ]
+  },
+  {
+    "id": 229,
+    "type": "multiple_choice",
+    "difficulty": "intermediate",
+    "category": "authentication_security",
+    "question": "What is the purpose of a salt in password hashing?",
+    "options": [
+      "A) To add randomness to the hash, preventing rainbow table attacks",
+      "B) To add flavor to the password",
+      "C) To make the hash more complex",
+      "D) To speed up the hashing process"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "Salts are a security best practice.",
+      "Each user should have a unique salt.",
+      "They prevent precomputed hash attacks."
+    ]
+  },
+  {
+    "id": 230,
+    "type": "true_false",
+    "difficulty": "intermediate",
+    "category": "authentication_security",
+    "question": "A cryptographic hash function should be fast to prevent attacks.",
+    "correct_answer": "False",
+    "explanations": [
+      "For password hashing, slow algorithms are preferred.",
+      "They make brute force attacks harder.",
+      "bcrypt and Argon2 are designed to be slow."
+    ]
+  },
+  {
+    "id": 231,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "authentication_security",
+    "question": "What is the difference between authentication and authorization?",
+    "options": [
+      "A) Authentication verifies identity; authorization verifies permissions",
+      "B) Authorization verifies identity; authentication verifies permissions",
+      "C) They are the same",
+      "D) Authentication is for users; authorization is for systems"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "Authentication is about proving who you are.",
+      "Authorization is about what you can do.",
+      "Both are essential for security."
+    ]
+  },
+  {
+    "id": 232,
+    "type": "true_false",
+    "difficulty": "advanced",
+    "category": "authentication_security",
+    "question": "OAuth 2.0 is primarily an authentication protocol.",
+    "correct_answer": "False",
+    "explanations": [
+      "OAuth 2.0 is an authorization framework.",
+      "It delegates access.",
+      "OpenID Connect adds authentication on top."
+    ]
+  },
+  {
+    "id": 233,
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "category": "api_design",
+    "question": "What is the purpose of a status code in HTTP responses?",
+    "options": [
+      "A) To indicate the result of the request",
+      "B) To indicate the status of the server",
+      "C) To indicate the status of the network",
+      "D) To indicate the status of the database"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "Status codes are a key part of HTTP.",
+      "They are standardized.",
+      "They help clients understand the response."
+    ]
+  },
+  {
+    "id": 234,
+    "type": "true_false",
+    "difficulty": "intermediate",
+    "category": "api_design",
+    "question": "HTTP 301 and 302 are both redirection status codes, but 301 is permanent and 302 is temporary.",
+    "correct_answer": "True",
+    "explanations": [
+      "301 indicates a permanent redirect.",
+      "302 indicates a temporary redirect.",
+      "Search engines treat them differently."
+    ]
+  },
+  {
+    "id": 235,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "api_design",
+    "question": "What is the difference between REST and GraphQL?",
+    "options": [
+      "A) REST has multiple endpoints; GraphQL has a single endpoint",
+      "B) GraphQL has multiple endpoints; REST has a single endpoint",
+      "C) They are the same",
+      "D) REST is for data; GraphQL is for operations"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "GraphQL allows clients to request specific data.",
+      "REST is more resource-oriented.",
+      "Both have their use cases."
+    ]
+  },
+  {
+    "id": 236,
+    "type": "true_false",
+    "difficulty": "advanced",
+    "category": "api_design",
+    "question": "gRPC uses Protocol Buffers for efficient serialization, making it suitable for microservices communication.",
+    "correct_answer": "True",
+    "explanations": [
+      "gRPC is a high-performance RPC framework.",
+      "It is used in polyglot microservices environments.",
+      "It supports various languages."
+    ]
+  },
+  {
+    "id": 237,
+    "type": "multiple_choice",
+    "difficulty": "intermediate",
+    "category": "server_side_languages",
+    "question": "What is the purpose of the `async` keyword in Python?",
+    "options": [
+      "A) To define a coroutine for asynchronous programming",
+      "B) To define a synchronous function",
+      "C) To define a class",
+      "D) To define a variable"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "`async` is used with `await`.",
+      "It enables non-blocking code.",
+      "It is part of the `asyncio` library."
+    ]
+  },
+  {
+    "id": 238,
+    "type": "true_false",
+    "difficulty": "advanced",
+    "category": "server_side_languages",
+    "question": "In Node.js, `require` is used to import modules, and `module.exports` is used to export them.",
+    "correct_answer": "True",
+    "explanations": [
+      "This is the CommonJS module system.",
+      "ES modules (`import`/`export`) are also supported.",
+      "It is fundamental to Node.js development."
+    ]
+  },
+  {
+    "id": 239,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "server_side_languages",
+    "question": "What is the difference between `const` and `let` in JavaScript?",
+    "options": [
+      "A) `const` cannot be reassigned; `let` can be reassigned",
+      "B) `let` cannot be reassigned; `const` can be reassigned",
+      "C) They are the same",
+      "D) `const` is for numbers; `let` is for strings"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "Both are block-scoped.",
+      "`const` variables cannot be redeclared.",
+      "`let` allows reassignment."
+    ]
+  },
+  {
+    "id": 240,
+    "type": "true_false",
+    "difficulty": "advanced",
+    "category": "server_side_languages",
+    "question": "In Go, goroutines are lightweight threads managed by the Go runtime.",
+    "correct_answer": "True",
+    "explanations": [
+      "Goroutines enable concurrency.",
+      "They are used with channels for communication.",
+      "They are cheap and efficient."
+    ]
+  },
+  {
+    "id": 241,
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "category": "database_sql",
+    "question": "What is the purpose of a database schema?",
+    "options": [
+      "A) To define the structure of the database, including tables, columns, and relationships",
+      "B) To define the database users",
+      "C) To define the database connections",
+      "D) To define the database backups"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "A schema is a blueprint of the database.",
+      "It describes how data is organized.",
+      "It is essential for database design."
+    ]
+  },
+  {
+    "id": 242,
+    "type": "true_false",
+    "difficulty": "intermediate",
+    "category": "database_sql",
+    "question": "A database migration is the process of applying changes to the database schema.",
+    "correct_answer": "True",
+    "explanations": [
+      "Migrations are used to evolve the database.",
+      "They are often version-controlled.",
+      "They are a common practice in software development."
+    ]
+  },
+  {
+    "id": 243,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "database_sql",
+    "question": "What is the difference between a left join and an inner join?",
+    "options": [
+      "A) Left join returns all rows from the left table; inner join returns only matching rows",
+      "B) Inner join returns all rows from the left table; left join returns only matching rows",
+      "C) They are the same",
+      "D) Left join is for outer joins; inner join is for inner joins"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "Left join includes all left table records.",
+      "Inner join excludes non-matching records.",
+      "This is a common SQL interview question."
+    ]
+  },
+  {
+    "id": 244,
+    "type": "true_false",
+    "difficulty": "advanced",
+    "category": "database_sql",
+    "question": "The `DISTINCT` keyword removes duplicate rows from the result set.",
+    "correct_answer": "True",
+    "explanations": [
+      "`DISTINCT` is used in SELECT statements.",
+      "It operates on all selected columns.",
+      "It is commonly used in analytics."
+    ]
+  },
+  {
+    "id": 245,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "nosql_database",
+    "question": "What is the difference between Redis and Hazelcast?",
+    "options": [
+      "A) Redis is an in-memory data structure store; Hazelcast is an in-memory data grid with distributed computing capabilities",
+      "B) Hazelcast is an in-memory data store; Redis is a data grid",
+      "C) They are the same",
+      "D) Redis is for caching; Hazelcast is for databases"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "Redis is single-threaded and simple.",
+      "Hazelcast is multi-threaded and supports distributed computing.",
+      "Both are used for distributed systems."
+    ]
+  },
+  {
+    "id": 246,
+    "type": "true_false",
+    "difficulty": "advanced",
+    "category": "nosql_database",
+    "question": "In Cassandra, the consistency level determines how many replicas must acknowledge a read or write operation.",
+    "correct_answer": "True",
+    "explanations": [
+      "Consistency levels can be tuned.",
+      "Stronger consistency reduces availability.",
+      "It's a trade-off in distributed systems."
+    ]
+  },
+  {
+    "id": 247,
+    "type": "multiple_choice",
+    "difficulty": "intermediate",
+    "category": "microservices",
+    "question": "What is the purpose of a message broker?",
+    "options": [
+      "A) To facilitate asynchronous communication between services",
+      "B) To broker database connections",
+      "C) To broker API calls",
+      "D) To broker user sessions"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "Message brokers decouple services.",
+      "Examples include RabbitMQ and Kafka.",
+      "They support reliable messaging."
+    ]
+  },
+  {
+    "id": 248,
+    "type": "true_false",
+    "difficulty": "intermediate",
+    "category": "microservices",
+    "question": "Kafka uses a publish-subscribe model where producers publish messages to topics and consumers subscribe to topics.",
+    "correct_answer": "True",
+    "explanations": [
+      "Kafka is a distributed streaming platform.",
+      "It stores messages persistently.",
+      "It is highly scalable."
+    ]
+  },
+  {
+    "id": 249,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "microservices",
+    "question": "What is the difference between a queue and a topic in message brokers?",
+    "options": [
+      "A) A queue is point-to-point; a topic is publish-subscribe",
+      "B) A topic is point-to-point; a queue is publish-subscribe",
+      "C) They are the same",
+      "D) Queues are for messages; topics are for events"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "Queues have one consumer per message.",
+      "Topics broadcast messages to multiple consumers.",
+      "This is a fundamental distinction."
+    ]
+  },
+  {
+    "id": 250,
+    "type": "true_false",
+    "difficulty": "advanced",
+    "category": "microservices",
+    "question": "Dead-letter queues are used to store messages that cannot be processed successfully.",
+    "correct_answer": "True",
+    "explanations": [
+      "Dead-letter queues help with error handling.",
+      "They prevent message loss.",
+      "They allow for analysis of failed messages."
+    ]
+  },
+  {
+    "id": 251,
+    "type": "multiple_choice",
+    "difficulty": "intermediate",
+    "category": "caching",
+    "question": "What is the purpose of a cache key?",
+    "options": [
+      "A) To uniquely identify a cached item",
+      "B) To lock the cache",
+      "C) To encrypt the cache",
+      "D) To index the cache"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "Cache keys are used for lookup.",
+      "They should be deterministic.",
+      "They often include query parameters."
+    ]
+  },
+  {
+    "id": 252,
+    "type": "true_false",
+    "difficulty": "advanced",
+    "category": "caching",
+    "question": "Caching is always beneficial and has no downsides.",
+    "correct_answer": "False",
+    "explanations": [
+      "Caching can lead to stale data.",
+      "It adds complexity.",
+      "It may not be effective for dynamic data."
+    ]
+  },
+  {
+    "id": 253,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "caching",
+    "question": "What is the difference between a cache hit and a cache miss?",
+    "options": [
+      "A) A hit means the data is in the cache; a miss means it is not",
+      "B) A miss means the data is in the cache; a hit means it is not",
+      "C) They are the same",
+      "D) Hits are for reading; misses are for writing"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "Cache hit ratio is a key performance metric.",
+      "High hit ratios indicate effective caching.",
+      "Misses lead to slower response times."
+    ]
+  },
+  {
+    "id": 254,
+    "type": "true_false",
+    "difficulty": "advanced",
+    "category": "caching",
+    "question": "A cache stampede can be avoided by using locking or probabilistic early expiration.",
+    "correct_answer": "True",
+    "explanations": [
+      "Cache stampede is a known problem.",
+      "Locking prevents multiple simultaneous regenerations.",
+      "Early expiration reduces the likelihood of stampede."
+    ]
+  },
+  {
+    "id": 255,
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "category": "networking",
+    "question": "What is the purpose of a router?",
+    "options": [
+      "A) To forward data packets between computer networks",
+      "B) To connect devices in a network",
+      "C) To manage network security",
+      "D) To store network data"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "Routers are network devices.",
+      "They determine the best path for data.",
+      "They are essential for internet connectivity."
+    ]
+  },
+  {
+    "id": 256,
+    "type": "true_false",
+    "difficulty": "intermediate",
+    "category": "networking",
+    "question": "A switch operates at the network layer of the OSI model.",
+    "correct_answer": "False",
+    "explanations": [
+      "Switches operate at the data link layer (Layer 2).",
+      "Routers operate at the network layer (Layer 3).",
+      "This is a common interview question."
+    ]
+  },
+  {
+    "id": 257,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "networking",
+    "question": "What is the difference between a hub and a switch?",
+    "options": [
+      "A) A hub broadcasts traffic to all ports; a switch forwards traffic only to the intended port",
+      "B) A switch broadcasts traffic; a hub forwards to the intended port",
+      "C) They are the same",
+      "D) Hubs are for wireless networks; switches are for wired networks"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "Switches are more intelligent.",
+      "They reduce network collisions.",
+      "Hubs are obsolete."
+    ]
+  },
+  {
+    "id": 258,
+    "type": "true_false",
+    "difficulty": "advanced",
+    "category": "networking",
+    "question": "Network Address Translation (NAT) allows multiple devices on a private network to share a single public IP address.",
+    "correct_answer": "True",
+    "explanations": [
+      "NAT is commonly used in home routers.",
+      "It helps with IPv4 address exhaustion.",
+      "It provides a layer of security."
+    ]
+  },
+  {
+    "id": 259,
+    "type": "multiple_choice",
+    "difficulty": "intermediate",
+    "category": "server_deployment",
+    "question": "What is the purpose of a reverse proxy?",
+    "options": [
+      "A) To handle requests from clients and forward them to backend servers, providing load balancing and caching",
+      "B) To handle requests from internal networks to external resources",
+      "C) To handle requests from clients directly",
+      "D) To handle requests from the database"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "Reverse proxies improve security and performance.",
+      "They hide backend servers.",
+      "They can handle SSL termination."
+    ]
+  },
+  {
+    "id": 260,
+    "type": "true_false",
+    "difficulty": "intermediate",
+    "category": "server_deployment",
+    "question": "Nginx is often used as both a reverse proxy and a load balancer.",
+    "correct_answer": "True",
+    "explanations": [
+      "Nginx is a popular choice.",
+      "It is lightweight and fast.",
+      "It can also serve static files."
+    ]
+  },
+  {
+    "id": 261,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "server_deployment",
+    "question": "What is the difference between a deployment and a release?",
+    "options": [
+      "A) Deployment is installing a new version; release is making a version available to users",
+      "B) Release is installing a new version; deployment is making it available",
+      "C) They are the same",
+      "D) Deployment is for development; release is for production"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "Deployment is a technical action.",
+      "Release is a business decision.",
+      "They are often used interchangeably but have different meanings."
+    ]
+  },
+  {
+    "id": 262,
+    "type": "true_false",
+    "difficulty": "advanced",
+    "category": "server_deployment",
+    "question": "Rollback is the process of reverting a deployment to a previous version.",
+    "correct_answer": "True",
+    "explanations": [
+      "Rollback is essential for incident recovery.",
+      "It should be automated.",
+      "It is a key part of deployment strategies."
+    ]
+  },
+  {
+    "id": 263,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "backend_fundamentals",
+    "question": "What is the difference between a monolithic application and a microservices application?",
+    "options": [
+      "A) A monolith is a single, large codebase; microservices are smaller, independently deployable services",
+      "B) Microservices are a single, large codebase; a monolith is smaller services",
+      "C) They are the same",
+      "D) A monolith is for small applications; microservices are for large applications"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "Monoliths are simpler to develop initially.",
+      "Microservices are more complex but offer scalability.",
+      "The choice depends on the application needs."
+    ]
+  },
+  {
+    "id": 264,
+    "type": "true_false",
+    "difficulty": "advanced",
+    "category": "backend_fundamentals",
+    "question": "The facade design pattern provides a simplified interface to a complex system.",
+    "correct_answer": "True",
+    "explanations": [
+      "Facade hides complexity.",
+      "It is a structural pattern.",
+      "It improves the usability of a system."
+    ]
+  },
+  {
+    "id": 265,
+    "type": "multiple_choice",
+    "difficulty": "intermediate",
+    "category": "database_sql",
+    "question": "What is the purpose of a foreign key constraint?",
+    "options": [
+      "A) To maintain referential integrity between tables",
+      "B) To create a foreign key for indexing",
+      "C) To link the table to the database",
+      "D) To create a link to the server"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "Foreign keys ensure data consistency.",
+      "They prevent orphan records.",
+      "They are a key part of relational modeling."
+    ]
+  },
+  {
+    "id": 266,
+    "type": "true_false",
+    "difficulty": "intermediate",
+    "category": "database_sql",
+    "question": "A check constraint is used to limit the values that can be placed in a column.",
+    "correct_answer": "True",
+    "explanations": [
+      "Check constraints enforce domain integrity.",
+      "Example: `CHECK (age >= 18)`.",
+      "They are a database-level validation."
+    ]
+  },
+  {
+    "id": 267,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "database_sql",
+    "question": "What is the difference between a primary key and a unique key?",
+    "options": [
+      "A) A primary key cannot be null; a unique key can have one null value",
+      "B) A unique key cannot be null; a primary key can have one null value",
+      "C) They are the same",
+      "D) Primary keys are for single columns; unique keys are for multiple columns"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "There can be only one primary key.",
+      "There can be multiple unique keys.",
+      "Unique keys can contain one null value."
+    ]
+  },
+  {
+    "id": 268,
+    "type": "true_false",
+    "difficulty": "advanced",
+    "category": "database_sql",
+    "question": "The `OFFSET` clause is used with `LIMIT` to implement pagination in SQL.",
+    "correct_answer": "True",
+    "explanations": [
+      "`OFFSET` skips a number of rows.",
+      "It is used with `LIMIT`.",
+      "It is supported by most SQL databases."
+    ]
+  },
+  {
+    "id": 269,
+    "type": "multiple_choice",
+    "difficulty": "intermediate",
+    "category": "nosql_database",
+    "question": "What is the purpose of an index in MongoDB?",
+    "options": [
+      "A) To improve query performance",
+      "B) To index the database",
+      "C) To index the collection",
+      "D) To index the server"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "Indexes reduce the number of documents scanned.",
+      "They can be created on single or multiple fields.",
+      "They come with storage overhead."
+    ]
+  },
+  {
+    "id": 270,
+    "type": "true_false",
+    "difficulty": "intermediate",
+    "category": "nosql_database",
+    "question": "MongoDB indexes can be compound, meaning they cover multiple fields.",
+    "correct_answer": "True",
+    "explanations": [
+      "Compound indexes support queries on multiple fields.",
+      "The order of fields matters.",
+      "They are useful for complex queries."
+    ]
+  },
+  {
+    "id": 271,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "nosql_database",
+    "question": "What is the difference between a sparse index and a unique index in MongoDB?",
+    "options": [
+      "A) A sparse index only indexes documents that have the indexed field; a unique index ensures values are unique",
+      "B) A unique index only indexes documents with the field; a sparse index ensures uniqueness",
+      "C) They are the same",
+      "D) Sparse indexes are for arrays; unique indexes are for strings"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "Sparse indexes save space.",
+      "Unique indexes prevent duplicates.",
+      "They can be combined."
+    ]
+  },
+  {
+    "id": 272,
+    "type": "true_false",
+    "difficulty": "advanced",
+    "category": "nosql_database",
+    "question": "In Redis, the `EXPIRE` command is used to set a time-to-live on a key.",
+    "correct_answer": "True",
+    "explanations": [
+      "`EXPIRE` is used for caching.",
+      "It automatically removes keys after the TTL.",
+      "It is essential for memory management."
+    ]
+  },
+  {
+    "id": 273,
+    "type": "multiple_choice",
+    "difficulty": "intermediate",
+    "category": "microservices",
+    "question": "What is the purpose of the Ambassador pattern?",
+    "options": [
+      "A) To create a helper service that handles cross-cutting concerns like authentication and logging",
+      "B) To create a new microservice",
+      "C) To create a database connection",
+      "D) To create a frontend application"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "The Ambassador pattern extends service functionality.",
+      "It is a type of sidecar pattern.",
+      "It handles concerns like retries and timeouts."
+    ]
+  },
+  {
+    "id": 274,
+    "type": "true_false",
+    "difficulty": "advanced",
+    "category": "microservices",
+    "question": "The Adapter pattern in microservices is used to translate between different interfaces or protocols.",
+    "correct_answer": "True",
+    "explanations": [
+      "Adapters prevent tight coupling.",
+      "They are used for integration.",
+      "They can handle protocol translation."
+    ]
+  },
+  {
+    "id": 275,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "microservices",
+    "question": "What is the difference between the Ambassador and Adapter patterns?",
+    "options": [
+      "A) Ambassador adds capabilities; Adapter modifies interactions",
+      "B) Adapter adds capabilities; Ambassador modifies interactions",
+      "C) They are the same",
+      "D) Ambassador is for internal services; Adapter is for external services"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "Ambassador acts as a proxy.",
+      "Adapter acts as a translator.",
+      "Both are sidecar patterns."
+    ]
+  },
+  {
+    "id": 276,
+    "type": "true_false",
+    "difficulty": "advanced",
+    "category": "microservices",
+    "question": "The Strangler Fig pattern is used to gradually replace a legacy system with a new one.",
+    "correct_answer": "True",
+    "explanations": [
+      "This is a common migration strategy.",
+      "It incrementally replaces functionality.",
+      "It reduces risk."
+    ]
+  },
+  {
+    "id": 277,
+    "type": "multiple_choice",
+    "difficulty": "intermediate",
+    "category": "authentication_security",
+    "question": "What is the purpose of a digital signature?",
+    "options": [
+      "A) To verify the authenticity and integrity of a message or document",
+      "B) To encrypt a message",
+      "C) To authenticate a user",
+      "D) To store a password"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "Digital signatures provide non-repudiation.",
+      "They use asymmetric cryptography.",
+      "They are used in secure communications."
+    ]
+  },
+  {
+    "id": 278,
+    "type": "true_false",
+    "difficulty": "advanced",
+    "category": "authentication_security",
+    "question": "A certificate authority (CA) is trusted to issue digital certificates.",
+    "correct_answer": "True",
+    "explanations": [
+      "CAs are the backbone of PKI.",
+      "They verify the identity of certificate owners.",
+      "They are trusted by browsers."
+    ]
+  },
+  {
+    "id": 279,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "authentication_security",
+    "question": "What is the difference between a PKI and a digital certificate?",
+    "options": [
+      "A) PKI is the infrastructure for managing keys; a certificate is a specific document that binds an identity to a public key",
+      "B) A certificate is the infrastructure; PKI is the document",
+      "C) They are the same",
+      "D) PKI is for encryption; certificates are for authentication"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "PKI includes CAs, registration authorities, and directories.",
+      "Certificates are used in TLS/SSL.",
+      "Both are essential for secure communications."
+    ]
+  },
+  {
+    "id": 280,
+    "type": "true_false",
+    "difficulty": "advanced",
+    "category": "authentication_security",
+    "question": "HMAC (Hash-based Message Authentication Code) is used to verify both the integrity and authenticity of a message using a shared secret key.",
+    "correct_answer": "True",
+    "explanations": [
+      "HMAC is a type of keyed-hash.",
+      "It is resistant to collisions.",
+      "It is used in secure communications."
+    ]
+  },
+  {
+    "id": 281,
+    "type": "multiple_choice",
+    "difficulty": "intermediate",
+    "category": "api_design",
+    "question": "What is the purpose of an API key?",
+    "options": [
+      "A) To authenticate and authorize API clients",
+      "B) To encrypt API requests",
+      "C) To store API data",
+      "D) To manage API versions"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "API keys are a simple authentication mechanism.",
+      "They are often used with rate limiting.",
+      "They are not as secure as OAuth."
+    ]
+  },
+  {
+    "id": 282,
+    "type": "true_false",
+    "difficulty": "intermediate",
+    "category": "api_design",
+    "question": "API keys should be kept secret and transmitted over HTTPS.",
+    "correct_answer": "True",
+    "explanations": [
+      "API keys are sensitive.",
+      "If leaked, they can be used by attackers.",
+      "They are often included in the Authorization header."
+    ]
+  },
+  {
+    "id": 283,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "api_design",
+    "question": "What is the difference between an API key and OAuth token?",
+    "options": [
+      "A) An API key is a simple identifier; an OAuth token provides fine-grained permissions",
+      "B) An OAuth token is a simple identifier; an API key provides fine-grained permissions",
+      "C) They are the same",
+      "D) API keys are for public APIs; OAuth tokens are for private APIs"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "OAuth tokens are more secure.",
+      "They support scopes and expiration.",
+      "API keys are simpler but less flexible."
+    ]
+  },
+  {
+    "id": 284,
+    "type": "true_false",
+    "difficulty": "advanced",
+    "category": "api_design",
+    "question": "Rate limiting can be implemented using a token bucket algorithm.",
+    "correct_answer": "True",
+    "explanations": [
+      "Token bucket is a common algorithm.",
+      "It allows bursts of traffic.",
+      "It is often used in API gateways."
+    ]
+  },
+  {
+    "id": 285,
+    "type": "multiple_choice",
+    "difficulty": "intermediate",
+    "category": "server_side_languages",
+    "question": "What is the purpose of the `package.json` file in Node.js?",
+    "options": [
+      "A) To manage project dependencies and metadata",
+      "B) To manage the database schema",
+      "C) To manage the server configuration",
+      "D) To manage the frontend code"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "`package.json` is the heart of a Node.js project.",
+      "It lists dependencies and scripts.",
+      "It is used with npm or yarn."
+    ]
+  },
+  {
+    "id": 286,
+    "type": "true_false",
+    "difficulty": "intermediate",
+    "category": "server_side_languages",
+    "question": "`package-lock.json` ensures that the same dependencies are installed across different environments.",
+    "correct_answer": "True",
+    "explanations": [
+      "`package-lock.json` locks dependency versions.",
+      "It ensures consistent builds.",
+      "It is automatically generated by npm."
+    ]
+  },
+  {
+    "id": 287,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "server_side_languages",
+    "question": "What is the difference between npm and yarn?",
+    "options": [
+      "A) Both are package managers; yarn was created by Facebook to improve speed and security",
+      "B) npm is a package manager; yarn is a framework",
+      "C) They are the same",
+      "D) yarn is a database; npm is a package manager"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "Yarn offers better performance in some cases.",
+      "Both use the npm registry.",
+      "They are largely compatible."
+    ]
+  },
+  {
+    "id": 288,
+    "type": "true_false",
+    "difficulty": "advanced",
+    "category": "server_side_languages",
+    "question": "In Python, `pip` is the package installer, and `virtualenv` is used to create isolated Python environments.",
+    "correct_answer": "True",
+    "explanations": [
+      "Virtual environments manage dependencies.",
+      "`pip` installs packages.",
+      "`venv` is a built-in alternative to `virtualenv`."
+    ]
+  },
+  {
+    "id": 289,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "server_side_languages",
+    "question": "What is the difference between the `pyenv` and `virtualenv`?",
+    "options": [
+      "A) `pyenv` manages Python versions; `virtualenv` manages project dependencies",
+      "B) `virtualenv` manages Python versions; `pyenv` manages dependencies",
+      "C) They are the same",
+      "D) `pyenv` is for production; `virtualenv` is for development"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "Pyenv helps you switch Python versions.",
+      "Virtualenv creates isolated environments.",
+      "They are often used together."
+    ]
+  },
+  {
+    "id": 290,
+    "type": "true_false",
+    "difficulty": "advanced",
+    "category": "server_side_languages",
+    "question": "In Go, the `go mod` tool is used for dependency management and module support.",
+    "correct_answer": "True",
+    "explanations": [
+      "`go mod` is the official dependency manager.",
+      "It creates a `go.mod` file.",
+      "It manages versions and imports."
+    ]
+  },
+  {
+    "id": 291,
+    "type": "multiple_choice",
+    "difficulty": "intermediate",
+    "category": "database_sql",
+    "question": "What is the purpose of the `LIKE` operator in SQL?",
+    "options": [
+      "A) To search for a specified pattern in a column",
+      "B) To compare two values",
+      "C) To join two tables",
+      "D) To group data"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "`LIKE` is used with wildcards.",
+      "`%` matches any sequence of characters.",
+      "`_` matches a single character."
+    ]
+  },
+  {
+    "id": 292,
+    "type": "true_false",
+    "difficulty": "intermediate",
+    "category": "database_sql",
+    "question": "The `IN` operator allows you to specify multiple values in a `WHERE` clause.",
+    "correct_answer": "True",
+    "explanations": [
+      "`IN` is a shorthand for multiple `OR` conditions.",
+      "Example: `WHERE country IN ('USA', 'UK')`.",
+      "It can also be used with a subquery."
+    ]
+  },
+  {
+    "id": 293,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "database_sql",
+    "question": "What is the difference between the `BETWEEN` and `IN` operators?",
+    "options": [
+      "A) `BETWEEN` checks a range; `IN` checks a list of values",
+      "B) `IN` checks a range; `BETWEEN` checks a list",
+      "C) They are the same",
+      "D) `BETWEEN` is for numbers; `IN` is for strings"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "`BETWEEN` is inclusive.",
+      "`IN` is for discrete values.",
+      "Both are used in `WHERE` clauses."
+    ]
+  },
+  {
+    "id": 294,
+    "type": "true_false",
+    "difficulty": "advanced",
+    "category": "database_sql",
+    "question": "The `EXISTS` operator is used to test for the existence of rows in a subquery.",
+    "correct_answer": "True",
+    "explanations": [
+      "`EXISTS` is efficient for large datasets.",
+      "It returns true if the subquery returns any rows.",
+      "It is often used in correlated subqueries."
+    ]
+  },
+  {
+    "id": 295,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "nosql_database",
+    "question": "What is the purpose of a TTL index in MongoDB?",
+    "options": [
+      "A) To automatically delete documents after a specified time",
+      "B) To set the time to live for the database",
+      "C) To set the time to live for the server",
+      "D) To set the time to live for the cache"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "TTL indexes are used for data expiration.",
+      "They are useful for logging and session data.",
+      "They run a background job to remove documents."
+    ]
+  },
+  {
+    "id": 296,
+    "type": "true_false",
+    "difficulty": "advanced",
+    "category": "nosql_database",
+    "question": "In MongoDB, the `$lookup` operator is used for left outer joins.",
+    "correct_answer": "True",
+    "explanations": [
+      "`$lookup` enables joins in the aggregation pipeline.",
+      "It is similar to SQL joins.",
+      "It can be used with `pipeline` for complex joins."
+    ]
+  },
+  {
+    "id": 297,
+    "type": "multiple_choice",
+    "difficulty": "intermediate",
+    "category": "microservices",
+    "question": "What is the purpose of a service mesh?",
+    "options": [
+      "A) To manage service-to-service communication, including security, observability, and traffic management",
+      "B) To manage the database",
+      "C) To manage the frontend",
+      "D) To manage the cache"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "Service meshes like Istio are powerful.",
+      "They operate at the network layer.",
+      "They provide features like circuit breaking and retries."
+    ]
+  },
+  {
+    "id": 298,
+    "type": "true_false",
+    "difficulty": "intermediate",
+    "category": "microservices",
+    "question": "Service meshes require application code changes to function.",
+    "correct_answer": "False",
+    "explanations": [
+      "Service meshes are transparent to the application.",
+      "They use sidecar proxies.",
+      "They can be added without modifying code."
+    ]
+  },
+  {
+    "id": 299,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "microservices",
+    "question": "What is the difference between a service mesh and an API gateway?",
+    "options": [
+      "A) A service mesh is internal and handles service-to-service communication; an API gateway is external and handles client requests",
+      "B) An API gateway is internal; a service mesh is external",
+      "C) They are the same",
+      "D) Service meshes are for security; API gateways are for routing"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "API gateways are at the edge.",
+      "Service meshes are inside the cluster.",
+      "They can work together."
+    ]
+  },
+  {
+    "id": 300,
+    "type": "true_false",
+    "difficulty": "advanced",
+    "category": "backend_fundamentals",
+    "question": "The CAP theorem states that a distributed system can only provide two of the three guarantees: Consistency, Availability, and Partition Tolerance.",
+    "correct_answer": "True",
+    "explanations": [
+      "The CAP theorem is a fundamental concept.",
+      "It is also known as Brewer's theorem.",
+      "It applies to distributed data systems."
+    ]
+  }
+]

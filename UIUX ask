@@ -3302,3 +3302,1607 @@
     ]
   }
 ]
+[
+  {
+    "id": 201,
+    "type": "multiple_choice",
+    "difficulty": "intermediate",
+    "category": "uiux_fundamentals",
+    "question": "What is a 'minimum viable product' (MVP) in UX design?",
+    "options": [
+      "A) A version of a product with just enough features to be usable and gather feedback",
+      "B) A product with all features included",
+      "C) A product with minimal visual design",
+      "D) A product that is not tested"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "An MVP is the simplest version of a product that can be released to collect user feedback.",
+      "It focuses on core functionality to validate assumptions quickly.",
+      "It is a key concept in lean UX and agile development."
+    ]
+  },
+  {
+    "id": 202,
+    "type": "true_false",
+    "difficulty": "beginner",
+    "category": "uiux_fundamentals",
+    "question": "UX designers are responsible for writing code.",
+    "correct_answer": "False",
+    "explanations": [
+      "UX designers focus on research, design, and testing, not coding.",
+      "They work closely with developers but do not typically write code.",
+      "Some designers may have coding skills, but it's not a primary requirement."
+    ]
+  },
+  {
+    "id": 203,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "uiux_fundamentals",
+    "question": "What is the primary difference between a UX designer and a product designer?",
+    "options": [
+      "A) A product designer often has a broader role, including business strategy and product vision",
+      "B) A UX designer focuses only on research; a product designer focuses only on visual design",
+      "C) There is no difference",
+      "D) A product designer only works on physical products"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "Product design is often a broader role that includes UX, UI, and business strategy.",
+      "UX designers typically focus more on user research and usability.",
+      "The lines between these roles can be blurry and vary by company."
+    ]
+  },
+  {
+    "id": 204,
+    "type": "true_false",
+    "difficulty": "beginner",
+    "category": "uiux_fundamentals",
+    "question": "User journey maps are only useful for large, complex projects.",
+    "correct_answer": "False",
+    "explanations": [
+      "User journey maps are valuable for projects of any size.",
+      "Even small projects benefit from understanding the user's path and pain points.",
+      "They help teams align on user needs and identify improvement opportunities."
+    ]
+  },
+  {
+    "id": 205,
+    "type": "multiple_choice",
+    "difficulty": "intermediate",
+    "category": "uiux_information_architecture",
+    "question": "What is a 'sitemap'?",
+    "options": [
+      "A) A visual representation of the pages and hierarchy of a website",
+      "B) A map of the user's location",
+      "C) A type of navigation menu",
+      "D) A coding standard"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "A sitemap is a diagram that shows the pages of a website and their hierarchical structure.",
+      "It helps plan the information architecture and navigation.",
+      "It is a foundational document in UX design."
+    ]
+  },
+  {
+    "id": 206,
+    "type": "true_false",
+    "difficulty": "beginner",
+    "category": "uiux_information_architecture",
+    "question": "A sitemap is the same as a user flow.",
+    "correct_answer": "False",
+    "explanations": [
+      "A sitemap shows the structure and hierarchy of a website's pages.",
+      "A user flow shows the path a user takes to complete a task.",
+      "They serve different purposes in the design process."
+    ]
+  },
+  {
+    "id": 207,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "uiux_information_architecture",
+    "question": "What is 'content inventory' in information architecture?",
+    "options": [
+      "A) A comprehensive list of all content on a website or product",
+      "B) A list of inventory items for sale",
+      "C) A list of design assets",
+      "D) A list of user personas"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "A content inventory is a detailed list of all content (pages, images, videos, etc.) on a website.",
+      "It is used to audit content and plan improvements.",
+      "It is a foundational step in content strategy and IA."
+    ]
+  },
+  {
+    "id": 208,
+    "type": "true_false",
+    "difficulty": "intermediate",
+    "category": "uiux_information_architecture",
+    "question": "A 'content audit' evaluates the quality, relevance, and performance of existing content.",
+    "correct_answer": "True",
+    "explanations": [
+      "A content audit assesses existing content to identify gaps, redundancies, and improvement opportunities.",
+      "It informs content strategy and information architecture decisions.",
+      "It is often done in conjunction with a content inventory."
+    ]
+  },
+  {
+    "id": 209,
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "category": "uiux_mobile_design",
+    "question": "What is the 'thumb zone' on a mobile screen?",
+    "options": [
+      "A) The area easily reachable by the thumb while holding a phone",
+      "B) A zone for thumbnails",
+      "C) A type of gesture",
+      "D) A screen section for notifications"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "The thumb zone is the area of the screen that can be comfortably reached with the thumb.",
+      "It is crucial for one-handed usability on mobile devices.",
+      "Important actions should be placed within this zone."
+    ]
+  },
+  {
+    "id": 210,
+    "type": "true_false",
+    "difficulty": "beginner",
+    "category": "uiux_mobile_design",
+    "question": "Mobile apps should use the same navigation patterns as desktop websites.",
+    "correct_answer": "False",
+    "explanations": [
+      "Mobile apps use different navigation patterns adapted to touch and screen size.",
+      "Examples include bottom navigation, hamburger menus, and gesture-based navigation.",
+      "Desktop navigation (e.g., top nav with dropdowns) does not translate well to mobile."
+    ]
+  },
+  {
+    "id": 211,
+    "type": "multiple_choice",
+    "difficulty": "intermediate",
+    "category": "uiux_mobile_design",
+    "question": "What is the purpose of a 'splash screen' in a mobile app?",
+    "options": [
+      "A) To display branding while the app loads",
+      "B) To display the main content",
+      "C) To show a login form",
+      "D) To display advertisements"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "A splash screen is a launch screen that appears while the app loads.",
+      "It often displays the app's logo and branding.",
+      "It improves the perceived performance of the app."
+    ]
+  },
+  {
+    "id": 212,
+    "type": "true_false",
+    "difficulty": "beginner",
+    "category": "uiux_mobile_design",
+    "question": "Push notifications are a great way to engage users, but they should be used sparingly.",
+    "correct_answer": "True",
+    "explanations": [
+      "Push notifications can be effective for engagement, but overuse can lead to user annoyance.",
+      "They should be timely, relevant, and offer value.",
+      "Users can disable notifications if they are too frequent or irrelevant."
+    ]
+  },
+  {
+    "id": 213,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "uiux_mobile_design",
+    "question": "What is the difference between a 'native app' and a 'hybrid app'?",
+    "options": [
+      "A) Native apps are built for a specific platform; hybrid apps combine web and native technologies",
+      "B) Native apps are slower; hybrid apps are faster",
+      "C) Native apps are only for iOS; hybrid apps are only for Android",
+      "D) There is no difference"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "Native apps are built for a specific platform (iOS or Android) using platform-specific languages.",
+      "Hybrid apps are built with web technologies and wrapped in a native container.",
+      "Native apps offer better performance and access to device features."
+    ]
+  },
+  {
+    "id": 214,
+    "type": "true_false",
+    "difficulty": "intermediate",
+    "category": "uiux_mobile_design",
+    "question": "Responsive design ensures that a mobile app works well on different screen sizes and orientations.",
+    "correct_answer": "True",
+    "explanations": [
+      "Responsive design is crucial for mobile apps to adapt to various screen sizes and device orientations.",
+      "It ensures a consistent and usable experience across devices.",
+      "It involves flexible layouts, images, and touch targets."
+    ]
+  },
+  {
+    "id": 215,
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "category": "uiux_usability",
+    "question": "What is the main goal of usability testing?",
+    "options": [
+      "A) To identify usability problems and gather feedback",
+      "B) To test the code for bugs",
+      "C) To determine the color scheme",
+      "D) To create a marketing strategy"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "Usability testing involves observing real users as they interact with a product to identify issues.",
+      "It provides direct feedback on how intuitive and efficient the product is.",
+      "Findings are used to iterate and improve the design."
+    ]
+  },
+  {
+    "id": 216,
+    "type": "true_false",
+    "difficulty": "beginner",
+    "category": "uiux_usability",
+    "question": "Usability testing should only be done with a large number of users to be valid.",
+    "correct_answer": "False",
+    "explanations": [
+      "Usability testing with a small group (e.g., 5 users) can identify a majority of usability issues.",
+      "Research shows that 5 users can find about 85% of problems.",
+      "Testing with more users becomes less cost-effective after a certain point."
+    ]
+  },
+  {
+    "id": 217,
+    "type": "multiple_choice",
+    "difficulty": "intermediate",
+    "category": "uiux_usability",
+    "question": "What is a 'guerrilla usability test'?",
+    "options": [
+      "A) A quick, informal test conducted in public places with random users",
+      "B) A test conducted in a lab with hired participants",
+      "C) A test conducted by the design team",
+      "D) A test conducted without any users"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "Guerrilla testing involves approaching people in public places (like cafes or parks) and asking them to perform tasks.",
+      "It is quick, inexpensive, and provides valuable feedback.",
+      "It is a good option for early-stage testing."
+    ]
+  },
+  {
+    "id": 218,
+    "type": "true_false",
+    "difficulty": "intermediate",
+    "category": "uiux_usability",
+    "question": "Moderated usability testing is more expensive than unmoderated testing.",
+    "correct_answer": "True",
+    "explanations": [
+      "Moderated testing requires a trained facilitator and often a lab or specialized software.",
+      "Unmoderated testing is conducted remotely without a facilitator, making it more cost-effective.",
+      "Moderated testing offers deeper insights; unmoderated testing offers scale."
+    ]
+  },
+  {
+    "id": 219,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "uiux_usability",
+    "question": "What is the 'usability metric for user experience' (UMUX)?",
+    "options": [
+      "A) A standardized questionnaire for measuring perceived usability",
+      "B) A metric for measuring loading time",
+      "C) A metric for measuring user engagement",
+      "D) A metric for measuring code quality"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "UMUX is a short, standardized questionnaire used to measure perceived usability.",
+      "It typically consists of 4-6 questions on a Likert scale.",
+      "It is a quick way to assess user satisfaction with a product."
+    ]
+  },
+  {
+    "id": 220,
+    "type": "true_false",
+    "difficulty": "beginner",
+    "category": "uiux_usability",
+    "question": "Heuristic evaluation is a user testing method.",
+    "correct_answer": "False",
+    "explanations": [
+      "Heuristic evaluation is an expert review method, not a user testing method.",
+      "It involves experts evaluating a product against established usability principles.",
+      "It is a cost-effective way to identify usability issues early."
+    ]
+  },
+  {
+    "id": 221,
+    "type": "multiple_choice",
+    "difficulty": "intermediate",
+    "category": "uiux_ui_patterns",
+    "question": "What is a 'breadcrumb' in UI design?",
+    "options": [
+      "A) A secondary navigation element that shows the user's path within a site",
+      "B) A type of menu",
+      "C) A design pattern for crumbs",
+      "D) A color scheme"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "Breadcrumbs are a navigation aid that shows the user's current location within a website's hierarchy.",
+      "They allow users to easily navigate back to previous levels.",
+      "They are commonly found in e-commerce and content-heavy websites."
+    ]
+  },
+  {
+    "id": 222,
+    "type": "true_false",
+    "difficulty": "beginner",
+    "category": "uiux_ui_patterns",
+    "question": "A 'tag' is a UI element used to label or categorize content.",
+    "correct_answer": "True",
+    "explanations": [
+      "Tags are used to label and organize content, making it easier to find and filter.",
+      "They are commonly used in blogs, e-commerce, and social media.",
+      "Tags improve discoverability and navigation."
+    ]
+  },
+  {
+    "id": 223,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "uiux_ui_patterns",
+    "question": "What is the difference between a 'tag' and a 'category' in content organization?",
+    "options": [
+      "A) Tags are more specific and flexible; categories are broader and hierarchical",
+      "B) Tags are broader; categories are more specific",
+      "C) There is no difference",
+      "D) Tags are for users; categories are for administrators"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "Categories are broad, hierarchical groups for organizing content.",
+      "Tags are more specific, flexible labels that can be applied to any content.",
+      "Both are used for content organization and navigation."
+    ]
+  },
+  {
+    "id": 224,
+    "type": "true_false",
+    "difficulty": "intermediate",
+    "category": "uiux_ui_patterns",
+    "question": "A 'popover' is a UI element that appears on top of the current screen, often used for additional options or information.",
+    "correct_answer": "True",
+    "explanations": [
+      "A popover is a transient view that appears on top of the current content.",
+      "It is often used for settings, additional options, or contextual information.",
+      "It provides a non-modal way to interact with content."
+    ]
+  },
+  {
+    "id": 225,
+    "type": "multiple_choice",
+    "difficulty": "intermediate",
+    "category": "uiux_ui_patterns",
+    "question": "What is a 'split button' in UI design?",
+    "options": [
+      "A) A button with two parts: a primary action and a secondary dropdown menu",
+      "B) A button that is split in half",
+      "C) A button that only works on mobile",
+      "D) A button that is not clickable"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "A split button combines a primary action button with a dropdown menu for related options.",
+      "It is used when there are multiple actions that are all relevant.",
+      "It saves space and keeps the interface clean."
+    ]
+  },
+  {
+    "id": 226,
+    "type": "true_false",
+    "difficulty": "beginner",
+    "category": "uiux_ui_patterns",
+    "question": "A 'badge' is a small UI element that displays a number or status, often on icons or avatars.",
+    "correct_answer": "True",
+    "explanations": [
+      "Badges are small indicators that show a number (e.g., notifications) or status (e.g., online).",
+      "They provide a quick way to convey information at a glance.",
+      "They are commonly used in apps and websites."
+    ]
+  },
+  {
+    "id": 227,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "uiux_ui_patterns",
+    "question": "What is a 'spinner' in UI design?",
+    "options": [
+      "A) A loading animation that indicates a process is in progress",
+      "B) A UI element that spins content",
+      "C) A type of navigation",
+      "D) A color scheme"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "A spinner is a loading indicator that shows that content is being loaded or processed.",
+      "It is used to inform the user that an action is taking place.",
+      "While effective, skeleton screens are often preferred for a better user experience."
+    ]
+  },
+  {
+    "id": 228,
+    "type": "true_false",
+    "difficulty": "intermediate",
+    "category": "uiux_ui_patterns",
+    "question": "A 'ghost button' is a button with a transparent background and a visible border.",
+    "correct_answer": "True",
+    "explanations": [
+      "A ghost button is a button with a transparent background, thin border, and text.",
+      "It is used for secondary actions and when a less prominent visual is desired.",
+      "It became popular with flat and minimal design trends."
+    ]
+  },
+  {
+    "id": 229,
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "category": "uiux_fundamentals",
+    "question": "What is the role of a UX researcher?",
+    "options": [
+      "A) To conduct user research and gather insights to inform design",
+      "B) To write code for the product",
+      "C) To design the visual interface",
+      "D) To create marketing campaigns"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "A UX researcher focuses on understanding user needs, behaviors, and motivations.",
+      "They use methods like interviews, surveys, and usability testing.",
+      "Their insights guide the design and development process."
+    ]
+  },
+  {
+    "id": 230,
+    "type": "true_false",
+    "difficulty": "beginner",
+    "category": "uiux_fundamentals",
+    "question": "UX researchers and UX designers have the same role.",
+    "correct_answer": "False",
+    "explanations": [
+      "UX researchers focus on understanding users through research.",
+      "UX designers use that research to create the user experience and interface.",
+      "Both roles are essential and work closely together."
+    ]
+  },
+  {
+    "id": 231,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "uiux_fundamentals",
+    "question": "What is the difference between 'quantitative' and 'qualitative' research in UX?",
+    "options": [
+      "A) Quantitative research deals with numbers and statistics; qualitative research deals with observations and insights",
+      "B) Quantitative research is more important than qualitative research",
+      "C) Qualitative research deals with numbers; quantitative research deals with observations",
+      "D) There is no difference"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "Quantitative research focuses on numerical data and statistical analysis (e.g., surveys, analytics).",
+      "Qualitative research focuses on understanding experiences, behaviors, and motivations (e.g., interviews, observations).",
+      "Both are valuable and often used together."
+    ]
+  },
+  {
+    "id": 232,
+    "type": "true_false",
+    "difficulty": "beginner",
+    "category": "uiux_fundamentals",
+    "question": "UX design is a relatively new field, emerging in the late 20th century.",
+    "correct_answer": "True",
+    "explanations": [
+      "The term 'user experience' was coined by Don Norman in the 1990s.",
+      "However, the principles of UX have been around since early human-computer interaction studies.",
+      "The field has grown rapidly with the rise of digital products."
+    ]
+  },
+  {
+    "id": 233,
+    "type": "multiple_choice",
+    "difficulty": "intermediate",
+    "category": "uiux_design_thinking",
+    "question": "What is the main focus of the 'Empathize' stage in Design Thinking?",
+    "options": [
+      "A) To understand the user's needs, context, and challenges",
+      "B) To generate creative ideas",
+      "C) To create a prototype",
+      "D) To test the product with users"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "The Empathize stage is about understanding the user and their needs deeply.",
+      "It involves research methods like interviews, observations, and immersion.",
+      "This understanding forms the foundation for the rest of the design process."
+    ]
+  },
+  {
+    "id": 234,
+    "type": "true_false",
+    "difficulty": "beginner",
+    "category": "uiux_design_thinking",
+    "question": "The 'Ideate' stage in Design Thinking is about testing solutions with users.",
+    "correct_answer": "False",
+    "explanations": [
+      "The Ideate stage is about generating a wide range of creative ideas and solutions.",
+      "Testing solutions is done in the 'Prototype' and 'Test' stages.",
+      "Ideation is a divergent thinking phase."
+    ]
+  },
+  {
+    "id": 235,
+    "type": "multiple_choice",
+    "difficulty": "intermediate",
+    "category": "uiux_design_thinking",
+    "question": "What is the goal of the 'Prototype' stage in Design Thinking?",
+    "options": [
+      "A) To create a tangible representation of ideas for testing",
+      "B) To generate creative ideas",
+      "C) To understand user needs",
+      "D) To launch the product"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "The Prototype stage involves creating a low-fidelity or high-fidelity version of the solution.",
+      "It is used to test ideas and gather feedback from users.",
+      "Prototyping is an iterative process that refines the solution."
+    ]
+  },
+  {
+    "id": 236,
+    "type": "true_false",
+    "difficulty": "beginner",
+    "category": "uiux_design_thinking",
+    "question": "Design Thinking is only useful for software and digital products.",
+    "correct_answer": "False",
+    "explanations": [
+      "Design Thinking can be applied to any problem-solving context, not just digital products.",
+      "It has been used in business, education, healthcare, and more.",
+      "It is a versatile problem-solving methodology."
+    ]
+  },
+  {
+    "id": 237,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "uiux_design_thinking",
+    "question": "What is a 'design sprint' and how does it relate to Design Thinking?",
+    "options": [
+      "A) A design sprint is a time-boxed process that applies Design Thinking principles",
+      "B) A design sprint is a different methodology that is not related to Design Thinking",
+      "C) A design sprint is only used for coding",
+      "D) A design sprint is a marketing strategy"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "A design sprint is a 5-day process that uses Design Thinking principles.",
+      "It combines mapping, sketching, prototyping, and testing to solve a problem.",
+      "It is a structured way to apply Design Thinking quickly."
+    ]
+  },
+  {
+    "id": 238,
+    "type": "true_false",
+    "difficulty": "intermediate",
+    "category": "uiux_design_thinking",
+    "question": "Design Thinking is a linear process that must be followed step by step.",
+    "correct_answer": "False",
+    "explanations": [
+      "Design Thinking is an iterative and non-linear process.",
+      "Designers may move back and forth between stages as they learn and refine.",
+      "This flexibility allows for continuous improvement and innovation."
+    ]
+  },
+  {
+    "id": 239,
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "category": "uiux_accessibility",
+    "question": "What is the purpose of using 'alt text' on images?",
+    "options": [
+      "A) To describe images for screen readers and users with visual impairments",
+      "B) To add alternative colors to the design",
+      "C) To increase the loading speed of images",
+      "D) To create a backup of the image"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "Alt text provides a text description of an image for users who cannot see it.",
+      "It is read by screen readers and appears if the image fails to load.",
+      "It is a fundamental aspect of web accessibility."
+    ]
+  },
+  {
+    "id": 240,
+    "type": "true_false",
+    "difficulty": "beginner",
+    "category": "uiux_accessibility",
+    "question": "Semantic HTML is important for accessibility.",
+    "correct_answer": "True",
+    "explanations": [
+      "Semantic HTML (e.g., <nav>, <main>, <article>) provides meaning to content.",
+      "It helps screen readers and assistive technologies interpret the page.",
+      "It improves accessibility and search engine optimization."
+    ]
+  },
+  {
+    "id": 241,
+    "type": "multiple_choice",
+    "difficulty": "intermediate",
+    "category": "uiux_accessibility",
+    "question": "What is the difference between 'accessibility' and 'usability'?",
+    "options": [
+      "A) Accessibility focuses on users with disabilities; usability focuses on all users",
+      "B) Accessibility is only for websites; usability is for all products",
+      "C) They are the same",
+      "D) Accessibility is more important than usability"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "Accessibility is specifically about designing for people with disabilities.",
+      "Usability is about making products easy and efficient for all users.",
+      "Accessibility is a subset of usability in the broadest sense."
+    ]
+  },
+  {
+    "id": 242,
+    "type": "true_false",
+    "difficulty": "beginner",
+    "category": "uiux_accessibility",
+    "question": "Accessible design benefits everyone, not just people with disabilities.",
+    "correct_answer": "True",
+    "explanations": [
+      "Accessible design features like captions, clear contrast, and keyboard navigation benefit all users.",
+      "For example, captions are useful in noisy environments.",
+      "Accessibility is a win-win for both users and businesses."
+    ]
+  },
+  {
+    "id": 243,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "uiux_accessibility",
+    "question": "What are the four principles of WCAG?",
+    "options": [
+      "A) Perceivable, Operable, Understandable, Robust",
+      "B) Visible, Operable, Understandable, Reliable",
+      "C) Perceivable, Functional, Understandable, Robust",
+      "D) Visible, Functional, Understandable, Reliable"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "The four principles of WCAG are: Perceivable, Operable, Understandable, and Robust (POUR).",
+      "Perceivable: Users can perceive the information.",
+      "Operable: Users can operate the interface.",
+      "Understandable: Users can understand the information and how to use the interface.",
+      "Robust: Content can be interpreted by a wide range of technologies."
+    ]
+  },
+  {
+    "id": 244,
+    "type": "true_false",
+    "difficulty": "intermediate",
+    "category": "uiux_accessibility",
+    "question": "WCAG stands for 'Web Content Accessibility Guidelines'.",
+    "correct_answer": "True",
+    "explanations": [
+      "WCAG is an international standard for web accessibility.",
+      "It provides guidelines for making web content more accessible to people with disabilities.",
+      "It is developed by the World Wide Web Consortium (W3C)."
+    ]
+  },
+  {
+    "id": 245,
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "category": "uiux_psychology",
+    "question": "What is the 'mere-exposure effect' in UX?",
+    "options": [
+      "A) Users tend to prefer things they have seen before",
+      "B) Users tend to prefer new things",
+      "C) Users tend to dislike things they have seen before",
+      "D) Users tend to be indifferent to exposure"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "The mere-exposure effect is a psychological phenomenon where people develop a preference for things they are familiar with.",
+      "In UX, this can be used to build brand recognition and trust.",
+      "Repeated exposure to a logo or design element can increase user preference."
+    ]
+  },
+  {
+    "id": 246,
+    "type": "true_false",
+    "difficulty": "beginner",
+    "category": "uiux_psychology",
+    "question": "The 'halo effect' means that users assume a product is good in all aspects if they like one aspect of it.",
+    "correct_answer": "True",
+    "explanations": [
+      "The halo effect is a cognitive bias where one positive attribute influences the overall perception.",
+      "For example, a beautiful design can lead users to assume the product is also functional.",
+      "This effect can be leveraged but also creates a risk if the product fails to meet expectations."
+    ]
+  },
+  {
+    "id": 247,
+    "type": "multiple_choice",
+    "difficulty": "intermediate",
+    "category": "uiux_psychology",
+    "question": "What is the 'Zeigarnik effect' in UX?",
+    "options": [
+      "A) People remember unfinished tasks better than completed ones",
+      "B) People prefer to finish tasks immediately",
+      "C) People forget unfinished tasks quickly",
+      "D) People prefer not to start tasks"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "The Zeigarnik effect suggests that people remember incomplete or interrupted tasks better than completed tasks.",
+      "In UX, this can be used to encourage user engagement (e.g., showing progress bars).",
+      "It can also be used to create a sense of urgency or motivation."
+    ]
+  },
+  {
+    "id": 248,
+    "type": "true_false",
+    "difficulty": "intermediate",
+    "category": "uiux_psychology",
+    "question": "The 'peak-end rule' suggests that users judge an experience based on its most intense point and its end.",
+    "correct_answer": "True",
+    "explanations": [
+      "The peak-end rule is a psychological heuristic that affects how people remember experiences.",
+      "Users will remember the most emotional point (peak) and the final moment (end) of an experience.",
+      "Designers should ensure that these moments are positive to leave a good impression."
+    ]
+  },
+  {
+    "id": 249,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "uiux_psychology",
+    "question": "What is the 'bystander effect' in UX?",
+    "options": [
+      "A) The tendency to do nothing when others are present, affecting user behavior in social contexts",
+      "B) The tendency to help others when they are present",
+      "C) The tendency to be more active when alone",
+      "D) The tendency to be less helpful when alone"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "The bystander effect is a social psychological phenomenon where individuals are less likely to offer help when others are present.",
+      "In UX, this can affect features like social sharing, feedback, and community engagement.",
+      "Designing for social presence can mitigate this effect."
+    ]
+  },
+  {
+    "id": 250,
+    "type": "true_false",
+    "difficulty": "beginner",
+    "category": "uiux_psychology",
+    "question": "The 'social proof' principle in UX means that users are influenced by the actions and opinions of others.",
+    "correct_answer": "True",
+    "explanations": [
+      "Social proof is a psychological phenomenon where people look to the actions and opinions of others to guide their own behavior.",
+      "In UX, social proof is used through testimonials, ratings, and user counts.",
+      "It helps build trust and encourages user engagement."
+    ]
+  },
+  {
+    "id": 251,
+    "type": "multiple_choice",
+    "difficulty": "intermediate",
+    "category": "uiux_psychology",
+    "question": "What is the 'reciprocity principle' in UX?",
+    "options": [
+      "A) Users feel obligated to return a favor or gesture",
+      "B) Users expect to receive something for nothing",
+      "C) Users do not respond to gestures",
+      "D) Users only care about their own needs"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "The reciprocity principle suggests that people feel a social obligation to return favors.",
+      "In UX, this can be used by offering free trials, samples, or helpful content.",
+      "It can increase user engagement and loyalty."
+    ]
+  },
+  {
+    "id": 252,
+    "type": "true_false",
+    "difficulty": "intermediate",
+    "category": "uiux_psychology",
+    "question": "The 'loss aversion' principle means that users feel the pain of a loss more than the pleasure of a gain.",
+    "correct_answer": "True",
+    "explanations": [
+      "Loss aversion is a cognitive bias where the pain of losing is twice as powerful as the pleasure of gaining.",
+      "In UX, this can be used to create urgency (e.g., 'limited time offer').",
+      "It can also be used to design effective messaging and CTAs."
+    ]
+  },
+  {
+    "id": 253,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "uiux_psychology",
+    "question": "What is the 'framing effect' in UX?",
+    "options": [
+      "A) The way information is presented influences how users perceive and decide",
+      "B) The way information is coded influences how users interact",
+      "C) The way information is stored influences how users recall",
+      "D) The way information is designed influences how users think"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "The framing effect is a cognitive bias where the presentation of information influences decision-making.",
+      "For example, '90% success rate' is more appealing than '10% failure rate'.",
+      "Designers can use framing to guide user decisions and perceptions."
+    ]
+  },
+  {
+    "id": 254,
+    "type": "true_false",
+    "difficulty": "beginner",
+    "category": "uiux_psychology",
+    "question": "The 'curse of knowledge' is a cognitive bias where experts assume that others have the same background knowledge.",
+    "correct_answer": "True",
+    "explanations": [
+      "The curse of knowledge is a cognitive bias where experts assume that others have the same background knowledge.",
+      "In UX, this can lead to designs that are too complex or use jargon.",
+      "Designers must avoid this by testing with real users and simplifying the interface."
+    ]
+  },
+  {
+    "id": 255,
+    "type": "multiple_choice",
+    "difficulty": "intermediate",
+    "category": "uiux_psychology",
+    "question": "What is the 'planning fallacy' in UX project management?",
+    "options": [
+      "A) The tendency to underestimate the time and resources needed to complete a project",
+      "B) The tendency to overestimate the time and resources needed",
+      "C) The tendency to accurately estimate project timelines",
+      "D) The tendency to avoid planning"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "The planning fallacy is a cognitive bias where people underestimate the time and resources required to complete a task.",
+      "This is common in UX design projects, leading to delays and budget overruns.",
+      "Using historical data and adding buffers can help mitigate this bias."
+    ]
+  },
+  {
+    "id": 256,
+    "type": "true_false",
+    "difficulty": "intermediate",
+    "category": "uiux_psychology",
+    "question": "The 'false consensus effect' is a bias where people overestimate the extent to which others share their beliefs and behaviors.",
+    "correct_answer": "True",
+    "explanations": [
+      "The false consensus effect is a cognitive bias where people assume others are more like them than they really are.",
+      "In UX, this can lead to designs that cater to the designer's own preferences rather than the users'.",
+      "It highlights the importance of user research and testing."
+    ]
+  },
+  {
+    "id": 257,
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "category": "uiux_fundamentals",
+    "question": "What is a 'design brief' in UX?",
+    "options": [
+      "A) A document that outlines the goals, scope, and constraints of a design project",
+      "B) A brief summary of the design",
+      "C) A type of wireframe",
+      "D) A design tool"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "A design brief is a document that sets the direction for a design project.",
+      "It includes objectives, target audience, scope, deliverables, and constraints.",
+      "It aligns the team and stakeholders on the project goals."
+    ]
+  },
+  {
+    "id": 258,
+    "type": "true_false",
+    "difficulty": "beginner",
+    "category": "uiux_fundamentals",
+    "question": "A design brief is only needed for large, complex projects.",
+    "correct_answer": "False",
+    "explanations": [
+      "A design brief is valuable for projects of any size.",
+      "It ensures everyone is aligned on the goals and scope.",
+      "It helps prevent misunderstandings and scope creep."
+    ]
+  },
+  {
+    "id": 259,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "uiux_fundamentals",
+    "question": "What is a 'stakeholder' in UX design?",
+    "options": [
+      "A) Any person or group with an interest in the project",
+      "B) A person who uses the product",
+      "C) A person who designs the product",
+      "D) A person who codes the product"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "Stakeholders are individuals or groups who have an interest in the project's outcome.",
+      "This includes clients, users, team members, and leadership.",
+      "Managing stakeholders is an important part of UX design."
+    ]
+  },
+  {
+    "id": 260,
+    "type": "true_false",
+    "difficulty": "beginner",
+    "category": "uiux_fundamentals",
+    "question": "UX design is a relatively new field, emerging in the late 20th century.",
+    "correct_answer": "True",
+    "explanations": [
+      "The term 'user experience' was coined by Don Norman in the 1990s.",
+      "However, the principles of UX have been around since early human-computer interaction studies.",
+      "The field has grown rapidly with the rise of digital products."
+    ]
+  },
+  {
+    "id": 261,
+    "type": "multiple_choice",
+    "difficulty": "intermediate",
+    "category": "uiux_usability",
+    "question": "What is a 'cognitive walkthrough' in UX?",
+    "options": [
+      "A) A usability inspection method where evaluators walk through a task step by step",
+      "B) A test where users walk through the product",
+      "C) A method for coding the product",
+      "D) A method for designing the product"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "A cognitive walkthrough is a usability inspection method.",
+      "Evaluators simulate a user's problem-solving process to identify issues.",
+      "It focuses on how easy it is for users to learn a task."
+    ]
+  },
+  {
+    "id": 262,
+    "type": "true_false",
+    "difficulty": "intermediate",
+    "category": "uiux_usability",
+    "question": "A 'cognitive walkthrough' is a user testing method that involves real users.",
+    "correct_answer": "False",
+    "explanations": [
+      "A cognitive walkthrough is an expert evaluation method, not a user testing method.",
+      "It does not involve real users.",
+      "It is used to evaluate the learnability of a product."
+    ]
+  },
+  {
+    "id": 263,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "uiux_usability",
+    "question": "What is the main difference between a 'heuristic evaluation' and a 'cognitive walkthrough'?",
+    "options": [
+      "A) Heuristic evaluation uses general usability principles; cognitive walkthrough focuses on learnability and task-specific problems",
+      "B) Heuristic evaluation is for visual design; cognitive walkthrough is for functionality",
+      "C) There is no difference",
+      "D) Heuristic evaluation involves users; cognitive walkthrough does not"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "Heuristic evaluation uses broad usability principles (heuristics) to identify issues.",
+      "Cognitive walkthrough focuses on learning and performing specific tasks.",
+      "Both are expert review methods but have different focuses."
+    ]
+  },
+  {
+    "id": 264,
+    "type": "true_false",
+    "difficulty": "beginner",
+    "category": "uiux_usability",
+    "question": "Heuristic evaluation and usability testing are interchangeable.",
+    "correct_answer": "False",
+    "explanations": [
+      "Heuristic evaluation is an expert review method.",
+      "Usability testing involves real users.",
+      "They are complementary but not interchangeable."
+    ]
+  },
+  {
+    "id": 265,
+    "type": "multiple_choice",
+    "difficulty": "intermediate",
+    "category": "uiux_usability",
+    "question": "What is a 'usability lab'?",
+    "options": [
+      "A) A controlled environment where usability testing is conducted",
+      "B) A laboratory for coding",
+      "C) A design studio",
+      "D) A marketing office"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "A usability lab is a room with equipment for observing and recording users during usability tests.",
+      "It typically includes a one-way mirror and video recording equipment.",
+      "It provides a controlled environment for testing."
+    ]
+  },
+  {
+    "id": 266,
+    "type": "true_false",
+    "difficulty": "beginner",
+    "category": "uiux_usability",
+    "question": "Usability testing is only useful for software and web applications.",
+    "correct_answer": "False",
+    "explanations": [
+      "Usability testing can be applied to any product, physical or digital.",
+      "It is used for everything from websites to physical products to services.",
+      "The principles of usability testing are universal."
+    ]
+  },
+  {
+    "id": 267,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "uiux_usability",
+    "question": "What is the difference between 'formative' and 'summative' usability testing?",
+    "options": [
+      "A) Formative testing is done during design to improve it; summative testing is done after to evaluate it",
+      "B) Formative testing is done after; summative testing is done during",
+      "C) There is no difference",
+      "D) Formative testing is for mobile; summative testing is for desktop"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "Formative usability testing is conducted during the design process to identify issues and refine the design.",
+      "Summative usability testing is conducted after the design is complete to evaluate its performance.",
+      "Both are important but serve different purposes."
+    ]
+  },
+  {
+    "id": 268,
+    "type": "true_false",
+    "difficulty": "intermediate",
+    "category": "uiux_usability",
+    "question": "Usability testing is a one-time activity that happens at the end of the design process.",
+    "correct_answer": "False",
+    "explanations": [
+      "Usability testing should be an ongoing activity throughout the design process.",
+      "Testing early and often helps identify and fix issues early.",
+      "It is most effective when integrated into the iterative design process."
+    ]
+  },
+  {
+    "id": 269,
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "category": "uiux_fundamentals",
+    "question": "What is a 'stakeholder interview' in UX?",
+    "options": [
+      "A) An interview with stakeholders to understand business goals and constraints",
+      "B) An interview with users",
+      "C) An interview with developers",
+      "D) An interview with designers"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "Stakeholder interviews are conducted to understand business goals, constraints, and expectations.",
+      "They help align the design team with the business objectives.",
+      "They are a key part of the discovery phase."
+    ]
+  },
+  {
+    "id": 270,
+    "type": "true_false",
+    "difficulty": "beginner",
+    "category": "uiux_fundamentals",
+    "question": "Stakeholder interviews are the same as user interviews.",
+    "correct_answer": "False",
+    "explanations": [
+      "Stakeholder interviews focus on business goals and project constraints.",
+      "User interviews focus on user needs, behaviors, and experiences.",
+      "Both are important but have different objectives."
+    ]
+  },
+  {
+    "id": 271,
+    "type": "multiple_choice",
+    "difficulty": "intermediate",
+    "category": "uiux_fundamentals",
+    "question": "What is the purpose of a 'design critique'?",
+    "options": [
+      "A) To give constructive feedback on a design to improve it",
+      "B) To criticize the designer",
+      "C) To finalize the design",
+      "D) To present the design to stakeholders"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "A design critique is a structured session where designers present their work and receive feedback.",
+      "The goal is to improve the design through constructive criticism.",
+      "It is a collaborative process that fosters learning and iteration."
+    ]
+  },
+  {
+    "id": 272,
+    "type": "true_false",
+    "difficulty": "beginner",
+    "category": "uiux_fundamentals",
+    "question": "Design critiques are only for senior designers.",
+    "correct_answer": "False",
+    "explanations": [
+      "Design critiques are valuable for designers at all levels.",
+      "They provide learning opportunities and fresh perspectives.",
+      "Everyone in the design team can benefit from participating in critiques."
+    ]
+  },
+  {
+    "id": 273,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "uiux_fundamentals",
+    "question": "What is the difference between a 'design critique' and a 'design review'?",
+    "options": [
+      "A) A design critique is for feedback and iteration; a design review is for approval and sign-off",
+      "B) A design critique is for approval; a design review is for feedback",
+      "C) They are the same",
+      "D) A design critique is for visual design; a design review is for functionality"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "A design critique is focused on giving and receiving feedback to improve the design.",
+      "A design review is often a formal meeting with stakeholders to present the design and get approval.",
+      "Both are important but serve different purposes."
+    ]
+  },
+  {
+    "id": 274,
+    "type": "true_false",
+    "difficulty": "intermediate",
+    "category": "uiux_fundamentals",
+    "question": "User research is only necessary at the beginning of the design process.",
+    "correct_answer": "False",
+    "explanations": [
+      "User research should be conducted throughout the design process.",
+      "Ongoing research helps validate decisions and uncover new insights.",
+      "It is a continuous process, not a one-time activity."
+    ]
+  },
+  {
+    "id": 275,
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "category": "uiux_fundamentals",
+    "question": "What is a 'persona' in UX design?",
+    "options": [
+      "A) A fictional character representing a user type",
+      "B) A type of user interface",
+      "C) A coding language",
+      "D) A design tool"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "A persona is a fictional character that represents a specific user group.",
+      "It is based on research and includes demographics, behaviors, goals, and pain points.",
+      "Personas help teams empathize with users and make user-centered decisions."
+    ]
+  },
+  {
+    "id": 276,
+    "type": "true_false",
+    "difficulty": "beginner",
+    "category": "uiux_fundamentals",
+    "question": "Personas should be based on assumptions, not research.",
+    "correct_answer": "False",
+    "explanations": [
+      "Personas should be based on real data from user research.",
+      "Assumptions and stereotypes lead to inaccurate personas and poor design decisions.",
+      "Research methods include interviews, surveys, and analytics."
+    ]
+  },
+  {
+    "id": 277,
+    "type": "multiple_choice",
+    "difficulty": "intermediate",
+    "category": "uiux_fundamentals",
+    "question": "What is the main benefit of using personas in design?",
+    "options": [
+      "A) They help teams keep the user in mind and make user-centered decisions",
+      "B) They replace the need for user research",
+      "C) They speed up the design process",
+      "D) They are only useful for marketing"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "Personas are a tool to keep the user at the center of the design process.",
+      "They help teams understand the user's needs, goals, and context.",
+      "They guide design decisions and improve communication among team members."
+    ]
+  },
+  {
+    "id": 278,
+    "type": "true_false",
+    "difficulty": "intermediate",
+    "category": "uiux_fundamentals",
+    "question": "A 'scenario' is a story that describes how a user would interact with a product to achieve a goal.",
+    "correct_answer": "True",
+    "explanations": [
+      "Scenarios are narratives that describe a user's interaction with a product in a specific context.",
+      "They help designers understand the user's needs and evaluate design solutions.",
+      "Scenarios are often used in conjunction with personas."
+    ]
+  },
+  {
+    "id": 279,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "uiux_fundamentals",
+    "question": "What is the difference between a 'persona' and a 'scenario'?",
+    "options": [
+      "A) A persona describes the user; a scenario describes the user's interaction with the product",
+      "B) A persona is a story; a scenario is a character",
+      "C) They are the same",
+      "D) A persona is for design; a scenario is for development"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "A persona is a representation of a user type.",
+      "A scenario is a narrative that describes how a persona would use the product.",
+      "Both are used to guide design decisions."
+    ]
+  },
+  {
+    "id": 280,
+    "type": "true_false",
+    "difficulty": "beginner",
+    "category": "uiux_fundamentals",
+    "question": "UX design is a relatively new field, emerging in the late 20th century.",
+    "correct_answer": "True",
+    "explanations": [
+      "The term 'user experience' was coined by Don Norman in the 1990s.",
+      "However, the principles of UX have been around since early human-computer interaction studies.",
+      "The field has grown rapidly with the rise of digital products."
+    ]
+  },
+  {
+    "id": 281,
+    "type": "multiple_choice",
+    "difficulty": "intermediate",
+    "category": "uiux_design_systems",
+    "question": "What is a 'design system'?",
+    "options": [
+      "A) A collection of reusable components, guidelines, and principles",
+      "B) A single design element",
+      "C) A coding framework",
+      "D) A color palette"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "A design system is a comprehensive set of standards, components, and guidelines.",
+      "It ensures consistency and efficiency across products.",
+      "It includes design principles, component libraries, and documentation."
+    ]
+  },
+  {
+    "id": 282,
+    "type": "true_false",
+    "difficulty": "beginner",
+    "category": "uiux_design_systems",
+    "question": "A component library is the same as a design system.",
+    "correct_answer": "False",
+    "explanations": [
+      "A component library is just one part of a design system.",
+      "A design system also includes guidelines, principles, and documentation.",
+      "The component library is the collection of reusable UI components."
+    ]
+  },
+  {
+    "id": 283,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "uiux_design_systems",
+    "question": "What is the main benefit of using a design system?",
+    "options": [
+      "A) It ensures consistency, scalability, and efficiency",
+      "B) It only helps with visual design",
+      "C) It slows down the design process",
+      "D) It is only useful for large teams"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "Design systems ensure consistency across products and teams.",
+      "They increase efficiency by providing reusable components.",
+      "They also facilitate scalability and collaboration."
+    ]
+  },
+  {
+    "id": 284,
+    "type": "true_false",
+    "difficulty": "intermediate",
+    "category": "uiux_design_systems",
+    "question": "Design systems are only used by large companies.",
+    "correct_answer": "False",
+    "explanations": [
+      "Design systems are valuable for companies of any size.",
+      "Even small teams can benefit from the consistency and efficiency they provide.",
+      "Many open-source design systems are available for smaller teams."
+    ]
+  },
+  {
+    "id": 285,
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "category": "uiux_design_systems",
+    "question": "What is the purpose of design system documentation?",
+    "options": [
+      "A) To explain how to use the components and guidelines",
+      "B) To provide marketing material",
+      "C) To write code",
+      "D) To design new components"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "Documentation explains the purpose, usage, and best practices of design system components.",
+      "It helps designers and developers use the system effectively.",
+      "Good documentation is essential for a successful design system."
+    ]
+  },
+  {
+    "id": 286,
+    "type": "true_false",
+    "difficulty": "beginner",
+    "category": "uiux_design_systems",
+    "question": "Design tokens are a key component of a design system.",
+    "correct_answer": "True",
+    "explanations": [
+      "Design tokens are variables that store design decisions (colors, typography, spacing).",
+      "They are used to maintain consistency across platforms.",
+      "They are a foundational element of modern design systems."
+    ]
+  },
+  {
+    "id": 287,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "uiux_design_systems",
+    "question": "What is the difference between a 'design system' and a 'style guide'?",
+    "options": [
+      "A) A design system is broader and includes components and guidelines; a style guide is focused on visual styles",
+      "B) A design system is only for code; a style guide is only for design",
+      "C) They are the same",
+      "D) A design system is for mobile; a style guide is for web"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "A design system is a comprehensive system that includes components, guidelines, and principles.",
+      "A style guide is typically more focused on visual styles like colors, typography, and imagery.",
+      "A style guide can be a part of a design system."
+    ]
+  },
+  {
+    "id": 288,
+    "type": "true_false",
+    "difficulty": "intermediate",
+    "category": "uiux_design_systems",
+    "question": "Material Design is an example of a design system.",
+    "correct_answer": "True",
+    "explanations": [
+      "Material Design is Google's comprehensive design system.",
+      "It includes guidelines, components, and principles for building apps.",
+      "It is one of the most well-known design systems."
+    ]
+  },
+  {
+    "id": 289,
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "category": "uiux_fundamentals",
+    "question": "What is a 'user persona'?",
+    "options": [
+      "A) A fictional character representing a user group",
+      "B) A real user",
+      "C) A design element",
+      "D) A coding standard"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "A user persona is a fictional character that represents a segment of the user base.",
+      "It is based on research and includes details like goals, behaviors, and pain points.",
+      "It is a tool for humanizing the user and guiding design decisions."
+    ]
+  },
+  {
+    "id": 290,
+    "type": "true_false",
+    "difficulty": "beginner",
+    "category": "uiux_fundamentals",
+    "question": "User personas are only useful for design, not development.",
+    "correct_answer": "False",
+    "explanations": [
+      "User personas are valuable for both designers and developers.",
+      "They help developers understand who they are building for.",
+      "Personas improve communication and alignment across the team."
+    ]
+  },
+  {
+    "id": 291,
+    "type": "multiple_choice",
+    "difficulty": "intermediate",
+    "category": "uiux_fundamentals",
+    "question": "What is the purpose of creating a 'user scenario'?",
+    "options": [
+      "A) To describe a specific situation where a user would interact with the product",
+      "B) To replace the need for user research",
+      "C) To write code",
+      "D) To design the database"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "User scenarios are narratives that describe a user's interaction with a product in a specific context.",
+      "They help designers understand the user's needs and evaluate design solutions.",
+      "Scenarios are often used in conjunction with personas."
+    ]
+  },
+  {
+    "id": 292,
+    "type": "true_false",
+    "difficulty": "intermediate",
+    "category": "uiux_fundamentals",
+    "question": "A 'use case' is the same as a 'user scenario'.",
+    "correct_answer": "False",
+    "explanations": [
+      "A use case is a more technical description of a system's interaction with actors.",
+      "A user scenario is a narrative from the user's perspective.",
+      "They serve different purposes: use cases for system requirements, scenarios for user experience."
+    ]
+  },
+  {
+    "id": 293,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "uiux_fundamentals",
+    "question": "What is the difference between a 'user scenario' and a 'use case'?",
+    "options": [
+      "A) A user scenario is user-focused; a use case is system-focused",
+      "B) They are the same",
+      "C) A use case is user-focused; a user scenario is system-focused",
+      "D) A user scenario is for design; a use case is for testing"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "User scenarios are narratives from the user's perspective.",
+      "Use cases are technical descriptions of system interactions.",
+      "Scenarios focus on user experience; use cases focus on system functionality."
+    ]
+  },
+  {
+    "id": 294,
+    "type": "true_false",
+    "difficulty": "beginner",
+    "category": "uiux_fundamentals",
+    "question": "UX design is a relatively new field, emerging in the late 20th century.",
+    "correct_answer": "True",
+    "explanations": [
+      "The term 'user experience' was coined by Don Norman in the 1990s.",
+      "However, the principles of UX have been around since early human-computer interaction studies.",
+      "The field has grown rapidly with the rise of digital products."
+    ]
+  },
+  {
+    "id": 295,
+    "type": "multiple_choice",
+    "difficulty": "intermediate",
+    "category": "uiux_ui_patterns",
+    "question": "What is a 'bottom sheet' in UI design?",
+    "options": [
+      "A) A panel that slides up from the bottom of the screen",
+      "B) A panel that slides down from the top",
+      "C) A type of navigation",
+      "D) A color scheme"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "A bottom sheet is a panel that slides up from the bottom of the screen.",
+      "It is often used for actions, settings, or additional information.",
+      "It is a common pattern in mobile and material design."
+    ]
+  },
+  {
+    "id": 296,
+    "type": "true_false",
+    "difficulty": "intermediate",
+    "category": "uiux_ui_patterns",
+    "question": "A 'drawer' is a navigation pattern that slides in from the side, often containing links or menus.",
+    "correct_answer": "True",
+    "explanations": [
+      "A drawer (or navigation drawer) is a panel that slides in from the side.",
+      "It is often used for navigation menus in mobile apps.",
+      "It provides access to a user's settings or secondary actions."
+    ]
+  },
+  {
+    "id": 297,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "uiux_ui_patterns",
+    "question": "What is the difference between a 'bottom sheet' and a 'modal'?",
+    "options": [
+      "A) A bottom sheet is non-modal and can be dismissed by swiping down; a modal requires action to dismiss",
+      "B) A bottom sheet is modal; a modal is non-modal",
+      "C) There is no difference",
+      "D) A bottom sheet is for mobile; a modal is for desktop"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "A bottom sheet is typically non-modal and can be dismissed by swiping down.",
+      "A modal is a dialog that requires user action to dismiss and blocks the main interface.",
+      "Both are used to present additional content but have different interaction models."
+    ]
+  },
+  {
+    "id": 298,
+    "type": "true_false",
+    "difficulty": "beginner",
+    "category": "uiux_ui_patterns",
+    "question": "A 'chip' is a small UI element that represents a piece of information, like a tag or filter.",
+    "correct_answer": "True",
+    "explanations": [
+      "Chips are compact UI elements that display information or allow filtering.",
+      "They are often used in forms, search results, and selection interfaces.",
+      "They are a common pattern in Material Design."
+    ]
+  },
+  {
+    "id": 299,
+    "type": "multiple_choice",
+    "difficulty": "intermediate",
+    "category": "uiux_ui_patterns",
+    "question": "What is a 'carousel' in UI design?",
+    "options": [
+      "A) A rotating set of content items, often images or cards",
+      "B) A type of navigation menu",
+      "C) A design tool",
+      "D) A coding framework"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "A carousel is a UI component that displays a series of content items in a rotating fashion.",
+      "Users can navigate through items using arrows or dots.",
+      "Carousels are often used for featured content, but they can have low engagement."
+    ]
+  },
+  {
+    "id": 300,
+    "type": "true_false",
+    "difficulty": "beginner",
+    "category": "uiux_fundamentals",
+    "question": "UX design is a user-centered approach to creating products that provide meaningful and relevant experiences.",
+    "correct_answer": "True",
+    "explanations": [
+      "UX design is inherently user-centered, focusing on the user's needs and goals.",
+      "It involves research, design, testing, and iteration.",
+      "The ultimate goal is to create products that are useful, usable, and enjoyable."
+    ]
+  }
+]

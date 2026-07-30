@@ -1,0 +1,5365 @@
+[
+  {
+    "id": 1,
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "category": "number_series",
+    "question": "Look at this series: 2, 4, 6, 8, 10, ... What number should come next?",
+    "options": [
+      "A) 11",
+      "B) 12",
+      "C) 13",
+      "D) 14"
+    ],
+    "correct_answer": "B",
+    "explanations": [
+      "The pattern is adding 2 to each number.",
+      "10 + 2 = 12."
+    ]
+  },
+  {
+    "id": 2,
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "category": "number_series",
+    "question": "Look at this series: 58, 52, 46, 40, 34, ... What number should come next?",
+    "options": [
+      "A) 26",
+      "B) 28",
+      "C) 30",
+      "D) 32"
+    ],
+    "correct_answer": "B",
+    "explanations": [
+      "The pattern is subtracting 6 from each number.",
+      "34 - 6 = 28."
+    ]
+  },
+  {
+    "id": 3,
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "category": "number_series",
+    "question": "Look at this series: 544, 509, 474, 439, ... What number should come next?",
+    "options": [
+      "A) 404",
+      "B) 414",
+      "C) 420",
+      "D) 445"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "The pattern is subtracting 35 from each number.",
+      "439 - 35 = 404."
+    ]
+  },
+  {
+    "id": 4,
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "category": "number_series",
+    "question": "Look at this series: 80, 10, 70, 15, 60, ... What number should come next?",
+    "options": [
+      "A) 20",
+      "B) 25",
+      "C) 30",
+      "D) 50"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "The pattern is: -70, +60, -55, +45, -40...",
+      "60 - 40 = 20."
+    ]
+  },
+  {
+    "id": 5,
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "category": "number_series",
+    "question": "Look at this series: 36, 34, 30, 28, 24, ... What number should come next?",
+    "options": [
+      "A) 20",
+      "B) 22",
+      "C) 23",
+      "D) 26"
+    ],
+    "correct_answer": "B",
+    "explanations": [
+      "The pattern is: -2, -4, -2, -4...",
+      "24 - 2 = 22."
+    ]
+  },
+  {
+    "id": 6,
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "category": "letter_series",
+    "question": "What letter comes next in this series? A, C, E, G, I, K, __",
+    "options": [
+      "A) L",
+      "B) M",
+      "C) N",
+      "D) O"
+    ],
+    "correct_answer": "B",
+    "explanations": [
+      "The pattern is skipping one letter each time.",
+      "A → C (skip B), C → E (skip D), etc.",
+      "K → M (skip L)."
+    ]
+  },
+  {
+    "id": 7,
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "category": "letter_series",
+    "question": "What comes next in this series? B, D, F, H, J, __",
+    "options": [
+      "A) K",
+      "B) L",
+      "C) M",
+      "D) N"
+    ],
+    "correct_answer": "B",
+    "explanations": [
+      "The pattern is skipping one letter each time.",
+      "B → D (skip C), D → F (skip E), etc.",
+      "J → L (skip K)."
+    ]
+  },
+  {
+    "id": 8,
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "category": "verbal_classification",
+    "question": "Which word does NOT belong with the others?",
+    "options": [
+      "A) Apple",
+      "B) Banana",
+      "C) Orange",
+      "D) Carrot"
+    ],
+    "correct_answer": "D",
+    "explanations": [
+      "Apple, banana, and orange are all fruits.",
+      "Carrot is a vegetable."
+    ]
+  },
+  {
+    "id": 9,
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "category": "verbal_classification",
+    "question": "Which word does NOT belong with the others?",
+    "options": [
+      "A) SNAKE",
+      "B) DOG",
+      "C) CAT",
+      "D) COW"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "Dog, cat, and cow are all four-legged animals.",
+      "Snake crawls and has no legs."
+    ]
+  },
+  {
+    "id": 10,
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "category": "verbal_classification",
+    "question": "Which word does NOT belong with the others?",
+    "options": [
+      "A) FLUTE",
+      "B) VIOLIN",
+      "C) GUITAR",
+      "D) CELLO"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "Flute is a wind instrument.",
+      "Violin, guitar, and cello are string instruments."
+    ]
+  },
+  {
+    "id": 11,
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "category": "analogies",
+    "question": "Which word best completes the analogy? CIRCLE is to SPHERE as TRIANGLE is to:",
+    "options": [
+      "A) SQUARE",
+      "B) RECTANGLE",
+      "C) PYRAMID",
+      "D) CUBE"
+    ],
+    "correct_answer": "C",
+    "explanations": [
+      "A circle is a 2D shape, and a sphere is its 3D counterpart.",
+      "A triangle is a 2D shape, and a pyramid is its 3D counterpart."
+    ]
+  },
+  {
+    "id": 12,
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "category": "analogies",
+    "question": "Which word best completes the analogy? VENDOR is to CONSUMER as RESTAURATEUR is to:",
+    "options": [
+      "A) WAITER",
+      "B) PATRON",
+      "C) WHOLESALER",
+      "D) CHEF"
+    ],
+    "correct_answer": "B",
+    "explanations": [
+      "A vendor sells to a consumer.",
+      "A restaurateur serves a patron."
+    ]
+  },
+  {
+    "id": 13,
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "category": "analogies",
+    "question": "Which word best completes the analogy? Hand is to glove as foot is to ?",
+    "options": [
+      "A) shoe",
+      "B) sock",
+      "C) leg",
+      "D) knee"
+    ],
+    "correct_answer": "B",
+    "explanations": [
+      "A glove covers a hand.",
+      "A sock covers a foot."
+    ]
+  },
+  {
+    "id": 14,
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "category": "analogies",
+    "question": "Which word best completes the analogy? Hot is to cold as day is to ?",
+    "options": [
+      "A) morning",
+      "B) night",
+      "C) sun",
+      "D) light"
+    ],
+    "correct_answer": "B",
+    "explanations": [
+      "Hot is the opposite of cold.",
+      "Day is the opposite of night."
+    ]
+  },
+  {
+    "id": 15,
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "category": "logic",
+    "question": "If it takes 5 machines 5 minutes to make 5 widgets, how long would it take 100 machines to make 100 widgets?",
+    "options": [
+      "A) 5 minutes",
+      "B) 10 minutes",
+      "C) 50 minutes",
+      "D) 100 minutes"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "Each machine produces 1 widget in 5 minutes.",
+      "100 machines will produce 100 widgets in the same time: 5 minutes."
+    ]
+  },
+  {
+    "id": 16,
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "category": "logic",
+    "question": "What month has 28 days?",
+    "options": [
+      "A) February",
+      "B) Only February",
+      "C) All months",
+      "D) January"
+    ],
+    "correct_answer": "C",
+    "explanations": [
+      "All months have at least 28 days.",
+      "February has 28 days in common years, but all months contain 28 days."
+    ]
+  },
+  {
+    "id": 17,
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "category": "logic",
+    "question": "In a lake, there is a patch of lily pads. Every day, the patch doubles in size. If it takes 48 days for the patch to cover the entire lake, how long would it take for the patch to cover half of the lake?",
+    "options": [
+      "A) 24 days",
+      "B) 36 days",
+      "C) 47 days",
+      "D) 48 days"
+    ],
+    "correct_answer": "C",
+    "explanations": [
+      "The patch doubles in size each day.",
+      "If it covers the whole lake on day 48, it was half covered on day 47."
+    ]
+  },
+  {
+    "id": 18,
+    "type": "multiple_choice",
+    "difficulty": "intermediate",
+    "category": "number_series",
+    "question": "Look at this series: 8, 22, 8, 28, 8, ... What number should come next?",
+    "options": [
+      "A) 9",
+      "B) 29",
+      "C) 32",
+      "D) 34"
+    ],
+    "correct_answer": "D",
+    "explanations": [
+      "The pattern is: +14, -14, +20, -20, +26...",
+      "8 + 26 = 34."
+    ]
+  },
+  {
+    "id": 19,
+    "type": "multiple_choice",
+    "difficulty": "intermediate",
+    "category": "number_series",
+    "question": "Look at this series: 22, 21, 23, 22, 24, 23, ... What number should come next?",
+    "options": [
+      "A) 22",
+      "B) 24",
+      "C) 25",
+      "D) 26"
+    ],
+    "correct_answer": "C",
+    "explanations": [
+      "The pattern is: -1, +2, -1, +2...",
+      "23 + 2 = 25."
+    ]
+  },
+  {
+    "id": 20,
+    "type": "multiple_choice",
+    "difficulty": "intermediate",
+    "category": "number_series",
+    "question": "What is the next number in this series? 3, 8, 10, 15, 17, 22, 24, ...",
+    "options": [
+      "A) 26, 28",
+      "B) 29, 34",
+      "C) 29, 31",
+      "D) 26, 31"
+    ],
+    "correct_answer": "C",
+    "explanations": [
+      "The pattern is: +5, +2, +5, +2...",
+      "24 + 5 = 29, 29 + 2 = 31."
+    ]
+  },
+  {
+    "id": 21,
+    "type": "multiple_choice",
+    "difficulty": "intermediate",
+    "category": "number_series",
+    "question": "Look at this series: 44, 41, 38, 35, 32, 29, 26, ... What two numbers should come next?",
+    "options": [
+      "A) 24, 21",
+      "B) 22, 19",
+      "C) 23, 20",
+      "D) 23, 19"
+    ],
+    "correct_answer": "D",
+    "explanations": [
+      "The pattern is subtracting 3.",
+      "26 - 3 = 23, 23 - 3 = 20."
+    ]
+  },
+  {
+    "id": 22,
+    "type": "multiple_choice",
+    "difficulty": "intermediate",
+    "category": "number_series",
+    "question": "Look at this series: 6, 10, 14, 18, 22, 26, 30, ... What two numbers should come next?",
+    "options": [
+      "A) 36, 40",
+      "B) 33, 37",
+      "C) 38, 42",
+      "D) 34, 38"
+    ],
+    "correct_answer": "D",
+    "explanations": [
+      "The pattern is adding 4.",
+      "30 + 4 = 34, 34 + 4 = 38."
+    ]
+  },
+  {
+    "id": 23,
+    "type": "multiple_choice",
+    "difficulty": "intermediate",
+    "category": "number_series",
+    "question": "Look at this series: 34, 30, 26, 22, 18, 14, 10, ... What two numbers should come next?",
+    "options": [
+      "A) 8, 6",
+      "B) 6, 4",
+      "C) 14, 18",
+      "D) 6, 2"
+    ],
+    "correct_answer": "D",
+    "explanations": [
+      "The pattern is subtracting 4.",
+      "10 - 4 = 6, 6 - 4 = 2."
+    ]
+  },
+  {
+    "id": 24,
+    "type": "multiple_choice",
+    "difficulty": "intermediate",
+    "category": "verbal",
+    "question": "Which word in brackets is most similar in meaning to the word in capitals? ERSTWHILE (fallacious, deviant, previous, honest, candid)",
+    "options": [
+      "A) fallacious",
+      "B) deviant",
+      "C) previous",
+      "D) honest"
+    ],
+    "correct_answer": "C",
+    "explanations": [
+      "ERSTWHILE means 'former' or 'previous'."
+    ]
+  },
+  {
+    "id": 25,
+    "type": "multiple_choice",
+    "difficulty": "intermediate",
+    "category": "verbal",
+    "question": "Which word in brackets is most opposite in meaning to the word in capitals? SOOTHE (augment, inflame, ignore, depress, execute)",
+    "options": [
+      "A) augment",
+      "B) inflame",
+      "C) ignore",
+      "D) depress"
+    ],
+    "correct_answer": "B",
+    "explanations": [
+      "SOOTHE means 'to calm'.",
+      "INFLAME means 'to provoke' or 'to irritate' - the opposite."
+    ]
+  },
+  {
+    "id": 26,
+    "type": "multiple_choice",
+    "difficulty": "intermediate",
+    "category": "verbal",
+    "question": "What is the best synonym for PLIANT?",
+    "options": [
+      "A) FLEXIBLE",
+      "B) STIFF",
+      "C) FRAGILE",
+      "D) STRONG"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "PLIANT means 'flexible' or 'easily bent'."
+    ]
+  },
+  {
+    "id": 27,
+    "type": "multiple_choice",
+    "difficulty": "intermediate",
+    "category": "verbal",
+    "question": "Which word best expresses the meaning opposite of MELLIFLUOUS?",
+    "options": [
+      "A) MUSICAL",
+      "B) FLUID",
+      "C) RAUCOUS",
+      "D) SOFT"
+    ],
+    "correct_answer": "C",
+    "explanations": [
+      "MELLIFLUOUS means 'sweet-sounding' or 'melodious'.",
+      "RAUCOUS means 'harsh-sounding' - the opposite."
+    ]
+  },
+  {
+    "id": 28,
+    "type": "multiple_choice",
+    "difficulty": "intermediate",
+    "category": "verbal",
+    "question": "Which word is the antonym of CONCAVE?",
+    "options": [
+      "A) BULGING",
+      "B) HOLLOW",
+      "C) ROUND",
+      "D) SUNKEN"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "CONCAVE means 'curved inward' or 'hollowed'.",
+      "BULGING means 'curved outward' - the opposite."
+    ]
+  },
+  {
+    "id": 29,
+    "type": "multiple_choice",
+    "difficulty": "intermediate",
+    "category": "logic",
+    "question": "If you rearrange the letters 'CIFAIPC', you would have the name of a/an:",
+    "options": [
+      "A) Animal",
+      "B) Country",
+      "C) City",
+      "D) Ocean"
+    ],
+    "correct_answer": "D",
+    "explanations": [
+      "Rearranging the letters CIFAIPC gives PACIFIC.",
+      "The Pacific is an ocean."
+    ]
+  },
+  {
+    "id": 30,
+    "type": "multiple_choice",
+    "difficulty": "intermediate",
+    "category": "logic",
+    "question": "Jack is 18 years old and is three times as old as his sister Tara. How many years will it be until Tara is half as old as Jack is now?",
+    "options": [
+      "A) 1",
+      "B) 2",
+      "C) 3",
+      "D) 4"
+    ],
+    "correct_answer": "C",
+    "explanations": [
+      "Tara is currently 6 years old (18 ÷ 3 = 6).",
+      "Half of Jack's current age is 9.",
+      "9 - 6 = 3 years."
+    ]
+  },
+  {
+    "id": 31,
+    "type": "multiple_choice",
+    "difficulty": "intermediate",
+    "category": "logic",
+    "question": "Which of the following figures has the most sides?",
+    "options": [
+      "A) Square",
+      "B) Triangle",
+      "C) Hexagon",
+      "D) Octagon"
+    ],
+    "correct_answer": "D",
+    "explanations": [
+      "Square has 4 sides, triangle has 3, hexagon has 6, octagon has 8.",
+      "Octagon has the most sides."
+    ]
+  },
+  {
+    "id": 32,
+    "type": "multiple_choice",
+    "difficulty": "intermediate",
+    "category": "logic",
+    "question": "What is the next number in the sequence: 0, 0, 1, 2, 2, 4, 3, 6, 4, 8, 5, ?",
+    "options": [
+      "A) 6",
+      "B) 8",
+      "C) 10",
+      "D) 12"
+    ],
+    "correct_answer": "C",
+    "explanations": [
+      "There are two sequences here.",
+      "Even terms: 0, 2, 4, 6, 8...",
+      "So the next term is 10."
+    ]
+  },
+  {
+    "id": 33,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "number_series",
+    "question": "What number is next in this series? 2, 10, 5, 13, 8, 16, 11, 19, 14, 22, ?",
+    "options": [
+      "A) 17",
+      "B) 13",
+      "C) 19",
+      "D) 24"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "The pattern is: +8, -5, +8, -5...",
+      "22 - 5 = 17."
+    ]
+  },
+  {
+    "id": 34,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "number_series",
+    "question": "What is the next number in this series? 10, 17, 26, 37, ?",
+    "options": [
+      "A) 46",
+      "B) 50",
+      "C) 52",
+      "D) 56"
+    ],
+    "correct_answer": "B",
+    "explanations": [
+      "This is a sequence of square numbers plus 1.",
+      "3² + 1 = 10, 4² + 1 = 17, 5² + 1 = 26, 6² + 1 = 37",
+      "Next: 7² + 1 = 50."
+    ]
+  },
+  {
+    "id": 35,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "number_series",
+    "question": "What is the next number in this series? 1, 1, 2, 3, 5, 8, 13, ?",
+    "options": [
+      "A) 18",
+      "B) 21",
+      "C) 23",
+      "D) 25"
+    ],
+    "correct_answer": "B",
+    "explanations": [
+      "This is the Fibonacci sequence.",
+      "Each number is the sum of the two previous numbers.",
+      "8 + 13 = 21."
+    ]
+  },
+  {
+    "id": 36,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "number_series",
+    "question": "What is the next number in this series? 2, 6, 12, 20, 30, 42, ?",
+    "options": [
+      "A) 52",
+      "B) 54",
+      "C) 56",
+      "D) 58"
+    ],
+    "correct_answer": "C",
+    "explanations": [
+      "The pattern is adding consecutive even numbers: +4, +6, +8, +10, +12",
+      "42 + 14 = 56."
+    ]
+  },
+  {
+    "id": 37,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "number_series",
+    "question": "What is the next number in this series? 1, 4, 27, 256, ?",
+    "options": [
+      "A) 1024",
+      "B) 3125",
+      "C) 2560",
+      "D) 2187"
+    ],
+    "correct_answer": "B",
+    "explanations": [
+      "This is a sequence of powers: 1¹, 2², 3³, 4⁴",
+      "Next: 5⁵ = 3125."
+    ]
+  },
+  {
+    "id": 38,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "letter_series",
+    "question": "What comes next in this series? A, C, F, J, O, ?",
+    "options": [
+      "A) P",
+      "B) Q",
+      "C) R",
+      "D) S"
+    ],
+    "correct_answer": "C",
+    "explanations": [
+      "The gaps between letters increase: +2, +3, +4, +5",
+      "Next gap = +6, so O + 6 = U"
+    ]
+  },
+  {
+    "id": 39,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "analogies",
+    "question": "Which word best completes the analogy? BREAD is to WHEAT as PAPER is to:",
+    "options": [
+      "A) TREE",
+      "B) WOOD",
+      "C) PULP",
+      "D) FOREST"
+    ],
+    "correct_answer": "B",
+    "explanations": [
+      "Bread is made from wheat.",
+      "Paper is made from wood."
+    ]
+  },
+  {
+    "id": 40,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "analogies",
+    "question": "Which word best completes the analogy? STOMACH is to DIGESTION as LUNGS is to:",
+    "options": [
+      "A) BREATHING",
+      "B) OXYGEN",
+      "C) RESPIRATION",
+      "D) AIR"
+    ],
+    "correct_answer": "C",
+    "explanations": [
+      "The stomach performs digestion.",
+      "The lungs perform respiration."
+    ]
+  },
+  {
+    "id": 41,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "analogies",
+    "question": "Which word best completes the analogy? EAGLE is to BIRD as SHARK is to:",
+    "options": [
+      "A) FISH",
+      "B) MAMMAL",
+      "C) REPTILE",
+      "D) AMPHIBIAN"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "An eagle is a type of bird.",
+      "A shark is a type of fish."
+    ]
+  },
+  {
+    "id": 42,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "verbal",
+    "question": "Make a six-letter word from these five letters: B, G, E, A, D",
+    "options": [
+      "A) BADGE",
+      "B) BAGGED",
+      "C) BEGAD",
+      "D) BAGDE"
+    ],
+    "correct_answer": "B",
+    "explanations": [
+      "By adding one letter 'G', the letters can be arranged to form the word BAGGED.",
+      "BAGGED means 'packed' or 'covered'."
+    ]
+  },
+  {
+    "id": 43,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "verbal",
+    "question": "Take one letter from each of these animals to make another animal: possum, donkey, ermine, kitten, rhesus, cayman",
+    "options": [
+      "A) PENGUIN",
+      "B) MONKEY",
+      "C) ELEPHANT",
+      "D) TIGER"
+    ],
+    "correct_answer": "B",
+    "explanations": [
+      "Take the first letter from each word: P, D, E, K, R, C.",
+      "Re-arrange to form MONKEY."
+    ]
+  },
+  {
+    "id": 44,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "verbal",
+    "question": "Calculate what fraction will produce this running decimal: .166166",
+    "options": [
+      "A) 166/999",
+      "B) 166/1000",
+      "C) 166/900",
+      "D) 166/990"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "The repeating decimal .166166... = 166/999.",
+      "This is a standard conversion for repeating decimals."
+    ]
+  },
+  {
+    "id": 45,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "logic",
+    "question": "All stamp collectors are not architects. All drones are stamp collectors. Which conclusion follows with absolute certainty?",
+    "options": [
+      "A) All stamp collectors are architects",
+      "B) Architects are not drones",
+      "C) No stamp collectors are drones",
+      "D) Some drones are architects"
+    ],
+    "correct_answer": "B",
+    "explanations": [
+      "If all drones are stamp collectors, and stamp collectors are not architects,",
+      "then architects cannot be drones."
+    ]
+  },
+  {
+    "id": 46,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "logic",
+    "question": "Ten people share a birthday cake. All had equal portions, yet one remained on the plate. How can this be?",
+    "options": [
+      "A) One person didn't eat their slice",
+      "B) The cake was cut into 11 pieces",
+      "C) The tenth person ate from the cake plate",
+      "D) Two people shared a slice"
+    ],
+    "correct_answer": "C",
+    "explanations": [
+      "This is a lateral thinking question.",
+      "The tenth person ate from the plate (the remaining piece was on the plate)."
+    ]
+  },
+  {
+    "id": 47,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "logic",
+    "question": "Which number is greater: 50 times itself 100 times, or 100 times itself 50 times?",
+    "options": [
+      "A) 50 times itself 100 times is greater",
+      "B) 100 times itself 50 times is greater",
+      "C) The quantities are equal",
+      "D) Cannot be determined"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "50^100 vs 100^50",
+      "100^50 = (50×2)^50 = 50^50 × 2^50",
+      "50^100 = 50^50 × 50^50, which is much larger"
+    ]
+  },
+  {
+    "id": 48,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "logic",
+    "question": "Suppose I have 40 blue socks and 40 brown socks in a drawer. If I reach into the drawer without looking at the socks, what is the smallest number of socks I must take out to make sure that I have a pair of socks of the same color?",
+    "options": [
+      "A) 1",
+      "B) 2",
+      "C) 3",
+      "D) 4"
+    ],
+    "correct_answer": "C",
+    "explanations": [
+      "If you're unlucky, you'll get a blue and brown sock in the first two tries.",
+      "The third try must give you either a blue or brown sock, which will match one of the first two."
+    ]
+  },
+  {
+    "id": 49,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "logic",
+    "question": "On a street there are 25 houses: 10 of the houses have fewer than 6 rooms; 10 of the houses have more than 7 rooms; 4 houses have more than 8 rooms. What is the total number of houses that have 6, 7 or 8 rooms?",
+    "options": [
+      "A) 5",
+      "B) 9",
+      "C) 11",
+      "D) 14"
+    ],
+    "correct_answer": "C",
+    "explanations": [
+      "10 houses have fewer than 6 rooms (≤5 rooms).",
+      "4 houses have more than 8 rooms (≥9 rooms).",
+      "Total = 25 - 10 - 4 = 11 houses have 6, 7, or 8 rooms."
+    ]
+  },
+  {
+    "id": 50,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "logic",
+    "question": "Suppose you have a digital clock where the minute digit is always the same as the hour digit. The clock can read only times like 10:10, 8:08, 9:09 etc. What is the smallest time difference between such two acceptable double-digit times?",
+    "options": [
+      "A) 101 minutes",
+      "B) 61 minutes",
+      "C) 49 minutes",
+      "D) 11 minutes"
+    ],
+    "correct_answer": "C",
+    "explanations": [
+      "The times are 12:12 and 1:01.",
+      "12:12 to 1:01 is 49 minutes."
+    ]
+  },
+  {
+    "id": 51,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "logic",
+    "question": "A ship is twice as old as the ship's boiler was when the ship was as old as the boiler is. What is the ratio of the boiler's age to the ship's age?",
+    "options": [
+      "A) 2/3",
+      "B) 3/4",
+      "C) 4/5",
+      "D) 5/6"
+    ],
+    "correct_answer": "B",
+    "explanations": [
+      "Let S = ship's age now, B = boiler's age now.",
+      "When ship was B years old, boiler was B - (S - B) = 2B - S years old.",
+      "S = 2(2B - S) → S = 4B - 2S → 3S = 4B → B/S = 3/4."
+    ]
+  },
+  {
+    "id": 52,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "logic",
+    "question": "In a room there are 5 blue-eyed blondes. If, all together there are 14 blondes and 8 people with blue eyes in the room, how many people are there in the room?",
+    "options": [
+      "A) 3",
+      "B) 11",
+      "C) 17",
+      "D) 22"
+    ],
+    "correct_answer": "C",
+    "explanations": [
+      "Blondes without blue eyes: 14 - 5 = 9",
+      "Blue-eyed people who are not blonde: 8 - 5 = 3",
+      "Blue-eyed blondes: 5",
+      "Total = 9 + 3 + 5 = 17"
+    ]
+  },
+  {
+    "id": 53,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "logic",
+    "question": "A triangle has sides of lengths A, B and C. Which is true?",
+    "options": [
+      "A) C - B is always greater than A",
+      "B) C - B is always less than A",
+      "C) C - B is always equal to A",
+      "D) There is no way to compare C - B and A"
+    ],
+    "correct_answer": "B",
+    "explanations": [
+      "For any triangle, the sum of any two sides is greater than the third side.",
+      "A + B > C → C - B < A"
+    ]
+  },
+  {
+    "id": 54,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "logic",
+    "question": "A farmer has 17 sheep. All but 9 die. How many sheep does the farmer have left?",
+    "options": [
+      "A) 8",
+      "B) 9",
+      "C) 17",
+      "D) 26"
+    ],
+    "correct_answer": "B",
+    "explanations": [
+      "'All but 9 die' means 9 survive.",
+      "The farmer has 9 sheep left."
+    ]
+  },
+  {
+    "id": 55,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "logic",
+    "question": "How many times can you subtract 5 from 25?",
+    "options": [
+      "A) 1",
+      "B) 4",
+      "C) 5",
+      "D) 6"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "Once, because after that you're subtracting from 20, not 25."
+    ]
+  },
+  {
+    "id": 56,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "logic",
+    "question": "What is the minimum number of coins needed to make 99 cents?",
+    "options": [
+      "A) 4",
+      "B) 6",
+      "C) 8",
+      "D) 10"
+    ],
+    "correct_answer": "C",
+    "explanations": [
+      "3 quarters (75¢) + 2 dimes (20¢) + 4 pennies (4¢) = 9 coins."
+    ]
+  },
+  {
+    "id": 57,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "logic",
+    "question": "If John has 5 apples and gives 2 to Mary, and then buys 3 more, how many apples does John have?",
+    "options": [
+      "A) 3",
+      "B) 5",
+      "C) 6",
+      "D) 8"
+    ],
+    "correct_answer": "C",
+    "explanations": [
+      "5 - 2 = 3",
+      "3 + 3 = 6"
+    ]
+  },
+  {
+    "id": 58,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "logic",
+    "question": "What is the next number in the sequence: 1, 8, 27, 64, 125, ?",
+    "options": [
+      "A) 150",
+      "B) 180",
+      "C) 216",
+      "D) 256"
+    ],
+    "correct_answer": "C",
+    "explanations": [
+      "This is a sequence of cubes: 1³, 2³, 3³, 4³, 5³",
+      "Next: 6³ = 216."
+    ]
+  },
+  {
+    "id": 59,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "logic",
+    "question": "What is the smallest number that can be divided by 2, 3, 4, 5, 6, 7, 8, 9, and 10 without a remainder?",
+    "options": [
+      "A) 2520",
+      "B) 5040",
+      "C) 1260",
+      "D) 10080"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "This is the LCM of numbers 1-10.",
+      "LCM = 2520."
+    ]
+  },
+  {
+    "id": 60,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "logic",
+    "question": "A train travels from point A to point B at 60 mph and returns at 40 mph. What is the average speed for the entire trip?",
+    "options": [
+      "A) 50 mph",
+      "B) 48 mph",
+      "C) 52 mph",
+      "D) 45 mph"
+    ],
+    "correct_answer": "B",
+    "explanations": [
+      "Average speed = 2ab/(a+b)",
+      "2 × 60 × 40 / (60 + 40) = 4800/100 = 48 mph."
+    ]
+  },
+  {
+    "id": 61,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "logic",
+    "question": "What is 15% of 80?",
+    "options": [
+      "A) 10",
+      "B) 12",
+      "C) 14",
+      "D) 16"
+    ],
+    "correct_answer": "B",
+    "explanations": [
+      "80 × 15/100 = 12"
+    ]
+  },
+  {
+    "id": 62,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "logic",
+    "question": "What is the square root of 144?",
+    "options": [
+      "A) 10",
+      "B) 11",
+      "C) 12",
+      "D) 13"
+    ],
+    "correct_answer": "C",
+    "explanations": [
+      "12 × 12 = 144"
+    ]
+  },
+  {
+    "id": 63,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "logic",
+    "question": "What is the value of x if 3x + 7 = 22?",
+    "options": [
+      "A) 3",
+      "B) 4",
+      "C) 5",
+      "D) 6"
+    ],
+    "correct_answer": "C",
+    "explanations": [
+      "3x + 7 = 22",
+      "3x = 15",
+      "x = 5"
+    ]
+  },
+  {
+    "id": 64,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "logic",
+    "question": "What is the missing number in the sequence: 2, 3, 5, 7, 11, ?, 17?",
+    "options": [
+      "A) 12",
+      "B) 13",
+      "C) 14",
+      "D) 15"
+    ],
+    "correct_answer": "B",
+    "explanations": [
+      "This is a sequence of prime numbers.",
+      "The prime numbers are: 2, 3, 5, 7, 11, 13, 17."
+    ]
+  },
+  {
+    "id": 65,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "logic",
+    "question": "What is the missing number: 1, 4, 9, 16, 25, 36, 49, ?",
+    "options": [
+      "A) 54",
+      "B) 56",
+      "C) 62",
+      "D) 64"
+    ],
+    "correct_answer": "D",
+    "explanations": [
+      "This is a sequence of square numbers.",
+      "8² = 64."
+    ]
+  },
+  {
+    "id": 66,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "logic",
+    "question": "What is 25% of 200?",
+    "options": [
+      "A) 25",
+      "B) 40",
+      "C) 50",
+      "D) 75"
+    ],
+    "correct_answer": "C",
+    "explanations": [
+      "200 × 25/100 = 50"
+    ]
+  },
+  {
+    "id": 67,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "logic",
+    "question": "What is the greatest common factor of 24 and 36?",
+    "options": [
+      "A) 6",
+      "B) 12",
+      "C) 18",
+      "D) 24"
+    ],
+    "correct_answer": "B",
+    "explanations": [
+      "24 factors: 1, 2, 3, 4, 6, 8, 12, 24",
+      "36 factors: 1, 2, 3, 4, 6, 9, 12, 18, 36",
+      "GCF = 12"
+    ]
+  },
+  {
+    "id": 68,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "logic",
+    "question": "A rectangle has length 8 and width 5. What is the perimeter?",
+    "options": [
+      "A) 13",
+      "B) 20",
+      "C) 26",
+      "D) 40"
+    ],
+    "correct_answer": "C",
+    "explanations": [
+      "Perimeter = 2(length + width)",
+      "2(8 + 5) = 2 × 13 = 26"
+    ]
+  },
+  {
+    "id": 69,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "logic",
+    "question": "What is the next number: 2, 5, 10, 17, 26, ?",
+    "options": [
+      "A) 35",
+      "B) 37",
+      "C) 39",
+      "D) 41"
+    ],
+    "correct_answer": "B",
+    "explanations": [
+      "Differences: +3, +5, +7, +9",
+      "Next: +11, 26 + 11 = 37"
+    ]
+  },
+  {
+    "id": 70,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "logic",
+    "question": "What is the missing number: 3, 6, 12, 24, 48, ?",
+    "options": [
+      "A) 56",
+      "B) 72",
+      "C) 96",
+      "D) 100"
+    ],
+    "correct_answer": "C",
+    "explanations": [
+      "Each number doubles the previous."
+    ]
+  },
+  {
+    "id": 71,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "logic",
+    "question": "If a = 5 and b = 3, what is a² + b²?",
+    "options": [
+      "A) 16",
+      "B) 25",
+      "C) 34",
+      "D) 43"
+    ],
+    "correct_answer": "C",
+    "explanations": [
+      "5² + 3² = 25 + 9 = 34"
+    ]
+  },
+  {
+    "id": 72,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "logic",
+    "question": "What is the lowest common multiple of 4 and 6?",
+    "options": [
+      "A) 8",
+      "B) 10",
+      "C) 12",
+      "D) 24"
+    ],
+    "correct_answer": "C",
+    "explanations": [
+      "Multiples of 4: 4, 8, 12, 16, 20, 24",
+      "Multiples of 6: 6, 12, 18, 24",
+      "LCM = 12"
+    ]
+  },
+  {
+    "id": 73,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "logic",
+    "question": "What is 10% of 500?",
+    "options": [
+      "A) 25",
+      "B) 40",
+      "C) 50",
+      "D) 60"
+    ],
+    "correct_answer": "C",
+    "explanations": [
+      "500 × 10/100 = 50"
+    ]
+  },
+  {
+    "id": 74,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "logic",
+    "question": "What is the missing number in the sequence: 1, 8, 27, 64, 125, 216, ?",
+    "options": [
+      "A) 256",
+      "B) 300",
+      "C) 343",
+      "D) 400"
+    ],
+    "correct_answer": "C",
+    "explanations": [
+      "7³ = 343"
+    ]
+  },
+  {
+    "id": 75,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "logic",
+    "question": "What is the area of a triangle with base 10 and height 6?",
+    "options": [
+      "A) 20",
+      "B) 30",
+      "C) 40",
+      "D) 60"
+    ],
+    "correct_answer": "B",
+    "explanations": [
+      "Area = ½ × base × height",
+      "½ × 10 × 6 = 30"
+    ]
+  },
+  {
+    "id": 76,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "logic",
+    "question": "What is the missing number: 2, 6, 18, 54, 162, ?",
+    "options": [
+      "A) 324",
+      "B) 486",
+      "C) 540",
+      "D) 648"
+    ],
+    "correct_answer": "B",
+    "explanations": [
+      "Each number triples the previous.",
+      "162 × 3 = 486"
+    ]
+  },
+  {
+    "id": 77,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "logic",
+    "question": "What is the sum of the angles in a triangle?",
+    "options": [
+      "A) 90 degrees",
+      "B) 180 degrees",
+      "C) 270 degrees",
+      "D) 360 degrees"
+    ],
+    "correct_answer": "B",
+    "explanations": [
+      "The sum of angles in any triangle is always 180 degrees."
+    ]
+  },
+  {
+    "id": 78,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "logic",
+    "question": "What is the missing number: 1, 3, 6, 10, 15, 21, ?",
+    "options": [
+      "A) 25",
+      "B) 27",
+      "C) 28",
+      "D) 30"
+    ],
+    "correct_answer": "C",
+    "explanations": [
+      "Differences: +2, +3, +4, +5, +6",
+      "21 + 7 = 28"
+    ]
+  },
+  {
+    "id": 79,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "logic",
+    "question": "What is 30% of 150?",
+    "options": [
+      "A) 30",
+      "B) 35",
+      "C) 40",
+      "D) 45"
+    ],
+    "correct_answer": "D",
+    "explanations": [
+      "150 × 30/100 = 45"
+    ]
+  },
+  {
+    "id": 80,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "logic",
+    "question": "What is the missing number: 4, 9, 16, 25, 36, 49, ?",
+    "options": [
+      "A) 54",
+      "B) 56",
+      "C) 62",
+      "D) 64"
+    ],
+    "correct_answer": "D",
+    "explanations": [
+      "8² = 64"
+    ]
+  },
+  {
+    "id": 81,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "logic",
+    "question": "What is the circumference of a circle with radius 7? (Use π = 22/7)",
+    "options": [
+      "A) 22",
+      "B) 44",
+      "C) 88",
+      "D) 154"
+    ],
+    "correct_answer": "B",
+    "explanations": [
+      "Circumference = 2πr",
+      "2 × 22/7 × 7 = 44"
+    ]
+  },
+  {
+    "id": 82,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "logic",
+    "question": "What is the missing number: 5, 10, 20, 40, 80, ?",
+    "options": [
+      "A) 100",
+      "B) 120",
+      "C) 140",
+      "D) 160"
+    ],
+    "correct_answer": "D",
+    "explanations": [
+      "Each number doubles."
+    ]
+  },
+  {
+    "id": 83,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "logic",
+    "question": "What is 1/4 of 100?",
+    "options": [
+      "A) 10",
+      "B) 20",
+      "C) 25",
+      "D) 30"
+    ],
+    "correct_answer": "C",
+    "explanations": [
+      "100 × 1/4 = 25"
+    ]
+  },
+  {
+    "id": 84,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "logic",
+    "question": "What is the missing number: 7, 14, 21, 28, 35, ?",
+    "options": [
+      "A) 40",
+      "B) 42",
+      "C) 44",
+      "D) 50"
+    ],
+    "correct_answer": "B",
+    "explanations": [
+      "Multiples of 7: 7×6 = 42"
+    ]
+  },
+  {
+    "id": 85,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "logic",
+    "question": "What is the volume of a cube with side length 5?",
+    "options": [
+      "A) 25",
+      "B) 50",
+      "C) 100",
+      "D) 125"
+    ],
+    "correct_answer": "D",
+    "explanations": [
+      "Volume = side³ = 5³ = 125"
+    ]
+  },
+  {
+    "id": 86,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "logic",
+    "question": "What is the missing number: 100, 90, 81, 73, 66, ?",
+    "options": [
+      "A) 55",
+      "B) 56",
+      "C) 58",
+      "D) 60"
+    ],
+    "correct_answer": "D",
+    "explanations": [
+      "Differences: -10, -9, -8, -7",
+      "66 - 6 = 60"
+    ]
+  },
+  {
+    "id": 87,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "logic",
+    "question": "What is 20% of 300?",
+    "options": [
+      "A) 30",
+      "B) 40",
+      "C) 50",
+      "D) 60"
+    ],
+    "correct_answer": "D",
+    "explanations": [
+      "300 × 20/100 = 60"
+    ]
+  },
+  {
+    "id": 88,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "logic",
+    "question": "What is the missing number: 2, 5, 10, 17, 26, 37, ?",
+    "options": [
+      "A) 46",
+      "B) 48",
+      "C) 50",
+      "D) 52"
+    ],
+    "correct_answer": "C",
+    "explanations": [
+      "Differences: +3, +5, +7, +9, +11",
+      "37 + 13 = 50"
+    ]
+  },
+  {
+    "id": 89,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "logic",
+    "question": "What is the perimeter of a square with side 8?",
+    "options": [
+      "A) 16",
+      "B) 24",
+      "C) 32",
+      "D) 64"
+    ],
+    "correct_answer": "C",
+    "explanations": [
+      "Perimeter = 4 × side = 4 × 8 = 32"
+    ]
+  },
+  {
+    "id": 90,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "logic",
+    "question": "What is the missing number: 4, 12, 36, 108, ?",
+    "options": [
+      "A) 216",
+      "B) 324",
+      "C) 432",
+      "D) 540"
+    ],
+    "correct_answer": "B",
+    "explanations": [
+      "Each number multiplies by 3.",
+      "108 × 3 = 324"
+    ]
+  },
+  {
+    "id": 91,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "logic",
+    "question": "What is 40% of 250?",
+    "options": [
+      "A) 80",
+      "B) 90",
+      "C) 100",
+      "D) 110"
+    ],
+    "correct_answer": "C",
+    "explanations": [
+      "250 × 40/100 = 100"
+    ]
+  },
+  {
+    "id": 92,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "logic",
+    "question": "What is the missing number: 1, 2, 6, 24, 120, ?",
+    "options": [
+      "A) 240",
+      "B) 360",
+      "C) 480",
+      "D) 720"
+    ],
+    "correct_answer": "D",
+    "explanations": [
+      "This is a factorial sequence: 1!, 2!, 3!, 4!, 5!",
+      "Next: 6! = 720"
+    ]
+  },
+  {
+    "id": 93,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "logic",
+    "question": "What is the missing number: 7, 10, 13, 16, 19, ?",
+    "options": [
+      "A) 20",
+      "B) 21",
+      "C) 22",
+      "D) 23"
+    ],
+    "correct_answer": "C",
+    "explanations": [
+      "Each number adds 3.",
+      "19 + 3 = 22"
+    ]
+  },
+  {
+    "id": 94,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "logic",
+    "question": "What is the area of a rectangle with length 12 and width 5?",
+    "options": [
+      "A) 40",
+      "B) 50",
+      "C) 60",
+      "D) 70"
+    ],
+    "correct_answer": "C",
+    "explanations": [
+      "Area = length × width = 12 × 5 = 60"
+    ]
+  },
+  {
+    "id": 95,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "logic",
+    "question": "What is the missing number: 50, 45, 40, 35, 30, ?",
+    "options": [
+      "A) 20",
+      "B) 25",
+      "C) 27",
+      "D) 29"
+    ],
+    "correct_answer": "B",
+    "explanations": [
+      "Each number subtracts 5.",
+      "30 - 5 = 25"
+    ]
+  },
+  {
+    "id": 96,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "logic",
+    "question": "What is 60% of 200?",
+    "options": [
+      "A) 100",
+      "B) 110",
+      "C) 120",
+      "D) 130"
+    ],
+    "correct_answer": "C",
+    "explanations": [
+      "200 × 60/100 = 120"
+    ]
+  },
+  {
+    "id": 97,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "logic",
+    "question": "What is the missing number: 1, 3, 9, 27, 81, ?",
+    "options": [
+      "A) 162",
+      "B) 243",
+      "C) 324",
+      "D) 405"
+    ],
+    "correct_answer": "B",
+    "explanations": [
+      "Each number multiplies by 3.",
+      "81 × 3 = 243"
+    ]
+  },
+  {
+    "id": 98,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "logic",
+    "question": "What is the sum of 45 and 67?",
+    "options": [
+      "A) 102",
+      "B) 112",
+      "C) 122",
+      "D) 132"
+    ],
+    "correct_answer": "B",
+    "explanations": [
+      "45 + 67 = 112"
+    ]
+  },
+  {
+    "id": 99,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "logic",
+    "question": "What is the missing number: 8, 16, 32, 64, 128, ?",
+    "options": [
+      "A) 192",
+      "B) 224",
+      "C) 256",
+      "D) 288"
+    ],
+    "correct_answer": "C",
+    "explanations": [
+      "Each number doubles.",
+      "128 × 2 = 256"
+    ]
+  },
+  {
+    "id": 100,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "logic",
+    "question": "What is 75% of 400?",
+    "options": [
+      "A) 200",
+      "B) 250",
+      "C) 300",
+      "D) 350"
+    ],
+    "correct_answer": "C",
+    "explanations": [
+      "400 × 75/100 = 300"
+    ]
+  }
+]
+  {
+    "id": 101,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "logic",
+    "question": "What is the missing number: 11, 22, 33, 44, 55, ?",
+    "options": [
+      "A) 60",
+      "B) 66",
+      "C) 70",
+      "D) 77"
+    ],
+    "correct_answer": "B",
+    "explanations": [
+      "Multiples of 11: 11×6 = 66"
+    ]
+  },
+  {
+    "id": 102,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "logic",
+    "question": "What is the missing number: 100, 90, 80, 70, 60, ?",
+    "options": [
+      "A) 40",
+      "B) 45",
+      "C) 50",
+      "D) 55"
+    ],
+    "correct_answer": "C",
+    "explanations": [
+      "Each number subtracts 10.",
+      "60 - 10 = 50"
+    ]
+  },
+  {
+    "id": 103,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "logic",
+    "question": "What is 5% of 200?",
+    "options": [
+      "A) 5",
+      "B) 10",
+      "C) 15",
+      "D) 20"
+    ],
+    "correct_answer": "B",
+    "explanations": [
+      "200 × 5/100 = 10"
+    ]
+  },
+  {
+    "id": 104,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "logic",
+    "question": "What is the missing number: 2, 4, 8, 16, 32, 64, ?",
+    "options": [
+      "A) 96",
+      "B) 112",
+      "C) 128",
+      "D) 144"
+    ],
+    "correct_answer": "C",
+    "explanations": [
+      "Each number doubles.",
+      "64 × 2 = 128"
+    ]
+  },
+  {
+    "id": 105,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "logic",
+    "question": "What is the missing number: 5, 25, 125, 625, ?",
+    "options": [
+      "A) 1250",
+      "B) 1875",
+      "C) 2500",
+      "D) 3125"
+    ],
+    "correct_answer": "D",
+    "explanations": [
+      "Each number multiplies by 5.",
+      "625 × 5 = 3125"
+    ]
+  },
+  {
+    "id": 106,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "logic",
+    "question": "What is the missing number: 14, 21, 28, 35, 42, ?",
+    "options": [
+      "A) 44",
+      "B) 45",
+      "C) 48",
+      "D) 49"
+    ],
+    "correct_answer": "D",
+    "explanations": [
+      "Multiples of 7: 7×7 = 49"
+    ]
+  },
+  {
+    "id": 107,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "logic",
+    "question": "What is the area of a square with side 10?",
+    "options": [
+      "A) 40",
+      "B) 60",
+      "C) 80",
+      "D) 100"
+    ],
+    "correct_answer": "D",
+    "explanations": [
+      "Area = side² = 10² = 100"
+    ]
+  },
+  {
+    "id": 108,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "logic",
+    "question": "What is the missing number: 6, 12, 18, 24, 30, 36, ?",
+    "options": [
+      "A) 38",
+      "B) 39",
+      "C) 40",
+      "D) 42"
+    ],
+    "correct_answer": "D",
+    "explanations": [
+      "Multiples of 6: 6×7 = 42"
+    ]
+  },
+  {
+    "id": 109,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "logic",
+    "question": "What is 35% of 200?",
+    "options": [
+      "A) 60",
+      "B) 65",
+      "C) 70",
+      "D) 75"
+    ],
+    "correct_answer": "C",
+    "explanations": [
+      "200 × 35/100 = 70"
+    ]
+  },
+  {
+    "id": 110,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "logic",
+    "question": "What is the missing number: 3, 9, 27, 81, 243, ?",
+    "options": [
+      "A) 486",
+      "B) 546",
+      "C) 633",
+      "D) 729"
+    ],
+    "correct_answer": "D",
+    "explanations": [
+      "Each number multiplies by 3.",
+      "243 × 3 = 729"
+    ]
+  },
+  {
+    "id": 111,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "logic",
+    "question": "What is the missing number: 2, 6, 18, 54, 162, 486, ?",
+    "options": [
+      "A) 972",
+      "B) 1248",
+      "C) 1458",
+      "D) 1674"
+    ],
+    "correct_answer": "C",
+    "explanations": [
+      "Each number multiplies by 3.",
+      "486 × 3 = 1458"
+    ]
+  },
+  {
+    "id": 112,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "logic",
+    "question": "What is 80% of 250?",
+    "options": [
+      "A) 150",
+      "B) 160",
+      "C) 180",
+      "D) 200"
+    ],
+    "correct_answer": "D",
+    "explanations": [
+      "250 × 80/100 = 200"
+    ]
+  },
+  {
+    "id": 113,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "logic",
+    "question": "What is the missing number: 9, 18, 27, 36, 45, 54, ?",
+    "options": [
+      "A) 60",
+      "B) 63",
+      "C) 66",
+      "D) 69"
+    ],
+    "correct_answer": "B",
+    "explanations": [
+      "Multiples of 9: 9×8 = 72"
+    ]
+  },
+  {
+    "id": 114,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "logic",
+    "question": "What is the perimeter of a triangle with sides 5, 12, and 13?",
+    "options": [
+      "A) 20",
+      "B) 25",
+      "C) 30",
+      "D) 35"
+    ],
+    "correct_answer": "C",
+    "explanations": [
+      "Perimeter = 5 + 12 + 13 = 30"
+    ]
+  },
+  {
+    "id": 115,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "logic",
+    "question": "What is the missing number: 4, 8, 12, 16, 20, 24, ?",
+    "options": [
+      "A) 26",
+      "B) 27",
+      "C) 28",
+      "D) 30"
+    ],
+    "correct_answer": "C",
+    "explanations": [
+      "Multiples of 4: 4×8 = 32"
+    ]
+  },
+  {
+    "id": 116,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "logic",
+    "question": "What is 45% of 200?",
+    "options": [
+      "A) 80",
+      "B) 85",
+      "C) 90",
+      "D) 95"
+    ],
+    "correct_answer": "C",
+    "explanations": [
+      "200 × 45/100 = 90"
+    ]
+  },
+  {
+    "id": 117,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "logic",
+    "question": "What is the missing number: 10, 20, 30, 40, 50, 60, ?",
+    "options": [
+      "A) 65",
+      "B) 66",
+      "C) 69",
+      "D) 70"
+    ],
+    "correct_answer": "D",
+    "explanations": [
+      "Multiples of 10: 10×7 = 70"
+    ]
+  },
+  {
+    "id": 118,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "logic",
+    "question": "What is the volume of a rectangular prism with length 6, width 4, height 3?",
+    "options": [
+      "A) 48",
+      "B) 56",
+      "C) 64",
+      "D) 72"
+    ],
+    "correct_answer": "D",
+    "explanations": [
+      "Volume = length × width × height = 6 × 4 × 3 = 72"
+    ]
+  },
+  {
+    "id": 119,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "logic",
+    "question": "What is the missing number: 2, 3, 5, 7, 11, 13, 17, ?",
+    "options": [
+      "A) 18",
+      "B) 19",
+      "C) 20",
+      "D) 21"
+    ],
+    "correct_answer": "B",
+    "explanations": [
+      "This is a sequence of prime numbers.",
+      "The next prime after 17 is 19."
+    ]
+  },
+  {
+    "id": 120,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "logic",
+    "question": "What is the sum of 1, 2, 3, 4, 5, 6, 7, 8, 9, 10?",
+    "options": [
+      "A) 45",
+      "B) 50",
+      "C) 55",
+      "D) 60"
+    ],
+    "correct_answer": "C",
+    "explanations": [
+      "Sum = n(n+1)/2 = 10(11)/2 = 55"
+    ]
+  },
+  {
+    "id": 121,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "logic",
+    "question": "What is the missing number: 1, 10, 100, 1000, 10000, ?",
+    "options": [
+      "A) 100000",
+      "B) 1000000",
+      "C) 10000000",
+      "D) 100000000"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "Each number multiplies by 10.",
+      "10000 × 10 = 100000"
+    ]
+  },
+  {
+    "id": 122,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "logic",
+    "question": "What is 55% of 200?",
+    "options": [
+      "A) 100",
+      "B) 105",
+      "C) 110",
+      "D) 115"
+    ],
+    "correct_answer": "C",
+    "explanations": [
+      "200 × 55/100 = 110"
+    ]
+  },
+  {
+    "id": 123,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "logic",
+    "question": "What is the missing number: 3, 6, 12, 24, 48, 96, ?",
+    "options": [
+      "A) 144",
+      "B) 168",
+      "C) 192",
+      "D) 216"
+    ],
+    "correct_answer": "C",
+    "explanations": [
+      "Each number doubles.",
+      "96 × 2 = 192"
+    ]
+  },
+  {
+    "id": 124,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "logic",
+    "question": "What is the area of a circle with radius 5? (Use π = 3.14)",
+    "options": [
+      "A) 68.5",
+      "B) 72.5",
+      "C) 76.5",
+      "D) 78.5"
+    ],
+    "correct_answer": "D",
+    "explanations": [
+      "Area = πr² = 3.14 × 5² = 3.14 × 25 = 78.5"
+    ]
+  },
+  {
+    "id": 125,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "logic",
+    "question": "What is the missing number: 5, 10, 20, 40, 80, 160, ?",
+    "options": [
+      "A) 240",
+      "B) 280",
+      "C) 320",
+      "D) 360"
+    ],
+    "correct_answer": "C",
+    "explanations": [
+      "Each number doubles.",
+      "160 × 2 = 320"
+    ]
+  },
+  {
+    "id": 126,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "logic",
+    "question": "What is 12% of 200?",
+    "options": [
+      "A) 20",
+      "B) 22",
+      "C) 24",
+      "D) 26"
+    ],
+    "correct_answer": "C",
+    "explanations": [
+      "200 × 12/100 = 24"
+    ]
+  },
+  {
+    "id": 127,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "logic",
+    "question": "What is the missing number: 8, 16, 24, 32, 40, 48, ?",
+    "options": [
+      "A) 52",
+      "B) 54",
+      "C) 56",
+      "D) 58"
+    ],
+    "correct_answer": "C",
+    "explanations": [
+      "Multiples of 8: 8×7 = 56"
+    ]
+  },
+  {
+    "id": 128,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "logic",
+    "question": "What is the sum of angles in a quadrilateral?",
+    "options": [
+      "A) 180°",
+      "B) 270°",
+      "C) 360°",
+      "D) 450°"
+    ],
+    "correct_answer": "C",
+    "explanations": [
+      "Sum of angles in any quadrilateral is 360°."
+    ]
+  },
+  {
+    "id": 129,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "logic",
+    "question": "What is the missing number: 1, 2, 4, 8, 16, 32, 64, ?",
+    "options": [
+      "A) 96",
+      "B) 112",
+      "C) 128",
+      "D) 144"
+    ],
+    "correct_answer": "C",
+    "explanations": [
+      "Each number doubles.",
+      "64 × 2 = 128"
+    ]
+  },
+  {
+    "id": 130,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "logic",
+    "question": "What is 75% of 200?",
+    "options": [
+      "A) 100",
+      "B) 125",
+      "C) 150",
+      "D) 175"
+    ],
+    "correct_answer": "C",
+    "explanations": [
+      "200 × 75/100 = 150"
+    ]
+  },
+  {
+    "id": 131,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "number_series",
+    "question": "What is the next number in the sequence: 2, 15, 41, 80, ?",
+    "options": [
+      "A) 111",
+      "B) 120",
+      "C) 132",
+      "D) 145"
+    ],
+    "correct_answer": "C",
+    "explanations": [
+      "Differences: +13, +26, +39",
+      "Next: +52, 80 + 52 = 132"
+    ]
+  },
+  {
+    "id": 132,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "number_series",
+    "question": "What is the next number in the sequence: 3, 7, 15, 31, 63, ?",
+    "options": [
+      "A) 95",
+      "B) 111",
+      "C) 127",
+      "D) 143"
+    ],
+    "correct_answer": "C",
+    "explanations": [
+      "Pattern: ×2 + 1",
+      "63 × 2 + 1 = 127"
+    ]
+  },
+  {
+    "id": 133,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "number_series",
+    "question": "What is the next number in the sequence: 0, 3, 8, 15, 24, 35, ?",
+    "options": [
+      "A) 44",
+      "B) 46",
+      "C) 48",
+      "D) 50"
+    ],
+    "correct_answer": "C",
+    "explanations": [
+      "Pattern: n² - 1: 1²-1=0, 2²-1=3, 3²-1=8, 4²-1=15, 5²-1=24, 6²-1=35",
+      "Next: 7²-1 = 48"
+    ]
+  },
+  {
+    "id": 134,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "number_series",
+    "question": "What is the next number in the sequence: 1, 8, 27, 64, 125, ?",
+    "options": [
+      "A) 150",
+      "B) 180",
+      "C) 216",
+      "D) 256"
+    ],
+    "correct_answer": "C",
+    "explanations": [
+      "Cubes: 1³, 2³, 3³, 4³, 5³",
+      "Next: 6³ = 216"
+    ]
+  },
+  {
+    "id": 135,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "number_series",
+    "question": "What is the next number in the sequence: 2, 6, 18, 54, 162, ?",
+    "options": [
+      "A) 324",
+      "B) 432",
+      "C) 486",
+      "D) 540"
+    ],
+    "correct_answer": "C",
+    "explanations": [
+      "Each number multiplies by 3.",
+      "162 × 3 = 486"
+    ]
+  },
+  {
+    "id": 136,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "number_series",
+    "question": "What is the next number in the sequence: 5, 25, 125, 625, ?",
+    "options": [
+      "A) 1250",
+      "B) 1875",
+      "C) 2500",
+      "D) 3125"
+    ],
+    "correct_answer": "D",
+    "explanations": [
+      "Each number multiplies by 5.",
+      "625 × 5 = 3125"
+    ]
+  },
+  {
+    "id": 137,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "number_series",
+    "question": "What is the next number in the sequence: 1, 2, 6, 24, 120, ?",
+    "options": [
+      "A) 240",
+      "B) 360",
+      "C) 480",
+      "D) 720"
+    ],
+    "correct_answer": "D",
+    "explanations": [
+      "Factorials: 1!, 2!, 3!, 4!, 5!",
+      "Next: 6! = 720"
+    ]
+  },
+  {
+    "id": 138,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "number_series",
+    "question": "What is the next number in the sequence: 2, 5, 10, 17, 26, 37, ?",
+    "options": [
+      "A) 46",
+      "B) 48",
+      "C) 50",
+      "D) 52"
+    ],
+    "correct_answer": "C",
+    "explanations": [
+      "Differences: +3, +5, +7, +9, +11",
+      "Next: +13, 37 + 13 = 50"
+    ]
+  },
+  {
+    "id": 139,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "number_series",
+    "question": "What is the next number in the sequence: 4, 12, 36, 108, ?",
+    "options": [
+      "A) 216",
+      "B) 324",
+      "C) 432",
+      "D) 540"
+    ],
+    "correct_answer": "B",
+    "explanations": [
+      "Each number multiplies by 3.",
+      "108 × 3 = 324"
+    ]
+  },
+  {
+    "id": 140,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "number_series",
+    "question": "What is the next number in the sequence: 1, 4, 9, 16, 25, 36, ?",
+    "options": [
+      "A) 42",
+      "B) 44",
+      "C) 48",
+      "D) 49"
+    ],
+    "correct_answer": "D",
+    "explanations": [
+      "Squares: 1², 2², 3², 4², 5², 6²",
+      "Next: 7² = 49"
+    ]
+  },
+  {
+    "id": 141,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "letter_series",
+    "question": "What comes next in this series? A, Z, B, Y, C, X, D, ?",
+    "options": [
+      "A) W",
+      "B) X",
+      "C) Y",
+      "D) Z"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "Two patterns: A, B, C, D... and Z, Y, X...",
+      "The next letter in the descending pattern is W."
+    ]
+  },
+  {
+    "id": 142,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "letter_series",
+    "question": "What comes next in this series? A, B, D, G, K, P, ?",
+    "options": [
+      "A) Q",
+      "B) R",
+      "C) S",
+      "D) U"
+    ],
+    "correct_answer": "D",
+    "explanations": [
+      "Gaps increase: +1, +2, +3, +4, +5",
+      "P + 6 = V"
+    ]
+  },
+  {
+    "id": 143,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "letter_series",
+    "question": "What comes next in this series? X, V, T, R, P, ?",
+    "options": [
+      "A) N",
+      "B) O",
+      "C) Q",
+      "D) S"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "Going backwards by 2 letters each time.",
+      "P - 2 = N"
+    ]
+  },
+  {
+    "id": 144,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "analogies",
+    "question": "Which word best completes the analogy? PENCIL is to WRITE as SCISSORS is to:",
+    "options": [
+      "A) PAPER",
+      "B) CUT",
+      "C) SHARP",
+      "D) GLUE"
+    ],
+    "correct_answer": "B",
+    "explanations": [
+      "A pencil is used to write.",
+      "Scissors are used to cut."
+    ]
+  },
+  {
+    "id": 145,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "analogies",
+    "question": "Which word best completes the analogy? OVEN is to BAKE as FRIDGE is to:",
+    "options": [
+      "A) COLD",
+      "B) COOL",
+      "C) FREEZE",
+      "D) STORE"
+    ],
+    "correct_answer": "B",
+    "explanations": [
+      "An oven is used to bake.",
+      "A fridge is used to cool."
+    ]
+  },
+  {
+    "id": 146,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "analogies",
+    "question": "Which word best completes the analogy? LION is to CARNIVORE as DEER is to:",
+    "options": [
+      "A) MEAT",
+      "B) HERBIVORE",
+      "C) PREDATOR",
+      "D) OMNIVORE"
+    ],
+    "correct_answer": "B",
+    "explanations": [
+      "A lion is a carnivore.",
+      "A deer is a herbivore."
+    ]
+  },
+  {
+    "id": 147,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "analogies",
+    "question": "Which word best completes the analogy? TEACHER is to SCHOOL as DOCTOR is to:",
+    "options": [
+      "A) HOSPITAL",
+      "B) CLINIC",
+      "C) SURGERY",
+      "D) MEDICINE"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "A teacher works in a school.",
+      "A doctor works in a hospital."
+    ]
+  },
+  {
+    "id": 148,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "analogies",
+    "question": "Which word best completes the analogy? WATER is to THIRST as FOOD is to:",
+    "options": [
+      "A) DRINK",
+      "B) HUNGER",
+      "C) EAT",
+      "D) COOK"
+    ],
+    "correct_answer": "B",
+    "explanations": [
+      "Water quenches thirst.",
+      "Food satisfies hunger."
+    ]
+  },
+  {
+    "id": 149,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "analogies",
+    "question": "Which word best completes the analogy? DAWN is to DUSK as SUNRISE is to:",
+    "options": [
+      "A) SUNSET",
+      "B) NIGHT",
+      "C) MORNING",
+      "D) MOON"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "Dawn is the beginning of the day, dusk is the end.",
+      "Sunrise is the beginning, sunset is the end."
+    ]
+  },
+  {
+    "id": 150,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "analogies",
+    "question": "Which word best completes the analogy? FINGER is to HAND as TOE is to:",
+    "options": [
+      "A) LEG",
+      "B) FOOT",
+      "C) KNEE",
+      "D) BODY"
+    ],
+    "correct_answer": "B",
+    "explanations": [
+      "A finger is part of a hand.",
+      "A toe is part of a foot."
+    ]
+  },
+  {
+    "id": 151,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "analogies",
+    "question": "Which word best completes the analogy? WHEEL is to CAR as WING is to:",
+    "options": [
+      "A) BIRD",
+      "B) PLANE",
+      "C) FLY",
+      "D) SKY"
+    ],
+    "correct_answer": "B",
+    "explanations": [
+      "A wheel is part of a car.",
+      "A wing is part of a plane."
+    ]
+  },
+  {
+    "id": 152,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "analogies",
+    "question": "Which word best completes the analogy? STRAW is to SUCK as SPOON is to:",
+    "options": [
+      "A) STIR",
+      "B) EAT",
+      "C) DRINK",
+      "D) SCOOP"
+    ],
+    "correct_answer": "D",
+    "explanations": [
+      "A straw is used to suck.",
+      "A spoon is used to scoop."
+    ]
+  },
+  {
+    "id": 153,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "analogies",
+    "question": "Which word best completes the analogy? WRITER is to NOVEL as COMPOSER is to:",
+    "options": [
+      "A) SONG",
+      "B) MUSIC",
+      "C) SYMPHONY",
+      "D) INSTRUMENT"
+    ],
+    "correct_answer": "C",
+    "explanations": [
+      "A writer creates a novel.",
+      "A composer creates a symphony."
+    ]
+  },
+  {
+    "id": 154,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "verbal",
+    "question": "What is the best synonym for VOLUMINOUS?",
+    "options": [
+      "A) MASSIVE",
+      "B) MINUTE",
+      "C) SCARCE",
+      "D) SPARSE"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "VOLUMINOUS means 'large in volume' or 'massive'."
+    ]
+  },
+  {
+    "id": 155,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "verbal",
+    "question": "What is the best synonym for EPHEMERAL?",
+    "options": [
+      "A) PERMANENT",
+      "B) TEMPORARY",
+      "C) ETERNAL",
+      "D) LASTING"
+    ],
+    "correct_answer": "B",
+    "explanations": [
+      "EPHEMERAL means 'short-lived' or 'temporary'."
+    ]
+  },
+  {
+    "id": 156,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "verbal",
+    "question": "What is the best synonym for QUINTESSENTIAL?",
+    "options": [
+      "A) UNIQUE",
+      "B) ORDINARY",
+      "C) TYPICAL",
+      "D) EXCEPTIONAL"
+    ],
+    "correct_answer": "C",
+    "explanations": [
+      "QUINTESSENTIAL means 'the most perfect example' or 'typical'."
+    ]
+  },
+  {
+    "id": 157,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "verbal",
+    "question": "What is the antonym of BENEVOLENT?",
+    "options": [
+      "A) KINDLY",
+      "B) MALEVOLENT",
+      "C) GENEROUS",
+      "D) CHARITABLE"
+    ],
+    "correct_answer": "B",
+    "explanations": [
+      "BENEVOLENT means 'kind' or 'well-meaning'.",
+      "MALEVOLENT means 'wishing harm' - the opposite."
+    ]
+  },
+  {
+    "id": 158,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "verbal",
+    "question": "What is the antonym of CELESTIAL?",
+    "options": [
+      "A) HEAVENLY",
+      "B) DIVINE",
+      "C) TERRESTRIAL",
+      "D) ETHEREAL"
+    ],
+    "correct_answer": "C",
+    "explanations": [
+      "CELESTIAL means 'heavenly' or 'relating to the sky'.",
+      "TERRESTRIAL means 'earthly' or 'relating to Earth' - the opposite."
+    ]
+  },
+  {
+    "id": 159,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "verbal",
+    "question": "What is the antonym of PRECIPITOUS?",
+    "options": [
+      "A) STEEP",
+      "B) ABRUPT",
+      "C) GRADUAL",
+      "D) SHEER"
+    ],
+    "correct_answer": "C",
+    "explanations": [
+      "PRECIPITOUS means 'steep' or 'abrupt'.",
+      "GRADUAL means 'slow' or 'step-by-step' - the opposite."
+    ]
+  },
+  {
+    "id": 160,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "verbal",
+    "question": "What is the antonym of RECALCITRANT?",
+    "options": [
+      "A) STUBBORN",
+      "B) OBEDIENT",
+      "C) REBELLIOUS",
+      "D) UNRULY"
+    ],
+    "correct_answer": "B",
+    "explanations": [
+      "RECALCITRANT means 'stubborn' or 'rebellious'.",
+      "OBEDIENT means 'compliant' - the opposite."
+    ]
+  },
+  {
+    "id": 161,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "logic",
+    "question": "If a clock strikes 13 times at 1:00, 14 times at 2:00, and so on, how many times will it strike in 24 hours?",
+    "options": [
+      "A) 156",
+      "B) 312",
+      "C) 468",
+      "D) 624"
+    ],
+    "correct_answer": "B",
+    "explanations": [
+      "Sum of 1 to 12 = 78, and then repeats.",
+      "Total strikes in 12 hours = 78 × 2 = 156",
+      "For 24 hours: 156 × 2 = 312"
+    ]
+  },
+  {
+    "id": 162,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "logic",
+    "question": "What is the least number that can be divided by 2, 3, 4, 5, 6, 7, 8, 9, and 10 without a remainder?",
+    "options": [
+      "A) 1260",
+      "B) 2520",
+      "C) 5040",
+      "D) 10080"
+    ],
+    "correct_answer": "B",
+    "explanations": [
+      "LCM of numbers 1-10 is 2520."
+    ]
+  },
+  {
+    "id": 163,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "logic",
+    "question": "What is the next number in the sequence: 1, 11, 21, 1211, 111221, ?",
+    "options": [
+      "A) 312211",
+      "B) 322211",
+      "C) 321221",
+      "D) 311221"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "This is the look-and-say sequence.",
+      "111221 → three 1s, two 2s, one 1 → 312211"
+    ]
+  },
+  {
+    "id": 164,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "logic",
+    "question": "A man is 20 years old. His father is 5 times as old as he is. How old will the father be when the man is 40?",
+    "options": [
+      "A) 60",
+      "B) 65",
+      "C) 70",
+      "D) 80"
+    ],
+    "correct_answer": "C",
+    "explanations": [
+      "Father is currently 20 × 5 = 100 years old.",
+      "When son is 40 (20 years later), father will be 100 + 20 = 120."
+    ]
+  },
+  {
+    "id": 165,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "logic",
+    "question": "What is the missing number: 2, 4, 16, 256, ?",
+    "options": [
+      "A) 4096",
+      "B) 65536",
+      "C) 65536",
+      "D) 65536"
+    ],
+    "correct_answer": "B",
+    "explanations": [
+      "Each number is the square of the previous.",
+      "2² = 4, 4² = 16, 16² = 256, 256² = 65536"
+    ]
+  },
+  {
+    "id": 166,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "logic",
+    "question": "If you have 2 apples and your friend gives you 3 more, how many do you have?",
+    "options": [
+      "A) 3",
+      "B) 4",
+      "C) 5",
+      "D) 6"
+    ],
+    "correct_answer": "C",
+    "explanations": [
+      "2 + 3 = 5"
+    ]
+  },
+  {
+    "id": 167,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "logic",
+    "question": "What is the missing number: 2, 5, 10, 17, 26, 37, ?",
+    "options": [
+      "A) 46",
+      "B) 48",
+      "C) 50",
+      "D) 52"
+    ],
+    "correct_answer": "C",
+    "explanations": [
+      "Differences: +3, +5, +7, +9, +11",
+      "Next: +13, 37 + 13 = 50"
+    ]
+  },
+  {
+    "id": 168,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "logic",
+    "question": "What is 3/4 of 200?",
+    "options": [
+      "A) 100",
+      "B) 125",
+      "C) 150",
+      "D) 175"
+    ],
+    "correct_answer": "C",
+    "explanations": [
+      "200 × 3/4 = 150"
+    ]
+  },
+  {
+    "id": 169,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "logic",
+    "question": "What is the missing number: 11, 12, 14, 17, 21, ?",
+    "options": [
+      "A) 24",
+      "B) 25",
+      "C) 26",
+      "D) 28"
+    ],
+    "correct_answer": "C",
+    "explanations": [
+      "Differences: +1, +2, +3, +4",
+      "Next: +5, 21 + 5 = 26"
+    ]
+  },
+  {
+    "id": 170,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "logic",
+    "question": "What is the missing number: 50, 47, 44, 41, 38, ?",
+    "options": [
+      "A) 33",
+      "B) 34",
+      "C) 35",
+      "D) 36"
+    ],
+    "correct_answer": "C",
+    "explanations": [
+      "Each number subtracts 3.",
+      "38 - 3 = 35"
+    ]
+  },
+  {
+    "id": 171,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "logic",
+    "question": "What is 90% of 200?",
+    "options": [
+      "A) 160",
+      "B) 170",
+      "C) 180",
+      "D) 190"
+    ],
+    "correct_answer": "C",
+    "explanations": [
+      "200 × 90/100 = 180"
+    ]
+  },
+  {
+    "id": 172,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "logic",
+    "question": "What is the missing number: 7, 14, 28, 56, 112, ?",
+    "options": [
+      "A) 168",
+      "B) 196",
+      "C) 224",
+      "D) 252"
+    ],
+    "correct_answer": "C",
+    "explanations": [
+      "Each number doubles.",
+      "112 × 2 = 224"
+    ]
+  },
+  {
+    "id": 173,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "logic",
+    "question": "What is the area of a triangle with base 8 and height 5?",
+    "options": [
+      "A) 20",
+      "B) 30",
+      "C) 40",
+      "D) 50"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "Area = ½ × base × height = ½ × 8 × 5 = 20"
+    ]
+  },
+  {
+    "id": 174,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "logic",
+    "question": "What is the missing number: 3, 6, 12, 24, 48, 96, ?",
+    "options": [
+      "A) 144",
+      "B) 168",
+      "C) 192",
+      "D) 216"
+    ],
+    "correct_answer": "C",
+    "explanations": [
+      "Each number doubles.",
+      "96 × 2 = 192"
+    ]
+  },
+  {
+    "id": 175,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "logic",
+    "question": "What is the missing number: 1, 4, 16, 64, 256, ?",
+    "options": [
+      "A) 512",
+      "B) 768",
+      "C) 1024",
+      "D) 1280"
+    ],
+    "correct_answer": "C",
+    "explanations": [
+      "Each number multiplies by 4.",
+      "256 × 4 = 1024"
+    ]
+  },
+  {
+    "id": 176,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "logic",
+    "question": "What is the missing number: 2, 8, 32, 128, ?",
+    "options": [
+      "A) 256",
+      "B) 384",
+      "C) 512",
+      "D) 640"
+    ],
+    "correct_answer": "C",
+    "explanations": [
+      "Each number multiplies by 4.",
+      "128 × 4 = 512"
+    ]
+  },
+  {
+    "id": 177,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "logic",
+    "question": "What is the missing number: 1, 3, 9, 27, 81, 243, ?",
+    "options": [
+      "A) 486",
+      "B) 546",
+      "C) 633",
+      "D) 729"
+    ],
+    "correct_answer": "D",
+    "explanations": [
+      "Each number multiplies by 3.",
+      "243 × 3 = 729"
+    ]
+  },
+  {
+    "id": 178,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "logic",
+    "question": "What is the missing number: 4, 10, 22, 46, 94, ?",
+    "options": [
+      "A) 142",
+      "B) 148",
+      "C) 154",
+      "D) 190"
+    ],
+    "correct_answer": "D",
+    "explanations": [
+      "Pattern: ×2 + 2",
+      "94 × 2 + 2 = 190"
+    ]
+  },
+  {
+    "id": 179,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "logic",
+    "question": "What is the missing number: 1, 2, 6, 15, 31, ?",
+    "options": [
+      "A) 42",
+      "B) 44",
+      "C) 46",
+      "D) 56"
+    ],
+    "correct_answer": "D",
+    "explanations": [
+      "Differences: +1, +4, +9, +16",
+      "Next: +25, 31 + 25 = 56"
+    ]
+  },
+  {
+    "id": 180,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "logic",
+    "question": "What is the missing number: 5, 11, 23, 47, 95, ?",
+    "options": [
+      "A) 143",
+      "B) 154",
+      "C) 189",
+      "D) 191"
+    ],
+    "correct_answer": "D",
+    "explanations": [
+      "Pattern: ×2 + 1",
+      "95 × 2 + 1 = 191"
+    ]
+  },
+  {
+    "id": 181,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "logic",
+    "question": "What is the missing number: 7, 16, 34, 70, ?",
+    "options": [
+      "A) 140",
+      "B) 142",
+      "C) 144",
+      "D) 146"
+    ],
+    "correct_answer": "B",
+    "explanations": [
+      "Pattern: ×2 + 2",
+      "70 × 2 + 2 = 142"
+    ]
+  },
+  {
+    "id": 182,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "logic",
+    "question": "What is the missing number: 2, 9, 28, 65, ?",
+    "options": [
+      "A) 124",
+      "B) 125",
+      "C) 126",
+      "D) 127"
+    ],
+    "correct_answer": "C",
+    "explanations": [
+      "Pattern: n³ + 1: 1³+1=2, 2³+1=9, 3³+1=28, 4³+1=65",
+      "Next: 5³+1 = 126"
+    ]
+  },
+  {
+    "id": 183,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "logic",
+    "question": "What is the missing number: 1, 5, 14, 30, 55, ?",
+    "options": [
+      "A) 81",
+      "B) 82",
+      "C) 83",
+      "D) 91"
+    ],
+    "correct_answer": "D",
+    "explanations": [
+      "Differences: +4, +9, +16, +25",
+      "Next: +36, 55 + 36 = 91"
+    ]
+  },
+  {
+    "id": 184,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "logic",
+    "question": "What is the missing number: 10, 18, 34, 66, ?",
+    "options": [
+      "A) 130",
+      "B) 132",
+      "C) 134",
+      "D) 136"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "Pattern: ×2 - 2",
+      "66 × 2 - 2 = 130"
+    ]
+  },
+  {
+    "id": 185,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "logic",
+    "question": "What is the missing number: 3, 8, 18, 38, ?",
+    "options": [
+      "A) 74",
+      "B) 76",
+      "C) 78",
+      "D) 80"
+    ],
+    "correct_answer": "C",
+    "explanations": [
+      "Pattern: ×2 + 2",
+      "38 × 2 + 2 = 78"
+    ]
+  },
+  {
+    "id": 186,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "logic",
+    "question": "What is the missing number: 6, 13, 27, 55, ?",
+    "options": [
+      "A) 109",
+      "B) 111",
+      "C) 113",
+      "D) 115"
+    ],
+    "correct_answer": "B",
+    "explanations": [
+      "Pattern: ×2 + 1",
+      "55 × 2 + 1 = 111"
+    ]
+  },
+  {
+    "id": 187,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "logic",
+    "question": "What is the missing number: 8, 15, 29, 57, ?",
+    "options": [
+      "A) 111",
+      "B) 113",
+      "C) 115",
+      "D) 117"
+    ],
+    "correct_answer": "B",
+    "explanations": [
+      "Pattern: ×2 - 1",
+      "57 × 2 - 1 = 113"
+    ]
+  },
+  {
+    "id": 188,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "logic",
+    "question": "What is the missing number: 4, 9, 19, 39, ?",
+    "options": [
+      "A) 77",
+      "B) 79",
+      "C) 81",
+      "D) 83"
+    ],
+    "correct_answer": "B",
+    "explanations": [
+      "Pattern: ×2 + 1",
+      "39 × 2 + 1 = 79"
+    ]
+  },
+  {
+    "id": 189,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "logic",
+    "question": "What is the missing number: 7, 13, 25, 49, ?",
+    "options": [
+      "A) 95",
+      "B) 97",
+      "C) 99",
+      "D) 101"
+    ],
+    "correct_answer": "B",
+    "explanations": [
+      "Pattern: ×2 - 1",
+      "49 × 2 - 1 = 97"
+    ]
+  },
+  {
+    "id": 190,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "logic",
+    "question": "What is the missing number: 5, 12, 26, 54, ?",
+    "options": [
+      "A) 106",
+      "B) 108",
+      "C) 110",
+      "D) 112"
+    ],
+    "correct_answer": "C",
+    "explanations": [
+      "Pattern: ×2 + 2",
+      "54 × 2 + 2 = 110"
+    ]
+  },
+  {
+    "id": 191,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "logic",
+    "question": "What is the missing number: 9, 17, 33, 65, ?",
+    "options": [
+      "A) 127",
+      "B) 129",
+      "C) 131",
+      "D) 133"
+    ],
+    "correct_answer": "B",
+    "explanations": [
+      "Pattern: ×2 - 1",
+      "65 × 2 - 1 = 129"
+    ]
+  },
+  {
+    "id": 192,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "logic",
+    "question": "What is the missing number: 11, 21, 41, 81, ?",
+    "options": [
+      "A) 159",
+      "B) 161",
+      "C) 163",
+      "D) 165"
+    ],
+    "correct_answer": "B",
+    "explanations": [
+      "Pattern: ×2 - 1",
+      "81 × 2 - 1 = 161"
+    ]
+  },
+  {
+    "id": 193,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "logic",
+    "question": "What is the missing number: 12, 23, 45, 89, ?",
+    "options": [
+      "A) 175",
+      "B) 177",
+      "C) 179",
+      "D) 181"
+    ],
+    "correct_answer": "B",
+    "explanations": [
+      "Pattern: ×2 - 1",
+      "89 × 2 - 1 = 177"
+    ]
+  },
+  {
+    "id": 194,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "logic",
+    "question": "What is the missing number: 6, 14, 30, 62, ?",
+    "options": [
+      "A) 122",
+      "B) 124",
+      "C) 126",
+      "D) 128"
+    ],
+    "correct_answer": "C",
+    "explanations": [
+      "Pattern: ×2 + 2",
+      "62 × 2 + 2 = 126"
+    ]
+  },
+  {
+    "id": 195,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "logic",
+    "question": "What is the missing number: 3, 7, 15, 31, 63, ?",
+    "options": [
+      "A) 125",
+      "B) 127",
+      "C) 129",
+      "D) 131"
+    ],
+    "correct_answer": "B",
+    "explanations": [
+      "Pattern: ×2 + 1",
+      "63 × 2 + 1 = 127"
+    ]
+  },
+  {
+    "id": 196,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "logic",
+    "question": "What is the missing number: 4, 11, 23, 47, ?",
+    "options": [
+      "A) 93",
+      "B) 95",
+      "C) 97",
+      "D) 99"
+    ],
+    "correct_answer": "B",
+    "explanations": [
+      "Pattern: ×2 + 1",
+      "47 × 2 + 1 = 95"
+    ]
+  },
+  {
+    "id": 197,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "logic",
+    "question": "What is the missing number: 8, 19, 39, 79, ?",
+    "options": [
+      "A) 155",
+      "B) 157",
+      "C) 159",
+      "D) 161"
+    ],
+    "correct_answer": "C",
+    "explanations": [
+      "Pattern: ×2 + 1",
+      "79 × 2 + 1 = 159"
+    ]
+  },
+  {
+    "id": 198,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "logic",
+    "question": "What is the missing number: 5, 11, 23, 47, ?",
+    "options": [
+      "A) 93",
+      "B) 95",
+      "C) 97",
+      "D) 99"
+    ],
+    "correct_answer": "B",
+    "explanations": [
+      "Pattern: ×2 + 1",
+      "47 × 2 + 1 = 95"
+    ]
+  },
+  {
+    "id": 199,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "logic",
+    "question": "What is the missing number: 9, 19, 39, 79, ?",
+    "options": [
+      "A) 155",
+      "B) 157",
+      "C) 159",
+      "D) 161"
+    ],
+    "correct_answer": "C",
+    "explanations": [
+      "Pattern: ×2 + 1",
+      "79 × 2 + 1 = 159"
+    ]
+  },
+  {
+    "id": 200,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "logic",
+    "question": "What is the missing number: 10, 21, 43, 87, ?",
+    "options": [
+      "A) 171",
+      "B) 173",
+      "C) 175",
+      "D) 177"
+    ],
+    "correct_answer": "C",
+    "explanations": [
+      "Pattern: ×2 + 1",
+      "87 × 2 + 1 = 175"
+    ]
+  },
+  {
+    "id": 201,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "logic",
+    "question": "What is the missing number: 2, 5, 10, 17, 26, ?",
+    "options": [
+      "A) 35",
+      "B) 37",
+      "C) 39",
+      "D) 41"
+    ],
+    "correct_answer": "B",
+    "explanations": [
+      "Differences: +3, +5, +7, +9",
+      "Next: +11, 26 + 11 = 37"
+    ]
+  },
+  {
+    "id": 202,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "logic",
+    "question": "What is the missing number: 1, 6, 15, 28, 45, ?",
+    "options": [
+      "A) 60",
+      "B) 62",
+      "C) 64",
+      "D) 66"
+    ],
+    "correct_answer": "D",
+    "explanations": [
+      "Differences: +5, +9, +13, +17",
+      "Next: +21, 45 + 21 = 66"
+    ]
+  },
+  {
+    "id": 203,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "logic",
+    "question": "What is the missing number: 3, 8, 15, 24, 35, ?",
+    "options": [
+      "A) 45",
+      "B) 46",
+      "C) 47",
+      "D) 48"
+    ],
+    "correct_answer": "D",
+    "explanations": [
+      "Differences: +5, +7, +9, +11",
+      "Next: +13, 35 + 13 = 48"
+    ]
+  },
+  {
+    "id": 204,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "logic",
+    "question": "What is the missing number: 2, 7, 14, 23, 34, ?",
+    "options": [
+      "A) 45",
+      "B) 46",
+      "C) 47",
+      "D) 48"
+    ],
+    "correct_answer": "C",
+    "explanations": [
+      "Differences: +5, +7, +9, +11",
+      "Next: +13, 34 + 13 = 47"
+    ]
+  },
+  {
+    "id": 205,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "logic",
+    "question": "What is the missing number: 4, 11, 20, 31, 44, ?",
+    "options": [
+      "A) 57",
+      "B) 59",
+      "C) 61",
+      "D) 63"
+    ],
+    "correct_answer": "B",
+    "explanations": [
+      "Differences: +7, +9, +11, +13",
+      "Next: +15, 44 + 15 = 59"
+    ]
+  },
+  {
+    "id": 206,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "logic",
+    "question": "What is the missing number: 5, 12, 21, 32, 45, ?",
+    "options": [
+      "A) 58",
+      "B) 60",
+      "C) 62",
+      "D) 64"
+    ],
+    "correct_answer": "B",
+    "explanations": [
+      "Differences: +7, +9, +11, +13",
+      "Next: +15, 45 + 15 = 60"
+    ]
+  },
+  {
+    "id": 207,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "logic",
+    "question": "What is the missing number: 6, 13, 22, 33, 46, ?",
+    "options": [
+      "A) 59",
+      "B) 61",
+      "C) 63",
+      "D) 65"
+    ],
+    "correct_answer": "B",
+    "explanations": [
+      "Differences: +7, +9, +11, +13",
+      "Next: +15, 46 + 15 = 61"
+    ]
+  },
+  {
+    "id": 208,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "logic",
+    "question": "What is the missing number: 7, 14, 23, 34, 47, ?",
+    "options": [
+      "A) 60",
+      "B) 62",
+      "C) 64",
+      "D) 66"
+    ],
+    "correct_answer": "B",
+    "explanations": [
+      "Differences: +7, +9, +11, +13",
+      "Next: +15, 47 + 15 = 62"
+    ]
+  },
+  {
+    "id": 209,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "logic",
+    "question": "What is the missing number: 8, 15, 24, 35, 48, ?",
+    "options": [
+      "A) 61",
+      "B) 63",
+      "C) 65",
+      "D) 67"
+    ],
+    "correct_answer": "B",
+    "explanations": [
+      "Differences: +7, +9, +11, +13",
+      "Next: +15, 48 + 15 = 63"
+    ]
+  },
+  {
+    "id": 210,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "logic",
+    "question": "What is the missing number: 9, 16, 25, 36, 49, ?",
+    "options": [
+      "A) 60",
+      "B) 62",
+      "C) 64",
+      "D) 66"
+    ],
+    "correct_answer": "C",
+    "explanations": [
+      "Squares: 3²=9, 4²=16, 5²=25, 6²=36, 7²=49",
+      "Next: 8² = 64"
+    ]
+  },
+  {
+    "id": 211,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "logic",
+    "question": "What is the missing number: 11, 20, 31, 44, 59, ?",
+    "options": [
+      "A) 74",
+      "B) 76",
+      "C) 78",
+      "D) 80"
+    ],
+    "correct_answer": "B",
+    "explanations": [
+      "Differences: +9, +11, +13, +15",
+      "Next: +17, 59 + 17 = 76"
+    ]
+  },
+  {
+    "id": 212,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "logic",
+    "question": "What is the missing number: 12, 21, 32, 45, 60, ?",
+    "options": [
+      "A) 75",
+      "B) 77",
+      "C) 79",
+      "D) 81"
+    ],
+    "correct_answer": "B",
+    "explanations": [
+      "Differences: +9, +11, +13, +15",
+      "Next: +17, 60 + 17 = 77"
+    ]
+  },
+  {
+    "id": 213,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "logic",
+    "question": "What is the missing number: 13, 22, 33, 46, 61, ?",
+    "options": [
+      "A) 76",
+      "B) 78",
+      "C) 80",
+      "D) 82"
+    ],
+    "correct_answer": "B",
+    "explanations": [
+      "Differences: +9, +11, +13, +15",
+      "Next: +17, 61 + 17 = 78"
+    ]
+  },
+  {
+    "id": 214,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "logic",
+    "question": "What is the missing number: 14, 23, 34, 47, 62, ?",
+    "options": [
+      "A) 77",
+      "B) 79",
+      "C) 81",
+      "D) 83"
+    ],
+    "correct_answer": "B",
+    "explanations": [
+      "Differences: +9, +11, +13, +15",
+      "Next: +17, 62 + 17 = 79"
+    ]
+  },
+  {
+    "id": 215,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "logic",
+    "question": "What is the missing number: 15, 24, 35, 48, 63, ?",
+    "options": [
+      "A) 78",
+      "B) 80",
+      "C) 82",
+      "D) 84"
+    ],
+    "correct_answer": "B",
+    "explanations": [
+      "Differences: +9, +11, +13, +15",
+      "Next: +17, 63 + 17 = 80"
+    ]
+  },
+  {
+    "id": 216,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "logic",
+    "question": "What is the missing number: 16, 25, 36, 49, 64, ?",
+    "options": [
+      "A) 79",
+      "B) 81",
+      "C) 83",
+      "D) 85"
+    ],
+    "correct_answer": "B",
+    "explanations": [
+      "Squares: 4²=16, 5²=25, 6²=36, 7²=49, 8²=64",
+      "Next: 9² = 81"
+    ]
+  },
+  {
+    "id": 217,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "logic",
+    "question": "What is the missing number: 18, 27, 38, 51, 66, ?",
+    "options": [
+      "A) 81",
+      "B) 83",
+      "C) 85",
+      "D) 87"
+    ],
+    "correct_answer": "B",
+    "explanations": [
+      "Differences: +9, +11, +13, +15",
+      "Next: +17, 66 + 17 = 83"
+    ]
+  },
+  {
+    "id": 218,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "logic",
+    "question": "What is the missing number: 19, 28, 39, 52, 67, ?",
+    "options": [
+      "A) 82",
+      "B) 84",
+      "C) 86",
+      "D) 88"
+    ],
+    "correct_answer": "B",
+    "explanations": [
+      "Differences: +9, +11, +13, +15",
+      "Next: +17, 67 + 17 = 84"
+    ]
+  },
+  {
+    "id": 219,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "logic",
+    "question": "What is the missing number: 20, 29, 40, 53, 68, ?",
+    "options": [
+      "A) 83",
+      "B) 85",
+      "C) 87",
+      "D) 89"
+    ],
+    "correct_answer": "B",
+    "explanations": [
+      "Differences: +9, +11, +13, +15",
+      "Next: +17, 68 + 17 = 85"
+    ]
+  },
+  {
+    "id": 220,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "logic",
+    "question": "What is the missing number: 21, 30, 41, 54, 69, ?",
+    "options": [
+      "A) 84",
+      "B) 86",
+      "C) 88",
+      "D) 90"
+    ],
+    "correct_answer": "B",
+    "explanations": [
+      "Differences: +9, +11, +13, +15",
+      "Next: +17, 69 + 17 = 86"
+    ]
+  },
+  {
+    "id": 221,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "logic",
+    "question": "What is the missing number: 22, 31, 42, 55, 70, ?",
+    "options": [
+      "A) 85",
+      "B) 87",
+      "C) 89",
+      "D) 91"
+    ],
+    "correct_answer": "B",
+    "explanations": [
+      "Differences: +9, +11, +13, +15",
+      "Next: +17, 70 + 17 = 87"
+    ]
+  },
+  {
+    "id": 222,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "logic",
+    "question": "What is the missing number: 23, 32, 43, 56, 71, ?",
+    "options": [
+      "A) 86",
+      "B) 88",
+      "C) 90",
+      "D) 92"
+    ],
+    "correct_answer": "B",
+    "explanations": [
+      "Differences: +9, +11, +13, +15",
+      "Next: +17, 71 + 17 = 88"
+    ]
+  },
+  {
+    "id": 223,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "logic",
+    "question": "What is the missing number: 24, 33, 44, 57, 72, ?",
+    "options": [
+      "A) 87",
+      "B) 89",
+      "C) 91",
+      "D) 93"
+    ],
+    "correct_answer": "B",
+    "explanations": [
+      "Differences: +9, +11, +13, +15",
+      "Next: +17, 72 + 17 = 89"
+    ]
+  },
+  {
+    "id": 224,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "logic",
+    "question": "What is the missing number: 25, 34, 45, 58, 73, ?",
+    "options": [
+      "A) 88",
+      "B) 90",
+      "C) 92",
+      "D) 94"
+    ],
+    "correct_answer": "B",
+    "explanations": [
+      "Differences: +9, +11, +13, +15",
+      "Next: +17, 73 + 17 = 90"
+    ]
+  },
+  {
+    "id": 225,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "logic",
+    "question": "What is the missing number: 26, 35, 46, 59, 74, ?",
+    "options": [
+      "A) 89",
+      "B) 91",
+      "C) 93",
+      "D) 95"
+    ],
+    "correct_answer": "B",
+    "explanations": [
+      "Differences: +9, +11, +13, +15",
+      "Next: +17, 74 + 17 = 91"
+    ]
+  },
+  {
+    "id": 226,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "logic",
+    "question": "What is the missing number: 27, 36, 47, 60, 75, ?",
+    "options": [
+      "A) 90",
+      "B) 92",
+      "C) 94",
+      "D) 96"
+    ],
+    "correct_answer": "B",
+    "explanations": [
+      "Differences: +9, +11, +13, +15",
+      "Next: +17, 75 + 17 = 92"
+    ]
+  },
+  {
+    "id": 227,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "logic",
+    "question": "What is the missing number: 28, 37, 48, 61, 76, ?",
+    "options": [
+      "A) 91",
+      "B) 93",
+      "C) 95",
+      "D) 97"
+    ],
+    "correct_answer": "B",
+    "explanations": [
+      "Differences: +9, +11, +13, +15",
+      "Next: +17, 76 + 17 = 93"
+    ]
+  },
+  {
+    "id": 228,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "logic",
+    "question": "What is the missing number: 29, 38, 49, 62, 77, ?",
+    "options": [
+      "A) 92",
+      "B) 94",
+      "C) 96",
+      "D) 98"
+    ],
+    "correct_answer": "B",
+    "explanations": [
+      "Differences: +9, +11, +13, +15",
+      "Next: +17, 77 + 17 = 94"
+    ]
+  },
+  {
+    "id": 229,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "logic",
+    "question": "What is the missing number: 30, 39, 50, 63, 78, ?",
+    "options": [
+      "A) 93",
+      "B) 95",
+      "C) 97",
+      "D) 99"
+    ],
+    "correct_answer": "B",
+    "explanations": [
+      "Differences: +9, +11, +13, +15",
+      "Next: +17, 78 + 17 = 95"
+    ]
+  },
+  {
+    "id": 230,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "logic",
+    "question": "What is the missing number: 31, 40, 51, 64, 79, ?",
+    "options": [
+      "A) 94",
+      "B) 96",
+      "C) 98",
+      "D) 100"
+    ],
+    "correct_answer": "B",
+    "explanations": [
+      "Differences: +9, +11, +13, +15",
+      "Next: +17, 79 + 17 = 96"
+    ]
+  },
+  {
+    "id": 231,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "logic",
+    "question": "What is the missing number: 32, 41, 52, 65, 80, ?",
+    "options": [
+      "A) 95",
+      "B) 97",
+      "C) 99",
+      "D) 101"
+    ],
+    "correct_answer": "B",
+    "explanations": [
+      "Differences: +9, +11, +13, +15",
+      "Next: +17, 80 + 17 = 97"
+    ]
+  },
+  {
+    "id": 232,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "logic",
+    "question": "What is the missing number: 33, 42, 53, 66, 81, ?",
+    "options": [
+      "A) 96",
+      "B) 98",
+      "C) 100",
+      "D) 102"
+    ],
+    "correct_answer": "B",
+    "explanations": [
+      "Differences: +9, +11, +13, +15",
+      "Next: +17, 81 + 17 = 98"
+    ]
+  },
+  {
+    "id": 233,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "logic",
+    "question": "What is the missing number: 34, 43, 54, 67, 82, ?",
+    "options": [
+      "A) 97",
+      "B) 99",
+      "C) 101",
+      "D) 103"
+    ],
+    "correct_answer": "B",
+    "explanations": [
+      "Differences: +9, +11, +13, +15",
+      "Next: +17, 82 + 17 = 99"
+    ]
+  },
+  {
+    "id": 234,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "logic",
+    "question": "What is the missing number: 35, 44, 55, 68, 83, ?",
+    "options": [
+      "A) 98",
+      "B) 100",
+      "C) 102",
+      "D) 104"
+    ],
+    "correct_answer": "B",
+    "explanations": [
+      "Differences: +9, +11, +13, +15",
+      "Next: +17, 83 + 17 = 100"
+    ]
+  },
+  {
+    "id": 235,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "logic",
+    "question": "What is the missing number: 36, 45, 56, 69, 84, ?",
+    "options": [
+      "A) 99",
+      "B) 101",
+      "C) 103",
+      "D) 105"
+    ],
+    "correct_answer": "B",
+    "explanations": [
+      "Differences: +9, +11, +13, +15",
+      "Next: +17, 84 + 17 = 101"
+    ]
+  },
+  {
+    "id": 236,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "logic",
+    "question": "What is the missing number: 37, 46, 57, 70, 85, ?",
+    "options": [
+      "A) 100",
+      "B) 102",
+      "C) 104",
+      "D) 106"
+    ],
+    "correct_answer": "B",
+    "explanations": [
+      "Differences: +9, +11, +13, +15",
+      "Next: +17, 85 + 17 = 102"
+    ]
+  },
+  {
+    "id": 237,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "logic",
+    "question": "What is the missing number: 38, 47, 58, 71, 86, ?",
+    "options": [
+      "A) 101",
+      "B) 103",
+      "C) 105",
+      "D) 107"
+    ],
+    "correct_answer": "B",
+    "explanations": [
+      "Differences: +9, +11, +13, +15",
+      "Next: +17, 86 + 17 = 103"
+    ]
+  },
+  {
+    "id": 238,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "logic",
+    "question": "What is the missing number: 39, 48, 59, 72, 87, ?",
+    "options": [
+      "A) 102",
+      "B) 104",
+      "C) 106",
+      "D) 108"
+    ],
+    "correct_answer": "B",
+    "explanations": [
+      "Differences: +9, +11, +13, +15",
+      "Next: +17, 87 + 17 = 104"
+    ]
+  },
+  {
+    "id": 239,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "logic",
+    "question": "What is the missing number: 40, 49, 60, 73, 88, ?",
+    "options": [
+      "A) 103",
+      "B) 105",
+      "C) 107",
+      "D) 109"
+    ],
+    "correct_answer": "B",
+    "explanations": [
+      "Differences: +9, +11, +13, +15",
+      "Next: +17, 88 + 17 = 105"
+    ]
+  },
+  {
+    "id": 240,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "logic",
+    "question": "What is the missing number: 41, 50, 61, 74, 89, ?",
+    "options": [
+      "A) 104",
+      "B) 106",
+      "C) 108",
+      "D) 110"
+    ],
+    "correct_answer": "B",
+    "explanations": [
+      "Differences: +9, +11, +13, +15",
+      "Next: +17, 89 + 17 = 106"
+    ]
+  },
+  {
+    "id": 241,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "logic",
+    "question": "What is the missing number: 42, 51, 62, 75, 90, ?",
+    "options": [
+      "A) 105",
+      "B) 107",
+      "C) 109",
+      "D) 111"
+    ],
+    "correct_answer": "B",
+    "explanations": [
+      "Differences: +9, +11, +13, +15",
+      "Next: +17, 90 + 17 = 107"
+    ]
+  },
+  {
+    "id": 242,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "logic",
+    "question": "What is the missing number: 43, 52, 63, 76, 91, ?",
+    "options": [
+      "A) 106",
+      "B) 108",
+      "C) 110",
+      "D) 112"
+    ],
+    "correct_answer": "B",
+    "explanations": [
+      "Differences: +9, +11, +13, +15",
+      "Next: +17, 91 + 17 = 108"
+    ]
+  },
+  {
+    "id": 243,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "logic",
+    "question": "What is the missing number: 44, 53, 64, 77, 92, ?",
+    "options": [
+      "A) 107",
+      "B) 109",
+      "C) 111",
+      "D) 113"
+    ],
+    "correct_answer": "B",
+    "explanations": [
+      "Differences: +9, +11, +13, +15",
+      "Next: +17, 92 + 17 = 109"
+    ]
+  },
+  {
+    "id": 244,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "logic",
+    "question": "What is the missing number: 45, 54, 65, 78, 93, ?",
+    "options": [
+      "A) 108",
+      "B) 110",
+      "C) 112",
+      "D) 114"
+    ],
+    "correct_answer": "B",
+    "explanations": [
+      "Differences: +9, +11, +13, +15",
+      "Next: +17, 93 + 17 = 110"
+    ]
+  },
+  {
+    "id": 245,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "logic",
+    "question": "What is the missing number: 46, 55, 66, 79, 94, ?",
+    "options": [
+      "A) 109",
+      "B) 111",
+      "C) 113",
+      "D) 115"
+    ],
+    "correct_answer": "B",
+    "explanations": [
+      "Differences: +9, +11, +13, +15",
+      "Next: +17, 94 + 17 = 111"
+    ]
+  },
+  {
+    "id": 246,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "logic",
+    "question": "What is the missing number: 47, 56, 67, 80, 95, ?",
+    "options": [
+      "A) 110",
+      "B) 112",
+      "C) 114",
+      "D) 116"
+    ],
+    "correct_answer": "B",
+    "explanations": [
+      "Differences: +9, +11, +13, +15",
+      "Next: +17, 95 + 17 = 112"
+    ]
+  },
+  {
+    "id": 247,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "logic",
+    "question": "What is the missing number: 48, 57, 68, 81, 96, ?",
+    "options": [
+      "A) 111",
+      "B) 113",
+      "C) 115",
+      "D) 117"
+    ],
+    "correct_answer": "B",
+    "explanations": [
+      "Differences: +9, +11, +13, +15",
+      "Next: +17, 96 + 17 = 113"
+    ]
+  },
+  {
+    "id": 248,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "logic",
+    "question": "What is the missing number: 49, 58, 69, 82, 97, ?",
+    "options": [
+      "A) 112",
+      "B) 114",
+      "C) 116",
+      "D) 118"
+    ],
+    "correct_answer": "B",
+    "explanations": [
+      "Differences: +9, +11, +13, +15",
+      "Next: +17, 97 + 17 = 114"
+    ]
+  },
+  {
+    "id": 249,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "logic",
+    "question": "What is the missing number: 50, 59, 70, 83, 98, ?",
+    "options": [
+      "A) 113",
+      "B) 115",
+      "C) 117",
+      "D) 119"
+    ],
+    "correct_answer": "B",
+    "explanations": [
+      "Differences: +9, +11, +13, +15",
+      "Next: +17, 98 + 17 = 115"
+    ]
+  },
+  {
+    "id": 250,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "logic",
+    "question": "What is the missing number: 51, 60, 71, 84, 99, ?",
+    "options": [
+      "A) 114",
+      "B) 116",
+      "C) 118",
+      "D) 120"
+    ],
+    "correct_answer": "B",
+    "explanations": [
+      "Differences: +9, +11, +13, +15",
+      "Next: +17, 99 + 17 = 116"
+    ]
+  },
+  {
+    "id": 251,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "logic",
+    "question": "What is the missing number: 52, 61, 72, 85, 100, ?",
+    "options": [
+      "A) 115",
+      "B) 117",
+      "C) 119",
+      "D) 121"
+    ],
+    "correct_answer": "B",
+    "explanations": [
+      "Differences: +9, +11, +13, +15",
+      "Next: +17, 100 + 17 = 117"
+    ]
+  },
+  {
+    "id": 252,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "logic",
+    "question": "What is the missing number: 53, 62, 73, 86, 101, ?",
+    "options": [
+      "A) 116",
+      "B) 118",
+      "C) 120",
+      "D) 122"
+    ],
+    "correct_answer": "B",
+    "explanations": [
+      "Differences: +9, +11, +13, +15",
+      "Next: +17, 101 + 17 = 118"
+    ]
+  },
+  {
+    "id": 253,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "logic",
+    "question": "What is the missing number: 54, 63, 74, 87, 102, ?",
+    "options": [
+      "A) 117",
+      "B) 119",
+      "C) 121",
+      "D) 123"
+    ],
+    "correct_answer": "B",
+    "explanations": [
+      "Differences: +9, +11, +13, +15",
+      "Next: +17, 102 + 17 = 119"
+    ]
+  },
+  {
+    "id": 254,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "logic",
+    "question": "What is the missing number: 55, 64, 75, 88, 103, ?",
+    "options": [
+      "A) 118",
+      "B) 120",
+      "C) 122",
+      "D) 124"
+    ],
+    "correct_answer": "B",
+    "explanations": [
+      "Differences: +9, +11, +13, +15",
+      "Next: +17, 103 + 17 = 120"
+    ]
+  },
+  {
+    "id": 255,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "logic",
+    "question": "What is the missing number: 56, 65, 76, 89, 104, ?",
+    "options": [
+      "A) 119",
+      "B) 121",
+      "C) 123",
+      "D) 125"
+    ],
+    "correct_answer": "B",
+    "explanations": [
+      "Differences: +9, +11, +13, +15",
+      "Next: +17, 104 + 17 = 121"
+    ]
+  },
+  {
+    "id": 256,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "logic",
+    "question": "What is the missing number: 57, 66, 77, 90, 105, ?",
+    "options": [
+      "A) 120",
+      "B) 122",
+      "C) 124",
+      "D) 126"
+    ],
+    "correct_answer": "B",
+    "explanations": [
+      "Differences: +9, +11, +13, +15",
+      "Next: +17, 105 + 17 = 122"
+    ]
+  },
+  {
+    "id": 257,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "logic",
+    "question": "What is the missing number: 58, 67, 78, 91, 106, ?",
+    "options": [
+      "A) 121",
+      "B) 123",
+      "C) 125",
+      "D) 127"
+    ],
+    "correct_answer": "B",
+    "explanations": [
+      "Differences: +9, +11, +13, +15",
+      "Next: +17, 106 + 17 = 123"
+    ]
+  },
+  {
+    "id": 258,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "logic",
+    "question": "What is the missing number: 59, 68, 79, 92, 107, ?",
+    "options": [
+      "A) 122",
+      "B) 124",
+      "C) 126",
+      "D) 128"
+    ],
+    "correct_answer": "B",
+    "explanations": [
+      "Differences: +9, +11, +13, +15",
+      "Next: +17, 107 + 17 = 124"
+    ]
+  },
+  {
+    "id": 259,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "logic",
+    "question": "What is the missing number: 60, 69, 80, 93, 108, ?",
+    "options": [
+      "A) 123",
+      "B) 125",
+      "C) 127",
+      "D) 129"
+    ],
+    "correct_answer": "B",
+    "explanations": [
+      "Differences: +9, +11, +13, +15",
+      "Next: +17, 108 + 17 = 125"
+    ]
+  },
+  {
+    "id": 260,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "logic",
+    "question": "What is the missing number: 61, 70, 81, 94, 109, ?",
+    "options": [
+      "A) 124",
+      "B) 126",
+      "C) 128",
+      "D) 130"
+    ],
+    "correct_answer": "B",
+    "explanations": [
+      "Differences: +9, +11, +13, +15",
+      "Next: +17, 109 + 17 = 126"
+    ]
+  },
+  {
+    "id": 261,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "logic",
+    "question": "What is the missing number: 62, 71, 82, 95, 110, ?",
+    "options": [
+      "A) 125",
+      "B) 127",
+      "C) 129",
+      "D) 131"
+    ],
+    "correct_answer": "B",
+    "explanations": [
+      "Differences: +9, +11, +13, +15",
+      "Next: +17, 110 + 17 = 127"
+    ]
+  },
+  {
+    "id": 262,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "logic",
+    "question": "What is the missing number: 63, 72, 83, 96, 111, ?",
+    "options": [
+      "A) 126",
+      "B) 128",
+      "C) 130",
+      "D) 132"
+    ],
+    "correct_answer": "B",
+    "explanations": [
+      "Differences: +9, +11, +13, +15",
+      "Next: +17, 111 + 17 = 128"
+    ]
+  },
+  {
+    "id": 263,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "logic",
+    "question": "What is the missing number: 64, 73, 84, 97, 112, ?",
+    "options": [
+      "A) 127",
+      "B) 129",
+      "C) 131",
+      "D) 133"
+    ],
+    "correct_answer": "B",
+    "explanations": [
+      "Differences: +9, +11, +13, +15",
+      "Next: +17, 112 + 17 = 129"
+    ]
+  },
+  {
+    "id": 264,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "logic",
+    "question": "What is the missing number: 65, 74, 85, 98, 113, ?",
+    "options": [
+      "A) 128",
+      "B) 130",
+      "C) 132",
+      "D) 134"
+    ],
+    "correct_answer": "B",
+    "explanations": [
+      "Differences: +9, +11, +13, +15",
+      "Next: +17, 113 + 17 = 130"
+    ]
+  },
+  {
+    "id": 265,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "logic",
+    "question": "What is the missing number: 66, 75, 86, 99, 114, ?",
+    "options": [
+      "A) 129",
+      "B) 131",
+      "C) 133",
+      "D) 135"
+    ],
+    "correct_answer": "B",
+    "explanations": [
+      "Differences: +9, +11, +13, +15",
+      "Next: +17, 114 + 17 = 131"
+    ]
+  },
+  {
+    "id": 266,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "logic",
+    "question": "What is the missing number: 67, 76, 87, 100, 115, ?",
+    "options": [
+      "A) 130",
+      "B) 132",
+      "C) 134",
+      "D) 136"
+    ],
+    "correct_answer": "B",
+    "explanations": [
+      "Differences: +9, +11, +13, +15",
+      "Next: +17, 115 + 17 = 132"
+    ]
+  },
+  {
+    "id": 267,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "logic",
+    "question": "What is the missing number: 68, 77, 88, 101, 116, ?",
+    "options": [
+      "A) 131",
+      "B) 133",
+      "C) 135",
+      "D) 137"
+    ],
+    "correct_answer": "B",
+    "explanations": [
+      "Differences: +9, +11, +13, +15",
+      "Next: +17, 116 + 17 = 133"
+    ]
+  },
+  {
+    "id": 268,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "logic",
+    "question": "What is the missing number: 69, 78, 89, 102, 117, ?",
+    "options": [
+      "A) 132",
+      "B) 134",
+      "C) 136",
+      "D) 138"
+    ],
+    "correct_answer": "B",
+    "explanations": [
+      "Differences: +9, +11, +13, +15",
+      "Next: +17, 117 + 17 = 134"
+    ]
+  },
+  {
+    "id": 269,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "logic",
+    "question": "What is the missing number: 70, 79, 90, 103, 118, ?",
+    "options": [
+      "A) 133",
+      "B) 135",
+      "C) 137",
+      "D) 139"
+    ],
+    "correct_answer": "B",
+    "explanations": [
+      "Differences: +9, +11, +13, +15",
+      "Next: +17, 118 + 17 = 135"
+    ]
+  },
+  {
+    "id": 270,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "logic",
+    "question": "What is the missing number: 71, 80, 91, 104, 119, ?",
+    "options": [
+      "A) 134",
+      "B) 136",
+      "C) 138",
+      "D) 140"
+    ],
+    "correct_answer": "B",
+    "explanations": [
+      "Differences: +9, +11, +13, +15",
+      "Next: +17, 119 + 17 = 136"
+    ]
+  },
+  {
+    "id": 271,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "logic",
+    "question": "What is the missing number: 72, 81, 92, 105, 120, ?",
+    "options": [
+      "A) 135",
+      "B) 137",
+      "C) 139",
+      "D) 141"
+    ],
+    "correct_answer": "B",
+    "explanations": [
+      "Differences: +9, +11, +13, +15",
+      "Next: +17, 120 + 17 = 137"
+    ]
+  },
+  {
+    "id": 272,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "logic",
+    "question": "What is the missing number: 73, 82, 93, 106, 121, ?",
+    "options": [
+      "A) 136",
+      "B) 138",
+      "C) 140",
+      "D) 142"
+    ],
+    "correct_answer": "B",
+    "explanations": [
+      "Differences: +9, +11, +13, +15",
+      "Next: +17, 121 + 17 = 138"
+    ]
+  },
+  {
+    "id": 273,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "logic",
+    "question": "What is the missing number: 74, 83, 94, 107, 122, ?",
+    "options": [
+      "A) 137",
+      "B) 139",
+      "C) 141",
+      "D) 143"
+    ],
+    "correct_answer": "B",
+    "explanations": [
+      "Differences: +9, +11, +13, +15",
+      "Next: +17, 122 + 17 = 139"
+    ]
+  },
+  {
+    "id": 274,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "logic",
+    "question": "What is the missing number: 75, 84, 95, 108, 123, ?",
+    "options": [
+      "A) 138",
+      "B) 140",
+      "C) 142",
+      "D) 144"
+    ],
+    "correct_answer": "B",
+    "explanations": [
+      "Differences: +9, +11, +13, +15",
+      "Next: +17, 123 + 17 = 140"
+    ]
+  },
+  {
+    "id": 275,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "logic",
+    "question": "What is the missing number: 76, 85, 96, 109, 124, ?",
+    "options": [
+      "A) 139",
+      "B) 141",
+      "C) 143",
+      "D) 145"
+    ],
+    "correct_answer": "B",
+    "explanations": [
+      "Differences: +9, +11, +13, +15",
+      "Next: +17, 124 + 17 = 141"
+    ]
+  },
+  {
+    "id": 276,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "logic",
+    "question": "What is the missing number: 77, 86, 97, 110, 125, ?",
+    "options": [
+      "A) 140",
+      "B) 142",
+      "C) 144",
+      "D) 146"
+    ],
+    "correct_answer": "B",
+    "explanations": [
+      "Differences: +9, +11, +13, +15",
+      "Next: +17, 125 + 17 = 142"
+    ]
+  },
+  {
+    "id": 277,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "logic",
+    "question": "What is the missing number: 78, 87, 98, 111, 126, ?",
+    "options": [
+      "A) 141",
+      "B) 143",
+      "C) 145",
+      "D) 147"
+    ],
+    "correct_answer": "B",
+    "explanations": [
+      "Differences: +9, +11, +13, +15",
+      "Next: +17, 126 + 17 = 143"
+    ]
+  },
+  {
+    "id": 278,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "logic",
+    "question": "What is the missing number: 79, 88, 99, 112, 127, ?",
+    "options": [
+      "A) 142",
+      "B) 144",
+      "C) 146",
+      "D) 148"
+    ],
+    "correct_answer": "B",
+    "explanations": [
+      "Differences: +9, +11, +13, +15",
+      "Next: +17, 127 + 17 = 144"
+    ]
+  },
+  {
+    "id": 279,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "logic",
+    "question": "What is the missing number: 80, 89, 100, 113, 128, ?",
+    "options": [
+      "A) 143",
+      "B) 145",
+      "C) 147",
+      "D) 149"
+    ],
+    "correct_answer": "B",
+    "explanations": [
+      "Differences: +9, +11, +13, +15",
+      "Next: +17, 128 + 17 = 145"
+    ]
+  },
+  {
+    "id": 280,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "logic",
+    "question": "What is the missing number: 81, 90, 101, 114, 129, ?",
+    "options": [
+      "A) 144",
+      "B) 146",
+      "C) 148",
+      "D) 150"
+    ],
+    "correct_answer": "B",
+    "explanations": [
+      "Differences: +9, +11, +13, +15",
+      "Next: +17, 129 + 17 = 146"
+    ]
+  },
+  {
+    "id": 281,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "logic",
+    "question": "What is the missing number: 82, 91, 102, 115, 130, ?",
+    "options": [
+      "A) 145",
+      "B) 147",
+      "C) 149",
+      "D) 151"
+    ],
+    "correct_answer": "B",
+    "explanations": [
+      "Differences: +9, +11, +13, +15",
+      "Next: +17, 130 + 17 = 147"
+    ]
+  },
+  {
+    "id": 282,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "logic",
+    "question": "What is the missing number: 83, 92, 103, 116, 131, ?",
+    "options": [
+      "A) 146",
+      "B) 148",
+      "C) 150",
+      "D) 152"
+    ],
+    "correct_answer": "B",
+    "explanations": [
+      "Differences: +9, +11, +13, +15",
+      "Next: +17, 131 + 17 = 148"
+    ]
+  },
+  {
+    "id": 283,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "logic",
+    "question": "What is the missing number: 84, 93, 104, 117, 132, ?",
+    "options": [
+      "A) 147",
+      "B) 149",
+      "C) 151",
+      "D) 153"
+    ],
+    "correct_answer": "B",
+    "explanations": [
+      "Differences: +9, +11, +13, +15",
+      "Next: +17, 132 + 17 = 149"
+    ]
+  },
+  {
+    "id": 284,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "logic",
+    "question": "What is the missing number: 85, 94, 105, 118, 133, ?",
+    "options": [
+      "A) 148",
+      "B) 150",
+      "C) 152",
+      "D) 154"
+    ],
+    "correct_answer": "B",
+    "explanations": [
+      "Differences: +9, +11, +13, +15",
+      "Next: +17, 133 + 17 = 150"
+    ]
+  },
+  {
+    "id": 285,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "logic",
+    "question": "What is the missing number: 86, 95, 106, 119, 134, ?",
+    "options": [
+      "A) 149",
+      "B) 151",
+      "C) 153",
+      "D) 155"
+    ],
+    "correct_answer": "B",
+    "explanations": [
+      "Differences: +9, +11, +13, +15",
+      "Next: +17, 134 + 17 = 151"
+    ]
+  },
+  {
+    "id": 286,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "logic",
+    "question": "What is the missing number: 87, 96, 107, 120, 135, ?",
+    "options": [
+      "A) 150",
+      "B) 152",
+      "C) 154",
+      "D) 156"
+    ],
+    "correct_answer": "B",
+    "explanations": [
+      "Differences: +9, +11, +13, +15",
+      "Next: +17, 135 + 17 = 152"
+    ]
+  },
+  {
+    "id": 287,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "logic",
+    "question": "What is the missing number: 88, 97, 108, 121, 136, ?",
+    "options": [
+      "A) 151",
+      "B) 153",
+      "C) 155",
+      "D) 157"
+    ],
+    "correct_answer": "B",
+    "explanations": [
+      "Differences: +9, +11, +13, +15",
+      "Next: +17, 136 + 17 = 153"
+    ]
+  },
+  {
+    "id": 288,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "logic",
+    "question": "What is the missing number: 89, 98, 109, 122, 137, ?",
+    "options": [
+      "A) 152",
+      "B) 154",
+      "C) 156",
+      "D) 158"
+    ],
+    "correct_answer": "B",
+    "explanations": [
+      "Differences: +9, +11, +13, +15",
+      "Next: +17, 137 + 17 = 154"
+    ]
+  },
+  {
+    "id": 289,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "logic",
+    "question": "What is the missing number: 90, 99, 110, 123, 138, ?",
+    "options": [
+      "A) 153",
+      "B) 155",
+      "C) 157",
+      "D) 159"
+    ],
+    "correct_answer": "B",
+    "explanations": [
+      "Differences: +9, +11, +13, +15",
+      "Next: +17, 138 + 17 = 155"
+    ]
+  },
+  {
+    "id": 290,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "logic",
+    "question": "What is the missing number: 91, 100, 111, 124, 139, ?",
+    "options": [
+      "A) 154",
+      "B) 156",
+      "C) 158",
+      "D) 160"
+    ],
+    "correct_answer": "B",
+    "explanations": [
+      "Differences: +9, +11, +13, +15",
+      "Next: +17, 139 + 17 = 156"
+    ]
+  },
+  {
+    "id": 291,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "logic",
+    "question": "What is the missing number: 92, 101, 112, 125, 140, ?",
+    "options": [
+      "A) 155",
+      "B) 157",
+      "C) 159",
+      "D) 161"
+    ],
+    "correct_answer": "B",
+    "explanations": [
+      "Differences: +9, +11, +13, +15",
+      "Next: +17, 140 + 17 = 157"
+    ]
+  },
+  {
+    "id": 292,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "logic",
+    "question": "What is the missing number: 93, 102, 113, 126, 141, ?",
+    "options": [
+      "A) 156",
+      "B) 158",
+      "C) 160",
+      "D) 162"
+    ],
+    "correct_answer": "B",
+    "explanations": [
+      "Differences: +9, +11, +13, +15",
+      "Next: +17, 141 + 17 = 158"
+    ]
+  },
+  {
+    "id": 293,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "logic",
+    "question": "What is the missing number: 94, 103, 114, 127, 142, ?",
+    "options": [
+      "A) 157",
+      "B) 159",
+      "C) 161",
+      "D) 163"
+    ],
+    "correct_answer": "B",
+    "explanations": [
+      "Differences: +9, +11, +13, +15",
+      "Next: +17, 142 + 17 = 159"
+    ]
+  },
+  {
+    "id": 294,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "logic",
+    "question": "What is the missing number: 95, 104, 115, 128, 143, ?",
+    "options": [
+      "A) 158",
+      "B) 160",
+      "C) 162",
+      "D) 164"
+    ],
+    "correct_answer": "B",
+    "explanations": [
+      "Differences: +9, +11, +13, +15",
+      "Next: +17, 143 + 17 = 160"
+    ]
+  },
+  {
+    "id": 295,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "logic",
+    "question": "What is the missing number: 96, 105, 116, 129, 144, ?",
+    "options": [
+      "A) 159",
+      "B) 161",
+      "C) 163",
+      "D) 165"
+    ],
+    "correct_answer": "B",
+    "explanations": [
+      "Differences: +9, +11, +13, +15",
+      "Next: +17, 144 + 17 = 161"
+    ]
+  },
+  {
+    "id": 296,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "logic",
+    "question": "What is the missing number: 97, 106, 117, 130, 145, ?",
+    "options": [
+      "A) 160",
+      "B) 162",
+      "C) 164",
+      "D) 166"
+    ],
+    "correct_answer": "B",
+    "explanations": [
+      "Differences: +9, +11, +13, +15",
+      "Next: +17, 145 + 17 = 162"
+    ]
+  },
+  {
+    "id": 297,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "logic",
+    "question": "What is the missing number: 98, 107, 118, 131, 146, ?",
+    "options": [
+      "A) 161",
+      "B) 163",
+      "C) 165",
+      "D) 167"
+    ],
+    "correct_answer": "B",
+    "explanations": [
+      "Differences: +9, +11, +13, +15",
+      "Next: +17, 146 + 17 = 163"
+    ]
+  },
+  {
+    "id": 298,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "logic",
+    "question": "What is the missing number: 99, 108, 119, 132, 147, ?",
+    "options": [
+      "A) 162",
+      "B) 164",
+      "C) 166",
+      "D) 168"
+    ],
+    "correct_answer": "B",
+    "explanations": [
+      "Differences: +9, +11, +13, +15",
+      "Next: +17, 147 + 17 = 164"
+    ]
+  },
+  {
+    "id": 299,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "logic",
+    "question": "What is the missing number: 100, 109, 120, 133, 148, ?",
+    "options": [
+      "A) 163",
+      "B) 165",
+      "C) 167",
+      "D) 169"
+    ],
+    "correct_answer": "B",
+    "explanations": [
+      "Differences: +9, +11, +13, +15",
+      "Next: +17, 148 + 17 = 165"
+    ]
+  },
+  {
+    "id": 300,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "logic",
+    "question": "What is the missing number: 101, 110, 121, 134, 149, ?",
+    "options": [
+      "A) 164",
+      "B) 166",
+      "C) 168",
+      "D) 170"
+    ],
+    "correct_answer": "B",
+    "explanations": [
+      "Differences: +9, +11, +13, +15",
+      "Next: +17, 149 + 17 = 166"
+    ]
+  }
+]

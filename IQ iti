@@ -1,1795 +1,1794 @@
 [
-  [
-    {
-      "id": 1,
-      "type": "multiple_choice",
-      "difficulty": "beginner",
-      "category": "number_series",
-      "question": "Look at this series: 2, 4, 6, 8, 10, ... What number should come next?",
-      "options": [
-        "A) 11",
-        "B) 12",
-        "C) 13",
-        "D) 14"
-      ],
-      "correct_answer": "B",
-      "explanations": [
-        "The pattern is adding 2 to each number.",
-        "10 + 2 = 12."
-      ]
-    },
-    {
-      "id": 2,
-      "type": "multiple_choice",
-      "difficulty": "beginner",
-      "category": "number_series",
-      "question": "Look at this series: 58, 52, 46, 40, 34, ... What number should come next?",
-      "options": [
-        "A) 26",
-        "B) 28",
-        "C) 30",
-        "D) 32"
-      ],
-      "correct_answer": "B",
-      "explanations": [
-        "The pattern is subtracting 6 from each number.",
-        "34 - 6 = 28."
-      ]
-    },
-    {
-      "id": 3,
-      "type": "multiple_choice",
-      "difficulty": "beginner",
-      "category": "number_series",
-      "question": "Look at this series: 544, 509, 474, 439, ... What number should come next?",
-      "options": [
-        "A) 404",
-        "B) 414",
-        "C) 420",
-        "D) 445"
-      ],
-      "correct_answer": "A",
-      "explanations": [
-        "The pattern is subtracting 35 from each number.",
-        "439 - 35 = 404."
-      ]
-    },
-    {
-      "id": 4,
-      "type": "multiple_choice",
-      "difficulty": "beginner",
-      "category": "number_series",
-      "question": "Look at this series: 80, 10, 70, 15, 60, ... What number should come next?",
-      "options": [
-        "A) 20",
-        "B) 25",
-        "C) 30",
-        "D) 50"
-      ],
-      "correct_answer": "A",
-      "explanations": [
-        "The pattern is: -70, +60, -55, +45, -40...",
-        "60 - 40 = 20."
-      ]
-    },
-    {
-      "id": 5,
-      "type": "multiple_choice",
-      "difficulty": "beginner",
-      "category": "number_series",
-      "question": "Look at this series: 36, 34, 30, 28, 24, ... What number should come next?",
-      "options": [
-        "A) 20",
-        "B) 22",
-        "C) 23",
-        "D) 26"
-      ],
-      "correct_answer": "B",
-      "explanations": [
-        "The pattern is: -2, -4, -2, -4...",
-        "24 - 2 = 22."
-      ]
-    },
-    {
-      "id": 6,
-      "type": "multiple_choice",
-      "difficulty": "beginner",
-      "category": "letter_series",
-      "question": "What letter comes next in this series? A, C, E, G, I, K, __",
-      "options": [
-        "A) L",
-        "B) M",
-        "C) N",
-        "D) O"
-      ],
-      "correct_answer": "B",
-      "explanations": [
-        "The pattern is skipping one letter each time.",
-        "A → C (skip B), C → E (skip D), etc.",
-        "K → M (skip L)."
-      ]
-    },
-    {
-      "id": 7,
-      "type": "multiple_choice",
-      "difficulty": "beginner",
-      "category": "letter_series",
-      "question": "What comes next in this series? B, D, F, H, J, __",
-      "options": [
-        "A) K",
-        "B) L",
-        "C) M",
-        "D) N"
-      ],
-      "correct_answer": "B",
-      "explanations": [
-        "The pattern is skipping one letter each time.",
-        "B → D (skip C), D → F (skip E), etc.",
-        "J → L (skip K)."
-      ]
-    },
-    {
-      "id": 8,
-      "type": "multiple_choice",
-      "difficulty": "beginner",
-      "category": "verbal_classification",
-      "question": "Which word does NOT belong with the others?",
-      "options": [
-        "A) Apple",
-        "B) Banana",
-        "C) Orange",
-        "D) Carrot"
-      ],
-      "correct_answer": "D",
-      "explanations": [
-        "Apple, banana, and orange are all fruits.",
-        "Carrot is a vegetable."
-      ]
-    },
-    {
-      "id": 9,
-      "type": "multiple_choice",
-      "difficulty": "beginner",
-      "category": "verbal_classification",
-      "question": "Which word does NOT belong with the others?",
-      "options": [
-        "A) SNAKE",
-        "B) DOG",
-        "C) CAT",
-        "D) COW"
-      ],
-      "correct_answer": "A",
-      "explanations": [
-        "Dog, cat, and cow are all four-legged animals.",
-        "Snake crawls and has no legs."
-      ]
-    },
-    {
-      "id": 10,
-      "type": "multiple_choice",
-      "difficulty": "beginner",
-      "category": "verbal_classification",
-      "question": "Which word does NOT belong with the others?",
-      "options": [
-        "A) FLUTE",
-        "B) VIOLIN",
-        "C) GUITAR",
-        "D) CELLO"
-      ],
-      "correct_answer": "A",
-      "explanations": [
-        "Flute is a wind instrument.",
-        "Violin, guitar, and cello are string instruments."
-      ]
-    },
-    {
-      "id": 11,
-      "type": "multiple_choice",
-      "difficulty": "beginner",
-      "category": "analogies",
-      "question": "Which word best completes the analogy? CIRCLE is to SPHERE as TRIANGLE is to:",
-      "options": [
-        "A) SQUARE",
-        "B) RECTANGLE",
-        "C) PYRAMID",
-        "D) CUBE"
-      ],
-      "correct_answer": "C",
-      "explanations": [
-        "A circle is a 2D shape, and a sphere is its 3D counterpart.",
-        "A triangle is a 2D shape, and a pyramid is its 3D counterpart."
-      ]
-    },
-    {
-      "id": 12,
-      "type": "multiple_choice",
-      "difficulty": "beginner",
-      "category": "analogies",
-      "question": "Which word best completes the analogy? VENDOR is to CONSUMER as RESTAURATEUR is to:",
-      "options": [
-        "A) WAITER",
-        "B) PATRON",
-        "C) WHOLESALER",
-        "D) CHEF"
-      ],
-      "correct_answer": "B",
-      "explanations": [
-        "A vendor sells to a consumer.",
-        "A restaurateur serves a patron."
-      ]
-    },
-    {
-      "id": 13,
-      "type": "multiple_choice",
-      "difficulty": "beginner",
-      "category": "analogies",
-      "question": "Which word best completes the analogy? Hand is to glove as foot is to ?",
-      "options": [
-        "A) shoe",
-        "B) sock",
-        "C) leg",
-        "D) knee"
-      ],
-      "correct_answer": "B",
-      "explanations": [
-        "A glove covers a hand.",
-        "A sock covers a foot."
-      ]
-    },
-    {
-      "id": 14,
-      "type": "multiple_choice",
-      "difficulty": "beginner",
-      "category": "analogies",
-      "question": "Which word best completes the analogy? Hot is to cold as day is to ?",
-      "options": [
-        "A) morning",
-        "B) night",
-        "C) sun",
-        "D) light"
-      ],
-      "correct_answer": "B",
-      "explanations": [
-        "Hot is the opposite of cold.",
-        "Day is the opposite of night."
-      ]
-    },
-    {
-      "id": 15,
-      "type": "multiple_choice",
-      "difficulty": "beginner",
-      "category": "logic",
-      "question": "If it takes 5 machines 5 minutes to make 5 widgets, how long would it take 100 machines to make 100 widgets?",
-      "options": [
-        "A) 5 minutes",
-        "B) 10 minutes",
-        "C) 50 minutes",
-        "D) 100 minutes"
-      ],
-      "correct_answer": "A",
-      "explanations": [
-        "Each machine produces 1 widget in 5 minutes.",
-        "100 machines will produce 100 widgets in the same time: 5 minutes."
-      ]
-    },
-    {
-      "id": 16,
-      "type": "multiple_choice",
-      "difficulty": "beginner",
-      "category": "logic",
-      "question": "What month has 28 days?",
-      "options": [
-        "A) February",
-        "B) Only February",
-        "C) All months",
-        "D) January"
-      ],
-      "correct_answer": "C",
-      "explanations": [
-        "All months have at least 28 days.",
-        "February has 28 days in common years, but all months contain 28 days."
-      ]
-    },
-    {
-      "id": 17,
-      "type": "multiple_choice",
-      "difficulty": "beginner",
-      "category": "logic",
-      "question": "In a lake, there is a patch of lily pads. Every day, the patch doubles in size. If it takes 48 days for the patch to cover the entire lake, how long would it take for the patch to cover half of the lake?",
-      "options": [
-        "A) 24 days",
-        "B) 36 days",
-        "C) 47 days",
-        "D) 48 days"
-      ],
-      "correct_answer": "C",
-      "explanations": [
-        "The patch doubles in size each day.",
-        "If it covers the whole lake on day 48, it was half covered on day 47."
-      ]
-    },
-    {
-      "id": 18,
-      "type": "multiple_choice",
-      "difficulty": "intermediate",
-      "category": "number_series",
-      "question": "Look at this series: 8, 22, 8, 28, 8, ... What number should come next?",
-      "options": [
-        "A) 9",
-        "B) 29",
-        "C) 32",
-        "D) 34"
-      ],
-      "correct_answer": "D",
-      "explanations": [
-        "The pattern is: +14, -14, +20, -20, +26...",
-        "8 + 26 = 34."
-      ]
-    },
-    {
-      "id": 19,
-      "type": "multiple_choice",
-      "difficulty": "intermediate",
-      "category": "number_series",
-      "question": "Look at this series: 22, 21, 23, 22, 24, 23, ... What number should come next?",
-      "options": [
-        "A) 22",
-        "B) 24",
-        "C) 25",
-        "D) 26"
-      ],
-      "correct_answer": "C",
-      "explanations": [
-        "The pattern is: -1, +2, -1, +2...",
-        "23 + 2 = 25."
-      ]
-    },
-    {
-      "id": 20,
-      "type": "multiple_choice",
-      "difficulty": "intermediate",
-      "category": "number_series",
-      "question": "What is the next number in this series? 3, 8, 10, 15, 17, 22, 24, ...",
-      "options": [
-        "A) 26, 28",
-        "B) 29, 34",
-        "C) 29, 31",
-        "D) 26, 31"
-      ],
-      "correct_answer": "C",
-      "explanations": [
-        "The pattern is: +5, +2, +5, +2...",
-        "24 + 5 = 29, 29 + 2 = 31."
-      ]
-    },
-    {
-      "id": 21,
-      "type": "multiple_choice",
-      "difficulty": "intermediate",
-      "category": "number_series",
-      "question": "Look at this series: 44, 41, 38, 35, 32, 29, 26, ... What two numbers should come next?",
-      "options": [
-        "A) 24, 21",
-        "B) 22, 19",
-        "C) 23, 20",
-        "D) 23, 19"
-      ],
-      "correct_answer": "D",
-      "explanations": [
-        "The pattern is subtracting 3.",
-        "26 - 3 = 23, 23 - 3 = 20."
-      ]
-    },
-    {
-      "id": 22,
-      "type": "multiple_choice",
-      "difficulty": "intermediate",
-      "category": "number_series",
-      "question": "Look at this series: 6, 10, 14, 18, 22, 26, 30, ... What two numbers should come next?",
-      "options": [
-        "A) 36, 40",
-        "B) 33, 37",
-        "C) 38, 42",
-        "D) 34, 38"
-      ],
-      "correct_answer": "D",
-      "explanations": [
-        "The pattern is adding 4.",
-        "30 + 4 = 34, 34 + 4 = 38."
-      ]
-    },
-    {
-      "id": 23,
-      "type": "multiple_choice",
-      "difficulty": "intermediate",
-      "category": "number_series",
-      "question": "Look at this series: 34, 30, 26, 22, 18, 14, 10, ... What two numbers should come next?",
-      "options": [
-        "A) 8, 6",
-        "B) 6, 4",
-        "C) 14, 18",
-        "D) 6, 2"
-      ],
-      "correct_answer": "D",
-      "explanations": [
-        "The pattern is subtracting 4.",
-        "10 - 4 = 6, 6 - 4 = 2."
-      ]
-    },
-    {
-      "id": 24,
-      "type": "multiple_choice",
-      "difficulty": "intermediate",
-      "category": "verbal",
-      "question": "Which word in brackets is most similar in meaning to the word in capitals? ERSTWHILE (fallacious, deviant, previous, honest, candid)",
-      "options": [
-        "A) fallacious",
-        "B) deviant",
-        "C) previous",
-        "D) honest"
-      ],
-      "correct_answer": "C",
-      "explanations": [
-        "ERSTWHILE means 'former' or 'previous'."
-      ]
-    },
-    {
-      "id": 25,
-      "type": "multiple_choice",
-      "difficulty": "intermediate",
-      "category": "verbal",
-      "question": "Which word in brackets is most opposite in meaning to the word in capitals? SOOTHE (augment, inflame, ignore, depress, execute)",
-      "options": [
-        "A) augment",
-        "B) inflame",
-        "C) ignore",
-        "D) depress"
-      ],
-      "correct_answer": "B",
-      "explanations": [
-        "SOOTHE means 'to calm'.",
-        "INFLAME means 'to provoke' or 'to irritate' - the opposite."
-      ]
-    },
-    {
-      "id": 26,
-      "type": "multiple_choice",
-      "difficulty": "intermediate",
-      "category": "verbal",
-      "question": "What is the best synonym for PLIANT?",
-      "options": [
-        "A) FLEXIBLE",
-        "B) STIFF",
-        "C) FRAGILE",
-        "D) STRONG"
-      ],
-      "correct_answer": "A",
-      "explanations": [
-        "PLIANT means 'flexible' or 'easily bent'."
-      ]
-    },
-    {
-      "id": 27,
-      "type": "multiple_choice",
-      "difficulty": "intermediate",
-      "category": "verbal",
-      "question": "Which word best expresses the meaning opposite of MELLIFLUOUS?",
-      "options": [
-        "A) MUSICAL",
-        "B) FLUID",
-        "C) RAUCOUS",
-        "D) SOFT"
-      ],
-      "correct_answer": "C",
-      "explanations": [
-        "MELLIFLUOUS means 'sweet-sounding' or 'melodious'.",
-        "RAUCOUS means 'harsh-sounding' - the opposite."
-      ]
-    },
-    {
-      "id": 28,
-      "type": "multiple_choice",
-      "difficulty": "intermediate",
-      "category": "verbal",
-      "question": "Which word is the antonym of CONCAVE?",
-      "options": [
-        "A) BULGING",
-        "B) HOLLOW",
-        "C) ROUND",
-        "D) SUNKEN"
-      ],
-      "correct_answer": "A",
-      "explanations": [
-        "CONCAVE means 'curved inward' or 'hollowed'.",
-        "BULGING means 'curved outward' - the opposite."
-      ]
-    },
-    {
-      "id": 29,
-      "type": "multiple_choice",
-      "difficulty": "intermediate",
-      "category": "logic",
-      "question": "If you rearrange the letters 'CIFAIPC', you would have the name of a/an:",
-      "options": [
-        "A) Animal",
-        "B) Country",
-        "C) City",
-        "D) Ocean"
-      ],
-      "correct_answer": "D",
-      "explanations": [
-        "Rearranging the letters CIFAIPC gives PACIFIC.",
-        "The Pacific is an ocean."
-      ]
-    },
-    {
-      "id": 30,
-      "type": "multiple_choice",
-      "difficulty": "intermediate",
-      "category": "logic",
-      "question": "Jack is 18 years old and is three times as old as his sister Tara. How many years will it be until Tara is half as old as Jack is now?",
-      "options": [
-        "A) 1",
-        "B) 2",
-        "C) 3",
-        "D) 4"
-      ],
-      "correct_answer": "C",
-      "explanations": [
-        "Tara is currently 6 years old (18 ÷ 3 = 6).",
-        "Half of Jack's current age is 9.",
-        "9 - 6 = 3 years."
-      ]
-    },
-    {
-      "id": 31,
-      "type": "multiple_choice",
-      "difficulty": "intermediate",
-      "category": "logic",
-      "question": "Which of the following figures has the most sides?",
-      "options": [
-        "A) Square",
-        "B) Triangle",
-        "C) Hexagon",
-        "D) Octagon"
-      ],
-      "correct_answer": "D",
-      "explanations": [
-        "Square has 4 sides, triangle has 3, hexagon has 6, octagon has 8.",
-        "Octagon has the most sides."
-      ]
-    },
-    {
-      "id": 32,
-      "type": "multiple_choice",
-      "difficulty": "intermediate",
-      "category": "logic",
-      "question": "What is the next number in the sequence: 0, 0, 1, 2, 2, 4, 3, 6, 4, 8, 5, ?",
-      "options": [
-        "A) 6",
-        "B) 8",
-        "C) 10",
-        "D) 12"
-      ],
-      "correct_answer": "C",
-      "explanations": [
-        "There are two sequences here.",
-        "Even terms: 0, 2, 4, 6, 8...",
-        "So the next term is 10."
-      ]
-    },
-    {
-      "id": 33,
-      "type": "multiple_choice",
-      "difficulty": "advanced",
-      "category": "number_series",
-      "question": "What number is next in this series? 2, 10, 5, 13, 8, 16, 11, 19, 14, 22, ?",
-      "options": [
-        "A) 17",
-        "B) 13",
-        "C) 19",
-        "D) 24"
-      ],
-      "correct_answer": "A",
-      "explanations": [
-        "The pattern is: +8, -5, +8, -5...",
-        "22 - 5 = 17."
-      ]
-    },
-    {
-      "id": 34,
-      "type": "multiple_choice",
-      "difficulty": "advanced",
-      "category": "number_series",
-      "question": "What is the next number in this series? 10, 17, 26, 37, ?",
-      "options": [
-        "A) 46",
-        "B) 50",
-        "C) 52",
-        "D) 56"
-      ],
-      "correct_answer": "B",
-      "explanations": [
-        "This is a sequence of square numbers plus 1.",
-        "3² + 1 = 10, 4² + 1 = 17, 5² + 1 = 26, 6² + 1 = 37",
-        "Next: 7² + 1 = 50."
-      ]
-    },
-    {
-      "id": 35,
-      "type": "multiple_choice",
-      "difficulty": "advanced",
-      "category": "number_series",
-      "question": "What is the next number in this series? 1, 1, 2, 3, 5, 8, 13, ?",
-      "options": [
-        "A) 18",
-        "B) 21",
-        "C) 23",
-        "D) 25"
-      ],
-      "correct_answer": "B",
-      "explanations": [
-        "This is the Fibonacci sequence.",
-        "Each number is the sum of the two previous numbers.",
-        "8 + 13 = 21."
-      ]
-    },
-    {
-      "id": 36,
-      "type": "multiple_choice",
-      "difficulty": "advanced",
-      "category": "number_series",
-      "question": "What is the next number in this series? 2, 6, 12, 20, 30, 42, ?",
-      "options": [
-        "A) 52",
-        "B) 54",
-        "C) 56",
-        "D) 58"
-      ],
-      "correct_answer": "C",
-      "explanations": [
-        "The pattern is adding consecutive even numbers: +4, +6, +8, +10, +12",
-        "42 + 14 = 56."
-      ]
-    },
-    {
-      "id": 37,
-      "type": "multiple_choice",
-      "difficulty": "advanced",
-      "category": "number_series",
-      "question": "What is the next number in this series? 1, 4, 27, 256, ?",
-      "options": [
-        "A) 1024",
-        "B) 3125",
-        "C) 2560",
-        "D) 2187"
-      ],
-      "correct_answer": "B",
-      "explanations": [
-        "This is a sequence of powers: 1¹, 2², 3³, 4⁴",
-        "Next: 5⁵ = 3125."
-      ]
-    },
-    {
-      "id": 38,
-      "type": "multiple_choice",
-      "difficulty": "advanced",
-      "category": "letter_series",
-      "question": "What comes next in this series? A, C, F, J, O, ?",
-      "options": [
-        "A) P",
-        "B) Q",
-        "C) R",
-        "D) S"
-      ],
-      "correct_answer": "C",
-      "explanations": [
-        "The gaps between letters increase: +2, +3, +4, +5",
-        "Next gap = +6, so O + 6 = U"
-      ]
-    },
-    {
-      "id": 39,
-      "type": "multiple_choice",
-      "difficulty": "advanced",
-      "category": "analogies",
-      "question": "Which word best completes the analogy? BREAD is to WHEAT as PAPER is to:",
-      "options": [
-        "A) TREE",
-        "B) WOOD",
-        "C) PULP",
-        "D) FOREST"
-      ],
-      "correct_answer": "B",
-      "explanations": [
-        "Bread is made from wheat.",
-        "Paper is made from wood."
-      ]
-    },
-    {
-      "id": 40,
-      "type": "multiple_choice",
-      "difficulty": "advanced",
-      "category": "analogies",
-      "question": "Which word best completes the analogy? STOMACH is to DIGESTION as LUNGS is to:",
-      "options": [
-        "A) BREATHING",
-        "B) OXYGEN",
-        "C) RESPIRATION",
-        "D) AIR"
-      ],
-      "correct_answer": "C",
-      "explanations": [
-        "The stomach performs digestion.",
-        "The lungs perform respiration."
-      ]
-    },
-    {
-      "id": 41,
-      "type": "multiple_choice",
-      "difficulty": "advanced",
-      "category": "analogies",
-      "question": "Which word best completes the analogy? EAGLE is to BIRD as SHARK is to:",
-      "options": [
-        "A) FISH",
-        "B) MAMMAL",
-        "C) REPTILE",
-        "D) AMPHIBIAN"
-      ],
-      "correct_answer": "A",
-      "explanations": [
-        "An eagle is a type of bird.",
-        "A shark is a type of fish."
-      ]
-    },
-    {
-      "id": 42,
-      "type": "multiple_choice",
-      "difficulty": "advanced",
-      "category": "verbal",
-      "question": "Make a six-letter word from these five letters: B, G, E, A, D",
-      "options": [
-        "A) BADGE",
-        "B) BAGGED",
-        "C) BEGAD",
-        "D) BAGDE"
-      ],
-      "correct_answer": "B",
-      "explanations": [
-        "By adding one letter 'G', the letters can be arranged to form the word BAGGED.",
-        "BAGGED means 'packed' or 'covered'."
-      ]
-    },
-    {
-      "id": 43,
-      "type": "multiple_choice",
-      "difficulty": "advanced",
-      "category": "verbal",
-      "question": "Take one letter from each of these animals to make another animal: possum, donkey, ermine, kitten, rhesus, cayman",
-      "options": [
-        "A) PENGUIN",
-        "B) MONKEY",
-        "C) ELEPHANT",
-        "D) TIGER"
-      ],
-      "correct_answer": "B",
-      "explanations": [
-        "Take the first letter from each word: P, D, E, K, R, C.",
-        "Re-arrange to form MONKEY."
-      ]
-    },
-    {
-      "id": 44,
-      "type": "multiple_choice",
-      "difficulty": "advanced",
-      "category": "verbal",
-      "question": "Calculate what fraction will produce this running decimal: .166166",
-      "options": [
-        "A) 166/999",
-        "B) 166/1000",
-        "C) 166/900",
-        "D) 166/990"
-      ],
-      "correct_answer": "A",
-      "explanations": [
-        "The repeating decimal .166166... = 166/999.",
-        "This is a standard conversion for repeating decimals."
-      ]
-    },
-    {
-      "id": 45,
-      "type": "multiple_choice",
-      "difficulty": "advanced",
-      "category": "logic",
-      "question": "All stamp collectors are not architects. All drones are stamp collectors. Which conclusion follows with absolute certainty?",
-      "options": [
-        "A) All stamp collectors are architects",
-        "B) Architects are not drones",
-        "C) No stamp collectors are drones",
-        "D) Some drones are architects"
-      ],
-      "correct_answer": "B",
-      "explanations": [
-        "If all drones are stamp collectors, and stamp collectors are not architects,",
-        "then architects cannot be drones."
-      ]
-    },
-    {
-      "id": 46,
-      "type": "multiple_choice",
-      "difficulty": "advanced",
-      "category": "logic",
-      "question": "Ten people share a birthday cake. All had equal portions, yet one remained on the plate. How can this be?",
-      "options": [
-        "A) One person didn't eat their slice",
-        "B) The cake was cut into 11 pieces",
-        "C) The tenth person ate from the cake plate",
-        "D) Two people shared a slice"
-      ],
-      "correct_answer": "C",
-      "explanations": [
-        "This is a lateral thinking question.",
-        "The tenth person ate from the plate (the remaining piece was on the plate)."
-      ]
-    },
-    {
-      "id": 47,
-      "type": "multiple_choice",
-      "difficulty": "advanced",
-      "category": "logic",
-      "question": "Which number is greater: 50 times itself 100 times, or 100 times itself 50 times?",
-      "options": [
-        "A) 50 times itself 100 times is greater",
-        "B) 100 times itself 50 times is greater",
-        "C) The quantities are equal",
-        "D) Cannot be determined"
-      ],
-      "correct_answer": "A",
-      "explanations": [
-        "50^100 vs 100^50",
-        "100^50 = (50×2)^50 = 50^50 × 2^50",
-        "50^100 = 50^50 × 50^50, which is much larger"
-      ]
-    },
-    {
-      "id": 48,
-      "type": "multiple_choice",
-      "difficulty": "advanced",
-      "category": "logic",
-      "question": "Suppose I have 40 blue socks and 40 brown socks in a drawer. If I reach into the drawer without looking at the socks, what is the smallest number of socks I must take out to make sure that I have a pair of socks of the same color?",
-      "options": [
-        "A) 1",
-        "B) 2",
-        "C) 3",
-        "D) 4"
-      ],
-      "correct_answer": "C",
-      "explanations": [
-        "If you're unlucky, you'll get a blue and brown sock in the first two tries.",
-        "The third try must give you either a blue or brown sock, which will match one of the first two."
-      ]
-    },
-    {
-      "id": 49,
-      "type": "multiple_choice",
-      "difficulty": "advanced",
-      "category": "logic",
-      "question": "On a street there are 25 houses: 10 of the houses have fewer than 6 rooms; 10 of the houses have more than 7 rooms; 4 houses have more than 8 rooms. What is the total number of houses that have 6, 7 or 8 rooms?",
-      "options": [
-        "A) 5",
-        "B) 9",
-        "C) 11",
-        "D) 14"
-      ],
-      "correct_answer": "C",
-      "explanations": [
-        "10 houses have fewer than 6 rooms (≤5 rooms).",
-        "4 houses have more than 8 rooms (≥9 rooms).",
-        "Total = 25 - 10 - 4 = 11 houses have 6, 7, or 8 rooms."
-      ]
-    },
-    {
-      "id": 50,
-      "type": "multiple_choice",
-      "difficulty": "advanced",
-      "category": "logic",
-      "question": "Suppose you have a digital clock where the minute digit is always the same as the hour digit. The clock can read only times like 10:10, 8:08, 9:09 etc. What is the smallest time difference between such two acceptable double-digit times?",
-      "options": [
-        "A) 101 minutes",
-        "B) 61 minutes",
-        "C) 49 minutes",
-        "D) 11 minutes"
-      ],
-      "correct_answer": "C",
-      "explanations": [
-        "The times are 12:12 and 1:01.",
-        "12:12 to 1:01 is 49 minutes."
-      ]
-    },
-    {
-      "id": 51,
-      "type": "multiple_choice",
-      "difficulty": "advanced",
-      "category": "logic",
-      "question": "A ship is twice as old as the ship's boiler was when the ship was as old as the boiler is. What is the ratio of the boiler's age to the ship's age?",
-      "options": [
-        "A) 2/3",
-        "B) 3/4",
-        "C) 4/5",
-        "D) 5/6"
-      ],
-      "correct_answer": "B",
-      "explanations": [
-        "Let S = ship's age now, B = boiler's age now.",
-        "When ship was B years old, boiler was B - (S - B) = 2B - S years old.",
-        "S = 2(2B - S) → S = 4B - 2S → 3S = 4B → B/S = 3/4."
-      ]
-    },
-    {
-      "id": 52,
-      "type": "multiple_choice",
-      "difficulty": "advanced",
-      "category": "logic",
-      "question": "In a room there are 5 blue-eyed blondes. If, all together there are 14 blondes and 8 people with blue eyes in the room, how many people are there in the room?",
-      "options": [
-        "A) 3",
-        "B) 11",
-        "C) 17",
-        "D) 22"
-      ],
-      "correct_answer": "C",
-      "explanations": [
-        "Blondes without blue eyes: 14 - 5 = 9",
-        "Blue-eyed people who are not blonde: 8 - 5 = 3",
-        "Blue-eyed blondes: 5",
-        "Total = 9 + 3 + 5 = 17"
-      ]
-    },
-    {
-      "id": 53,
-      "type": "multiple_choice",
-      "difficulty": "advanced",
-      "category": "logic",
-      "question": "A triangle has sides of lengths A, B and C. Which is true?",
-      "options": [
-        "A) C - B is always greater than A",
-        "B) C - B is always less than A",
-        "C) C - B is always equal to A",
-        "D) There is no way to compare C - B and A"
-      ],
-      "correct_answer": "B",
-      "explanations": [
-        "For any triangle, the sum of any two sides is greater than the third side.",
-        "A + B > C → C - B < A"
-      ]
-    },
-    {
-      "id": 54,
-      "type": "multiple_choice",
-      "difficulty": "advanced",
-      "category": "logic",
-      "question": "A farmer has 17 sheep. All but 9 die. How many sheep does the farmer have left?",
-      "options": [
-        "A) 8",
-        "B) 9",
-        "C) 17",
-        "D) 26"
-      ],
-      "correct_answer": "B",
-      "explanations": [
-        "'All but 9 die' means 9 survive.",
-        "The farmer has 9 sheep left."
-      ]
-    },
-    {
-      "id": 55,
-      "type": "multiple_choice",
-      "difficulty": "advanced",
-      "category": "logic",
-      "question": "How many times can you subtract 5 from 25?",
-      "options": [
-        "A) 1",
-        "B) 4",
-        "C) 5",
-        "D) 6"
-      ],
-      "correct_answer": "A",
-      "explanations": [
-        "Once, because after that you're subtracting from 20, not 25."
-      ]
-    },
-    {
-      "id": 56,
-      "type": "multiple_choice",
-      "difficulty": "advanced",
-      "category": "logic",
-      "question": "What is the minimum number of coins needed to make 99 cents?",
-      "options": [
-        "A) 4",
-        "B) 6",
-        "C) 8",
-        "D) 10"
-      ],
-      "correct_answer": "C",
-      "explanations": [
-        "3 quarters (75¢) + 2 dimes (20¢) + 4 pennies (4¢) = 9 coins."
-      ]
-    },
-    {
-      "id": 57,
-      "type": "multiple_choice",
-      "difficulty": "advanced",
-      "category": "logic",
-      "question": "If John has 5 apples and gives 2 to Mary, and then buys 3 more, how many apples does John have?",
-      "options": [
-        "A) 3",
-        "B) 5",
-        "C) 6",
-        "D) 8"
-      ],
-      "correct_answer": "C",
-      "explanations": [
-        "5 - 2 = 3",
-        "3 + 3 = 6"
-      ]
-    },
-    {
-      "id": 58,
-      "type": "multiple_choice",
-      "difficulty": "advanced",
-      "category": "logic",
-      "question": "What is the next number in the sequence: 1, 8, 27, 64, 125, ?",
-      "options": [
-        "A) 150",
-        "B) 180",
-        "C) 216",
-        "D) 256"
-      ],
-      "correct_answer": "C",
-      "explanations": [
-        "This is a sequence of cubes: 1³, 2³, 3³, 4³, 5³",
-        "Next: 6³ = 216."
-      ]
-    },
-    {
-      "id": 59,
-      "type": "multiple_choice",
-      "difficulty": "advanced",
-      "category": "logic",
-      "question": "What is the smallest number that can be divided by 2, 3, 4, 5, 6, 7, 8, 9, and 10 without a remainder?",
-      "options": [
-        "A) 2520",
-        "B) 5040",
-        "C) 1260",
-        "D) 10080"
-      ],
-      "correct_answer": "A",
-      "explanations": [
-        "This is the LCM of numbers 1-10.",
-        "LCM = 2520."
-      ]
-    },
-    {
-      "id": 60,
-      "type": "multiple_choice",
-      "difficulty": "advanced",
-      "category": "logic",
-      "question": "A train travels from point A to point B at 60 mph and returns at 40 mph. What is the average speed for the entire trip?",
-      "options": [
-        "A) 50 mph",
-        "B) 48 mph",
-        "C) 52 mph",
-        "D) 45 mph"
-      ],
-      "correct_answer": "B",
-      "explanations": [
-        "Average speed = 2ab/(a+b)",
-        "2 × 60 × 40 / (60 + 40) = 4800/100 = 48 mph."
-      ]
-    },
-    {
-      "id": 61,
-      "type": "multiple_choice",
-      "difficulty": "advanced",
-      "category": "logic",
-      "question": "What is 15% of 80?",
-      "options": [
-        "A) 10",
-        "B) 12",
-        "C) 14",
-        "D) 16"
-      ],
-      "correct_answer": "B",
-      "explanations": [
-        "80 × 15/100 = 12"
-      ]
-    },
-    {
-      "id": 62,
-      "type": "multiple_choice",
-      "difficulty": "advanced",
-      "category": "logic",
-      "question": "What is the square root of 144?",
-      "options": [
-        "A) 10",
-        "B) 11",
-        "C) 12",
-        "D) 13"
-      ],
-      "correct_answer": "C",
-      "explanations": [
-        "12 × 12 = 144"
-      ]
-    },
-    {
-      "id": 63,
-      "type": "multiple_choice",
-      "difficulty": "advanced",
-      "category": "logic",
-      "question": "What is the value of x if 3x + 7 = 22?",
-      "options": [
-        "A) 3",
-        "B) 4",
-        "C) 5",
-        "D) 6"
-      ],
-      "correct_answer": "C",
-      "explanations": [
-        "3x + 7 = 22",
-        "3x = 15",
-        "x = 5"
-      ]
-    },
-    {
-      "id": 64,
-      "type": "multiple_choice",
-      "difficulty": "advanced",
-      "category": "logic",
-      "question": "What is the missing number in the sequence: 2, 3, 5, 7, 11, ?, 17?",
-      "options": [
-        "A) 12",
-        "B) 13",
-        "C) 14",
-        "D) 15"
-      ],
-      "correct_answer": "B",
-      "explanations": [
-        "This is a sequence of prime numbers.",
-        "The prime numbers are: 2, 3, 5, 7, 11, 13, 17."
-      ]
-    },
-    {
-      "id": 65,
-      "type": "multiple_choice",
-      "difficulty": "advanced",
-      "category": "logic",
-      "question": "What is the missing number: 1, 4, 9, 16, 25, 36, 49, ?",
-      "options": [
-        "A) 54",
-        "B) 56",
-        "C) 62",
-        "D) 64"
-      ],
-      "correct_answer": "D",
-      "explanations": [
-        "This is a sequence of square numbers.",
-        "8² = 64."
-      ]
-    },
-    {
-      "id": 66,
-      "type": "multiple_choice",
-      "difficulty": "advanced",
-      "category": "logic",
-      "question": "What is 25% of 200?",
-      "options": [
-        "A) 25",
-        "B) 40",
-        "C) 50",
-        "D) 75"
-      ],
-      "correct_answer": "C",
-      "explanations": [
-        "200 × 25/100 = 50"
-      ]
-    },
-    {
-      "id": 67,
-      "type": "multiple_choice",
-      "difficulty": "advanced",
-      "category": "logic",
-      "question": "What is the greatest common factor of 24 and 36?",
-      "options": [
-        "A) 6",
-        "B) 12",
-        "C) 18",
-        "D) 24"
-      ],
-      "correct_answer": "B",
-      "explanations": [
-        "24 factors: 1, 2, 3, 4, 6, 8, 12, 24",
-        "36 factors: 1, 2, 3, 4, 6, 9, 12, 18, 36",
-        "GCF = 12"
-      ]
-    },
-    {
-      "id": 68,
-      "type": "multiple_choice",
-      "difficulty": "advanced",
-      "category": "logic",
-      "question": "A rectangle has length 8 and width 5. What is the perimeter?",
-      "options": [
-        "A) 13",
-        "B) 20",
-        "C) 26",
-        "D) 40"
-      ],
-      "correct_answer": "C",
-      "explanations": [
-        "Perimeter = 2(length + width)",
-        "2(8 + 5) = 2 × 13 = 26"
-      ]
-    },
-    {
-      "id": 69,
-      "type": "multiple_choice",
-      "difficulty": "advanced",
-      "category": "logic",
-      "question": "What is the next number: 2, 5, 10, 17, 26, ?",
-      "options": [
-        "A) 35",
-        "B) 37",
-        "C) 39",
-        "D) 41"
-      ],
-      "correct_answer": "B",
-      "explanations": [
-        "Differences: +3, +5, +7, +9",
-        "Next: +11, 26 + 11 = 37"
-      ]
-    },
-    {
-      "id": 70,
-      "type": "multiple_choice",
-      "difficulty": "advanced",
-      "category": "logic",
-      "question": "What is the missing number: 3, 6, 12, 24, 48, ?",
-      "options": [
-        "A) 56",
-        "B) 72",
-        "C) 96",
-        "D) 100"
-      ],
-      "correct_answer": "C",
-      "explanations": [
-        "Each number doubles the previous."
-      ]
-    },
-    {
-      "id": 71,
-      "type": "multiple_choice",
-      "difficulty": "advanced",
-      "category": "logic",
-      "question": "If a = 5 and b = 3, what is a² + b²?",
-      "options": [
-        "A) 16",
-        "B) 25",
-        "C) 34",
-        "D) 43"
-      ],
-      "correct_answer": "C",
-      "explanations": [
-        "5² + 3² = 25 + 9 = 34"
-      ]
-    },
-    {
-      "id": 72,
-      "type": "multiple_choice",
-      "difficulty": "advanced",
-      "category": "logic",
-      "question": "What is the lowest common multiple of 4 and 6?",
-      "options": [
-        "A) 8",
-        "B) 10",
-        "C) 12",
-        "D) 24"
-      ],
-      "correct_answer": "C",
-      "explanations": [
-        "Multiples of 4: 4, 8, 12, 16, 20, 24",
-        "Multiples of 6: 6, 12, 18, 24",
-        "LCM = 12"
-      ]
-    },
-    {
-      "id": 73,
-      "type": "multiple_choice",
-      "difficulty": "advanced",
-      "category": "logic",
-      "question": "What is 10% of 500?",
-      "options": [
-        "A) 25",
-        "B) 40",
-        "C) 50",
-        "D) 60"
-      ],
-      "correct_answer": "C",
-      "explanations": [
-        "500 × 10/100 = 50"
-      ]
-    },
-    {
-      "id": 74,
-      "type": "multiple_choice",
-      "difficulty": "advanced",
-      "category": "logic",
-      "question": "What is the missing number in the sequence: 1, 8, 27, 64, 125, 216, ?",
-      "options": [
-        "A) 256",
-        "B) 300",
-        "C) 343",
-        "D) 400"
-      ],
-      "correct_answer": "C",
-      "explanations": [
-        "7³ = 343"
-      ]
-    },
-    {
-      "id": 75,
-      "type": "multiple_choice",
-      "difficulty": "advanced",
-      "category": "logic",
-      "question": "What is the area of a triangle with base 10 and height 6?",
-      "options": [
-        "A) 20",
-        "B) 30",
-        "C) 40",
-        "D) 60"
-      ],
-      "correct_answer": "B",
-      "explanations": [
-        "Area = ½ × base × height",
-        "½ × 10 × 6 = 30"
-      ]
-    },
-    {
-      "id": 76,
-      "type": "multiple_choice",
-      "difficulty": "advanced",
-      "category": "logic",
-      "question": "What is the missing number: 2, 6, 18, 54, 162, ?",
-      "options": [
-        "A) 324",
-        "B) 486",
-        "C) 540",
-        "D) 648"
-      ],
-      "correct_answer": "B",
-      "explanations": [
-        "Each number triples the previous.",
-        "162 × 3 = 486"
-      ]
-    },
-    {
-      "id": 77,
-      "type": "multiple_choice",
-      "difficulty": "advanced",
-      "category": "logic",
-      "question": "What is the sum of the angles in a triangle?",
-      "options": [
-        "A) 90 degrees",
-        "B) 180 degrees",
-        "C) 270 degrees",
-        "D) 360 degrees"
-      ],
-      "correct_answer": "B",
-      "explanations": [
-        "The sum of angles in any triangle is always 180 degrees."
-      ]
-    },
-    {
-      "id": 78,
-      "type": "multiple_choice",
-      "difficulty": "advanced",
-      "category": "logic",
-      "question": "What is the missing number: 1, 3, 6, 10, 15, 21, ?",
-      "options": [
-        "A) 25",
-        "B) 27",
-        "C) 28",
-        "D) 30"
-      ],
-      "correct_answer": "C",
-      "explanations": [
-        "Differences: +2, +3, +4, +5, +6",
-        "21 + 7 = 28"
-      ]
-    },
-    {
-      "id": 79,
-      "type": "multiple_choice",
-      "difficulty": "advanced",
-      "category": "logic",
-      "question": "What is 30% of 150?",
-      "options": [
-        "A) 30",
-        "B) 35",
-        "C) 40",
-        "D) 45"
-      ],
-      "correct_answer": "D",
-      "explanations": [
-        "150 × 30/100 = 45"
-      ]
-    },
-    {
-      "id": 80,
-      "type": "multiple_choice",
-      "difficulty": "advanced",
-      "category": "logic",
-      "question": "What is the missing number: 4, 9, 16, 25, 36, 49, ?",
-      "options": [
-        "A) 54",
-        "B) 56",
-        "C) 62",
-        "D) 64"
-      ],
-      "correct_answer": "D",
-      "explanations": [
-        "8² = 64"
-      ]
-    },
-    {
-      "id": 81,
-      "type": "multiple_choice",
-      "difficulty": "advanced",
-      "category": "logic",
-      "question": "What is the circumference of a circle with radius 7? (Use π = 22/7)",
-      "options": [
-        "A) 22",
-        "B) 44",
-        "C) 88",
-        "D) 154"
-      ],
-      "correct_answer": "B",
-      "explanations": [
-        "Circumference = 2πr",
-        "2 × 22/7 × 7 = 44"
-      ]
-    },
-    {
-      "id": 82,
-      "type": "multiple_choice",
-      "difficulty": "advanced",
-      "category": "logic",
-      "question": "What is the missing number: 5, 10, 20, 40, 80, ?",
-      "options": [
-        "A) 100",
-        "B) 120",
-        "C) 140",
-        "D) 160"
-      ],
-      "correct_answer": "D",
-      "explanations": [
-        "Each number doubles."
-      ]
-    },
-    {
-      "id": 83,
-      "type": "multiple_choice",
-      "difficulty": "advanced",
-      "category": "logic",
-      "question": "What is 1/4 of 100?",
-      "options": [
-        "A) 10",
-        "B) 20",
-        "C) 25",
-        "D) 30"
-      ],
-      "correct_answer": "C",
-      "explanations": [
-        "100 × 1/4 = 25"
-      ]
-    },
-    {
-      "id": 84,
-      "type": "multiple_choice",
-      "difficulty": "advanced",
-      "category": "logic",
-      "question": "What is the missing number: 7, 14, 21, 28, 35, ?",
-      "options": [
-        "A) 40",
-        "B) 42",
-        "C) 44",
-        "D) 50"
-      ],
-      "correct_answer": "B",
-      "explanations": [
-        "Multiples of 7: 7×6 = 42"
-      ]
-    },
-    {
-      "id": 85,
-      "type": "multiple_choice",
-      "difficulty": "advanced",
-      "category": "logic",
-      "question": "What is the volume of a cube with side length 5?",
-      "options": [
-        "A) 25",
-        "B) 50",
-        "C) 100",
-        "D) 125"
-      ],
-      "correct_answer": "D",
-      "explanations": [
-        "Volume = side³ = 5³ = 125"
-      ]
-    },
-    {
-      "id": 86,
-      "type": "multiple_choice",
-      "difficulty": "advanced",
-      "category": "logic",
-      "question": "What is the missing number: 100, 90, 81, 73, 66, ?",
-      "options": [
-        "A) 55",
-        "B) 56",
-        "C) 58",
-        "D) 60"
-      ],
-      "correct_answer": "D",
-      "explanations": [
-        "Differences: -10, -9, -8, -7",
-        "66 - 6 = 60"
-      ]
-    },
-    {
-      "id": 87,
-      "type": "multiple_choice",
-      "difficulty": "advanced",
-      "category": "logic",
-      "question": "What is 20% of 300?",
-      "options": [
-        "A) 30",
-        "B) 40",
-        "C) 50",
-        "D) 60"
-      ],
-      "correct_answer": "D",
-      "explanations": [
-        "300 × 20/100 = 60"
-      ]
-    },
-    {
-      "id": 88,
-      "type": "multiple_choice",
-      "difficulty": "advanced",
-      "category": "logic",
-      "question": "What is the missing number: 2, 5, 10, 17, 26, 37, ?",
-      "options": [
-        "A) 46",
-        "B) 48",
-        "C) 50",
-        "D) 52"
-      ],
-      "correct_answer": "C",
-      "explanations": [
-        "Differences: +3, +5, +7, +9, +11",
-        "37 + 13 = 50"
-      ]
-    },
-    {
-      "id": 89,
-      "type": "multiple_choice",
-      "difficulty": "advanced",
-      "category": "logic",
-      "question": "What is the perimeter of a square with side 8?",
-      "options": [
-        "A) 16",
-        "B) 24",
-        "C) 32",
-        "D) 64"
-      ],
-      "correct_answer": "C",
-      "explanations": [
-        "Perimeter = 4 × side = 4 × 8 = 32"
-      ]
-    },
-    {
-      "id": 90,
-      "type": "multiple_choice",
-      "difficulty": "advanced",
-      "category": "logic",
-      "question": "What is the missing number: 4, 12, 36, 108, ?",
-      "options": [
-        "A) 216",
-        "B) 324",
-        "C) 432",
-        "D) 540"
-      ],
-      "correct_answer": "B",
-      "explanations": [
-        "Each number multiplies by 3.",
-        "108 × 3 = 324"
-      ]
-    },
-    {
-      "id": 91,
-      "type": "multiple_choice",
-      "difficulty": "advanced",
-      "category": "logic",
-      "question": "What is 40% of 250?",
-      "options": [
-        "A) 80",
-        "B) 90",
-        "C) 100",
-        "D) 110"
-      ],
-      "correct_answer": "C",
-      "explanations": [
-        "250 × 40/100 = 100"
-      ]
-    },
-    {
-      "id": 92,
-      "type": "multiple_choice",
-      "difficulty": "advanced",
-      "category": "logic",
-      "question": "What is the missing number: 1, 2, 6, 24, 120, ?",
-      "options": [
-        "A) 240",
-        "B) 360",
-        "C) 480",
-        "D) 720"
-      ],
-      "correct_answer": "D",
-      "explanations": [
-        "This is a factorial sequence: 1!, 2!, 3!, 4!, 5!",
-        "Next: 6! = 720"
-      ]
-    },
-    {
-      "id": 93,
-      "type": "multiple_choice",
-      "difficulty": "advanced",
-      "category": "logic",
-      "question": "What is the missing number: 7, 10, 13, 16, 19, ?",
-      "options": [
-        "A) 20",
-        "B) 21",
-        "C) 22",
-        "D) 23"
-      ],
-      "correct_answer": "C",
-      "explanations": [
-        "Each number adds 3.",
-        "19 + 3 = 22"
-      ]
-    },
-    {
-      "id": 94,
-      "type": "multiple_choice",
-      "difficulty": "advanced",
-      "category": "logic",
-      "question": "What is the area of a rectangle with length 12 and width 5?",
-      "options": [
-        "A) 40",
-        "B) 50",
-        "C) 60",
-        "D) 70"
-      ],
-      "correct_answer": "C",
-      "explanations": [
-        "Area = length × width = 12 × 5 = 60"
-      ]
-    },
-    {
-      "id": 95,
-      "type": "multiple_choice",
-      "difficulty": "advanced",
-      "category": "logic",
-      "question": "What is the missing number: 50, 45, 40, 35, 30, ?",
-      "options": [
-        "A) 20",
-        "B) 25",
-        "C) 27",
-        "D) 29"
-      ],
-      "correct_answer": "B",
-      "explanations": [
-        "Each number subtracts 5.",
-        "30 - 5 = 25"
-      ]
-    },
-    {
-      "id": 96,
-      "type": "multiple_choice",
-      "difficulty": "advanced",
-      "category": "logic",
-      "question": "What is 60% of 200?",
-      "options": [
-        "A) 100",
-        "B) 110",
-        "C) 120",
-        "D) 130"
-      ],
-      "correct_answer": "C",
-      "explanations": [
-        "200 × 60/100 = 120"
-      ]
-    },
-    {
-      "id": 97,
-      "type": "multiple_choice",
-      "difficulty": "advanced",
-      "category": "logic",
-      "question": "What is the missing number: 1, 3, 9, 27, 81, ?",
-      "options": [
-        "A) 162",
-        "B) 243",
-        "C) 324",
-        "D) 405"
-      ],
-      "correct_answer": "B",
-      "explanations": [
-        "Each number multiplies by 3.",
-        "81 × 3 = 243"
-      ]
-    },
-    {
-      "id": 98,
-      "type": "multiple_choice",
-      "difficulty": "advanced",
-      "category": "logic",
-      "question": "What is the sum of 45 and 67?",
-      "options": [
-        "A) 102",
-        "B) 112",
-        "C) 122",
-        "D) 132"
-      ],
-      "correct_answer": "B",
-      "explanations": [
-        "45 + 67 = 112"
-      ]
-    },
-    {
-      "id": 99,
-      "type": "multiple_choice",
-      "difficulty": "advanced",
-      "category": "logic",
-      "question": "What is the missing number: 8, 16, 32, 64, 128, ?",
-      "options": [
-        "A) 192",
-        "B) 224",
-        "C) 256",
-        "D) 288"
-      ],
-      "correct_answer": "C",
-      "explanations": [
-        "Each number doubles.",
-        "128 × 2 = 256"
-      ]
-    },
-    {
-      "id": 100,
-      "type": "multiple_choice",
-      "difficulty": "advanced",
-      "category": "logic",
-      "question": "What is 75% of 400?",
-      "options": [
-        "A) 200",
-        "B) 250",
-        "C) 300",
-        "D) 350"
-      ],
-      "correct_answer": "C",
-      "explanations": [
-        "400 × 75/100 = 300"
-      ]
-    }
-  ],
+  {
+    "id": 1,
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "category": "number_series",
+    "question": "Look at this series: 2, 4, 6, 8, 10, ... What number should come next?",
+    "options": [
+      "A) 11",
+      "B) 12",
+      "C) 13",
+      "D) 14"
+    ],
+    "correct_answer": "B",
+    "explanations": [
+      "The pattern is adding 2 to each number.",
+      "10 + 2 = 12."
+    ]
+  },
+  {
+    "id": 2,
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "category": "number_series",
+    "question": "Look at this series: 58, 52, 46, 40, 34, ... What number should come next?",
+    "options": [
+      "A) 26",
+      "B) 28",
+      "C) 30",
+      "D) 32"
+    ],
+    "correct_answer": "B",
+    "explanations": [
+      "The pattern is subtracting 6 from each number.",
+      "34 - 6 = 28."
+    ]
+  },
+  {
+    "id": 3,
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "category": "number_series",
+    "question": "Look at this series: 544, 509, 474, 439, ... What number should come next?",
+    "options": [
+      "A) 404",
+      "B) 414",
+      "C) 420",
+      "D) 445"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "The pattern is subtracting 35 from each number.",
+      "439 - 35 = 404."
+    ]
+  },
+  {
+    "id": 4,
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "category": "number_series",
+    "question": "Look at this series: 80, 10, 70, 15, 60, ... What number should come next?",
+    "options": [
+      "A) 20",
+      "B) 25",
+      "C) 30",
+      "D) 50"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "The pattern is: -70, +60, -55, +45, -40...",
+      "60 - 40 = 20."
+    ]
+  },
+  {
+    "id": 5,
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "category": "number_series",
+    "question": "Look at this series: 36, 34, 30, 28, 24, ... What number should come next?",
+    "options": [
+      "A) 20",
+      "B) 22",
+      "C) 23",
+      "D) 26"
+    ],
+    "correct_answer": "B",
+    "explanations": [
+      "The pattern is: -2, -4, -2, -4...",
+      "24 - 2 = 22."
+    ]
+  },
+  {
+    "id": 6,
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "category": "letter_series",
+    "question": "What letter comes next in this series? A, C, E, G, I, K, __",
+    "options": [
+      "A) L",
+      "B) M",
+      "C) N",
+      "D) O"
+    ],
+    "correct_answer": "B",
+    "explanations": [
+      "The pattern is skipping one letter each time.",
+      "A → C (skip B), C → E (skip D), etc.",
+      "K → M (skip L)."
+    ]
+  },
+  {
+    "id": 7,
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "category": "letter_series",
+    "question": "What comes next in this series? B, D, F, H, J, __",
+    "options": [
+      "A) K",
+      "B) L",
+      "C) M",
+      "D) N"
+    ],
+    "correct_answer": "B",
+    "explanations": [
+      "The pattern is skipping one letter each time.",
+      "B → D (skip C), D → F (skip E), etc.",
+      "J → L (skip K)."
+    ]
+  },
+  {
+    "id": 8,
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "category": "verbal_classification",
+    "question": "Which word does NOT belong with the others?",
+    "options": [
+      "A) Apple",
+      "B) Banana",
+      "C) Orange",
+      "D) Carrot"
+    ],
+    "correct_answer": "D",
+    "explanations": [
+      "Apple, banana, and orange are all fruits.",
+      "Carrot is a vegetable."
+    ]
+  },
+  {
+    "id": 9,
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "category": "verbal_classification",
+    "question": "Which word does NOT belong with the others?",
+    "options": [
+      "A) SNAKE",
+      "B) DOG",
+      "C) CAT",
+      "D) COW"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "Dog, cat, and cow are all four-legged animals.",
+      "Snake crawls and has no legs."
+    ]
+  },
+  {
+    "id": 10,
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "category": "verbal_classification",
+    "question": "Which word does NOT belong with the others?",
+    "options": [
+      "A) FLUTE",
+      "B) VIOLIN",
+      "C) GUITAR",
+      "D) CELLO"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "Flute is a wind instrument.",
+      "Violin, guitar, and cello are string instruments."
+    ]
+  },
+  {
+    "id": 11,
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "category": "analogies",
+    "question": "Which word best completes the analogy? CIRCLE is to SPHERE as TRIANGLE is to:",
+    "options": [
+      "A) SQUARE",
+      "B) RECTANGLE",
+      "C) PYRAMID",
+      "D) CUBE"
+    ],
+    "correct_answer": "C",
+    "explanations": [
+      "A circle is a 2D shape, and a sphere is its 3D counterpart.",
+      "A triangle is a 2D shape, and a pyramid is its 3D counterpart."
+    ]
+  },
+  {
+    "id": 12,
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "category": "analogies",
+    "question": "Which word best completes the analogy? VENDOR is to CONSUMER as RESTAURATEUR is to:",
+    "options": [
+      "A) WAITER",
+      "B) PATRON",
+      "C) WHOLESALER",
+      "D) CHEF"
+    ],
+    "correct_answer": "B",
+    "explanations": [
+      "A vendor sells to a consumer.",
+      "A restaurateur serves a patron."
+    ]
+  },
+  {
+    "id": 13,
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "category": "analogies",
+    "question": "Which word best completes the analogy? Hand is to glove as foot is to ?",
+    "options": [
+      "A) shoe",
+      "B) sock",
+      "C) leg",
+      "D) knee"
+    ],
+    "correct_answer": "B",
+    "explanations": [
+      "A glove covers a hand.",
+      "A sock covers a foot."
+    ]
+  },
+  {
+    "id": 14,
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "category": "analogies",
+    "question": "Which word best completes the analogy? Hot is to cold as day is to ?",
+    "options": [
+      "A) morning",
+      "B) night",
+      "C) sun",
+      "D) light"
+    ],
+    "correct_answer": "B",
+    "explanations": [
+      "Hot is the opposite of cold.",
+      "Day is the opposite of night."
+    ]
+  },
+  {
+    "id": 15,
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "category": "logic",
+    "question": "If it takes 5 machines 5 minutes to make 5 widgets, how long would it take 100 machines to make 100 widgets?",
+    "options": [
+      "A) 5 minutes",
+      "B) 10 minutes",
+      "C) 50 minutes",
+      "D) 100 minutes"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "Each machine produces 1 widget in 5 minutes.",
+      "100 machines will produce 100 widgets in the same time: 5 minutes."
+    ]
+  },
+  {
+    "id": 16,
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "category": "logic",
+    "question": "What month has 28 days?",
+    "options": [
+      "A) February",
+      "B) Only February",
+      "C) All months",
+      "D) January"
+    ],
+    "correct_answer": "C",
+    "explanations": [
+      "All months have at least 28 days.",
+      "February has 28 days in common years, but all months contain 28 days."
+    ]
+  },
+  {
+    "id": 17,
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "category": "logic",
+    "question": "In a lake, there is a patch of lily pads. Every day, the patch doubles in size. If it takes 48 days for the patch to cover the entire lake, how long would it take for the patch to cover half of the lake?",
+    "options": [
+      "A) 24 days",
+      "B) 36 days",
+      "C) 47 days",
+      "D) 48 days"
+    ],
+    "correct_answer": "C",
+    "explanations": [
+      "The patch doubles in size each day.",
+      "If it covers the whole lake on day 48, it was half covered on day 47."
+    ]
+  },
+  {
+    "id": 18,
+    "type": "multiple_choice",
+    "difficulty": "intermediate",
+    "category": "number_series",
+    "question": "Look at this series: 8, 22, 8, 28, 8, ... What number should come next?",
+    "options": [
+      "A) 9",
+      "B) 29",
+      "C) 32",
+      "D) 34"
+    ],
+    "correct_answer": "D",
+    "explanations": [
+      "The pattern is: +14, -14, +20, -20, +26...",
+      "8 + 26 = 34."
+    ]
+  },
+  {
+    "id": 19,
+    "type": "multiple_choice",
+    "difficulty": "intermediate",
+    "category": "number_series",
+    "question": "Look at this series: 22, 21, 23, 22, 24, 23, ... What number should come next?",
+    "options": [
+      "A) 22",
+      "B) 24",
+      "C) 25",
+      "D) 26"
+    ],
+    "correct_answer": "C",
+    "explanations": [
+      "The pattern is: -1, +2, -1, +2...",
+      "23 + 2 = 25."
+    ]
+  },
+  {
+    "id": 20,
+    "type": "multiple_choice",
+    "difficulty": "intermediate",
+    "category": "number_series",
+    "question": "What is the next number in this series? 3, 8, 10, 15, 17, 22, 24, ...",
+    "options": [
+      "A) 26, 28",
+      "B) 29, 34",
+      "C) 29, 31",
+      "D) 26, 31"
+    ],
+    "correct_answer": "C",
+    "explanations": [
+      "The pattern is: +5, +2, +5, +2...",
+      "24 + 5 = 29, 29 + 2 = 31."
+    ]
+  },
+  {
+    "id": 21,
+    "type": "multiple_choice",
+    "difficulty": "intermediate",
+    "category": "number_series",
+    "question": "Look at this series: 44, 41, 38, 35, 32, 29, 26, ... What two numbers should come next?",
+    "options": [
+      "A) 24, 21",
+      "B) 22, 19",
+      "C) 23, 20",
+      "D) 23, 19"
+    ],
+    "correct_answer": "D",
+    "explanations": [
+      "The pattern is subtracting 3.",
+      "26 - 3 = 23, 23 - 3 = 20."
+    ]
+  },
+  {
+    "id": 22,
+    "type": "multiple_choice",
+    "difficulty": "intermediate",
+    "category": "number_series",
+    "question": "Look at this series: 6, 10, 14, 18, 22, 26, 30, ... What two numbers should come next?",
+    "options": [
+      "A) 36, 40",
+      "B) 33, 37",
+      "C) 38, 42",
+      "D) 34, 38"
+    ],
+    "correct_answer": "D",
+    "explanations": [
+      "The pattern is adding 4.",
+      "30 + 4 = 34, 34 + 4 = 38."
+    ]
+  },
+  {
+    "id": 23,
+    "type": "multiple_choice",
+    "difficulty": "intermediate",
+    "category": "number_series",
+    "question": "Look at this series: 34, 30, 26, 22, 18, 14, 10, ... What two numbers should come next?",
+    "options": [
+      "A) 8, 6",
+      "B) 6, 4",
+      "C) 14, 18",
+      "D) 6, 2"
+    ],
+    "correct_answer": "D",
+    "explanations": [
+      "The pattern is subtracting 4.",
+      "10 - 4 = 6, 6 - 4 = 2."
+    ]
+  },
+  {
+    "id": 24,
+    "type": "multiple_choice",
+    "difficulty": "intermediate",
+    "category": "verbal",
+    "question": "Which word in brackets is most similar in meaning to the word in capitals? ERSTWHILE (fallacious, deviant, previous, honest, candid)",
+    "options": [
+      "A) fallacious",
+      "B) deviant",
+      "C) previous",
+      "D) honest"
+    ],
+    "correct_answer": "C",
+    "explanations": [
+      "ERSTWHILE means 'former' or 'previous'."
+    ]
+  },
+  {
+    "id": 25,
+    "type": "multiple_choice",
+    "difficulty": "intermediate",
+    "category": "verbal",
+    "question": "Which word in brackets is most opposite in meaning to the word in capitals? SOOTHE (augment, inflame, ignore, depress, execute)",
+    "options": [
+      "A) augment",
+      "B) inflame",
+      "C) ignore",
+      "D) depress"
+    ],
+    "correct_answer": "B",
+    "explanations": [
+      "SOOTHE means 'to calm'.",
+      "INFLAME means 'to provoke' or 'to irritate' - the opposite."
+    ]
+  },
+  {
+    "id": 26,
+    "type": "multiple_choice",
+    "difficulty": "intermediate",
+    "category": "verbal",
+    "question": "What is the best synonym for PLIANT?",
+    "options": [
+      "A) FLEXIBLE",
+      "B) STIFF",
+      "C) FRAGILE",
+      "D) STRONG"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "PLIANT means 'flexible' or 'easily bent'."
+    ]
+  },
+  {
+    "id": 27,
+    "type": "multiple_choice",
+    "difficulty": "intermediate",
+    "category": "verbal",
+    "question": "Which word best expresses the meaning opposite of MELLIFLUOUS?",
+    "options": [
+      "A) MUSICAL",
+      "B) FLUID",
+      "C) RAUCOUS",
+      "D) SOFT"
+    ],
+    "correct_answer": "C",
+    "explanations": [
+      "MELLIFLUOUS means 'sweet-sounding' or 'melodious'.",
+      "RAUCOUS means 'harsh-sounding' - the opposite."
+    ]
+  },
+  {
+    "id": 28,
+    "type": "multiple_choice",
+    "difficulty": "intermediate",
+    "category": "verbal",
+    "question": "Which word is the antonym of CONCAVE?",
+    "options": [
+      "A) BULGING",
+      "B) HOLLOW",
+      "C) ROUND",
+      "D) SUNKEN"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "CONCAVE means 'curved inward' or 'hollowed'.",
+      "BULGING means 'curved outward' - the opposite."
+    ]
+  },
+  {
+    "id": 29,
+    "type": "multiple_choice",
+    "difficulty": "intermediate",
+    "category": "logic",
+    "question": "If you rearrange the letters 'CIFAIPC', you would have the name of a/an:",
+    "options": [
+      "A) Animal",
+      "B) Country",
+      "C) City",
+      "D) Ocean"
+    ],
+    "correct_answer": "D",
+    "explanations": [
+      "Rearranging the letters CIFAIPC gives PACIFIC.",
+      "The Pacific is an ocean."
+    ]
+  },
+  {
+    "id": 30,
+    "type": "multiple_choice",
+    "difficulty": "intermediate",
+    "category": "logic",
+    "question": "Jack is 18 years old and is three times as old as his sister Tara. How many years will it be until Tara is half as old as Jack is now?",
+    "options": [
+      "A) 1",
+      "B) 2",
+      "C) 3",
+      "D) 4"
+    ],
+    "correct_answer": "C",
+    "explanations": [
+      "Tara is currently 6 years old (18 ÷ 3 = 6).",
+      "Half of Jack's current age is 9.",
+      "9 - 6 = 3 years."
+    ]
+  },
+  {
+    "id": 31,
+    "type": "multiple_choice",
+    "difficulty": "intermediate",
+    "category": "logic",
+    "question": "Which of the following figures has the most sides?",
+    "options": [
+      "A) Square",
+      "B) Triangle",
+      "C) Hexagon",
+      "D) Octagon"
+    ],
+    "correct_answer": "D",
+    "explanations": [
+      "Square has 4 sides, triangle has 3, hexagon has 6, octagon has 8.",
+      "Octagon has the most sides."
+    ]
+  },
+  {
+    "id": 32,
+    "type": "multiple_choice",
+    "difficulty": "intermediate",
+    "category": "logic",
+    "question": "What is the next number in the sequence: 0, 0, 1, 2, 2, 4, 3, 6, 4, 8, 5, ?",
+    "options": [
+      "A) 6",
+      "B) 8",
+      "C) 10",
+      "D) 12"
+    ],
+    "correct_answer": "C",
+    "explanations": [
+      "There are two sequences here.",
+      "Even terms: 0, 2, 4, 6, 8...",
+      "So the next term is 10."
+    ]
+  },
+  {
+    "id": 33,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "number_series",
+    "question": "What number is next in this series? 2, 10, 5, 13, 8, 16, 11, 19, 14, 22, ?",
+    "options": [
+      "A) 17",
+      "B) 13",
+      "C) 19",
+      "D) 24"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "The pattern is: +8, -5, +8, -5...",
+      "22 - 5 = 17."
+    ]
+  },
+  {
+    "id": 34,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "number_series",
+    "question": "What is the next number in this series? 10, 17, 26, 37, ?",
+    "options": [
+      "A) 46",
+      "B) 50",
+      "C) 52",
+      "D) 56"
+    ],
+    "correct_answer": "B",
+    "explanations": [
+      "This is a sequence of square numbers plus 1.",
+      "3² + 1 = 10, 4² + 1 = 17, 5² + 1 = 26, 6² + 1 = 37",
+      "Next: 7² + 1 = 50."
+    ]
+  },
+  {
+    "id": 35,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "number_series",
+    "question": "What is the next number in this series? 1, 1, 2, 3, 5, 8, 13, ?",
+    "options": [
+      "A) 18",
+      "B) 21",
+      "C) 23",
+      "D) 25"
+    ],
+    "correct_answer": "B",
+    "explanations": [
+      "This is the Fibonacci sequence.",
+      "Each number is the sum of the two previous numbers.",
+      "8 + 13 = 21."
+    ]
+  },
+  {
+    "id": 36,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "number_series",
+    "question": "What is the next number in this series? 2, 6, 12, 20, 30, 42, ?",
+    "options": [
+      "A) 52",
+      "B) 54",
+      "C) 56",
+      "D) 58"
+    ],
+    "correct_answer": "C",
+    "explanations": [
+      "The pattern is adding consecutive even numbers: +4, +6, +8, +10, +12",
+      "42 + 14 = 56."
+    ]
+  },
+  {
+    "id": 37,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "number_series",
+    "question": "What is the next number in this series? 1, 4, 27, 256, ?",
+    "options": [
+      "A) 1024",
+      "B) 3125",
+      "C) 2560",
+      "D) 2187"
+    ],
+    "correct_answer": "B",
+    "explanations": [
+      "This is a sequence of powers: 1¹, 2², 3³, 4⁴",
+      "Next: 5⁵ = 3125."
+    ]
+  },
+  {
+    "id": 38,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "letter_series",
+    "question": "What comes next in this series? A, C, F, J, O, ?",
+    "options": [
+      "A) P",
+      "B) Q",
+      "C) R",
+      "D) S"
+    ],
+    "correct_answer": "C",
+    "explanations": [
+      "The gaps between letters increase: +2, +3, +4, +5",
+      "Next gap = +6, so O + 6 = U"
+    ]
+  },
+  {
+    "id": 39,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "analogies",
+    "question": "Which word best completes the analogy? BREAD is to WHEAT as PAPER is to:",
+    "options": [
+      "A) TREE",
+      "B) WOOD",
+      "C) PULP",
+      "D) FOREST"
+    ],
+    "correct_answer": "B",
+    "explanations": [
+      "Bread is made from wheat.",
+      "Paper is made from wood."
+    ]
+  },
+  {
+    "id": 40,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "analogies",
+    "question": "Which word best completes the analogy? STOMACH is to DIGESTION as LUNGS is to:",
+    "options": [
+      "A) BREATHING",
+      "B) OXYGEN",
+      "C) RESPIRATION",
+      "D) AIR"
+    ],
+    "correct_answer": "C",
+    "explanations": [
+      "The stomach performs digestion.",
+      "The lungs perform respiration."
+    ]
+  },
+  {
+    "id": 41,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "analogies",
+    "question": "Which word best completes the analogy? EAGLE is to BIRD as SHARK is to:",
+    "options": [
+      "A) FISH",
+      "B) MAMMAL",
+      "C) REPTILE",
+      "D) AMPHIBIAN"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "An eagle is a type of bird.",
+      "A shark is a type of fish."
+    ]
+  },
+  {
+    "id": 42,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "verbal",
+    "question": "Make a six-letter word from these five letters: B, G, E, A, D",
+    "options": [
+      "A) BADGE",
+      "B) BAGGED",
+      "C) BEGAD",
+      "D) BAGDE"
+    ],
+    "correct_answer": "B",
+    "explanations": [
+      "By adding one letter 'G', the letters can be arranged to form the word BAGGED.",
+      "BAGGED means 'packed' or 'covered'."
+    ]
+  },
+  {
+    "id": 43,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "verbal",
+    "question": "Take one letter from each of these animals to make another animal: possum, donkey, ermine, kitten, rhesus, cayman",
+    "options": [
+      "A) PENGUIN",
+      "B) MONKEY",
+      "C) ELEPHANT",
+      "D) TIGER"
+    ],
+    "correct_answer": "B",
+    "explanations": [
+      "Take the first letter from each word: P, D, E, K, R, C.",
+      "Re-arrange to form MONKEY."
+    ]
+  },
+  {
+    "id": 44,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "verbal",
+    "question": "Calculate what fraction will produce this running decimal: .166166",
+    "options": [
+      "A) 166/999",
+      "B) 166/1000",
+      "C) 166/900",
+      "D) 166/990"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "The repeating decimal .166166... = 166/999.",
+      "This is a standard conversion for repeating decimals."
+    ]
+  },
+  {
+    "id": 45,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "logic",
+    "question": "All stamp collectors are not architects. All drones are stamp collectors. Which conclusion follows with absolute certainty?",
+    "options": [
+      "A) All stamp collectors are architects",
+      "B) Architects are not drones",
+      "C) No stamp collectors are drones",
+      "D) Some drones are architects"
+    ],
+    "correct_answer": "B",
+    "explanations": [
+      "If all drones are stamp collectors, and stamp collectors are not architects,",
+      "then architects cannot be drones."
+    ]
+  },
+  {
+    "id": 46,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "logic",
+    "question": "Ten people share a birthday cake. All had equal portions, yet one remained on the plate. How can this be?",
+    "options": [
+      "A) One person didn't eat their slice",
+      "B) The cake was cut into 11 pieces",
+      "C) The tenth person ate from the cake plate",
+      "D) Two people shared a slice"
+    ],
+    "correct_answer": "C",
+    "explanations": [
+      "This is a lateral thinking question.",
+      "The tenth person ate from the plate (the remaining piece was on the plate)."
+    ]
+  },
+  {
+    "id": 47,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "logic",
+    "question": "Which number is greater: 50 times itself 100 times, or 100 times itself 50 times?",
+    "options": [
+      "A) 50 times itself 100 times is greater",
+      "B) 100 times itself 50 times is greater",
+      "C) The quantities are equal",
+      "D) Cannot be determined"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "50^100 vs 100^50",
+      "100^50 = (50×2)^50 = 50^50 × 2^50",
+      "50^100 = 50^50 × 50^50, which is much larger"
+    ]
+  },
+  {
+    "id": 48,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "logic",
+    "question": "Suppose I have 40 blue socks and 40 brown socks in a drawer. If I reach into the drawer without looking at the socks, what is the smallest number of socks I must take out to make sure that I have a pair of socks of the same color?",
+    "options": [
+      "A) 1",
+      "B) 2",
+      "C) 3",
+      "D) 4"
+    ],
+    "correct_answer": "C",
+    "explanations": [
+      "If you're unlucky, you'll get a blue and brown sock in the first two tries.",
+      "The third try must give you either a blue or brown sock, which will match one of the first two."
+    ]
+  },
+  {
+    "id": 49,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "logic",
+    "question": "On a street there are 25 houses: 10 of the houses have fewer than 6 rooms; 10 of the houses have more than 7 rooms; 4 houses have more than 8 rooms. What is the total number of houses that have 6, 7 or 8 rooms?",
+    "options": [
+      "A) 5",
+      "B) 9",
+      "C) 11",
+      "D) 14"
+    ],
+    "correct_answer": "C",
+    "explanations": [
+      "10 houses have fewer than 6 rooms (≤5 rooms).",
+      "4 houses have more than 8 rooms (≥9 rooms).",
+      "Total = 25 - 10 - 4 = 11 houses have 6, 7, or 8 rooms."
+    ]
+  },
+  {
+    "id": 50,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "logic",
+    "question": "Suppose you have a digital clock where the minute digit is always the same as the hour digit. The clock can read only times like 10:10, 8:08, 9:09 etc. What is the smallest time difference between such two acceptable double-digit times?",
+    "options": [
+      "A) 101 minutes",
+      "B) 61 minutes",
+      "C) 49 minutes",
+      "D) 11 minutes"
+    ],
+    "correct_answer": "C",
+    "explanations": [
+      "The times are 12:12 and 1:01.",
+      "12:12 to 1:01 is 49 minutes."
+    ]
+  },
+  {
+    "id": 51,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "logic",
+    "question": "A ship is twice as old as the ship's boiler was when the ship was as old as the boiler is. What is the ratio of the boiler's age to the ship's age?",
+    "options": [
+      "A) 2/3",
+      "B) 3/4",
+      "C) 4/5",
+      "D) 5/6"
+    ],
+    "correct_answer": "B",
+    "explanations": [
+      "Let S = ship's age now, B = boiler's age now.",
+      "When ship was B years old, boiler was B - (S - B) = 2B - S years old.",
+      "S = 2(2B - S) → S = 4B - 2S → 3S = 4B → B/S = 3/4."
+    ]
+  },
+  {
+    "id": 52,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "logic",
+    "question": "In a room there are 5 blue-eyed blondes. If, all together there are 14 blondes and 8 people with blue eyes in the room, how many people are there in the room?",
+    "options": [
+      "A) 3",
+      "B) 11",
+      "C) 17",
+      "D) 22"
+    ],
+    "correct_answer": "C",
+    "explanations": [
+      "Blondes without blue eyes: 14 - 5 = 9",
+      "Blue-eyed people who are not blonde: 8 - 5 = 3",
+      "Blue-eyed blondes: 5",
+      "Total = 9 + 3 + 5 = 17"
+    ]
+  },
+  {
+    "id": 53,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "logic",
+    "question": "A triangle has sides of lengths A, B and C. Which is true?",
+    "options": [
+      "A) C - B is always greater than A",
+      "B) C - B is always less than A",
+      "C) C - B is always equal to A",
+      "D) There is no way to compare C - B and A"
+    ],
+    "correct_answer": "B",
+    "explanations": [
+      "For any triangle, the sum of any two sides is greater than the third side.",
+      "A + B > C → C - B < A"
+    ]
+  },
+  {
+    "id": 54,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "logic",
+    "question": "A farmer has 17 sheep. All but 9 die. How many sheep does the farmer have left?",
+    "options": [
+      "A) 8",
+      "B) 9",
+      "C) 17",
+      "D) 26"
+    ],
+    "correct_answer": "B",
+    "explanations": [
+      "'All but 9 die' means 9 survive.",
+      "The farmer has 9 sheep left."
+    ]
+  },
+  {
+    "id": 55,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "logic",
+    "question": "How many times can you subtract 5 from 25?",
+    "options": [
+      "A) 1",
+      "B) 4",
+      "C) 5",
+      "D) 6"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "Once, because after that you're subtracting from 20, not 25."
+    ]
+  },
+  {
+    "id": 56,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "logic",
+    "question": "What is the minimum number of coins needed to make 99 cents?",
+    "options": [
+      "A) 4",
+      "B) 6",
+      "C) 8",
+      "D) 10"
+    ],
+    "correct_answer": "C",
+    "explanations": [
+      "3 quarters (75¢) + 2 dimes (20¢) + 4 pennies (4¢) = 9 coins."
+    ]
+  },
+  {
+    "id": 57,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "logic",
+    "question": "If John has 5 apples and gives 2 to Mary, and then buys 3 more, how many apples does John have?",
+    "options": [
+      "A) 3",
+      "B) 5",
+      "C) 6",
+      "D) 8"
+    ],
+    "correct_answer": "C",
+    "explanations": [
+      "5 - 2 = 3",
+      "3 + 3 = 6"
+    ]
+  },
+  {
+    "id": 58,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "logic",
+    "question": "What is the next number in the sequence: 1, 8, 27, 64, 125, ?",
+    "options": [
+      "A) 150",
+      "B) 180",
+      "C) 216",
+      "D) 256"
+    ],
+    "correct_answer": "C",
+    "explanations": [
+      "This is a sequence of cubes: 1³, 2³, 3³, 4³, 5³",
+      "Next: 6³ = 216."
+    ]
+  },
+  {
+    "id": 59,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "logic",
+    "question": "What is the smallest number that can be divided by 2, 3, 4, 5, 6, 7, 8, 9, and 10 without a remainder?",
+    "options": [
+      "A) 2520",
+      "B) 5040",
+      "C) 1260",
+      "D) 10080"
+    ],
+    "correct_answer": "A",
+    "explanations": [
+      "This is the LCM of numbers 1-10.",
+      "LCM = 2520."
+    ]
+  },
+  {
+    "id": 60,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "logic",
+    "question": "A train travels from point A to point B at 60 mph and returns at 40 mph. What is the average speed for the entire trip?",
+    "options": [
+      "A) 50 mph",
+      "B) 48 mph",
+      "C) 52 mph",
+      "D) 45 mph"
+    ],
+    "correct_answer": "B",
+    "explanations": [
+      "Average speed = 2ab/(a+b)",
+      "2 × 60 × 40 / (60 + 40) = 4800/100 = 48 mph."
+    ]
+  },
+  {
+    "id": 61,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "logic",
+    "question": "What is 15% of 80?",
+    "options": [
+      "A) 10",
+      "B) 12",
+      "C) 14",
+      "D) 16"
+    ],
+    "correct_answer": "B",
+    "explanations": [
+      "80 × 15/100 = 12"
+    ]
+  },
+  {
+    "id": 62,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "logic",
+    "question": "What is the square root of 144?",
+    "options": [
+      "A) 10",
+      "B) 11",
+      "C) 12",
+      "D) 13"
+    ],
+    "correct_answer": "C",
+    "explanations": [
+      "12 × 12 = 144"
+    ]
+  },
+  {
+    "id": 63,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "logic",
+    "question": "What is the value of x if 3x + 7 = 22?",
+    "options": [
+      "A) 3",
+      "B) 4",
+      "C) 5",
+      "D) 6"
+    ],
+    "correct_answer": "C",
+    "explanations": [
+      "3x + 7 = 22",
+      "3x = 15",
+      "x = 5"
+    ]
+  },
+  {
+    "id": 64,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "logic",
+    "question": "What is the missing number in the sequence: 2, 3, 5, 7, 11, ?, 17?",
+    "options": [
+      "A) 12",
+      "B) 13",
+      "C) 14",
+      "D) 15"
+    ],
+    "correct_answer": "B",
+    "explanations": [
+      "This is a sequence of prime numbers.",
+      "The prime numbers are: 2, 3, 5, 7, 11, 13, 17."
+    ]
+  },
+  {
+    "id": 65,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "logic",
+    "question": "What is the missing number: 1, 4, 9, 16, 25, 36, 49, ?",
+    "options": [
+      "A) 54",
+      "B) 56",
+      "C) 62",
+      "D) 64"
+    ],
+    "correct_answer": "D",
+    "explanations": [
+      "This is a sequence of square numbers.",
+      "8² = 64."
+    ]
+  },
+  {
+    "id": 66,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "logic",
+    "question": "What is 25% of 200?",
+    "options": [
+      "A) 25",
+      "B) 40",
+      "C) 50",
+      "D) 75"
+    ],
+    "correct_answer": "C",
+    "explanations": [
+      "200 × 25/100 = 50"
+    ]
+  },
+  {
+    "id": 67,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "logic",
+    "question": "What is the greatest common factor of 24 and 36?",
+    "options": [
+      "A) 6",
+      "B) 12",
+      "C) 18",
+      "D) 24"
+    ],
+    "correct_answer": "B",
+    "explanations": [
+      "24 factors: 1, 2, 3, 4, 6, 8, 12, 24",
+      "36 factors: 1, 2, 3, 4, 6, 9, 12, 18, 36",
+      "GCF = 12"
+    ]
+  },
+  {
+    "id": 68,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "logic",
+    "question": "A rectangle has length 8 and width 5. What is the perimeter?",
+    "options": [
+      "A) 13",
+      "B) 20",
+      "C) 26",
+      "D) 40"
+    ],
+    "correct_answer": "C",
+    "explanations": [
+      "Perimeter = 2(length + width)",
+      "2(8 + 5) = 2 × 13 = 26"
+    ]
+  },
+  {
+    "id": 69,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "logic",
+    "question": "What is the next number: 2, 5, 10, 17, 26, ?",
+    "options": [
+      "A) 35",
+      "B) 37",
+      "C) 39",
+      "D) 41"
+    ],
+    "correct_answer": "B",
+    "explanations": [
+      "Differences: +3, +5, +7, +9",
+      "Next: +11, 26 + 11 = 37"
+    ]
+  },
+  {
+    "id": 70,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "logic",
+    "question": "What is the missing number: 3, 6, 12, 24, 48, ?",
+    "options": [
+      "A) 56",
+      "B) 72",
+      "C) 96",
+      "D) 100"
+    ],
+    "correct_answer": "C",
+    "explanations": [
+      "Each number doubles the previous."
+    ]
+  },
+  {
+    "id": 71,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "logic",
+    "question": "If a = 5 and b = 3, what is a² + b²?",
+    "options": [
+      "A) 16",
+      "B) 25",
+      "C) 34",
+      "D) 43"
+    ],
+    "correct_answer": "C",
+    "explanations": [
+      "5² + 3² = 25 + 9 = 34"
+    ]
+  },
+  {
+    "id": 72,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "logic",
+    "question": "What is the lowest common multiple of 4 and 6?",
+    "options": [
+      "A) 8",
+      "B) 10",
+      "C) 12",
+      "D) 24"
+    ],
+    "correct_answer": "C",
+    "explanations": [
+      "Multiples of 4: 4, 8, 12, 16, 20, 24",
+      "Multiples of 6: 6, 12, 18, 24",
+      "LCM = 12"
+    ]
+  },
+  {
+    "id": 73,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "logic",
+    "question": "What is 10% of 500?",
+    "options": [
+      "A) 25",
+      "B) 40",
+      "C) 50",
+      "D) 60"
+    ],
+    "correct_answer": "C",
+    "explanations": [
+      "500 × 10/100 = 50"
+    ]
+  },
+  {
+    "id": 74,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "logic",
+    "question": "What is the missing number in the sequence: 1, 8, 27, 64, 125, 216, ?",
+    "options": [
+      "A) 256",
+      "B) 300",
+      "C) 343",
+      "D) 400"
+    ],
+    "correct_answer": "C",
+    "explanations": [
+      "7³ = 343"
+    ]
+  },
+  {
+    "id": 75,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "logic",
+    "question": "What is the area of a triangle with base 10 and height 6?",
+    "options": [
+      "A) 20",
+      "B) 30",
+      "C) 40",
+      "D) 60"
+    ],
+    "correct_answer": "B",
+    "explanations": [
+      "Area = ½ × base × height",
+      "½ × 10 × 6 = 30"
+    ]
+  },
+  {
+    "id": 76,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "logic",
+    "question": "What is the missing number: 2, 6, 18, 54, 162, ?",
+    "options": [
+      "A) 324",
+      "B) 486",
+      "C) 540",
+      "D) 648"
+    ],
+    "correct_answer": "B",
+    "explanations": [
+      "Each number triples the previous.",
+      "162 × 3 = 486"
+    ]
+  },
+  {
+    "id": 77,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "logic",
+    "question": "What is the sum of the angles in a triangle?",
+    "options": [
+      "A) 90 degrees",
+      "B) 180 degrees",
+      "C) 270 degrees",
+      "D) 360 degrees"
+    ],
+    "correct_answer": "B",
+    "explanations": [
+      "The sum of angles in any triangle is always 180 degrees."
+    ]
+  },
+  {
+    "id": 78,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "logic",
+    "question": "What is the missing number: 1, 3, 6, 10, 15, 21, ?",
+    "options": [
+      "A) 25",
+      "B) 27",
+      "C) 28",
+      "D) 30"
+    ],
+    "correct_answer": "C",
+    "explanations": [
+      "Differences: +2, +3, +4, +5, +6",
+      "21 + 7 = 28"
+    ]
+  },
+  {
+    "id": 79,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "logic",
+    "question": "What is 30% of 150?",
+    "options": [
+      "A) 30",
+      "B) 35",
+      "C) 40",
+      "D) 45"
+    ],
+    "correct_answer": "D",
+    "explanations": [
+      "150 × 30/100 = 45"
+    ]
+  },
+  {
+    "id": 80,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "logic",
+    "question": "What is the missing number: 4, 9, 16, 25, 36, 49, ?",
+    "options": [
+      "A) 54",
+      "B) 56",
+      "C) 62",
+      "D) 64"
+    ],
+    "correct_answer": "D",
+    "explanations": [
+      "8² = 64"
+    ]
+  },
+  {
+    "id": 81,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "logic",
+    "question": "What is the circumference of a circle with radius 7? (Use π = 22/7)",
+    "options": [
+      "A) 22",
+      "B) 44",
+      "C) 88",
+      "D) 154"
+    ],
+    "correct_answer": "B",
+    "explanations": [
+      "Circumference = 2πr",
+      "2 × 22/7 × 7 = 44"
+    ]
+  },
+  {
+    "id": 82,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "logic",
+    "question": "What is the missing number: 5, 10, 20, 40, 80, ?",
+    "options": [
+      "A) 100",
+      "B) 120",
+      "C) 140",
+      "D) 160"
+    ],
+    "correct_answer": "D",
+    "explanations": [
+      "Each number doubles."
+    ]
+  },
+  {
+    "id": 83,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "logic",
+    "question": "What is 1/4 of 100?",
+    "options": [
+      "A) 10",
+      "B) 20",
+      "C) 25",
+      "D) 30"
+    ],
+    "correct_answer": "C",
+    "explanations": [
+      "100 × 1/4 = 25"
+    ]
+  },
+  {
+    "id": 84,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "logic",
+    "question": "What is the missing number: 7, 14, 21, 28, 35, ?",
+    "options": [
+      "A) 40",
+      "B) 42",
+      "C) 44",
+      "D) 50"
+    ],
+    "correct_answer": "B",
+    "explanations": [
+      "Multiples of 7: 7×6 = 42"
+    ]
+  },
+  {
+    "id": 85,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "logic",
+    "question": "What is the volume of a cube with side length 5?",
+    "options": [
+      "A) 25",
+      "B) 50",
+      "C) 100",
+      "D) 125"
+    ],
+    "correct_answer": "D",
+    "explanations": [
+      "Volume = side³ = 5³ = 125"
+    ]
+  },
+  {
+    "id": 86,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "logic",
+    "question": "What is the missing number: 100, 90, 81, 73, 66, ?",
+    "options": [
+      "A) 55",
+      "B) 56",
+      "C) 58",
+      "D) 60"
+    ],
+    "correct_answer": "D",
+    "explanations": [
+      "Differences: -10, -9, -8, -7",
+      "66 - 6 = 60"
+    ]
+  },
+  {
+    "id": 87,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "logic",
+    "question": "What is 20% of 300?",
+    "options": [
+      "A) 30",
+      "B) 40",
+      "C) 50",
+      "D) 60"
+    ],
+    "correct_answer": "D",
+    "explanations": [
+      "300 × 20/100 = 60"
+    ]
+  },
+  {
+    "id": 88,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "logic",
+    "question": "What is the missing number: 2, 5, 10, 17, 26, 37, ?",
+    "options": [
+      "A) 46",
+      "B) 48",
+      "C) 50",
+      "D) 52"
+    ],
+    "correct_answer": "C",
+    "explanations": [
+      "Differences: +3, +5, +7, +9, +11",
+      "37 + 13 = 50"
+    ]
+  },
+  {
+    "id": 89,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "logic",
+    "question": "What is the perimeter of a square with side 8?",
+    "options": [
+      "A) 16",
+      "B) 24",
+      "C) 32",
+      "D) 64"
+    ],
+    "correct_answer": "C",
+    "explanations": [
+      "Perimeter = 4 × side = 4 × 8 = 32"
+    ]
+  },
+  {
+    "id": 90,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "logic",
+    "question": "What is the missing number: 4, 12, 36, 108, ?",
+    "options": [
+      "A) 216",
+      "B) 324",
+      "C) 432",
+      "D) 540"
+    ],
+    "correct_answer": "B",
+    "explanations": [
+      "Each number multiplies by 3.",
+      "108 × 3 = 324"
+    ]
+  },
+  {
+    "id": 91,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "logic",
+    "question": "What is 40% of 250?",
+    "options": [
+      "A) 80",
+      "B) 90",
+      "C) 100",
+      "D) 110"
+    ],
+    "correct_answer": "C",
+    "explanations": [
+      "250 × 40/100 = 100"
+    ]
+  },
+  {
+    "id": 92,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "logic",
+    "question": "What is the missing number: 1, 2, 6, 24, 120, ?",
+    "options": [
+      "A) 240",
+      "B) 360",
+      "C) 480",
+      "D) 720"
+    ],
+    "correct_answer": "D",
+    "explanations": [
+      "This is a factorial sequence: 1!, 2!, 3!, 4!, 5!",
+      "Next: 6! = 720"
+    ]
+  },
+  {
+    "id": 93,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "logic",
+    "question": "What is the missing number: 7, 10, 13, 16, 19, ?",
+    "options": [
+      "A) 20",
+      "B) 21",
+      "C) 22",
+      "D) 23"
+    ],
+    "correct_answer": "C",
+    "explanations": [
+      "Each number adds 3.",
+      "19 + 3 = 22"
+    ]
+  },
+  {
+    "id": 94,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "logic",
+    "question": "What is the area of a rectangle with length 12 and width 5?",
+    "options": [
+      "A) 40",
+      "B) 50",
+      "C) 60",
+      "D) 70"
+    ],
+    "correct_answer": "C",
+    "explanations": [
+      "Area = length × width = 12 × 5 = 60"
+    ]
+  },
+  {
+    "id": 95,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "logic",
+    "question": "What is the missing number: 50, 45, 40, 35, 30, ?",
+    "options": [
+      "A) 20",
+      "B) 25",
+      "C) 27",
+      "D) 29"
+    ],
+    "correct_answer": "B",
+    "explanations": [
+      "Each number subtracts 5.",
+      "30 - 5 = 25"
+    ]
+  },
+  {
+    "id": 96,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "logic",
+    "question": "What is 60% of 200?",
+    "options": [
+      "A) 100",
+      "B) 110",
+      "C) 120",
+      "D) 130"
+    ],
+    "correct_answer": "C",
+    "explanations": [
+      "200 × 60/100 = 120"
+    ]
+  },
+  {
+    "id": 97,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "logic",
+    "question": "What is the missing number: 1, 3, 9, 27, 81, ?",
+    "options": [
+      "A) 162",
+      "B) 243",
+      "C) 324",
+      "D) 405"
+    ],
+    "correct_answer": "B",
+    "explanations": [
+      "Each number multiplies by 3.",
+      "81 × 3 = 243"
+    ]
+  },
+  {
+    "id": 98,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "logic",
+    "question": "What is the sum of 45 and 67?",
+    "options": [
+      "A) 102",
+      "B) 112",
+      "C) 122",
+      "D) 132"
+    ],
+    "correct_answer": "B",
+    "explanations": [
+      "45 + 67 = 112"
+    ]
+  },
+  {
+    "id": 99,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "logic",
+    "question": "What is the missing number: 8, 16, 32, 64, 128, ?",
+    "options": [
+      "A) 192",
+      "B) 224",
+      "C) 256",
+      "D) 288"
+    ],
+    "correct_answer": "C",
+    "explanations": [
+      "Each number doubles.",
+      "128 × 2 = 256"
+    ]
+  },
+  {
+    "id": 100,
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "category": "logic",
+    "question": "What is 75% of 400?",
+    "options": [
+      "A) 200",
+      "B) 250",
+      "C) 300",
+      "D) 350"
+    ],
+    "correct_answer": "C",
+    "explanations": [
+      "400 × 75/100 = 300"
+    ]
+  }
+]
   {
     "id": 101,
     "type": "multiple_choice",

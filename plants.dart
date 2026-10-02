@@ -1,4 +1,12 @@
 [
+
+
+{
+    "title": "محاضرات تيرم اول 2027",
+    "content": "https://drive.google.com/drive/folders/1yhH3AviuFTPZ2qNcvVWRMO5VXB2MoTJJ?usp=sharing",
+    "showAd": true
+  },
+
   
 {
     "title": "تشريح و شكل خارجي",

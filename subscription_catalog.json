@@ -1,0 +1,366 @@
+{
+  "version": 1,
+  "currency": "EGP",
+  "items": [
+    {
+      "id": "free_courses",
+      "type": "free",
+      "title": "كورسات مجانية",
+      "price": 0,
+      "description": "",
+      "featured": false
+    },
+    {
+      "id": "mat_001",
+      "type": "material",
+      "title": "مبادئ احصاء واحتمالات 1",
+      "price": 15,
+      "description": "",
+      "featured": false
+    },
+    {
+      "id": "mat_002",
+      "type": "material",
+      "title": "جبر",
+      "price": 15,
+      "description": "",
+      "featured": false
+    },
+    {
+      "id": "mat_003",
+      "type": "material",
+      "title": "تحليل رياضي 2",
+      "price": null,
+      "description": "",
+      "featured": false
+    },
+    {
+      "id": "mat_004",
+      "type": "material",
+      "title": "تحليل راضي 3",
+      "price": null,
+      "description": "",
+      "featured": false
+    },
+    {
+      "id": "mat_005",
+      "type": "material",
+      "title": "جبر مجرد1",
+      "price": 10,
+      "description": "",
+      "featured": false
+    },
+    {
+      "id": "mat_006",
+      "type": "material",
+      "title": "ذكاء اصطناعي 1",
+      "price": 15,
+      "description": "",
+      "featured": false
+    },
+    {
+      "id": "mat_007",
+      "type": "material",
+      "title": "كهرومغناطيسية",
+      "price": 10,
+      "description": "",
+      "featured": false
+    },
+    {
+      "id": "mat_008",
+      "type": "material",
+      "title": "نظم ملفات",
+      "price": 10,
+      "description": "",
+      "featured": false
+    },
+    {
+      "id": "mat_009",
+      "type": "material",
+      "title": "برمجة خطية",
+      "price": 15,
+      "description": "",
+      "featured": false
+    },
+    {
+      "id": "mat_010",
+      "type": "material",
+      "title": "رياضيات غير متصلة - ديسكريت",
+      "price": 20,
+      "description": "",
+      "featured": false
+    },
+    {
+      "id": "mat_011",
+      "type": "material",
+      "title": "طرق رياضية",
+      "price": 15,
+      "description": "",
+      "featured": false
+    },
+    {
+      "id": "mat_012",
+      "type": "material",
+      "title": "نظرية الحاسبات - كومبيلر",
+      "price": 20,
+      "description": "",
+      "featured": false
+    },
+    {
+      "id": "mat_013",
+      "type": "material",
+      "title": "جبر خطي",
+      "price": 10,
+      "description": "",
+      "featured": false
+    },
+    {
+      "id": "mat_014",
+      "type": "material",
+      "title": "هندسة تحليلية 1",
+      "price": null,
+      "description": "",
+      "featured": false
+    },
+    {
+      "id": "mat_015",
+      "type": "material",
+      "title": "هندسة تحليلية 2",
+      "price": null,
+      "description": "",
+      "featured": false
+    },
+    {
+      "id": "mat_016",
+      "type": "material",
+      "title": "نظم تشغيل",
+      "price": 10,
+      "description": "",
+      "featured": false
+    },
+    {
+      "id": "mat_017",
+      "type": "material",
+      "title": "اسس كيمياء فيزيائية",
+      "price": 10,
+      "description": "",
+      "featured": false
+    },
+    {
+      "id": "mat_018",
+      "type": "material",
+      "title": "معادلات تفاضلية عادية",
+      "price": 15,
+      "description": "",
+      "featured": false
+    },
+    {
+      "id": "mat_019",
+      "type": "material",
+      "title": "تحليل رياضي 1",
+      "price": 30,
+      "description": "",
+      "featured": false
+    },
+    {
+      "id": "mat_020",
+      "type": "material",
+      "title": "دراسات بيئية",
+      "price": 10,
+      "description": "",
+      "featured": false
+    },
+    {
+      "id": "mat_021",
+      "type": "material",
+      "title": "دراسات اسلامية",
+      "price": 10,
+      "description": "",
+      "featured": false
+    },
+    {
+      "id": "mat_022",
+      "type": "material",
+      "title": "احصاء",
+      "price": 15,
+      "description": "",
+      "featured": false
+    },
+    {
+      "id": "mat_023",
+      "type": "material",
+      "title": "تصوير ضوئي",
+      "price": 10,
+      "description": "",
+      "featured": false
+    },
+    {
+      "id": "mat_024",
+      "type": "material",
+      "title": "منطق في علوم الحاسب",
+      "price": 50,
+      "description": "",
+      "featured": false
+    },
+    {
+      "id": "mat_025",
+      "type": "material",
+      "title": "ديناميكا حرارية- فيزياء",
+      "price": 10,
+      "description": "",
+      "featured": false
+    },
+    {
+      "id": "mat_026",
+      "type": "material",
+      "title": "رياضة عامة",
+      "price": 15,
+      "description": "",
+      "featured": false
+    },
+    {
+      "id": "mat_027",
+      "type": "material",
+      "title": "خواص مادة",
+      "price": 10,
+      "description": "",
+      "featured": false
+    },
+    {
+      "id": "mat_028",
+      "type": "material",
+      "title": "فيزياء تطبيقية ١",
+      "price": 10,
+      "description": "",
+      "featured": false
+    },
+    {
+      "id": "mat_029",
+      "type": "material",
+      "title": "علم البلورات",
+      "price": 10,
+      "description": "",
+      "featured": false
+    },
+    {
+      "id": "mat_030",
+      "type": "material",
+      "title": "جيولوجيا طبيعية",
+      "price": 10,
+      "description": "",
+      "featured": false
+    },
+    {
+      "id": "mat_031",
+      "type": "material",
+      "title": "جودة",
+      "price": 10,
+      "description": "",
+      "featured": false
+    },
+    {
+      "id": "mat_032",
+      "type": "material",
+      "title": "حاسب الى 2",
+      "price": 10,
+      "description": "",
+      "featured": false
+    },
+    {
+      "id": "mat_033",
+      "type": "material",
+      "title": "حاسب الي ١",
+      "price": 10,
+      "description": "",
+      "featured": false
+    },
+    {
+      "id": "mat_034",
+      "type": "material",
+      "title": "تاريخ علم",
+      "price": 10,
+      "description": "",
+      "featured": false
+    },
+    {
+      "id": "mat_035",
+      "type": "material",
+      "title": "فيزياء تطبيقية 1",
+      "price": 10,
+      "description": "",
+      "featured": false
+    },
+    {
+      "id": "mat_036",
+      "type": "material",
+      "title": "1مبادئ احصاء واحتمالات",
+      "price": 15,
+      "description": "",
+      "featured": false
+    },
+    {
+      "id": "mat_037",
+      "type": "material",
+      "title": "الكترونيات فيزيائية",
+      "price": 10,
+      "description": "",
+      "featured": false
+    },
+    {
+      "id": "mat_038",
+      "type": "material",
+      "title": "تيار متردد",
+      "price": 15,
+      "description": "",
+      "featured": false
+    },
+    {
+      "id": "mat_039",
+      "type": "material",
+      "title": "مقدمة في الهندسة التفاضلية",
+      "price": 15,
+      "description": "",
+      "featured": false
+    },
+    {
+      "id": "mat_040",
+      "type": "material",
+      "title": "طيف جزئي",
+      "price": 15,
+      "description": "",
+      "featured": false
+    },
+    {
+      "id": "mat_041",
+      "type": "material",
+      "title": "فيزياء ذرية 2",
+      "price": 10,
+      "description": "",
+      "featured": false
+    },
+    {
+      "id": "mat_042",
+      "type": "material",
+      "title": "ليزر و ميزر",
+      "price": 15,
+      "description": "",
+      "featured": false
+    },
+    {
+      "id": "mat_043",
+      "type": "material",
+      "title": "مصريات و آثار",
+      "price": 10,
+      "description": "",
+      "featured": false
+    },
+    {
+      "id": "mat_044",
+      "type": "material",
+      "title": "حاسب الي 1",
+      "price": 10,
+      "description": "",
+      "featured": false
+    }
+  ]
+}
